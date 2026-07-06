@@ -18,7 +18,7 @@
   {
     "id": "quiz_2",
     "type": "choice",
-    "category": "vocabulary",
+    "category": "cuts",
     "question": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ? / Which cutting style produces a tiny 1-2 mm cube?",
     "question_fr": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ?",
     "question_en": "Which cutting style produces a tiny 1-2 mm cube?",
@@ -50,7 +50,7 @@
   {
     "id": "quiz_4",
     "type": "choice",
-    "category": "cuisine",
+    "category": "sauces",
     "question": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ? / Which mother sauce is prepared using white stock and blond roux?",
     "question_fr": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ?",
     "question_en": "Which mother sauce is prepared using white stock and blond roux?",
@@ -65,7 +65,7 @@
   },
   {
     "id": "quiz_5",
-    "type": "blank",
+    "type": "choice",
     "category": "grammar",
     "question": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.' / Fill in the blank with the correct partitive article: 'Ajoutez ___ beurre dans la sauce béarnaise.'",
     "question_fr": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.'",
@@ -78,5 +78,165 @@
       "de"
     ],
     "answer": "du"
+  },
+  {
+    "id": "quiz_6",
+    "type": "choice",
+    "category": "meat",
+    "question": "Quel morceau de bœuf est le plus tendre (tendreté ★★★★★) et doit être cuit très rapidement à feu vif ? / Which beef cut is the tenderest (tenderness ★★★★★) and must be cooked very quickly over high heat?",
+    "question_fr": "Quel morceau de bœuf est le plus tendre (tendreté ★★★★★) et doit être cuit très rapidement à feu vif ?",
+    "question_en": "Which beef cut is the tenderest (tenderness ★★★★★) and must be cooked very quickly over high heat?",
+    "context": "It is the psoas major muscle, which does very little movement.",
+    "options": [
+      "Rumsteck",
+      "Filet de bœuf",
+      "Palette",
+      "Poitrine"
+    ],
+    "answer": "Filet de bœuf"
+  },
+  {
+    "id": "quiz_7",
+    "type": "choice",
+    "category": "meat",
+    "question": "Pourquoi la joue de porc nécessite-t-elle une cuisson très longue (braiser ou confire) ? / Why does pork cheek require very long cooking (braising or confit)?",
+    "question_fr": "Pourquoi la joue de porc nécessite-t-elle une cuisson très longue (braiser ou confire) ?",
+    "question_en": "Why does pork cheek require very long cooking (braising or confit)?",
+    "context": "Cheek is a masticatory muscle rich in connective tissues.",
+    "options": [
+      "Elle n'a pas de graisse",
+      "Elle est riche en collagène de haute densité qui doit se transformer en gélatine",
+      "Elle brûle trop vite à feu vif",
+      "Elle doit être servie saignante"
+    ],
+    "answer": "Elle est riche en collagène de haute densité qui doit se transformer en gélatine"
+  },
+  {
+    "id": "quiz_8",
+    "type": "choice",
+    "category": "map",
+    "question": "Quelle région française est célèbre pour ses fromages Camembert, ses vergers de pommiers et a accueilli le débarquement allié en 1944 ? / Which French region is famous for Camembert cheese, apple orchards, and hosted the Allied landings in 1944?",
+    "question_fr": "Quelle région française est célèbre pour ses fromages Camembert, ses vergers de pommiers et a accueilli le débarquement allié en 1944 ?",
+    "question_en": "Which French region is famous for Camembert cheese, apple orchards, and hosted the Allied landings in 1944?",
+    "context": "Signature dishes include Sole Normande and Poulet Vallée d'Auge.",
+    "options": [
+      "Bourgogne",
+      "Alsace",
+      "Normandie",
+      "Provence"
+    ],
+    "answer": "Normandie"
+  },
+  {
+    "id": "quiz_9",
+    "type": "choice",
+    "category": "map",
+    "question": "Où s'est déroulée la célèbre bataille d'Alésia (52 av. J.-C.) dans l'histoire de la Bourgogne ? / Where did the famous Battle of Alesia (52 BC) take place in the history of Burgundy?",
+    "question_fr": "Où s'est déroulée la célèbre bataille d'Alésia (52 av. J.-C.) dans l'histoire de la Bourgogne ?",
+    "question_en": "Where did the famous Battle of Alesia (52 BC) take place in the history of Burgundy?",
+    "context": "This region is the heartland of Escargots and Bœuf Bourguignon.",
+    "options": [
+      "Alésia",
+      "Dijon",
+      "Paris",
+      "Avignon"
+    ],
+    "answer": "Alésia"
+  },
+  {
+    "id": "quiz_10",
+    "type": "choice",
+    "category": "science",
+    "question": "À quelle température commence généralement la réaction de Maillard, essentielle pour dorer les viandes ? / At what temperature does the Maillard reaction, essential for browning meats, typically begin?",
+    "question_fr": "À quelle température commence généralement la réaction de Maillard, essentielle pour dorer les viandes ?",
+    "question_en": "At what temperature does the Maillard reaction, essential for browning meats, typically begin?",
+    "context": "It involves a chemical reaction between amino acids and reducing sugars.",
+    "options": [
+      "65°C",
+      "100°C",
+      "140°C",
+      "250°C"
+    ],
+    "answer": "140°C"
+  },
+  {
+    "id": "quiz_11",
+    "type": "choice",
+    "category": "sauces",
+    "question": "Quelle est la limite de température supérieure pour éviter la dénaturation de l'émulsion chaude (ex. Hollandaise, Béarnaise) ? / What is the upper temperature limit to prevent breaking a hot emulsion (e.g. Hollandaise, Béarnaise)?",
+    "question_fr": "Quelle est la limite de température supérieure pour éviter la dénaturation de l'émulsion chaude (ex. Hollandaise, Béarnaise) ?",
+    "question_en": "What is the upper temperature limit to prevent breaking a hot emulsion (e.g. Hollandaise, Béarnaise)?",
+    "context": "Overheating coagulates the egg yolks and separates the fat.",
+    "options": [
+      "45°C",
+      "65°C",
+      "85°C",
+      "100°C"
+    ],
+    "answer": "65°C"
+  },
+  {
+    "id": "quiz_12",
+    "type": "choice",
+    "category": "cuts",
+    "question": "Quelles sont les dimensions classiques d'une coupe en Julienne ? / What are the classic dimensions of a Julienne cut?",
+    "question_fr": "Quelles sont les dimensions classiques d'une coupe en Julienne ?",
+    "question_en": "What are the classic dimensions of a Julienne cut?",
+    "context": "These are thin matchsticks of vegetables.",
+    "options": [
+      "1-2 mm x 1-2 mm x 1-2 mm",
+      "1-2 mm x 1-2 mm x 4-5 cm",
+      "5 mm x 5 mm x 5 cm",
+      "1 cm x 1 cm x 1 cm"
+    ],
+    "answer": "1-2 mm x 1-2 mm x 4-5 cm"
+  },
+  {
+    "id": "quiz_13",
+    "type": "choice",
+    "category": "vocabulary",
+    "question": "Quel terme désigne l'action d'attacher les membres d'une volaille avec une ficelle de cuisine avant la cuisson ? / What term describes tying a bird's limbs with kitchen twine before cooking?",
+    "question_fr": "Quel terme désigne l'action d'attacher les membres d'une volaille avec une ficelle de cuisine avant la cuisson ?",
+    "question_en": "What term describes tying a bird's limbs with kitchen twine before cooking?",
+    "context": "It ensures even cooking and holds stuffing inside.",
+    "options": [
+      "Brider",
+      "Chiffonner",
+      "Dégorger",
+      "Napper"
+    ],
+    "answer": "Brider"
+  },
+  {
+    "id": "quiz_14",
+    "type": "choice",
+    "category": "map",
+    "question": "Quel événement historique majeur s'est déroulé à Avignon en 1309, influençant l'histoire de la Provence ? / Which major historical event took place in Avignon in 1309, shaping the history of Provence?",
+    "question_fr": "Quel événement historique majeur s'est déroulé à Avignon en 1309, influençant l'histoire de la Provence ?",
+    "question_en": "Which major historical event took place in Avignon in 1309, shaping the history of Provence?",
+    "context": "This event relocated the seat of the Catholic Pope to southern France.",
+    "options": [
+      "Débarquement des troupes",
+      "Papauté d'Avignon (Avignon Papacy)",
+      "Bataille de Dunkerque",
+      "Naissance de Napoléon"
+    ],
+    "answer": "Papauté d'Avignon (Avignon Papacy)"
+  },
+  {
+    "id": "quiz_15",
+    "type": "choice",
+    "category": "science",
+    "question": "Quel est le terme scientifique pour la dispersion stable de deux liquides normalement non miscibles (comme l'huile et l'eau) ? / What is the scientific term for a stable dispersion of two normally unmixable liquids (like oil and water)?",
+    "question_fr": "Quel est le terme scientifique pour la dispersion stable de deux liquides normalement non miscibles (comme l'huile et l'eau) ?",
+    "question_en": "What is the scientific term for a stable dispersion of two normally unmixable liquids (like oil and water)?",
+    "context": "Mayonnaise and vinaigrette are classic examples.",
+    "options": [
+      "Émulsion (Emulsion)",
+      "Coagulation",
+      "Fermentation",
+      "Caramélisation"
+    ],
+    "answer": "Émulsion (Emulsion)"
   }
 ]

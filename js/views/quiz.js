@@ -53,6 +53,7 @@ export function renderQuiz() {
 function renderQuizContent(container) {
   // Active mode state: 'multiple' (default) | 'matching' | 'spelling'
   let activeMode = 'multiple';
+  let selectedCategory = 'ALL';
   
   // Render Mode Selector Tabs
   const selector = document.createElement('div');
@@ -63,6 +64,36 @@ function renderQuizContent(container) {
     <button class="mode-tab-btn" data-mode="spelling">📖 Orthographe (Spelling)</button>
   `;
   container.appendChild(selector);
+
+  // Render Category Selector
+  const catFilter = document.createElement('div');
+  catFilter.className = 'quiz-category-filter-wrapper';
+  catFilter.style.margin = '1rem auto 1.5rem auto';
+  catFilter.style.display = 'flex';
+  catFilter.style.justifyContent = 'center';
+  catFilter.style.alignItems = 'center';
+  catFilter.style.gap = '0.8rem';
+  
+  catFilter.innerHTML = `
+    <span style="font-size: 0.9rem; font-weight: 600; color: var(--color-primary);">Catégorie :</span>
+    <select id="quiz-cat-select" style="padding: 0.5rem 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); background-color: var(--color-bg); color: var(--color-text-main); font-size: 0.9rem; font-family: var(--font-serif); cursor: pointer; min-width: 220px; outline: none; box-shadow: var(--shadow-sm); transition: border-color 0.2s;">
+      <option value="ALL">All (Tout)</option>
+      <option value="vocabulary">単語 (Vocabulary)</option>
+      <option value="grammar">会話・文法 (Grammar & Dialogues)</option>
+      <option value="meat">お肉 (Meat Cuts)</option>
+      <option value="map">美食マップ (Gastronomy Map)</option>
+      <option value="science">料理科学 (Culinary Science)</option>
+      <option value="sauces">ソース部門 (Sauces & Stocks)</option>
+      <option value="cuts">切り方 (Knife Cuts)</option>
+    </select>
+  `;
+  container.appendChild(catFilter);
+  
+  const selectEl = catFilter.querySelector('#quiz-cat-select');
+  selectEl.addEventListener('change', (e) => {
+    selectedCategory = e.target.value;
+    startSelectedGame();
+  });
   
   const gameWrapper = document.createElement('div');
   gameWrapper.className = 'quiz-game-wrapper';
@@ -94,9 +125,16 @@ function renderQuizContent(container) {
   // GAME 1: MULTIPLE CHOICE (Choix Multiple)
   // ==========================================
   function runMultipleChoiceGame() {
-    const quizzes = state.db?.quizzes || [];
+    let quizzes = state.db?.quizzes || [];
+    if (selectedCategory !== 'ALL') {
+      quizzes = quizzes.filter(q => q.category === selectedCategory);
+    }
     if (quizzes.length === 0) {
-      gameWrapper.innerHTML = `<p style="color: var(--color-text-muted);">Aucun quiz chargé.</p>`;
+      gameWrapper.innerHTML = `
+        <div class="quiz-card" style="text-align: center; padding: 2rem;">
+          <p style="color: var(--color-text-muted); font-style: italic;">Aucune question trouvée dans cette catégorie. Essayez un autre filtre !</p>
+        </div>
+      `;
       return;
     }
 
@@ -229,9 +267,46 @@ function renderQuizContent(container) {
   function runMatchingGame() {
     const includeGeneral = state.settings?.includeGeneral || false;
     const allVocabulary = state.db?.vocabulary || [];
-    const vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
+    let vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
+    
+    if (selectedCategory !== 'ALL') {
+      if (selectedCategory === 'meat') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('meat') || 
+          item.tags?.includes('beef') || 
+          item.tags?.includes('pork') || 
+          item.tags?.includes('poultry') || 
+          /viande|boeuf|porc|poulet|animal/i.test(item.french)
+        );
+      } else if (selectedCategory === 'sauces') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('sauce') || 
+          item.tags?.includes('sauces') || 
+          item.tags?.includes('stocks') || 
+          /sauce|fond|jus|bouillon/i.test(item.french)
+        );
+      } else if (selectedCategory === 'cuts') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('cutting') || 
+          item.tags?.includes('vegetables') || 
+          /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
+        );
+      } else if (selectedCategory === 'science') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('science') || 
+          /réaction|émulsion|liaison|amidon/i.test(item.french)
+        );
+      } else if (selectedCategory === 'grammar') {
+        vocabularyList = [];
+      }
+    }
+
     if (vocabularyList.length < 4) {
-      gameWrapper.innerHTML = `<p style="color: var(--color-text-muted);">Il faut au moins 4 termes de vocabulaire pour jouer.</p>`;
+      gameWrapper.innerHTML = `
+        <div class="quiz-card" style="text-align: center; padding: 2rem;">
+          <p style="color: var(--color-text-muted); font-style: italic;">Il faut au moins 4 termes de vocabulaire dans cette catégorie pour jouer l'Association.</p>
+        </div>
+      `;
       return;
     }
 
@@ -385,9 +460,46 @@ function renderQuizContent(container) {
   function runSpellingGame() {
     const includeGeneral = state.settings?.includeGeneral || false;
     const allVocabulary = state.db?.vocabulary || [];
-    const vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
+    let vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
+
+    if (selectedCategory !== 'ALL') {
+      if (selectedCategory === 'meat') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('meat') || 
+          item.tags?.includes('beef') || 
+          item.tags?.includes('pork') || 
+          item.tags?.includes('poultry') || 
+          /viande|boeuf|porc|poulet|animal/i.test(item.french)
+        );
+      } else if (selectedCategory === 'sauces') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('sauce') || 
+          item.tags?.includes('sauces') || 
+          item.tags?.includes('stocks') || 
+          /sauce|fond|jus|bouillon/i.test(item.french)
+        );
+      } else if (selectedCategory === 'cuts') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('cutting') || 
+          item.tags?.includes('vegetables') || 
+          /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
+        );
+      } else if (selectedCategory === 'science') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('science') || 
+          /réaction|émulsion|liaison|amidon/i.test(item.french)
+        );
+      } else if (selectedCategory === 'grammar') {
+        vocabularyList = [];
+      }
+    }
+
     if (vocabularyList.length === 0) {
-      gameWrapper.innerHTML = `<p style="color: var(--color-text-muted);">Aucun terme chargé.</p>`;
+      gameWrapper.innerHTML = `
+        <div class="quiz-card" style="text-align: center; padding: 2rem;">
+          <p style="color: var(--color-text-muted); font-style: italic;">Aucun terme de vocabulaire disponible dans cette catégorie pour jouer l'Orthographe.</p>
+        </div>
+      `;
       return;
     }
 
