@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cuis_emulsion_sauce",
+    "category": "Sauces",
+    "level": "C1",
+    "tags": [
+      "emulsion",
+      "chemistry",
+      "sauces"
+    ],
+    "topic": "La Science des Émulsions Chaudes (Hot Emulsion Sauces)",
+    "content_fr": "Les émulsions chaudes comme la sauce Béarnaise ou Hollandaise lient le beurre fondu à l'eau grâce à la lécithine contenue dans le jaune d'œuf. La température de cuisson doit rester inférieure à 65°C pour éviter la coagulation des protéines de l'œuf, ce qui ferait trancher la sauce.",
+    "content_en": "Hot emulsion sauces like Béarnaise or Hollandaise bind melted butter with water using lecithin in egg yolks. The cooking temperature must stay below 65°C (149°F) to prevent egg protein coagulation, which causes the sauce to split.",
+    "content_ja": "ベアルネーズやオランデーズなどの温製乳化ソースは、卵黄に含まれるレシチンによって溶かしバターと水分を結合させます。卵白質が凝固してソースが分離するのを防ぐため、調理温度は必ず65℃未満に保つ必要があります。"
+  }
+]

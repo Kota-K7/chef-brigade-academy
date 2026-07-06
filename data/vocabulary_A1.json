@@ -1,0 +1,107 @@
+[
+  {
+    "id": "vocab_mise_en_place",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": [
+      "basics",
+      "organization",
+      "setup"
+    ],
+    "french": "Mise en place",
+    "english": "Setup / everything in its place",
+    "definition_fr": "(nom) Action de préparer et d'organiser tous les ingrédients et outils nécessaires avant de commencer la cuisson d'un plat.",
+    "japanese": "下準備・配置",
+    "context_fr": "Commis, assurez-vous que votre mise en place is prête avant le début du service.",
+    "context_en": "Kitchen assistant, make sure your setup is ready before the service starts.",
+    "context_ja": "見習い料理人、サービスが始まる前に下準備（ミザンプラス）が整っているか確認しなさい。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_sauter",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": [
+      "cooking",
+      "heat",
+      "basics"
+    ],
+    "french": "Sauter",
+    "english": "To sauté / cook quickly in hot fat",
+    "definition_fr": "(verbe) Cuire rapidement des morceaux d'aliments à feu vif dans une poêle avec un peu de matière grasse en les remuant souvent.",
+    "japanese": "ソテーする（高温の油分で素早く炒め焼きにする）",
+    "context_fr": "Faites sauter les champignons à feu vif dans une noix de beurre.",
+    "context_en": "Sauté the mushrooms over high heat in a knob of butter.",
+    "context_ja": "バターをひしかたまり溶かし、強火でマッシュルームをソテーしてください。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_cul_de_poule",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "utensils",
+      "bakery",
+      "basics"
+    ],
+    "french": "Cul-de-poule",
+    "english": "Round-bottomed mixing bowl",
+    "definition_fr": "(nom) Récipient rond en métal ou plastique avec un fond demi-sphérique, idéal pour fouetter ou mélanger énergiquement.",
+    "japanese": "キュドプール（丸底ボール・ボウル）",
+    "context_fr": "Battez les blancs en neige dans un cul-de-poule propre.",
+    "context_en": "Whip the egg whites in a clean mixing bowl.",
+    "context_ja": "清潔なキュドプール（ボウル）の中で卵白を泡立ててください。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_gen_parler",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "verbs",
+      "communication"
+    ],
+    "french": "Parler",
+    "english": "To speak",
+    "definition_fr": "(verbe) Communiquer ou s'exprimer par la parole.",
+    "japanese": "話す",
+    "context_fr": "Je parle français avec le chef de cuisine.",
+    "context_en": "I speak French with the head chef.",
+    "context_ja": "私はシェフとフランス語で話します。",
+    "is_professional": false
+  },
+  {
+    "id": "vocab_gen_manger",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "verbs",
+      "basics"
+    ],
+    "french": "Manger",
+    "english": "To eat",
+    "definition_fr": "(verbe) Absorber un aliment pour se nourrir.",
+    "japanese": "食べる",
+    "context_fr": "Les clients mangent dans la salle du restaurant.",
+    "context_en": "The clients eat in the restaurant dining room.",
+    "context_ja": "客たちはレストランの食堂で食事をします。",
+    "is_professional": false
+  },
+  {
+    "id": "vocab_gen_grand",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "adjectives",
+      "basics"
+    ],
+    "french": "Grand",
+    "english": "Big / tall",
+    "definition_fr": "(adjectif) Qui a une taille ou une importance supérieure à la moyenne.",
+    "japanese": "大きい / 背が高い",
+    "context_fr": "Il y a un grand four au milieu de la cuisine.",
+    "context_en": "There is a big oven in the middle of the kitchen.",
+    "context_ja": "厨房の真ん中に大きなオーブンがあります。",
+    "is_professional": false
+  }
+]

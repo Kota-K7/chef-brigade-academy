@@ -1,0 +1,82 @@
+[
+  {
+    "id": "quiz_1",
+    "type": "choice",
+    "category": "vocabulary",
+    "question": "Quel est le terme culinaire français pour désigner la préparation de tous vos outils et ingrédients avant de commencer à cuisiner ? / What is the French culinary term for setting up all your tools and ingredients before starting to cook?",
+    "question_fr": "Quel est le terme culinaire français pour désigner la préparation de tous vos outils et ingrédients avant de commencer à cuisiner ?",
+    "question_en": "What is the French culinary term for setting up all your tools and ingredients before starting to cook?",
+    "context": "This concept is the bedrock of kitchen organization worldwide.",
+    "options": [
+      "Mise en bouteille",
+      "Mise en place",
+      "Mise en scène",
+      "Ciseler"
+    ],
+    "answer": "Mise en place"
+  },
+  {
+    "id": "quiz_2",
+    "type": "choice",
+    "category": "vocabulary",
+    "question": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ? / Which cutting style produces a tiny 1-2 mm cube?",
+    "question_fr": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ?",
+    "question_en": "Which cutting style produces a tiny 1-2 mm cube?",
+    "context": "Usually cut from a julienne base.",
+    "options": [
+      "Macédoine",
+      "Bâtonnets",
+      "Brunoise",
+      "Paysanne"
+    ],
+    "answer": "Brunoise"
+  },
+  {
+    "id": "quiz_3",
+    "type": "choice",
+    "category": "grammar",
+    "question": "Choisissez le verbe impératif correct pour donner un ordre poli ou à un groupe en cuisine pour nettoyer le plan de travail : '___ le plan de travail, s'il vous plaît !' / Choose the correct imperative verb for giving a polite or group kitchen command to clean the workbench: '___ le plan de travail, s'il vous plaît !'",
+    "question_fr": "Choisissez le verbe impératif correct pour donner un ordre poli ou à un groupe en cuisine pour nettoyer le plan de travail : '___ le plan de travail, s'il vous plaît !'",
+    "question_en": "Choose the correct imperative verb for giving a polite or group kitchen command to clean the workbench: '___ le plan de travail, s'il vous plaît !'",
+    "context": "Remember to use the formal 'vous' form.",
+    "options": [
+      "Nettoie",
+      "Nettoyons",
+      "Nettoyez",
+      "Nettoyer"
+    ],
+    "answer": "Nettoyez"
+  },
+  {
+    "id": "quiz_4",
+    "type": "choice",
+    "category": "cuisine",
+    "question": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ? / Which mother sauce is prepared using white stock and blond roux?",
+    "question_fr": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ?",
+    "question_en": "Which mother sauce is prepared using white stock and blond roux?",
+    "context": "It translates to 'velvety' in English.",
+    "options": [
+      "Béchamel",
+      "Espagnole",
+      "Hollandaise",
+      "Velouté"
+    ],
+    "answer": "Velouté"
+  },
+  {
+    "id": "quiz_5",
+    "type": "blank",
+    "category": "grammar",
+    "question": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.' / Fill in the blank with the correct partitive article: 'Ajoutez ___ beurre dans la sauce béarnaise.'",
+    "question_fr": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.'",
+    "question_en": "Fill in the blank with the correct partitive article: 'Ajoutez ___ beurre dans la sauce béarnaise.'",
+    "context": "Beurre (butter) is masculine singular in French.",
+    "options": [
+      "du",
+      "de la",
+      "des",
+      "de"
+    ],
+    "answer": "du"
+  }
+]

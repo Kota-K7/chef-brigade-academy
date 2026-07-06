@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vocab_chiffonner",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "vegetables",
+      "cutting",
+      "basics"
+    ],
+    "french": "Chiffonner",
+    "english": "To cut into fine ribbons (chiffonade)",
+    "definition_fr": "(verbe) Couper des légumes-feuilles (comme l'oseille, le chou ou la salade) en fines lanières.",
+    "japanese": "シフォナードにする（葉野菜を細切りにする）",
+    "context_fr": "Veuillez chiffonner les feuilles de basilic pour la garniture.",
+    "context_en": "Please chiffonade the basil leaves for the garnish.",
+    "context_ja": "ガルニチュール（飾り）用にバジルの葉をシフォナード（細切り）にしてください。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_degorger",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "preparation",
+      "impurities",
+      "basics"
+    ],
+    "french": "Dégorger",
+    "english": "To soak / draw out liquid or impurities using salt or water",
+    "definition_fr": "(verbe) Laisser tremper un aliment dans de l'eau ou le saupoudrer de sel pour éliminer les impuretés, le sang ou l'excès d'eau.",
+    "japanese": "デゴルジェする（血抜き・水分の抽出）",
+    "context_fr": "Faites dégorger les ris de veau dans de l'eau glacée pendant deux heures.",
+    "context_en": "Soak the sweetbreads in ice water for two hours to draw out impurities.",
+    "context_ja": "仔牛のリードヴォー（胸腺肉）を氷水に2時間浸してデゴルジェ（血抜き）してください。",
+    "is_professional": true
+  }
+]

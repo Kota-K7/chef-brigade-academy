@@ -1,0 +1,88 @@
+[
+  {
+    "id": "vocab_ciseler",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "basics"
+    ],
+    "french": "Ciseler",
+    "english": "To finely dice (onions/shallots) or shred leaves",
+    "definition_fr": "(verbe) Couper très finement en petits dés (des oignons, des échalotes) ou tailler des herbes aromatiques à l'aide d'un couteau.",
+    "japanese": "細かく刻む（玉ねぎ・エシャロットなど）",
+    "context_fr": "Il faut ciseler les échalotes pour la sauce béarnaise.",
+    "context_en": "You need to finely dice the shallots for the Béarnaise sauce.",
+    "context_ja": "ベアルネーズソースを作るために、エシャロットを細かく刻む必要があります。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_chinois",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "utensils",
+      "sauces",
+      "liquids"
+    ],
+    "french": "Chinois",
+    "english": "Conical strainer / China cap",
+    "definition_fr": "(nom) Passoire en métal en forme de cône avec un grillage très fin, utilisée pour filtrer des sauces, des bouillons ou des jus.",
+    "japanese": "シノワ（円錐形の漉し器）",
+    "context_fr": "Passez le fond de veau au chinois pour enlever toutes les impuretés.",
+    "context_en": "Pass the veal stock through the chinos strainer to remove all impurities.",
+    "context_ja": "すべての不純物を取り除くため、子牛の出汁（フォン・ド・ヴォー）をシノワで漉してください。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_brunoise",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "advanced"
+    ],
+    "french": "Brunoise",
+    "english": "Very small dice (1-2mm cubes)",
+    "definition_fr": "(nom) Technique de coupe qui consiste à tailler des légumes en dés extrêmement petits et réguliers de 1 à 2 millimètres de côté.",
+    "japanese": "ブリュノワーズ（1〜2mm角の極細切り・みじん切り）",
+    "context_fr": "Coupez les carottes en brunoise régulière pour la garniture.",
+    "context_en": "Cut the carrots into a regular brunoise for the garnish.",
+    "context_ja": "付け合わせ用に、にんじんを均一なブリュノワーズ（みじん切り）にカットしてください。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_gen_ecrire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Écrire",
+    "english": "To write",
+    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
+    "japanese": "書く",
+    "context_fr": "Le chef écrit la recette du jour sur le tableau.",
+    "context_en": "The chef writes the recipe of the day on the board.",
+    "context_ja": "シェフが本日のレシピをボードに書きます。",
+    "is_professional": false
+  },
+  {
+    "id": "vocab_gen_lire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Lire",
+    "english": "To read",
+    "definition_fr": "(verbe) Parcourir des yeux des caractères écrits ou imprimés en en comprenant le sens.",
+    "japanese": "読む",
+    "context_fr": "Le commis lit le bon de commande rapidement.",
+    "context_en": "The kitchen assistant reads the order slip quickly.",
+    "context_ja": "見習い料理人は注文票（ボン）を素早く読みます。",
+    "is_professional": false
+  }
+]

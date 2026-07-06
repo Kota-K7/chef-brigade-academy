@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gram_subjonctif_cuisine",
+    "level": "B2",
+    "tags": [
+      "verbs",
+      "grammar",
+      "commands"
+    ],
+    "topic": "The Subjunctive Mood in Kitchen Commands (Le Subjonctif)",
+    "explanation_en": "In professional recipes and chef orders, the subjunctive mood is used after expressions of necessity (e.g., 'Il faut que...') to give formal directions.",
+    "explanation_ja": "プロのレシピやシェフからの指示では、必要性を表す表現（例:「〜しなければならない (Il faut que...)」）の後に接続法（Subjonctif）が使われ、フォーマルな指示を与えます。",
+    "examples": [
+      {
+        "fr": "Il faut que vous réduisiez le fond de veau de moitié.",
+        "en": "You must reduce the veal stock by half. (subjunctive)",
+        "ja": "仔牛の出汁（フォン・ド・ヴォー）を半分に煮詰めなければなりません。"
+      },
+      {
+        "fr": "Il est nécessaire que le commis débarrasse la table.",
+        "en": "It is necessary that the kitchen assistant clears the table. (subjunctive)",
+        "ja": "見習い料理人はテーブルを片付ける必要があります。"
+      }
+    ]
+  }
+]

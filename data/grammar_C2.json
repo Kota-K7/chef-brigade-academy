@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gram_passe_simple_recettes",
+    "level": "C2",
+    "tags": [
+      "verbs",
+      "grammar",
+      "historical"
+    ],
+    "topic": "The Passé Simple in Classical Recipe Literature (Le Passé Simple)",
+    "explanation_en": "While not spoken in modern kitchens, the Passé Simple (historic past tense) is commonly encountered when studying classical French culinary texts, such as Auguste Escoffier's Le Guide Culinaire.",
+    "explanation_ja": "現代の厨房で話されることはありませんが、オーギュスト・エスコフィエの『ル・ギド・キュリネール』のような古典的フランス料理文献を研究する際、単純過去形（Passé Simple）が非常によく使われます。",
+    "examples": [
+      {
+        "fr": "Le chef prit le canard et le coupa en quatre morceaux.",
+        "en": "The chef took the duck and cut it into four pieces. (Passé Simple)",
+        "ja": "シェフは鴨を取り、4つに切り分けた。"
+      },
+      {
+        "fr": "Ils ajoutèrent le vin blanc et laissèrent mijoter.",
+        "en": "They added the white wine and let it simmer. (Passé Simple)",
+        "ja": "彼らは白ワインを加え、弱火で煮込んだ。"
+      }
+    ]
+  }
+]

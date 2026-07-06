@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cuis_maillard_science",
+    "category": "Science",
+    "level": "B2",
+    "tags": [
+      "chemistry",
+      "heat",
+      "browning"
+    ],
+    "topic": "La Réaction de Maillard (The Maillard Reaction)",
+    "content_fr": "La réaction de Maillard se produit entre les acides aminés et les sucres à partir de 140°C. Elle est responsable de la coloration brune et du développement des arômes des viandes saisies ou du pain cuit.",
+    "content_en": "The Maillard reaction occurs between amino acids and reducing sugars starting at 140°C (284°F). It is responsible for the brown color and complex aromas of seared meat and baked bread.",
+    "content_ja": "メイラード反応は、140℃以上でアミノ酸と糖の間で起こる化学反応です。肉のソテーや焼き立てのパンの美味しそうな褐色と香ばしい風味を生み出す役割を担っています。"
+  }
+]

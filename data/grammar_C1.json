@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gram_gerondif_cuisine",
+    "level": "C1",
+    "tags": [
+      "verbs",
+      "grammar",
+      "gerund"
+    ],
+    "topic": "The Gerund in Cooking Descriptions (Le Gérondif)",
+    "explanation_en": "The gerund (en + present participle) describes simultaneous culinary actions, showing how a technique is executed (e.g., 'by stirring constantly').",
+    "explanation_ja": "ジェロンディフ（en + 現在分詞）は同時に行われる料理の動作を表し、調理技術がどのように実行されるかを示します（例:「絶えずかき混ぜながら」）。",
+    "examples": [
+      {
+        "fr": "Incorporez le beurre froid en fouettant continuellement.",
+        "en": "Incorporate the cold butter while whisking continuously.",
+        "ja": "絶えず泡立てながら冷たいバターを加えて（混ぜ込んで）ください。"
+      },
+      {
+        "fr": "On obtient une sauce lisse en passant la préparation au chinois.",
+        "en": "One obtains a smooth sauce by passing the preparation through a chinois strainer.",
+        "ja": "シノワで漉すことによって、なめらかなソースが得られます。"
+      }
+    ]
+  }
+]

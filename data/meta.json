@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "vocabulary": 20,
+    "grammar": 5,
+    "cuisine": 5
+  },
+  "featured": {
+    "id": "vocab_brider",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "poultry",
+      "preparation",
+      "basics"
+    ],
+    "french": "Brider",
+    "english": "To truss / tie meat or poultry with string",
+    "definition_fr": "(verbe) Attacher les membres d'une volaille ou d'une pièce de viande à l'aide d'une ficelle pour maintenir sa forme pendant la cuisson.",
+    "japanese": "ブライドする（糸で縛る・整形する）",
+    "context_fr": "Bridez le poulet fermier avant de l'enfourner pour assurer une cuisson uniforme.",
+    "context_en": "Truss the farm chicken before putting it in the oven to ensure even cooking.",
+    "context_ja": "均一に火が入るように、オーブンに入れる前に地鶏をブライド（糸縛り）してください。",
+    "is_professional": true
+  }
+}

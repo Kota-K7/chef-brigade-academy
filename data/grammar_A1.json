@@ -1,0 +1,31 @@
+[
+  {
+    "id": "gram_imperative",
+    "level": "A1",
+    "tags": [
+      "verbs",
+      "grammar",
+      "commands"
+    ],
+    "topic": "The Imperative Mood (L'Impératif)",
+    "explanation_en": "In a French kitchen, commands from the Chef are given in either the Imperative (for immediate orders) or the Infinitive. The imperative is conjugated without subject pronouns (tu, nous, vous). In professional environments, the formal 'vous' form is heavily preferred for respect and safety.",
+    "explanation_ja": "フランスの厨房内でのシェフからの指示は、命令形（Impératif）または不定詞（Infinitive）で行われます。命令形には主語代名詞（tu, nous, vous）がつきません。プロの現場では、安全性と敬意を考慮し、基本的に丁寧な「vous」の形が好んで使用されます。",
+    "examples": [
+      {
+        "fr": "Coupez les légumes !",
+        "en": "Cut the vegetables! (plural/formal)",
+        "ja": "野菜を切りなさい！（複数/敬体）"
+      },
+      {
+        "fr": "Épluche ces pommes !",
+        "en": "Peel these apples! (singular/informal - note that -er verbs drop 's' in tu-form)",
+        "ja": "このリンゴの皮をむきなさい！（単数/常体）"
+      },
+      {
+        "fr": "Finissons ce plat !",
+        "en": "Let's finish this dish!",
+        "ja": "この皿（料理）を仕上げましょう！"
+      }
+    ]
+  }
+]

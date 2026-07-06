@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vocab_napper",
+    "category": "Techniques",
+    "level": "C2",
+    "tags": [
+      "sauces",
+      "presentation",
+      "basics"
+    ],
+    "french": "Napper",
+    "english": "To coat / cover food with a thin layer of sauce",
+    "definition_fr": "(verbe) Recouvrir uniformément un aliment d'une couche de sauce nappante et brillante.",
+    "japanese": "ナペする（ソースを均一に絡める・被せる）",
+    "context_fr": "Nappez délicatement le filet de poisson avec le beurre blanc réduit.",
+    "context_en": "Gently coat the fish fillet with the reduced beurre blanc.",
+    "context_ja": "煮詰めたブールブランソースで魚のフィレを優しくナペ（コーティング）してください。",
+    "is_professional": true
+  }
+]
