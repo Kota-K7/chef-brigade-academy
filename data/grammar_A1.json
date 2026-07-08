@@ -95,5 +95,35 @@
         "ja": "生地を1時間休ませてください。"
       }
     ]
+  },
+  {
+    "id": "gram_word_order_gender",
+    "level": "A1",
+    "tags": [
+      "nouns",
+      "adjectives",
+      "grammar",
+      "basics"
+    ],
+    "topic": "Noun Gender and Word Order (Grammaire de Base)",
+    "explanation_en": "In French, all nouns have a grammatical gender (masculine or feminine). Adjectives must agree in gender and number with the noun they modify, and they usually come AFTER the noun (e.g., 'un couteau chaud' - a hot knife).",
+    "explanation_ja": "フランス語のすべての名詞には男性・女性の「性」があります。名詞を修飾する形容詞は、名詞の性・数（単数・複数）に一致させる必要があり、通常は名詞の「後ろ」に置かれます（例：un couteau chaud＝温かいナイフ）。",
+    "examples": [
+      {
+        "fr": "C'est un couteau tranchant.",
+        "en": "This is a sharp knife. (masculine singular noun + adjective)",
+        "ja": "これはよく切れる包丁（男性名詞）です。"
+      },
+      {
+        "fr": "Prenez une cuillère propre.",
+        "en": "Take a clean spoon. (feminine singular noun + adjective)",
+        "ja": "きれいなスプーン（女性名詞）を取ってください。"
+      },
+      {
+        "fr": "Apportez les assiettes chaudes.",
+        "en": "Bring the hot plates. (feminine plural noun + plural adjective)",
+        "ja": "温かい皿（女性・複数形）を持ってきてください。"
+      }
+    ]
   }
 ]

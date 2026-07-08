@@ -85,5 +85,34 @@
         "ja": "オランデーズソースは電子レンジで温め直すものではありません。"
       }
     ]
+  },
+  {
+    "id": "gram_questions",
+    "level": "A2",
+    "tags": [
+      "communication",
+      "grammar",
+      "questions"
+    ],
+    "topic": "Forming Questions in the Kitchen (Poser des Questions)",
+    "explanation_en": "You can form questions in three ways in French: by raising your voice at the end (informal), by placing 'Est-ce que' before the sentence (standard), or by inverting the verb and subject pronoun (formal, highly preferred for VIP customers).",
+    "explanation_ja": "フランス語の疑問文には3つの作り方があります：文末のイントネーションを上げる（カジュアル）、文頭に「Est-ce que」をつける（標準）、主語と動詞を入れ替える「倒置」（フォーマル・接客で多用）。",
+    "examples": [
+      {
+        "fr": "Avez-vous des allergies alimentaires ?",
+        "en": "Do you have any food allergies? (formal inversion)",
+        "ja": "食物アレルギーはございますか？"
+      },
+      {
+        "fr": "Est-ce que le four est chaud ?",
+        "en": "Is the oven hot? (standard 'Est-ce que')",
+        "ja": "オーブンは温まっていますか？"
+      },
+      {
+        "fr": "Quelle cuisson préférez-vous pour votre steak ?",
+        "en": "How would you like your steak cooked? (formal question word + inversion)",
+        "ja": "ステーキの焼き加減はいかがいたしますか？"
+      }
+    ]
   }
 ]

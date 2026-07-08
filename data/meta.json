@@ -1,23 +1,25 @@
 {
   "counts": {
     "vocabulary": 22,
-    "grammar": 16,
+    "grammar": 19,
     "cuisine": 5
   },
   "featured": {
-    "id": "vocab_gen_voyager",
-    "category": "General",
-    "level": "B1",
+    "id": "vocab_cul_de_poule",
+    "category": "Equipment",
+    "level": "A1",
     "tags": [
-      "verbs"
+      "utensils",
+      "bakery",
+      "basics"
     ],
-    "french": "Voyager",
-    "english": "To travel",
-    "definition_fr": "(verbe) Faire un trajet d'un lieu à un autre, généralement lointain.",
-    "japanese": "旅行する",
-    "context_fr": "Le chef aime voyager pour découvrir de nouveaux ingrédients.",
-    "context_en": "The chef likes to travel to discover new ingredients.",
-    "context_ja": "シェフは新しい食材を発見するために旅行するのが好きです。",
-    "is_professional": false
+    "french": "Cul-de-poule",
+    "english": "Round-bottomed mixing bowl",
+    "definition_fr": "(nom) Récipient rond en métal ou plastique avec un fond demi-sphérique, idéal pour fouetter ou mélanger énergiquement.",
+    "japanese": "キュドプール（丸底ボール・ボウル）",
+    "context_fr": "Battez les blancs en neige dans un cul-de-poule propre.",
+    "context_en": "Whip the egg whites in a clean mixing bowl.",
+    "context_ja": "清潔なキュドプール（ボウル）の中で卵白を泡立ててください。",
+    "is_professional": true
   }
 }

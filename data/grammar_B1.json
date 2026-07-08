@@ -114,5 +114,39 @@
         "ja": "それらを事前に準備しておきなさい！"
       }
     ]
+  },
+  {
+    "id": "gram_prepositions_culinary",
+    "level": "B1",
+    "tags": [
+      "grammar",
+      "prepositions",
+      "sourcing"
+    ],
+    "topic": "Prepositions for Sourcing and Tools (Chez, De, À, Avec)",
+    "explanation_en": "Use the correct preposition when talking about ingredients and tools. Use 'chez' for a person's shop/farm (e.g., 'chez le boucher'), 'de' for the origin of ingredients ('de Rungis'), 'avec' for the tool used ('avec un fouet'), and 'à' / 'au' for the cooking method ('au four').",
+    "explanation_ja": "食材の調達先や調理器具、加熱方法を正確に伝えるための前置詞です。お店・人を表すには「chez」（例：chez le boucher＝肉屋で）、産地・調達元には「de」、使用する道具には「avec」、加熱方法・〜風の味付けには「à / au」（例：au four＝オーブンで、à la poêle＝フライパンで）を使い分けます。",
+    "examples": [
+      {
+        "fr": "J'achète la viande chez le boucher local.",
+        "en": "I buy the meat at the local butcher's.",
+        "ja": "私は地元の肉屋で肉を買います。"
+      },
+      {
+        "fr": "Fouettez les blancs en neige avec un fouet propre.",
+        "en": "Whip the egg whites into peaks with a clean whisk.",
+        "ja": "きれいなホイッパー（泡立て器）を使って卵白を泡立ててください。"
+      },
+      {
+        "fr": "Cuisez le poulet au four à 180 degrés.",
+        "en": "Cook the chicken in the oven at 180 degrees.",
+        "ja": "鶏肉をオーブンで180度で焼いてください。"
+      },
+      {
+        "fr": "Ce beurre vient de Normandie.",
+        "en": "This butter comes from Normandy.",
+        "ja": "このバターはノルマンディー産です。"
+      }
+    ]
   }
 ]
