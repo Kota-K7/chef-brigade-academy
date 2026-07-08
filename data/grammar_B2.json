@@ -56,5 +56,34 @@
         "ja": "彼はオーブンから皿を取り出すときに火傷しました。"
       }
     ]
+  },
+  {
+    "id": "gram_si_clauses",
+    "level": "B2",
+    "tags": [
+      "grammar",
+      "hypothetical",
+      "planning"
+    ],
+    "topic": "Si Clauses (Hypothetical Expressions)",
+    "explanation_en": "Use 'si' (if) clauses to express conditions and hypotheses. In professional contexts, it is useful for menu planning or alternative options: 'si + present -> future' (real possibilities) or 'si + imperfect -> conditional' (hypothetical scenarios).",
+    "explanation_ja": "条件や仮定を表す「si（もし〜なら）」の構文です。厨房でのメニュー計画や代替案の提示において、「もし〜なら、〜する/〜だろう」と表現する際に使用します。「si + 現在形 ➔ 未来形」で現実的な可能性を、「si + 半過去 ➔ 条件法」で現在の事実と異なる仮定を表します。",
+    "examples": [
+      {
+        "fr": "Si nous trouvons du poisson frais, nous ferons la bouillabaisse.",
+        "en": "If we find fresh fish, we will make bouillabaisse.",
+        "ja": "もし新鮮な魚が手に入れば、ブイヤベースを作ります。"
+      },
+      {
+        "fr": "Si j'avais plus de temps, je préparerais un soufflé.",
+        "en": "If I had more time, I would prepare a soufflé.",
+        "ja": "もしもっと時間があれば、スフレを準備するのですが。"
+      },
+      {
+        "fr": "Si le client le demande, nous pouvons modifier le menu.",
+        "en": "If the customer requests it, we can modify the menu.",
+        "ja": "もしお客様がご要望になれば、メニューを変更することができます。"
+      }
+    ]
   }
 ]

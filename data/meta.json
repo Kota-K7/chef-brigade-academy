@@ -1,25 +1,23 @@
 {
   "counts": {
     "vocabulary": 22,
-    "grammar": 15,
+    "grammar": 16,
     "cuisine": 5
   },
   "featured": {
-    "id": "vocab_degorger",
-    "category": "Techniques",
-    "level": "B2",
+    "id": "vocab_gen_voyager",
+    "category": "General",
+    "level": "B1",
     "tags": [
-      "preparation",
-      "impurities",
-      "basics"
+      "verbs"
     ],
-    "french": "Dégorger",
-    "english": "To soak / draw out liquid or impurities using salt or water",
-    "definition_fr": "(verbe) Laisser tremper un aliment dans de l'eau ou le saupoudrer de sel pour éliminer les impuretés, le sang ou l'excès d'eau.",
-    "japanese": "デゴルジェする（血抜き・水分の抽出）",
-    "context_fr": "Faites dégorger les ris de veau dans de l'eau glacée pendant deux heures.",
-    "context_en": "Soak the sweetbreads in ice water for two hours to draw out impurities.",
-    "context_ja": "仔牛のリードヴォー（胸腺肉）を氷水に2時間浸してデゴルジェ（血抜き）してください。",
-    "is_professional": true
+    "french": "Voyager",
+    "english": "To travel",
+    "definition_fr": "(verbe) Faire un trajet d'un lieu à un autre, généralement lointain.",
+    "japanese": "旅行する",
+    "context_fr": "Le chef aime voyager pour découvrir de nouveaux ingrédients.",
+    "context_en": "The chef likes to travel to discover new ingredients.",
+    "context_ja": "シェフは新しい食材を発見するために旅行するのが好きです。",
+    "is_professional": false
   }
 }
