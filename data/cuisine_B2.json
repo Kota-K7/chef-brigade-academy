@@ -12,5 +12,19 @@
     "content_fr": "La réaction de Maillard se produit entre les acides aminés et les sucres à partir de 140°C. Elle est responsable de la coloration brune et du développement des arômes des viandes saisies ou du pain cuit.",
     "content_en": "The Maillard reaction occurs between amino acids and reducing sugars starting at 140°C (284°F). It is responsible for the brown color and complex aromas of seared meat and baked bread.",
     "content_ja": "メイラード反応は、140℃以上でアミノ酸と糖の間で起こる化学反応です。肉のソテーや焼き立てのパンの美味しそうな褐色と香ばしい風味を生み出す役割を担っています。"
+  },
+  {
+    "id": "cuis_menu_classique",
+    "category": "Theory",
+    "level": "B2",
+    "tags": [
+      "menu",
+      "planning",
+      "theory"
+    ],
+    "topic": "La Structure du Menu Classique (Classic Menu Structure)",
+    "content_fr": "Le menu classique français codifié par Escoffier comprend traditionnellement plusieurs services dans un ordre précis : les hors-d'œuvre (froids ou chauds), le potage (soupe), les relevés (grosses pièces de viande), les entrées (plats légers), le rôt (volaille ou gibier rôti), les entremets (légumes puis douceurs) et enfin le dessert. Aujourd'hui, cela s'est simplifié en triptyque (Entrée, Plat, Dessert), mais la progression logique des saveurs (du plus léger au plus riche) reste fondamentale pour la planification.",
+    "content_en": "The classic French menu codified by Escoffier traditionally comprises several courses in a precise order: hors-d'œuvre (cold or hot), potage (soup), relevés (large joints of meat), entrées (lighter dishes), rôt (roasted poultry or game), entremets (vegetables and sweets), and dessert. Today, this has simplified to a three-course structure (Entrée, Main, Dessert), but the logical flavor progression (from lightest to richest) remains fundamental to menu planning.",
+    "content_ja": "エスコフィエが体系化した古典的フランス料理のメニューは、伝統的に以下の順序で構成されます：①オードブル（冷製・温製）、②ポタージュ（スープ）、③ルルヴェ（大きな塊肉）、④アントレ（温かい料理）、⑤ロ（ローストした鳥獣肉）、⑥アントルメ（野菜料理と甘味）、⑦デザート。現代では「前菜・主菜・デザート」の3皿に簡略化されていますが、味わいの論理的な進行（軽いものから重いものへ）はメニュー計画において今なお不可欠な基本です。"
   }
 ]
