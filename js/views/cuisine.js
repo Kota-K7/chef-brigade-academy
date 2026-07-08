@@ -244,649 +244,216 @@ export function renderCuisine() {
   function renderMeatType(type, wrapper) {
     wrapper.innerHTML = '';
     
-    if (type === 'beef') {
-      const panel = document.createElement('div');
-      panel.innerHTML = `
-        <div style="display: flex; justify-content: flex-end; margin-bottom: 0.8rem;">
-          <a href="beef_maff_guide.pdf" target="_blank" class="next-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.4rem 0.8rem; background-color: rgba(197, 168, 128, 0.08); color: var(--color-primary); border: 1px solid rgba(197, 168, 128, 0.3); border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; transition: var(--transition);">
-            📄 日本農水省 牛肉部位基準 (PDF)
-          </a>
-        </div>
-        <div class="interactive-canvas-container" style="position: relative;">
-          <img src="assets/beef_cuts.png" alt="French Beef Cuts Diagram" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=Coupe+de+Boeuf'">
-          <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-            ${beefCuts.map(cut => `
-              <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
-            `).join('')}
-          </svg>
-        </div>
-        
-        <div class="cuisine-detail-drawer" id="beef-detail-drawer">
-          <div class="detail-drawer-header">
-            <div style="display: flex; align-items: center; gap: 0.6rem;">
-              <h3 class="detail-drawer-title" id="beef-cut-title">Select a Cut</h3>
-              <button class="audio-btn" id="beef-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
-            </div>
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="beef-cut-sub">Coupe de Bœuf</span>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- Properties Grid -->
-            <div class="meat-properties-grid">
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">柔らかさ (Tendreté)</span>
-                <strong class="meat-prop-val" id="beef-prop-tenderness">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">脂 (Gras)</span>
-                <strong class="meat-prop-val" id="beef-prop-fat">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">コラーゲン (Collagène)</span>
-                <strong class="meat-prop-val" id="beef-prop-collagen">-</strong>
-              </div>
-            </div>
+    // Define parameters and source arrays for each type
+    const config = {
+      beef: {
+        cuts: beefCuts,
+        pdf: 'beef_maff_guide.pdf',
+        pdfText: '📄 日本農水省 牛肉部位基準 (PDF)',
+        quote: '',
+        img: 'assets/beef_cuts.png',
+        alt: 'French Beef Cuts Diagram',
+        placeholder: 'Coupe+de+Boeuf',
+        label: 'Coupe de Bœuf',
+        propName: 'beef'
+      },
+      porc: {
+        cuts: porcCuts,
+        pdf: 'pork_maff_guide.pdf',
+        pdfText: '📄 日本農水省 豚肉部位基準 (PDF)',
+        quote: '"Tout est bon dans le cochon" (豚はすべてが使える食材である)',
+        img: 'assets/porc_cuts.png',
+        alt: 'French Pork Cuts Diagram',
+        placeholder: 'Coupe+de+Porc',
+        label: 'Coupe de Porc',
+        propName: 'pork'
+      },
+      volaille: {
+        cuts: poultryCuts,
+        pdf: 'poultry_maff_guide.pdf',
+        pdfText: '📄 日本農水省 鶏肉部位基準 (PDF)',
+        quote: '"La volaille est la reine des cuisines et la directrice des banquets" (鶏肉は厨房の女王であり、宴の演出家である)',
+        img: 'assets/poultry_cuts.png',
+        alt: 'French Poultry Cuts Diagram',
+        placeholder: 'Coupe+de+Volaille',
+        label: 'Coupe de Volaille',
+        propName: 'poultry'
+      },
+      poisson: {
+        cuts: fishCuts,
+        pdf: '',
+        pdfText: '',
+        quote: '',
+        img: 'assets/fish_cuts.png',
+        alt: 'French Fish Cuts Diagram',
+        placeholder: 'Coupe+de+Poisson',
+        label: 'Coupe de Poisson',
+        propName: 'fish'
+      },
+      autre: {
+        cuts: otherCuts,
+        pdf: '',
+        pdfText: '',
+        quote: '',
+        img: 'assets/other_cuts.png',
+        alt: 'French Other Meats Cuts Diagram',
+        placeholder: 'Autres+Viandes',
+        label: 'Autres Viandes',
+        propName: 'other'
+      }
+    };
 
-            <!-- Basic Details -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">向く調理</h4>
-                <p class="meat-block-text" id="beef-cooking"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">フランス的分類</h4>
-                <p class="meat-block-text" id="beef-classification"></p>
-              </div>
-            </div>
+    const cfg = config[type];
+    if (!cfg) return;
 
-            <!-- Logic & Science -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">Cooking Logic</h4>
-                <p class="meat-block-text highlight-code" id="beef-logic"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">料理科学 (Science)</h4>
-                <p class="meat-block-text" id="beef-science"></p>
-              </div>
-            </div>
-
-            <!-- Chef's Note -->
-            <div class="chef-note-box">
-              <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
-              <p class="chef-note-text" id="beef-chef-note"></p>
-            </div>
-
-            <!-- Relations -->
-            <div id="beef-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
-              <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
-              <div id="beef-relations-content"></div>
-            </div>
-          </div>
-        </div>
-      `;
-
-      wrapper.appendChild(panel);
-
-      const drawer = panel.querySelector('#beef-detail-drawer');
-      const spots = panel.querySelectorAll('.interactive-area');
-
-      spots.forEach(spot => {
-        spot.addEventListener('click', (e) => {
-          spots.forEach(s => s.classList.remove('active'));
-          e.target.classList.add('active');
-
-          const cutId = e.target.getAttribute('data-id');
-          const cut = beefCuts.find(c => c.id === cutId);
-          
-          if (cut) {
-            panel.querySelector('#beef-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-            panel.querySelector('#beef-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en}`;
-            
-            panel.querySelector('#beef-prop-tenderness').innerText = cut.properties.tenderness;
-            panel.querySelector('#beef-prop-fat').innerText = cut.properties.fat;
-            panel.querySelector('#beef-prop-collagen').innerText = cut.properties.collagen;
-            
-            panel.querySelector('#beef-cooking').innerText = cut.cooking;
-            panel.querySelector('#beef-classification').innerText = cut.classification;
-            panel.querySelector('#beef-logic').innerText = cut.logic;
-            panel.querySelector('#beef-science').innerText = cut.science;
-            panel.querySelector('#beef-chef-note').innerText = cut.chef_note;
-
-            // Render relations
-            const relsContainer = panel.querySelector('#beef-relations-container');
-            const relsContent = panel.querySelector('#beef-relations-content');
-            const relsHtml = getRelationBadges(cutId, 'cut');
-            if (relsHtml) {
-              relsContent.innerHTML = relsHtml;
-              relsContainer.style.display = 'block';
-            } else {
-              relsContainer.style.display = 'none';
-            }
-
-            // Wire up audio
-            const titleAudioBtn = panel.querySelector('#beef-audio-title-btn');
-            titleAudioBtn.style.display = 'inline-block';
-            titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
-
-            drawer.style.display = 'block';
-          }
-        });
-      });
-
-    } else if (type === 'porc') {
-      const panel = document.createElement('div');
-      panel.innerHTML = `
+    const panel = document.createElement('div');
+    
+    let html = '';
+    
+    // 1. Quote header if available
+    if (cfg.quote) {
+      html += `
         <div style="background-color: rgba(197, 168, 128, 0.05); padding: 1rem; border-radius: var(--radius-sm); border-left: 3px solid var(--color-accent); margin-bottom: 1.5rem; text-align: center;">
-          <span style="font-family: var(--font-serif); font-size: 1.1rem; font-style: italic; color: var(--color-primary);">"Tout est bon dans le cochon" (豚はすべてが使える食材である)</span>
-        </div>
-        <div style="display: flex; justify-content: flex-end; margin-bottom: 0.8rem;">
-          <a href="pork_maff_guide.pdf" target="_blank" class="next-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.4rem 0.8rem; background-color: rgba(197, 168, 128, 0.08); color: var(--color-primary); border: 1px solid rgba(197, 168, 128, 0.3); border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; transition: var(--transition);">
-            📄 日本農水省 豚肉部位基準 (PDF)
-          </a>
-        </div>
-        <div class="interactive-canvas-container" style="position: relative;">
-          <img src="assets/porc_cuts.png" alt="French Pork Cuts Diagram" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=Coupe+de+Porc'">
-          <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-            ${porcCuts.map(cut => `
-              <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
-            `).join('')}
-          </svg>
-        </div>
-        
-        <div class="cuisine-detail-drawer" id="pork-detail-drawer">
-          <div class="detail-drawer-header">
-            <div style="display: flex; align-items: center; gap: 0.6rem;">
-              <h3 class="detail-drawer-title" id="pork-cut-title">Select a Cut</h3>
-              <button class="audio-btn" id="pork-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
-            </div>
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="pork-cut-sub">Coupe de Porc</span>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- Properties Grid -->
-            <div class="meat-properties-grid">
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">柔らかさ (Tendreté)</span>
-                <strong class="meat-prop-val" id="pork-prop-tenderness">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">脂 (Gras)</span>
-                <strong class="meat-prop-val" id="pork-prop-fat">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">コラーゲン (Collagène)</span>
-                <strong class="meat-prop-val" id="pork-prop-collagen">-</strong>
-              </div>
-            </div>
-
-            <!-- Basic Details -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">向く調理</h4>
-                <p class="meat-block-text" id="pork-cooking"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">フランス的分類</h4>
-                <p class="meat-block-text" id="pork-classification"></p>
-              </div>
-            </div>
-
-            <!-- Logic & Science -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">Cooking Logic</h4>
-                <p class="meat-block-text highlight-code" id="pork-logic"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">料理科学 (Science)</h4>
-                <p class="meat-block-text" id="pork-science"></p>
-              </div>
-            </div>
-
-            <!-- Chef's Note -->
-            <div class="chef-note-box">
-              <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
-              <p class="chef-note-text" id="pork-chef-note"></p>
-            </div>
-
-            <!-- Relations -->
-            <div id="pork-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
-              <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
-              <div id="pork-relations-content"></div>
-            </div>
-          </div>
+          <span style="font-family: var(--font-serif); font-size: 1.1rem; font-style: italic; color: var(--color-primary);">${cfg.quote}</span>
         </div>
       `;
-
-      wrapper.appendChild(panel);
-
-      const drawer = panel.querySelector('#pork-detail-drawer');
-      const spots = panel.querySelectorAll('.interactive-area');
-
-      spots.forEach(spot => {
-        spot.addEventListener('click', (e) => {
-          spots.forEach(s => s.classList.remove('active'));
-          e.target.classList.add('active');
-
-          const cutId = e.target.getAttribute('data-id');
-          const cut = porcCuts.find(c => c.id === cutId);
-          
-          if (cut) {
-            panel.querySelector('#pork-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-            panel.querySelector('#pork-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en}`;
-            
-            panel.querySelector('#pork-prop-tenderness').innerText = cut.properties.tenderness;
-            panel.querySelector('#pork-prop-fat').innerText = cut.properties.fat;
-            panel.querySelector('#pork-prop-collagen').innerText = cut.properties.collagen;
-            
-            panel.querySelector('#pork-cooking').innerText = cut.cooking;
-            panel.querySelector('#pork-classification').innerText = cut.classification;
-            panel.querySelector('#pork-logic').innerText = cut.logic;
-            panel.querySelector('#pork-science').innerText = cut.science;
-            panel.querySelector('#pork-chef-note').innerText = cut.chef_note;
-
-            // Render relations
-            const relsContainer = panel.querySelector('#pork-relations-container');
-            const relsContent = panel.querySelector('#pork-relations-content');
-            const relsHtml = getRelationBadges(cutId, 'cut');
-            if (relsHtml) {
-              relsContent.innerHTML = relsHtml;
-              relsContainer.style.display = 'block';
-            } else {
-              relsContainer.style.display = 'none';
-            }
-
-            // Wire up audio
-            const titleAudioBtn = panel.querySelector('#pork-audio-title-btn');
-            titleAudioBtn.style.display = 'inline-block';
-            titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
-
-            drawer.style.display = 'block';
-          }
-        });
-      });
-
-    } else if (type === 'volaille') {
-      const panel = document.createElement('div');
-      panel.innerHTML = `
-        <div style="display: flex; justify-content: flex-end; margin-bottom: 0.8rem;">
-          <a href="poultry_maff_guide.pdf" target="_blank" class="next-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.4rem 0.8rem; background-color: rgba(197, 168, 128, 0.08); color: var(--color-primary); border: 1px solid rgba(197, 168, 128, 0.3); border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; transition: var(--transition);">
-            📄 日本農水省 鶏肉部位基準 (PDF)
-          </a>
-        </div>
-        <div class="interactive-canvas-container" style="position: relative;">
-          <img src="assets/poultry_cuts.png" alt="French Poultry Cuts Diagram" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=Coupe+de+Volaille'">
-          <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-            ${poultryCuts.map(cut => `
-              <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
-            `).join('')}
-          </svg>
-        </div>
-        
-        <div class="cuisine-detail-drawer" id="poultry-detail-drawer">
-          <div class="detail-drawer-header">
-            <div style="display: flex; align-items: center; gap: 0.6rem;">
-              <h3 class="detail-drawer-title" id="poultry-cut-title">Select a Cut</h3>
-              <button class="audio-btn" id="poultry-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
-            </div>
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="poultry-cut-sub">Coupe de Volaille</span>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- Properties Grid -->
-            <div class="meat-properties-grid">
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">柔らかさ (Tendreté)</span>
-                <strong class="meat-prop-val" id="poultry-prop-tenderness">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">脂 (Gras)</span>
-                <strong class="meat-prop-val" id="poultry-prop-fat">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">コラーゲン (Collagène)</span>
-                <strong class="meat-prop-val" id="poultry-prop-collagen">-</strong>
-              </div>
-            </div>
-
-            <!-- Basic Details -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">向く調理</h4>
-                <p class="meat-block-text" id="poultry-cooking"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">代表料理 (Plat Classique)</h4>
-                <p class="meat-block-text" id="poultry-classification"></p>
-              </div>
-            </div>
-
-            <!-- Logic & Science -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">Cooking Logic</h4>
-                <p class="meat-block-text highlight-code" id="poultry-logic"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">料理科学 (Science)</h4>
-                <p class="meat-block-text" id="poultry-science"></p>
-              </div>
-            </div>
-
-            <!-- Chef's Note -->
-            <div class="chef-note-box">
-              <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
-              <p class="chef-note-text" id="poultry-chef-note"></p>
-            </div>
-
-            <!-- Relations -->
-            <div id="poultry-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
-              <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
-              <div id="poultry-relations-content"></div>
-            </div>
-          </div>
-        </div>
-      `;
-
-      wrapper.appendChild(panel);
-
-      const drawer = panel.querySelector('#poultry-detail-drawer');
-      const spots = panel.querySelectorAll('.interactive-area');
-
-      spots.forEach(spot => {
-        spot.addEventListener('click', (e) => {
-          spots.forEach(s => s.classList.remove('active'));
-          e.target.classList.add('active');
-
-          const cutId = e.target.getAttribute('data-id');
-          const cut = poultryCuts.find(c => c.id === cutId);
-          
-          if (cut) {
-            panel.querySelector('#poultry-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-            panel.querySelector('#poultry-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en}`;
-            
-            panel.querySelector('#poultry-prop-tenderness').innerText = cut.properties.tenderness;
-            panel.querySelector('#poultry-prop-fat').innerText = cut.properties.fat;
-            panel.querySelector('#poultry-prop-collagen').innerText = cut.properties.collagen;
-            
-            panel.querySelector('#poultry-cooking').innerText = cut.cooking;
-            panel.querySelector('#poultry-classification').innerText = cut.classification;
-            panel.querySelector('#poultry-logic').innerText = cut.logic;
-            panel.querySelector('#poultry-science').innerText = cut.science;
-            panel.querySelector('#poultry-chef-note').innerText = cut.chef_note;
-
-            // Render relations
-            const relsContainer = panel.querySelector('#poultry-relations-container');
-            const relsContent = panel.querySelector('#poultry-relations-content');
-            const relsHtml = getRelationBadges(cutId, 'cut');
-            if (relsHtml) {
-              relsContent.innerHTML = relsHtml;
-              relsContainer.style.display = 'block';
-            } else {
-              relsContainer.style.display = 'none';
-            }
-
-            // Wire up audio
-            const titleAudioBtn = panel.querySelector('#poultry-audio-title-btn');
-            titleAudioBtn.style.display = 'inline-block';
-            titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
-
-            drawer.style.display = 'block';
-          }
-        });
-      });
-
-    } else if (type === 'poisson') {
-      const panel = document.createElement('div');
-      panel.innerHTML = `
-        <div class="interactive-canvas-container" style="position: relative;">
-          <img src="assets/fish_cuts.png" alt="French Fish Cuts Diagram" class="interactive-image" onerror="this.src='https://placehold.co/700x450/0A1931/ffffff?text=Coupe+de+Poisson'">
-          <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-            ${fishCuts.map(cut => `
-              <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
-            `).join('')}
-          </svg>
-        </div>
-        
-        <div class="cuisine-detail-drawer" id="fish-detail-drawer">
-          <div class="detail-drawer-header">
-            <div style="display: flex; align-items: center; gap: 0.6rem;">
-              <h3 class="detail-drawer-title" id="fish-cut-title">Select a Cut</h3>
-              <button class="audio-btn" id="fish-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
-            </div>
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="fish-cut-sub">Coupe de Poisson</span>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- Properties Grid -->
-            <div class="meat-properties-grid">
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">柔らかさ (Tendreté)</span>
-                <strong class="meat-prop-val" id="fish-prop-tenderness">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">脂 (Gras)</span>
-                <strong class="meat-prop-val" id="fish-prop-fat">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">コラーゲン (Collagène)</span>
-                <strong class="meat-prop-val" id="fish-prop-collagen">-</strong>
-              </div>
-            </div>
-
-            <!-- Basic Details -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">向く調理</h4>
-                <p class="meat-block-text" id="fish-cooking"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">特徴・分類</h4>
-                <p class="meat-block-text" id="fish-classification"></p>
-              </div>
-            </div>
-
-            <!-- Logic & Science -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">Cooking Logic</h4>
-                <p class="meat-block-text highlight-code" id="fish-logic"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">料理科学 (Science)</h4>
-                <p class="meat-block-text" id="fish-science"></p>
-              </div>
-            </div>
-
-            <!-- Chef's Note -->
-            <div class="chef-note-box">
-              <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
-              <p class="chef-note-text" id="fish-chef-note"></p>
-            </div>
-
-            <!-- Relations -->
-            <div id="fish-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
-              <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
-              <div id="fish-relations-content"></div>
-            </div>
-          </div>
-        </div>
-      `;
-
-      wrapper.appendChild(panel);
-
-      const drawer = panel.querySelector('#fish-detail-drawer');
-      const spots = panel.querySelectorAll('.interactive-area');
-
-      spots.forEach(spot => {
-        spot.addEventListener('click', (e) => {
-          spots.forEach(s => s.classList.remove('active'));
-          e.target.classList.add('active');
-
-          const cutId = e.target.getAttribute('data-id');
-          const cut = fishCuts.find(c => c.id === cutId);
-          
-          if (cut) {
-            panel.querySelector('#fish-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-            panel.querySelector('#fish-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en}`;
-            
-            panel.querySelector('#fish-prop-tenderness').innerText = cut.properties.tenderness;
-            panel.querySelector('#fish-prop-fat').innerText = cut.properties.fat;
-            panel.querySelector('#fish-prop-collagen').innerText = cut.properties.collagen;
-            
-            panel.querySelector('#fish-cooking').innerText = cut.cooking;
-            panel.querySelector('#fish-classification').innerText = cut.classification;
-            panel.querySelector('#fish-logic').innerText = cut.logic;
-            panel.querySelector('#fish-science').innerText = cut.science;
-            panel.querySelector('#fish-chef-note').innerText = cut.chef_note;
-
-            // Render relations
-            const relsContainer = panel.querySelector('#fish-relations-container');
-            const relsContent = panel.querySelector('#fish-relations-content');
-            const relsHtml = getRelationBadges(cutId, 'cut');
-            if (relsHtml) {
-              relsContent.innerHTML = relsHtml;
-              relsContainer.style.display = 'block';
-            } else {
-              relsContainer.style.display = 'none';
-            }
-
-            // Wire up audio
-            const titleAudioBtn = panel.querySelector('#fish-audio-title-btn');
-            titleAudioBtn.style.display = 'inline-block';
-            titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
-
-            drawer.style.display = 'block';
-          }
-        });
-      });
-
-    } else if (type === 'autre') {
-      const panel = document.createElement('div');
-      panel.innerHTML = `
-        <div class="interactive-canvas-container" style="position: relative;">
-          <img src="assets/other_cuts.png" alt="French Other Meats Cuts Diagram" class="interactive-image" onerror="this.src='https://placehold.co/700x450/0A1931/ffffff?text=Autres+Viandes'">
-          <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-            ${otherCuts.map(cut => `
-              <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
-            `).join('')}
-          </svg>
-        </div>
-        
-        <div class="cuisine-detail-drawer" id="other-detail-drawer">
-          <div class="detail-drawer-header">
-            <div style="display: flex; align-items: center; gap: 0.6rem;">
-              <h3 class="detail-drawer-title" id="other-cut-title">Select a Cut</h3>
-              <button class="audio-btn" id="other-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
-            </div>
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="other-cut-sub">Autres Viandes</span>
-          </div>
-          
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <!-- Properties Grid -->
-            <div class="meat-properties-grid">
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">柔らかさ (Tendreté)</span>
-                <strong class="meat-prop-val" id="other-prop-tenderness">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">脂 (Gras)</span>
-                <strong class="meat-prop-val" id="other-prop-fat">-</strong>
-              </div>
-              <div class="meat-prop-item">
-                <span class="meat-prop-label">コラーゲン (Collagène)</span>
-                <strong class="meat-prop-val" id="other-prop-collagen">-</strong>
-              </div>
-            </div>
-
-            <!-- Basic Details -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">向く調理</h4>
-                <p class="meat-block-text" id="other-cooking"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">特徴・分類</h4>
-                <p class="meat-block-text" id="other-classification"></p>
-              </div>
-            </div>
-
-            <!-- Logic & Science -->
-            <div class="meat-detail-grid">
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">Cooking Logic</h4>
-                <p class="meat-block-text highlight-code" id="other-logic"></p>
-              </div>
-              <div class="meat-detail-block">
-                <h4 class="meat-block-title">料理科学 (Science)</h4>
-                <p class="meat-block-text" id="other-science"></p>
-              </div>
-            </div>
-
-            <!-- Chef's Note -->
-            <div class="chef-note-box">
-              <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
-              <p class="chef-note-text" id="other-chef-note"></p>
-            </div>
-
-            <!-- Relations -->
-            <div id="other-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
-              <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
-              <div id="other-relations-content"></div>
-            </div>
-          </div>
-        </div>
-      `;
-
-      wrapper.appendChild(panel);
-
-      const drawer = panel.querySelector('#other-detail-drawer');
-      const spots = panel.querySelectorAll('.interactive-area');
-
-      spots.forEach(spot => {
-        spot.addEventListener('click', (e) => {
-          spots.forEach(s => s.classList.remove('active'));
-          e.target.classList.add('active');
-
-          const cutId = e.target.getAttribute('data-id');
-          const cut = otherCuts.find(c => c.id === cutId);
-          
-          if (cut) {
-            panel.querySelector('#other-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-            panel.querySelector('#other-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en}`;
-            
-            panel.querySelector('#other-prop-tenderness').innerText = cut.properties.tenderness;
-            panel.querySelector('#other-prop-fat').innerText = cut.properties.fat;
-            panel.querySelector('#other-prop-collagen').innerText = cut.properties.collagen;
-            
-            panel.querySelector('#other-cooking').innerText = cut.cooking;
-            panel.querySelector('#other-classification').innerText = cut.classification;
-            panel.querySelector('#other-logic').innerText = cut.logic;
-            panel.querySelector('#other-science').innerText = cut.science;
-            panel.querySelector('#other-chef-note').innerText = cut.chef_note;
-
-            // Render relations
-            const relsContainer = panel.querySelector('#other-relations-container');
-            const relsContent = panel.querySelector('#other-relations-content');
-            const relsHtml = getRelationBadges(cutId, 'cut');
-            if (relsHtml) {
-              relsContent.innerHTML = relsHtml;
-              relsContainer.style.display = 'block';
-            } else {
-              relsContainer.style.display = 'none';
-            }
-
-            // Wire up audio
-            const titleAudioBtn = panel.querySelector('#other-audio-title-btn');
-            titleAudioBtn.style.display = 'inline-block';
-            titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
-
-            drawer.style.display = 'block';
-          }
-        });
-      });
     }
+
+    // 2. PDF link if available
+    if (cfg.pdf) {
+      html += `
+        <div style="display: flex; justify-content: flex-end; margin-bottom: 0.8rem;">
+          <a href="${cfg.pdf}" target="_blank" class="next-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; padding: 0.4rem 0.8rem; background-color: rgba(197, 168, 128, 0.08); color: var(--color-primary); border: 1px solid rgba(197, 168, 128, 0.3); border-radius: var(--radius-sm); font-weight: 600; cursor: pointer; transition: var(--transition);">
+            ${cfg.pdfText}
+          </a>
+        </div>
+      `;
+    }
+
+    // 3. Interactive image map
+    html += `
+      <div class="interactive-canvas-container" style="position: relative;">
+        <img src="${cfg.img}" alt="${cfg.alt}" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=${cfg.placeholder}'">
+        <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
+          ${cfg.cuts.map(cut => `
+            <polygon class="interactive-area" points="${cut.points}" data-id="${cut.id}" />
+          `).join('')}
+        </svg>
+      </div>
+      
+      <div class="cuisine-detail-drawer" id="${cfg.propName}-detail-drawer">
+        <div class="detail-drawer-header">
+          <div style="display: flex; align-items: center; gap: 0.6rem;">
+            <h3 class="detail-drawer-title" id="${cfg.propName}-cut-title">Select a Cut</h3>
+            <button class="audio-btn" id="${cfg.propName}-audio-title-btn" style="background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--color-accent); display: none;">🔊</button>
+          </div>
+          <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--color-text-muted); font-weight: 600;" id="${cfg.propName}-cut-sub">${cfg.label}</span>
+        </div>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <!-- Properties Grid -->
+          <div class="meat-properties-grid">
+            <div class="meat-prop-item">
+              <span class="meat-prop-label">柔らかさ (Tendreté)</span>
+              <strong class="meat-prop-val" id="${cfg.propName}-prop-tenderness">-</strong>
+            </div>
+            <div class="meat-prop-item">
+              <span class="meat-prop-label">脂 (Gras)</span>
+              <strong class="meat-prop-val" id="${cfg.propName}-prop-fat">-</strong>
+            </div>
+            <div class="meat-prop-item">
+              <span class="meat-prop-label">コラーゲン (Collagène)</span>
+              <strong class="meat-prop-val" id="${cfg.propName}-prop-collagen">-</strong>
+            </div>
+          </div>
+
+          <!-- Basic Details -->
+          <div class="meat-detail-grid">
+            <div class="meat-detail-block">
+              <h4 class="meat-block-title">向く調理</h4>
+              <p class="meat-block-text" id="${cfg.propName}-cooking"></p>
+            </div>
+            <div class="meat-detail-block">
+              <h4 class="meat-block-title">${cfg.propName === 'poultry' ? '代表料理 (Plat Classique)' : (type === 'poisson' || type === 'autre' ? '特徴・分類' : 'フランス的分類')}</h4>
+              <p class="meat-block-text" id="${cfg.propName}-classification"></p>
+            </div>
+          </div>
+
+          <!-- Logic & Science -->
+          <div class="meat-detail-grid">
+            <div class="meat-detail-block">
+              <h4 class="meat-block-title">Cooking Logic</h4>
+              <p class="meat-block-text highlight-code" id="${cfg.propName}-logic"></p>
+            </div>
+            <div class="meat-detail-block">
+              <h4 class="meat-block-title">料理科学 (Science)</h4>
+              <p class="meat-block-text" id="${cfg.propName}-science"></p>
+            </div>
+          </div>
+
+          <!-- Chef's Note -->
+          <div class="chef-note-box">
+            <h4 class="chef-note-title">👨‍🍳 Chef's Note</h4>
+            <p class="chef-note-text" id="${cfg.propName}-chef-note"></p>
+          </div>
+
+          <!-- Relations -->
+          <div id="${cfg.propName}-relations-container" style="display: none; border-top: 1px solid rgba(197, 168, 128, 0.15); padding-top: 1.2rem;">
+            <h4 class="meat-block-title">🔗 関連知識とのつながり (Relations)</h4>
+            <div id="${cfg.propName}-relations-content"></div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    panel.innerHTML = html;
+    wrapper.appendChild(panel);
+
+    const drawer = panel.querySelector(`#${cfg.propName}-detail-drawer`);
+    const spots = panel.querySelectorAll('.interactive-area');
+
+    spots.forEach(spot => {
+      spot.addEventListener('click', (e) => {
+        spots.forEach(s => s.classList.remove('active'));
+        e.target.classList.add('active');
+
+        const cutId = e.target.getAttribute('data-id');
+        const cut = cfg.cuts.find(c => c.id === cutId);
+        
+        if (cut) {
+          panel.querySelector(`#${cfg.propName}-cut-title`).innerText = `${cut.name_fr} (${cut.name_ja})`;
+          panel.querySelector(`#${cfg.propName}-cut-sub`).innerText = `Cut #${cut.number} • ${cut.name_en}`;
+          
+          panel.querySelector(`#${cfg.propName}-prop-tenderness`).innerText = cut.properties.tenderness;
+          panel.querySelector(`#${cfg.propName}-prop-fat`).innerText = cut.properties.fat;
+          panel.querySelector(`#${cfg.propName}-prop-collagen`).innerText = cut.properties.collagen;
+          
+          panel.querySelector(`#${cfg.propName}-cooking`).innerText = cut.cooking;
+          panel.querySelector(`#${cfg.propName}-classification`).innerText = cut.classification;
+          panel.querySelector(`#${cfg.propName}-logic`).innerText = cut.logic;
+          panel.querySelector(`#${cfg.propName}-science`).innerText = cut.science;
+          panel.querySelector(`#${cfg.propName}-chef-note`).innerText = cut.chef_note;
+
+          // Render relations
+          const relsContainer = panel.querySelector(`#${cfg.propName}-relations-container`);
+          const relsContent = panel.querySelector(`#${cfg.propName}-relations-content`);
+          const relsHtml = getRelationBadges(cutId, 'cut');
+          if (relsHtml) {
+            relsContent.innerHTML = relsHtml;
+            relsContainer.style.display = 'block';
+          } else {
+            relsContainer.style.display = 'none';
+          }
+
+          // Wire up audio
+          const titleAudioBtn = panel.querySelector(`#${cfg.propName}-audio-title-btn`);
+          titleAudioBtn.style.display = 'inline-block';
+          titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
+
+          drawer.style.display = 'block';
+        }
+      });
+    });
   }
 
   // SUB-TAB 3: GEOGRAPHIC CULINARY MAP
