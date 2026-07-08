@@ -34,5 +34,22 @@
     "context_en": "Soak the sweetbreads in ice water for two hours to draw out impurities.",
     "context_ja": "仔牛のリードヴォー（胸腺肉）を氷水に2時間浸してデゴルジェ（血抜き）してください。",
     "is_professional": true
+  },
+  {
+    "id": "vocab_singer",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "sauces",
+      "techniques"
+    ],
+    "french": "Singer",
+    "english": "To sprinkle ingredients roasting in fat with flour to thicken a sauce",
+    "definition_fr": "(verbe) Saupoudrer de farine des éléments (viandes, légumes) préalablement rissolés avec de la matière grasse, afin de lier la sauce ultérieurement.",
+    "japanese": "サンジェする（炒めた食材に小麦粉を振りかけ、ソースにとろみをつける）",
+    "context_fr": "Singez la viande avant d'ajouter le bouillon for le ragoût.",
+    "context_en": "Sprinkle the meat with flour before adding the broth for the stew.",
+    "context_ja": "煮込み用のブイヨンを加える前に、お肉をサンジェ（小麦粉を振りかける）してください。",
+    "is_professional": true
   }
 ]

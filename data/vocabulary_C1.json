@@ -34,5 +34,24 @@
     "context_en": "Truss the farm chicken before putting it in the oven to ensure even cooking.",
     "context_ja": "均一に火が入るように、オーブンに入れる前に地鶏をブライド（糸縛り）してください。",
     "is_professional": true
+  },
+  {
+    "id": "vocab_contiser",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "prep",
+      "meat",
+      "fish",
+      "classical"
+    ],
+    "french": "Contiser",
+    "english": "To make small incisions in meat or fish and insert a flavoring ingredient",
+    "definition_fr": "(verbe) Faire de petites incisions superficielles dans une viande, un poisson ou une volaille, pour y glisser une lamelle de truffe, d'ail, de langue ou d'autre condiment.",
+    "japanese": "コンティゼする（食材の皮下や表面に切り込みを入れ、香気食材を差し込む）",
+    "context_fr": "Contisez le filet de poisson avec de fines lamelles de truffe avant la cuisson.",
+    "context_en": "Score the fish fillet and insert thin slices of truffle before cooking.",
+    "context_ja": "調理する前に、魚のフィレに切り込みを入れてトリュフの薄切りをコンティゼ（差し込み）してください。",
+    "is_professional": true
   }
 ]

@@ -238,5 +238,37 @@
       "Caramélisation"
     ],
     "answer": "Émulsion (Emulsion)"
+  },
+  {
+    "id": "quiz_16",
+    "type": "choice",
+    "category": "science",
+    "question": "Pourquoi faut-il utiliser de l'alginate de sodium avec une teneur spécifique en ions calcium pour la sphérification de base ? / Why must sodium alginate react with a specific calcium ion concentration for basic spherification?",
+    "question_fr": "Pourquoi faut-il utiliser de l'alginate de sodium avec une teneur spécifique en ions calcium pour la sphérification de base ?",
+    "question_en": "Why must sodium alginate react with a specific calcium ion concentration for basic spherification?",
+    "context": "It forms a thermo-irreversible gel via cross-linking polymer chains.",
+    "options": [
+      "Pour former un gel thermo-irréversible par réticulation des chaînes polymériques.",
+      "Pour augmenter la volatilité des arômes lipophiles.",
+      "Pour empêcher la dénaturation des protéines animales.",
+      "Pour catalyser la réaction de Maillard à moins de 50°C."
+    ],
+    "answer": "Pour former un gel thermo-irréversible par réticulation des chaînes polymériques."
+  },
+  {
+    "id": "quiz_17",
+    "type": "choice",
+    "category": "sauces",
+    "question": "Lors d'une liaison au sang pour un lièvre à la royale, à quelle température le sang commence-t-il à coaguler ? / During a blood liaison for lièvre à la royale, at what temperature does the blood start to coagulate?",
+    "question_fr": "Lors d'une liaison au sang pour un lièvre à la royale, à quelle température le sang commence-t-il à coaguler ?",
+    "question_en": "During a blood liaison for lièvre à la royale, at what temperature does the blood start to coagulate?",
+    "context": "Going above this threshold causes the sauce to split (trancher).",
+    "options": [
+      "73°C - 75°C",
+      "55°C - 58°C",
+      "85°C - 90°C",
+      "100°C"
+    ],
+    "answer": "73°C - 75°C"
   }
 ]
