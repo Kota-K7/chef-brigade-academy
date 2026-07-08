@@ -2,24 +2,24 @@
   "counts": {
     "vocabulary": 22,
     "grammar": 19,
-    "cuisine": 5
+    "cuisine": 6
   },
   "featured": {
-    "id": "vocab_cul_de_poule",
-    "category": "Equipment",
-    "level": "A1",
+    "id": "vocab_emulsionner",
+    "category": "Techniques",
+    "level": "C1",
     "tags": [
-      "utensils",
-      "bakery",
+      "sauces",
+      "chemistry",
       "basics"
     ],
-    "french": "Cul-de-poule",
-    "english": "Round-bottomed mixing bowl",
-    "definition_fr": "(nom) Récipient rond en métal ou plastique avec un fond demi-sphérique, idéal pour fouetter ou mélanger énergiquement.",
-    "japanese": "キュドプール（丸底ボール・ボウル）",
-    "context_fr": "Battez les blancs en neige dans un cul-de-poule propre.",
-    "context_en": "Whip the egg whites in a clean mixing bowl.",
-    "context_ja": "清潔なキュドプール（ボウル）の中で卵白を泡立ててください。",
+    "french": "Émulsionner",
+    "english": "To emulsify / bind two unmixable liquids",
+    "definition_fr": "(verbe) Mélanger intimement deux liquides non miscibles (comme l'huile et l'eau) à l'aide d'un fouet ou d'un mélangeur pour obtenir une texture stable.",
+    "japanese": "エミュルショネする（乳化させる）",
+    "context_fr": "Fouettez énergiquement pour émulsionner la sauce hollandaise.",
+    "context_en": "Whisk vigorously to emulsify the hollandaise sauce.",
+    "context_ja": "オランデーズソースをエミュルショネ（乳化）させるために、力強く泡立ててください。",
     "is_professional": true
   }
 }
