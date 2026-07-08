@@ -1,0 +1,118 @@
+[
+  {
+    "id": "gram_past_tense_comparison",
+    "level": "B1",
+    "tags": [
+      "verbs",
+      "tenses",
+      "reporting"
+    ],
+    "topic": "Passé Composé vs Imparfait",
+    "explanation_en": "Use the Passé Composé for specific, completed actions in the past (e.g., 'I cooked the meat'). Use the Imparfait for descriptive details, background situations, or ongoing/habitual actions in the past (e.g., 'The kitchen was busy').",
+    "explanation_ja": "過去の出来事を報告する際、完了した具体的な動作（〜した）には複合過去（Passé composé）を、その時の状況描写や継続的な状態（〜だった、〜していた）には半過去（Imparfait）を使い分けます。",
+    "examples": [
+      {
+        "fr": "Hier, j'ai préparé la farce pendant que le four chauffait.",
+        "en": "Yesterday, I prepared the stuffing while the oven was heating.",
+        "ja": "昨日、オーブンが温まるのを待つ間に、私は詰め物（ファルス）を用意しました。"
+      },
+      {
+        "fr": "Le client a adoré le plat ; il était très savoureux.",
+        "en": "The customer loved the dish; it was very tasty.",
+        "ja": "お客様はその料理をとても気に入ってくださいました。非常に美味しかったです。"
+      },
+      {
+        "fr": "Quand je travaillais à Paris, nous faisions le pain nous-mêmes.",
+        "en": "When I worked in Paris, we made the bread ourselves.",
+        "ja": "パリで働いていた頃、私たちはパンを自家製で作っていました。"
+      }
+    ]
+  },
+  {
+    "id": "gram_comparisons",
+    "level": "B1",
+    "tags": [
+      "adjectives",
+      "grammar",
+      "comparatives"
+    ],
+    "topic": "Adjectives and Comparative Structures",
+    "explanation_en": "Use comparative structures to compare the qualities of ingredients, prep work, or dishes. Use 'plus... que' (more... than), 'moins... que' (less... than), or 'aussi... que' (as... as).",
+    "explanation_ja": "食材や仕上がり、料理のクオリティを比較する際に使用します。「〜より〜だ（plus... que）」「〜ほど〜ではない（moins... que）」「同じくらい〜だ（aussi... que）」を使って表現します。",
+    "examples": [
+      {
+        "fr": "Ce plat est plus cher que celui-là.",
+        "en": "This dish is more expensive than that one.",
+        "ja": "この料理はあちらの料理より値段が高いです。"
+      },
+      {
+        "fr": "La texture de cette sauce est moins épaisse que la béchamel.",
+        "en": "The texture of this sauce is less thick than the béchamel.",
+        "ja": "このソースのテクスチャーはベシャメルソースほど厚く（濃く）ありません。"
+      },
+      {
+        "fr": "Le poisson doit être aussi frais que possible.",
+        "en": "The fish must be as fresh as possible.",
+        "ja": "魚はできる限り新鮮でなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": "gram_object_pronouns",
+    "level": "B1",
+    "tags": [
+      "pronouns",
+      "grammar",
+      "communication"
+    ],
+    "topic": "Direct, Indirect, and Adverbial Pronouns (Y, EN)",
+    "explanation_en": "Avoid repeating nouns during rapid kitchen communication by using object pronouns. Use 'le/la/les' for direct objects, 'lui/leur' for indirect objects, 'y' for places ('there'), and 'en' for quantities/ingredients ('some').",
+    "explanation_ja": "忙しい現場で同じ名詞の繰り返しを避けて素早く指示を伝えるための代名詞です。直接目的語（それを：le/la/les）、間接目的語（彼に/彼らに：lui/leur）、場所（そこへ：y）、数量や食材（それをいくらか：en）を適切に使い分けます。",
+    "examples": [
+      {
+        "fr": "Avez-vous besoin de farine ? - Oui, donnez-m'en.",
+        "en": "Do you need flour? - Yes, give me some.",
+        "ja": "小麦粉が必要ですか？ - はい、少し（私に）ください。"
+      },
+      {
+        "fr": "Où est le fond de veau ? - Je l'ai mis au réfrigérateur.",
+        "en": "Where is the veal stock? - I put it in the refrigerator.",
+        "ja": "フォン・ド・ボーはどこですか？ - 冷蔵庫に入れておきました（それを入れました）。"
+      },
+      {
+        "fr": "Apporte le sel au chef. - D'accord, je lui apporte.",
+        "en": "Bring the salt to the chef. - Okay, I will bring it to him.",
+        "ja": "シェフに塩を持っていって。 - わかりました、彼に届けます。"
+      }
+    ]
+  },
+  {
+    "id": "gram_imperative_pronouns",
+    "level": "B1",
+    "tags": [
+      "pronouns",
+      "verbs",
+      "commands"
+    ],
+    "topic": "Imperative with Object Pronouns",
+    "explanation_en": "When giving orders with pronouns in the imperative mood, attach the pronouns to the verb with a hyphen in affirmative commands (e.g., 'donnez-le-moi'). In negative commands, pronouns go before the verb (e.g., 'ne le touchez pas').",
+    "explanation_ja": "命令文で目的語代名詞を併用するルールです。肯定命令では動詞の直後にハイフンで繋ぎ（例：donnez-le-moi！それを私にください）、否定命令では動詞の前に代名詞を置きます（例：ne le touchez pas！それに触らないで）。",
+    "examples": [
+      {
+        "fr": "Servez-le chaud !",
+        "en": "Serve it hot!",
+        "ja": "温かいうちに提供しなさい！"
+      },
+      {
+        "fr": "Ne le brûlez pas !",
+        "en": "Do not burn it!",
+        "ja": "焦がさないでください！"
+      },
+      {
+        "fr": "Préparez-les à l'avance !",
+        "en": "Prepare them in advance!",
+        "ja": "それらを事前に準備しておきなさい！"
+      }
+    ]
+  }
+]

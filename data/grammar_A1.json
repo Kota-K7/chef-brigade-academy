@@ -1,5 +1,39 @@
 [
   {
+    "id": "gram_partitive",
+    "level": "A1",
+    "tags": [
+      "nouns",
+      "grammar",
+      "ingredients"
+    ],
+    "topic": "Partitive Articles (Du, De La, De L')",
+    "explanation_en": "Partitive articles are crucial when discussing ingredients because they express an unspecified quantity ('some'). Use 'du' (masculine singular), 'de la' (feminine singular), 'de l'' (before vowels), and 'des' (plural). When negated, they all change to 'de' or 'd'.",
+    "explanation_ja": "食材の量を特定せずに「いくらかの〜」と表現する場合、部分冠詞（Partitive Articles）を使います。男性単数には「du」、女性単数には「de la」、母音で始まる単語には「de l'」、複数形には「des」を用います。否定文ではすべて「de」または「d'」に変化します。",
+    "examples": [
+      {
+        "fr": "Je voudrais du pain et de l'eau minérale.",
+        "en": "I would like some bread and mineral water.",
+        "ja": "パンとミネラルウォーターを少しください。"
+      },
+      {
+        "fr": "Ajoutez du beurre dans la poêle.",
+        "en": "Add some butter to the pan.",
+        "ja": "フライパンにバターを足してください。"
+      },
+      {
+        "fr": "Prenez de la farine pour le roux.",
+        "en": "Take some flour for the roux.",
+        "ja": "ルー用に小麦粉を取ってください。"
+      },
+      {
+        "fr": "Il ne faut pas mettre de sel dans ce fond.",
+        "en": "You must not put any salt in this stock.",
+        "ja": "この出汁（フォン）に塩を入れてはいけません。"
+      }
+    ]
+  },
+  {
     "id": "gram_imperative",
     "level": "A1",
     "tags": [
@@ -22,9 +56,43 @@
         "ja": "このリンゴの皮をむきなさい！（単数/常体）"
       },
       {
+        "fr": "Hachez le persil et farcissez la dinde !",
+        "en": "Chop the parsley and stuff the turkey!",
+        "ja": "パセリを刻んで、七面鳥に詰め物をしてください！"
+      },
+      {
         "fr": "Finissons ce plat !",
         "en": "Let's finish this dish!",
         "ja": "この皿（料理）を仕上げましょう！"
+      }
+    ]
+  },
+  {
+    "id": "gram_numbers_measures",
+    "level": "A1",
+    "tags": [
+      "numbers",
+      "measurement",
+      "basics"
+    ],
+    "topic": "Numbers and Measurements in the Kitchen",
+    "explanation_en": "Accurate measurement is the key to success in French cooking. Specify quantities using numbers and unit terms such as grams (g), kilograms (kg), liters (L), centiliters (cl), or fractions.",
+    "explanation_ja": "フランス料理において、正確な計量は成功の鍵です。数字や、グラム（g）、キログラム（kg）、リットル（L）、センチリットル（cl）、分数などの単位を使った数量表現を学びましょう。",
+    "examples": [
+      {
+        "fr": "Pesez trois cents grammes de farine.",
+        "en": "Weigh three hundred grams of flour.",
+        "ja": "小麦粉を300グラム計量してください。"
+      },
+      {
+        "fr": "Ajoutez un demi-litre de lait.",
+        "en": "Add half a liter of milk.",
+        "ja": "牛乳を0.5リットル（2分の1リットル）加えてください。"
+      },
+      {
+        "fr": "Laissez reposer la pâte pendant une heure.",
+        "en": "Let the dough rest for one hour.",
+        "ja": "生地を1時間休ませてください。"
       }
     ]
   }

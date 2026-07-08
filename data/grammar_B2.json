@@ -1,25 +1,59 @@
 [
   {
-    "id": "gram_subjonctif_cuisine",
+    "id": "gram_conditional",
     "level": "B2",
     "tags": [
       "verbs",
       "grammar",
-      "commands"
+      "courtesy"
     ],
-    "topic": "The Subjunctive Mood in Kitchen Commands (Le Subjonctif)",
-    "explanation_en": "In professional recipes and chef orders, the subjunctive mood is used after expressions of necessity (e.g., 'Il faut que...') to give formal directions.",
-    "explanation_ja": "プロのレシピやシェフからの指示では、必要性を表す表現（例:「〜しなければならない (Il faut que...)」）の後に接続法（Subjonctif）が使われ、フォーマルな指示を与えます。",
+    "topic": "The Conditional Mood (Le Conditionnel)",
+    "explanation_en": "Use the conditional mood for polite requests to customers or colleagues (e.g., 'I would like'), or to express hypothetical situations or advice (e.g., 'you should taste').",
+    "explanation_ja": "顧客や同僚に対して丁寧な依頼をする際や、「〜だろうに」「〜すべきだ」といった仮定の話やアドバイスをする際に使用します。",
     "examples": [
       {
-        "fr": "Il faut que vous réduisiez le fond de veau de moitié.",
-        "en": "You must reduce the veal stock by half. (subjunctive)",
-        "ja": "仔牛の出汁（フォン・ド・ヴォー）を半分に煮詰めなければなりません。"
+        "fr": "Je voudrais une table près de la cheminée.",
+        "en": "I would like a table by the fireplace.",
+        "ja": "暖炉のそばのテーブルをお願いしたいのですが。"
       },
       {
-        "fr": "Il est nécessaire que le commis débarrasse la table.",
-        "en": "It is necessary that the kitchen assistant clears the table. (subjunctive)",
-        "ja": "見習い料理人はテーブルを片付ける必要があります。"
+        "fr": "Vous devriez goûter cette spécialité.",
+        "en": "You should taste this specialty.",
+        "ja": "こちらの名物料理をぜひ味わってみるべきです。"
+      },
+      {
+        "fr": "Pourriez-vous me passer le fouet, s'il vous plaît ?",
+        "en": "Could you pass me the whisk, please?",
+        "ja": "ホイッパーを渡していただけますでしょうか？"
+      }
+    ]
+  },
+  {
+    "id": "gram_gerondif",
+    "level": "B2",
+    "tags": [
+      "verbs",
+      "grammar",
+      "simultaneous"
+    ],
+    "topic": "The Gerundive (Le Gérondif)",
+    "explanation_en": "Formed with 'en + present participle', the gerundive expresses simultaneous action (doing something while doing something else) or the manner/method of cooking.",
+    "explanation_ja": "「en + 現在分詞」の形で構成され、「〜しながら（同時進行）」や「〜することによって（手段）」を表現します。調理工程で複数の動作を同時に行う指示によく使われます。",
+    "examples": [
+      {
+        "fr": "On obtient une sauce lisse en passant la préparation au chinois.",
+        "en": "One obtains a smooth sauce by passing the preparation through a chinois strainer.",
+        "ja": "シノワで漉すことによって、なめらかなソースが得られます。"
+      },
+      {
+        "fr": "Fouettez la crème en ajoutant le sucre petit à petit.",
+        "en": "Whip the cream while adding the sugar little by little.",
+        "ja": "砂糖を少しずつ加えながら、生クリームを泡立ててください。"
+      },
+      {
+        "fr": "Il s'est brûlé en sortant le plat du four.",
+        "en": "He burned himself while taking the dish out of the oven.",
+        "ja": "彼はオーブンから皿を取り出すときに火傷しました。"
       }
     ]
   }
