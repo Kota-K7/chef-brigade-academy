@@ -1,0 +1,21 @@
+{
+  "short_name": "AcadémieBrigade",
+  "name": "Académie de la Brigade - French Culinary & Language Learning",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000091",
+  "display": "standalone",
+  "orientation": "portrait"
+}
