@@ -1,25 +1,25 @@
 {
   "counts": {
     "vocabulary": 29,
-    "grammar": 19,
-    "cuisine": 7
+    "grammar": 20,
+    "cuisine": 8
   },
   "featured": {
-    "id": "vocab_braiser",
+    "id": "vocab_brider",
     "category": "Techniques",
-    "level": "B1",
+    "level": "C1",
     "tags": [
-      "cooking",
-      "heat",
-      "advanced"
+      "poultry",
+      "preparation",
+      "basics"
     ],
-    "french": "Braiser",
-    "english": "To braise / cook slowly in a covered pot with small amount of liquid",
-    "japanese": "ブレゼする（蒸し煮にする）",
-    "definition_fr": "(verbe) Cuire lentement des aliments (viandes ou légumes) à couvert à feu très doux dans une petite quantité de liquide aromatisé.",
-    "context_fr": "Laissez braiser le paleron de bœuf pendant trois heures au four.",
-    "context_en": "Let the beef chuck braise for three hours in the oven.",
-    "context_ja": "牛の肩肉をオーブンで3時間ブレゼ（蒸し煮）にしてください。",
+    "french": "Brider",
+    "english": "To truss / tie meat or poultry with string",
+    "japanese": "ブライドする（糸で縛る・整形する）",
+    "definition_fr": "(verbe) Attacher les membres d'une volaille ou d'une pièce de viande à l'aide d'une ficelle pour maintenir sa forme pendant la cuisson.",
+    "context_fr": "Bridez le poulet fermier avant de l'enfourner pour assurer une cuisson uniforme.",
+    "context_en": "Truss the farm chicken before putting it in the oven to ensure even cooking.",
+    "context_ja": "均一に火が入るように、オーブンに入れる前に地鶏をブライド（糸縛り）してください。",
     "is_professional": true
   }
 }

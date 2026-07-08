@@ -83,5 +83,33 @@
       "content_en": "Contemporary haute cuisine blends the classical rigor of Escoffier with molecular gastronomy advancements. It emphasizes flavor purity, absolute seasonal respect, and minimalist artistic presentations.",
       "content_ja": "現代の高等料理（オートキュイジーヌ）は、エスコフィエの古典的厳格さと分子ガストロノミーの成果を融合させています。素材本来の風味の純粋さ、絶対的な季節感の尊重、そして極限まで洗練された芸術的プレゼンテーションに焦点を当てています。"
     }
+  },
+  {
+    "id": "kb_cuis_guide_culinaire_escoffier",
+    "category": "Theory",
+    "level": "C2",
+    "tags": [
+      "history",
+      "literature",
+      "escoffier"
+    ],
+    "grammar": {
+      "topic": "Le Passé Simple dans les Recettes Classiques (Past Simple in Classics)",
+      "explanation_ja": "オーギュスト・エスコフィエの『料理の手引き』における一連の歴史的調理動作を客観的に記述するための単純過去（Passé Simple）の使い方。",
+      "explanation_en": "How to read and understand the historic past tense (Passé Simple) in classic culinary literature."
+    },
+    "cuisine": {
+      "topic": "Le Guide Culinaire d'Escoffier (Escoffier's Culinary Guide)",
+      "content_fr": "Publié en 1903, 'Le Guide Culinaire' est la bible de la cuisine classique française. Les recettes y sont rédigées dans un style concis, utilisant souvent le passé simple. Par exemple : 'On assaisonna la volaille, puis on la mit au four.' La lecture de ces textes permet de comprendre la structure narrative des recettes professionnelles.",
+      "content_en": "Published in 1903, 'Le Guide Culinaire' is the bible of classic French cuisine. The recipes are written in a concise style, often utilizing the passé simple. Reading these texts helps in understanding the narrative structure of professional recipes.",
+      "content_ja": "1903年に出版された『ル・ギド・キュリネール（料理の手引き）』は、古典フランス料理の聖書です。レシピは簡潔なスタイルで書かれており、単純過去が頻繁に使用されます。例えば、「鶏肉に味を調え、オーブンに入れた（assaisonna / mit）」。これらの古典文献を読み解くことで、専門的な料理記述のナラティブ構造を深く理解できます。"
+    },
+    "examples": [
+      {
+        "fr": "Escoffier écrivit ce livre pour codifier la cuisine française ; il y simplifia les structures de la brigade.",
+        "en": "Escoffier wrote this book to codify French cuisine; he simplified the structures of the brigade in it.",
+        "ja": "エスコフィエはフランス料理を体系化するためにこの本を書きました。彼はその中でブリガード（組織）の構成を簡略化しました。"
+      }
+    ]
   }
 ]
