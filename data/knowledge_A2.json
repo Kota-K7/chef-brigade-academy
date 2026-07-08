@@ -1,0 +1,244 @@
+[
+  {
+    "id": "vocab_ciseler",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "basics"
+    ],
+    "french": "Ciseler",
+    "english": "To finely dice (onions/shallots) or shred leaves",
+    "japanese": "細かく刻む（玉ねぎ・エシャロットなど）",
+    "definition_fr": "(verbe) Couper très finement en petits dés (des oignons, des échalotes) ou tailler des herbes aromatiques à l'aide d'un couteau.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut ciseler les échalotes pour la sauce béarnaise.",
+        "en": "You need to finely dice the shallots for the Béarnaise sauce.",
+        "ja": "ベアルネーズソースを作るために、エシャロットを細かく刻む必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chinois",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "utensils",
+      "sauces",
+      "liquids"
+    ],
+    "french": "Chinois",
+    "english": "Conical strainer / China cap",
+    "japanese": "シノワ（円錐形の漉し器）",
+    "definition_fr": "(nom) Passoire en métal en forme de cône avec un grillage très fin, utilisée pour filtrer des sauces, des bouillons ou des jus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le fond de veau au chinois pour enlever toutes les impuretés.",
+        "en": "Pass the veal stock through the chinos strainer to remove all impurities.",
+        "ja": "すべての不純物を取り除くため、子牛の出汁（フォン・ド・ヴォー）をシノワで漉してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_brunoise",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "advanced"
+    ],
+    "french": "Brunoise",
+    "english": "Very small dice (1-2mm cubes)",
+    "japanese": "ブリュノワーズ（1〜2mm角の極細切り・みじん切り）",
+    "definition_fr": "(nom) Technique de coupe qui consiste à tailler des légumes en dés extrêmement petits et réguliers de 1 à 2 millimètres de côté.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Coupez les carottes en brunoise régulière pour la garniture.",
+        "en": "Cut the carrots into a regular brunoise for the garnish.",
+        "ja": "付け合わせ用に、にんじんを均一なブリュノワーズ（みじん切り）にカットしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_ecrire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Écrire",
+    "english": "To write",
+    "japanese": "書く",
+    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le chef écrit la recette du jour sur le tableau.",
+        "en": "The chef writes the recipe of the day on the board.",
+        "ja": "シェフが本日のレシピをボードに書きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_lire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Lire",
+    "english": "To read",
+    "japanese": "読む",
+    "definition_fr": "(verbe) Parcourir des yeux des caractères écrits ou imprimés en en comprenant le sens.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le commis lit le bon de commande rapidement.",
+        "en": "The kitchen assistant reads the order slip quickly.",
+        "ja": "見習い料理人は注文票（ボン）を素早く読みます。"
+      }
+    ]
+  },
+  {
+    "id": "gram_near_future_past",
+    "category": "Grammar",
+    "level": "A2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Near Future and Immediate Past",
+      "explanation_ja": "厨房でのリアルタイムの進捗報告に欠かせない表現です。「これから〜する（近接未来）」には「aller + 不定詞」を、「たった今〜した（近接過去）」には「venir de + 不定詞」を使用します。",
+      "explanation_en": "Use 'aller + infinitive' for the near future (what you are about to do) and 'venir de + infinitive' for the immediate past (what you just did). These are essential for real-time reporting during a busy kitchen service."
+    },
+    "examples": [
+      {
+        "fr": "Je viens de faire rôtir le poulet.",
+        "en": "I just roasted the chicken.",
+        "ja": "たった今、鶏肉をローストしたところです。"
+      },
+      {
+        "fr": "Je vais dresser les assiettes maintenant.",
+        "en": "I am going to plate the dishes now.",
+        "ja": "今から皿盛りをします。"
+      },
+      {
+        "fr": "Le commis vient de nettoyer le plan de travail.",
+        "en": "The kitchen assistant just cleaned the workbench.",
+        "ja": "見習いが調理台の清掃を終えたところです。"
+      }
+    ]
+  },
+  {
+    "id": "gram_causative_faire",
+    "category": "Grammar",
+    "level": "A2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "The Causative Construction (Faire + Infinitive)",
+      "explanation_ja": "「〜させる、〜してもらう」という意味の使役表現です。料理用語では「faire rôtir（ローストさせる＝ローストする）」「faire bouillir（沸騰させる＝沸かす）」のように、熱を通したり調理を施したりする表現で多用されます。",
+      "explanation_en": "The construction 'faire + infinitive' is used in French culinary terminology to mean 'to make/cause someone or something to do an action'. It is commonly used for cooking instructions like 'faire rôtir' (to roast) or 'faire bouillir' (to boil)."
+    },
+    "examples": [
+      {
+        "fr": "Faites bouillir l'eau avant d'ajouter les pâtes.",
+        "en": "Boil the water before adding the pasta.",
+        "ja": "パスタを加える前にお湯を沸かしてください。"
+      },
+      {
+        "fr": "Le chef fait mariner la viande pendant la nuit.",
+        "en": "The chef marinates the meat overnight (causes the meat to marinate).",
+        "ja": "シェフは肉を一晩マリネさせます（マリネします）。"
+      },
+      {
+        "fr": "Faites rissoler les oignons.",
+        "en": "Brown the onions (make the onions brown).",
+        "ja": "タマネギをきつね色に炒めてください。"
+      }
+    ]
+  },
+  {
+    "id": "gram_passive_pronominals",
+    "category": "Grammar",
+    "level": "A2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Passive Pronominal Verbs",
+      "explanation_ja": "再帰代名詞「se」を伴う動詞（代名動詞）は、「〜される」という受動的な意味を表すことができます。厨房の共通ルールや、レシピの工程、料理の伝統的な提供方法などを説明する際によく使われます。",
+      "explanation_en": "Pronominal verbs (verbs with 'se') can be used with a passive meaning when describing general kitchen rules, recipe methods, or how dishes are traditionally served."
+    },
+    "examples": [
+      {
+        "fr": "Le vin blanc se boit frais.",
+        "en": "White wine is to be drunk chilled.",
+        "ja": "白ワインは冷やして飲まれます。"
+      },
+      {
+        "fr": "Ce gâteau se conserve au réfrigérateur.",
+        "en": "This cake is kept in the refrigerator.",
+        "ja": "このケーキは冷蔵庫で保存します。"
+      },
+      {
+        "fr": "La sauce hollandaise ne se réchauffe pas au micro-ondes.",
+        "en": "Hollandaise sauce is not reheated in the microwave.",
+        "ja": "オランデーズソースは電子レンジで温め直すものではありません。"
+      }
+    ]
+  },
+  {
+    "id": "gram_questions",
+    "category": "Grammar",
+    "level": "A2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Forming Questions in the Kitchen (Poser des Questions)",
+      "explanation_ja": "フランス語の疑問文には3つの作り方があります：文末のイントネーションを上げる（カジュアル）、文頭に「Est-ce que」をつける（標準）、主語と動詞を入れ替える「倒置」（フォーマル・接客で多用）。",
+      "explanation_en": "You can form questions in three ways in French: by raising your voice at the end (informal), by placing 'Est-ce que' before the sentence (standard), or by inverting the verb and subject pronoun (formal, highly preferred for VIP customers)."
+    },
+    "examples": [
+      {
+        "fr": "Avez-vous des allergies alimentaires ?",
+        "en": "Do you have any food allergies? (formal inversion)",
+        "ja": "食物アレルギーはございますか？"
+      },
+      {
+        "fr": "Est-ce que le four est chaud ?",
+        "en": "Is the oven hot? (standard 'Est-ce que')",
+        "ja": "オーブンは温まっていますか？"
+      },
+      {
+        "fr": "Quelle cuisson préférez-vous pour votre steak ?",
+        "en": "How would you like your steak cooked? (formal question word + inversion)",
+        "ja": "ステーキの焼き加減はいかがいたしますか？"
+      }
+    ]
+  },
+  {
+    "id": "cuis_sauces_meres",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "sauces",
+      "basics",
+      "theory"
+    ],
+    "cuisine": {
+      "topic": "Les Cinq Sauces Mères (The Five Mother Sauces)",
+      "content_fr": "Codifiées par Marie-Antoine Carême puis Auguste Escoffier, les cents sauces mères de la cuisine française sont : la Béchamel (lait + roux blanc), la Velouté (fond blanc + roux blond), la Sauce Tomate (tomates + roux brun + poitrine de porc), l'Espagnole (fond brun de veau + roux brun + mirepoix) et la Hollandaise (émulsion chaude de jaune d'œuf, beurre clarifié et jus de citron/vinaigre). Elles servent de base pour des centaines de sauces dérivées.",
+      "content_en": "Codified by Marie-Antoine Carême and later Auguste Escoffier, the five mother sauces of French cuisine are: Béchamel (milk + white roux), Velouté (white stock + blond roux), Tomato Sauce (tomatoes + brown roux + pork belly), Espagnole (brown veal stock + brown roux + mirepoix), and Hollandaise (warm emulsion of egg yolk, clarified butter, and lemon juice/vinegar). They serve as the starting point for hundreds of derivative sauces.",
+      "content_ja": "マリー＝アントワーヌ・カレームが体系化し、後にオーギュスト・エスコフィエが再編したフランス料理の五大母ソース（サス・メール）は、①ベシャメル（牛乳＋ホワイトルー）、②ヴルーテ（白い出汁＋ブロンドルー）、③ソース・トマト（トマト＋ブラウンルー＋豚ばら肉）、④エスパニョール（茶色い子牛の出汁＋ブラウンルー＋香味野菜）、⑤オランデーズ（卵黄・澄ましバター・レモン汁/酢の温かい乳化ソース）です。これらは何百種類もの派生ソース of ベースとなります。"
+    }
+  }
+]

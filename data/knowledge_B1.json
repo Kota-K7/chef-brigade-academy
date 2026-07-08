@@ -1,0 +1,257 @@
+[
+  {
+    "id": "vocab_mouiller",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "cooking",
+      "liquids",
+      "sauces"
+    ],
+    "french": "Mouiller",
+    "english": "To wet / add liquid (stock, wine, water) to a preparation",
+    "japanese": "水分を加える（スープ、ワイン、水など）",
+    "definition_fr": "(verbe) Verser un liquide (de l'eau, du vin, du bouillon ou du lait) dans un plat ou un récipient pendant sa préparation ou sa cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mouillez le roux avec le lait chaud pour commencer la béchamel.",
+        "en": "Wet the roux with warm milk to start the béchamel.",
+        "ja": "ベシャメルソースを始めるために、ルーに温かい牛乳を加えます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_braiser",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "cooking",
+      "heat",
+      "advanced"
+    ],
+    "french": "Braiser",
+    "english": "To braise / cook slowly in a covered pot with small amount of liquid",
+    "japanese": "ブレゼする（蒸し煮にする）",
+    "definition_fr": "(verbe) Cuire lentement des aliments (viandes ou légumes) à couvert à feu très doux dans une petite quantité de liquide aromatisé.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez braiser le paleron de bœuf pendant trois heures au four.",
+        "en": "Let the beef chuck braise for three hours in the oven.",
+        "ja": "牛の肩肉をオーブンで3時間ブレゼ（蒸し煮）にしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_voyager",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Voyager",
+    "english": "To travel",
+    "japanese": "旅行する",
+    "definition_fr": "(verbe) Faire un trajet d'un lieu à un autre, généralement lointain.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le chef aime voyager pour découvrir de nouveaux ingrédients.",
+        "en": "The chef likes to travel to discover new ingredients.",
+        "ja": "シェフは新しい食材を発見するために旅行するのが好きです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_resoudre",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Résoudre",
+    "english": "To solve",
+    "japanese": "解決する",
+    "definition_fr": "(verbe) Trouver une solution à un problème ou une difficulté.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Nous devons résoudre le problème du four avant le service.",
+        "en": "We must solve the oven problem before the service.",
+        "ja": "サービスが始まる前にオーブンの問題を解決しなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": "gram_past_tense_comparison",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Passé Composé vs Imparfait",
+      "explanation_ja": "過去の出来事を報告する際、完了した具体的な動作（〜した）には複合過去（Passé composé）を、その時の状況描写や継続的な状態（〜だった、〜していた）には半過去（Imparfait）を使い分けます。",
+      "explanation_en": "Use the Passé Composé for specific, completed actions in the past (e.g., 'I cooked the meat'). Use the Imparfait for descriptive details, background situations, or ongoing/habitual actions in the past (e.g., 'The kitchen was busy')."
+    },
+    "examples": [
+      {
+        "fr": "Hier, j'ai préparé la farce pendant que le four chauffait.",
+        "en": "Yesterday, I prepared the stuffing while the oven was heating.",
+        "ja": "昨日、オーブンが温まるのを待つ間に、私は詰め物（ファルス）を用意しました。"
+      },
+      {
+        "fr": "Le client a adoré le plat ; il était très savoureux.",
+        "en": "The customer loved the dish; it was very tasty.",
+        "ja": "お客様はその料理をとても気に入ってくださいました。非常に美味しかったです。"
+      },
+      {
+        "fr": "Quand je travaillais à Paris, nous faisions le pain nous-mêmes.",
+        "en": "When I worked in Paris, we made the bread ourselves.",
+        "ja": "パリで働いていた頃、私たちはパンを自家製で作っていました。"
+      }
+    ]
+  },
+  {
+    "id": "gram_comparisons",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Adjectives and Comparative Structures",
+      "explanation_ja": "食材や仕上がり、料理のクオリティを比較する際に使用します。「〜より〜だ（plus... que）」「〜ほど〜ではない（moins... que）」「同じくらい〜だ（aussi... que）」を使って表現します。",
+      "explanation_en": "Use comparative structures to compare the qualities of ingredients, prep work, or dishes. Use 'plus... que' (more... than), 'moins... que' (less... than), or 'aussi... que' (as... as)."
+    },
+    "examples": [
+      {
+        "fr": "Ce plat est plus cher que celui-là.",
+        "en": "This dish is more expensive than that one.",
+        "ja": "この料理はあちらの料理より値段が高いです。"
+      },
+      {
+        "fr": "La texture de cette sauce est moins épaisse que la béchamel.",
+        "en": "The texture of this sauce is less thick than the béchamel.",
+        "ja": "このソースのテクスチャーはベシャメルソースほど厚く（濃く）ありません。"
+      },
+      {
+        "fr": "Le poisson doit être aussi frais que possible.",
+        "en": "The fish must be as fresh as possible.",
+        "ja": "魚はできる限り新鮮でなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": "gram_object_pronouns",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Direct, Indirect, and Adverbial Pronouns (Y, EN)",
+      "explanation_ja": "忙しい現場で同じ名詞の繰り返しを避けて素早く指示を伝えるための代名詞です。直接目的語（それを：le/la/les）、間接目的語（彼に/彼らに：lui/leur）、場所（そこへ：y）、数量や食材（それをいくらか：en）を適切に使い分けます。",
+      "explanation_en": "Avoid repeating nouns during rapid kitchen communication by using object pronouns. Use 'le/la/les' for direct objects, 'lui/leur' for indirect objects, 'y' for places ('there'), and 'en' for quantities/ingredients ('some')."
+    },
+    "examples": [
+      {
+        "fr": "Avez-vous besoin de farine ? - Oui, donnez-m'en.",
+        "en": "Do you need flour? - Yes, give me some.",
+        "ja": "小麦粉が必要ですか？ - はい、少し（私に）ください。"
+      },
+      {
+        "fr": "Où est le fond de veau ? - Je l'ai mis au réfrigérateur.",
+        "en": "Where is the veal stock? - I put it in the refrigerator.",
+        "ja": "フォン・ド・ボーはどこですか？ - 冷蔵庫に入れておきました（それを入れました）。"
+      },
+      {
+        "fr": "Apporte le sel au chef. - D'accord, je lui apporte.",
+        "en": "Bring the salt to the chef. - Okay, I will bring it to him.",
+        "ja": "シェフに塩を持っていって。 - わかりました、彼に届けます。"
+      }
+    ]
+  },
+  {
+    "id": "gram_imperative_pronouns",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Imperative with Object Pronouns",
+      "explanation_ja": "命令文で目的語代名詞を併用するルールです。肯定命令では動詞の直後にハイフンで繋ぎ（例：donnez-le-moi！それを私にください）、否定命令では動詞の前に代名詞を置きます（例：ne le touchez pas！それに触らないで）。",
+      "explanation_en": "When giving orders with pronouns in the imperative mood, attach the pronouns to the verb with a hyphen in affirmative commands (e.g., 'donnez-le-moi'). In negative commands, pronouns go before the verb (e.g., 'ne le touchez pas')."
+    },
+    "examples": [
+      {
+        "fr": "Servez-le chaud !",
+        "en": "Serve it hot!",
+        "ja": "温かいうちに提供しなさい！"
+      },
+      {
+        "fr": "Ne le brûlez pas !",
+        "en": "Do not burn it!",
+        "ja": "焦がさないでください！"
+      },
+      {
+        "fr": "Préparez-les à l'avance !",
+        "en": "Prepare them in advance!",
+        "ja": "それらを事前に準備しておきなさい！"
+      }
+    ]
+  },
+  {
+    "id": "gram_prepositions_culinary",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Prepositions for Sourcing and Tools (Chez, De, À, Avec)",
+      "explanation_ja": "食材の調達先や調理器具、加熱方法を正確に伝えるための前置詞です。お店・人を表すには「chez」（例：chez le boucher＝肉屋で）、産地・調達元には「de」、使用する道具には「avec」、加熱方法・〜風の味付けには「à / au」（例：au four＝オーブンで、à la poêle＝フライパンで）を使い分けます。",
+      "explanation_en": "Use the correct preposition when talking about ingredients and tools. Use 'chez' for a person's shop/farm (e.g., 'chez le boucher'), 'de' for the origin of ingredients ('de Rungis'), 'avec' for the tool used ('avec un fouet'), and 'à' / 'au' for the cooking method ('au four')."
+    },
+    "examples": [
+      {
+        "fr": "J'achète la viande chez le boucher local.",
+        "en": "I buy the meat at the local butcher's.",
+        "ja": "私は地元の肉屋で肉を買います。"
+      },
+      {
+        "fr": "Fouettez les blancs en neige avec un fouet propre.",
+        "en": "Whip the egg whites into peaks with a clean whisk.",
+        "ja": "きれいなホイッパー（泡立て器）を使って卵白を泡立ててください。"
+      },
+      {
+        "fr": "Cuisez le poulet au four à 180 degrés.",
+        "en": "Cook the chicken in the oven at 180 degrees.",
+        "ja": "鶏肉をオーブンで180度で焼いてください。"
+      },
+      {
+        "fr": "Ce beurre vient de Normandie.",
+        "en": "This butter comes from Normandy.",
+        "ja": "このバターはノルマンディー産です。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_fonds_classiques",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "stocks",
+      "basics",
+      "theory"
+    ],
+    "cuisine": {
+      "topic": "Les Fonds de Cuisine Classiques (Classical Stocks)",
+      "content_fr": "Le fond est la base liquide et aromatique de la cuisine française. On distingue les fonds blancs (veau, volaille, poisson - les os sont mijotés directement avec la garniture aromatique) et les fonds bruns (veau, bœuf, gibier - les os et viandes sont d'abord rôtis au four jusqu'à coloration brune avant d'être mouillés d'eau). La cuisson lente permet d'extraire le collagène qui donne du corps à la sauce.",
+      "content_en": "Stocks are the liquid and aromatic backbone of French cuisine. They are categorized into white stocks (veal, poultry, fish - bones are simmered directly with aromatic vegetables) and brown stocks (veal, beef, game - bones and meat are roasted in the oven until browned before being simmered). Slow cooking extracts collagen, which gives body to the final sauce.",
+      "content_ja": "フォン（出汁）はフランス料理の液体ベースおよび芳香の骨格です。白い出汁「フォン・ブラン」（子牛、鶏、魚など、骨を香草野菜と直接煮出したもの）と、茶色い出汁「フォン・ブラン/フォン・ブリュン」（子牛、牛、ジビエなど、骨や肉をオーブンで褐色にローストしてから煮出したもの）に分類されます。弱火での長時間の煮込みによって骨からコラーゲンを抽出し、これがソースにコクと粘り気を与えます。"
+    }
+  }
+]

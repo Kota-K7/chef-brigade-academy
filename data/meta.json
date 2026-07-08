@@ -5,19 +5,21 @@
     "cuisine": 7
   },
   "featured": {
-    "id": "vocab_gen_resoudre",
-    "category": "General",
+    "id": "vocab_braiser",
+    "category": "Techniques",
     "level": "B1",
     "tags": [
-      "verbs"
+      "cooking",
+      "heat",
+      "advanced"
     ],
-    "french": "Résoudre",
-    "english": "To solve",
-    "definition_fr": "(verbe) Trouver une solution à un problème ou une difficulté.",
-    "japanese": "解決する",
-    "context_fr": "Nous devons résoudre le problème du four avant le service.",
-    "context_en": "We must solve the oven problem before the service.",
-    "context_ja": "サービスが始まる前にオーブンの問題を解決しなければなりません。",
-    "is_professional": false
+    "french": "Braiser",
+    "english": "To braise / cook slowly in a covered pot with small amount of liquid",
+    "japanese": "ブレゼする（蒸し煮にする）",
+    "definition_fr": "(verbe) Cuire lentement des aliments (viandes ou légumes) à couvert à feu très doux dans une petite quantité de liquide aromatisé.",
+    "context_fr": "Laissez braiser le paleron de bœuf pendant trois heures au four.",
+    "context_en": "Let the beef chuck braise for three hours in the oven.",
+    "context_ja": "牛の肩肉をオーブンで3時間ブレゼ（蒸し煮）にしてください。",
+    "is_professional": true
   }
 }

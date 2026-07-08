@@ -1,0 +1,189 @@
+[
+  {
+    "id": "vocab_emulsionner",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "sauces",
+      "chemistry",
+      "basics"
+    ],
+    "french": "Émulsionner",
+    "english": "To emulsify / bind two unmixable liquids",
+    "japanese": "エミュルショネする（乳化させる）",
+    "definition_fr": "(verbe) Mélanger intimement deux liquides non miscibles (comme l'huile et l'eau) à l'aide d'un fouet ou d'un mélangeur pour obtenir une texture stable.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Fouettez énergiquement pour émulsionner la sauce hollandaise.",
+        "en": "Whisk vigorously to emulsify the hollandaise sauce.",
+        "ja": "オランデーズソースをエミュルショネ（乳化）させるために、力強く泡立ててください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_brider",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "poultry",
+      "preparation",
+      "basics"
+    ],
+    "french": "Brider",
+    "english": "To truss / tie meat or poultry with string",
+    "japanese": "ブライドする（糸で縛る・整形する）",
+    "definition_fr": "(verbe) Attacher les membres d'une volaille ou d'une pièce de viande à l'aide d'une ficelle pour maintenir sa forme pendant la cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Bridez le poulet fermier avant de l'enfourner pour assurer une cuisson uniforme.",
+        "en": "Truss the farm chicken before putting it in the oven to ensure even cooking.",
+        "ja": "均一に火が入るように、オーブンに入れる前に地鶏をブライド（糸縛り）してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_contiser",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "prep",
+      "meat",
+      "fish",
+      "classical"
+    ],
+    "french": "Contiser",
+    "english": "To make small incisions in meat or fish and insert a flavoring ingredient",
+    "japanese": "コンティゼする（食材の皮下や表面に切り込みを入れ、香気食材を差し込む）",
+    "definition_fr": "(verbe) Faire de petites incisions superficielles dans une viande, un poisson ou une volaille, pour y glisser une lamelle de truffe, d'ail, de langue ou d'autre condiment.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Contisez le filet de poisson avec de fines lamelles de truffe avant la cuisson.",
+        "en": "Score the fish fillet and insert thin slices of truffle before cooking.",
+        "ja": "調理する前に、魚のフィレに切り込みを入れてトリュフの薄切りをコンティゼ（差し込み）してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sublimer",
+    "category": "Philosophy",
+    "level": "C1",
+    "tags": [
+      "philosophy",
+      "taste",
+      "haute-cuisine"
+    ],
+    "french": "Sublimer",
+    "english": "To enhance / sublimate the flavors of raw ingredients",
+    "japanese": "（素材の味を）高める / 昇華させる / 極限まで引き出す",
+    "definition_fr": "(verbe) Rendre un ingrédient encore meilleur ou plus noble en utilisant une technique de cuisson ou d'assaisonnement précise.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Notre but est de sublimer le goût naturel du homard bleu sans le masquer.",
+        "en": "Our goal is to enhance the natural taste of the blue lobster without masking it.",
+        "ja": "私たちの目的は、ブルーオマール本来の自然な味わいを損なうことなく、極限まで引き出す（昇華させる）ことです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chinois",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "tool",
+      "sauces",
+      "refining"
+    ],
+    "french": "Passer au chinois",
+    "english": "To strain through a chinois (conical strainer) for smoothness",
+    "japanese": "シノワで漉す / なめらかなソースに仕上げる",
+    "definition_fr": "(verbe) Filtrer un bouillon, une crème ou une sauce à l'aide d'une passoire conique très fine pour en retirer les impuretés et obtenir une texture lisse.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le jus au chinois étamine pour obtenir une brillance parfaite.",
+        "en": "Strain the jus through a fine chinois cloth to achieve perfect shine.",
+        "ja": "完璧な光沢と滑らかさを出すために、ソース（ジュ）を極細のシノワ（漉し器）で漉してください。"
+      }
+    ]
+  },
+  {
+    "id": "gram_subjunctive",
+    "category": "Grammar",
+    "level": "C1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "The Subjunctive Mood (Le Subjonctif)",
+      "explanation_ja": "必要性や義務、主観的な感情や疑念を表す表現の後に使われます。厨房でのルール伝達や、「〜することが不可欠だ（Il est indispensable que...）」といった強い指示で用いられます。",
+      "explanation_en": "Use the subjunctive mood after expressions of necessity, obligation, emotion, or doubt. It is commonly used in professional communications where instructions or requirements must be strictly followed."
+    },
+    "examples": [
+      {
+        "fr": "Il est indispensable qu'elle suive les consignes du chef.",
+        "en": "It is essential that she follows the chef's instructions.",
+        "ja": "彼女がシェフの指示に従うことが不可欠です。"
+      },
+      {
+        "fr": "Il faut que vous finissiez la mise en place avant midi.",
+        "en": "You must finish the prep work before noon.",
+        "ja": "正午までに下準備（ミザンプラス）を終えなければなりません。"
+      },
+      {
+        "fr": "Bien que le poisson soit frais, il faut le cuire rapidement.",
+        "en": "Although the fish is fresh, it must be cooked quickly.",
+        "ja": "その魚は新鮮ですが、素早く調理する必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "gram_relative_pronouns",
+    "category": "Grammar",
+    "level": "C1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Relative Pronouns and Emphatic Structures",
+      "explanation_ja": "文と文を繋ぐための関係代名詞です。特に「de」を伴う修飾語を置き換える「dont」や、「私がこだわっているのは〜（Ce que...）」といった強調構文を使うことで、シェフとしての哲学やこだわりを論理的に語ることができます。",
+      "explanation_en": "Relative pronouns link clauses together. Use 'dont' to replace objects introduced by 'de' (e.g., 'the sauce I am proud of'). Use emphatic structures like 'ce qui / ce que' to highlight key elements of culinary philosophy."
+    },
+    "examples": [
+      {
+        "fr": "C'est la sauce dont je suis le plus fier.",
+        "en": "This is the sauce of which I am most proud.",
+        "ja": "これは私が最も誇りに思っているソースです。"
+      },
+      {
+        "fr": "Ce que j'aime le plus, c'est la cuisine mijotée.",
+        "en": "What I like most is slow-cooked cuisine.",
+        "ja": "私が最も愛しているのは、じっくり煮込んだ料理（煮込み料理）です。"
+      },
+      {
+        "fr": "Le couteau que le chef m'a donné est très tranchant.",
+        "en": "The knife that the chef gave me is very sharp.",
+        "ja": "シェフが私にくれた包丁は、とてもよく切れます。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_emulsion_sauce",
+    "category": "Theory",
+    "level": "C1",
+    "tags": [
+      "emulsion",
+      "chemistry",
+      "sauces"
+    ],
+    "cuisine": {
+      "topic": "La Science des Émulsions Chaudes (Hot Emulsion Sauces)",
+      "content_fr": "Les émulsions chaudes comme la sauce Béarnaise ou Hollandaise lient le beurre fondu à l'eau grâce à la lécithine contenue dans le jaune d'œuf. La température de cuisson doit rester inférieure à 65°C pour éviter la coagulation des protéines de l'œuf, ce qui ferait trancher la sauce.",
+      "content_en": "Hot emulsion sauces like Béarnaise or Hollandaise bind melted butter with water using lecithin in egg yolks. The cooking temperature must stay below 65°C (149°F) to prevent egg protein coagulation, which causes the sauce to split.",
+      "content_ja": "ベアルネーズやオランデーズなどの温製乳化ソースは、卵黄に含まれるレシチンによって溶かしバターと水分を結合させます。卵白質が凝固してソースが分離するのを防ぐため、調理温度は必ず65℃未満に保つ必要があります。"
+    }
+  }
+]

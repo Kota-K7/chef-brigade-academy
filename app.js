@@ -13,12 +13,14 @@ import { renderDictation } from './js/views/dictation.js';
 export const state = {
   meta: null,
   db: {
+    knowledge: [],
     vocabulary: [],
     grammar: [],
     cuisine: [],
     quizzes: []
   },
   loaded: {
+    knowledge: new Set(),
     vocabulary: new Set(),
     grammar: new Set(),
     cuisine: new Set(),
@@ -138,25 +140,72 @@ export async function ensureDataLoaded(type, level) {
   const levelsToLoad = level === 'ALL' ? ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] : [level];
   
   for (const lvl of levelsToLoad) {
-    if (state.loaded[type].has(lvl)) continue;
+    if (state.loaded.knowledge.has(lvl)) continue;
     
     try {
-      const response = await fetch(`data/${type}_${lvl}.json`);
+      const response = await fetch(`data/knowledge_${lvl}.json`);
       if (!response.ok) {
-        console.warn(`Could not load data/${type}_${lvl}.json`);
+        console.warn(`Could not load data/knowledge_${lvl}.json`);
         continue;
       }
       const data = await response.json();
       
-      const existingIds = new Set(state.db[type].map(item => item.id));
+      const existingIds = new Set(state.db.knowledge.map(item => item.id));
       for (const item of data) {
         if (!existingIds.has(item.id)) {
-          state.db[type].push(item);
+          state.db.knowledge.push(item);
+          
+          // Compat-Layer: Sync to vocabulary segments
+          if (item.french && item.japanese) {
+            state.db.vocabulary.push({
+              id: item.id,
+              category: item.category || "Vocabulary",
+              level: item.level,
+              tags: item.tags || [],
+              french: item.french,
+              english: item.english,
+              japanese: item.japanese,
+              definition_fr: item.definition_fr,
+              context_fr: item.examples && item.examples[0] ? item.examples[0].fr : "",
+              context_en: item.examples && item.examples[0] ? item.examples[0].en : "",
+              context_ja: item.examples && item.examples[0] ? item.examples[0].ja : "",
+              is_professional: item.is_professional !== undefined ? item.is_professional : true
+            });
+          }
+          
+          // Compat-Layer: Sync to grammar segments
+          if (item.grammar) {
+            state.db.grammar.push({
+              id: item.id,
+              topic: item.grammar.topic,
+              level: item.level,
+              explanation_ja: item.grammar.explanation_ja,
+              explanation_en: item.grammar.explanation_en,
+              examples: item.examples || []
+            });
+          }
+          
+          // Compat-Layer: Sync to cuisine segments
+          if (item.cuisine) {
+            state.db.cuisine.push({
+              id: item.id,
+              category: item.category || "Theory",
+              level: item.level,
+              tags: item.tags || [],
+              topic: item.cuisine.topic,
+              content_fr: item.cuisine.content_fr,
+              content_en: item.cuisine.content_en,
+              content_ja: item.cuisine.content_ja
+            });
+          }
         }
       }
-      state.loaded[type].add(lvl);
+      state.loaded.knowledge.add(lvl);
+      state.loaded.vocabulary.add(lvl);
+      state.loaded.grammar.add(lvl);
+      state.loaded.cuisine.add(lvl);
     } catch (err) {
-      console.error(`Failed to load ${type} level ${lvl}:`, err);
+      console.error(`Failed to load knowledge level ${lvl}:`, err);
     }
   }
 }

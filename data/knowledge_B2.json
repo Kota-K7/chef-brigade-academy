@@ -1,0 +1,277 @@
+[
+  {
+    "id": "vocab_chiffonner",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "vegetables",
+      "cutting",
+      "basics"
+    ],
+    "french": "Chiffonner",
+    "english": "To cut into fine ribbons (chiffonade)",
+    "japanese": "シフォナードにする（葉野菜を細切りにする）",
+    "definition_fr": "(verbe) Couper des légumes-feuilles (comme l'oseille, le chou ou la salade) en fines lanières.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Veuillez chiffonner les feuilles de basilic pour la garniture.",
+        "en": "Please chiffonade the basil leaves for the garnish.",
+        "ja": "ガルニチュール（飾り）用にバジルの葉をシフォナード（細切り）にしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_degorger",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "preparation",
+      "impurities",
+      "basics"
+    ],
+    "french": "Dégorger",
+    "english": "To soak / draw out liquid or impurities using salt or water",
+    "japanese": "デゴルジェする（血抜き・水分の抽出）",
+    "definition_fr": "(verbe) Laisser tremper un aliment dans de l'eau ou le saupoudrer de sel pour éliminer les impuretés, le sang ou l'excès d'eau.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites dégorger les ris de veau dans de l'eau glacée pendant deux heures.",
+        "en": "Soak the sweetbreads in ice water for two hours to draw out impurities.",
+        "ja": "仔牛のリードヴォー（胸腺肉）を氷水に2時間浸してデゴルジェ（血抜き）してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_singer",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "sauces",
+      "techniques"
+    ],
+    "french": "Singer",
+    "english": "To sprinkle ingredients roasting in fat with flour to thicken a sauce",
+    "japanese": "サンジェする（炒めた食材に小麦粉を振りかけ、ソースにとろみをつける）",
+    "definition_fr": "(verbe) Saupoudrer de farine des éléments (viandes, légumes) préalablement rissolés avec de la matière grasse, afin de lier la sauce ultérieurement.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Singez la viande avant d'ajouter le bouillon for le ragoût.",
+        "en": "Sprinkle the meat with flour before adding the broth for the stew.",
+        "ja": "煮込み用のブイヨンを加える前に、お肉をサンジェ（小麦粉を振りかける）してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_recommander",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "hospitality",
+      "VIP"
+    ],
+    "french": "Recommander",
+    "english": "To recommend / suggest a dish or wine to a client",
+    "japanese": "（料理やワインを）お勧めする / 推薦する",
+    "definition_fr": "(verbe) Conseiller un plat ou une boisson à un client pour son plaisir et selon ses goûts.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Je vous recommande ce vin rouge pour accompagner le canard rôti.",
+        "en": "I recommend this red wine to accompany the roasted duck.",
+        "ja": "鴨のローストに合わせるワインとして、こちらの赤ワインをお勧めいたします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sexculser",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "apology",
+      "complaints"
+    ],
+    "french": "Veuillez m'excuser",
+    "english": "Please excuse me / I apologize for the inconvenience",
+    "japanese": "申し訳ございません / お許しください",
+    "definition_fr": "(expression) Formule de politesse utilisée pour présenter ses excuses ou ses regrets face à une erreur de service.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Veuillez m'excuser pour ce retard, je vous apporte l'assiette immédiatement.",
+        "en": "Please excuse me for the delay, I will bring you the plate immediately.",
+        "ja": "お待たせして大変申し訳ございません。ただちにお皿をお持ちいたします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_allergene",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "allergies",
+      "health"
+    ],
+    "french": "Allergène",
+    "english": "Allergen / substance causing allergic reactions",
+    "japanese": "アレルゲン（アレルギー原因物質）",
+    "definition_fr": "(nom masculin) Substance qui provoque une réaction allergique (comme le gluten, les arachides ou les crustacés).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pourriez-vous me dire si ce plat contient des allergènes comme le gluten ?",
+        "en": "Could you tell me if this dish contains allergens such as gluten?",
+        "ja": "この料理にはグルテンなどのアレルゲンが含まれているか教えていただけますでしょうか？"
+      }
+    ]
+  },
+  {
+    "id": "vocab_privatiser",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "booking",
+      "planning"
+    ],
+    "french": "Privatiser",
+    "english": "To reserve a private room or restaurant exclusively for a group",
+    "japanese": "貸し切る / プライベート空間にする",
+    "definition_fr": "(verbe) Réserver l'intégralité d'un restaurant, d'une salle ou d'un salon pour un événement privé.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Si vous le souhaitez, vous pouvez privatiser ce salon pour votre événement.",
+        "en": "If you wish, you can reserve this private room exclusively for your event.",
+        "ja": "ご希望であれば、イベントのためにこの個室サロンを貸し切ることも可能です。"
+      }
+    ]
+  },
+  {
+    "id": "gram_conditional",
+    "category": "Grammar",
+    "level": "B2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "The Conditional Mood (Le Conditionnel)",
+      "explanation_ja": "顧客や同僚に対して丁寧な依頼をする際や、「〜だろうに」「〜すべきだ」といった仮定の話やアドバイスをする際に使用します。",
+      "explanation_en": "Use the conditional mood for polite requests to customers or colleagues (e.g., 'I would like'), or to express hypothetical situations or advice (e.g., 'you should taste')."
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais une table près de la cheminée.",
+        "en": "I would like a table by the fireplace.",
+        "ja": "暖炉のそばのテーブルをお願いしたいのですが。"
+      },
+      {
+        "fr": "Vous devriez goûter cette spécialité.",
+        "en": "You should taste this specialty.",
+        "ja": "こちらの名物料理をぜひ味わってみるべきです。"
+      },
+      {
+        "fr": "Pourriez-vous me passer le fouet, s'il vous plaît ?",
+        "en": "Could you pass me the whisk, please?",
+        "ja": "ホイッパーを渡していただけますでしょうか？"
+      }
+    ]
+  },
+  {
+    "id": "gram_gerondif",
+    "category": "Grammar",
+    "level": "B2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "The Gerundive (Le Gérondif)",
+      "explanation_ja": "「en + 現在分詞」の形で構成され、「〜しながら（同時進行）」や「〜することによって（手段）」を表現します。調理工程で複数の動作を同時に行う指示によく使われます。",
+      "explanation_en": "Formed with 'en + present participle', the gerundive expresses simultaneous action (doing something while doing something else) or the manner/method of cooking."
+    },
+    "examples": [
+      {
+        "fr": "On obtient une sauce lisse en passant la préparation au chinois.",
+        "en": "One obtains a smooth sauce by passing the preparation through a chinois strainer.",
+        "ja": "シノワで漉すことによって、なめらかなソースが得られます。"
+      },
+      {
+        "fr": "Fouettez la crème en ajoutant le sucre petit à petit.",
+        "en": "Whip the cream while adding the sugar little by little.",
+        "ja": "砂糖を少しずつ加えながら、生クリームを泡立ててください。"
+      },
+      {
+        "fr": "Il s'est brûlé en sortant le plat du four.",
+        "en": "He burned himself while taking the dish out of the oven.",
+        "ja": "彼はオーブンから皿を取り出すときに火傷しました。"
+      }
+    ]
+  },
+  {
+    "id": "gram_si_clauses",
+    "category": "Grammar",
+    "level": "B2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Si Clauses (Hypothetical Expressions)",
+      "explanation_ja": "条件や仮定を表す「si（もし〜なら）」の構文です。厨房でのメニュー計画や代替案の提示において、「もし〜なら、〜する/〜だろう」と表現する際に使用します。「si + 現在形 ➔ 未来形」で現実的な可能性を、「si + 半過去 ➔ 条件法」で現在の事実と異なる仮定を表します。",
+      "explanation_en": "Use 'si' (if) clauses to express conditions and hypotheses. In professional contexts, it is useful for menu planning or alternative options: 'si + present -> future' (real possibilities) or 'si + imperfect -> conditional' (hypothetical scenarios)."
+    },
+    "examples": [
+      {
+        "fr": "Si nous trouvons du poisson frais, nous ferons la bouillabaisse.",
+        "en": "If we find fresh fish, we will make bouillabaisse.",
+        "ja": "もし新鮮な魚が手に入れば、ブイヤベースを作ります。"
+      },
+      {
+        "fr": "Si j'avais plus de temps, je préparerais un soufflé.",
+        "en": "If I had more time, I would prepare a soufflé.",
+        "ja": "もしもっと時間があれば、スフレを準備するのですが。"
+      },
+      {
+        "fr": "Si le client le demande, nous pouvons modifier le menu.",
+        "en": "If the customer requests it, we can modify the menu.",
+        "ja": "もしお客様がご要望になれば、メニューを変更することができます。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_maillard_science",
+    "category": "Theory",
+    "level": "B2",
+    "tags": [
+      "chemistry",
+      "heat",
+      "browning"
+    ],
+    "cuisine": {
+      "topic": "La Réaction de Maillard (The Maillard Reaction)",
+      "content_fr": "La réaction de Maillard se produit entre les acides aminés et les sucres à partir de 140°C. Elle est responsable de la coloration brune et du développement des arômes des viandes saisies ou du pain cuit.",
+      "content_en": "The Maillard reaction occurs between amino acids and reducing sugars starting at 140°C (284°F). It is responsible for the brown color and complex aromas of seared meat and baked bread.",
+      "content_ja": "メイラード反応は、140℃以上でアミノ酸と糖の間で起こる化学反応です。肉のソテーや焼き立てのパンの美味しそうな褐色と香ばしい風味を生み出す役割を担っています。"
+    }
+  },
+  {
+    "id": "cuis_menu_classique",
+    "category": "Theory",
+    "level": "B2",
+    "tags": [
+      "menu",
+      "planning",
+      "theory"
+    ],
+    "cuisine": {
+      "topic": "La Structure du Menu Classique (Classic Menu Structure)",
+      "content_fr": "Le menu classique français codifié par Escoffier comprend traditionnellement plusieurs services dans un ordre précis : les hors-d'œuvre (froids ou chauds), le potage (soupe), les relevés (grosses pièces de viande), les entrées (plats légers), le rôt (volaille ou gibier rôti), les entremets (légumes puis douceurs) et enfin le dessert. Aujourd'hui, cela s'est simplifié en triptyque (Entrée, Plat, Dessert), mais la progression logique des saveurs (du plus léger au plus riche) reste fondamentale pour la planification.",
+      "content_en": "The classic French menu codified by Escoffier traditionally comprises several courses in a precise order: hors-d'œuvre (cold or hot), potage (soup), relevés (large joints of meat), entrées (lighter dishes), rôt (roasted poultry or game), entremets (vegetables and sweets), and dessert. Today, this has simplified to a three-course structure (Entrée, Main, Dessert), but the logical flavor progression (from lightest to richest) remains fundamental to menu planning.",
+      "content_ja": "エスコフィエが体系化した古典的フランス料理のメニューは、伝統的に以下の順序で構成されます：①オードブル（冷製・温製）、②ポタージュ（スープ）、③ルルヴェ（大きな塊肉）、④アントレ（温かい料理）、⑤ロ（ローストした鳥獣肉）、⑥アントルメ（野菜料理と甘味）、⑦デザート。現代では「前菜・主菜・デザート」の3皿に簡略化されていますが、味わいの論理的な進行（軽いものから重いものへ）はメニュー計画において今なお不可欠な基本です。"
+    }
+  }
+]

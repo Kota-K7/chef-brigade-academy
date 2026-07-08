@@ -76,44 +76,50 @@ def is_culinary(entry):
 
 def update_meta_json():
     """
-    Aggregates statistics from all files and updates meta.json.
+    Aggregates statistics from knowledge_{level}.json files and updates meta.json.
     """
     vocab_count = 0
     grammar_count = 0
     cuisine_count = 0
     all_vocab_items = []
     
-    # Sum counts from all A1-C2 files
+    # Sum counts from all knowledge A1-C2 files
     for level in ALL_LEVELS:
-        # Vocabulary
-        vocab_path = os.path.join(os.path.dirname(__file__), '..', 'data', f'vocabulary_{level}.json')
-        if os.path.exists(vocab_path):
+        knowledge_path = os.path.join(os.path.dirname(__file__), '..', 'data', f'knowledge_{level}.json')
+        if os.path.exists(knowledge_path):
             try:
-                with open(vocab_path, 'r', encoding='utf-8') as f:
+                with open(knowledge_path, 'r', encoding='utf-8') as f:
                     items = json.load(f)
-                    vocab_count += len(items)
-                    all_vocab_items.extend(items)
-            except Exception:
+                    for item in items:
+                        # Count vocabulary
+                        if item.get("french") and item.get("japanese"):
+                            vocab_count += 1
+                            all_vocab_items.append({
+                                "id": item.get("id"),
+                                "category": item.get("category", "Vocabulary"),
+                                "level": item.get("level"),
+                                "tags": item.get("tags", []),
+                                "french": item.get("french"),
+                                "english": item.get("english"),
+                                "japanese": item.get("japanese"),
+                                "definition_fr": item.get("definition_fr"),
+                                "context_fr": item.get("examples", [{}])[0].get("fr", "") if item.get("examples") else "",
+                                "context_en": item.get("examples", [{}])[0].get("en", "") if item.get("examples") else "",
+                                "context_ja": item.get("examples", [{}])[0].get("ja", "") if item.get("examples") else "",
+                                "is_professional": item.get("is_professional", True)
+                            })
+                        
+                        # Count grammar
+                        if item.get("grammar"):
+                            grammar_count += 1
+                            
+                        # Count cuisine theory
+                        if item.get("cuisine"):
+                            cuisine_count += 1
+            except Exception as e:
+                print(f"Error parsing level {level} in meta: {e}")
                 pass
                 
-        # Grammar
-        grammar_path = os.path.join(os.path.dirname(__file__), '..', 'data', f'grammar_{level}.json')
-        if os.path.exists(grammar_path):
-            try:
-                with open(grammar_path, 'r', encoding='utf-8') as f:
-                    grammar_count += len(json.load(f))
-            except Exception:
-                pass
-                
-        # Cuisine
-        cuisine_path = os.path.join(os.path.dirname(__file__), '..', 'data', f'cuisine_{level}.json')
-        if os.path.exists(cuisine_path):
-            try:
-                with open(cuisine_path, 'r', encoding='utf-8') as f:
-                    cuisine_count += len(json.load(f))
-            except Exception:
-                pass
-
     # Pick a random featured vocabulary
     import random
     featured = random.choice(all_vocab_items) if all_vocab_items else None
@@ -130,7 +136,7 @@ def update_meta_json():
     
     with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(meta_data, f, indent=2, ensure_ascii=False)
-    print("Successfully updated meta.json statistics.")
+    print("Successfully updated meta.json statistics from master knowledge database.")
 
 def parse_wiktionary_dump(jsonl_path):
     if not os.path.exists(jsonl_path):
