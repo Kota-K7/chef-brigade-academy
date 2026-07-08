@@ -5,21 +5,19 @@
     "cuisine": 6
   },
   "featured": {
-    "id": "vocab_emulsionner",
-    "category": "Techniques",
-    "level": "C1",
+    "id": "vocab_gen_ecrire",
+    "category": "General",
+    "level": "A2",
     "tags": [
-      "sauces",
-      "chemistry",
-      "basics"
+      "verbs"
     ],
-    "french": "Émulsionner",
-    "english": "To emulsify / bind two unmixable liquids",
-    "definition_fr": "(verbe) Mélanger intimement deux liquides non miscibles (comme l'huile et l'eau) à l'aide d'un fouet ou d'un mélangeur pour obtenir une texture stable.",
-    "japanese": "エミュルショネする（乳化させる）",
-    "context_fr": "Fouettez énergiquement pour émulsionner la sauce hollandaise.",
-    "context_en": "Whisk vigorously to emulsify the hollandaise sauce.",
-    "context_ja": "オランデーズソースをエミュルショネ（乳化）させるために、力強く泡立ててください。",
-    "is_professional": true
+    "french": "Écrire",
+    "english": "To write",
+    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
+    "japanese": "書く",
+    "context_fr": "Le chef écrit la recette du jour sur le tableau.",
+    "context_en": "The chef writes the recipe of the day on the board.",
+    "context_ja": "シェフが本日のレシピをボードに書きます。",
+    "is_professional": false
   }
 }

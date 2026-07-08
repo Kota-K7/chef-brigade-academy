@@ -270,5 +270,53 @@
       "100°C"
     ],
     "answer": "73°C - 75°C"
+  },
+  {
+    "id": "quiz_18",
+    "type": "choice",
+    "category": "grammar",
+    "question": "Remplissez le vide avec le pronom correct : 'Avez-vous besoin de farine ? - Oui, donnez-m'___.' / Fill in the blank with the correct pronoun: 'Avez-vous besoin de farine ? - Oui, donnez-m'___.'",
+    "question_fr": "Remplissez le vide avec le pronom correct : 'Avez-vous besoin de farine ? - Oui, donnez-m'___.'",
+    "question_en": "Fill in the blank with the correct pronoun: 'Avez-vous besoin de farine ? - Oui, donnez-m'___.'",
+    "context": "Use 'en' to replace quantities or nouns introduced by 'de'.",
+    "options": [
+      "en",
+      "y",
+      "le",
+      "la"
+    ],
+    "answer": "en"
+  },
+  {
+    "id": "quiz_19",
+    "type": "choice",
+    "category": "grammar",
+    "question": "Quelle préposition est correcte pour indiquer le boucher comme lieu d'achat ? 'J'achète la viande ___ le boucher.' / Which preposition is correct to indicate the butcher as the place of purchase? 'J'achète la viande ___ le boucher.'",
+    "question_fr": "Quelle préposition est correcte pour indiquer le boucher comme lieu d'achat ? 'J'achète la viande ___ le boucher.'",
+    "question_en": "Which preposition is correct to indicate the butcher as the place of purchase? 'J'achète la viande ___ le boucher.'",
+    "context": "Use 'chez' for a person's home or business establishment.",
+    "options": [
+      "chez",
+      "à",
+      "de",
+      "en"
+    ],
+    "answer": "chez"
+  },
+  {
+    "id": "quiz_20",
+    "type": "choice",
+    "category": "sauces",
+    "question": "Quelle est la différence fondamentale dans la préparation d'un fond brun par rapport à un fond blanc ? / What is the fundamental difference in preparing a brown stock compared to a white stock?",
+    "question_fr": "Quelle est la différence fondamentale dans la préparation d'un fond brun par rapport à un fond blanc ?",
+    "question_en": "What is the fundamental difference in preparing a brown stock compared to a white stock?",
+    "context": "Browning the bones and meat gives the stock its dark color and deep roasted flavor.",
+    "options": [
+      "Les os et viandes sont d'abord rôtis au four jusqu'à coloration brune.",
+      "On utilise uniquement du poisson.",
+      "On ajoute de la crème fraîche au début.",
+      "On ne met pas de garniture aromatique."
+    ],
+    "answer": "Les os et viandes sont d'abord rôtis au four jusqu'à coloration brune."
   }
 ]
