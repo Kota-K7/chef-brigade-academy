@@ -20,6 +20,320 @@ function normalizeString(str) {
     .replace(/[-\s]+/g, ' '); // normalize hyphens and spaces
 }
 
+// Global Injectable Styles for premium quiz experience
+function injectQuizStyles() {
+  if (document.getElementById('quiz-dynamic-styles')) return;
+  const styleEl = document.createElement('style');
+  styleEl.id = 'quiz-dynamic-styles';
+  styleEl.innerHTML = `
+    .quiz-mode-selector {
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .mode-tab-btn {
+      padding: 0.6rem 1.2rem;
+      border-radius: 30px;
+      border: 1px solid rgba(197, 168, 128, 0.3);
+      background-color: rgba(197, 168, 128, 0.05);
+      color: var(--color-primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    .mode-tab-btn.active, .mode-tab-btn:hover {
+      background-color: var(--color-primary);
+      color: #ffffff;
+      border-color: var(--color-primary);
+      box-shadow: var(--shadow-sm);
+    }
+    .matching-board {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .matching-column {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .drag-card {
+      padding: 1rem;
+      background-color: var(--color-bg);
+      border: 1px solid rgba(10, 25, 49, 0.08);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-sm);
+      cursor: grab;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      transition: transform 0.2s, border-color 0.2s, background-color 0.2s;
+    }
+    .drag-card:active {
+      cursor: grabbing;
+    }
+    .drag-card.dragging {
+      opacity: 0.4;
+      transform: scale(0.98);
+    }
+    .drag-card.matched {
+      background-color: #E8F5E9;
+      color: #2E7D32;
+      border-color: #A5D6A7;
+      cursor: default;
+      pointer-events: none;
+    }
+    .drop-zone {
+      padding: 1rem;
+      background-color: rgba(10, 25, 49, 0.02);
+      border: 2px dashed rgba(10, 25, 49, 0.12);
+      border-radius: var(--radius-sm);
+      min-height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.25s ease;
+      color: var(--color-text-main);
+    }
+    .drop-zone.hovered {
+      background-color: rgba(197, 168, 128, 0.1);
+      border-color: var(--color-accent);
+      transform: scale(1.02);
+    }
+    .drop-zone.matched {
+      background-color: #E8F5E9;
+      color: #2E7D32;
+      border: 2px solid #A5D6A7;
+      pointer-events: none;
+    }
+    @keyframes shake-anim {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    @keyframes pulse-matched {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+      100% { transform: scale(1); }
+    }
+  `;
+  document.head.appendChild(styleEl);
+}
+
+// Generate dynamic multiple choice quizzes on the fly
+function generateDynamicQuizzes() {
+  const dynamicQuizzes = [];
+  const vocabs = state.db?.vocabulary || [];
+  const grammars = state.db?.grammar || [];
+  const cuisines = state.db?.cuisine || [];
+
+  function getRandomDummies(arr, count, excludeId, field = 'japanese') {
+    const pool = arr.filter(x => x.id !== excludeId).map(x => x[field]);
+    const shuffled = pool.sort(() => 0.5 - Math.random());
+    const unique = [...new Set(shuffled)].filter(Boolean).slice(0, count);
+    while (unique.length < count) {
+      unique.push("Autre option " + (unique.length + 1));
+    }
+    return unique;
+  }
+
+  // 1. Vocabulary Quizzes
+  vocabs.forEach(item => {
+    if (!item.french || !item.japanese) return;
+    
+    let category = 'vocabulary';
+    if (item.tags?.includes('meat')) category = 'meat';
+    else if (item.tags?.includes('sauces') || item.tags?.includes('sauce')) category = 'sauces';
+    else if (item.tags?.includes('cutting')) category = 'cuts';
+    else if (item.tags?.includes('science')) category = 'science';
+
+    // Q1: French -> Japanese
+    const dummiesJa = getRandomDummies(vocabs, 3, item.id, 'japanese');
+    dynamicQuizzes.push({
+      id: `dyn_vocab_fr_ja_${item.id}`,
+      type: "choice",
+      category: category,
+      question: `Que signifie le mot français "${item.french}" ? / What does the French word "${item.french}" mean?`,
+      question_fr: `Que signifie le mot français "${item.french}" ?`,
+      question_en: `What does the French word "${item.french}" mean?`,
+      context: item.definition_fr || `Usage: ${item.context_fr}`,
+      options: shuffle([item.japanese, ...dummiesJa]),
+      answer: item.japanese
+    });
+
+    // Q2: Japanese -> French
+    const dummiesFr = getRandomDummies(vocabs, 3, item.id, 'french');
+    dynamicQuizzes.push({
+      id: `dyn_vocab_ja_fr_${item.id}`,
+      type: "choice",
+      category: category,
+      question: `Quel est le mot français pour "${item.japanese}" ? / What is the French word for "${item.japanese}"?`,
+      question_fr: `Quel est le mot français pour "${item.japanese}" ?`,
+      question_en: `What is the French word for "${item.japanese}"?`,
+      context: item.definition_fr || `Usage: ${item.context_fr}`,
+      options: shuffle([item.french, ...dummiesFr]),
+      answer: item.french
+    });
+  });
+
+  // 2. Grammar Quizzes
+  grammars.forEach(item => {
+    if (!item.topic || !item.examples || item.examples.length === 0) return;
+
+    // Q1: Match Topic Description
+    const dummiesTopic = getRandomDummies(grammars, 3, item.id, 'topic');
+    dynamicQuizzes.push({
+      id: `dyn_gram_topic_${item.id}`,
+      type: "choice",
+      category: "grammar",
+      question: `De quel concept de grammaire s'agit-il : "${item.explanation_ja}" ? / Which grammar concept is this: "${item.explanation_en}"?`,
+      question_fr: `De quel concept de grammaire s'agit-il ?`,
+      question_en: `Which grammar concept is this: "${item.explanation_en}"?`,
+      context: `Niveau : ${item.level}. Indispensable pour la cuisine.`,
+      options: shuffle([item.topic, ...dummiesTopic]),
+      answer: item.topic
+    });
+
+    // Q2: Example Translation
+    item.examples.forEach((ex, idx) => {
+      const allExamples = grammars.flatMap(g => g.examples || []).filter(e => e.fr !== ex.fr);
+      const dummiesExJa = allExamples.sort(() => 0.5 - Math.random()).map(e => e.ja).slice(0, 3);
+      while (dummiesExJa.length < 3) {
+        dummiesExJa.push("Option de traduction " + (dummiesExJa.length + 1));
+      }
+
+      dynamicQuizzes.push({
+        id: `dyn_gram_ex_${item.id}_${idx}`,
+        type: "choice",
+        category: "grammar",
+        question: `Traduisez la phrase : "${ex.fr}" / Translate the sentence: "${ex.fr}"`,
+        question_fr: `Traduisez la phrase : "${ex.fr}"`,
+        question_en: `Translate the sentence: "${ex.fr}"`,
+        context: `Grammaire: ${item.topic} (${item.level})`,
+        options: shuffle([ex.ja, ...dummiesExJa]),
+        answer: ex.ja
+      });
+    });
+  });
+
+  // 3. Cuisine Quizzes
+  cuisines.forEach(item => {
+    if (!item.topic || !item.content_ja) return;
+
+    const dummiesCuis = getRandomDummies(cuisines, 3, item.id, 'topic');
+    let category = 'sauces';
+    if (item.tags?.includes('knife-cuts') || item.tags?.includes('cuts')) category = 'cuts';
+    else if (item.tags?.includes('meat')) category = 'meat';
+    else if (item.tags?.includes('molecular') || item.tags?.includes('chemistry') || item.tags?.includes('science')) category = 'science';
+
+    dynamicQuizzes.push({
+      id: `dyn_cuis_topic_${item.id}`,
+      type: "choice",
+      category: category,
+      question: `De quel concept culinaire s'agit-il : "${item.content_ja.substring(0, 120)}..." ? / Which culinary concept is described: "${item.content_en.substring(0, 120)}..."?`,
+      question_fr: `De quel concept culinaire s'agit-il ?`,
+      question_en: `Which culinary concept is described here?`,
+      context: `Niveau : ${item.level}. Mots-clés : ${item.tags.join(', ')}`,
+      options: shuffle([item.topic, ...dummiesCuis]),
+      answer: item.topic
+    });
+  });
+
+  return dynamicQuizzes;
+}
+
+// Generate dynamic pairs for taking / dialogue / sentences matching
+function generateTakingPairs() {
+  const pairs = [];
+  const grammars = state.db?.grammar || [];
+  const vocabs = state.db?.vocabulary || [];
+
+  const candidates = [];
+  
+  grammars.forEach(g => {
+    (g.examples || []).forEach(ex => {
+      candidates.push({ fr: ex.fr, ja: ex.ja });
+    });
+  });
+
+  vocabs.forEach(v => {
+    if (v.context_fr && !v.context_fr.includes("Exemple avec le mot")) {
+      candidates.push({ fr: v.context_fr, ja: v.context_ja });
+    }
+  });
+
+  const shuffledCandidates = candidates.sort(() => 0.5 - Math.random());
+
+  for (const item of shuffledCandidates) {
+    if (pairs.length >= 4) break;
+
+    const frClean = item.fr.replace(/^➔\s*/, '').trim();
+
+    // 1. Check Dialogue style (" - ")
+    if (frClean.includes(' - ')) {
+      const parts = frClean.split(' - ');
+      pairs.push({
+        id: `pair_${pairs.length}`,
+        left: `🗣️ ${parts[0].trim()}`,
+        right: `💬 ${parts[1].trim()}`,
+        context: item.ja
+      });
+    } 
+    // 2. Check conditional style ("si") or complex sentence with a comma
+    else if (frClean.includes(',')) {
+      const parts = frClean.split(',');
+      pairs.push({
+        id: `pair_${pairs.length}`,
+        left: `${parts[0].trim()} ,`,
+        right: `... ${parts[1].trim()}`,
+        context: item.ja
+      });
+    }
+    // 3. Fallback: split in the middle
+    else {
+      const words = frClean.split(' ');
+      if (words.length >= 4) {
+        const splitIdx = Math.floor(words.length / 2);
+        const leftPart = words.slice(0, splitIdx).join(' ');
+        const rightPart = words.slice(splitIdx).join(' ');
+        pairs.push({
+          id: `pair_${pairs.length}`,
+          left: `${leftPart} ...`,
+          right: `... ${rightPart}`,
+          context: item.ja
+        });
+      }
+    }
+  }
+
+  // Fallbacks if not enough pairs generated
+  const defaults = [
+    { left: "🗣️ Chaud devant !", right: "💬 Oui, chef !", context: "お通りです！ / はい、シェフ！" },
+    { left: "🗣️ Entrée prête ?", right: "💬 Oui, j'envoie.", context: "前菜はできていますか？ / はい、送ります。" },
+    { left: "🗣️ Combien de couverts ?", right: "💬 Vingt couverts.", context: "何名様（何席）ですか？ / 20席です。" },
+    { left: "🗣️ Envoyez la sauce !", right: "💬 Tout de suite !", context: "ソースを出して！ / ただちに！" }
+  ];
+
+  while (pairs.length < 4) {
+    const d = defaults[pairs.length % defaults.length];
+    pairs.push({
+      id: `default_${pairs.length}`,
+      left: d.left,
+      right: d.right,
+      context: d.context
+    });
+  }
+
+  return pairs;
+}
+
 export function renderQuiz() {
   const container = document.createElement('div');
   
@@ -38,10 +352,14 @@ export function renderQuiz() {
   loading.innerText = "Chargement du quiz... (Loading quiz...)";
   container.appendChild(loading);
 
+  injectQuizStyles();
+
   const targetLevel = state.settings?.targetLevel || 'ALL';
   Promise.all([
     ensureQuizzesLoaded(),
-    ensureDataLoaded('vocabulary', targetLevel)
+    ensureDataLoaded('vocabulary', 'ALL'),
+    ensureDataLoaded('grammar', 'ALL'),
+    ensureDataLoaded('cuisine', 'ALL')
   ]).then(() => {
     loading.remove();
     renderQuizContent(container);
@@ -51,7 +369,6 @@ export function renderQuiz() {
 }
 
 function renderQuizContent(container) {
-  // Active mode state: 'multiple' (default) | 'matching' | 'spelling'
   let activeMode = 'multiple';
   let selectedCategory = 'ALL';
   
@@ -60,12 +377,13 @@ function renderQuizContent(container) {
   selector.className = 'quiz-mode-selector';
   selector.innerHTML = `
     <button class="mode-tab-btn active" data-mode="multiple">✍️ Choix Multiple</button>
-    <button class="mode-tab-btn" data-mode="matching">🤝 Association (Match)</button>
+    <button class="mode-tab-btn" data-mode="matching_vocab">🤝 Association (vocabulary)</button>
+    <button class="mode-tab-btn" data-mode="matching_taking">🤝 Association (taking)</button>
     <button class="mode-tab-btn" data-mode="spelling">📖 Orthographe (Spelling)</button>
   `;
   container.appendChild(selector);
 
-  // Render Category Selector
+  // Category Selector
   const catFilter = document.createElement('div');
   catFilter.className = 'quiz-category-filter-wrapper';
   catFilter.style.margin = '1rem auto 1.5rem auto';
@@ -76,7 +394,7 @@ function renderQuizContent(container) {
   
   catFilter.innerHTML = `
     <span style="font-size: 0.9rem; font-weight: 600; color: var(--color-primary);">Catégorie :</span>
-    <select id="quiz-cat-select" style="padding: 0.5rem 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); background-color: var(--color-bg); color: var(--color-text-main); font-size: 0.9rem; font-family: var(--font-serif); cursor: pointer; min-width: 220px; outline: none; box-shadow: var(--shadow-sm); transition: border-color 0.2s;">
+    <select id="quiz-cat-select" style="padding: 0.5rem 1rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); background-color: var(--color-bg); color: var(--color-text-main); font-size: 0.9rem; font-family: var(--font-serif); cursor: pointer; min-width: 220px; outline: none; box-shadow: var(--shadow-sm);">
       <option value="ALL">All (Tout)</option>
       <option value="vocabulary">単語 (Vocabulary)</option>
       <option value="grammar">会話・文法 (Grammar & Dialogues)</option>
@@ -98,24 +416,34 @@ function renderQuizContent(container) {
   const gameWrapper = document.createElement('div');
   gameWrapper.className = 'quiz-game-wrapper';
   container.appendChild(gameWrapper);
-  
-  // Selector click handler
+
   selector.querySelectorAll('.mode-tab-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       selector.querySelectorAll('.mode-tab-btn').forEach(b => b.classList.remove('active'));
       e.target.classList.add('active');
       activeMode = e.target.getAttribute('data-mode');
+      
+      // Category filter is not relevant for Matching (taking), disable selection
+      if (activeMode === 'matching_taking') {
+        selectEl.disabled = true;
+        selectEl.style.opacity = '0.5';
+      } else {
+        selectEl.disabled = false;
+        selectEl.style.opacity = '1.0';
+      }
+
       startSelectedGame();
     });
   });
 
-  // Game launchers
   function startSelectedGame() {
     gameWrapper.innerHTML = '';
     if (activeMode === 'multiple') {
       runMultipleChoiceGame();
-    } else if (activeMode === 'matching') {
-      runMatchingGame();
+    } else if (activeMode === 'matching_vocab') {
+      runMatchingVocabGame();
+    } else if (activeMode === 'matching_taking') {
+      runMatchingTakingGame();
     } else if (activeMode === 'spelling') {
       runSpellingGame();
     }
@@ -125,11 +453,17 @@ function renderQuizContent(container) {
   // GAME 1: MULTIPLE CHOICE (Choix Multiple)
   // ==========================================
   function runMultipleChoiceGame() {
-    let quizzes = state.db?.quizzes || [];
+    const staticQuizzes = state.db?.quizzes || [];
+    const dynQuizzes = generateDynamicQuizzes();
+    
+    // Combine static and dynamically generated quizzes
+    let allQuizzes = [...staticQuizzes, ...dynQuizzes];
+    
     if (selectedCategory !== 'ALL') {
-      quizzes = quizzes.filter(q => q.category === selectedCategory);
+      allQuizzes = allQuizzes.filter(q => q.category === selectedCategory);
     }
-    if (quizzes.length === 0) {
+    
+    if (allQuizzes.length === 0) {
       gameWrapper.innerHTML = `
         <div class="quiz-card" style="text-align: center; padding: 2rem;">
           <p style="color: var(--color-text-muted); font-style: italic;">Aucune question trouvée dans cette catégorie. Essayez un autre filtre !</p>
@@ -137,6 +471,9 @@ function renderQuizContent(container) {
       `;
       return;
     }
+
+    // Pick a subset of 10 shuffled questions for the session
+    const quizzes = shuffle(allQuizzes).slice(0, 10);
 
     let currentIndex = 0;
     let score = 0;
@@ -161,13 +498,11 @@ function renderQuizContent(container) {
               <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--color-text-muted); letter-spacing: 1px;">Assigned Rank</div>
               <div style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--color-primary); font-weight: 700; margin-top: 0.3rem;">${rank}</div>
             </div>
-            <button class="next-btn" id="restart-choice-btn">Restart Session</button>
+            <button class="next-btn" id="restart-choice-btn" style="margin: 0 auto; display: block;">Restart Session</button>
           </div>
         `;
         gameWrapper.querySelector('#restart-choice-btn').addEventListener('click', () => {
-          currentIndex = 0;
-          score = 0;
-          renderCurrentChoice();
+          runMultipleChoiceGame();
         });
         return;
       }
@@ -184,11 +519,11 @@ function renderQuizContent(container) {
         <div class="quiz-question" style="display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem;">
           <div class="q-fr" style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--color-primary); font-style: italic; line-height: 1.3;">${quizItem.question_fr || quizItem.question || ''}</div>
           ${quizItem.question_en ? `
-            <div class="quiz-hint-flip-container">
-              <div class="q-en-card">
-                <div class="q-en-front">💡 Traduire en anglais (Show English Hint)</div>
-                <div class="q-en-back">${quizItem.question_en}</div>
+            <div class="quiz-hint-flip-container" style="cursor: pointer; margin-top: 0.5rem;">
+              <div class="q-en-card" style="padding: 0.5rem; border-radius: var(--radius-sm); border: 1px dashed rgba(197, 168, 128, 0.4); text-align: center; background-color: rgba(197, 168, 128, 0.02); font-size: 0.85rem; color: var(--color-accent); font-weight: 500;">
+                💡 Translate (Show English Hint)
               </div>
+              <div class="q-en-hint-text" style="display: none; padding: 0.5rem; margin-top: 0.3rem; font-style: italic; color: var(--color-text-muted); font-size: 0.9rem;">${quizItem.question_en}</div>
             </div>
           ` : ''}
         </div>
@@ -199,27 +534,28 @@ function renderQuizContent(container) {
           `).join('')}
         </div>
         
-        <div class="quiz-feedback" style="display: none; margin-top: 1.5rem;">
+        <div class="quiz-feedback" style="display: none; margin-top: 1.5rem; background-color: rgba(10,25,49,0.03); padding: 1rem; border-radius: var(--radius-sm); border-left: 3px solid var(--color-primary);">
           <strong>Contexte Culinaire:</strong>
-          <p style="margin-top: 0.4rem; font-style: italic;">${quizItem.context}</p>
+          <p style="margin-top: 0.4rem; font-style: italic; font-size: 0.9rem;">${quizItem.context}</p>
         </div>
         
-        <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
-          <button class="next-btn" id="next-q-btn" style="display: none;">Continue</button>
+        <div style="margin-top: 1.5rem;">
+          <button class="next-btn" id="next-q-btn" style="display: none; margin-left: auto;">Continue →</button>
         </div>
       `;
 
-      // Flip Listener
+      // Hint Toggle
       const hintContainer = card.querySelector('.quiz-hint-flip-container');
       if (hintContainer) {
-        hintContainer.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const hintCard = hintContainer.querySelector('.q-en-card');
-          hintCard.classList.toggle('flipped');
+        hintContainer.addEventListener('click', () => {
+          const hintText = hintContainer.querySelector('.q-en-hint-text');
+          const isHidden = hintText.style.display === 'none';
+          hintText.style.display = isHidden ? 'block' : 'none';
+          hintContainer.querySelector('.q-en-card').innerText = isHidden ? '💡 Hide English Hint' : '💡 Translate (Show English Hint)';
         });
       }
 
-      // Answer Click Listeners
+      // Option selection
       const optionBtns = card.querySelectorAll('.quiz-btn');
       const feedback = card.querySelector('.quiz-feedback');
       const nextBtn = card.querySelector('#next-q-btn');
@@ -262,9 +598,9 @@ function renderQuizContent(container) {
   }
 
   // ==========================================
-  // GAME 2: DRAG-AND-DROP MATCHING (Association)
+  // GAME 2: ASSOCIATION (vocabulary)
   // ==========================================
-  function runMatchingGame() {
+  function runMatchingVocabGame() {
     const includeGeneral = state.settings?.includeGeneral || false;
     const allVocabulary = state.db?.vocabulary || [];
     let vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
@@ -272,32 +608,22 @@ function renderQuizContent(container) {
     if (selectedCategory !== 'ALL') {
       if (selectedCategory === 'meat') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('meat') || 
-          item.tags?.includes('beef') || 
-          item.tags?.includes('pork') || 
-          item.tags?.includes('poultry') || 
-          /viande|boeuf|porc|poulet|animal/i.test(item.french)
+          item.tags?.includes('meat') || item.tags?.includes('beef') || item.tags?.includes('pork') || item.tags?.includes('poultry') || /viande|boeuf|porc|poulet/i.test(item.french)
         );
       } else if (selectedCategory === 'sauces') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('sauce') || 
-          item.tags?.includes('sauces') || 
-          item.tags?.includes('stocks') || 
-          /sauce|fond|jus|bouillon/i.test(item.french)
+          item.tags?.includes('sauce') || item.tags?.includes('sauces') || item.tags?.includes('stocks') || /sauce|fond|jus|bouillon/i.test(item.french)
         );
       } else if (selectedCategory === 'cuts') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('cutting') || 
-          item.tags?.includes('vegetables') || 
-          /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
+          item.tags?.includes('cutting') || item.tags?.includes('vegetables') || /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
         );
       } else if (selectedCategory === 'science') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('science') || 
-          /réaction|émulsion|liaison|amidon/i.test(item.french)
+          item.tags?.includes('science') || /réaction|émulsion|liaison/i.test(item.french)
         );
       } else if (selectedCategory === 'grammar') {
-        vocabularyList = [];
+        vocabularyList = []; // Vocabulary is separate from grammar lessons
       }
     }
 
@@ -310,24 +636,19 @@ function renderQuizContent(container) {
       return;
     }
 
-    // Select 4 random terms
     const selectedTerms = shuffle(vocabularyList).slice(0, 4);
-
-    // Left column: French terms (shuffled)
     const leftTerms = shuffle(selectedTerms);
-    // Right column: Japanese terms (shuffled)
     const rightTerms = shuffle(selectedTerms);
 
     const card = document.createElement('div');
     card.className = 'quiz-card';
     card.innerHTML = `
       <div class="quiz-meta" style="margin-bottom: 1rem;">
-        <span>Association de Vocabulaire</span>
+        <span>🤝 Association (vocabulary)</span>
         <span class="grammar-badge" style="background-color: var(--color-primary);">Game</span>
       </div>
-      <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
-        Drag a French term from the left, and drop it onto the correct Japanese translation on the right. 
-        <em>(Or click a card on the left, then click its match on the right)</em>
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+        Drag a French term from the left, and drop it onto its Japanese translation on the right. (Or click left card, then click match).
       </p>
       
       <div class="matching-board">
@@ -349,23 +670,72 @@ function renderQuizContent(container) {
         </div>
       </div>
       
-      <div id="matching-completion-panel" style="display: none; text-align: center; margin-top: 1.5rem; animation: pulse-matched 0.5s ease-in-out;">
-        <div style="color: var(--color-success); font-weight: 700; font-size: 1.2rem; margin-bottom: 1rem;">🤝 Excellent ! Tous les termes ont été associés avec succès.</div>
-        <button class="next-btn" id="restart-match-btn" style="margin: 0 auto;">Play Again</button>
+      <div id="matching-completion-panel" style="display: none; text-align: center; margin-top: 1.5rem;">
+        <div style="color: var(--color-success); font-weight: 700; font-size: 1.1rem; margin-bottom: 1rem;">🤝 Excellent ! Tous les termes ont été associés avec succès.</div>
+        <button class="next-btn" id="restart-match-btn" style="margin: 0 auto; display: block;">Play Again</button>
       </div>
     `;
 
     gameWrapper.appendChild(card);
+    setupMatchingHandlers(card, 4, runMatchingVocabGame);
+  }
 
+  // ==========================================
+  // GAME 3: ASSOCIATION (taking)
+  // ==========================================
+  function runMatchingTakingGame() {
+    const selectedPairs = generateTakingPairs();
+
+    const card = document.createElement('div');
+    card.className = 'quiz-card';
+    card.innerHTML = `
+      <div class="quiz-meta" style="margin-bottom: 1rem;">
+        <span>🤝 Association (taking) - Conversation & Cloze</span>
+        <span class="grammar-badge" style="background-color: var(--color-success);">Dialogue</span>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+        Match dialogues or sentence fragments. Drag a card from the left, and drop it onto the correct continuation or response on the right.
+      </p>
+      
+      <div class="matching-board">
+        <div class="matching-column" id="left-column">
+          ${shuffle(selectedPairs).map(p => `
+            <div class="drag-card" draggable="true" data-id="${p.id}" id="drag-${p.id}" style="font-size: 0.9rem; padding: 0.8rem;">
+              <span>${p.left}</span>
+              <span style="font-size: 1rem; opacity: 0.3;">☰</span>
+            </div>
+          `).join('')}
+        </div>
+        
+        <div class="matching-column" id="right-column">
+          ${shuffle(selectedPairs).map(p => `
+            <div class="drop-zone" data-id="${p.id}" style="font-size: 0.9rem; padding: 0.8rem; min-height: 48px;">
+              ${p.right}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      
+      <div id="matching-completion-panel" style="display: none; text-align: center; margin-top: 1.5rem;">
+        <div style="color: var(--color-success); font-weight: 700; font-size: 1.1rem; margin-bottom: 1rem;">🗣️ Parfait ! Vous maîtrisez la communication en cuisine.</div>
+        <button class="next-btn" id="restart-match-btn" style="margin: 0 auto; display: block;">Play Again</button>
+      </div>
+    `;
+
+    gameWrapper.appendChild(card);
+    setupMatchingHandlers(card, 4, runMatchingTakingGame);
+  }
+
+  // Matching board interaction handlers (handles vocab & taking games)
+  function setupMatchingHandlers(cardContainer, totalMatches, restartFn) {
     let draggedId = null;
     let selectedLeftId = null;
     let matchesCount = 0;
 
-    const dragCards = card.querySelectorAll('.drag-card');
-    const dropZones = card.querySelectorAll('.drop-zone');
-    const completionPanel = card.querySelector('#matching-completion-panel');
+    const dragCards = cardContainer.querySelectorAll('.drag-card');
+    const dropZones = cardContainer.querySelectorAll('.drop-zone');
+    const completionPanel = cardContainer.querySelector('#matching-completion-panel');
 
-    // 1. Drag & Drop Event Listeners
     dragCards.forEach(drag => {
       drag.addEventListener('dragstart', (e) => {
         draggedId = e.target.closest('.drag-card').getAttribute('data-id');
@@ -376,12 +746,11 @@ function renderQuizContent(container) {
         e.target.closest('.drag-card').classList.remove('dragging');
       });
       
-      // Tap-to-match selection listener (for mobile accessibility)
       drag.addEventListener('click', (e) => {
         const item = e.target.closest('.drag-card');
         if (item.classList.contains('matched')) return;
 
-        dragCards.forEach(c => c.style.borderColor = 'rgba(0,0,0,0.08)');
+        dragCards.forEach(c => c.style.borderColor = 'rgba(10,25,49,0.08)');
         selectedLeftId = item.getAttribute('data-id');
         item.style.borderColor = 'var(--color-accent)';
       });
@@ -407,16 +776,10 @@ function renderQuizContent(container) {
         if (draggedId === targetId) {
           applyMatch(draggedId, zone);
         } else {
-          // Play shake feedback
-          const wrongCard = card.querySelector(`#drag-${draggedId}`);
-          if (wrongCard) {
-            wrongCard.style.animation = 'shake-anim 0.4s ease-in-out';
-            setTimeout(() => wrongCard.style.animation = '', 400);
-          }
+          shakeElement(draggedId);
         }
       });
 
-      // Tap-to-match drop target listener
       zone.addEventListener('click', () => {
         if (zone.classList.contains('matched') || !selectedLeftId) return;
 
@@ -425,37 +788,40 @@ function renderQuizContent(container) {
           applyMatch(selectedLeftId, zone);
           selectedLeftId = null;
         } else {
-          // Play shake feedback
-          const wrongCard = card.querySelector(`#drag-${selectedLeftId}`);
-          if (wrongCard) {
-            wrongCard.style.animation = 'shake-anim 0.4s ease-in-out';
-            setTimeout(() => wrongCard.style.animation = '', 400);
-          }
+          shakeElement(selectedLeftId);
           selectedLeftId = null;
-          dragCards.forEach(c => c.style.borderColor = 'rgba(0,0,0,0.08)');
+          dragCards.forEach(c => c.style.borderColor = 'rgba(10,25,49,0.08)');
         }
       });
     });
 
+    function shakeElement(id) {
+      const wrongCard = cardContainer.querySelector(`#drag-${id}`);
+      if (wrongCard) {
+        wrongCard.style.animation = 'shake-anim 0.4s ease-in-out';
+        setTimeout(() => wrongCard.style.animation = '', 400);
+      }
+    }
+
     function applyMatch(id, zone) {
-      const leftCard = card.querySelector(`#drag-${id}`);
+      const leftCard = cardContainer.querySelector(`#drag-${id}`);
       leftCard.classList.add('matched');
       leftCard.style.borderColor = 'var(--color-success)';
       zone.classList.add('matched');
       
       matchesCount++;
-      if (matchesCount === 4) {
+      if (matchesCount === totalMatches) {
         completionPanel.style.display = 'block';
       }
     }
 
-    card.querySelector('#restart-match-btn').addEventListener('click', () => {
-      runMatchingGame();
+    cardContainer.querySelector('#restart-match-btn').addEventListener('click', () => {
+      restartFn();
     });
   }
 
   // ==========================================
-  // GAME 3: SPELLING CHALLENGE (Orthographe)
+  // GAME 4: SPELLING CHALLENGE (Orthographe)
   // ==========================================
   function runSpellingGame() {
     const includeGeneral = state.settings?.includeGeneral || false;
@@ -465,32 +831,22 @@ function renderQuizContent(container) {
     if (selectedCategory !== 'ALL') {
       if (selectedCategory === 'meat') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('meat') || 
-          item.tags?.includes('beef') || 
-          item.tags?.includes('pork') || 
-          item.tags?.includes('poultry') || 
-          /viande|boeuf|porc|poulet|animal/i.test(item.french)
+          item.tags?.includes('meat') || item.tags?.includes('beef') || item.tags?.includes('pork') || item.tags?.includes('poultry') || /viande|boeuf|porc|poulet/i.test(item.french)
         );
       } else if (selectedCategory === 'sauces') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('sauce') || 
-          item.tags?.includes('sauces') || 
-          item.tags?.includes('stocks') || 
-          /sauce|fond|jus|bouillon/i.test(item.french)
+          item.tags?.includes('sauce') || item.tags?.includes('sauces') || item.tags?.includes('stocks') || /sauce|fond|jus|bouillon/i.test(item.french)
         );
       } else if (selectedCategory === 'cuts') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('cutting') || 
-          item.tags?.includes('vegetables') || 
-          /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
+          item.tags?.includes('cutting') || item.tags?.includes('vegetables') || /coupe|tailler|ciseler|mincer|brunoise|julienne/i.test(item.french)
         );
       } else if (selectedCategory === 'science') {
         vocabularyList = vocabularyList.filter(item => 
-          item.tags?.includes('science') || 
-          /réaction|émulsion|liaison|amidon/i.test(item.french)
+          item.tags?.includes('science') || /réaction|émulsion|liaison/i.test(item.french)
         );
       } else if (selectedCategory === 'grammar') {
-        vocabularyList = [];
+        vocabularyList = []; // Spelling is based on vocabulary words
       }
     }
 
@@ -509,11 +865,11 @@ function renderQuizContent(container) {
     card.className = 'quiz-card';
     card.innerHTML = `
       <div class="quiz-meta" style="margin-bottom: 1.2rem;">
-        <span>Orthographe de Cuisine</span>
+        <span>📖 Orthographe de Cuisine</span>
         <span class="grammar-badge" style="background-color: var(--color-secondary);">${item.category}</span>
       </div>
       
-      <div class="spelling-box" style="margin-bottom: 1.5rem;">
+      <div class="spelling-box" style="margin-bottom: 1.5rem; background-color: rgba(10,25,49,0.02); padding: 1.2rem; border-radius: var(--radius-sm); border-left: 3px solid var(--color-accent);">
         <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-accent); font-weight: 600; margin-bottom: 0.4rem;">Définition en Français (Monolingual Clue):</div>
         <p style="font-size: 1.05rem; font-style: italic; color: var(--color-primary); line-height: 1.4; font-family: var(--font-serif);">${item.definition_fr}</p>
         
@@ -524,7 +880,7 @@ function renderQuizContent(container) {
       
       <div style="margin-bottom: 1.5rem;">
         <label style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.5rem; color: var(--color-text-muted);">Écrivez le mot en français (Write the French word):</label>
-        <input type="text" class="spelling-input" id="spelling-input-field" placeholder="Tapez ici..." autocomplete="off" autofocus>
+        <input type="text" class="spelling-input" id="spelling-input-field" placeholder="Tapez ici..." autocomplete="off" style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); font-size: 1.1rem; outline: none;" autofocus>
       </div>
       
       <div id="spelling-feedback-panel" style="display: none; margin-bottom: 1.5rem; padding: 1rem; border-radius: var(--radius-sm);">
@@ -534,7 +890,7 @@ function renderQuizContent(container) {
       
       <div style="display: flex; gap: 1rem;">
         <button class="next-btn" id="spelling-submit-btn">Vérifier (Check)</button>
-        <button class="next-btn" id="spelling-next-btn" style="display: none;">Next Term</button>
+        <button class="next-btn" id="spelling-next-btn" style="display: none; margin-left: auto;">Next Term →</button>
       </div>
     `;
 
@@ -569,13 +925,15 @@ function renderQuizContent(container) {
       feedbackPanel.style.display = 'block';
 
       if (isCorrect) {
-        inputField.classList.add('correct');
+        inputField.style.borderColor = 'var(--color-success)';
+        inputField.style.backgroundColor = '#E8F5E9';
         feedbackPanel.style.backgroundColor = '#E8F5E9';
         feedbackPanel.style.color = 'var(--color-success)';
         feedbackTitle.innerText = "✓ Félicitations ! (Correct)";
         feedbackMsg.innerText = `You correctly spelled: "${correctText}"`;
       } else {
-        inputField.classList.add('incorrect');
+        inputField.style.borderColor = 'var(--color-error)';
+        inputField.style.backgroundColor = '#FFEBEE';
         feedbackPanel.style.backgroundColor = '#FFEBEE';
         feedbackPanel.style.color = 'var(--color-error)';
         feedbackTitle.innerText = "✗ Incorrect";
