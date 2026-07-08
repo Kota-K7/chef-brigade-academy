@@ -53,5 +53,41 @@
     "context_en": "Score the fish fillet and insert thin slices of truffle before cooking.",
     "context_ja": "調理する前に、魚のフィレに切り込みを入れてトリュフの薄切りをコンティゼ（差し込み）してください。",
     "is_professional": true
+  },
+  {
+    "id": "vocab_sublimer",
+    "category": "Philosophy",
+    "level": "C1",
+    "tags": [
+      "philosophy",
+      "taste",
+      "haute-cuisine"
+    ],
+    "french": "Sublimer",
+    "english": "To enhance / sublimate the flavors of raw ingredients",
+    "definition_fr": "(verbe) Rendre un ingrédient encore meilleur ou plus noble en utilisant une technique de cuisson ou d'assaisonnement précise.",
+    "japanese": "（素材の味を）高める / 昇華させる / 極限まで引き出す",
+    "context_fr": "Notre but est de sublimer le goût naturel du homard bleu sans le masquer.",
+    "context_en": "Our goal is to enhance the natural taste of the blue lobster without masking it.",
+    "context_ja": "私たちの目的は、ブルーオマール本来の自然な味わいを損なうことなく、極限まで引き出す（昇華させる）ことです。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_chinois",
+    "category": "Techniques",
+    "level": "C1",
+    "tags": [
+      "tool",
+      "sauces",
+      "refining"
+    ],
+    "french": "Passer au chinois",
+    "english": "To strain through a chinois (conical strainer) for smoothness",
+    "definition_fr": "(verbe) Filtrer un bouillon, une crème ou une sauce à l'aide d'une passoire conique très fine pour en retirer les impuretés et obtenir une texture lisse.",
+    "japanese": "シノワで漉す / なめらかなソースに仕上げる",
+    "context_fr": "Passez le jus au chinois étamine pour obtenir une brillance parfaite.",
+    "context_en": "Strain the jus through a fine chinois cloth to achieve perfect shine.",
+    "context_ja": "完璧な光沢と滑らかさを出すために、ソース（ジュ）を極細のシノワ（漉し器）で漉してください。",
+    "is_professional": true
   }
 ]

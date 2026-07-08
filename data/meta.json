@@ -1,24 +1,23 @@
 {
   "counts": {
-    "vocabulary": 26,
+    "vocabulary": 29,
     "grammar": 19,
     "cuisine": 7
   },
   "featured": {
-    "id": "vocab_gen_manger",
+    "id": "vocab_gen_resoudre",
     "category": "General",
-    "level": "A1",
+    "level": "B1",
     "tags": [
-      "verbs",
-      "basics"
+      "verbs"
     ],
-    "french": "Manger",
-    "english": "To eat",
-    "definition_fr": "(verbe) Absorber un aliment pour se nourrir.",
-    "japanese": "食べる",
-    "context_fr": "Les clients mangent dans la salle du restaurant.",
-    "context_en": "The clients eat in the restaurant dining room.",
-    "context_ja": "客たちはレストランの食堂で食事をします。",
+    "french": "Résoudre",
+    "english": "To solve",
+    "definition_fr": "(verbe) Trouver une solution à un problème ou une difficulté.",
+    "japanese": "解決する",
+    "context_fr": "Nous devons résoudre le problème du four avant le service.",
+    "context_en": "We must solve the oven problem before the service.",
+    "context_ja": "サービスが始まる前にオーブンの問題を解決しなければなりません。",
     "is_professional": false
   }
 }

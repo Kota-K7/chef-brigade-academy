@@ -16,5 +16,23 @@
     "context_en": "Gently coat the fish fillet with the reduced beurre blanc.",
     "context_ja": "煮詰めたブールブランソースで魚のフィレを優しくナペ（コーティング）してください。",
     "is_professional": true
+  },
+  {
+    "id": "vocab_rectifier",
+    "category": "Techniques",
+    "level": "C2",
+    "tags": [
+      "seasoning",
+      "precision",
+      "basics"
+    ],
+    "french": "Rectifier",
+    "english": "To adjust / correct the seasoning (salt, acid) at the final stage",
+    "definition_fr": "(verbe) Modifier l'assaisonnement (sel, poivre, vinaigre, etc.) d'une préparation culinaire juste avant le service pour atteindre l'équilibre parfait.",
+    "japanese": "ルクティフィエする / 味を調える / 最終微調整する",
+    "context_fr": "Goûtez la sauce et rectifiez l'assaisonnement avec une pointe de vinaigre de xérès.",
+    "context_en": "Taste the sauce and adjust the seasoning with a dash of sherry vinegar.",
+    "context_ja": "ソースを試食し、シェリー酒の酢を微量加えて味をルクティフィエ（最終微調整）してください。",
+    "is_professional": true
   }
 ]
