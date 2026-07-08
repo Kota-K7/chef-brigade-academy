@@ -1,23 +1,25 @@
 {
   "counts": {
-    "vocabulary": 22,
+    "vocabulary": 26,
     "grammar": 19,
     "cuisine": 6
   },
   "featured": {
-    "id": "vocab_gen_ecrire",
-    "category": "General",
-    "level": "A2",
+    "id": "vocab_sexculser",
+    "category": "Service",
+    "level": "B2",
     "tags": [
-      "verbs"
+      "service",
+      "apology",
+      "complaints"
     ],
-    "french": "Écrire",
-    "english": "To write",
-    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
-    "japanese": "書く",
-    "context_fr": "Le chef écrit la recette du jour sur le tableau.",
-    "context_en": "The chef writes the recipe of the day on the board.",
-    "context_ja": "シェフが本日のレシピをボードに書きます。",
-    "is_professional": false
+    "french": "Veuillez m'excuser",
+    "english": "Please excuse me / I apologize for the inconvenience",
+    "definition_fr": "(expression) Formule de politesse utilisée pour présenter ses excuses ou ses regrets face à une erreur de service.",
+    "japanese": "申し訳ございません / お許しください",
+    "context_fr": "Veuillez m'excuser pour ce retard, je vous apporte l'assiette immédiatement.",
+    "context_en": "Please excuse me for the delay, I will bring you the plate immediately.",
+    "context_ja": "お待たせして大変申し訳ございません。ただちにお皿をお持ちいたします。",
+    "is_professional": true
   }
 }

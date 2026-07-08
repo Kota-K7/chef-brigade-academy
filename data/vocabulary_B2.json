@@ -51,5 +51,77 @@
     "context_en": "Sprinkle the meat with flour before adding the broth for the stew.",
     "context_ja": "煮込み用のブイヨンを加える前に、お肉をサンジェ（小麦粉を振りかける）してください。",
     "is_professional": true
+  },
+  {
+    "id": "vocab_recommander",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "hospitality",
+      "VIP"
+    ],
+    "french": "Recommander",
+    "english": "To recommend / suggest a dish or wine to a client",
+    "definition_fr": "(verbe) Conseiller un plat ou une boisson à un client pour son plaisir et selon ses goûts.",
+    "japanese": "（料理やワインを）お勧めする / 推薦する",
+    "context_fr": "Je vous recommande ce vin rouge pour accompagner le canard rôti.",
+    "context_en": "I recommend this red wine to accompany the roasted duck.",
+    "context_ja": "鴨のローストに合わせるワインとして、こちらの赤ワインをお勧めいたします。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_sexculser",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "apology",
+      "complaints"
+    ],
+    "french": "Veuillez m'excuser",
+    "english": "Please excuse me / I apologize for the inconvenience",
+    "definition_fr": "(expression) Formule de politesse utilisée pour présenter ses excuses ou ses regrets face à une erreur de service.",
+    "japanese": "申し訳ございません / お許しください",
+    "context_fr": "Veuillez m'excuser pour ce retard, je vous apporte l'assiette immédiatement.",
+    "context_en": "Please excuse me for the delay, I will bring you the plate immediately.",
+    "context_ja": "お待たせして大変申し訳ございません。ただちにお皿をお持ちいたします。",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_allergene",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "allergies",
+      "health"
+    ],
+    "french": "Allergène",
+    "english": "Allergen / substance causing allergic reactions",
+    "definition_fr": "(nom masculin) Substance qui provoque une réaction allergique (comme le gluten, les arachides ou les crustacés).",
+    "japanese": "アレルゲン（アレルギー原因物質）",
+    "context_fr": "Pourriez-vous me dire si ce plat contient des allergènes comme le gluten ?",
+    "context_en": "Could you tell me if this dish contains allergens such as gluten?",
+    "context_ja": "この料理にはグルテンなどのアレルゲンが含まれているか教えていただけますでしょうか？",
+    "is_professional": true
+  },
+  {
+    "id": "vocab_privatiser",
+    "category": "Service",
+    "level": "B2",
+    "tags": [
+      "service",
+      "booking",
+      "planning"
+    ],
+    "french": "Privatiser",
+    "english": "To reserve a private room or restaurant exclusively for a group",
+    "definition_fr": "(verbe) Réserver l'intégralité d'un restaurant, d'une salle ou d'un salon pour un événement privé.",
+    "japanese": "貸し切る / プライベート空間にする",
+    "context_fr": "Si vous le souhaitez, vous pouvez privatiser ce salon pour votre événement.",
+    "context_en": "If you wish, you can reserve this private room exclusively for your event.",
+    "context_ja": "ご希望であれば、イベントのためにこの個室サロンを貸し切ることも可能です。",
+    "is_professional": true
   }
 ]
