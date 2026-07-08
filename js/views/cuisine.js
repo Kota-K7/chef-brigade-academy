@@ -121,9 +121,19 @@ export function renderCuisine() {
     contentWrapper.innerHTML = `<div style="text-align: center; padding: 2rem; color: var(--color-text-muted);">Chargement de la théorie... (Loading theory...)</div>`;
     
     const activeLevel = state.settings?.targetLevel || 'ALL';
-    ensureDataLoaded('cuisine', activeLevel).then(() => {
+    ensureDataLoaded('knowledge', activeLevel).then(() => {
       contentWrapper.innerHTML = '';
-      const theoryItems = state.db?.cuisine || [];
+      const theoryItems = (state.db?.knowledge || [])
+        .filter(item => item.cuisine)
+        .map(item => ({
+          id: item.id,
+          level: item.level,
+          category: item.category || "Theory",
+          topic: item.cuisine.topic,
+          content_fr: item.cuisine.content_fr,
+          content_en: item.cuisine.content_en,
+          content_ja: item.cuisine.content_ja
+        }));
       const filteredItems = theoryItems.filter(item => activeLevel === 'ALL' || item.level === activeLevel);
       
       if (filteredItems.length === 0) {

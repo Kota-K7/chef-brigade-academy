@@ -130,12 +130,14 @@ function injectQuizStyles() {
 // Generate dynamic multiple choice quizzes on the fly
 function generateDynamicQuizzes() {
   const dynamicQuizzes = [];
-  const vocabs = state.db?.vocabulary || [];
-  const grammars = state.db?.grammar || [];
-  const cuisines = state.db?.cuisine || [];
+  const knowledge = state.db?.knowledge || [];
+  
+  const vocabs = knowledge.filter(item => item.french && item.japanese);
+  const grammars = knowledge.filter(item => item.grammar);
+  const cuisines = knowledge.filter(item => item.cuisine);
 
-  function getRandomDummies(arr, count, excludeId, field = 'japanese') {
-    const pool = arr.filter(x => x.id !== excludeId).map(x => x[field]);
+  function getRandomDummies(arr, count, excludeId, resolver) {
+    const pool = arr.filter(x => x.id !== excludeId).map(resolver);
     const shuffled = pool.sort(() => 0.5 - Math.random());
     const unique = [...new Set(shuffled)].filter(Boolean).slice(0, count);
     while (unique.length < count) {
@@ -146,8 +148,6 @@ function generateDynamicQuizzes() {
 
   // 1. Vocabulary Quizzes
   vocabs.forEach(item => {
-    if (!item.french || !item.japanese) return;
-    
     let category = 'vocabulary';
     if (item.tags?.includes('meat')) category = 'meat';
     else if (item.tags?.includes('sauces') || item.tags?.includes('sauce')) category = 'sauces';
@@ -155,7 +155,8 @@ function generateDynamicQuizzes() {
     else if (item.tags?.includes('science')) category = 'science';
 
     // Q1: French -> Japanese
-    const dummiesJa = getRandomDummies(vocabs, 3, item.id, 'japanese');
+    const dummiesJa = getRandomDummies(vocabs, 3, item.id, x => x.japanese);
+    const ctxFr = item.examples && item.examples[0] ? item.examples[0].fr : "";
     dynamicQuizzes.push({
       id: `dyn_vocab_fr_ja_${item.id}`,
       type: "choice",
@@ -163,13 +164,13 @@ function generateDynamicQuizzes() {
       question: `Que signifie le mot français "${item.french}" ? / What does the French word "${item.french}" mean?`,
       question_fr: `Que signifie le mot français "${item.french}" ?`,
       question_en: `What does the French word "${item.french}" mean?`,
-      context: item.definition_fr || `Usage: ${item.context_fr}`,
+      context: item.definition_fr || `Usage: ${ctxFr}`,
       options: shuffle([item.japanese, ...dummiesJa]),
       answer: item.japanese
     });
 
     // Q2: Japanese -> French
-    const dummiesFr = getRandomDummies(vocabs, 3, item.id, 'french');
+    const dummiesFr = getRandomDummies(vocabs, 3, item.id, x => x.french);
     dynamicQuizzes.push({
       id: `dyn_vocab_ja_fr_${item.id}`,
       type: "choice",
@@ -177,7 +178,7 @@ function generateDynamicQuizzes() {
       question: `Quel est le mot français pour "${item.japanese}" ? / What is the French word for "${item.japanese}"?`,
       question_fr: `Quel est le mot français pour "${item.japanese}" ?`,
       question_en: `What is the French word for "${item.japanese}"?`,
-      context: item.definition_fr || `Usage: ${item.context_fr}`,
+      context: item.definition_fr || `Usage: ${ctxFr}`,
       options: shuffle([item.french, ...dummiesFr]),
       answer: item.french
     });
@@ -185,20 +186,20 @@ function generateDynamicQuizzes() {
 
   // 2. Grammar Quizzes
   grammars.forEach(item => {
-    if (!item.topic || !item.examples || item.examples.length === 0) return;
+    if (!item.grammar.topic || !item.examples || item.examples.length === 0) return;
 
     // Q1: Match Topic Description
-    const dummiesTopic = getRandomDummies(grammars, 3, item.id, 'topic');
+    const dummiesTopic = getRandomDummies(grammars, 3, item.id, x => x.grammar.topic);
     dynamicQuizzes.push({
       id: `dyn_gram_topic_${item.id}`,
       type: "choice",
       category: "grammar",
-      question: `De quel concept de grammaire s'agit-il : "${item.explanation_ja}" ? / Which grammar concept is this: "${item.explanation_en}"?`,
+      question: `De quel concept de grammaire s'agit-il : "${item.grammar.explanation_ja}" ? / Which grammar concept is this: "${item.grammar.explanation_en}"?`,
       question_fr: `De quel concept de grammaire s'agit-il ?`,
-      question_en: `Which grammar concept is this: "${item.explanation_en}"?`,
+      question_en: `Which grammar concept is this: "${item.grammar.explanation_en}"?`,
       context: `Niveau : ${item.level}. Indispensable pour la cuisine.`,
-      options: shuffle([item.topic, ...dummiesTopic]),
-      answer: item.topic
+      options: shuffle([item.grammar.topic, ...dummiesTopic]),
+      answer: item.grammar.topic
     });
 
     // Q2: Example Translation
@@ -216,7 +217,7 @@ function generateDynamicQuizzes() {
         question: `Traduisez la phrase : "${ex.fr}" / Translate the sentence: "${ex.fr}"`,
         question_fr: `Traduisez la phrase : "${ex.fr}"`,
         question_en: `Translate the sentence: "${ex.fr}"`,
-        context: `Grammaire: ${item.topic} (${item.level})`,
+        context: `Grammaire: ${item.grammar.topic} (${item.level})`,
         options: shuffle([ex.ja, ...dummiesExJa]),
         answer: ex.ja
       });
@@ -225,9 +226,9 @@ function generateDynamicQuizzes() {
 
   // 3. Cuisine Quizzes
   cuisines.forEach(item => {
-    if (!item.topic || !item.content_ja) return;
+    if (!item.cuisine.topic || !item.cuisine.content_ja) return;
 
-    const dummiesCuis = getRandomDummies(cuisines, 3, item.id, 'topic');
+    const dummiesCuis = getRandomDummies(cuisines, 3, item.id, x => x.cuisine.topic);
     let category = 'sauces';
     if (item.tags?.includes('knife-cuts') || item.tags?.includes('cuts')) category = 'cuts';
     else if (item.tags?.includes('meat')) category = 'meat';
@@ -237,36 +238,27 @@ function generateDynamicQuizzes() {
       id: `dyn_cuis_topic_${item.id}`,
       type: "choice",
       category: category,
-      question: `De quel concept culinaire s'agit-il : "${item.content_ja.substring(0, 120)}..." ? / Which culinary concept is described: "${item.content_en.substring(0, 120)}..."?`,
+      question: `De quel concept culinaire s'agit-il : "${item.cuisine.content_ja.substring(0, 120)}..." ? / Which culinary concept is described: "${item.cuisine.content_en.substring(0, 120)}..."?`,
       question_fr: `De quel concept culinaire s'agit-il ?`,
       question_en: `Which culinary concept is described here?`,
       context: `Niveau : ${item.level}. Mots-clés : ${item.tags.join(', ')}`,
-      options: shuffle([item.topic, ...dummiesCuis]),
-      answer: item.topic
+      options: shuffle([item.cuisine.topic, ...dummiesCuis]),
+      answer: item.cuisine.topic
     });
   });
 
   return dynamicQuizzes;
 }
 
-// Generate dynamic pairs for taking / dialogue / sentences matching
 function generateTakingPairs() {
   const pairs = [];
-  const grammars = state.db?.grammar || [];
-  const vocabs = state.db?.vocabulary || [];
-
+  const knowledge = state.db?.knowledge || [];
   const candidates = [];
   
-  grammars.forEach(g => {
-    (g.examples || []).forEach(ex => {
+  knowledge.forEach(item => {
+    (item.examples || []).forEach(ex => {
       candidates.push({ fr: ex.fr, ja: ex.ja });
     });
-  });
-
-  vocabs.forEach(v => {
-    if (v.context_fr && !v.context_fr.includes("Exemple avec le mot")) {
-      candidates.push({ fr: v.context_fr, ja: v.context_ja });
-    }
   });
 
   const shuffledCandidates = candidates.sort(() => 0.5 - Math.random());

@@ -21,7 +21,7 @@ export function renderVocabulary() {
   
   const activeLevel = state.settings?.targetLevel || 'ALL';
   
-  ensureDataLoaded('vocabulary', activeLevel).then(() => {
+  ensureDataLoaded('knowledge', activeLevel).then(() => {
     loading.remove();
     renderVocabContent(container, activeLevel);
   });
@@ -31,7 +31,7 @@ export function renderVocabulary() {
 
 function renderVocabContent(container, initialLevel) {
   const includeGeneral = state.settings?.includeGeneral || false;
-  const allVocabs = state.db?.vocabulary || [];
+  const allVocabs = (state.db?.knowledge || []).filter(item => item.french && item.japanese);
   const vocabs = allVocabs.filter(item => includeGeneral || item.is_professional);
   const categories = ['ALL', ...new Set(vocabs.map(item => item.category))];
   const tags = ['ALL', ...new Set(vocabs.flatMap(item => item.tags || []))];
@@ -81,7 +81,7 @@ function renderVocabContent(container, initialLevel) {
     cardGrid.innerHTML = '';
     
     // Apply filters
-    const currentVocabs = state.db?.vocabulary || [];
+    const currentVocabs = (state.db?.knowledge || []).filter(item => item.french && item.japanese);
     const usableVocabs = currentVocabs.filter(item => includeGeneral || item.is_professional);
     const filteredVocabs = usableVocabs.filter(item => {
       const matchCat = activeCategory === 'ALL' || item.category === activeCategory;
@@ -103,6 +103,9 @@ function renderVocabContent(container, initialLevel) {
       const srsInfo = state.srs[item.id];
       const isSrsActive = !!srsInfo;
       
+      const ctxFr = item.examples && item.examples[0] ? item.examples[0].fr : "";
+      const ctxJa = item.examples && item.examples[0] ? item.examples[0].ja : "";
+
       card.innerHTML = `
         <div style="display: flex; flex-direction: column; height: 100%; justify-content: space-between; gap: 1.5rem;">
           <div>
@@ -129,7 +132,7 @@ function renderVocabContent(container, initialLevel) {
                     <span style="font-size: 0.76rem; line-height: 1.25; color: var(--color-text-main); font-weight: 500;">${item.definition_fr || 'No definition loaded.'}</span>
                   </div>
                   <div class="flip-back" style="font-size: 0.85rem; font-weight: 600; padding: 0.4rem 0.6rem; justify-content: center; text-align: center; color: var(--color-secondary);">
-                    🇬🇧 ${item.english}
+                     🇬🇧 ${item.english}
                   </div>
                 </div>
               </div>
@@ -138,10 +141,10 @@ function renderVocabContent(container, initialLevel) {
             
             <div class="term-context" style="margin-top: 1rem;">
               <div class="context-fr" style="display: flex; align-items: flex-start; gap: 0.4rem; font-style: italic; color: var(--color-secondary);">
-                <span style="flex: 1;">"${item.context_fr}"</span>
-                <button class="audio-btn" data-text="${item.context_fr}" title="Listen context sentence" style="background: none; border: none; font-size: 0.9rem; cursor: pointer; color: var(--color-text-muted); padding: 0.15rem; margin-top: 0.15rem;">🔊</button>
+                <span style="flex: 1;">"${ctxFr}"</span>
+                <button class="audio-btn" data-text="${ctxFr}" title="Listen context sentence" style="background: none; border: none; font-size: 0.9rem; cursor: pointer; color: var(--color-text-muted); padding: 0.15rem; margin-top: 0.15rem;">🔊</button>
               </div>
-              <div class="context-ja">${item.context_ja}</div>
+              <div class="context-ja">${ctxJa}</div>
             </div>
             
             ${item.tags && item.tags.length > 0 ? `
@@ -240,10 +243,10 @@ function renderVocabContent(container, initialLevel) {
   filterPanel.querySelector('#vocab-level-select').addEventListener('change', async (e) => {
     activeLevel = e.target.value;
     cardGrid.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; padding: 2rem; color: var(--color-text-muted);">Chargement (Loading level ${activeLevel})...</div>`;
-    await ensureDataLoaded('vocabulary', activeLevel);
+    await ensureDataLoaded('knowledge', activeLevel);
     
     // Update select option for categories and tags based on newly loaded data
-    const currentVocabs = state.db?.vocabulary || [];
+    const currentVocabs = (state.db?.knowledge || []).filter(item => item.french && item.japanese);
     const usableVocabs = currentVocabs.filter(item => includeGeneral || item.is_professional);
     const newCategories = ['ALL', ...new Set(usableVocabs.map(item => item.category))];
     const newTags = ['ALL', ...new Set(usableVocabs.flatMap(item => item.tags || []))];

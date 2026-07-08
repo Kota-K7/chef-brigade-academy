@@ -21,7 +21,7 @@ export function renderGrammar() {
   
   const activeLevel = state.settings?.targetLevel || 'ALL';
   
-  ensureDataLoaded('grammar', activeLevel).then(() => {
+  ensureDataLoaded('knowledge', activeLevel).then(() => {
     loading.remove();
     renderGrammarContent(container, activeLevel);
   });
@@ -30,7 +30,16 @@ export function renderGrammar() {
 }
 
 function renderGrammarContent(container, activeLevel) {
-  const grammarItems = state.db?.grammar || [];
+  const grammarItems = (state.db?.knowledge || [])
+    .filter(item => item.grammar)
+    .map(item => ({
+      id: item.id,
+      level: item.level,
+      topic: item.grammar.topic,
+      explanation_en: item.grammar.explanation_en,
+      explanation_ja: item.grammar.explanation_ja,
+      examples: item.examples || []
+    }));
   
   const filteredItems = grammarItems.filter(item => activeLevel === 'ALL' || item.level === activeLevel);
   

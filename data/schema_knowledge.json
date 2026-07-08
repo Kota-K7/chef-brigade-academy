@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChefBrigadeKnowledgeSchema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "category", "level", "tags"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^(kb_|vocab_|gram_|cuis_)[a-z0-9_]+$"
+      },
+      "category": {
+        "type": "string",
+        "enum": ["Vocabulary", "Grammar", "Theory", "Service", "Philosophy", "Techniques", "Brigade", "Equipment", "General", "Verbs"]
+      },
+      "level": {
+        "type": "string",
+        "enum": ["A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "french": {
+        "type": "string",
+        "description": "French term or word (required for Vocabulary cards)"
+      },
+      "english": {
+        "type": "string",
+        "description": "English translation or definition"
+      },
+      "japanese": {
+        "type": "string",
+        "description": "Japanese translation or definition"
+      },
+      "definition_fr": {
+        "type": "string",
+        "description": "French definition (clue for spelling games)"
+      },
+      "is_professional": {
+        "type": "boolean"
+      },
+      "grammar": {
+        "type": "object",
+        "required": ["topic", "explanation_ja", "explanation_en"],
+        "properties": {
+          "topic": { "type": "string" },
+          "explanation_ja": { "type": "string" },
+          "explanation_en": { "type": "string" }
+        }
+      },
+      "cuisine": {
+        "type": "object",
+        "required": ["topic", "content_fr", "content_en", "content_ja"],
+        "properties": {
+          "topic": { "type": "string" },
+          "content_fr": { "type": "string" },
+          "content_en": { "type": "string" },
+          "content_ja": { "type": "string" }
+        }
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["fr", "en", "ja"],
+          "properties": {
+            "fr": { "type": "string" },
+            "en": { "type": "string" },
+            "ja": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
