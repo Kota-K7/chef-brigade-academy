@@ -129,6 +129,1969 @@
     ]
   },
   {
+    "id": "vocab_couper",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Cuisine"],
+    "french": "couper",
+    "english": "to cut",
+    "japanese": "切る",
+    "definition_fr": "Diviser ou séparer avec un outil tranchant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Coupe les tomates en deux.",
+        "en": "Cut the tomatoes in half.",
+        "ja": "トマトを半分に切って。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_laver",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Hygiène"],
+    "french": "laver",
+    "english": "to wash",
+    "japanese": "洗う",
+    "definition_fr": "Nettoyer avec de l'eau.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Lavez la salade.",
+        "en": "Wash the lettuce.",
+        "ja": "レタスを洗って。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_hacher",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": ["Verbe", "Action", "Technique"],
+    "french": "hacher",
+    "english": "to chop / to mince",
+    "japanese": "みじん切りにする、刻む",
+    "definition_fr": "Couper en très petits morceaux.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il a haché les herbes avec un couteau bien aiguisé.",
+        "en": "He chopped the herbs with a sharp knife.",
+        "ja": "彼はよく切れる包丁でハーブを刻みました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_verser",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "verser",
+    "english": "to pour",
+    "japanese": "注ぐ",
+    "definition_fr": "Faire couler un liquide ou une pâte.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Verse la pâte dans le moule.",
+        "en": "Pour the batter into the pan.",
+        "ja": "型に生地を注いで。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_remuer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": ["Verbe", "Action"],
+    "french": "remuer",
+    "english": "to stir",
+    "japanese": "かき混ぜる",
+    "definition_fr": "Mélanger un liquide ou une sauce en mouvement continu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Remue la soupe de temps en temps.",
+        "en": "Stir the soup from time to time.",
+        "ja": "時々スープをかき混ぜて。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_mijoter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": ["Verbe", "Cuisson", "Technique"],
+    "french": "mijoter",
+    "english": "to simmer",
+    "japanese": "とろ火で煮込む",
+    "definition_fr": "Cuire lentement et à petit feu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le bœuf bourguignon mijote depuis ce matin.",
+        "en": "The beef Burgundy has been stewing since this morning.",
+        "ja": "ブッフ・ブルギニョンは今朝から煮込まれています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_manger",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Repas"],
+    "french": "manger",
+    "english": "to eat",
+    "japanese": "食べる",
+    "definition_fr": "Absorber de la nourriture.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Nous allons manger au restaurant ce soir.",
+        "en": "We are going to eat at the restaurant tonight.",
+        "ja": "今夜はレストランで食事をします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_boire",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Boisson"],
+    "french": "boire",
+    "english": "to drink",
+    "japanese": "飲む",
+    "definition_fr": "Avaler un liquide.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le vin blanc se boit frais.",
+        "en": "White wine is drunk chilled.",
+        "ja": "白ワインは冷やして飲まれます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_eau",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Boisson"],
+    "french": "eau",
+    "english": "water",
+    "japanese": "水",
+    "definition_fr": "Liquide transparent, incolore, inodore et sans saveur.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je voudrais du pain et de l'eau minérale.",
+        "en": "I would like some bread and mineral water.",
+        "ja": "パンとミネラルウォーターを少しください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pain",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment"],
+    "french": "pain",
+    "english": "bread",
+    "japanese": "パン",
+    "definition_fr": "Aliment cuit au four, fait de farine, d'eau et de levure.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Tranche le pain avant de le servir.",
+        "en": "Slice the bread before serving it.",
+        "ja": "提供する前にパンをスライスして。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sel",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Condiment"],
+    "french": "sel",
+    "english": "salt",
+    "japanese": "塩",
+    "definition_fr": "Substance blanche employée pour assaisonner.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Donnez-moi le sel.",
+        "en": "Give me the salt.",
+        "ja": "塩をちょうだい。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poivre",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Condiment"],
+    "french": "poivre",
+    "english": "pepper",
+    "japanese": "胡椒",
+    "definition_fr": "Épice piquante souvent associée au sel.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez un peu de sel et de poivre.",
+        "en": "Add a little salt and pepper.",
+        "ja": "塩と胡椒を少し加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sucre",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Ingrédient", "Pâtisserie"],
+    "french": "sucre",
+    "english": "sugar",
+    "japanese": "砂糖",
+    "definition_fr": "Substance de saveur douce.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Mettre et battre les œufs et le sucre ensemble.",
+        "en": "Put and beat the eggs and sugar together.",
+        "ja": "卵と砂糖を一緒に入れて混ぜ合わせる。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_beurre",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Ingrédient", "Gras"],
+    "french": "beurre",
+    "english": "butter",
+    "japanese": "バター",
+    "definition_fr": "Matière grasse d'origine animale, fabriquée à partir de la crème du lait.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Incorporez le beurre froid en fouettant continuellement.",
+        "en": "Incorporate the cold butter while whisking continuously.",
+        "ja": "絶えず泡立てながら冷たいバターを混ぜ込んでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_huile",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Ingrédient", "Gras"],
+    "french": "huile",
+    "english": "oil",
+    "japanese": "油",
+    "definition_fr": "Matière grasse liquide d'origine végétale.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites chauffer de l'huile d'olive dans la poêle.",
+        "en": "Heat some olive oil in the pan.",
+        "ja": "フライパンでオリーブオイルを熱してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_lait",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Boisson", "Ingrédient"],
+    "french": "lait",
+    "english": "milk",
+    "japanese": "牛乳",
+    "definition_fr": "Liquide blanc produit par les vaches, utilisé en cuisine.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Elle a mesuré le lait avec un verre doseur.",
+        "en": "She measured the milk with a measuring cup.",
+        "ja": "彼女は計量カップで牛乳を計りました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_oeuf",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Ingrédient"],
+    "french": "œuf",
+    "english": "egg",
+    "japanese": "卵",
+    "definition_fr": "Produit par les poules, très utilisé en cuisine et pâtisserie.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Séparez le blanc du jaune d'œuf.",
+        "en": "Separate the egg white from the yolk.",
+        "ja": "卵白と卵黄を分けてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_farine",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Ingrédient", "Pâtisserie"],
+    "french": "farine",
+    "english": "flour",
+    "japanese": "小麦粉",
+    "definition_fr": "Poudre obtenue en écrasant des grains de blé.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Avez-vous besoin de farine ? - Oui, donnez-m'en.",
+        "en": "Do you need flour? - Yes, give me some.",
+        "ja": "小麦粉が必要ですか？ - はい、少しください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_viande",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment", "Protéine"],
+    "french": "viande",
+    "english": "meat",
+    "japanese": "肉",
+    "definition_fr": "Chair des animaux utilisée comme nourriture.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laisse la viande mariner toute la nuit.",
+        "en": "Let the meat marinate overnight.",
+        "ja": "肉を一晩マリネ液に漬け込んでおいて。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poisson",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment", "Protéine"],
+    "french": "poisson",
+    "english": "fish",
+    "japanese": "魚",
+    "definition_fr": "Animal aquatique comestible.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pocher le poisson.",
+        "en": "Poach the fish.",
+        "ja": "魚をポシェ（低温でゆでる）する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poulet",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment", "Volaille"],
+    "french": "poulet",
+    "english": "chicken",
+    "japanese": "鶏肉",
+    "definition_fr": "Oiseau d'élevage dont on consomme la chair.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je viens de faire rôtir le poulet.",
+        "en": "I just roasted the chicken.",
+        "ja": "たった今、鶏肉をローストしたところです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_legume",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment"],
+    "french": "légume",
+    "english": "vegetable",
+    "japanese": "野菜",
+    "definition_fr": "Plante cultivée dont on consomme certaines parties.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Préparez les légumes, s'il vous plaît.",
+        "en": "Please prepare the vegetables.",
+        "ja": "野菜を準備してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fruit",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Aliment"],
+    "french": "fruit",
+    "english": "fruit",
+    "japanese": "果物",
+    "definition_fr": "Produit végétal sucré.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Coupez les fruits en petits morceaux.",
+        "en": "Cut the fruits into small pieces.",
+        "ja": "果物を小さく切ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_oignon",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Nom", "Légume", "Ingrédient"],
+    "french": "oignon",
+    "english": "onion",
+    "japanese": "玉ねぎ",
+    "definition_fr": "Légume bulbeux très utilisé pour parfumer les plats.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "J'ai émincé un oignon pour la soupe.",
+        "en": "I thinly sliced an onion for the soup.",
+        "ja": "スープ用に玉ねぎを薄切りにしました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_carotte",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Légume", "Ingrédient"],
+    "french": "carotte",
+    "english": "carrot",
+    "japanese": "人参",
+    "definition_fr": "Légume racine de couleur orange.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Coupez les carottes en dés pour la soupe.",
+        "en": "Dice the carrots for the soup.",
+        "ja": "スープ用に人参を角切りにしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tomate",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Légume"],
+    "french": "tomate",
+    "english": "tomato",
+    "japanese": "トマト",
+    "definition_fr": "Fruit rouge consommé comme légume.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Coupe les tomates en deux.",
+        "en": "Cut the tomatoes in half.",
+        "ja": "トマトを半分に切って。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fromage",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Laitier"],
+    "french": "fromage",
+    "english": "cheese",
+    "japanese": "チーズ",
+    "definition_fr": "Aliment obtenu par la coagulation du lait.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "J'ai choisi un très bon fromage.",
+        "en": "I chose a very good cheese.",
+        "ja": "私はとても美味しいチーズを選びました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_vin",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Boisson", "Alcool"],
+    "french": "vin",
+    "english": "wine",
+    "japanese": "ワイン",
+    "definition_fr": "Boisson alcoolisée obtenue par la fermentation du raisin.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le vin blanc se boit frais.",
+        "en": "White wine is drunk chilled.",
+        "ja": "白ワインは冷やして飲まれます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cuisine",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Lieu", "Métier"],
+    "french": "cuisine",
+    "english": "kitchen / cuisine",
+    "japanese": "厨房、料理",
+    "definition_fr": "Pièce où l'on prépare les repas, ou l'art de préparer les plats.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il travaille dans la cuisine d'un grand restaurant.",
+        "en": "He works in the kitchen of a great restaurant.",
+        "ja": "彼は大きなレストランの厨房で働いています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chef",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "chef",
+    "english": "chef",
+    "japanese": "シェフ、料理長",
+    "definition_fr": "Personne qui dirige une cuisine professionnelle.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Oui, Chef !",
+        "en": "Yes, Chef!",
+        "ja": "はい、シェフ！"
+      }
+    ]
+  },
+  {
+    "id": "vocab_couteau",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile"],
+    "french": "couteau",
+    "english": "knife",
+    "japanese": "包丁、ナイフ",
+    "definition_fr": "Outil tranchant pour couper les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il a haché les herbes avec un couteau bien aiguisé.",
+        "en": "He chopped the herbs with a sharp knife.",
+        "ja": "彼はよく切れる包丁でハーブを刻みました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_four",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Matériel"],
+    "french": "four",
+    "english": "oven",
+    "japanese": "オーブン",
+    "definition_fr": "Appareil fermé pour cuire ou rôtir les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut préchauffer le four avant de commencer.",
+        "en": "You must preheat the oven before starting.",
+        "ja": "始める前にオーブンを予熱する必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_casserole",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile"],
+    "french": "casserole",
+    "english": "saucepan",
+    "japanese": "片手鍋",
+    "definition_fr": "Récipient cylindrique à fond plat et à manche.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites chauffer l'eau dans la casserole.",
+        "en": "Heat the water in the saucepan.",
+        "ja": "片手鍋で水を温めてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poele",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile"],
+    "french": "poêle",
+    "english": "frying pan",
+    "japanese": "フライパン",
+    "definition_fr": "Récipient de cuisson plat avec un manche.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Elle a fait sauter les oignons dans la poêle.",
+        "en": "She sautéed the onions in the pan.",
+        "ja": "彼女はフライパンで玉ねぎを炒めました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_assiette",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Vaisselle"],
+    "french": "assiette",
+    "english": "plate",
+    "japanese": "皿",
+    "definition_fr": "Pièce de vaisselle plate où l'on sert la nourriture.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Dresser les assiettes.",
+        "en": "Plate the food (Arrange the plates).",
+        "ja": "皿に盛り付ける。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cuillere",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Couverts"],
+    "french": "cuillère",
+    "english": "spoon",
+    "japanese": "スプーン",
+    "definition_fr": "Ustensile servant à prendre des liquides ou des aliments en poudre.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Une cuillère de sucre suffit.",
+        "en": "A spoon of sugar is enough.",
+        "ja": "スプーン1杯の砂糖で十分です。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fourchette",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Couverts"],
+    "french": "fourchette",
+    "english": "fork",
+    "japanese": "フォーク",
+    "definition_fr": "Ustensile de table avec des dents pour piquer la nourriture.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Écrase les pommes de terre avec une fourchette.",
+        "en": "Crush the potatoes with a fork.",
+        "ja": "フォークでじゃがいもを潰して。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_verre",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Vaisselle"],
+    "french": "verre",
+    "english": "glass",
+    "japanese": "グラス、コップ",
+    "definition_fr": "Récipient pour boire.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Elle a mesuré le lait avec un verre doseur.",
+        "en": "She measured the milk with a measuring cup.",
+        "ja": "彼女は計量カップ（計量グラス）で牛乳を計りました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_table",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Lieu", "Restaurant"],
+    "french": "table",
+    "english": "table",
+    "japanese": "テーブル",
+    "definition_fr": "Meuble autour duquel on s'assied pour manger.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je voudrais une table près de la cheminée.",
+        "en": "I would like a table by the fireplace.",
+        "ja": "暖炉のそばのテーブルをお願いします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_repas",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Général"],
+    "french": "repas",
+    "english": "meal",
+    "japanese": "食事",
+    "definition_fr": "Nourriture prise à des heures régulières.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "C'est l'heure du repas !",
+        "en": "It's mealtime!",
+        "ja": "食事の時間です！"
+      }
+    ]
+  },
+  {
+    "id": "vocab_menu",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Restaurant"],
+    "french": "menu",
+    "english": "menu",
+    "japanese": "メニュー、定食",
+    "definition_fr": "Liste des plats servis dans un restaurant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Voulez-vous voir le menu ?",
+        "en": "Would you like to see the menu?",
+        "ja": "メニューをご覧になりますか？"
+      }
+    ]
+  },
+  {
+    "id": "vocab_plat",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Restaurant"],
+    "french": "plat",
+    "english": "dish / main course",
+    "japanese": "皿、料理、メインディッシュ",
+    "definition_fr": "Nourriture préparée et servie.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce plat est plus cher que celui-là.",
+        "en": "This dish is more expensive than that one.",
+        "ja": "この料理はあちらの料理より値段が高いです。"
+      }
+    ]
+  },
+  [
+  {
+    "id": "vocab_mesurer",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Préparation"],
+    "french": "mesurer",
+    "english": "to measure",
+    "japanese": "計る、計量する",
+    "definition_fr": "Évaluer une quantité avec un instrument.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Elle a mesuré le lait avec un verre doseur.",
+        "en": "She measured the milk with a measuring cup.",
+        "ja": "彼女は計量カップで牛乳を計りました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_saler",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Assaisonnement"],
+    "french": "saler",
+    "english": "to salt",
+    "japanese": "塩を振る",
+    "definition_fr": "Ajouter du sel à une préparation.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il sale toujours trop ses plats.",
+        "en": "He always oversalts his dishes.",
+        "ja": "彼はいつも料理に塩をかけすぎます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poivrer",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Assaisonnement"],
+    "french": "poivrer",
+    "english": "to pepper",
+    "japanese": "胡椒を振る",
+    "definition_fr": "Ajouter du poivre à un plat.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "J'ai oublié de poivrer le steak.",
+        "en": "I forgot to pepper the steak.",
+        "ja": "ステーキに胡椒を振るのを忘れました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_prechauffer",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Cuisson"],
+    "french": "préchauffer",
+    "english": "to preheat",
+    "japanese": "予熱する",
+    "definition_fr": "Chauffer à l'avance, notamment un four.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut préchauffer le four avant de commencer le gâteau.",
+        "en": "You must preheat the oven before starting the cake.",
+        "ja": "ケーキを作り始める前にオーブンを予熱する必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_presser",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "presser",
+    "english": "to squeeze",
+    "japanese": "絞る",
+    "definition_fr": "Serrer pour extraire le jus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Elle a pressé l'orange à la main.",
+        "en": "She squeezed the orange by hand.",
+        "ja": "彼女は手でオレンジを絞りました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_rincer",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Hygiène"],
+    "french": "rincer",
+    "english": "to rinse",
+    "japanese": "ゆすぐ、軽く洗う",
+    "definition_fr": "Laver légèrement à l'eau claire.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il est en train de rincer la salade.",
+        "en": "He is rinsing the salad.",
+        "ja": "彼はサラダ（レタス）を洗っています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_rotir",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Cuisson"],
+    "french": "rôtir",
+    "english": "to roast",
+    "japanese": "ローストする、オーブンで焼く",
+    "definition_fr": "Cuire à feu vif dans un four ou à la broche.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "J'ai rôti des légumes au four.",
+        "en": "I roasted vegetables in the oven.",
+        "ja": "オーブンで野菜をローストしました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_trancher",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Découpe"],
+    "french": "trancher",
+    "english": "to slice",
+    "japanese": "スライスする、薄く切る",
+    "definition_fr": "Couper en tranches.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Tranche le pain avant de le servir.",
+        "en": "Slice the bread before serving it.",
+        "ja": "提供する前にパンをスライスして。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tremper",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "tremper",
+    "english": "to soak / to dip",
+    "japanese": "浸す",
+    "definition_fr": "Plonger dans un liquide.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Il a trempé le pain dans son café.",
+        "en": "He soaked the bread in his coffee.",
+        "ja": "彼はコーヒーにパンを浸しました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_etaler",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Pâtisserie"],
+    "french": "étaler",
+    "english": "to spread / to roll out",
+    "japanese": "広げる、伸ばす",
+    "definition_fr": "Disposer ou étendre sur une surface plane.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Étalez la pâte avec un rouleau pâtissier.",
+        "en": "Roll out the dough with a rolling pin.",
+        "ja": "麺棒で生地を平らに伸ばしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_farcir",
+    "category": "Techniques",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "farcir",
+    "english": "to stuff",
+    "japanese": "詰め物をする",
+    "definition_fr": "Remplir un aliment de farce.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Hachez le persil et farcissez la dinde !",
+        "en": "Chop the parsley and stuff the turkey!",
+        "ja": "パセリを刻んで、七面鳥に詰め物をしてください！"
+      }
+    ]
+  },
+  {
+    "id": "vocab_travailler",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Général"],
+    "french": "travailler",
+    "english": "to work",
+    "japanese": "働く、作業する",
+    "definition_fr": "Exercer une activité professionnelle ou une tâche.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Il travaille dans la cuisine d'un grand restaurant.",
+        "en": "He works in the kitchen of a great restaurant.",
+        "ja": "彼は大きなレストランの厨房で働いています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_donner",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Général"],
+    "french": "donner",
+    "english": "to give",
+    "japanese": "与える、渡す",
+    "definition_fr": "Transférer la propriété ou l'usage de quelque chose à quelqu'un.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Donnez-moi le sel.",
+        "en": "Give me the salt.",
+        "ja": "塩をちょうだい（私に渡して）。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_commander",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Verbe", "Restaurant"],
+    "french": "commander",
+    "english": "to order",
+    "japanese": "注文する",
+    "definition_fr": "Demander qu'on vous serve un plat ou une boisson.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je commande une soupe de légumes.",
+        "en": "I order a vegetable soup.",
+        "ja": "私は野菜スープを注文します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_apporter",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Verbe", "Action", "Restaurant"],
+    "french": "apporter",
+    "english": "to bring",
+    "japanese": "持ってくる",
+    "definition_fr": "Porter avec soi d'un lieu à un autre.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur apporte le menu.",
+        "en": "The waiter brings the menu.",
+        "ja": "ウェイターがメニューを持ってきます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_payer",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Verbe", "Argent", "Restaurant"],
+    "french": "payer",
+    "english": "to pay",
+    "japanese": "支払う",
+    "definition_fr": "Donner de l'argent en échange d'un bien ou d'un service.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je voudrais payer l'addition.",
+        "en": "I would like to pay the bill.",
+        "ja": "お会計を支払いたいです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_acheter",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Argent"],
+    "french": "acheter",
+    "english": "to buy",
+    "japanese": "買う",
+    "definition_fr": "Obtenir quelque chose contre un paiement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Vous achetez un kilo de haricots.",
+        "en": "You buy a kilo of beans.",
+        "ja": "あなたは1キロのインゲン豆を買います。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_vendre",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Argent"],
+    "french": "vendre",
+    "english": "to sell",
+    "japanese": "売る",
+    "definition_fr": "Céder quelque chose contre de l'argent.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le boucher vend de la viande.",
+        "en": "The butcher sells meat.",
+        "ja": "肉屋が肉を売っています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ecouter",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Sens", "Communication"],
+    "french": "écouter",
+    "english": "to listen",
+    "japanese": "聞く",
+    "definition_fr": "Prêter attention à ce qu'on entend.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Écoutez les conseils du chef.",
+        "en": "Listen to the chef's advice.",
+        "ja": "シェフのアドバイスを聞いてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_regarder",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Sens"],
+    "french": "regarder",
+    "english": "to look / to watch",
+    "japanese": "見る",
+    "definition_fr": "Porter la vue sur quelque chose ou quelqu'un.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je regarde le menu.",
+        "en": "I look at the menu.",
+        "ja": "私はメニューを見ます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_serveur",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "serveur / serveuse",
+    "english": "waiter / waitress",
+    "japanese": "ウェイター、給仕",
+    "definition_fr": "Personne qui sert les clients dans un restaurant ou un café.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur apporte une assiette.",
+        "en": "The waiter brings a plate.",
+        "ja": "ウェイターが皿を運んできます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cuisinier",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "cuisinier / cuisinière",
+    "english": "cook",
+    "japanese": "料理人",
+    "definition_fr": "Personne dont le métier est de faire la cuisine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le cuisinier prépare le repas.",
+        "en": "The cook prepares the meal.",
+        "ja": "料理人が食事を準備します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_patissier",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "pâtissier / pâtissière",
+    "english": "pastry chef",
+    "japanese": "パティシエ、菓子職人",
+    "definition_fr": "Personne qui fabrique et vend des pâtisseries.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le pâtissier fait de très bons gâteaux.",
+        "en": "The pastry chef makes very good cakes.",
+        "ja": "そのパティシエはとても美味しいケーキを作ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_boulanger",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "boulanger / boulangère",
+    "english": "baker",
+    "japanese": "パン職人",
+    "definition_fr": "Personne qui fabrique et vend du pain.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le boulanger prépare le pain le matin.",
+        "en": "The baker prepares the bread in the morning.",
+        "ja": "パン職人は朝にパンを準備します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_boucher",
+    "category": "Brigade",
+    "level": "A1",
+    "tags": ["Nom", "Métier", "Personne"],
+    "french": "boucher / bouchère",
+    "english": "butcher",
+    "japanese": "肉屋",
+    "definition_fr": "Personne qui prépare et vend de la viande.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Achetez la viande chez le boucher.",
+        "en": "Buy the meat at the butcher's.",
+        "ja": "肉屋で肉を買ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_client",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Personne", "Restaurant"],
+    "french": "client / cliente",
+    "english": "customer",
+    "japanese": "客、顧客",
+    "definition_fr": "Personne qui achète un bien ou un service.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le client attend sa commande.",
+        "en": "The customer is waiting for his order.",
+        "ja": "お客様が注文を待っています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_addition",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Argent", "Restaurant"],
+    "french": "addition",
+    "english": "bill / check",
+    "japanese": "お会計",
+    "definition_fr": "Note détaillant la somme à payer au restaurant.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je voudrais l'addition, s'il vous plaît.",
+        "en": "I would like the bill, please.",
+        "ja": "お会計をお願いします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bol",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile", "Vaisselle"],
+    "french": "bol",
+    "english": "bowl",
+    "japanese": "ボウル、お椀",
+    "definition_fr": "Récipient rond et creux sans anse.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Elle mélange tous les ingrédients dans un grand bol.",
+        "en": "She mixes all the ingredients in a large bowl.",
+        "ja": "彼女は大きなボウルで全ての材料を混ぜます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tasse",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Vaisselle"],
+    "french": "tasse",
+    "english": "cup",
+    "japanese": "カップ",
+    "definition_fr": "Petit récipient muni d'une anse, utilisé pour boire.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je voudrais une tasse de thé.",
+        "en": "I would like a cup of tea.",
+        "ja": "紅茶を一杯お願いします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_refrigerateur",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Matériel"],
+    "french": "réfrigérateur / frigo",
+    "english": "refrigerator / fridge",
+    "japanese": "冷蔵庫",
+    "definition_fr": "Appareil produisant du froid pour conserver les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il n'y a plus rien dans le frigo.",
+        "en": "There is nothing left in the fridge.",
+        "ja": "冷蔵庫にはもう何も残っていません。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_congelateur",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Matériel"],
+    "french": "congélateur",
+    "english": "freezer",
+    "japanese": "冷凍庫",
+    "definition_fr": "Appareil permettant de congeler et conserver les aliments à très basse température.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mettez la glace dans le congélateur.",
+        "en": "Put the ice cream in the freezer.",
+        "ja": "アイスクリームを冷凍庫に入れてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_louche",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile"],
+    "french": "louche",
+    "english": "ladle",
+    "japanese": "お玉",
+    "definition_fr": "Grande cuillère à long manche pour servir les liquides.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Servez la soupe avec une louche.",
+        "en": "Serve the soup with a ladle.",
+        "ja": "お玉でスープをよそってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_plateau",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Ustensile", "Service"],
+    "french": "plateau",
+    "english": "tray",
+    "japanese": "トレイ、お盆",
+    "definition_fr": "Support plat servant à transporter des verres ou des plats.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur porte les verres sur un plateau.",
+        "en": "The waiter carries the glasses on a tray.",
+        "ja": "ウェイターがトレイに乗せてグラスを運びます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_serviette",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Restaurant"],
+    "french": "serviette",
+    "english": "napkin",
+    "japanese": "ナプキン",
+    "definition_fr": "Pièce de tissu ou de papier dont on se sert pour s'essuyer à table.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Prenez une serviette, s'il vous plaît.",
+        "en": "Take a napkin, please.",
+        "ja": "ナプキンを取ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_nappe",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Restaurant"],
+    "french": "nappe",
+    "english": "tablecloth",
+    "japanese": "テーブルクロス",
+    "definition_fr": "Pièce de tissu dont on recouvre une table.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Il y a une nappe blanche sur la table.",
+        "en": "There is a white tablecloth on the table.",
+        "ja": "テーブルの上に白いテーブルクロスがあります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pomme_de_terre",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Légume"],
+    "french": "pomme de terre",
+    "english": "potato",
+    "japanese": "じゃがいも",
+    "definition_fr": "Tubercule comestible très utilisé en cuisine.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Épluchez les pommes de terre, s'il vous plaît.",
+        "en": "Please peel the potatoes.",
+        "ja": "じゃがいもの皮をむいてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pomme",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Fruit"],
+    "french": "pomme",
+    "english": "apple",
+    "japanese": "リンゴ",
+    "definition_fr": "Fruit rond à pépins et à chair ferme.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je vais préparer une tarte aux pommes.",
+        "en": "I'm going to prepare an apple tart.",
+        "ja": "リンゴのタルトを準備します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_citron",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Fruit"],
+    "french": "citron",
+    "english": "lemon",
+    "japanese": "レモン",
+    "definition_fr": "Fruit jaune au jus très acide.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Ajoutez un peu de jus de citron.",
+        "en": "Add a little lemon juice.",
+        "ja": "レモン汁を少し加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ail",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Légume", "Condiment"],
+    "french": "ail",
+    "english": "garlic",
+    "japanese": "ニンニク",
+    "definition_fr": "Plante dont le bulbe a une odeur forte, utilisée comme condiment.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ne mettez pas d'ail dans la sauce.",
+        "en": "Do not put garlic in the sauce.",
+        "ja": "ソースにニンニクを入れないでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_champignon",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Légume"],
+    "french": "champignon",
+    "english": "mushroom",
+    "japanese": "キノコ、マッシュルーム",
+    "definition_fr": "Végétal sans feuilles, souvent comestible, très utilisé en cuisine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Elle mange une omelette aux champignons.",
+        "en": "She is eating a mushroom omelet.",
+        "ja": "彼女はマッシュルームオムレツを食べています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_porc",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Viande"],
+    "french": "porc",
+    "english": "pork",
+    "japanese": "豚肉",
+    "definition_fr": "Viande issue du cochon.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Des fines tranches de poitrine de porc.",
+        "en": "Thin slices of pork belly.",
+        "ja": "豚バラ肉の薄切り。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_boeuf",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Viande"],
+    "french": "bœuf",
+    "english": "beef",
+    "japanese": "牛肉",
+    "definition_fr": "Viande issue d'un bovin adulte.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le bœuf bourguignon mijote depuis ce matin.",
+        "en": "The beef Burgundy has been stewing since this morning.",
+        "ja": "ブッフ・ブルギニョンは今朝から煮込まれています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_agneau",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Viande"],
+    "french": "agneau",
+    "english": "lamb",
+    "japanese": "子羊の肉",
+    "definition_fr": "Viande du jeune mouton.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Un ragoût d'agneau à l'anglaise.",
+        "en": "An English-style lamb stew.",
+        "ja": "イギリス風の子羊のラグー（煮込み）。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_jour",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Temps"],
+    "french": "jour",
+    "english": "day",
+    "japanese": "日、一日",
+    "definition_fr": "Période de 24 heures.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Je travaille tous les jours.",
+        "en": "I work every day.",
+        "ja": "私は毎日働きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_matin",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Temps"],
+    "french": "matin",
+    "english": "morning",
+    "japanese": "朝",
+    "definition_fr": "Première partie de la journée.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Nous nous levons tôt le matin.",
+        "en": "We get up early in the morning.",
+        "ja": "私たちは朝早く起きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_soir",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Temps"],
+    "french": "soir",
+    "english": "evening",
+    "japanese": "夜、夕方",
+    "definition_fr": "Fin de la journée.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Nous allons manger au restaurant ce soir.",
+        "en": "We are going to eat at the restaurant tonight.",
+        "ja": "今夜はレストランで食事をします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_nuit",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Nom", "Temps"],
+    "french": "nuit",
+    "english": "night",
+    "japanese": "夜、深夜",
+    "definition_fr": "Période allant du coucher au lever du soleil.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Laisse la viande mariner toute la nuit.",
+        "en": "Let the meat marinate overnight.",
+        "ja": "肉を一晩マリネ液に漬け込んでおいて。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_grand",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Taille"],
+    "french": "grand",
+    "english": "big / tall",
+    "japanese": "大きい",
+    "definition_fr": "De dimension importante.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Il travaille dans la cuisine d'un grand restaurant.",
+        "en": "He works in the kitchen of a great restaurant.",
+        "ja": "彼は大きなレストランの厨房で働いています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_petit",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Taille"],
+    "french": "petit",
+    "english": "small",
+    "japanese": "小さい",
+    "definition_fr": "De faible dimension.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Coupez les fruits en petits morceaux.",
+        "en": "Cut the fruits into small pieces.",
+        "ja": "果物を小さく切ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_nouveau",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Temps"],
+    "french": "nouveau",
+    "english": "new",
+    "japanese": "新しい",
+    "definition_fr": "Qui vient d'apparaître ou d'arriver.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Nous avons un nouveau chef.",
+        "en": "We have a new chef.",
+        "ja": "私たちには新しいシェフがいます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_dessert",
+    "category": "Service",
+    "level": "A1",
+    "tags": ["Nom", "Restaurant"],
+    "french": "dessert",
+    "english": "dessert",
+    "japanese": "デザート",
+    "definition_fr": "Dernier plat sucré d'un repas.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le dessert que tu as acheté est délicieux.",
+        "en": "The dessert that you bought is delicious.",
+        "ja": "あなたが買ったデザートは美味しいです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_recette",
+    "category": "Theory",
+    "level": "A2",
+    "tags": ["Nom", "Cuisine", "Théorie"],
+    "french": "recette",
+    "english": "recipe",
+    "japanese": "レシピ、作り方",
+    "definition_fr": "Instructions pour préparer un plat.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La recette de ta grand-mère était très simple.",
+        "en": "Your grandmother's recipe was very simple.",
+        "ja": "あなたの祖母のレシピはとてもシンプルでした。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chaud",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Température"],
+    "french": "chaud",
+    "english": "hot",
+    "japanese": "熱い、温かい",
+    "definition_fr": "D'une température élevée.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Attention, c'est très chaud !",
+        "en": "Watch out, it's very hot!",
+        "ja": "気をつけて、とても熱いです！（熱いもの通ります！）"
+      }
+    ]
+  },
+  {
+    "id": "vocab_froid",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Température"],
+    "french": "froid",
+    "english": "cold",
+    "japanese": "冷たい",
+    "definition_fr": "D'une température basse.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Incorporez le beurre froid en fouettant continuellement.",
+        "en": "Incorporate the cold butter while whisking continuously.",
+        "ja": "絶えず泡立てながら冷たいバターを混ぜ込んでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bon",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Adjectif", "Goût"],
+    "french": "bon",
+    "english": "good",
+    "japanese": "美味しい、良い",
+    "definition_fr": "Qui a une saveur agréable.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Ce repas de poisson était très bon.",
+        "en": "This fish meal was very good.",
+        "ja": "この魚料理はとても美味しかったです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_frais",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Adjectif", "Qualité"],
+    "french": "frais",
+    "english": "fresh",
+    "japanese": "新鮮な、冷たい",
+    "definition_fr": "Qui vient d'être récolté ou produit ; légèrement froid.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Tu choisiras de préférence des produits frais quand tu feras tes courses.",
+        "en": "You will preferably choose fresh products when you go grocery shopping.",
+        "ja": "買い物をする際にできるだけ新鮮な食材を選ぶことになるでしょう。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sale",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Adjectif", "Goût"],
+    "french": "salé",
+    "english": "salty / savory",
+    "japanese": "塩辛い、塩味の（料理）",
+    "definition_fr": "Qui contient du sel ou a le goût du sel.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il y a des crêpes sucrées et des crêpes salées.",
+        "en": "There are sweet crepes and savory crepes.",
+        "ja": "甘いクレープと塩味のクレープがあります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sucre_adj",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Adjectif", "Goût", "Pâtisserie"],
+    "french": "sucré",
+    "english": "sweet",
+    "japanese": "甘い、甘味の",
+    "definition_fr": "Qui a une saveur douce, contenant du sucre.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "C'est un dessert très sucré.",
+        "en": "It's a very sweet dessert.",
+        "ja": "とても甘いデザートです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_delicieux",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Adjectif", "Goût"],
+    "french": "délicieux",
+    "english": "delicious",
+    "japanese": "とても美味しい",
+    "definition_fr": "Très agréable au goût.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le dessert que tu as acheté est délicieux.",
+        "en": "The dessert that you bought is delicious.",
+        "ja": "あなたが買ったデザートは美味しいです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_preparer",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "préparer",
+    "english": "to prepare",
+    "japanese": "準備する",
+    "definition_fr": "Rendre prêt pour un usage ou une cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Je vais préparer une tarte aux pommes.",
+        "en": "I'm going to prepare an apple tart.",
+        "ja": "リンゴのタルトを準備します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cuire",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Cuisson"],
+    "french": "cuire",
+    "english": "to cook",
+    "japanese": "加熱する、調理する",
+    "definition_fr": "Préparer un aliment par la chaleur.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Je préfère cuire les légumes à la vapeur.",
+        "en": "I prefer to steam vegetables.",
+        "ja": "野菜は蒸して調理するのが好きです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ajouter",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "ajouter",
+    "english": "to add",
+    "japanese": "加える",
+    "definition_fr": "Mettre en plus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut ajouter les œufs un par un.",
+        "en": "You need to add the eggs one at a time.",
+        "ja": "卵を一つずつ加える必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_melanger",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Action"],
+    "french": "mélanger",
+    "english": "to mix",
+    "japanese": "混ぜる",
+    "definition_fr": "Mettre ensemble divers éléments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Elle mélange tous les ingrédients dans un grand bol.",
+        "en": "She mixes all the ingredients in a large bowl.",
+        "ja": "彼女は大きなボウルで全ての材料を混ぜます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_eplucher",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Verbe", "Action", "Légume"],
+    "french": "éplucher",
+    "english": "to peel",
+    "japanese": "皮をむく",
+    "definition_fr": "Enlever la peau d'un fruit ou d'un légume.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Épluchez les pommes de terre, s'il vous plaît.",
+        "en": "Please peel the potatoes.",
+        "ja": "じゃがいもの皮をむいてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bouillir",
+    "category": "General",
+    "level": "A2",
+    "tags": ["Verbe", "Cuisson"],
+    "french": "bouillir",
+    "english": "to boil",
+    "japanese": "沸騰させる",
+    "definition_fr": "Porter un liquide à ébullition.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "C'est mieux de chauffer le lait sans le faire bouillir.",
+        "en": "It's better to heat the milk without boiling it.",
+        "ja": "牛乳は沸騰させずに温めるのが良いです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chauffer",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Cuisson"],
+    "french": "chauffer",
+    "english": "to heat",
+    "japanese": "温める",
+    "definition_fr": "Rendre chaud ou plus chaud.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Faites chauffer la poêle avec un peu d'huile.",
+        "en": "Heat the pan with a little oil.",
+        "ja": "少量の油でフライパンを温めてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gouter",
+    "category": "General",
+    "level": "A1",
+    "tags": ["Verbe", "Sens"],
+    "french": "goûter",
+    "english": "to taste",
+    "japanese": "味見する",
+    "definition_fr": "Essayer un aliment pour connaître sa saveur.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "J'ai goûté le plat avant de le servir.",
+        "en": "I tasted the dish before serving it.",
+        "ja": "提供する前に料理の味見をしました。"
+      }
+    ]
+  },
+  {
     "id": "gram_partitive",
     "category": "Grammar",
     "level": "A1",
