@@ -11,8 +11,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="apple-touch-icon" href="/assets/icon-192-Cj_-870D.png">
-  <script type="module" crossorigin src="/assets/index-BDfqfJbg.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Bgr5KvoK.css">
+  <script type="module" crossorigin src="/assets/index-BYRpASnL.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CnbMaoWi.css">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 <body>
   <div id="app-container">
@@ -57,5 +57,27 @@
     </footer>
   </div>
 
+  <!-- YouGlish Floating Sidebar Panel -->
+  <div id="youglish-sidebar" class="youglish-sidebar">
+    <button id="youglish-sidebar-toggle" class="youglish-toggle-btn" title="YouGlish 発音検索">
+      <span class="toggle-icon">🔊</span>
+      <span class="toggle-label">YouGlish</span>
+    </button>
+    <div class="youglish-sidebar-content">
+      <div class="youglish-header">
+        <h3>YouGlish French 🇫🇷</h3>
+        <p>知らない料理やレシピ用語の動画と発音をその場で検索・再生します。</p>
+      </div>
+      <div class="youglish-search-box">
+        <input type="text" id="youglish-search-input" placeholder="検索ワードを入力 (例: sauter)">
+        <button id="youglish-search-btn">検索</button>
+      </div>
+      <div id="yg-widget-container" class="yg-widget-container">
+        <div class="yg-placeholder">単語を入力して検索ボタンを押してください。</div>
+      </div>
+    </div>
+  </div>
+
+  <script async src="https://youglish.com/public/widget/widget.js" charset="utf-8"></script>
 </body>
 </html>
