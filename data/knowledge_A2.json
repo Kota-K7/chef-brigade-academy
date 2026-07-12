@@ -1,1061 +1,31 @@
 [
   {
-    "id": "vocab_ciseler",
-    "category": "Techniques",
+    "id": "gram_questions",
+    "category": "Grammar",
     "level": "A2",
     "tags": [
-      "knife-cuts",
-      "vegetables",
-      "basics"
+      "grammar"
     ],
-    "french": "Ciseler",
-    "english": "To finely dice (onions/shallots) or shred leaves",
-    "japanese": "細かく刻む（玉ねぎ・エシャロットなど）",
-    "definition_fr": "(verbe) Couper très finement en petits dés (des oignons, des échalotes) ou tailler des herbes aromatiques à l'aide d'un couteau.",
-    "is_professional": true,
+    "grammar": {
+      "topic": "Forming Questions in the Kitchen (Poser des Questions)",
+      "explanation_ja": "フランス語の疑問文には3つの作り方があります：文末のイントネーションを上げる（カジュアル）、文頭に「Est-ce que」をつける（標準）、主語と動詞を入れ替える「倒置」（フォーマル・接客で多用）。",
+      "explanation_en": "You can form questions in three ways in French: by raising your voice at the end (informal), by placing 'Est-ce que' before the sentence (standard), or by inverting the verb and subject pronoun (formal, highly preferred for VIP customers)."
+    },
     "examples": [
       {
-        "fr": "Il faut ciseler les échalotes pour la sauce béarnaise.",
-        "en": "You need to finely dice the shallots for the Béarnaise sauce.",
-        "ja": "ベアルネーズソースを作るために、エシャロットを細かく刻む必要があります。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_chinois",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": [
-      "utensils",
-      "sauces",
-      "liquids"
-    ],
-    "french": "Chinois",
-    "english": "Conical strainer / China cap",
-    "japanese": "シノワ（円錐形の漉し器）",
-    "definition_fr": "(nom) Passoire en métal en forme de cône avec un grillage très fin, utilisée pour filtrer des sauces, des bouillons ou des jus.",
-    "is_professional": true,
-    "examples": [
+        "fr": "Avez-vous des allergies alimentaires ?",
+        "en": "Do you have any food allergies? (formal inversion)",
+        "ja": "食物アレルギーはございますか？"
+      },
       {
-        "fr": "Passez le fond de veau au chinois pour enlever toutes les impuretés.",
-        "en": "Pass the veal stock through the chinos strainer to remove all impurities.",
-        "ja": "すべての不純物を取り除くため、子牛の出汁（フォン・ド・ヴォー）をシノワで漉してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_brunoise",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": [
-      "knife-cuts",
-      "vegetables",
-      "advanced"
-    ],
-    "french": "Brunoise",
-    "english": "Very small dice (1-2mm cubes)",
-    "japanese": "ブリュノワーズ（1〜2mm角の極細切り・みじん切り）",
-    "definition_fr": "(nom) Technique de coupe qui consiste à tailler des légumes en dés extrêmement petits et réguliers de 1 à 2 millimètres de côté.",
-    "is_professional": true,
-    "examples": [
+        "fr": "Est-ce que le four est chaud ?",
+        "en": "Is the oven hot? (standard 'Est-ce que')",
+        "ja": "オーブンは温まっていますか？"
+      },
       {
-        "fr": "Coupez les carottes en brunoise régulière pour la garniture.",
-        "en": "Cut the carrots into a regular brunoise for the garnish.",
-        "ja": "付け合わせ用に、にんじんを均一なブリュノワーズ（みじん切り）にカットしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_gen_ecrire",
-    "category": "General",
-    "level": "A2",
-    "tags": [
-      "verbs"
-    ],
-    "french": "Écrire",
-    "english": "To write",
-    "japanese": "書く",
-    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Le chef écrit la recette du jour sur le tableau.",
-        "en": "The chef writes the recipe of the day on the board.",
-        "ja": "シェフが本日のレシピをボードに書きます。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_gen_lire",
-    "category": "General",
-    "level": "A2",
-    "tags": [
-      "verbs"
-    ],
-    "french": "Lire",
-    "english": "To read",
-    "japanese": "読む",
-    "definition_fr": "(verbe) Parcourir des yeux des caractères écrits ou imprimés en en comprenant le sens.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Le commis lit le bon de commande rapidement.",
-        "en": "The kitchen assistant reads the order slip quickly.",
-        "ja": "見習い料理人は注文票（ボン）を素早く読みます。"
-      }
-    ]
-  },
-    {
-    "id": "vocab_sauter",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Cuisson", "Technique"],
-    "french": "sauter",
-    "english": "to sauté",
-    "japanese": "ソテーする、炒める",
-    "definition_fr": "Cuire rapidement à feu vif dans une matière grasse.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Faites sauter les champignons dans la poêle.",
-        "en": "Sauté the mushrooms in the pan.",
-        "ja": "フライパンでマッシュルームをソテーしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_frire",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Cuisson"],
-    "french": "frire",
-    "english": "to fry",
-    "japanese": "揚げる",
-    "definition_fr": "Cuire un aliment en le plongeant dans un bain d'huile bouillante.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Il faut frire les pommes de terre pour faire des frites.",
-        "en": "You need to fry the potatoes to make French fries.",
-        "ja": "フライドポテトを作るためにじゃがいもを揚げる必要があります。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_griller",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Cuisson"],
-    "french": "griller",
-    "english": "to grill",
-    "japanese": "網焼きにする、グリルする",
-    "definition_fr": "Cuire un aliment à la chaleur rayonnante.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Nous allons griller la viande ce soir.",
-        "en": "We are going to grill the meat tonight.",
-        "ja": "今夜は肉をグリルします。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_pocher",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Cuisson", "Technique"],
-    "french": "pocher",
-    "english": "to poach",
-    "japanese": "ポシェする、熱湯（またはだし汁）で茹でる",
-    "definition_fr": "Cuire un aliment dans un liquide frémissant.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Pochez le poisson dans le court-bouillon.",
-        "en": "Poach the fish in the court-bouillon.",
-        "ja": "魚をクール・ブイヨンでポシェしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_enfourner",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Cuisson", "Action"],
-    "french": "enfourner",
-    "english": "to put in the oven",
-    "japanese": "オーブンに入れる",
-    "definition_fr": "Mettre un aliment dans le four pour le cuire.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Enfournez le gâteau pendant 30 minutes.",
-        "en": "Bake the cake in the oven for 30 minutes.",
-        "ja": "ケーキをオーブンに入れて30分焼きます。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_assaisonner",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Action", "Goût"],
-    "french": "assaisonner",
-    "english": "to season",
-    "japanese": "味付けをする",
-    "definition_fr": "Ajouter du sel, du poivre ou des épices pour donner du goût.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "N'oubliez pas d'assaisonner la sauce.",
-        "en": "Don't forget to season the sauce.",
-        "ja": "ソースの味付けを忘れないでください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_deglacer",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Sauce"],
-    "french": "déglacer",
-    "english": "to deglaze",
-    "japanese": "デグラッセする、鍋底の旨味を溶かす",
-    "definition_fr": "Dissoudre les sucs de cuisson avec un liquide (vin, bouillon).",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Déglacez la poêle avec un peu de vin blanc.",
-        "en": "Deglaze the pan with a little white wine.",
-        "ja": "少量の白ワインでフライパンをデグラッセしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_reduire",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Sauce"],
-    "french": "réduire",
-    "english": "to reduce",
-    "japanese": "煮詰める",
-    "definition_fr": "Faire bouillir un liquide pour concentrer les saveurs par évaporation.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Faites réduire la sauce de moitié.",
-        "en": "Reduce the sauce by half.",
-        "ja": "ソースを半量になるまで煮詰めてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_egoutter",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Action"],
-    "french": "égoutter",
-    "english": "to drain",
-    "japanese": "水気を切る",
-    "definition_fr": "Débarrasser un aliment de son liquide.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Égouttez les pâtes dans une passoire.",
-        "en": "Drain the pasta in a colander.",
-        "ja": "ザルでパスタの水気を切ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_emincer",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Découpe"],
-    "french": "émincer",
-    "english": "to slice thinly",
-    "japanese": "薄切りにする",
-    "definition_fr": "Couper en tranches très fines.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Émincez les oignons finement.",
-        "en": "Slice the onions thinly.",
-        "ja": "玉ねぎを薄切りにしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_ecumer",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique"],
-    "french": "écumer",
-    "english": "to skim",
-    "japanese": "アク（泡）を取る",
-    "definition_fr": "Retirer l'écume à la surface d'un liquide en ébullition.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Écumez le bouillon de temps en temps.",
-        "en": "Skim the broth from time to time.",
-        "ja": "時々ブイヨンのアクを取ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_degraisser",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique"],
-    "french": "dégraisser",
-    "english": "to degrease / skim fat",
-    "japanese": "脂を取り除く",
-    "definition_fr": "Enlever la graisse à la surface d'un bouillon ou d'une sauce.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Il faut dégraisser la sauce avant de la servir.",
-        "en": "You must degrease the sauce before serving it.",
-        "ja": "提供する前にソースの脂を取り除く必要があります。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_degorger",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Préparation"],
-    "french": "dégorger",
-    "english": "to purge / to soak",
-    "japanese": "血抜きをする、あく抜きをする",
-    "definition_fr": "Laisser tremper un aliment pour le débarrasser de ses impuretés ou de son sang.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Faites dégorger les os dans l'eau froide.",
-        "en": "Soak the bones in cold water to purge them.",
-        "ja": "冷水で骨の血抜きをしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_chemiser",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Pâtisserie"],
-    "french": "chemiser",
-    "english": "to line (a mold)",
-    "japanese": "型に敷く、型に塗る",
-    "definition_fr": "Appliquer une couche (beurre, papier, lard) sur les parois d'un moule.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Chemisez le moule avec du beurre et de la farine.",
-        "en": "Line the mold with butter and flour.",
-        "ja": "型にバターを塗り、小麦粉をはたいてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_lier",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Sauce"],
-    "french": "lier",
-    "english": "to bind / to thicken",
-    "japanese": "とろみをつける、つなぐ",
-    "definition_fr": "Épaissir un liquide avec un élément (farine, crème, œuf).",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Liez la sauce avec un peu de crème.",
-        "en": "Thicken the sauce with a little cream.",
-        "ja": "少量のクリームでソースにとろみをつけてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_singer",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Sauce"],
-    "french": "singer",
-    "english": "to dust with flour",
-    "japanese": "小麦粉を振る（とろみづけのため）",
-    "definition_fr": "Saupoudrer de farine des éléments revenus dans un corps gras.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Singez la viande avant de verser le bouillon.",
-        "en": "Dust the meat with flour before pouring the broth.",
-        "ja": "ブイヨンを注ぐ前に、肉に小麦粉を振ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_chiqueter",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Pâtisserie"],
-    "french": "chiqueter",
-    "english": "to score the edges",
-    "japanese": "（パイ生地などの）縁に刻み目を入れる",
-    "definition_fr": "Pratiquer de petites entailles sur les bords d'une pâte.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Chiquetez les bords de la pâte feuilletée avec un couteau.",
-        "en": "Score the edges of the puff pastry with a knife.",
-        "ja": "ナイフでパイ生地の縁に刻み目を入れてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_decanter",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Sauce"],
-    "french": "décanter",
-    "english": "to decant / to separate",
-    "japanese": "デカンテする、肉と煮汁を分ける",
-    "definition_fr": "Séparer les morceaux de viande de leur sauce ou garniture.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Décantez la viande pour filtrer la sauce.",
-        "en": "Decant the meat to strain the sauce.",
-        "ja": "ソースを漉すために、肉を取り出してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_dorer",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Pâtisserie"],
-    "french": "dorer",
-    "english": "to glaze (with egg) / to brown",
-    "japanese": "卵黄を塗る、焼き色をつける",
-    "definition_fr": "Passer du jaune d'œuf sur une pâte pour la colorer à la cuisson.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Dorez la pâte avant de la mettre au four.",
-        "en": "Glaze the pastry before putting it in the oven.",
-        "ja": "オーブンに入れる前に生地に卵黄を塗ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_dresser",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Service"],
-    "french": "dresser",
-    "english": "to plate / to arrange",
-    "japanese": "盛り付ける",
-    "definition_fr": "Disposer harmonieusement les aliments sur une assiette.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le chef dresse les assiettes pour le service.",
-        "en": "The chef plates the dishes for service.",
-        "ja": "シェフがサービスのために皿を盛り付けています。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_flamber",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique"],
-    "french": "flamber",
-    "english": "to flambe",
-    "japanese": "フランベする",
-    "definition_fr": "Arroser un plat d'alcool et y mettre le feu pour parfumer.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Il flambe les crêpes au Grand Marnier.",
-        "en": "He flambes the crepes with Grand Marnier.",
-        "ja": "彼はグランマルニエでクレープをフランベします。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_infuser",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Saveur"],
-    "french": "infuser",
-    "english": "to infuse / to steep",
-    "japanese": "アンフュゼする、香りを移す",
-    "definition_fr": "Mettre une plante aromatique dans un liquide chaud pour parfumer.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Laissez infuser le romarin dans le lait.",
-        "en": "Let the rosemary infuse in the milk.",
-        "ja": "牛乳にローズマリーの香りを移してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_mariner",
-    "category": "Techniques",
-    "level": "A2",
-    "tags": ["Verbe", "Technique", "Préparation"],
-    "french": "mariner",
-    "english": "to marinate",
-    "japanese": "マリネする、漬け込む",
-    "definition_fr": "Faire tremper un aliment dans un liquide aromatisé pour l'attendrir et le parfumer.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Laissez mariner la viande pendant deux heures.",
-        "en": "Let the meat marinate for two hours.",
-        "ja": "肉を2時間マリネ液に漬け込んでください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_commis",
-    "category": "Brigade",
-    "level": "A2",
-    "tags": ["Nom", "Métier", "Personne"],
-    "french": "commis",
-    "english": "assistant chef",
-    "japanese": "コミ（見習いや若手料理人）",
-    "definition_fr": "Cuisinier débutant travaillant sous les ordres d'un chef de partie.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le commis a pesé les champignons.",
-        "en": "The assistant chef weighed the mushrooms.",
-        "ja": "コミがマッシュルームの重さを計りました。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_plongeur",
-    "category": "Brigade",
-    "level": "A2",
-    "tags": ["Nom", "Métier", "Personne"],
-    "french": "plongeur",
-    "english": "dishwasher",
-    "japanese": "皿洗い担当",
-    "definition_fr": "Personne chargée de laver la vaisselle et le matériel de cuisine.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le plongeur nettoie les grandes marmites.",
-        "en": "The dishwasher cleans the large pots.",
-        "ja": "皿洗いのスタッフが大きな鍋を洗っています。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_apprenti",
-    "category": "Brigade",
-    "level": "A2",
-    "tags": ["Nom", "Métier", "Personne"],
-    "french": "apprenti",
-    "english": "apprentice",
-    "japanese": "見習い",
-    "definition_fr": "Jeune personne en formation dans une cuisine professionnelle.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "L'apprenti observe le chef attentivement.",
-        "en": "The apprentice watches the chef closely.",
-        "ja": "見習いがシェフを注意深く観察しています。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_second",
-    "category": "Brigade",
-    "level": "A2",
-    "tags": ["Nom", "Métier", "Personne"],
-    "french": "second",
-    "english": "sous-chef",
-    "japanese": "スーシェフ（副料理長）",
-    "definition_fr": "L'adjoint direct du chef de cuisine.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le second dirige la brigade quand le chef est absent.",
-        "en": "The sous-chef runs the brigade when the head chef is absent.",
-        "ja": "シェフが不在のときはスーシェフが厨房を指揮します。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_brigade",
-    "category": "Brigade",
-    "level": "A2",
-    "tags": ["Nom", "Groupe", "Cuisine"],
-    "french": "brigade",
-    "english": "kitchen brigade / team",
-    "japanese": "ブリガード（厨房チーム）",
-    "definition_fr": "L'ensemble du personnel de cuisine.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "La brigade travaille en parfaite harmonie pendant le service.",
-        "en": "The brigade works in perfect harmony during service.",
-        "ja": "サービス中、ブリガードは完璧な調和で働きます。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_passoire",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Ustensile"],
-    "french": "passoire",
-    "english": "strainer / colander",
-    "japanese": "ザル、水切り",
-    "definition_fr": "Ustensile percé de trous pour égoutter les aliments.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Versez les légumes dans la passoire.",
-        "en": "Pour the vegetables into the strainer.",
-        "ja": "野菜をザルにあけてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_spatule",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Ustensile"],
-    "french": "spatule",
-    "english": "spatula",
-    "japanese": "スパテラ、木べら",
-    "definition_fr": "Ustensile plat pour mélanger ou racler.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Utilisez une spatule pour mélanger le beurre.",
-        "en": "Use a spatula to mix the butter.",
-        "ja": "バターを混ぜるためにスパテラを使ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_fouet",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Ustensile"],
-    "french": "fouet",
-    "english": "whisk",
-    "japanese": "泡立て器、ホイッパー",
-    "definition_fr": "Ustensile composé de fils métalliques pour battre des préparations.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Montez les blancs en neige avec un fouet.",
-        "en": "Whip the egg whites with a whisk.",
-        "ja": "ホイッパーで卵白を泡立ててください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_planche_a_decouper",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Matériel", "Découpe"],
-    "french": "planche à découper",
-    "english": "cutting board",
-    "japanese": "まな板",
-    "definition_fr": "Support en bois ou en plastique pour couper les aliments.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Nettoyez bien la planche à découper.",
-        "en": "Clean the cutting board well.",
-        "ja": "まな板をよく洗ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_marmite",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Matériel", "Cuisson"],
-    "french": "marmite",
-    "english": "large pot / stockpot",
-    "japanese": "寸胴鍋、大きな深い鍋",
-    "definition_fr": "Grand récipient cylindrique avec un couvercle et des anses, utilisé pour bouillir.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Préparez le bouillon dans la grande marmite.",
-        "en": "Prepare the broth in the large stockpot.",
-        "ja": "大きな寸胴鍋でブイヨンを準備してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_sauteuse",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Matériel", "Cuisson"],
-    "french": "sauteuse",
-    "english": "sauté pan",
-    "japanese": "ソテーパン（縁が斜めまたは真っ直ぐな鍋）",
-    "definition_fr": "Casserole à bords droits ou évasés pour faire sauter les aliments.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Faites revenir la viande dans une sauteuse.",
-        "en": "Brown the meat in a sauté pan.",
-        "ja": "ソテーパンで肉を焼き色づけてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_cocotte",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Matériel", "Cuisson"],
-    "french": "cocotte",
-    "english": "casserole dish / Dutch oven",
-    "japanese": "ココット（厚手の蓋付き鍋）",
-    "definition_fr": "Marmite en fonte ou en terre cuite pour les cuissons lentes.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Laissez le ragoût mijoter dans la cocotte.",
-        "en": "Let the stew simmer in the Dutch oven.",
-        "ja": "ココット鍋でシチューをとろ火で煮込んでください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_balance",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Matériel", "Mesure"],
-    "french": "balance",
-    "english": "scale",
-    "japanese": "はかり",
-    "definition_fr": "Appareil utilisé pour peser les ingrédients.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Pesez la farine sur la balance.",
-        "en": "Weigh the flour on the scale.",
-        "ja": "はかりで小麦粉の重さを計ってください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_tablier",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Vêtement"],
-    "french": "tablier",
-    "english": "apron",
-    "japanese": "エプロン",
-    "definition_fr": "Vêtement de protection porté par-dessus les vêtements en cuisine.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Mettez votre tablier avant de commencer.",
-        "en": "Put on your apron before starting.",
-        "ja": "始める前にエプロンをつけてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_pince",
-    "category": "Equipment",
-    "level": "A2",
-    "tags": ["Nom", "Ustensile"],
-    "french": "pince",
-    "english": "tongs",
-    "japanese": "トング",
-    "definition_fr": "Ustensile pour saisir ou retourner les aliments chauds.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Retournez la viande avec la pince.",
-        "en": "Turn the meat with the tongs.",
-        "ja": "トングで肉を裏返してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_echalote",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Légume", "Aromate"],
-    "french": "échalote",
-    "english": "shallot",
-    "japanese": "エシャロット",
-    "definition_fr": "Bulbe utilisé comme condiment, au goût plus fin et sucré que l'oignon.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Faites suer les échalotes dans le beurre.",
-        "en": "Sweat the shallots in the butter.",
-        "ja": "バターでエシャロットをシュエ（水分を出しながら炒める）してください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_persil",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Herbe", "Aromate"],
-    "french": "persil",
-    "english": "parsley",
-    "japanese": "パセリ",
-    "definition_fr": "Herbe aromatique verte très courante en cuisine pour parfumer ou décorer.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Ajoutez un peu de persil haché.",
-        "en": "Add a little chopped parsley.",
-        "ja": "刻んだパセリを少し加えてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_ciboulette",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Herbe", "Aromate"],
-    "french": "ciboulette",
-    "english": "chives",
-    "japanese": "シブレット、チャイブ",
-    "definition_fr": "Herbe aromatique aux longues tiges fines, souvent utilisée en décoration.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Décorez avec de la ciboulette fraîche.",
-        "en": "Garnish with fresh chives.",
-        "ja": "新鮮なシブレットで飾り付けをしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_laurier",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Herbe", "Aromate"],
-    "french": "laurier",
-    "english": "bay leaf",
-    "japanese": "ローリエ、月桂樹の葉",
-    "definition_fr": "Feuille aromatique souvent utilisée dans les bouquets garnis.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Mettez une feuille de laurier dans la sauce.",
-        "en": "Put a bay leaf in the sauce.",
-        "ja": "ソースにローリエの葉を一枚入れてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_thym",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Herbe", "Aromate"],
-    "french": "thym",
-    "english": "thyme",
-    "japanese": "タイム",
-    "definition_fr": "Herbe de Provence très parfumée utilisée pour les viandes et sauces.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le thym parfume très bien les viandes rôties.",
-        "en": "Thyme flavors roasted meats very well.",
-        "ja": "タイムはローストしたお肉にとても良い香りをつけます。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_vinaigre",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Condiment", "Liquide"],
-    "french": "vinaigre",
-    "english": "vinegar",
-    "japanese": "酢、ビネガー",
-    "definition_fr": "Liquide acide utilisé pour l'assaisonnement ou les déglaçages.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Déglacez avec du vinaigre de vin rouge.",
-        "en": "Deglaze with red wine vinegar.",
-        "ja": "赤ワインビネガーでデグラッセしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_bouillon",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Liquide", "Base"],
-    "french": "bouillon",
-    "english": "broth / stock",
-    "japanese": "ブイヨン、だし汁",
-    "definition_fr": "Liquide de cuisson de viandes ou légumes, utilisé comme base.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Mouillez avec le bouillon chaud.",
-        "en": "Add the hot broth (to moisten).",
-        "ja": "温かいブイヨンを注いでください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_creme",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Laitier", "Ingrédient"],
-    "french": "crème",
-    "english": "cream",
-    "japanese": "生クリーム",
-    "definition_fr": "Matière grasse du lait utilisée pour lier les sauces ou en pâtisserie.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Incorporez la crème en fin de cuisson.",
-        "en": "Incorporate the cream at the end of cooking.",
-        "ja": "調理の最後にクリームを混ぜ込んでください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_gibier",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Viande"],
-    "french": "gibier",
-    "english": "game meat",
-    "japanese": "ジビエ、野鳥獣肉",
-    "definition_fr": "Animaux sauvages chassés pour être consommés.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "En automne, le chef prépare beaucoup de gibier.",
-        "en": "In autumn, the chef prepares a lot of game meat.",
-        "ja": "秋には、シェフはジビエをたくさん調理します。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_volaille",
-    "category": "General",
-    "level": "A2",
-    "tags": ["Nom", "Viande"],
-    "french": "volaille",
-    "english": "poultry",
-    "japanese": "家禽類、鳥肉",
-    "definition_fr": "Oiseaux d'élevage (poulet, canard) destinés à la consommation.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Habillez la volaille avant de la rôtir.",
-        "en": "Dress the poultry before roasting it.",
-        "ja": "ローストする前に鳥肉の下処理（形を整える）をしてください。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_sommelier",
-    "category": "Service",
-    "level": "A2",
-    "tags": ["Nom", "Métier", "Personne"],
-    "french": "sommelier / sommelière",
-    "english": "sommelier / wine steward",
-    "japanese": "ソムリエ",
-    "definition_fr": "Personne chargée du service et du conseil des vins au restaurant.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le sommelier vous recommandera un vin.",
-        "en": "The sommelier will recommend a wine to you.",
-        "ja": "ソムリエがワインをおすすめします。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_pourboire",
-    "category": "Service",
-    "level": "A2",
-    "tags": ["Nom", "Argent", "Restaurant"],
-    "french": "pourboire",
-    "english": "tip",
-    "japanese": "チップ",
-    "definition_fr": "Argent laissé volontairement par le client pour remercier du service.",
-    "is_professional": false,
-    "examples": [
-      {
-        "fr": "Les clients ont laissé un généreux pourboire.",
-        "en": "The customers left a generous tip.",
-        "ja": "お客様は気前よくチップを残してくれました。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_commande",
-    "category": "Service",
-    "level": "A2",
-    "tags": ["Nom", "Restaurant"],
-    "french": "commande",
-    "english": "order",
-    "japanese": "注文、オーダー",
-    "definition_fr": "Demande faite par un client pour des plats ou des boissons.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Le serveur prend la commande de la table cinq.",
-        "en": "The waiter is taking the order for table five.",
-        "ja": "ウェイターが5番テーブルの注文を取っています。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_degustation",
-    "category": "Service",
-    "level": "A2",
-    "tags": ["Nom", "Goût", "Restaurant"],
-    "french": "dégustation",
-    "english": "tasting",
-    "japanese": "テイスティング、試食、試飲",
-    "definition_fr": "Action de goûter pour évaluer les qualités d'un plat ou d'un vin.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Nous proposons un menu dégustation en six plats.",
-        "en": "We offer a six-course tasting menu.",
-        "ja": "当店では6品のテイスティングメニュー（おまかせコース）を提供しています。"
-      }
-    ]
-  },
-  {
-    "id": "vocab_clientele",
-    "category": "Service",
-    "level": "A2",
-    "tags": ["Nom", "Groupe", "Restaurant"],
-    "french": "clientèle",
-    "english": "clientele / customers",
-    "japanese": "顧客、常連客",
-    "definition_fr": "Ensemble des clients d'un restaurant ou d'un commerce.",
-    "is_professional": true,
-    "examples": [
-      {
-        "fr": "Ce restaurant a une clientèle très fidèle.",
-        "en": "This restaurant has a very loyal clientele.",
-        "ja": "このレストランにはとても忠実な常連客がいます。"
+        "fr": "Quelle cuisson préférez-vous pour votre steak ?",
+        "en": "How would you like your steak cooked? (formal question word + inversion)",
+        "ja": "ステーキの焼き加減はいかがいたしますか？"
       }
     ]
   },
@@ -1090,36 +60,6 @@
     ]
   },
   {
-    "id": "gram_causative_faire",
-    "category": "Grammar",
-    "level": "A2",
-    "tags": [
-      "grammar"
-    ],
-    "grammar": {
-      "topic": "The Causative Construction (Faire + Infinitive)",
-      "explanation_ja": "「〜させる、〜してもらう」という意味の使役表現です。料理用語では「faire rôtir（ローストさせる＝ローストする）」「faire bouillir（沸騰させる＝沸かす）」のように、熱を通したり調理を施したりする表現で多用されます。",
-      "explanation_en": "The construction 'faire + infinitive' is used in French culinary terminology to mean 'to make/cause someone or something to do an action'. It is commonly used for cooking instructions like 'faire rôtir' (to roast) or 'faire bouillir' (to boil)."
-    },
-    "examples": [
-      {
-        "fr": "Faites bouillir l'eau avant d'ajouter les pâtes.",
-        "en": "Boil the water before adding the pasta.",
-        "ja": "パスタを加える前にお湯を沸かしてください。"
-      },
-      {
-        "fr": "Le chef fait mariner la viande pendant la nuit.",
-        "en": "The chef marinates the meat overnight (causes the meat to marinate).",
-        "ja": "シェフは肉を一晩マリネさせます（マリネします）。"
-      },
-      {
-        "fr": "Faites rissoler les oignons.",
-        "en": "Brown the onions (make the onions brown).",
-        "ja": "タマネギをきつね色に炒めてください。"
-      }
-    ]
-  },
-  {
     "id": "gram_passive_pronominals",
     "category": "Grammar",
     "level": "A2",
@@ -1150,32 +90,32 @@
     ]
   },
   {
-    "id": "gram_questions",
+    "id": "gram_causative_faire",
     "category": "Grammar",
     "level": "A2",
     "tags": [
       "grammar"
     ],
     "grammar": {
-      "topic": "Forming Questions in the Kitchen (Poser des Questions)",
-      "explanation_ja": "フランス語の疑問文には3つの作り方があります：文末のイントネーションを上げる（カジュアル）、文頭に「Est-ce que」をつける（標準）、主語と動詞を入れ替える「倒置」（フォーマル・接客で多用）。",
-      "explanation_en": "You can form questions in three ways in French: by raising your voice at the end (informal), by placing 'Est-ce que' before the sentence (standard), or by inverting the verb and subject pronoun (formal, highly preferred for VIP customers)."
+      "topic": "The Causative Construction (Faire + Infinitive)",
+      "explanation_ja": "「〜させる、〜してもらう」という意味の使役表現です。料理用語では「faire rôtir（ローストさせる＝ローストする）」「faire bouillir（沸騰させる＝沸かす）」のように、熱を通したり調理を施したりする表現で多用されます。",
+      "explanation_en": "The construction 'faire + infinitive' is used in French culinary terminology to mean 'to make/cause someone or something to do an action'. It is commonly used for cooking instructions like 'faire rôtir' (to roast) or 'faire bouillir' (to boil)."
     },
     "examples": [
       {
-        "fr": "Avez-vous des allergies alimentaires ?",
-        "en": "Do you have any food allergies? (formal inversion)",
-        "ja": "食物アレルギーはございますか？"
+        "fr": "Faites bouillir l'eau avant d'ajouter les pâtes.",
+        "en": "Boil the water before adding the pasta.",
+        "ja": "パスタを加える前にお湯を沸かしてください。"
       },
       {
-        "fr": "Est-ce que le four est chaud ?",
-        "en": "Is the oven hot? (standard 'Est-ce que')",
-        "ja": "オーブンは温まっていますか？"
+        "fr": "Le chef fait mariner la viande pendant la nuit.",
+        "en": "The chef marinates the meat overnight (causes the meat to marinate).",
+        "ja": "シェフは肉を一晩マリネさせます（マリネします）。"
       },
       {
-        "fr": "Quelle cuisson préférez-vous pour votre steak ?",
-        "en": "How would you like your steak cooked? (formal question word + inversion)",
-        "ja": "ステーキの焼き加減はいかがいたしますか？"
+        "fr": "Faites rissoler les oignons.",
+        "en": "Brown the onions (make the onions brown).",
+        "ja": "タマネギをきつね色に炒めてください。"
       }
     ]
   },
@@ -1194,5 +134,1327 @@
       "content_en": "Codified by Marie-Antoine Carême and later Auguste Escoffier, the five mother sauces of French cuisine are: Béchamel (milk + white roux), Velouté (white stock + blond roux), Tomato Sauce (tomatoes + brown roux + pork belly), Espagnole (brown veal stock + brown roux + mirepoix), and Hollandaise (warm emulsion of egg yolk, clarified butter, and lemon juice/vinegar). They serve as the starting point for hundreds of derivative sauces.",
       "content_ja": "マリー＝アントワーヌ・カレームが体系化し、後にオーギュスト・エスコフィエが再編したフランス料理の五大母ソース（サス・メール）は、①ベシャメル（牛乳＋ホワイトルー）、②ヴルーテ（白い出汁＋ブロンドルー）、③ソース・トマト（トマト＋ブラウンルー＋豚ばら肉）、④エスパニョール（茶色い子牛の出汁＋ブラウンルー＋香味野菜）、⑤オランデーズ（卵黄・澄ましバター・レモン汁/酢の温かい乳化ソース）です。これらは何百種類もの派生ソース of ベースとなります。"
     }
+  },
+  {
+    "id": "vocab_clientele",
+    "category": "Service",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Groupe",
+      "Restaurant"
+    ],
+    "french": "Clientèle",
+    "english": "Clientele / customers",
+    "japanese": "(Nom) 顧客、常連客",
+    "definition_fr": "Ensemble des clients d'un restaurant ou d'un commerce.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce restaurant a une clientèle très fidèle.",
+        "en": "This restaurant has a very loyal clientele.",
+        "ja": "このレストランにはとても忠実な常連客がいます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_commande",
+    "category": "Service",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Restaurant"
+    ],
+    "french": "Commande",
+    "english": "Order",
+    "japanese": "(Nom) 注文、オーダー",
+    "definition_fr": "Demande faite par un client pour des plats ou des boissons.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur prend la commande de la table cinq.",
+        "en": "The waiter is taking the order for table five.",
+        "ja": "ウェイターが5番テーブルの注文を取っています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_degustation",
+    "category": "Service",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Goût",
+      "Restaurant"
+    ],
+    "french": "Dégustation",
+    "english": "Tasting",
+    "japanese": "(Nom) テイスティング、試食、試飲",
+    "definition_fr": "Action de goûter pour évaluer les qualités d'un plat ou d'un vin.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Nous proposons un menu dégustation en six plats.",
+        "en": "We offer a six-course tasting menu.",
+        "ja": "当店では6品のテイスティングメニュー（おまかせコース）を提供しています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pourboire",
+    "category": "Service",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Argent",
+      "Restaurant"
+    ],
+    "french": "Pourboire",
+    "english": "Tip",
+    "japanese": "(Nom) チップ",
+    "definition_fr": "Argent laissé volontairement par le client pour remercier du service.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Les clients ont laissé un généreux pourboire.",
+        "en": "The customers left a generous tip.",
+        "ja": "お客様は気前よくチップを残してくれました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sommelier",
+    "category": "Service",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Métier",
+      "Personne"
+    ],
+    "french": "Sommelier / sommelière",
+    "english": "Sommelier / wine steward",
+    "japanese": "(Nom) ソムリエ",
+    "definition_fr": "Personne chargée du service et du conseil des vins au restaurant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le sommelier vous recommandera un vin.",
+        "en": "The sommelier will recommend a wine to you.",
+        "ja": "ソムリエがワインをおすすめします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_assaisonner",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Action",
+      "Goût"
+    ],
+    "french": "Assaisonner",
+    "english": "To season",
+    "japanese": "(Verbe) 味付けをする",
+    "definition_fr": "Ajouter du sel, du poivre ou des épices pour donner du goût.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "N'oubliez pas d'assaisonner la sauce.",
+        "en": "Don't forget to season the sauce.",
+        "ja": "ソースの味付けを忘れないでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_brunoise",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "advanced"
+    ],
+    "french": "Brunoise",
+    "english": "Very small dice (1-2mm cubes)",
+    "japanese": "ブリュノワーズ（1〜2mm角の極細切り・みじん切り）",
+    "definition_fr": "(nom) Technique de coupe qui consiste à tailler des légumes en dés extrêmement petits et réguliers de 1 à 2 millimètres de côté.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Coupez les carottes en brunoise régulière pour la garniture.",
+        "en": "Cut the carrots into a regular brunoise for the garnish.",
+        "ja": "付け合わせ用に、にんじんを均一なブリュノワーズ（みじん切り）にカットしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chemiser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Pâtisserie"
+    ],
+    "french": "Chemiser",
+    "english": "To line (a mold)",
+    "japanese": "(Verbe) 型に敷く、型に塗る",
+    "definition_fr": "Appliquer une couche (beurre, papier, lard) sur les parois d'un moule.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Chemisez le moule avec du beurre et de la farine.",
+        "en": "Line the mold with butter and flour.",
+        "ja": "型にバターを塗り、小麦粉をはたいてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chiqueter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Pâtisserie"
+    ],
+    "french": "Chiqueter",
+    "english": "To score the edges",
+    "japanese": "(Verbe) （パイ生地などの）縁に刻み目を入れる",
+    "definition_fr": "Pratiquer de petites entailles sur les bords d'une pâte.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Chiquetez les bords de la pâte feuilletée avec un couteau.",
+        "en": "Score the edges of the puff pastry with a knife.",
+        "ja": "ナイフでパイ生地の縁に刻み目を入れてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ciseler",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "knife-cuts",
+      "vegetables",
+      "basics"
+    ],
+    "french": "Ciseler",
+    "english": "To finely dice (onions/shallots) or shred leaves",
+    "japanese": "細かく刻む（玉ねぎ・エシャロットなど）",
+    "definition_fr": "(verbe) Couper très finement en petits dés (des oignons, des échalotes) ou tailler des herbes aromatiques à l'aide d'un couteau.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut ciseler les échalotes pour la sauce béarnaise.",
+        "en": "You need to finely dice the shallots for the Béarnaise sauce.",
+        "ja": "ベアルネーズソースを作るために、エシャロットを細かく刻む必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_dorer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Pâtisserie"
+    ],
+    "french": "Dorer",
+    "english": "To glaze (with egg) / to brown",
+    "japanese": "(Verbe) 卵黄を塗る、焼き色をつける",
+    "definition_fr": "Passer du jaune d'œuf sur une pâte pour la colorer à la cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Dorez la pâte avant de la mettre au four.",
+        "en": "Glaze the pastry before putting it in the oven.",
+        "ja": "オーブンに入れる前に生地に卵黄を塗ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_dresser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Service"
+    ],
+    "french": "Dresser",
+    "english": "To plate / to arrange",
+    "japanese": "(Verbe) 盛り付ける",
+    "definition_fr": "Disposer harmonieusement les aliments sur une assiette.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef dresse les assiettes pour le service.",
+        "en": "The chef plates the dishes for service.",
+        "ja": "シェフがサービスのために皿を盛り付けています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_decanter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Sauce"
+    ],
+    "french": "Décanter",
+    "english": "To decant / to separate",
+    "japanese": "(Verbe) デカンテする、肉と煮汁を分ける",
+    "definition_fr": "Séparer les morceaux de viande de leur sauce ou garniture.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Décantez la viande pour filtrer la sauce.",
+        "en": "Decant the meat to strain the sauce.",
+        "ja": "ソースを漉すために、肉を取り出してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_deglacer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Sauce"
+    ],
+    "french": "Déglacer",
+    "english": "To deglaze",
+    "japanese": "(Verbe) デグラッセする、鍋底の旨味を溶かす",
+    "definition_fr": "Dissoudre les sucs de cuisson avec un liquide (vin, bouillon).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Déglacez la poêle avec un peu de vin blanc.",
+        "en": "Deglaze the pan with a little white wine.",
+        "ja": "少量の白ワインでフライパンをデグラッセしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_degraisser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique"
+    ],
+    "french": "Dégraisser",
+    "english": "To degrease / skim fat",
+    "japanese": "(Verbe) 脂を取り除く",
+    "definition_fr": "Enlever la graisse à la surface d'un bouillon ou d'une sauce.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut dégraisser la sauce avant de la servir.",
+        "en": "You must degrease the sauce before serving it.",
+        "ja": "提供する前にソースの脂を取り除く必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_enfourner",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson",
+      "Action"
+    ],
+    "french": "Enfourner",
+    "english": "To put in the oven",
+    "japanese": "(Verbe) オーブンに入れる",
+    "definition_fr": "Mettre un aliment dans le four pour le cuire.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Enfournez le gâteau pendant 30 minutes.",
+        "en": "Bake the cake in the oven for 30 minutes.",
+        "ja": "ケーキをオーブンに入れて30分焼きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_flamber",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique"
+    ],
+    "french": "Flamber",
+    "english": "To flambe",
+    "japanese": "(Verbe) フランベする",
+    "definition_fr": "Arroser un plat d'alcool et y mettre le feu pour parfumer.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il flambe les crêpes au Grand Marnier.",
+        "en": "He flambes the crepes with Grand Marnier.",
+        "ja": "彼はグランマルニエでクレープをフランベします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_frire",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson"
+    ],
+    "french": "Frire",
+    "english": "To fry",
+    "japanese": "(Verbe) 揚げる",
+    "definition_fr": "Cuire un aliment en le plongeant dans un bain d'huile bouillante.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il faut frire les pommes de terre pour faire des frites.",
+        "en": "You need to fry the potatoes to make French fries.",
+        "ja": "フライドポテトを作るためにじゃがいもを揚げる必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_griller",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson"
+    ],
+    "french": "Griller",
+    "english": "To grill",
+    "japanese": "(Verbe) 網焼きにする、グリルする",
+    "definition_fr": "Cuire un aliment à la chaleur rayonnante.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Nous allons griller la viande ce soir.",
+        "en": "We are going to grill the meat tonight.",
+        "ja": "今夜は肉をグリルします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_hacher",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Action",
+      "Technique"
+    ],
+    "french": "Hacher",
+    "english": "To chop / to mince",
+    "japanese": "(Verbe) みじん切りにする、刻む",
+    "definition_fr": "Couper en très petits morceaux.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Il a haché les herbes avec un couteau bien aiguisé.",
+        "en": "He chopped the herbs with a sharp knife.",
+        "ja": "彼はよく切れる包丁でハーブを刻みました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_infuser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Saveur"
+    ],
+    "french": "Infuser",
+    "english": "To infuse / to steep",
+    "japanese": "(Verbe) アンフュゼする、香りを移す",
+    "definition_fr": "Mettre une plante aromatique dans un liquide chaud pour parfumer.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez infuser le romarin dans le lait.",
+        "en": "Let the rosemary infuse in the milk.",
+        "ja": "牛乳にローズマリーの香りを移してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_lier",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Sauce"
+    ],
+    "french": "Lier",
+    "english": "To bind / to thicken",
+    "japanese": "(Verbe) とろみをつける、つなぐ",
+    "definition_fr": "Épaissir un liquide avec un élément (farine, crème, œuf).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Liez la sauce avec un peu de crème.",
+        "en": "Thicken the sauce with a little cream.",
+        "ja": "少量のクリームでソースにとろみをつけてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_mariner",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Préparation"
+    ],
+    "french": "Mariner",
+    "english": "To marinate",
+    "japanese": "(Verbe) マリネする、漬け込む",
+    "definition_fr": "Faire tremper un aliment dans un liquide aromatisé pour l'attendrir et le parfumer.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez mariner la viande pendant deux heures.",
+        "en": "Let the meat marinate for two hours.",
+        "ja": "肉を2時間マリネ液に漬け込んでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_mijoter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson",
+      "Technique"
+    ],
+    "french": "Mijoter",
+    "english": "To simmer",
+    "japanese": "(Verbe) とろ火で煮込む",
+    "definition_fr": "Cuire lentement et à petit feu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le bœuf bourguignon mijote depuis ce matin.",
+        "en": "The beef Burgundy has been stewing since this morning.",
+        "ja": "ブッフ・ブルギニョンは今朝から煮込まれています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pocher",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson",
+      "Technique"
+    ],
+    "french": "Pocher",
+    "english": "To poach",
+    "japanese": "(Verbe) ポシェする、熱湯（またはだし汁）で茹でる",
+    "definition_fr": "Cuire un aliment dans un liquide frémissant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pochez le poisson dans le court-bouillon.",
+        "en": "Poach the fish in the court-bouillon.",
+        "ja": "魚をクール・ブイヨンでポシェしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_remuer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Action"
+    ],
+    "french": "Remuer",
+    "english": "To stir",
+    "japanese": "(Verbe) かき混ぜる",
+    "definition_fr": "Mélanger un liquide ou une sauce en mouvement continu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Remue la soupe de temps en temps.",
+        "en": "Stir the soup from time to time.",
+        "ja": "時々スープをかき混ぜて。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_reduire",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Sauce"
+    ],
+    "french": "Réduire",
+    "english": "To reduce",
+    "japanese": "(Verbe) 煮詰める",
+    "definition_fr": "Faire bouillir un liquide pour concentrer les saveurs par évaporation.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites réduire la sauce de moitié.",
+        "en": "Reduce the sauce by half.",
+        "ja": "ソースを半量になるまで煮詰めてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sauter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson",
+      "Technique"
+    ],
+    "french": "Sauter",
+    "english": "To sauté",
+    "japanese": "(Verbe) ソテーする、炒める",
+    "definition_fr": "Cuire rapidement à feu vif dans une matière grasse.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites sauter les champignons dans la poêle.",
+        "en": "Sauté the mushrooms in the pan.",
+        "ja": "フライパンでマッシュルームをソテーしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ecumer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique"
+    ],
+    "french": "Écumer",
+    "english": "To skim",
+    "japanese": "(Verbe) アク（泡）を取る",
+    "definition_fr": "Retirer l'écume à la surface d'un liquide en ébullition.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Écumez le bouillon de temps en temps.",
+        "en": "Skim the broth from time to time.",
+        "ja": "時々ブイヨンのアクを取ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_egoutter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Action"
+    ],
+    "french": "Égoutter",
+    "english": "To drain",
+    "japanese": "(Verbe) 水気を切る",
+    "definition_fr": "Débarrasser un aliment de son liquide.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Égouttez les pâtes dans une passoire.",
+        "en": "Drain the pasta in a colander.",
+        "ja": "ザルでパスタの水気を切ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_emincer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Technique",
+      "Découpe"
+    ],
+    "french": "Émincer",
+    "english": "To slice thinly",
+    "japanese": "(Verbe) 薄切りにする",
+    "definition_fr": "Couper en tranches très fines.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Émincez les oignons finement.",
+        "en": "Slice the onions thinly.",
+        "ja": "玉ねぎを薄切りにしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_apprenti",
+    "category": "Brigade",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Métier",
+      "Personne"
+    ],
+    "french": "Apprenti",
+    "english": "Apprentice",
+    "japanese": "(Nom) 見習い",
+    "definition_fr": "Jeune personne en formation dans une cuisine professionnelle.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "L'apprenti observe le chef attentivement.",
+        "en": "The apprentice watches the chef closely.",
+        "ja": "見習いがシェフを注意深く観察しています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_brigade",
+    "category": "Brigade",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Groupe",
+      "Cuisine"
+    ],
+    "french": "Brigade",
+    "english": "Kitchen brigade / team",
+    "japanese": "(Nom) ブリガード（厨房チーム）",
+    "definition_fr": "L'ensemble du personnel de cuisine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La brigade travaille en parfaite harmonie pendant le service.",
+        "en": "The brigade works in perfect harmony during service.",
+        "ja": "サービス中、ブリガードは完璧な調和で働きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_commis",
+    "category": "Brigade",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Métier",
+      "Personne"
+    ],
+    "french": "Commis",
+    "english": "Assistant chef",
+    "japanese": "(Nom) コミ（見習いや若手料理人）",
+    "definition_fr": "Cuisinier débutant travaillant sous les ordres d'un chef de partie.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le commis a pesé les champignons.",
+        "en": "The assistant chef weighed the mushrooms.",
+        "ja": "コミがマッシュルームの重さを計りました。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_plongeur",
+    "category": "Brigade",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Métier",
+      "Personne"
+    ],
+    "french": "Plongeur",
+    "english": "Dishwasher",
+    "japanese": "(Nom) 皿洗い担当",
+    "definition_fr": "Personne chargée de laver la vaisselle et le matériel de cuisine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le plongeur nettoie les grandes marmites.",
+        "en": "The dishwasher cleans the large pots.",
+        "ja": "皿洗いのスタッフが大きな鍋を洗っています。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_second",
+    "category": "Brigade",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Métier",
+      "Personne"
+    ],
+    "french": "Second",
+    "english": "Sous-chef",
+    "japanese": "(Nom) スーシェフ（副料理長）",
+    "definition_fr": "L'adjoint direct du chef de cuisine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le second dirige la brigade quand le chef est absent.",
+        "en": "The sous-chef runs the brigade when the head chef is absent.",
+        "ja": "シェフが不在のときはスーシェフが厨房を指揮します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_balance",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Matériel",
+      "Mesure"
+    ],
+    "french": "Balance",
+    "english": "Scale",
+    "japanese": "(Nom) はかり",
+    "definition_fr": "Appareil utilisé pour peser les ingrédients.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pesez la farine sur la balance.",
+        "en": "Weigh the flour on the scale.",
+        "ja": "はかりで小麦粉の重さを計ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chinois",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "utensils",
+      "sauces",
+      "liquids"
+    ],
+    "french": "Chinois",
+    "english": "Conical strainer / China cap",
+    "japanese": "シノワ（円錐形の漉し器）",
+    "definition_fr": "(nom) Passoire en métal en forme de cône avec un grillage très fin, utilisée pour filtrer des sauces, des bouillons ou des jus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le fond de veau au chinois pour enlever toutes les impuretés.",
+        "en": "Pass the veal stock through the chinos strainer to remove all impurities.",
+        "ja": "すべての不純物を取り除くため、子牛の出汁（フォン・ド・ヴォー）をシノワで漉してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cocotte",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Matériel",
+      "Cuisson"
+    ],
+    "french": "Cocotte",
+    "english": "Casserole dish / Dutch oven",
+    "japanese": "(Nom) ココット（厚手の蓋付き鍋）",
+    "definition_fr": "Marmite en fonte ou en terre cuite pour les cuissons lentes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez le ragoût mijoter dans la cocotte.",
+        "en": "Let the stew simmer in the Dutch oven.",
+        "ja": "ココット鍋でシチューをとろ火で煮込んでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fouet",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Ustensile"
+    ],
+    "french": "Fouet",
+    "english": "Whisk",
+    "japanese": "(Nom) 泡立て器、ホイッパー",
+    "definition_fr": "Ustensile composé de fils métalliques pour battre des préparations.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Montez les blancs en neige avec un fouet.",
+        "en": "Whip the egg whites with a whisk.",
+        "ja": "ホイッパーで卵白を泡立ててください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_marmite",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Matériel",
+      "Cuisson"
+    ],
+    "french": "Marmite",
+    "english": "Large pot / stockpot",
+    "japanese": "(Nom) 寸胴鍋、大きな深い鍋",
+    "definition_fr": "Grand récipient cylindrique avec un couvercle et des anses, utilisé pour bouillir.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Préparez le bouillon dans la grande marmite.",
+        "en": "Prepare the broth in the large stockpot.",
+        "ja": "大きな寸胴鍋でブイヨンを準備してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_passoire",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Ustensile"
+    ],
+    "french": "Passoire",
+    "english": "Strainer / colander",
+    "japanese": "(Nom) ザル、水切り",
+    "definition_fr": "Ustensile percé de trous pour égoutter les aliments.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Versez les légumes dans la passoire.",
+        "en": "Pour the vegetables into the strainer.",
+        "ja": "野菜をザルにあけてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pince",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Ustensile"
+    ],
+    "french": "Pince",
+    "english": "Tongs",
+    "japanese": "(Nom) トング",
+    "definition_fr": "Ustensile pour saisir ou retourner les aliments chauds.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Retournez la viande avec la pince.",
+        "en": "Turn the meat with the tongs.",
+        "ja": "トングで肉を裏返してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_planche_a_decouper",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Matériel",
+      "Découpe"
+    ],
+    "french": "Planche à découper",
+    "english": "Cutting board",
+    "japanese": "(Nom) まな板",
+    "definition_fr": "Support en bois ou en plastique pour couper les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Nettoyez bien la planche à découper.",
+        "en": "Clean the cutting board well.",
+        "ja": "まな板をよく洗ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sauteuse",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Matériel",
+      "Cuisson"
+    ],
+    "french": "Sauteuse",
+    "english": "Sauté pan",
+    "japanese": "(Nom) ソテーパン（縁が斜めまたは真っ直ぐな鍋）",
+    "definition_fr": "Casserole à bords droits ou évasés pour faire sauter les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites revenir la viande dans une sauteuse.",
+        "en": "Brown the meat in a sauté pan.",
+        "ja": "ソテーパンで肉を焼き色づけてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_spatule",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Ustensile"
+    ],
+    "french": "Spatule",
+    "english": "Spatula",
+    "japanese": "(Nom) スパテラ、木べら",
+    "definition_fr": "Ustensile plat pour mélanger ou racler.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisez une spatule pour mélanger le beurre.",
+        "en": "Use a spatula to mix the butter.",
+        "ja": "バターを混ぜるためにスパテラを使ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tablier",
+    "category": "Equipment",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Vêtement"
+    ],
+    "french": "Tablier",
+    "english": "Apron",
+    "japanese": "(Nom) エプロン",
+    "definition_fr": "Vêtement de protection porté par-dessus les vêtements en cuisine.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Mettez votre tablier avant de commencer.",
+        "en": "Put on your apron before starting.",
+        "ja": "始める前にエプロンをつけてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bouillir",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Cuisson"
+    ],
+    "french": "Bouillir",
+    "english": "To boil",
+    "japanese": "(Verbe) 沸騰させる",
+    "definition_fr": "Porter un liquide à ébullition.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "C'est mieux de chauffer le lait sans le faire bouillir.",
+        "en": "It's better to heat the milk without boiling it.",
+        "ja": "牛乳は沸騰させずに温めるのが良いです。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bouillon",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Liquide",
+      "Base"
+    ],
+    "french": "Bouillon",
+    "english": "Broth / stock",
+    "japanese": "(Nom) ブイヨン、だし汁",
+    "definition_fr": "Liquide de cuisson de viandes ou légumes, utilisé comme base.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mouillez avec le bouillon chaud.",
+        "en": "Add the hot broth (to moisten).",
+        "ja": "温かいブイヨンを注いでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ciboulette",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Herbe",
+      "Aromate"
+    ],
+    "french": "Ciboulette",
+    "english": "Chives",
+    "japanese": "(Nom) シブレット、チャイブ",
+    "definition_fr": "Herbe aromatique aux longues tiges fines, souvent utilisée en décoration.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Décorez avec de la ciboulette fraîche.",
+        "en": "Garnish with fresh chives.",
+        "ja": "新鮮なシブレットで飾り付けをしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_creme",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Laitier",
+      "Ingrédient"
+    ],
+    "french": "Crème",
+    "english": "Cream",
+    "japanese": "(Nom) 生クリーム",
+    "definition_fr": "Matière grasse du lait utilisée pour lier les sauces ou en pâtisserie.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Incorporez la crème en fin de cuisson.",
+        "en": "Incorporate the cream at the end of cooking.",
+        "ja": "調理の最後にクリームを混ぜ込んでください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gibier",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Viande"
+    ],
+    "french": "Gibier",
+    "english": "Game meat",
+    "japanese": "(Nom) ジビエ、野鳥獣肉",
+    "definition_fr": "Animaux sauvages chassés pour être consommés.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "En automne, le chef prépare beaucoup de gibier.",
+        "en": "In autumn, the chef prepares a lot of game meat.",
+        "ja": "秋には、シェフはジビエをたくさん調理します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_laurier",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Herbe",
+      "Aromate"
+    ],
+    "french": "Laurier",
+    "english": "Bay leaf",
+    "japanese": "(Nom) ローリエ、月桂樹の葉",
+    "definition_fr": "Feuille aromatique souvent utilisée dans les bouquets garnis.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mettez une feuille de laurier dans la sauce.",
+        "en": "Put a bay leaf in the sauce.",
+        "ja": "ソースにローリエの葉を一枚入れてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_lire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Lire",
+    "english": "To read",
+    "japanese": "読む",
+    "definition_fr": "(verbe) Parcourir des yeux des caractères écrits ou imprimés en en comprenant le sens.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le commis lit le bon de commande rapidement.",
+        "en": "The kitchen assistant reads the order slip quickly.",
+        "ja": "見習い料理人は注文票（ボン）を素早く読みます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_persil",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Herbe",
+      "Aromate"
+    ],
+    "french": "Persil",
+    "english": "Parsley",
+    "japanese": "(Nom) パセリ",
+    "definition_fr": "Herbe aromatique verte très courante en cuisine pour parfumer ou décorer.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez un peu de persil haché.",
+        "en": "Add a little chopped parsley.",
+        "ja": "刻んだパセリを少し加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_thym",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Herbe",
+      "Aromate"
+    ],
+    "french": "Thym",
+    "english": "Thyme",
+    "japanese": "(Nom) タイム",
+    "definition_fr": "Herbe de Provence très parfumée utilisée pour les viandes et sauces.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le thym parfume très bien les viandes rôties.",
+        "en": "Thyme flavors roasted meats very well.",
+        "ja": "タイムはローストしたお肉にとても良い香りをつけます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_vinaigre",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Condiment",
+      "Liquide"
+    ],
+    "french": "Vinaigre",
+    "english": "Vinegar",
+    "japanese": "(Nom) 酢、ビネガー",
+    "definition_fr": "Liquide acide utilisé pour l'assaisonnement ou les déglaçages.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Déglacez avec du vinaigre de vin rouge.",
+        "en": "Deglaze with red wine vinegar.",
+        "ja": "赤ワインビネガーでデグラッセしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_volaille",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Viande"
+    ],
+    "french": "Volaille",
+    "english": "Poultry",
+    "japanese": "(Nom) 家禽類、鳥肉",
+    "definition_fr": "Oiseaux d'élevage (poulet, canard) destinés à la consommation.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Habillez la volaille avant de la rôtir.",
+        "en": "Dress the poultry before roasting it.",
+        "ja": "ローストする前に鳥肉の下処理（形を整える）をしてください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_echalote",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Légume",
+      "Aromate"
+    ],
+    "french": "Échalote",
+    "english": "Shallot",
+    "japanese": "(Nom) エシャロット",
+    "definition_fr": "Bulbe utilisé comme condiment, au goût plus fin et sucré que l'oignon.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites suer les échalotes dans le beurre.",
+        "en": "Sweat the shallots in the butter.",
+        "ja": "バターでエシャロットをシュエ（水分を出しながら炒める）してください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gen_ecrire",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "verbs"
+    ],
+    "french": "Écrire",
+    "english": "To write",
+    "japanese": "書く",
+    "definition_fr": "(verbe) Tracer des signes représentant des mots ou des idées sur un support.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le chef écrit la recette du jour sur le tableau.",
+        "en": "The chef writes the recipe of the day on the board.",
+        "ja": "シェフが本日のレシピをボードに書きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_eplucher",
+    "category": "General",
+    "level": "A2",
+    "tags": [
+      "Verbe",
+      "Action",
+      "Légume"
+    ],
+    "french": "Éplucher",
+    "english": "To peel",
+    "japanese": "(Verbe) 皮をむく",
+    "definition_fr": "Enlever la peau d'un fruit ou d'un légume.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Épluchez les pommes de terre, s'il vous plaît.",
+        "en": "Please peel the potatoes.",
+        "ja": "じゃがいもの皮をむいてください。"
+      }
+    ]
   }
 ]

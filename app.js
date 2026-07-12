@@ -236,6 +236,9 @@ async function initApp() {
     
     // Load initial view
     navigateTo('home');
+    
+    // Initialize YouGlish Sidebar
+    initYouGlishSidebar();
   } catch (err) {
     console.error('Failed to load database metadata:', err);
     document.getElementById('main-content').innerHTML = `
@@ -245,6 +248,80 @@ async function initApp() {
       </div>
     `;
   }
+}
+
+// YouGlish Sidebar Initialization & Search Handlers
+function initYouGlishSidebar() {
+  const sidebar = document.getElementById('youglish-sidebar');
+  const toggleBtn = document.getElementById('youglish-sidebar-toggle');
+  const searchInput = document.getElementById('youglish-search-input');
+  const searchBtn = document.getElementById('youglish-search-btn');
+  const container = document.getElementById('yg-widget-container');
+
+  if (!sidebar || !toggleBtn || !searchInput || !searchBtn || !container) return;
+
+  // Toggle open class
+  toggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    sidebar.classList.toggle('open');
+    if (sidebar.classList.contains('open')) {
+      searchInput.focus();
+    }
+  });
+
+  // Close sidebar when clicking outside on mobile or desktop
+  document.addEventListener('click', (e) => {
+    if (sidebar.classList.contains('open') && !sidebar.contains(e.target)) {
+      sidebar.classList.remove('open');
+    }
+  });
+
+  // Handle Search function using YouGlish Widget API
+  let ygWidget = null;
+  function searchWord() {
+    const query = searchInput.value.trim();
+    if (!query) return;
+
+    container.innerHTML = `<div id="yg-widget" style="width: 100%;"></div>`;
+    
+    // Check if YouGlish API is loaded globally
+    if (window.YG) {
+      try {
+        ygWidget = new YG("yg-widget", {
+          width: 230,
+          components: 9, // Player + controls
+          accentColor: '#C5A880',
+          autoStart: 1,
+          search: query,
+          language: 'french'
+        });
+      } catch (err) {
+        console.error("Failed to load YouGlish widget:", err);
+        container.innerHTML = `
+          <div style="font-size: 0.75rem; text-align: center; color: var(--color-error); padding: 1rem;">
+            ウィジェットの読み込みに失敗しました。<br>
+            <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">YouGlishサイトで直接開く</a>
+          </div>
+        `;
+      }
+    } else {
+      // Fallback: Open in new window if API is offline/blocked
+      window.open(`https://youglish.com/pronounce/${encodeURIComponent(query)}/french`, '_blank');
+      container.innerHTML = `
+        <div style="font-size: 0.75rem; text-align: center; color: rgba(255,255,255,0.7); padding: 1rem;">
+          発音ページを別タブで開きました。<br>
+          <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開かない場合はこちら</a>
+        </div>
+      `;
+    }
+  }
+
+  searchBtn.addEventListener('click', searchWord);
+  searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      searchWord();
+    }
+  });
 }
 
 document.addEventListener('DOMContentLoaded', initApp);;

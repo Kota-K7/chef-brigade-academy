@@ -6,13 +6,29 @@ import { regions } from '../cuisine_regions.js';
 export function renderGastronomyMap(contentWrapper) {
   const panel = document.createElement('div');
   panel.innerHTML = `
-    <div class="interactive-canvas-container" style="position: relative;">
-      <img src="assets/france_map.png" alt="Gastronomic Map of France" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=Carte+Gastronomique'">
-      <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
-        ${regions.map(reg => `
-          <polygon class="interactive-area" points="${reg.points}" data-id="${reg.id}" />
-        `).join('')}
-      </svg>
+    <div class="ingredient-grid-layout">
+      <!-- Left: Interactive Canvas -->
+      <div class="interactive-canvas-container" style="position: relative; width: 100%; margin: 0;">
+        <img src="assets/france_map.png" alt="Gastronomic Map of France" class="interactive-image" onerror="this.src='https://placehold.co/700x450/F4EAD4/0a1931?text=Carte+Gastronomique'">
+        <svg class="interactive-svg-overlay" viewBox="0 0 100 100">
+          ${regions.map(reg => `
+            <polygon class="interactive-area" points="${reg.points}" data-id="${reg.id}" />
+          `).join('')}
+        </svg>
+      </div>
+      
+      <!-- Right: Clickable Text List (Regions) -->
+      <div style="background: rgba(10, 25, 49, 0.02); border: 1px solid rgba(197, 168, 128, 0.25); border-radius: var(--radius-md); padding: 1.2rem; max-height: 450px; overflow-y: auto;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--color-primary); font-weight: 700; margin-bottom: 0.8rem; border-bottom: 1px solid rgba(197, 168, 128, 0.2); padding-bottom: 0.4rem;">🗺️ 地方リスト (Régions)</h4>
+        <div class="ingredient-list-group" style="display: flex; flex-direction: column; gap: 0.4rem;">
+          ${regions.map(reg => `
+            <button class="list-item-btn" data-id="${reg.id}">
+              <span><span style="display: inline-block; background-color: var(--color-accent); color: var(--color-primary); width: 18px; height: 18px; line-height: 18px; text-align: center; border-radius: 50%; font-size: 0.65rem; font-weight: 700; margin-right: 0.4rem;">${reg.number}</span> ${reg.name_fr}</span>
+              <span style="font-size: 0.75rem; color: var(--color-text-muted); font-style: italic;">${reg.name_ja}</span>
+            </button>
+          `).join('')}
+        </div>
+      </div>
     </div>
     
     <div class="cuisine-detail-drawer" id="map-detail-drawer">
@@ -54,45 +70,70 @@ export function renderGastronomyMap(contentWrapper) {
 
   const drawer = panel.querySelector('#map-detail-drawer');
   const spots = panel.querySelectorAll('.interactive-area');
+  const listBtns = panel.querySelectorAll('.list-item-btn');
+
+  function selectRegion(regId, targetEl) {
+    // Clear active states
+    spots.forEach(s => s.classList.remove('active'));
+    listBtns.forEach(b => b.classList.remove('active'));
+
+    // Highlight polygon
+    const poly = panel.querySelector(`.interactive-area[data-id="${regId}"]`);
+    if (poly) poly.classList.add('active');
+    
+    // Highlight list button
+    const btn = panel.querySelector(`.list-item-btn[data-id="${regId}"]`);
+    if (btn) btn.classList.add('active');
+
+    const reg = regions.find(r => r.id === regId);
+    if (reg) {
+      panel.querySelector('#map-region-title').innerText = `${reg.name_fr} (${reg.name_ja})`;
+      panel.querySelector('#map-region-sub').innerText = `${reg.name_en} Region`;
+      
+      panel.querySelector('#map-desc-fr').innerText = reg.desc_fr;
+      panel.querySelector('#map-desc-en').innerText = reg.desc_en;
+      panel.querySelector('#map-desc-ja').innerText = reg.desc_ja;
+
+      // Render relations
+      const relsContainer = panel.querySelector('#map-relations-container');
+      const relsContent = panel.querySelector('#map-relations-content');
+      const relsHtml = getRelationBadges(regId, 'region');
+      if (relsHtml) {
+        relsContent.innerHTML = relsHtml;
+        relsContainer.style.display = 'block';
+      } else {
+        relsContainer.style.display = 'none';
+      }
+
+      // Wire up audio
+      const titleAudioBtn = panel.querySelector('#map-audio-title-btn');
+      titleAudioBtn.style.display = 'inline-block';
+      titleAudioBtn.onclick = () => speakFrench(reg.name_fr);
+
+      const descAudioBtn = panel.querySelector('#map-audio-desc-btn');
+      descAudioBtn.style.display = 'inline-block';
+      descAudioBtn.onclick = () => speakFrench(reg.desc_fr);
+
+      drawer.style.display = 'block';
+      
+      // Scroll to drawer on mobile
+      if (window.innerWidth <= 600) {
+        drawer.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }
 
   spots.forEach(spot => {
     spot.addEventListener('click', (e) => {
-      spots.forEach(s => s.classList.remove('active'));
-      e.target.classList.add('active');
-
       const regId = e.target.getAttribute('data-id');
-      const reg = regions.find(r => r.id === regId);
-      
-      if (reg) {
-        panel.querySelector('#map-region-title').innerText = `${reg.name_fr} (${reg.name_ja})`;
-        panel.querySelector('#map-region-sub').innerText = `${reg.name_en} Region`;
-        
-        panel.querySelector('#map-desc-fr').innerText = reg.desc_fr;
-        panel.querySelector('#map-desc-en').innerText = reg.desc_en;
-        panel.querySelector('#map-desc-ja').innerText = reg.desc_ja;
+      selectRegion(regId, e.target);
+    });
+  });
 
-        // Render relations
-        const relsContainer = panel.querySelector('#map-relations-container');
-        const relsContent = panel.querySelector('#map-relations-content');
-        const relsHtml = getRelationBadges(regId, 'region');
-        if (relsHtml) {
-          relsContent.innerHTML = relsHtml;
-          relsContainer.style.display = 'block';
-        } else {
-          relsContainer.style.display = 'none';
-        }
-
-        // Wire up audio
-        const titleAudioBtn = panel.querySelector('#map-audio-title-btn');
-        titleAudioBtn.style.display = 'inline-block';
-        titleAudioBtn.onclick = () => speakFrench(reg.name_fr);
-
-        const descAudioBtn = panel.querySelector('#map-audio-desc-btn');
-        descAudioBtn.style.display = 'inline-block';
-        descAudioBtn.onclick = () => speakFrench(reg.desc_fr);
-
-        drawer.style.display = 'block';
-      }
+  listBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const regId = e.target.closest('.list-item-btn').getAttribute('data-id');
+      selectRegion(regId, e.target.closest('.list-item-btn'));
     });
   });
 }
