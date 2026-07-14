@@ -1,0 +1,216 @@
+{
+  "chapterId": "ch_0",
+  "chapterTitle": "第0章: ガリア以前 - 始まりの地",
+  "notes": "ガリア以前の歴史的背景と、基本的な挨拶・料理用語を学ぶ章",
+  "episodes": [
+    {
+      "episodeId": "ep_0_1",
+      "episodeTitle": "第1話: 目覚めと試練",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "bgRoom": "url('assets/カミーユ朝.png')",
+        "bgFather": "url('assets/父.png')",
+        "bgAfterBattle": "url('assets/父とカミーユバトル後.png')",
+        "bgMarseille": "url('assets/Marseille.png')",
+        "bgMarket": "url('assets/市場.png')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公",
+          "avatar": "👤"
+        },
+        "camille": {
+          "name": "カミーユ",
+          "avatar": "👧"
+        },
+        "father": {
+          "name": "父",
+          "avatar": "🧔"
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "歴史ストーリー学習の進め方",
+          "text": "【会話パート】\n画面をクリック（タップ）すると会話が進みます。途中で「学習ポイント」が表示されるので、フランス語や文化の知識を学びましょう。\n\n【バトルパート】\n敵のHPゲージが表示されます。4択問題に正解すると敵にダメージを与えられます。間違えるとダメージを受けます。自分のHPが0になるとゲームオーバーです。"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": null,
+          "text": "「……」\n静かな朝。"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": "camille",
+          "text": "「…て……起きて！ 朝だよ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": "hero",
+          "text": "「ん…… ……あぁ。Bonjour Camille（おはよう、カミーユ）」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgRoom",
+          "character": "camille",
+          "text": "「やっと起きた！ あたしはいつでもTrès bienよ！ もう、早く行くよ！」",
+          "learningPoint": {
+            "title": "Très bien",
+            "text": "意味: 「とても良い」「元気だよ」「最高！」\n日常会話で挨拶の後に自分の状態を伝える際によく使う定番の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgRoom",
+          "character": "camille",
+          "text": "「今日はmarché de Marseille（マルセイユ市場）に行くんだから！」",
+          "learningPoint": {
+            "title": "marché",
+            "text": "意味: 市場\n発音: マルシェ\n「マルシェ」は日本語でもよく使われる通り、屋外や広場に立つ市場を指すフランス語です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgRoom",
+          "character": "hero",
+          "text": "「あぁ、そうだった…… 父さんにお使いを頼まれてたんだった……」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": null,
+          "text": "突然。画面暗転。\n\nドォォォン！！！"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": "father",
+          "text": "「父さんスーパーチョップ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgFather",
+          "character": "hero",
+          "text": "「イテッ！！ 何するんだよ父さん！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgFather",
+          "character": "father",
+          "text": "「ワハハハ！！ Mon fils！Petite Camille！」",
+          "learningPoint": {
+            "title": "Mon fils / Petite",
+            "text": "● Mon fils (私の息子 / 息子よ)\n父親が息子に親しみを込めて呼びかける表現です。\n\n● Petite ○○\n直訳すると「小さい○○」ですが、名前の前に付けることで「〜ちゃん」「〜君」のような愛称的な呼び方になります。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgFather",
+          "character": "father",
+          "text": "「おつかい前に復習問題といこうじゃないか!!」"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "父 (食文化の試練)",
+          "enemyHp": 3,
+          "enemyDamage": 3,
+          "questions": [
+            {
+              "questionId": "q_0_1_1",
+              "text": "マルセイユを含むプロヴァンス地方の伝統料理ではないものを選べ。\n(Quel plat n'est pas une spécialité de Provence ?)",
+              "options": [
+                "Bouillabaisse (ブイヤベース)",
+                "Ratatouille (ラタトゥイユ)",
+                "Daube provençale (プロヴァンス風煮込み)",
+                "Quiche lorraine (キッシュ・ロレーヌ)"
+              ],
+              "answerIndex": 3,
+              "explanation": "Quiche lorraine（キッシュ・ロレーヌ）はフランス東北部ロレーヌ地方の伝統料理です。その他の料理はすべてプロヴァンス地方の名物（spécialité）です。"
+            },
+            {
+              "questionId": "q_0_1_2",
+              "text": "ブイヤベース(Bouillabaisse)を作るのに最適な食材の組み合わせを選べ。\n(Quels ingrédients sont les meilleurs pour préparer une bouillabaisse ?)",
+              "options": [
+                "Poisson, tomate, ail, huile d'olive (魚・トマト・にんにく・オリーブオイル)",
+                "Bœuf, carotte, vin rouge, oignon (牛肉・にんじん・赤ワイン・玉ねぎ)",
+                "Aubergine, courgette, tomate, poivron (ナス・ズッキーニ・トマト・ピーマン)",
+                "Poulet, champignon, vin blanc, crème (鶏肉・きのこ・白ワイン・クリーム)"
+              ],
+              "answerIndex": 0,
+              "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。Bは牛肉の煮込み（Daube）、Cはラタトゥイユ、Dはクリームチキンの主な材料です。"
+            },
+            {
+              "questionId": "q_0_1_3",
+              "text": "文脈に合う正しいフランス語の並びを選べ。\n(Tu ___ le chevalier de Camille. / 君はカミーユの騎士です)",
+              "options": [
+                "Tu es le chevalier de Camille.",
+                "Tu suis le chevalier de Camille.",
+                "Tu as le chevalier de Camille.",
+                "Tu fais le chevalier de Camille."
+              ],
+              "answerIndex": 0,
+              "explanation": "正解はA。「Tu es ～」はêtre（〜である）の二人称単数活用で、「君は〜です」という意味になります。(例: Tu es mon ami = 君は私の友達です)"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "bgAfterBattle",
+          "character": "father",
+          "text": "「Très bien！これで父さんも安心だ！ くれぐれもカミーユちゃんには怪我させるんじゃないぞ。Aujourd’hui, tu es le chevalier de Camille（今日はおまえがカミーユちゃんの騎士なんだからな）。全力で守り抜け！」",
+          "learningPoint": {
+            "title": "Aujourd'hui / Chevalier",
+            "text": "● Aujourd'hui: 「今日」という意味。\n● Chevalier: 「騎士」という意味。英語のknightにあたります。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgAfterBattle",
+          "character": "camille",
+          "text": "「えへへ！ 騎士だって！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgAfterBattle",
+          "character": "hero",
+          "text": "「Oui, oui, d’accord（はいはい、分かったよ）」",
+          "learningPoint": {
+            "title": "Oui / D'accord",
+            "text": "● Oui: 「はい」（Yes）の意。\n● D'accord: 「了解」「オッケー」を意味する定番 of 同意表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": null,
+          "text": "（心の声）「ったく…… 息子の心配も少しはしろっての……」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgAfterBattle",
+          "character": "hero",
+          "text": "「Allez, on y va, Camille !（さあ、行こうかカミーユ！）」",
+          "learningPoint": {
+            "title": "Allez / On y va",
+            "text": "● Allez !: 「さあ！」「行こう！」と相手を促すフレーズ。\n● On y va !: 「行こう！」「出発だ！」（Let's go）にあたる表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bgMarseille",
+          "character": "camille",
+          "text": "「うん！ マルセイユ市場へ出発！」"
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
+}

@@ -1598,4 +1598,441 @@ footer a {
   }
 }
 
+/* ==========================================================================
+   Historical Story RPG Mode Styles
+   ========================================================================== */
+
+.story-mode-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.story-chapter-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(197, 168, 128, 0.35);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.story-chapter-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-accent);
+}
+
+.chapter-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(197, 168, 128, 0.15);
+  padding-bottom: 0.5rem;
+}
+
+.chapter-badge {
+  background: var(--color-primary);
+  color: var(--color-accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.chapter-desc {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+}
+
+.episode-list {
+  background: rgba(10, 25, 49, 0.02);
+  border: 1px solid rgba(197, 168, 128, 0.15);
+  border-radius: var(--radius-sm);
+  padding: 0.8rem 1.2rem;
+}
+
+.episode-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.episode-info h4 {
+  font-size: 0.95rem;
+  color: var(--color-primary);
+  margin-bottom: 0.2rem;
+}
+
+.episode-info .play-time {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.play-episode-btn {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* RPG Layout Grid */
+.rpg-game-wrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+@media (max-width: 800px) {
+  .rpg-game-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Main Viewport box */
+.rpg-main-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  min-height: 380px;
+  background: #000000;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(197, 168, 128, 0.3);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: background 0.5s ease;
+}
+
+/* Visual Novel Overlay screens */
+.rpg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.tutorial-card, .reward-card {
+  background: #FFFFFF;
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: 1.8rem;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  color: var(--color-text-main);
+  text-align: center;
+}
+
+.tutorial-card h3 {
+  color: var(--color-primary);
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(197, 168, 128, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+/* Dialog Pane (Visual Novel Dialogue Box) */
+.rpg-dialog-pane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95) 80%, rgba(0, 0, 0, 0.7));
+  border-top: 1px solid rgba(197, 168, 128, 0.25);
+  z-index: 20;
+  user-select: none;
+  cursor: pointer;
+}
+
+.avatar-holder {
+  position: absolute;
+  top: -65px;
+  left: 20px;
+  width: 55px;
+  height: 55px;
+  background: rgba(10, 25, 49, 0.95);
+  border: 2px solid var(--color-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.name-badge {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.8rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.dialog-text-box {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  min-height: 2.8rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.click-prompt {
+  position: absolute;
+  bottom: 6px;
+  right: 15px;
+  font-size: 0.65rem;
+  color: rgba(197, 168, 128, 0.7);
+  animation: pulse 1.5s infinite;
+}
+
+/* Learning Sidebar */
+.rpg-learning-sidebar {
+  background: #FFFFFF;
+  border: 1px solid rgba(197, 168, 128, 0.35);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  box-shadow: var(--shadow-sm);
+  max-height: 480px;
+  overflow-y: auto;
+  transition: opacity 0.3s ease;
+}
+
+.rpg-learning-sidebar h3 {
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(197, 168, 128, 0.2);
+  padding-bottom: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.sidebar-lp-title {
+  font-size: 1rem;
+  color: var(--color-accent-dark, #8b5cf6);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.sidebar-lp-content {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--color-text-main);
+  white-space: pre-line;
+}
+
+/* Battle Pane */
+.rpg-battle-pane {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.2rem;
+  background: rgba(10, 25, 49, 0.9);
+  color: #FFFFFF;
+}
+
+.battle-hud {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(197, 168, 128, 0.15);
+  padding-bottom: 0.6rem;
+}
+
+.hud-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hud-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5px;
+}
+
+.hud-hp-track {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.hud-hp-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.player-hp {
+  background: linear-gradient(to right, #10b981, #34d399); /* Emerald Green */
+}
+
+.enemy-hp {
+  background: linear-gradient(to right, #ef4444, #f87171); /* Red */
+}
+
+.hud-value {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+}
+
+.battle-question-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 0.8rem;
+}
+
+.q-header {
+  font-size: 0.75rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.q-body {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #FFFFFF;
+  margin-bottom: 0.4rem;
+}
+
+.battle-options-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+@media (max-width: 500px) {
+  .battle-options-list {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+.battle-opt-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(197, 168, 128, 0.2);
+  color: #FFFFFF;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-align: left;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.battle-opt-btn:hover:not(:disabled) {
+  background: rgba(197, 168, 128, 0.15);
+  border-color: var(--color-accent);
+}
+
+.battle-opt-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Feedback Drawer in Combat */
+.battle-feedback-drawer {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  padding: 0.8rem;
+  margin-top: auto;
+}
+
+.feedback-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.feedback-desc {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.4;
+}
+
+.text-success {
+  color: #10b981 !important;
+}
+
+.text-error {
+  color: #f87171 !important;
+}
+
+/* Battle Victory / Defeat screens */
+.battle-victory, .battle-defeat {
+  margin: auto;
+  text-align: center;
+  max-width: 320px;
+}
+
+.victory-title {
+  font-family: var(--font-serif);
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+/* VFX Keyframes */
+.shake-vfx {
+  animation: shake 0.35s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-2px, 0, 0); }
+  20%, 80% { transform: translate3d(3px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60% { transform: translate3d(4px, 0, 0); }
+}
+
+.flash-white {
+  animation: flash 0.3s ease-out;
+}
+
+@keyframes flash {
+  0% { filter: brightness(3); }
+  100% { filter: brightness(1); }
+}
+
+
 

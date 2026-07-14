@@ -8,6 +8,7 @@ import { renderReview } from './js/views/review.js';
 import { renderSearch } from './js/views/search.js';
 import { renderSettings } from './js/views/settings.js';
 import { renderDictation } from './js/views/dictation.js';
+import { renderStory } from './js/views/story.js';
 
 // Global State
 export const state = {
@@ -191,7 +192,8 @@ const views = {
   search: renderSearch,
   settings: renderSettings,
   // Phase 3 views
-  dictation: renderDictation
+  dictation: renderDictation,
+  story: renderStory
 };
 
 export function navigateTo(viewName) {
