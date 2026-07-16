@@ -115,6 +115,11 @@ def main():
             print("Removing vocab_sauter from A1 (kept in A2)")
             continue
             
+        # Remove vocab_gen_grand and vocab_gen_manger as they are duplicates of vocab_grand and vocab_manger
+        if iid in ["vocab_gen_grand", "vocab_gen_manger"]:
+            print(f"Removing duplicate item {iid} (preferring vocab_grand/vocab_manger)")
+            continue
+            
         # Deduplicate manger and grand (by ID or french term)
         if iid in seen_a1_ids:
             print(f"Removing duplicate ID {iid} from A1")

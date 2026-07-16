@@ -9,11 +9,11 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bgRoom": "url('assets/カミーユ朝.png')",
-        "bgFather": "url('assets/父.png')",
-        "bgAfterBattle": "url('assets/父とカミーユバトル後.png')",
-        "bgMarseille": "url('assets/Marseille.png')",
-        "bgMarket": "url('assets/市場.png')"
+        "bgRoom": "url('assets/story/chapter_0/bg_room.png')",
+        "bgFather": "url('assets/story/chapter_0/bg_father.png')",
+        "bgAfterBattle": "url('assets/story/chapter_0/bg_after_battle.png')",
+        "bgMarseille": "url('assets/story/chapter_0/bg_marseille.png')",
+        "bgMarket": "url('assets/story/chapter_0/bg_market.png')"
       },
       "characters": {
         "hero": {
@@ -22,11 +22,20 @@
         },
         "camille": {
           "name": "カミーユ",
-          "avatar": "👧"
+          "avatar": "👧",
+          "images": {
+            "normal": "assets/story/chapter_0/char_camille_normal.png",
+            "determined": "assets/story/chapter_0/char_camille_determined.png",
+            "cry": "assets/story/chapter_0/char_camille_cry.png"
+          }
         },
         "father": {
           "name": "父",
-          "avatar": "🧔"
+          "avatar": "🧔",
+          "images": {
+            "default": "assets/story/chapter_0/char_father_default.png",
+            "sorry": "assets/story/chapter_0/char_father_sorry.png"
+          }
         }
       },
       "sequence": [
@@ -39,19 +48,22 @@
           "type": "dialog",
           "background": "bgBlack",
           "character": null,
-          "text": "「……」\n静かな朝。"
+          "text": "「……」\n静かな朝。",
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgBlack",
           "character": "camille",
-          "text": "「…て……起きて！ 朝だよ！！」"
+          "text": "「…て……起きて！ 朝だよ！！」",
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgBlack",
           "character": "hero",
-          "text": "「ん…… ……あぁ。Bonjour Camille（おはよう、カミーユ）」"
+          "text": "「ん…… ……あぁ。Bonjour Camille（おはよう、カミーユ）」",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -61,7 +73,9 @@
           "learningPoint": {
             "title": "Très bien",
             "text": "意味: 「とても良い」「元気だよ」「最高！」\n日常会話で挨拶の後に自分の状態を伝える際によく使う定番の表現です。"
-          }
+          },
+          "expression": "normal",
+          "position": "center"
         },
         {
           "type": "dialog",
@@ -71,31 +85,43 @@
           "learningPoint": {
             "title": "marché",
             "text": "意味: 市場\n発音: マルシェ\n「マルシェ」は日本語でもよく使われる通り、屋外や広場に立つ市場を指すフランス語です。"
-          }
+          },
+          "expression": "normal",
+          "position": "center"
         },
         {
           "type": "dialog",
           "background": "bgRoom",
           "character": "hero",
-          "text": "「あぁ、そうだった…… 父さんにお使いを頼まれてたんだった……」"
+          "text": "「あぁ、そうだった…… 父さんにお使いを頼まれてたんだった……」",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
           "background": "bgBlack",
           "character": null,
-          "text": "突然。画面暗転。\n\nドォォォン！！！"
+          "text": "突然。画面暗転。\n\nドォォォン！！！",
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgBlack",
           "character": "father",
-          "text": "「父さんスーパーチョップ！！」"
+          "text": "「父さんスーパーチョップ！！」",
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgFather",
           "character": "hero",
-          "text": "「イテッ！！ 何するんだよ父さん！」"
+          "text": "「イテッ！！ 何するんだよ父さん！」",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -105,13 +131,15 @@
           "learningPoint": {
             "title": "Mon fils / Petite",
             "text": "● Mon fils (私の息子 / 息子よ)\n父親が息子に親しみを込めて呼びかける表現です。\n\n● Petite ○○\n直訳すると「小さい○○」ですが、名前の前に付けることで「〜ちゃん」「〜君」のような愛称的な呼び方になります。"
-          }
+          },
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgFather",
           "character": "father",
-          "text": "「おつかい前に復習問題といこうじゃないか!!」"
+          "text": "「おつかい前に復習問題といこうじゃないか!!」",
+          "characters": []
         },
         {
           "type": "fixedBattle",
@@ -165,13 +193,15 @@
           "learningPoint": {
             "title": "Aujourd'hui / Chevalier",
             "text": "● Aujourd'hui: 「今日」という意味。\n● Chevalier: 「騎士」という意味。英語のknightにあたります。"
-          }
+          },
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgAfterBattle",
           "character": "camille",
-          "text": "「えへへ！ 騎士だって！」"
+          "text": "「えへへ！ 騎士だって！」",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -181,13 +211,15 @@
           "learningPoint": {
             "title": "Oui / D'accord",
             "text": "● Oui: 「はい」（Yes）の意。\n● D'accord: 「了解」「オッケー」を意味する定番 of 同意表現です。"
-          }
+          },
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgBlack",
           "character": null,
-          "text": "（心の声）「ったく…… 息子の心配も少しはしろっての……」"
+          "text": "（心の声）「ったく…… 息子の心配も少しはしろっての……」",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -197,17 +229,1477 @@
           "learningPoint": {
             "title": "Allez / On y va",
             "text": "● Allez !: 「さあ！」「行こう！」と相手を促すフレーズ。\n● On y va !: 「行こう！」「出発だ！」（Let's go）にあたる表現です。"
-          }
+          },
+          "characters": []
         },
         {
           "type": "dialog",
           "background": "bgMarseille",
           "character": "camille",
-          "text": "「うん！ マルセイユ市場へ出発！」"
+          "text": "「うん！ マルセイユ市場へ出発！」",
+          "expression": "cry",
+          "position": "center"
         },
         {
           "type": "reward",
           "xp": 100,
+          "unlockedEpisodeId": null
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_0_2",
+      "episodeTitle": "第2話: 憧れの市場",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "黒": "#000000",
+        "Marseille": "url('assets/story/chapter_0/bg_marseille.png')",
+        "市場": "url('assets/story/chapter_0/bg_market.png')",
+        "港のコンテナ": "url('assets/story/chapter_0/bg_port_container.png')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公",
+          "avatar": "👤"
+        },
+        "camille": {
+          "name": "カミーユ",
+          "avatar": "👧",
+          "images": {
+            "normal": "assets/story/chapter_0/char_camille_normal.png",
+            "determined": "assets/story/chapter_0/char_camille_determined.png",
+            "cry": "assets/story/chapter_0/char_camille_cry.png"
+          }
+        },
+        "storeowner": {
+          "name": "八百屋の店主",
+          "avatar": "👨‍🌾"
+        },
+        "fishmonger": {
+          "name": "魚屋の店主",
+          "avatar": "🐟"
+        },
+        "woman": {
+          "name": "市場の女性",
+          "avatar": "👩"
+        },
+        "thief": {
+          "name": "泥棒",
+          "avatar": "👤"
+        },
+        "greek_merchant": {
+          "name": "ギリシャ商人",
+          "avatar": "🧔"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "camille",
+          "expression": "normal",
+          "position": "center",
+          "text": "「おーっ！！ marché de Marseille （マルセイユ市場）だーっ！！」",
+          "learningPoint": {
+            "title": "marche",
+            "text": "意味: 市場\nカタカナのマルシェとしても親しまれています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "text": "「人波だな……。買い出し、早く終わるかな。」"
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "camille",
+          "expression": "determined",
+          "position": "center",
+          "text": "「弱気は禁止！ まずは八百屋屋さんだよ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "storeowner",
+          "characters": [],
+          "text": "「お買い得だよ！！ そこの若い店、買い出しならうちで決まりだ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "hero",
+          "characters": [],
+          "text": "「（えっと、まずは……）」"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "八百屋 (買い出しの試練)",
+          "enemyHp": 3,
+          "enemyDamage": 3,
+          "questions": [
+            {
+              "questionId": "q_0_2_1_1",
+              "text": "八百屋に対して、丁寧に「こんにちは。野菜をください」と伝えるのに最も適切なものはどれか。\n(Quel est le plus approprié ?)",
+              "options": [
+                "Bonjour ! Je voudrais acheter des légumes. (こんにちは。野菜を買いたいです)",
+                "Bonne nuit ! Je voudrais acheter des légumes. (おやすみなさい。野菜を買いたいです)",
+                "Au revoir ! Je voudrais acheter des légumes. (さようなら。野菜を買いたいです)",
+                "Merci ! Je voudrais acheter des légumes. (ありがとう。野菜を買いたいです)"
+              ],
+              "answerIndex": 0,
+              "explanation": "Bonjour は日中の一般的な挨拶「こんにちは」です。Je voudrais + 動詞の原形（acheter=買う）で「〜したいです」という丁寧な表現になります。"
+            },
+            {
+              "questionId": "q_0_2_1_2",
+              "text": "「トマトを4個ください。」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
+              "options": [
+                "Je voudrais quatre tomates.",
+                "Je voudrais deux tomates.",
+                "Je mange quatre tomates.",
+                "Quatre tomates, merci."
+              ],
+              "answerIndex": 0,
+              "explanation": "「Je voudrais + 数量 + 名詞」で丁寧な注文になります。quatre は「4」、tomates は「トマト」です。"
+            },
+            {
+              "questionId": "q_0_2_1_3",
+              "text": "「玉ねぎを1個ください」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
+              "options": [
+                "Je voudrais un oignon.",
+                "Tu voudrais un oignon.",
+                "Je suis un oignon.",
+                "J'ai un oignon."
+              ],
+              "answerIndex": 0,
+              "explanation": "Je voudrais（私は〜が欲しいです）は、買い物や注文の際に最もよく使われる表現です。oignon は「玉ねぎ」です。"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "storeowner",
+          "characters": [],
+          "text": "「Très bien！新鮮な野菜だよ！持ってきな！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "hero",
+          "characters": [],
+          "text": "「ありがとうございます！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "camille",
+          "expression": "normal",
+          "position": "center",
+          "text": "「よし！次は魚だね！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "text": "「ブイヤベース用の魚だな。」"
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "fishmonger",
+          "characters": [],
+          "text": "「いらっしゃい！活きのいい魚が揃ってるよ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "hero",
+          "characters": [],
+          "text": "「ブイヤベースに適した魚を買いたいです。」"
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "fishmonger",
+          "characters": [],
+          "text": "「よし、まずは魚の目利きを試させてもらおうか！」"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "魚屋 (食材選びの試練)",
+          "enemyHp": 2,
+          "enemyDamage": 4,
+          "questions": [
+            {
+              "questionId": "q_0_2_2_1",
+              "text": "ブイヤベース用として最も適切な魚介類を指す単語はどれか。\n(Choisissez le bon ingrédient pour la bouillabaisse.)",
+              "options": [
+                "poisson (魚)",
+                "bœuf (牛肉)",
+                "poulet (鶏肉)",
+                "porc (豚肉)"
+              ],
+              "answerIndex": 0,
+              "explanation": "poisson は「魚」を意味します。ブイヤベースは地中海の魚介をふんだんに使ったスープ料理です。"
+            },
+            {
+              "questionId": "q_0_2_2_2",
+              "text": "「魚を1kgください」と注文する正しい表現を選べ。\n(Choisissez la bonne phrase.)",
+              "options": [
+                "Je voudrais un kilo de poisson.",
+                "Je voudrais poisson un kilo.",
+                "Un poisson kilo.",
+                "Merci un kilo."
+              ],
+              "answerIndex": 0,
+              "explanation": "分量を表すときは「数 + kilo(s) + de + 名詞」の語順になります。"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "fishmonger",
+          "characters": [],
+          "text": "「Excellent！目利きは間違いないようだね。」"
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "hero",
+          "characters": [],
+          "text": "「Merci beaucoup !（どうもありがとうございます！）」",
+          "learningPoint": {
+            "title": "Merci beaucoup",
+            "text": "意味: どうもありがとうございます\nMerci (ありがとう) に beaucoup (とても・多くの) を繋げた、より丁寧な感謝の言葉です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "camille",
+          "expression": "determined",
+          "position": "center",
+          "text": "「On l'a fait ! （やったね！）」",
+          "learningPoint": {
+            "title": "On l'a fait !",
+            "text": "意味: やったね！できた！\n目標を達成したり、困難を乗り越えたりした際によく使われる口語表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "Marseille",
+          "character": "camille",
+          "expression": "normal",
+          "position": "center",
+          "text": "「それじゃあ、帰ろう！」"
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "shake": true,
+          "characters": [],
+          "text": "（ドン！ 歩いていると、誰かと激しくぶつかる）"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "hero",
+          "characters": [],
+          "text": "「うわっ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": null,
+          "characters": [],
+          "text": "（慌てて逃げていく人影）"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "woman",
+          "characters": [],
+          "text": "「泥棒ーーーーーーー！！！！！ 私の銀のペンダントが！！！ 誰か捕まえて！！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "市場",
+          "character": "woman",
+          "characters": [],
+          "text": "「Attrapez-le, s'il vous plaît !!（捕まえてください！！）」",
+          "learningPoint": {
+            "title": "Attrapez-le / S'il vous plait",
+            "text": "● Attrapez-le: 彼を捕まえて！\n● s'il vous plaît: お願いします"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "character": "camille",
+          "expression": "determined",
+          "position": "center",
+          "text": "「待てーーー！ 泥棒！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "center"
+            }
+          ],
+          "text": "「おい！カミーユ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": null,
+          "characters": [],
+          "text": "（二人は港のコンテナエリアへと追いかける）"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "thief",
+          "characters": [],
+          "text": "「はぁ……はぁ……ここまで来れば大丈夫か……」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「遅かったな。」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": null,
+          "characters": [],
+          "text": "（怪しげな男たちと合流する）"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「約束の品は手に入れたのだろうな？」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "hero",
+          "characters": [],
+          "text": "「あづいら……！」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "camille",
+          "characters": [],
+          "text": "「あれが盗まれたペンダントだよ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「ふむ……。怪しいネズミが迷い込んだようだ。」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "thief",
+          "characters": [],
+          "text": "「おい、ギリシャ人！どうするんだ？」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "hero",
+          "characters": [],
+          "text": "「ギリシャ人……？ Ils sont grecs ?（彼らはギリシャ人なのか？） 」",
+          "learningPoint": {
+            "title": "etre (grecs)",
+            "text": "● Ils: 彼らは\n● sont: être（〜である）の三人称複数形\n● grecs: ギリシャ人（複数形）\n\n【être の基本活用】\nJe suis, Tu es, Il/Elle est, Nous sommes, Vous êtes, Ils/Elles sont"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「余計なことを聞くネズミだな。」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "thief",
+          "characters": [],
+          "text": "「サクッと片付けちまおう！」"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": null,
+          "characters": [],
+          "text": "（囲まれてしまう二人）"
+        },
+        {
+          "type": "dialog",
+          "background": "港のコンテナ",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「さて、大人しくペンダントを諦めて帰るか？」"
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "character": null,
+          "characters": [],
+          "text": "（緊迫の対峙！）"
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "character": "camille",
+          "expression": "determined",
+          "position": "center",
+          "text": "「絶対に嫌！」"
+        },
+        {
+          "type": "dialog",
+          "background": "黒",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "center"
+            }
+          ],
+          "text": "「カミーユを絶対に守る！」"
+        },
+        {
+          "type": "reward",
+          "xp": 120,
+          "unlockedEpisodeId": null
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_0_3",
+      "episodeTitle": "第3話: 銀のペンダント",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "bg_container_thief.png": "url('assets/story/chapter_0/bg_container_thief.png')",
+        "bg_thief_caught.png": "url('assets/story/chapter_0/bg_thief_caught.png')",
+        "bg_port.png": "url('assets/story/chapter_0/bg_port.png')",
+        "bg_camille_cry.png": "url('assets/story/chapter_0/bg_camille_cry.png')",
+        "bg_market.png": "url('assets/story/chapter_0/bg_market.png')",
+        "bg_restaurant.png": "url('assets/story/chapter_0/bg_restaurant.png')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公",
+          "avatar": "👤"
+        },
+        "camille": {
+          "name": "カミーユ",
+          "avatar": "👧",
+          "images": {
+            "normal": "assets/story/chapter_0/char_camille_normal.png",
+            "determined": "assets/story/chapter_0/char_camille_determined.png",
+            "cry": "assets/story/chapter_0/char_camille_cry.png"
+          }
+        },
+        "father": {
+          "name": "父",
+          "avatar": "🧔",
+          "images": {
+            "default": "assets/story/chapter_0/char_father_default.png",
+            "sorry": "assets/story/chapter_0/char_father_sorry.png"
+          }
+        },
+        "proprietress": {
+          "name": "女将さん",
+          "avatar": "👩",
+          "images": {
+            "smile": "assets/story/chapter_0/char_proprietress_smile.png",
+            "worried": "assets/story/chapter_0/char_proprietress_worried.png",
+            "appear": "assets/story/chapter_0/char_proprietress_appear.png",
+            "determined": "assets/story/chapter_0/char_proprietress_determined.png"
+          }
+        },
+        "everyone": {
+          "name": "みんな",
+          "avatar": "👥",
+          "images": {
+            "everyone_smile": "assets/story/chapter_0/char_everyone_smile.png",
+            "delicious": "assets/story/chapter_0/char_delicious.png"
+          }
+        },
+        "thief": {
+          "name": "泥棒",
+          "avatar": "👤"
+        },
+        "greek_merchant": {
+          "name": "ギリシャ商人",
+          "avatar": "🧔"
+        },
+        "police": {
+          "name": "衛兵",
+          "avatar": "💂"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "background": "bg_container_thief.png",
+          "character": "thief",
+          "characters": [],
+          "text": "「くそっ……！ガキがっっ！！つけてやがったのか！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_container_thief.png",
+          "character": null,
+          "characters": [],
+          "text": "（泥棒は焦って周囲を見る）"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": "thief",
+          "characters": [],
+          "text": "「近づくな！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": null,
+          "characters": [],
+          "text": "（カミーユを捕まえる）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "hero",
+          "characters": [],
+          "text": "「カミーユ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "thief",
+          "characters": [],
+          "text": "「動くな！ こいつがどうなってもいいのか？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "hero",
+          "characters": [],
+          "text": "「……。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": null,
+          "characters": [],
+          "text": "（怒りを抑える）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "thief",
+          "characters": [],
+          "text": "「お前みたいなガキどもが、俺に勝てると思うな！」"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "泥棒",
+          "enemyHp": 3,
+          "enemyDamage": 3,
+          "questions": [
+            {
+              "questionId": "q_0_3_1_1",
+              "text": "「助けてください！」に当てはまるフランス語は？",
+              "options": [
+                "Regardez-moi, s'il vous plaît !",
+                "Mangez-moi, s'il vous plaît !",
+                "Aidez-moi, s'il vous plaît !",
+                "Attendez-moi, s'il vous plaît !"
+              ],
+              "answerIndex": 2,
+              "explanation": "aider（助ける）の命令形 Aidez に moi（私を）と s'il vous plaît（お願いします）を繋げて「助けてください」となります。"
+            },
+            {
+              "questionId": "q_0_3_1_2",
+              "text": "「彼女はカミーユです。」に当てはまるフランス語は？",
+              "options": [
+                "Elle est Camille.",
+                "Il est Camille.",
+                "Elle a Camille.",
+                "Elle suis Camille."
+              ],
+              "answerIndex": 0,
+              "explanation": "Elle（彼女）に動詞 être（〜である）の三人称単数形 est を組み合わせて「Elle est Camille.」となります。"
+            },
+            {
+              "questionId": "q_0_3_1_3",
+              "text": "「私は彼女を守ります。」に当てはまるフランス語は？",
+              "options": [
+                "Je suis Camille.",
+                "Je protège Camille.",
+                "J'ai Camille.",
+                "Je mange Camille."
+              ],
+              "answerIndex": 1,
+              "explanation": "protéger（守る）の一人称単数現在形 protège を用いて「Je protège Camille.」となります。"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "thief",
+          "characters": [],
+          "text": "「ぐっ……！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "hero",
+          "characters": [],
+          "text": "「カミーユ、大丈夫か？！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": null,
+          "characters": [],
+          "text": "（ペンダントを拾い上げるカミーユ）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「……。ふむ、面倒だ。それでは、我々商隊と物品は先に国に帰るとするか…。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "thief",
+          "characters": [],
+          "text": "「俺を見捨てるのか！？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "hero",
+          "characters": [],
+          "text": "「こいつら……仲間じゃなかったのか？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「ただの使い捨てだ。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": null,
+          "characters": [],
+          "text": "（銀のペンダントを見る）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「この程度の品のために、随分騒がせてくれたものだ。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": null,
+          "characters": [],
+          "text": "（商人はペンダントを主人公たちへ投げる）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「返してやろう。我々には、もっと価値のある取引がある。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.png",
+          "character": "hero",
+          "characters": [],
+          "text": "「待て！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": null,
+          "characters": [],
+          "text": "（船へ乗り込む）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "greek_merchant",
+          "characters": [],
+          "text": "「Adieu.」",
+          "learningPoint": {
+            "title": "Adieu",
+            "text": "意味: 「さようなら」\n日常会話で使われる Au revoir (またね) とは異なり、長い別れや、二度と会わないような相手に対して使う重い別れの表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": null,
+          "characters": [],
+          "text": "（船が港を離れる）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": null,
+          "characters": [],
+          "text": "「……。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": null,
+          "characters": [],
+          "text": "（ペンダントを握りしめるカミーユ）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_camille_cry.png",
+          "character": null,
+          "characters": [],
+          "text": "「ひっく...ひっく....ごわがっだよおおおおおおーーーーーー！！！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "proprietress",
+          "expression": "normal",
+          "position": "right",
+          "text": "「君たちっ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": null,
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "（走ってくる女将さん）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "proprietress",
+          "expression": "normal",
+          "position": "right",
+          "text": "「無事で良かった……！ 小さな君たちが泥棒を追いかけて行くものだから、心配で心配で…！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "police",
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "「Merci, petits héros. 君たちのおかげで泥棒は確保できたよ。」",
+          "learningPoint": {
+            "title": "petits héros",
+            "text": "意味: 「小さなヒーローたち」\n● petits: 「小さな」の複数形\n● héros: 「ヒーロー・勇者」"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "proprietress",
+          "expression": "smile",
+          "position": "right",
+          "text": "「本当にありがとう。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "smile",
+              "position": "right"
+            }
+          ],
+          "text": "「いや……僕は何も……。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "proprietress",
+          "expression": "normal",
+          "position": "right",
+          "text": "「そちらの女の子もありがとう。Vous êtes très courageux.」",
+          "learningPoint": {
+            "title": "Vous êtes très courageux",
+            "text": "意味: 「君たちはとても勇敢だ」\n● Vous: あなたたち（主語）\n● êtes: 動詞 être（〜である）の vous に対する変化形\n● très: とても\n● courageux: 勇敢な（男性複数形）"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "「えへへ…」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "proprietress",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "「Ah, j’y pense ! お礼に、私のレストランへご招待させて！ 今日はもう日が暮れてしまうから、三日後ご家族といらっしゃい。場所はこのカードに記してあるから。」",
+          "learningPoint": {
+            "title": "Ah, j’y pense !",
+            "text": "意味: 「あ、そうだ！」「思い出した！」\n会話中に突然何かアイデアや思い出したことを提案するときに使う日常の慣用句です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "「そんな、いいんですか！？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_port.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "「やったー！！ そうと決まれば早く帰って報告しなくちゃね！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "character": null,
+          "characters": [],
+          "text": "（無事帰宅）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_market.png",
+          "character": "father",
+          "expression": "default",
+          "position": "right",
+          "text": "「いやーそれにしても、付き添いは俺だけで良かったのかな！？ なんと贅沢な」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_market.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "「母さんもカミーユの家族もちょうど仕事だったしね。皆、父さんみたいに暇じゃないんだよ」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_market.png",
+          "character": "father",
+          "expression": "sorry",
+          "position": "right",
+          "text": "「痛い！！息子のとげある言葉が痛い！！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "normal",
+          "position": "right",
+          "text": "「Bienvenue ～ (ようこそ)！！ 来てくれたのね、小さなヒーローさんたち！！……って」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": null,
+          "characters": [
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "normal",
+              "position": "right"
+            }
+          ],
+          "text": "女将・父：「「ええええええええええええええ」」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "「何々～知り合い？知り合い？？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "normal",
+          "position": "right",
+          "text": "「以前こちらの方がご来店されたときに、うちの『ブイヤベースがうますぎるっ』ってレシピを懇願されてねぇ…。流石にレシピすべては教えられないから、隠し味だけ教えたらルンルンと帰られたのよ」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": null,
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "（子供たちのジト目）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "father",
+          "expression": "sorry",
+          "position": "right",
+          "text": "「まーなんだ…。その節はどうも本当にありがとうございました…。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "father",
+              "expression": "sorry",
+              "position": "right"
+            }
+          ],
+          "text": "「先にあやまれいッッ！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "shake": true,
+          "characters": [],
+          "text": "（どたばた！）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "smile",
+          "position": "right",
+          "text": "「でもまぁ料理人冥利に尽きるというものよね。さてじゃあ、料理を出す前に、最後の試験よ！！」"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "女将",
+          "enemyHp": 6,
+          "enemyDamage": 2,
+          "questions": [
+            {
+              "questionId": "q_0_3_2_1",
+              "text": "市場で店員に丁寧に「野菜を2kgください」と注文するとき、最も自然な表現はどれか。",
+              "options": [
+                "Je voudrais deux kilos de légumes.",
+                "Je veux deux kilo des légumes.",
+                "Je voudrais légumes deux kilos.",
+                "Je suis deux kilos de légumes."
+              ],
+              "answerIndex": 0,
+              "explanation": "「Je voudrais + 数量 + de + 名詞」で丁寧な注文になります。"
+            },
+            {
+              "questionId": "q_0_3_2_2",
+              "text": "市場で「魚を1kg、肉を2kg、りんごを500gください」と正しく注文しているものはどれか。",
+              "options": [
+                "Je voudrais un kilo poisson, deux kilos viande, cinq cents grammes pommes.",
+                "Je voudrais un kilo de poisson, two kilos de viande, cinq cents grammes de pommes.",
+                "Je voudrais un kilo de poisson, deux kilos de viande, cinq cents grammes de pommes.",
+                "Je voudrais un poisson kilo, deux viande kilos, pommes grammes."
+              ],
+              "answerIndex": 2,
+              "explanation": "数量を表現する際は「数 + 単位 + de + 名詞」となります。kilo や gramme の後に de が必須です。"
+            },
+            {
+              "questionId": "q_0_3_2_3",
+              "text": "市場で出会った人について「彼らは日本人です」と正しく表現しているものはどれか。",
+              "options": [
+                "Ils êtes japonais.",
+                "Ils sont Japonais.",
+                "Ils être japonais.",
+                "Ils ont japonais."
+              ],
+              "answerIndex": 1,
+              "explanation": "Ils（彼ら）に対する être の活用は sont となります。また、国籍・民族を表す名詞は語頭を大文字（Japonais）にします。"
+            },
+            {
+              "questionId": "q_0_3_2_4",
+              "text": "戦闘中、仲間が「彼を守ってください！」と叫びました。正しいフランス語はどれか。",
+              "options": [
+                "Protégez-le !",
+                "Le protégez !",
+                "Protéger lui !",
+                "Vous proteger-le !"
+              ],
+              "answerIndex": 0,
+              "explanation": "動詞protéger（守る）の命令形「Protégez !」の後に、目的語代名詞「le（彼を）」をハイフンで繋いで「Protégez-le !」とします。"
+            },
+            {
+              "questionId": "q_0_3_2_5",
+              "text": "「こんにちは、マダム」に当てはまる最も適切なフランス語はどれか。",
+              "options": [
+                "Bonjour, Madame.",
+                "Au revoir, Madame.",
+                "Merci, Madame.",
+                "Bonne nuit, Madame."
+              ],
+              "answerIndex": 0,
+              "explanation": "Bonjour は昼間の一般的なあいさつ「こんにちは」です。"
+            },
+            {
+              "questionId": "q_0_3_2_6",
+              "text": "「私たちは日本人です」に当てはまる正しいフランス語はどれか。",
+              "options": [
+                "Nous sommes japonais.",
+                "Nous êtes japonais.",
+                "Nous suis japonais.",
+                "Nous es japonais."
+              ],
+              "answerIndex": 0,
+              "explanation": "Nous（私たち）に対する être の活用は sommes になります。êtes は vous、suis は je、es は tu に対応します。"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "characters": [
+            {
+              "id": "everyone",
+              "expression": "everyone_smile",
+              "position": "center"
+            }
+          ],
+          "text": "「素晴らしいわ！それじゃ Bon Appétit ！」",
+          "learningPoint": {
+            "title": "Bon Appétit",
+            "text": "意味: 「召し上がれ！」「良い食事を！」\nフランスで食事を始める際、同席している人同士で声を掛け合うお決まりの挨拶表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": null,
+          "characters": [
+            {
+              "id": "everyone",
+              "expression": "delicious",
+              "position": "center"
+            }
+          ],
+          "text": "カミーユ、主人公、父：「「「おっおいしーーーーー」」」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            }
+          ],
+          "text": "「C'est vraiment délicieux ! Qu'est-ce que c'est ?（これ、本当においしい！これは何ですか？） 」",
+          "learningPoint": {
+            "title": "Celui-ci / Qu'est-ce que c'est ?",
+            "text": "● Celui-ci: 「これ（こちら）」を表す指示代名詞で、名詞を繰り返さずに「このもの・こちら」を指す。\n● Qu'est-ce que c'est ?: 「これは何ですか？」と尋ねる最も一般的な疑問表現。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "smile",
+          "position": "right",
+          "text": "「あぁそれは Panisse（パニス） だな。ひよこ豆のコロッケみたいなものさ。」",
+          "learningPoint": {
+            "title": "Panisse",
+            "text": "意味: パニス（ひよこ豆のコロッケのようなマルセイユ名物）\nひよこ豆 of 粉を水とともに加熱して固め、冷やした後に切り分けて frire（揚げる） したシンプルな一品。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "smile",
+              "position": "right"
+            }
+          ],
+          "text": "「Celui-ci est aussi délicieux. Qu'est-ce que c'est ?（これもおいしいよ。これは何ですか？） 」",
+          "learningPoint": {
+            "title": "aussi / Qu'est-ce que c'est ?",
+            "text": "● aussi: 「〜も」「また」の意味の副詞で、同じ性質や状況を付け加えるときに使う。\n● Qu'est-ce que c'est ?: 英語の “What is it” と同じ構成だ！"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "smile",
+          "position": "right",
+          "text": "「あぁそっちは Daube Provençale（ドーブ・プロヴァンサル）  。牛肉のシチューさ。bœuf（牛肉）を vin rouge（赤ワイン）でbraiser（蒸し煮にする） んだ。」",
+          "learningPoint": {
+            "title": "Daube Provençale",
+            "text": "意味: ドーブ・プロヴァンサル（牛肉のプロヴァンス風赤ワイン煮込み）\n牛肉を赤ワインや香味野菜、ハーブに漬け込んだ後、じっくりと煮込んだ料理。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "smile",
+              "position": "right"
+            }
+          ],
+          "text": "「女将さんはなんで食堂をやられてるんですか？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "worried",
+          "position": "right",
+          "text": "「んんーーそうだなぁ…。親がやってたから引き継いだとかかなぁ？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "worried",
+          "position": "right",
+          "text": "「あまり考えたことはなかったな」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "proprietress",
+              "expression": "worried",
+              "position": "right"
+            }
+          ],
+          "text": "「そうですか…。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "worried",
+          "position": "right",
+          "text": "「ただまぁ、あたしは “食”が大好きなんだよ。作るのも、食べるのも」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "worried",
+          "position": "right",
+          "text": "「食事があれば、元気も出るし、お腹も満たされるし、人を笑顔にもできるんだ」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "worried",
+          "position": "right",
+          "text": "「それに、食の前では王様だって、貴族だって、農民だって、商人だって関係ない。皆平等なんだ。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "expression": "determined",
+          "position": "right",
+          "text": "「だからあたしは食堂を続けてるかな！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "normal",
+              "position": "left"
+            },
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "「かっこいいや女将さん！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "camille",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "left"
+            }
+          ],
+          "text": "「あたし決めたっ！！将来は料理する人になる！！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "hero",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "left"
+            }
+          ],
+          "text": "「ええ！？」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "characters": [
+            {
+              "id": "camille",
+              "expression": "determined",
+              "position": "left"
+            },
+            {
+              "id": "proprietress",
+              "expression": "smile",
+              "position": "right"
+            }
+          ],
+          "text": "「いいじゃないか。未来は若者が作っていくんだ。期待しているぞ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "father",
+          "characters": [
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "「よしっ俺も決めた！！ この Panisse（パニス） と Daube Provençale（ドーブ・プロヴァンサル）のレシピを解明するぞ。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "father",
+          "characters": [
+            {
+              "id": "father",
+              "expression": "default",
+              "position": "right"
+            }
+          ],
+          "text": "「して女将さん…。この隠しレシピをお教え（（（（」"
+        },
+        {
+          "type": "dialog",
+          "background": "bgBlack",
+          "shake": true,
+          "characters": [],
+          "text": "（主人公の無言の蹴り3発炸裂！）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "father",
+          "expression": "sorry",
+          "position": "right",
+          "text": "「ご、ごめんなさい…。」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "characters": [
+            {
+              "id": "everyone",
+              "expression": "everyone_smile",
+              "position": "center"
+            }
+          ],
+          "text": "「まぁまぁ仲良くいこうじゃないか」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": "proprietress",
+          "characters": [
+            {
+              "id": "everyone",
+              "expression": "everyone_smile",
+              "position": "center"
+            }
+          ],
+          "text": "「食は平和をもたらしてくれるはずだからさ！」"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_restaurant.png",
+          "character": null,
+          "characters": [
+            {
+              "id": "everyone",
+              "expression": "everyone_smile",
+              "position": "center"
+            }
+          ],
+          "text": "カミーユ、主人公：「Oui chef !!!」",
+          "learningPoint": {
+            "title": "Oui chef",
+            "text": "意味: 了解しました！\nレストランの厨房などで、シェフの指示に対してスタッフが返すお決まりの返答フレーズです。"
+          }
+        },
+        {
+          "type": "reward",
+          "xp": 150,
           "unlockedEpisodeId": null
         }
       ]
