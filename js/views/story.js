@@ -233,6 +233,27 @@ function runSequenceEngine(container, episode) {
     } else if (step.type === 'reward') {
       showReward(step);
     }
+
+    updatePolicyNotice(step);
+  }
+
+  function updatePolicyNotice(step) {
+    let policyOverlay = viewport.querySelector('.ai-policy-notice');
+    const isThiefCaughtBg = (step && step.background === 'bg_thief_caught.png') || 
+                           (viewport.style.background && viewport.style.background.includes('bg_thief_caught.png'));
+
+    if (isThiefCaughtBg) {
+      if (!policyOverlay) {
+        policyOverlay = document.createElement('div');
+        policyOverlay.className = 'ai-policy-notice';
+        policyOverlay.innerText = '※AIポリシーの都合により、カミーユはうさぎの縫いぐるみに差し替えられました';
+        viewport.appendChild(policyOverlay);
+      }
+    } else {
+      if (policyOverlay) {
+        policyOverlay.remove();
+      }
+    }
   }
 
   // Bind screen clicks to progress dialogue (only when in dialog mode)

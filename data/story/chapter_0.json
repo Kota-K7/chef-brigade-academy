@@ -9,11 +9,11 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bgRoom": "url('assets/story/chapter_0/bg_room.png')",
-        "bgFather": "url('assets/story/chapter_0/bg_father.png')",
-        "bgAfterBattle": "url('assets/story/chapter_0/bg_after_battle.png')",
-        "bgMarseille": "url('assets/story/chapter_0/bg_marseille.png')",
-        "bgMarket": "url('assets/story/chapter_0/bg_market.png')"
+        "bgRoom": "url('assets/story/chapter_0/bg_room.webp')",
+        "bgFather": "url('assets/story/chapter_0/bg_father.webp')",
+        "bgAfterBattle": "url('assets/story/chapter_0/bg_after_battle.webp')",
+        "bgMarseille": "url('assets/story/chapter_0/bg_marseille.webp')",
+        "bgMarket": "url('assets/story/chapter_0/bg_market.webp')"
       },
       "characters": {
         "hero": {
@@ -24,17 +24,17 @@
           "name": "カミーユ",
           "avatar": "👧",
           "images": {
-            "normal": "assets/story/chapter_0/char_camille_normal.png",
-            "determined": "assets/story/chapter_0/char_camille_determined.png",
-            "cry": "assets/story/chapter_0/char_camille_cry.png"
+            "normal": "assets/story/chapter_0/char_camille_normal.webp",
+            "determined": "assets/story/chapter_0/char_camille_determined.webp",
+            "cry": "assets/story/chapter_0/char_camille_cry.webp"
           }
         },
         "father": {
           "name": "父",
           "avatar": "🧔",
           "images": {
-            "default": "assets/story/chapter_0/char_father_default.png",
-            "sorry": "assets/story/chapter_0/char_father_sorry.png"
+            "default": "assets/story/chapter_0/char_father_default.webp",
+            "sorry": "assets/story/chapter_0/char_father_sorry.webp"
           }
         }
       },
@@ -151,10 +151,10 @@
               "questionId": "q_0_1_1",
               "text": "マルセイユを含むプロヴァンス地方の伝統料理ではないものを選べ。\n(Quel plat n'est pas une spécialité de Provence ?)",
               "options": [
-                "Bouillabaisse (ブイヤベース)",
-                "Ratatouille (ラタトゥイユ)",
-                "Daube provençale (プロヴァンス風煮込み)",
-                "Quiche lorraine (キッシュ・ロレーヌ)"
+                "Bouillabaisse(ブイヤベース)",
+                "Ratatouille(ラタトゥイユ)",
+                "Daube provençale(ドーブ・プロヴァンサル)",
+                "Quiche lorraine(キッシュロレーヌ)"
               ],
               "answerIndex": 3,
               "explanation": "Quiche lorraine（キッシュ・ロレーヌ）はフランス東北部ロレーヌ地方の伝統料理です。その他の料理はすべてプロヴァンス地方の名物（spécialité）です。"
@@ -254,9 +254,9 @@
       "backgrounds": {
         "bgBlack": "#000000",
         "黒": "#000000",
-        "Marseille": "url('assets/story/chapter_0/bg_marseille.png')",
-        "市場": "url('assets/story/chapter_0/bg_market.png')",
-        "港のコンテナ": "url('assets/story/chapter_0/bg_port_container.png')"
+        "Marseille": "url('assets/story/chapter_0/bg_marseille.webp')",
+        "市場": "url('assets/story/chapter_0/bg_market.webp')",
+        "港のコンテナ": "url('assets/story/chapter_0/bg_port_container.webp')"
       },
       "characters": {
         "hero": {
@@ -267,9 +267,9 @@
           "name": "カミーユ",
           "avatar": "👧",
           "images": {
-            "normal": "assets/story/chapter_0/char_camille_normal.png",
-            "determined": "assets/story/chapter_0/char_camille_determined.png",
-            "cry": "assets/story/chapter_0/char_camille_cry.png"
+            "normal": "assets/story/chapter_0/char_camille_normal.webp",
+            "determined": "assets/story/chapter_0/char_camille_determined.webp",
+            "cry": "assets/story/chapter_0/char_camille_cry.webp"
           }
         },
         "storeowner": {
@@ -351,10 +351,10 @@
               "questionId": "q_0_2_1_1",
               "text": "八百屋に対して、丁寧に「こんにちは。野菜をください」と伝えるのに最も適切なものはどれか。\n(Quel est le plus approprié ?)",
               "options": [
-                "Bonjour ! Je voudrais acheter des légumes. (こんにちは。野菜を買いたいです)",
-                "Bonne nuit ! Je voudrais acheter des légumes. (おやすみなさい。野菜を買いたいです)",
-                "Au revoir ! Je voudrais acheter des légumes. (さようなら。野菜を買いたいです)",
-                "Merci ! Je voudrais acheter des légumes. (ありがとう。野菜を買いたいです)"
+                "Bonjour ! Je voudrais acheter des légumes. ",
+                "Bonne nuit ! Je voudrais acheter des légumes.",
+                "Au revoir ! Je voudrais acheter des légumes. ",
+                "Merci ! Je voudrais acheter des légumes. "
               ],
               "answerIndex": 0,
               "explanation": "Bonjour は日中の一般的な挨拶「こんにちは」です。Je voudrais + 動詞の原形（acheter=買う）で「〜したいです」という丁寧な表現になります。"
@@ -714,12 +714,12 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bg_container_thief.png": "url('assets/story/chapter_0/bg_container_thief.png')",
-        "bg_thief_caught.png": "url('assets/story/chapter_0/bg_thief_caught.png')",
-        "bg_port.png": "url('assets/story/chapter_0/bg_port.png')",
-        "bg_camille_cry.png": "url('assets/story/chapter_0/bg_camille_cry.png')",
-        "bg_market.png": "url('assets/story/chapter_0/bg_market.png')",
-        "bg_restaurant.png": "url('assets/story/chapter_0/bg_restaurant.png')"
+        "bg_container_thief.webp": "url('assets/story/chapter_0/bg_container_thief.webp')",
+        "bg_thief_caught.webp": "url('assets/story/chapter_0/bg_thief_caught.webp')",
+        "bg_port.webp": "url('assets/story/chapter_0/bg_port.webp')",
+        "bg_camille_cry.webp": "url('assets/story/chapter_0/bg_camille_cry.webp')",
+        "bg_market.webp": "url('assets/story/chapter_0/bg_market.webp')",
+        "bg_restaurant.webp": "url('assets/story/chapter_0/bg_restaurant.webp')"
       },
       "characters": {
         "hero": {
@@ -730,35 +730,35 @@
           "name": "カミーユ",
           "avatar": "👧",
           "images": {
-            "normal": "assets/story/chapter_0/char_camille_normal.png",
-            "determined": "assets/story/chapter_0/char_camille_determined.png",
-            "cry": "assets/story/chapter_0/char_camille_cry.png"
+            "normal": "assets/story/chapter_0/char_camille_normal.webp",
+            "determined": "assets/story/chapter_0/char_camille_determined.webp",
+            "cry": "assets/story/chapter_0/char_camille_cry.webp"
           }
         },
         "father": {
           "name": "父",
           "avatar": "🧔",
           "images": {
-            "default": "assets/story/chapter_0/char_father_default.png",
-            "sorry": "assets/story/chapter_0/char_father_sorry.png"
+            "default": "assets/story/chapter_0/char_father_default.webp",
+            "sorry": "assets/story/chapter_0/char_father_sorry.webp"
           }
         },
         "proprietress": {
           "name": "女将さん",
           "avatar": "👩",
           "images": {
-            "smile": "assets/story/chapter_0/char_proprietress_smile.png",
-            "worried": "assets/story/chapter_0/char_proprietress_worried.png",
-            "appear": "assets/story/chapter_0/char_proprietress_appear.png",
-            "determined": "assets/story/chapter_0/char_proprietress_determined.png"
+            "smile": "assets/story/chapter_0/char_proprietress_smile.webp",
+            "worried": "assets/story/chapter_0/char_proprietress_worried.webp",
+            "appear": "assets/story/chapter_0/char_proprietress_appear.webp",
+            "determined": "assets/story/chapter_0/char_proprietress_determined.webp"
           }
         },
         "everyone": {
           "name": "みんな",
           "avatar": "👥",
           "images": {
-            "everyone_smile": "assets/story/chapter_0/char_everyone_smile.png",
-            "delicious": "assets/story/chapter_0/char_delicious.png"
+            "everyone_smile": "assets/story/chapter_0/char_everyone_smile.webp",
+            "delicious": "assets/story/chapter_0/char_delicious.webp"
           }
         },
         "thief": {
@@ -777,14 +777,14 @@
       "sequence": [
         {
           "type": "dialog",
-          "background": "bg_container_thief.png",
+          "background": "bg_container_thief.webp",
           "character": "thief",
           "characters": [],
           "text": "「くそっ……！ガキがっっ！！つけてやがったのか！！」"
         },
         {
           "type": "dialog",
-          "background": "bg_container_thief.png",
+          "background": "bg_container_thief.webp",
           "character": null,
           "characters": [],
           "text": "（泥棒は焦って周囲を見る）"
@@ -805,35 +805,35 @@
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「カミーユ！！」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "thief",
           "characters": [],
           "text": "「動くな！ こいつがどうなってもいいのか？」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「……。」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": null,
           "characters": [],
           "text": "（怒りを抑える）"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "thief",
           "characters": [],
           "text": "「お前みたいなガキどもが、俺に勝てると思うな！」"
@@ -884,98 +884,98 @@
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "thief",
           "characters": [],
           "text": "「ぐっ……！」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「カミーユ、大丈夫か？！」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": null,
           "characters": [],
           "text": "（ペンダントを拾い上げるカミーユ）"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "greek_merchant",
           "characters": [],
           "text": "「……。ふむ、面倒だ。それでは、我々商隊と物品は先に国に帰るとするか…。」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "thief",
           "characters": [],
           "text": "「俺を見捨てるのか！？」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「こいつら……仲間じゃなかったのか？」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "greek_merchant",
           "characters": [],
           "text": "「ただの使い捨てだ。」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": null,
           "characters": [],
           "text": "（銀のペンダントを見る）"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "greek_merchant",
           "characters": [],
           "text": "「この程度の品のために、随分騒がせてくれたものだ。」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": null,
           "characters": [],
           "text": "（商人はペンダントを主人公たちへ投げる）"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "greek_merchant",
           "characters": [],
           "text": "「返してやろう。我々には、もっと価値のある取引がある。」"
         },
         {
           "type": "dialog",
-          "background": "bg_thief_caught.png",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「待て！」"
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": null,
           "characters": [],
           "text": "（船へ乗り込む）"
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "greek_merchant",
           "characters": [],
           "text": "「Adieu.」",
@@ -986,35 +986,35 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": null,
           "characters": [],
           "text": "（船が港を離れる）"
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": null,
           "characters": [],
           "text": "「……。」"
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": null,
           "characters": [],
           "text": "（ペンダントを握りしめるカミーユ）"
         },
         {
           "type": "dialog",
-          "background": "bg_camille_cry.png",
+          "background": "bg_camille_cry.webp",
           "character": null,
           "characters": [],
           "text": "「ひっく...ひっく....ごわがっだよおおおおおおーーーーーー！！！！」"
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "proprietress",
           "expression": "normal",
           "position": "right",
@@ -1022,7 +1022,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": null,
           "characters": [
             {
@@ -1035,7 +1035,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "proprietress",
           "expression": "normal",
           "position": "right",
@@ -1043,7 +1043,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "police",
           "characters": [
             {
@@ -1060,7 +1060,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
@@ -1068,7 +1068,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "hero",
           "characters": [
             {
@@ -1081,7 +1081,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "proprietress",
           "expression": "normal",
           "position": "right",
@@ -1093,7 +1093,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "camille",
           "characters": [
             {
@@ -1111,7 +1111,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "proprietress",
           "characters": [
             {
@@ -1133,7 +1133,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "hero",
           "characters": [
             {
@@ -1151,7 +1151,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.png",
+          "background": "bg_port.webp",
           "character": "camille",
           "characters": [
             {
@@ -1176,7 +1176,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_market.png",
+          "background": "bg_market.webp",
           "character": "father",
           "expression": "default",
           "position": "right",
@@ -1184,7 +1184,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_market.png",
+          "background": "bg_market.webp",
           "character": "hero",
           "characters": [
             {
@@ -1197,7 +1197,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_market.png",
+          "background": "bg_market.webp",
           "character": "father",
           "expression": "sorry",
           "position": "right",
@@ -1205,7 +1205,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "normal",
           "position": "right",
@@ -1213,7 +1213,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": null,
           "characters": [
             {
@@ -1231,7 +1231,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "camille",
           "characters": [
             {
@@ -1249,7 +1249,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "normal",
           "position": "right",
@@ -1257,7 +1257,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": null,
           "characters": [
             {
@@ -1275,7 +1275,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "father",
           "expression": "sorry",
           "position": "right",
@@ -1283,7 +1283,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "hero",
           "characters": [
             {
@@ -1303,7 +1303,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
@@ -1391,7 +1391,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "characters": [
             {
@@ -1408,7 +1408,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": null,
           "characters": [
             {
@@ -1421,7 +1421,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "camille",
           "characters": [
             {
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
@@ -1450,7 +1450,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "hero",
           "characters": [
             {
@@ -1467,7 +1467,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
@@ -1479,7 +1479,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "hero",
           "characters": [
             {
@@ -1492,7 +1492,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "worried",
           "position": "right",
@@ -1500,7 +1500,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "worried",
           "position": "right",
@@ -1508,7 +1508,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "hero",
           "characters": [
             {
@@ -1521,7 +1521,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "worried",
           "position": "right",
@@ -1529,7 +1529,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "worried",
           "position": "right",
@@ -1537,7 +1537,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "worried",
           "position": "right",
@@ -1545,7 +1545,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "expression": "determined",
           "position": "right",
@@ -1553,7 +1553,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "camille",
           "characters": [
             {
@@ -1571,7 +1571,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "camille",
           "characters": [
             {
@@ -1584,7 +1584,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "hero",
           "characters": [
             {
@@ -1597,7 +1597,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "characters": [
             {
@@ -1615,7 +1615,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "father",
           "characters": [
             {
@@ -1628,7 +1628,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "father",
           "characters": [
             {
@@ -1648,7 +1648,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "father",
           "expression": "sorry",
           "position": "right",
@@ -1656,7 +1656,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "characters": [
             {
@@ -1669,7 +1669,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": "proprietress",
           "characters": [
             {
@@ -1682,7 +1682,7 @@
         },
         {
           "type": "dialog",
-          "background": "bg_restaurant.png",
+          "background": "bg_restaurant.webp",
           "character": null,
           "characters": [
             {
