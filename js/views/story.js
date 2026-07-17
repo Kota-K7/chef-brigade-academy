@@ -7,7 +7,7 @@ import { state, ensureQuizzesLoaded, ensureDataLoaded, navigateTo } from '../../
 // キャラクターごとの表示サイズ倍率 (1.0 = 標準)
 // 女将さんのサイズ比率を少し拡大するために、ここで倍率を設定できます。
 const CHARACTER_SCALES = {
-  proprietress: 1.25 // 女将さん (他のキャラに比べて小さいため1.25倍に拡大)
+  proprietress: 1.5 // 女将さん (他のキャラより縦横比が縦長なため1.5倍に拡大)
 };
 
 // Web Audio API lightweight synthesizer for zero-dependency retro SFX
@@ -366,7 +366,7 @@ function runSequenceEngine(container, episode) {
         if (spriteUrl) {
           const img = document.createElement('img');
           img.src = spriteUrl;
-          img.className = `rpg-character-sprite pos-${pos}`;
+          img.className = `rpg-character-sprite pos-${pos} sprite-${spriteInfo.id}`;
           
           // キャラクター倍率設定を適用する
           const scale = CHARACTER_SCALES[spriteInfo.id] || 1.0;

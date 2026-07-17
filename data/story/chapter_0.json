@@ -806,6 +806,13 @@
         {
           "type": "dialog",
           "background": "bg_thief_caught.webp",
+          "character": null,
+          "characters": [],
+          "text": "（AIポリシーによりカミーユの画像はうさぎのぬいぐるみに変更されました）"
+        },
+        {
+          "type": "dialog",
+          "background": "bg_thief_caught.webp",
           "character": "hero",
           "characters": [],
           "text": "「カミーユ！！」"
@@ -895,13 +902,6 @@
           "character": "hero",
           "characters": [],
           "text": "「カミーユ、大丈夫か？！」"
-        },
-        {
-          "type": "dialog",
-          "background": "bg_thief_caught.webp",
-          "character": null,
-          "characters": [],
-          "text": "（ペンダントを拾い上げるカミーユ）"
         },
         {
           "type": "dialog",
@@ -1000,13 +1000,6 @@
         },
         {
           "type": "dialog",
-          "background": "bg_port.webp",
-          "character": null,
-          "characters": [],
-          "text": "（ペンダントを握りしめるカミーユ）"
-        },
-        {
-          "type": "dialog",
           "background": "bg_camille_cry.webp",
           "character": null,
           "characters": [],
@@ -1016,7 +1009,7 @@
           "type": "dialog",
           "background": "bg_port.webp",
           "character": "proprietress",
-          "expression": "normal",
+          "expression": "appear",
           "position": "right",
           "text": "「君たちっ！！」"
         },
@@ -1027,7 +1020,7 @@
           "characters": [
             {
               "id": "proprietress",
-              "expression": "normal",
+              "expression": "appear",
               "position": "right"
             }
           ],
@@ -1037,7 +1030,7 @@
           "type": "dialog",
           "background": "bg_port.webp",
           "character": "proprietress",
-          "expression": "normal",
+          "expression": "appear",
           "position": "right",
           "text": "「無事で良かった……！ 小さな君たちが泥棒を追いかけて行くものだから、心配で心配で…！！」"
         },
@@ -1121,7 +1114,7 @@
             },
             {
               "id": "proprietress",
-              "expression": "normal",
+              "expression": "determined",
               "position": "right"
             }
           ],
@@ -1143,7 +1136,7 @@
             },
             {
               "id": "proprietress",
-              "expression": "normal",
+              "expression": "determined",
               "position": "right"
             }
           ],
@@ -1161,7 +1154,7 @@
             },
             {
               "id": "proprietress",
-              "expression": "normal",
+              "expression": "determined",
               "position": "right"
             }
           ],
@@ -1251,7 +1244,7 @@
           "type": "dialog",
           "background": "bg_restaurant.webp",
           "character": "proprietress",
-          "expression": "normal",
+          "expression": "worried",
           "position": "right",
           "text": "「以前こちらの方がご来店されたときに、うちの『ブイヤベースがうますぎるっ』ってレシピを懇願されてねぇ…。流石にレシピすべては教えられないから、隠し味だけ教えたらルンルンと帰られたのよ」"
         },

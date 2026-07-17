@@ -2102,5 +2102,14 @@ footer a {
   animation: fadeIn 0.3s ease;
 }
 
+/* 女将さん (proprietress) は縦横比が縦長なため、サイズを拡大しつつ表示位置をやや下げて腰上が表示されるように調整 */
+.rpg-character-sprite.sprite-proprietress {
+  transform: translateY(100px) scale(var(--char-scale));
+}
+
+.rpg-character-sprite.sprite-proprietress.active {
+  transform: translateY(80px) scale(var(--char-scale));
+}
+
 
 
