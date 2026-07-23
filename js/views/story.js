@@ -327,11 +327,12 @@ function runSequenceEngine(container, episode) {
     if (charLayer) {
       charLayer.innerHTML = ''; // Clear previous sprites
 
-      // bg_camille_cry.webp, bg_after_battle.webp, bg_father.webp が背景のときはキャラクター写真を重ねて表示しない
+      // bg_camille_cry.webp, bg_after_battle.webp, bg_father.webp, bg_room.webp が背景のときはキャラクター写真を重ねて表示しない
       const bgValLower = bgVal.toLowerCase();
       const shouldSuppressSprites = bgValLower.includes('bg_camille_cry.webp') ||
                                     bgValLower.includes('bg_after_battle.webp') ||
-                                    bgValLower.includes('bg_father.webp');
+                                    bgValLower.includes('bg_father.webp') ||
+                                    bgValLower.includes('bg_room.webp');
 
       let activeSprites = [];
       if (!shouldSuppressSprites) {
