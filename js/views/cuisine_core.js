@@ -2,25 +2,25 @@
 export const regionRelations = {
   reg_normandie: {
     dishes: ["sole_normande", "poulet_vallee_d_auge"],
-    ingredients: ["cheese_camembert", "apple"],
+    ingredients: ["ing_camembert", "ing_pont_leveque", "ing_livarot", "ing_neufchatel", "apple"],
     techniques: ["pocher", "sauter"],
     sauces: ["sauce_creme", "sauce_normande"]
   },
   reg_bourgogne: {
     dishes: ["beef_bourguignon", "escargots_persillade", "coq_au_vin"],
-    ingredients: ["beef_charolais", "mustard_dijon"],
+    ingredients: ["beef_charolais", "mustard_dijon", "ing_epoisses", "ing_charolais", "ing_comte", "ing_morbier", "ing_mont_d_or", "ing_bourgogne_chablis", "ing_bourgogne_cotes_de_nuits", "ing_bourgogne_cotes_de_beaune", "ing_bourgogne_chalonnaise", "ing_bourgogne_maconnais"],
     techniques: ["braiser", "mijoter"],
     sauces: ["sauce_vin_rouge"]
   },
   reg_provence: {
     dishes: ["bouillabaisse", "ratatouille", "salade_nicoise"],
-    ingredients: ["oil_olive", "herbes_de_provence"],
+    ingredients: ["oil_olive", "herbes_de_provence", "ing_banon", "ing_bleu_queyras", "ing_provence_cotes", "ing_provence_bandol", "ing_provence_cassis"],
     techniques: ["mijoter", "griller"],
     sauces: ["rouille", "vinaigrette"]
   },
   reg_alsace: {
     dishes: ["choucroute_garnie", "flammekueche", "baeckeoffe"],
-    ingredients: ["sauerkraut", "strasbourg_sausage"],
+    ingredients: ["sauerkraut", "strasbourg_sausage", "ing_munster", "ing_alsace_bas_rhin", "ing_alsace_haut_rhin"],
     techniques: ["braiser", "mijoter"],
     sauces: []
   },
@@ -32,49 +32,49 @@ export const regionRelations = {
   },
   reg_ile_de_france: {
     dishes: ["pot_au_feu", "soupe_oignon", "entrecote_bercy"],
-    ingredients: ["mushroom_paris", "cheese_brie"],
+    ingredients: ["mushroom_paris", "ing_brie_meaux", "ing_brie_melun"],
     techniques: ["mijoter", "griller"],
     sauces: ["sauce_bercy"]
   },
   reg_aquitaine: {
     dishes: ["confit_canard", "cassoulet", "magret_canard", "ttoro_basque", "axoa_de_veau", "poulet_basquaise"],
-    ingredients: ["foie_gras", "duck", "cut_kokotxa_de_merlu"],
+    ingredients: ["foie_gras", "duck", "cut_kokotxa_de_merlu", "ing_ossau_iraty", "ing_roquefort", "ing_rocamadour", "ing_bordeaux_medoc", "ing_bordeaux_graves", "ing_bordeaux_st_emilion", "ing_bordeaux_pomerol", "ing_bordeaux_sauternes", "ing_sud_ouest_cahors", "ing_sud_ouest_madiran", "ing_sud_ouest_jurancon", "ing_sud_ouest_bergerac"],
     techniques: ["confire", "braiser", "mijoter", "rotir_sur_braise"],
     sauces: ["sauce_piperade", "sauce_encre_basque"]
   },
   reg_rhone_alpes: {
     dishes: ["quenelle_brochet", "poulet_morilles", "gratin_dauphinois"],
-    ingredients: ["poultry_bresse", "sausage_lyon"],
+    ingredients: ["poultry_bresse", "sausage_lyon", "ing_reblochon", "ing_beaufort", "ing_abondance", "ing_fourme_ambert", "ing_saint_nectaire", "ing_cantal", "ing_rhone_cote_rotie", "ing_rhone_hermitage", "ing_rhone_condrieu", "ing_rhone_chateauneuf", "ing_rhone_gigondas", "ing_rhone_vacqueyras", "ing_jura_arbois", "ing_jura_chateau_chalon", "ing_jura_etoile", "ing_savoie_chignin", "ing_savoie_apremont", "ing_savoie_crepy"],
     techniques: ["pocher", "braiser", "gratiner"],
     sauces: ["sauce_nantua", "sauce_supreme"]
   },
   reg_loire: {
     dishes: ["rillettes_tours", "brochet_beurre_blanc", "tarte_tatin"],
-    ingredients: ["goat_cheese_sainte_maure", "river_fish"],
+    ingredients: ["river_fish", "ing_sainte_maure", "ing_crottin_chavignol", "ing_crottin", "ing_valencay", "ing_pouligny", "ing_selles_sur_cher", "ing_loire_nantes", "ing_loire_anjou", "ing_loire_saumur", "ing_loire_touraine", "ing_loire_sancerre"],
     techniques: ["confire", "pocher"],
     sauces: ["beurre_blanc"]
   },
   reg_champagne: {
     dishes: ["potee_champenoise", "biscuits_roses"],
-    ingredients: ["wine_champagne", "ham_ardennes"],
+    ingredients: ["ham_ardennes", "ing_champagne_reims", "ing_champagne_marne", "ing_champagne_blancs", "ing_champagne_bar"],
     techniques: ["braiser", "mijoter"],
     sauces: []
   },
   reg_languedoc: {
     dishes: ["cassoulet", "brandade_morue", "tielle_setoise"],
-    ingredients: ["lingot_bean", "anchovy"],
+    ingredients: ["lingot_bean", "anchovy", "ing_languedoc", "ing_corbieres", "ing_minervois", "ing_roussillon"],
     techniques: ["braiser", "mijoter"],
     sauces: []
   },
   reg_corse: {
     dishes: ["civet_sanglier", "fiadone", "veau_olives"],
-    ingredients: ["chestnut_flour", "lonzu_charcuterie"],
+    ingredients: ["chestnut_flour", "lonzu_charcuterie", "ing_brocciu", "ing_corse_patrimonio", "ing_corse_ajaccio", "ing_corse_vin_de_corse"],
     techniques: ["braiser", "mijoter"],
     sauces: []
   },
   reg_hauts_de_france: {
     dishes: ["carbonnade_flamande", "potjevleesch", "moules_frites"],
-    ingredients: ["cheese_maroilles", "endive"],
+    ingredients: ["ing_maroilles", "endive"],
     techniques: ["braiser", "mijoter"],
     sauces: ["sauce_biere"]
   }

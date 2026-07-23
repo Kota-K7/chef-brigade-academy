@@ -5,7 +5,7 @@ import { beefCuts, porcCuts, poultryCuts } from '../ingredients/primary_meats.js
 import { lambCuts, vealCuts, duckCuts } from '../ingredients/other_livestock.js';
 import { deerCuts, boarCuts, pigeonCuts, hareCuts } from '../ingredients/game_meats.js';
 import { fishCuts, crustaceanCuts, shellfishCuts, molluskCuts } from '../ingredients/seafood.js';
-import { cheeseCuts, wineCuts } from '../ingredients/cheese_wine.js';
+import { cheeseCutsFr, cheeseCutsWorld, cheeseClassifications, wineCuts } from '../ingredients/cheese_wine.js';
 import { vegetableCuts } from '../ingredients/vegetables.js';
 import { herbCuts, spiceCuts } from '../ingredients/herbs_spices.js';
 import { fruitCuts, mushroomCuts } from '../ingredients/fruits_mushrooms.js';
@@ -82,7 +82,9 @@ export function renderIngredientsSection(contentWrapper) {
     cheese_wine: {
       title: "チーズ・ワイン (Cheese & Wine)",
       subCategories: [
-        { key: "fromages", label: "🧀 Fromages (チーズ)", cuts: cheeseCuts, img: "assets/cheese_wine.png", placeholder: "Fromages" },
+        { key: "fromages_fr", label: "🇫🇷 France (仏チーズ)", cuts: cheeseCutsFr, img: "assets/cheese_wine.png", placeholder: "Fromages" },
+        { key: "fromages_world", label: "🌐 Monde (世界チーズ)", cuts: cheeseCutsWorld, img: "assets/cheese_wine.png", placeholder: "Fromages", hidePins: true },
+        { key: "fromages_classif", label: "🔬 Classification (製法分類)", cuts: cheeseClassifications, img: "assets/cheese_wine.png", placeholder: "Fromages", hidePins: true },
         { key: "vins", label: "🍷 Vins (ワイン)", cuts: wineCuts, img: "assets/cheese_wine.png", placeholder: "Vins" }
       ]
     },
@@ -199,8 +201,8 @@ function renderIngredientView(sub, wrapper) {
         
         <!-- Hotspots overlay (for items that specify pin x/y percentages) -->
         <div class="hotspots-overlay-container" style="position: absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;">
-          ${sub.cuts.filter(cut => cut.pin).map(cut => `
-            <div class="interactive-hotspot" style="left: ${cut.pin.x}%; top: ${cut.pin.y}%; pointer-events: auto;" data-id="${cut.id}" title="${cut.name_fr}">${cut.number}</div>
+          ${sub.hidePins ? '' : sub.cuts.filter(cut => cut.pin).map(cut => `
+            <div class="interactive-hotspot" style="left: ${cut.pin.x}%; top: ${cut.pin.y}%; pointer-events: auto;" data-id="${cut.id}" title="${cut.name_fr || cut.name_it || cut.name_local || cut.name_ja}">${cut.number}</div>
           `).join('')}
         </div>
       </div>
@@ -211,8 +213,8 @@ function renderIngredientView(sub, wrapper) {
         <div class="ingredient-list-group" style="display: flex; flex-direction: column; gap: 0.4rem;">
           ${sub.cuts.map(cut => `
             <button class="list-item-btn" data-id="${cut.id}">
-              <span><span style="display: inline-block; background-color: var(--color-accent); color: var(--color-primary); width: 18px; height: 18px; line-height: 18px; text-align: center; border-radius: 50%; font-size: 0.65rem; font-weight: 700; margin-right: 0.4rem;">${cut.number}</span> ${cut.name_fr}</span>
-              <span style="font-size: 0.75rem; color: var(--color-text-muted); font-style: italic;">${cut.name_ja}</span>
+              <span><span style="display: inline-block; background-color: var(--color-accent); color: var(--color-primary); width: 18px; height: 18px; line-height: 18px; text-align: center; border-radius: 50%; font-size: 0.65rem; font-weight: 700; margin-right: 0.4rem;">${cut.number}</span> ${cut.name_fr || cut.name_it || cut.name_local || cut.name_ja}</span>
+              <span style="font-size: 0.75rem; color: var(--color-text-muted); font-style: italic;">${cut.name_ja}${cut.region ? ` (${cut.region})` : ''}</span>
             </button>
           `).join('')}
         </div>
@@ -314,12 +316,48 @@ function renderIngredientView(sub, wrapper) {
 
     const cut = sub.cuts.find(c => c.id === itemId);
     if (cut) {
-      panel.querySelector('#ingredient-cut-title').innerText = `${cut.name_fr} (${cut.name_ja})`;
-      panel.querySelector('#ingredient-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en || ''}`;
+      const displayName = cut.name_fr || cut.name_it || cut.name_local || cut.name_ja;
+      panel.querySelector('#ingredient-cut-title').innerText = `${displayName} (${cut.name_ja})`;
+      const regionText = cut.region ? ` • Region/Country: ${cut.region}` : '';
+      panel.querySelector('#ingredient-cut-sub').innerText = `Cut #${cut.number} • ${cut.name_en || ''}${regionText}`;
       
-      panel.querySelector('#ingredient-prop-tenderness').innerText = cut.properties?.tenderness || '-';
-      panel.querySelector('#ingredient-prop-fat').innerText = cut.properties?.fat || '-';
-      panel.querySelector('#ingredient-prop-collagen').innerText = cut.properties?.collagen || '-';
+      // Dynamic property labels and values depending on subcategory
+      const prop1Label = panel.querySelector('.meat-prop-item:nth-child(1) .meat-prop-label');
+      const prop1Val = panel.querySelector('#ingredient-prop-tenderness');
+      const prop2Label = panel.querySelector('.meat-prop-item:nth-child(2) .meat-prop-label');
+      const prop2Val = panel.querySelector('#ingredient-prop-fat');
+      const prop3Label = panel.querySelector('.meat-prop-item:nth-child(3) .meat-prop-label');
+      const prop3Val = panel.querySelector('#ingredient-prop-collagen');
+
+      if (sub.key === 'vins') {
+        prop1Label.innerText = "甘み (Douceur)";
+        prop1Val.innerText = cut.properties?.sweetness || '-';
+        prop2Label.innerText = "アルコール (Alcool)";
+        prop2Val.innerText = cut.properties?.alcohol || '-';
+        prop3Label.innerText = "ボディ (Corps)";
+        prop3Val.innerText = cut.properties?.body || '-';
+      } else if (sub.key === 'fromages_fr') {
+        prop1Label.innerText = "塩気 (Salinité)";
+        prop1Val.innerText = cut.properties?.saltiness || '-';
+        prop2Label.innerText = "アロマ (Arôme)";
+        prop2Val.innerText = cut.properties?.aroma || '-';
+        prop3Label.innerText = "希少度 (Rareté)";
+        prop3Val.innerText = cut.properties?.rarity || '-';
+      } else if (sub.key.startsWith('fromages')) {
+        prop1Label.innerText = "柔らかさ/水分 (Humidité)";
+        prop1Val.innerText = cut.properties?.tenderness || cut.properties?.moisture || '-';
+        prop2Label.innerText = "脂肪分 (M.G.)";
+        prop2Val.innerText = cut.properties?.fat || '-';
+        prop3Label.innerText = "熟成/コラーゲン (Affinage)";
+        prop3Val.innerText = cut.properties?.matured || cut.properties?.collagen || '-';
+      } else {
+        prop1Label.innerText = "柔らかさ (Tendreté)";
+        prop1Val.innerText = cut.properties?.tenderness || '-';
+        prop2Label.innerText = "脂 (Gras)";
+        prop2Val.innerText = cut.properties?.fat || '-';
+        prop3Label.innerText = "コラーゲン (Collagène)";
+        prop3Val.innerText = cut.properties?.collagen || '-';
+      }
       
       panel.querySelector('#ingredient-cooking').innerText = cut.cooking || '-';
       panel.querySelector('#ingredient-classification').innerText = cut.classification || '-';
@@ -340,8 +378,12 @@ function renderIngredientView(sub, wrapper) {
 
       // Wire up audio
       const titleAudioBtn = panel.querySelector('#ingredient-audio-title-btn');
-      titleAudioBtn.style.display = 'inline-block';
-      titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
+      if (cut.name_fr) {
+        titleAudioBtn.style.display = 'inline-block';
+        titleAudioBtn.onclick = () => speakFrench(cut.name_fr);
+      } else {
+        titleAudioBtn.style.display = 'none';
+      }
 
       drawer.style.display = 'block';
       

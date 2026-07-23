@@ -1,0 +1,376 @@
+export const cheeseCuts = [
+  // --- Normandie（ノルマンディー） ---
+  {
+    id: "ing_camembert",
+    number: "1",
+    name_fr: "Camembert de Normandie",
+    name_en: "Camembert (Normandy)",
+    name_ja: "カマンベール・ド・ノルマンディー",
+    region: "Normandie",
+    pin: { x: 35, y: 45 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、焼きカマンベール（Camembert au four）",
+    science: "表面の白カビ（Penicillium camemberti）が分泌するプロテアーゼによりカゼインが分解され、中心部に向かって徐々に柔らかくクリーミーな状態へと熟成が進む。",
+    classification: "Fromage à pâte molle à croûte fleurie（白カビソフトタイプ）",
+    logic: "AOP Protected / Raw milk product",
+    chef_note: "冷蔵庫から食べる1時間前には出し、室温に戻しておくことで、独特の芳醇な香りと滑らかなテクスチャーが最大限に引き出される。"
+  },
+  {
+    id: "ing_pont_leveque",
+    number: "2",
+    name_fr: "Pont-l'Évêque",
+    name_en: "Pont-l'Évêque",
+    name_ja: "ポン・レヴェック",
+    region: "Normandie (Pays d’Auge)",
+    pin: { x: 34, y: 44 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、キッシュの具材",
+    science: "塩水で表面を洗うことでリネンス菌（Brevibacterium linens）を繁殖させる。これにより、特有の強い匂いとしなやかな生地が形成される。",
+    classification: "Fromage à pâte molle à croûte lavée（ウォッシュタイプ）",
+    logic: "AOP Protected / Washed rind",
+    chef_note: "外皮の香りは強いが中身はマイルド。リンゴの蒸留酒カルヴァドスと合わせるのが現地流。"
+  },
+
+  // --- Île-de-France（イル＝ド＝フランス） ---
+  {
+    id: "ing_brie_meaux",
+    number: "3",
+    name_fr: "Brie de Meaux",
+    name_en: "Brie de Meaux",
+    name_ja: "ブリー・ド・モー",
+    region: "Île-de-France (Brie)",
+    pin: { x: 55, y: 48 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★☆☆", rarity: "★★☆☆☆" },
+    cooking: "そのまま、サンドイッチ（ジャンボン・ブール）",
+    science: "カマンベールと同じ白カビタイプだが、円盤が大きいため熟成がゆっくりと進み、キノコやヘーゼルナッツのようなより複雑な芳香成分が生成される。",
+    classification: "Fromage à pâte molle à croûte fleurie（白カビソフトタイプ）",
+    logic: "AOP Protected / The King of Cheeses",
+    chef_note: "「チーズの王様」と呼ばれる。完全に熟成すると中身がトロトロになるため、カットするタイミングが重要。"
+  },
+
+  // --- Bourgogne（ブルゴーニュ） ---
+  {
+    id: "ing_epoisses",
+    number: "4",
+    name_fr: "Époisses",
+    name_en: "Époisses",
+    name_ja: "エポワス",
+    region: "Bourgogne (Côte-d’Or)",
+    pin: { x: 65, y: 55 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★★", rarity: "★★★☆☆" },
+    cooking: "そのまま、バゲットに塗る",
+    science: "ブルゴーニュの地酒（マール・ド・ブルゴーニュ）を加えた塩水で表面を何度も洗うことで、強烈な発酵臭とスプーンですくえるほどのトロトロな組織が作られる。",
+    classification: "Fromage à pâte molle à croûte lavée（ウォッシュタイプ）",
+    logic: "AOP Protected / Marc de Bourgogne washed",
+    chef_note: "香りの強烈さに反して味は非常にミルキー。フルボディの赤ワインと抜群の相性を誇る。"
+  },
+  {
+    id: "ing_charolais",
+    number: "5",
+    name_fr: "Charolais",
+    name_en: "Charolais",
+    name_ja: "シャロレ",
+    region: "Bourgogne (Saône-et-Loire)",
+    pin: { x: 67, y: 58 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★★☆" },
+    cooking: "そのまま、サラダのトッピング",
+    science: "山羊乳（または牛乳との混乳）を使用し、自然乾燥させることで凝縮した酸味とナッツの香りが際立つ。熟成により表面に青カビが生えることもある。",
+    classification: "Fromage de chèvre（山羊乳タイプ）",
+    logic: "AOP Protected / Large goat cheese",
+    chef_note: "他のシェーブルよりサイズが大きく、中がしっとりしている。白ワインとの相性が良い。"
+  },
+
+  // --- Jura（ジュラ） ---
+  {
+    id: "ing_comte",
+    number: "6",
+    name_fr: "Comté",
+    name_en: "Comté",
+    name_ja: "コンテ",
+    region: "Jura (Montagnes du Jura)",
+    pin: { x: 75, y: 50 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★☆☆", rarity: "★★☆☆☆" },
+    cooking: "そのまま、チーズフォンデュ、シュー生地（Gougère）",
+    science: "長期間（4ヶ月から36ヶ月以上）熟成させた硬質チーズ。熟成に伴いタンパク質が分解され、アミノ酸結晶（主にチロシン）が生じ、噛むとジャリッとした食感と濃厚な旨味が広がる。",
+    classification: "Fromage à pâte pressée cuite（加熱圧搾硬質タイプ）",
+    logic: "AOP Protected / Long maturation",
+    chef_note: "熟成月数によりナッツ、栗、ドライフルーツなど劇的に香りが変化する。"
+  },
+
+  // --- Savoie（サヴォワ） ---
+  {
+    id: "ing_reblochon",
+    number: "7",
+    name_fr: "Reblochon",
+    name_en: "Reblochon",
+    name_ja: "ルブロション",
+    region: "Savoie (Haute-Savoie)",
+    pin: { x: 80, y: 53 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "タルティフレット（Tartiflette）",
+    science: "絞り残しの乳（より脂肪分が高い）から作られるため、クリーミーで豊かな脂質が含まれる。ウォッシュタイプだが洗いの回数が少なく、マイルドな仕上がり。",
+    classification: "Fromage à pâte pressée non cuite（非加熱圧搾半硬質タイプ）",
+    logic: "AOP Protected / High fat content",
+    chef_note: "ジャガイモとベーコンと一緒にオーブンで焼くサヴォワの郷土料理「タルティフレット」には欠かせない。"
+  },
+  {
+    id: "ing_beaufort",
+    number: "8",
+    name_fr: "Beaufort",
+    name_en: "Beaufort",
+    name_ja: "ボーフォール",
+    region: "Savoie (Beaufortain, Tarentaise)",
+    pin: { x: 82, y: 55 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "チーズフォンデュ（Fondue savoyarde）、グラタン",
+    science: "夏に高山の牧草を食べた牛の乳（エテ）はカロテンが多く黄色味を帯びる。加熱圧搾により水分を抜き、高密度な旨味成分のアミノ酸が凝縮される。",
+    classification: "Fromage à pâte pressée cuite（加熱圧搾硬質タイプ）",
+    logic: "AOP Protected / Alpine cheese",
+    chef_note: "側面が内側に凹んでいるのが特徴。華やかな香りとフルーティーな甘みを持つ。"
+  },
+
+  // --- Alpes du Sud（南アルプス） ---
+  {
+    id: "ing_bleu_queyras",
+    number: "9",
+    name_fr: "Bleu du Queyras",
+    name_en: "Bleu du Queyras",
+    name_ja: "ブルー・デュ・ケラス",
+    region: "Alpes du Sud (Provence-Alpes)",
+    pin: { x: 85, y: 65 },
+    properties: { saltiness: "★★★★☆", aroma: "★★★★☆", rarity: "★★★★★" },
+    cooking: "そのまま、サラダ",
+    science: "アルプスの高地で作られる牛乳製の青カビチーズ。カビの増殖による脂肪分解で独特のピリッとした風味と、山の牧草由来のフローラルな香りが混ざり合う。",
+    classification: "Fromage à pâte persillée（青カビタイプ）",
+    logic: "Mountain blue cheese",
+    chef_note: "生産量が少なく希少。ハチミツやドライフルーツと一緒に食べると辛味がマイルドになる。"
+  },
+
+  // --- Auvergne（オーヴェルニュ） ---
+  {
+    id: "ing_cantal",
+    number: "10",
+    name_fr: "Cantal",
+    name_en: "Cantal",
+    name_ja: "カンタル",
+    region: "Auvergne (Cantal)",
+    pin: { x: 60, y: 65 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★☆☆", rarity: "★★☆☆☆" },
+    cooking: "アリゴ（Aligot）、トリュファード（Truffade）",
+    science: "カード（凝乳）を一度粉砕して塩を混ぜ、再度プレスして作る特殊な製法により、組織に細かいヒビが入り、ホロホロとした独特の食感と酸味が生まれる。",
+    classification: "Fromage à pâte pressée non cuite（非加熱圧搾半硬質タイプ）",
+    logic: "AOP Protected / Double pressed",
+    chef_note: "フランス最古のチーズの一つ。オーヴェルニュの郷土料理には欠かせないベース食材。"
+  },
+  {
+    id: "ing_saint_nectaire",
+    number: "11",
+    name_fr: "Saint-Nectaire",
+    name_en: "Saint-Nectaire",
+    name_ja: "サン・ネクテール",
+    region: "Auvergne (Puy-de-Dôme)",
+    pin: { x: 62, y: 63 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、温野菜に乗せる",
+    science: "火山灰土壌の牧草を食べた牛の乳から作られ、湿気の多いカーヴ（洞窟）で熟成。複雑なカビが外皮に生え、ナッツや土、マッシュルームのような土着的なアロマ（Terroir）を形成する。",
+    classification: "Fromage à pâte pressée non cuite（非加熱圧搾半硬質タイプ）",
+    logic: "AOP Protected / Earthy flavor",
+    chef_note: "外皮の独特の匂いとは裏腹に、中は非常にしなやかでミルクの甘味を感じる。"
+  },
+  {
+    id: "ing_fourme_ambert",
+    number: "12",
+    name_fr: "Fourme d'Ambert",
+    name_en: "Fourme d'Ambert",
+    name_ja: "フルム・ダンベール",
+    region: "Auvergne (Haute-Loire, Puy-de-Dôme)",
+    pin: { x: 64, y: 64 },
+    properties: { saltiness: "★★★★☆", aroma: "★★★☆☆", rarity: "★★☆☆☆" },
+    cooking: "そのまま、ソース、キッシュ",
+    science: "円柱形の青カビチーズ。青カビ（Penicillium roqueforti）を入れるが、他のブルーチーズより水分が多いためマイルドな風味に仕上がり、カゼインの分解によるなめらかさが際立つ。",
+    classification: "Fromage à pâte persillée（青カビタイプ）",
+    logic: "AOP Protected / Mild blue cheese",
+    chef_note: "青カビ初心者にも勧めやすい「高貴なブルーチーズ」。甘口ワインと相性が良い。"
+  },
+
+  // --- Vallée de la Loire（ロワール渓谷） ---
+  {
+    id: "ing_sainte_maure",
+    number: "13",
+    name_fr: "Sainte-Maure de Touraine",
+    name_en: "Goat Cheese (Sainte-Maure)",
+    name_ja: "サント・モール・ド・トゥーレーヌ",
+    region: "Vallée de la Loire (Touraine)",
+    pin: { x: 42, y: 62 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、サラダ・ド・シェーヴル・ショー（温製サラダ）",
+    science: "山羊乳チーズ。中央の麦わらが組織を補強し内部の酸素供給を助ける。表面の木炭粉が酸度を調整し、特有の風味を持つ灰色の外皮を形成する。",
+    classification: "Fromage de chèvre（山羊乳タイプ）",
+    logic: "AOP Protected / Ash-coated",
+    chef_note: "バゲットに乗せて軽く焼き、ハチミツをかけてサラダに乗せるのが定番。"
+  },
+  {
+    id: "ing_crottin",
+    number: "14",
+    name_fr: "Crottin de Chavignol",
+    name_en: "Crottin de Chavignol",
+    name_ja: "クロタン・ド・シャヴィニョル",
+    region: "Vallée de la Loire (Berry)",
+    pin: { x: 45, y: 60 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、オーブン焼き",
+    science: "小型の山羊乳チーズ。熟成が進むと水分が抜け、組織が硬く締まり（脂肪とタンパク質の凝縮）、ピリッとした刺激と深いコクが生まれる。",
+    classification: "Fromage de chèvre（山羊乳タイプ）",
+    logic: "AOP Protected / Small goat cheese",
+    chef_note: "ロワール地方の白ワイン（サンセール）とのペアリングが完璧とされる。"
+  },
+
+  // --- Pyrénées（ピレネー） ---
+  {
+    id: "ing_ossau_iraty",
+    number: "15",
+    name_fr: "Ossau-Iraty",
+    name_en: "Ossau-Iraty",
+    name_ja: "オッソー・イラティ",
+    region: "Pyrénées (Pays Basque, Béarn)",
+    pin: { x: 30, y: 80 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★☆☆", rarity: "★★★☆☆" },
+    cooking: "そのまま、ジャム（黒サクランボ）を添える",
+    science: "羊乳は牛乳よりも脂肪分とタンパク質が多いため、圧搾して水分を抜くことで非常にリッチでミルキー、かつ甘みのある風味成分（ラクトン類）が濃縮される。",
+    classification: "Fromage à pâte pressée non cuite（非加熱圧搾半硬質タイプ）",
+    logic: "AOP Protected / Sheep's milk",
+    chef_note: "バスク地方の伝統に従い、チェリージャムを添えて食べるのが最高。"
+  },
+
+  // --- Corse（コルシカ） ---
+  {
+    id: "ing_brocciu",
+    number: "16",
+    name_fr: "Brocciu",
+    name_en: "Brocciu",
+    name_ja: "ブロッチュ",
+    region: "Corse (Haute-Corse, Corse-du-Sud)",
+    pin: { x: 90, y: 90 },
+    properties: { saltiness: "★☆☆☆☆", aroma: "★★☆☆☆", rarity: "★★★★★" },
+    cooking: "そのまま、フィアドーネ（Fiadone: コルシカのチーズケーキ）",
+    science: "チーズ作りで余った乳清（ホエイ）を再加熱して作るため、カゼインではなくホエイタンパク質（アルブミンなど）が主成分となり、脂肪分が低く非常に軽い口当たりになる。",
+    classification: "Fromage à pâte fraîche（フレッシュタイプ / 乳清チーズ）",
+    logic: "AOP Protected / Whey cheese",
+    chef_note: "賞味期限が数日しかないため、地元以外では新鮮なものを食べるのが難しい幻のチーズ。"
+  },
+
+  // --- Hauts-de-France（北フランス） ---
+  {
+    id: "ing_maroilles",
+    number: "17",
+    name_fr: "Maroilles",
+    name_en: "Maroilles",
+    name_ja: "マロワル",
+    region: "Hauts-de-France (Pas-de-Calais, Nord)",
+    pin: { x: 60, y: 30 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★★", rarity: "★★★★☆" },
+    cooking: "フラミッシュ（Flamiche: チーズタルト）、ソース",
+    science: "塩水で定期的に洗いながら熟成させることで赤色細菌が繁殖。これにより強烈なアンモニア臭を発するが、内部のタンパク質は完全に分解され極めて滑らかになる。",
+    classification: "Fromage à pâte molle à croûte lavée（ウォッシュタイプ）",
+    logic: "AOP Protected / Square washed rind",
+    chef_note: "北フランスの修道院で作られ始めた歴史あるチーズ。ビールとの相性が抜群。"
+  },
+
+  // --- Occitanie（オクシタニー） ---
+  {
+    id: "ing_roquefort",
+    number: "18",
+    name_fr: "Roquefort",
+    name_en: "Roquefort (Blue cheese)",
+    name_ja: "ロックフォール",
+    region: "Occitanie (Aveyron)",
+    pin: { x: 50, y: 75 },
+    properties: { saltiness: "★★★★★", aroma: "★★★★★", rarity: "★★☆☆☆" },
+    cooking: "そのまま、ステーキソース（Sauce Roquefort）、サラダのトッピング",
+    science: "ラコーヌ種の羊乳から作られ、コンバルー山の洞窟内に生息する青カビ（Penicillium roqueforti）によって熟成。青カビのリパーゼが脂肪を分解し、強い刺激とコクを生む。",
+    classification: "Fromage à pâte persillée（青カビタイプ）",
+    logic: "AOP Protected / Sheep's milk cheese",
+    chef_note: "甘口貴腐ワインのソーテルヌ（Sauternes）と合わせるのが古典フランス料理の最高の「マリアージュ」。"
+  },
+  {
+    id: "ing_rocamadour",
+    number: "19",
+    name_fr: "Rocamadour",
+    name_en: "Rocamadour",
+    name_ja: "ロカマドゥール",
+    region: "Occitanie (Lot)",
+    pin: { x: 45, y: 72 },
+    properties: { saltiness: "★★☆☆☆", aroma: "★★★☆☆", rarity: "★★★★☆" },
+    cooking: "そのまま、サラダ",
+    science: "非常に小さな円盤型の山羊乳チーズ。熟成期間が1〜2週間と短いため、酸味は穏やかで内部はクリームのように滑らかなテクスチャーを保持している。",
+    classification: "Fromage de chèvre（山羊乳タイプ）",
+    logic: "AOP Protected / Small soft goat cheese",
+    chef_note: "一口サイズで食べやすい。熟成が若いうちに食べるのがおすすめ。"
+  },
+
+  // --- Alsace / Lorraine（アルザス / ロレーヌ） ---
+  {
+    id: "ing_munster",
+    number: "20",
+    name_fr: "Munster (Munster-Géromé)",
+    name_en: "Munster",
+    name_ja: "マンステール",
+    region: "Alsace / Lorraine",
+    pin: { x: 80, y: 40 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★★", rarity: "★★★☆☆" },
+    cooking: "そのまま、茹でたジャガイモに添えて、クミンシードをまぶす",
+    science: "高温多湿な環境でウォッシュ（塩水洗い）されるため、リネンス菌の働きが非常に活発。特有の納豆や強い発酵臭を持つが、口溶けは驚くほど良い。",
+    classification: "Fromage à pâte molle à croûte lavée（ウォッシュタイプ）",
+    logic: "AOP Protected / Washed rind",
+    chef_note: "アルザスワイン（ゲヴュルツトラミネール）と合わせるのが鉄板。クミンを散らすと香りが調和する。"
+  },
+
+  // --- Provence（プロヴァンス） ---
+  {
+    id: "ing_banon",
+    number: "21",
+    name_fr: "Banon",
+    name_en: "Banon",
+    name_ja: "バノン",
+    region: "Provence",
+    pin: { x: 75, y: 80 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★★☆", rarity: "★★★★☆" },
+    cooking: "そのまま",
+    science: "山羊乳チーズを栗の葉で包み、ラフィア（ヤシの繊維）で縛って熟成。葉から移行するタンニンや香気成分が、チーズの脂肪分の酸化を抑えつつ独特の風味を付与する。",
+    classification: "Fromage de chèvre（山羊乳タイプ）",
+    logic: "AOP Protected / Leaf-wrapped",
+    chef_note: "栗の葉の香りと強めの酸味、とろける食感が特徴。"
+  },
+
+  // --- ご当地ものではない汎用・プロセスチーズ（Non-Regional / Processed） ---
+  {
+    id: "ing_vache_qui_rit",
+    number: "22",
+    name_fr: "La Vache qui rit",
+    name_en: "The Laughing Cow",
+    name_ja: "ラ・ヴァシュ・キ・リ（笑う牛）",
+    region: "Générique (Processed)",
+    pin: { x: 50, y: 50 },
+    properties: { saltiness: "★★★☆☆", aroma: "★☆☆☆☆", rarity: "★☆☆☆☆" },
+    cooking: "そのまま（スナック）、パンに塗る、スープのコク出し",
+    science: "複数のナチュラルチーズ（コンテやエメンタールなど）を加熱溶解し、乳化剤を添加して均一に混ぜ合わせたプロセスチーズ。微生物が死滅しているため保存性が極めて高い。",
+    classification: "Fromage fondu（プロセスチーズ）",
+    logic: "Industrial / Pasteurized / Emulsified",
+    chef_note: "ポタージュスープの最後に溶かし込むと、簡単にクリーミーさとコクを足すことができる。"
+  },
+  {
+    id: "ing_boursin",
+    number: "23",
+    name_fr: "Boursin",
+    name_en: "Boursin",
+    name_ja: "ブルサン",
+    region: "Générique (Industrial Fresh Cheese)",
+    pin: { x: 50, y: 50 },
+    properties: { saltiness: "★★★☆☆", aroma: "★★★☆☆", rarity: "★☆☆☆☆" },
+    cooking: "そのまま、クラッカーに乗せる、パスタソース",
+    science: "加熱殺菌した牛乳とクリームから作るフレッシュチーズに、ガーリックやハーブを練り込んだもの。乳酸発酵による爽やかな酸味と脂肪分のリッチな口どけが特徴。",
+    classification: "Fromage frais aromatisé（ハーブ・スパイス入りフレッシュタイプ）",
+    logic: "Industrial / Garlic & Fine Herbs",
+    chef_note: "アペリティフ（食前酒）のお供として非常にポピュラー。生クリーム代わりにソースに溶かしても使える。"
+  }
+];

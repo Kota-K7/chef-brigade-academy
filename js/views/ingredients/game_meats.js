@@ -1,25 +1,48 @@
 // Interactive Game Meats (Gibier) Data
 export const deerCuts = [
   {
-    id: "cut_gibier_chevreuil",
+    id: "cut_gibier_chevreuil_filet",
     number: "1",
     name_fr: "Filet de chevreuil",
     name_en: "Venison loin (Roe deer)",
     name_ja: "フィレ・ド・シュヴルイユ（鹿ロース）",
+    dish_fr: "Noisettes de chevreuil sauce Grand Veneur (鹿フィレ肉のメダイヨン グラン・ヴヌールソース)",
+    origin: "フランス全土（宮廷料理から発展、特にソローニュ地方など狩猟地）",
+    global_dish: "イギリスの「Venison Wellington（鹿肉のウェリントン）」の他、中国料理ではネギや生姜と強火で炒める「炒鹿肉」（Chǎo lù ròu / チャオ ルー ロウ）として高級食材として扱われます。",
     pin: { x: 55, y: 38 },
     properties: { tenderness: "★★★★☆", fat: "★☆☆☆☆", collagen: "★★★☆☆" },
-    cooking: "ロティ、ポワレ、ソース・ポワブラード",
+    cooking: "ロティ、ポワレ",
     science: "野生の鹿は脂肪がほとんどない高タンパク赤身肉。加熱しすぎると肉質が引き締まり強固に硬化するため、芯温54°C前後のロゼを狙います。",
     classification: "Gibier de poil (毛のある野生獣肉)",
     logic: "Delicate roast / Rare to Medium-rare",
     chef_note: "黒コショウを効かせた赤ワインソース（Poivrade）や、野生の果実（ブルーベリーなど）の酸味を添えます。"
   },
   {
-    id: "cut_gibier_gigue",
+    id: "cut_gibier_chevreuil_selle",
     number: "2",
+    name_fr: "Selle de chevreuil",
+    name_en: "Saddle of venison",
+    name_ja: "セル・ド・シュヴルイユ（鹿サドル・背肉）",
+    dish_fr: "Selle de chevreuil rôtie aux airelles (鹿背肉のロティ コケモモ添え)",
+    origin: "フランス・アルザス地方など、森林地帯",
+    global_dish: "ドイツやオーストリアでは「Rehrücken（鹿の背肉ロースト）」として、サワークリームやベリーを用いたソースで伝統的に食べられています。",
+    pin: { x: 60, y: 35 },
+    properties: { tenderness: "★★★★★", fat: "★☆☆☆☆", collagen: "★★☆☆☆" },
+    cooking: "骨付きでのロティ、オーブン焼き",
+    science: "フィレに隣接する背肉で、鹿肉の中で最も柔らかく高貴な部位。骨付きのまま焼くことで骨からの旨味が肉に浸透し、乾燥を防ぎます。",
+    classification: "Gibier de poil",
+    logic: "Bone-in roast / High heat to rest",
+    chef_note: "切り分ける際のプレゼンテーションが非常に美しい部位。火入れは極めて慎重に行う必要があります。"
+  },
+  {
+    id: "cut_gibier_chevreuil_gigue",
+    number: "3",
     name_fr: "Gigue de chevreuil",
     name_en: "Haunch of venison (Leg)",
     name_ja: "ジグ・ド・シュヴルイユ（鹿もも・お尻）",
+    dish_fr: "Civet de chevreuil (鹿肉のシヴェ)",
+    origin: "フランス全土の山間部、伝統的な狩猟文化を持つ地域",
+    global_dish: "中東地域ではスパイスでマリネした鹿肉の串焼きやロースト「لَحْمُ الْغَزَالِ الْمَشْوِيُّ」（Laḥmu al-ghazāli al-mashwiyyu / ラフム・ル＝ガザーリ・ル＝マシュウィー）として親しまれることがあります。",
     pin: { x: 75, y: 50 },
     properties: { tenderness: "★★★☆☆", fat: "★☆☆☆☆", collagen: "★★★★☆" },
     cooking: "シヴェ（赤ワイン煮込み）、長時間ロティ",
@@ -27,30 +50,70 @@ export const deerCuts = [
     classification: "Gibier de poil",
     logic: "Acid marination / Low & slow braise",
     chef_note: "丸ごと焼き上げてクラシックな大皿料理にするか、細かく切ってポトフ風に煮込みます。"
+  },
+  {
+    id: "cut_gibier_chevreuil_epaule",
+    number: "4",
+    name_fr: "Épaule de chevreuil",
+    name_en: "Venison shoulder",
+    name_ja: "エポール・ド・シュヴルイユ（鹿肩肉）",
+    dish_fr: "Ragoût de chevreuil (鹿肉のラグー)",
+    origin: "フランスの農村部",
+    global_dish: "アメリカでは「Venison Chili（鹿肉のチリコンカン）」として、中国料理では醤油や八角で柔らかく煮込む「紅燒鹿肉」（Hóng shāo lù ròu / ホン シャオ ルー ロウ）として調理されます。",
+    pin: { x: 30, y: 45 },
+    properties: { tenderness: "★★☆☆☆", fat: "★★☆☆☆", collagen: "★★★★★" },
+    cooking: "煮込み、ブレゼ、挽き肉（ファルス用）",
+    science: "非常によく動かす部位のため硬く、筋膜が多いのが特徴。しかしコラーゲンが豊富なため、低温でじっくり煮込むことでゼラチン質に変わり、とろける食感になります。",
+    classification: "Gibier de poil",
+    logic: "Slow braise / Stewing",
+    chef_note: "テリーヌやパテを作る際のひき肉ベースとしても非常に優秀な部位です。"
   }
 ];
 
 export const boarCuts = [
   {
-    id: "cut_gibier_sanglier",
+    id: "cut_gibier_sanglier_filet",
     number: "1",
     name_fr: "Filet de sanglier",
     name_en: "Wild boar loin",
     name_ja: "フィレ・ド・サングリエ（猪ロース）",
+    dish_fr: "Filet de sanglier sauce poivrade (猪フィレ肉のポワブラードソース)",
+    origin: "フランス全土",
+    global_dish: "中国料理では、特有の臭みを消すためにネギと生姜で強火炒めにする「蔥爆野豬肉」（Cōng bào yě zhū ròu / ツォン バオ イエ ジュー ロウ）として広く知られています。",
     pin: { x: 52, y: 38 },
     properties: { tenderness: "★★★★☆", fat: "★★☆☆☆", collagen: "★★★☆☆" },
     cooking: "ロティ、ソテー",
     science: "飼育豚に比べ、野生の猪肉は筋肉が引き締まり鉄分が豊富。脂質が少ない分、肉汁を閉じ込める焼き方が求められます。",
     classification: "Gibier de poil",
     logic: "Medium heat / Steady roast",
-    chef_note: "豚肉に近い感覚で扱えますが、しっかり中まで熱を入れつつ（殺菌のため）、ジューシーさを残す火入れが必要です。"
+    chef_note: "豚肉に近い感覚で扱えますが、しっかり中まで熱を入れつつ（寄生虫リスク排除のため）、ジューシーさを残す火入れが必要です。"
+  },
+  {
+    id: "cut_gibier_sanglier_carre",
+    number: "2",
+    name_fr: "Carré de sanglier",
+    name_en: "Wild boar rack",
+    name_ja: "キャレ・ド・サングリエ（猪背肉・骨付きロース）",
+    dish_fr: "Carré de sanglier rôti aux pommes (骨付き猪ロースのロースト リンゴ添え)",
+    origin: "フランス北部〜中部",
+    global_dish: "イタリアでは「Cinghiale arrosto（猪のロースト）」としてローズマリーやニンニクと共に豪快に焼かれます。",
+    pin: { x: 45, y: 35 },
+    properties: { tenderness: "★★★★☆", fat: "★★★☆☆", collagen: "★★★☆☆" },
+    cooking: "オーブンでのロースト",
+    science: "骨つきのまま加熱することで、骨髄液の旨味が肉組織に染み込み、風味豊かに仕上がります。脂身の甘さが際立つ部位です。",
+    classification: "Gibier de poil",
+    logic: "Bone-in roasting / Fat rendering",
+    chef_note: "ローストした後に骨に沿って切り分け、果実味のあるソース（チェリーやリンゴ）と合わせると絶品です。"
   },
   {
     id: "cut_gibier_sanglier_epaule",
-    number: "2",
+    number: "3",
     name_fr: "Épaule de sanglier",
     name_en: "Wild boar shoulder",
     name_ja: "エポール・ド・サングリエ（猪肩・首肉）",
+    dish_fr: "Civet de sanglier (猪のシヴェ)",
+    origin: "フランス山間部、プロヴァンス地方など",
+    global_dish: "イタリア・トスカーナ地方の名物パスタ「Pappardelle al ragù di cinghiale（猪肉のラグー・パッパルデッレ）」のソースに最適とされています。",
     pin: { x: 28, y: 42 },
     properties: { tenderness: "★★☆☆☆ → ★★★★★", fat: "★★★☆☆", collagen: "★★★★★" },
     cooking: "シヴェ・ド・サングリエ（赤ワインと血の煮込み）",
@@ -58,16 +121,53 @@ export const boarCuts = [
     classification: "Gibier classique de braisage",
     logic: "Very long cook / Red wine stew",
     chef_note: "冬のジビエの王道。濃厚なソースには栗（marron）のピューレが最も合います。"
+  },
+  {
+    id: "cut_gibier_sanglier_gigot",
+    number: "4",
+    name_fr: "Gigot de sanglier",
+    name_en: "Wild boar leg",
+    name_ja: "ジゴ・ド・サングリエ（猪もも肉）",
+    dish_fr: "Cuissot de sanglier à la broche (猪もも肉の丸焼き・串焼き)",
+    origin: "フランス中南部、コルシカ島",
+    global_dish: "スペインでは「Pierna de jabalí asada（猪もも肉のオーブン焼き）」として、中国料理では香辛料をまぶして焼く「烤野豬腿」（Kǎo yě zhū tuǐ / カオ イエ ジュー トゥイ）として提供されます。",
+    pin: { x: 70, y: 50 },
+    properties: { tenderness: "★★★☆☆", fat: "★★☆☆☆", collagen: "★★★★☆" },
+    cooking: "長時間のロースト、煮込み、ハム加工",
+    science: "大きな筋肉の塊で赤身が多く、そのまま焼くとパサつきやすい。ラルドン（豚脂）を差し込む（ピケする）か、長時間マリネしてから焼き上げます。",
+    classification: "Gibier de poil",
+    logic: "Larding / Slow roasting",
+    chef_note: "コルシカ島などでは、この部位を使って絶品の猪生ハムやサラミ（シャルキュトリ）が作られます。"
+  },
+  {
+    id: "cut_gibier_sanglier_poitrine",
+    number: "5",
+    name_fr: "Poitrine de sanglier",
+    name_en: "Wild boar belly",
+    name_ja: "ポワトリーヌ・ド・サングリエ（猪バラ肉）",
+    dish_fr: "Poitrine de sanglier confite (猪バラ肉のコンフィ)",
+    origin: "フランス全土",
+    global_dish: "イタリアでは塩漬け・熟成させて「Pancetta di cinghiale（猪肉のパンチェッタ）」にし、パスタや前菜に使用されます。",
+    pin: { x: 50, y: 55 },
+    properties: { tenderness: "★★★☆☆", fat: "★★★★★", collagen: "★★★★☆" },
+    cooking: "コンフィ、ブレゼ、塩漬け熟成",
+    science: "脂肪と赤身が層になっており、野生ならではの脂の甘みと旨味が凝縮されています。低温の油で煮る（コンフィ）ことで脂を適度に落としつつ柔らかくします。",
+    classification: "Gibier de poil",
+    logic: "Confit / Curing",
+    chef_note: "煮込み料理にコクを足すためのベーコン代わりにしたり、カリッと焼き上げてメインの付け合わせにしたりと万能です。"
   }
 ];
 
 export const pigeonCuts = [
   {
-    id: "cut_gibier_pigeon",
+    id: "cut_gibier_pigeon_supreme",
     number: "1",
     name_fr: "Suprême de pigeon",
     name_en: "Pigeon breast",
     name_ja: "シュプレーム・ド・ピジョン（鳩胸肉）",
+    dish_fr: "Suprême de pigeon rôti aux figues (鳩胸肉のロティ イチジク添え)",
+    origin: "フランス全土",
+    global_dish: "エジプト料理で鳩に米や小麦を詰めて焼いた「حَمَامٌ مَحْشِيٌّ」（Ḥamāmun maḥshiyyun / ハマームン・マフシーユン）、中国料理では皮を香ばしく揚げる「脆皮乳鴿」（Cuì pí rǔ gē / ツゥイ ピー ルー ゴー）として有名です。",
     pin: { x: 45, y: 42 },
     properties: { tenderness: "★★★★☆", fat: "★☆☆☆☆", collagen: "★★☆☆☆" },
     cooking: "ポワレ、ロティ（ロゼ仕立て）",
@@ -82,29 +182,203 @@ export const pigeonCuts = [
     name_fr: "Cuisse de pigeon",
     name_en: "Pigeon leg",
     name_ja: "キュイス・ド・ピジョン（鳩もも肉）",
+    dish_fr: "Cuisse de pigeon confite (鳩もも肉のコンフィ)",
+    origin: "フランス南西部",
+    global_dish: "モロッコ料理の甘塩っぱいパイ包み焼き「بَسْطِيلَةٌ」（Basṭīlatun / バスティラトゥン）の伝統的な具材として使われます（現在は鶏肉での代用も多いです）。",
     pin: { x: 65, y: 55 },
     properties: { tenderness: "★★★☆☆", fat: "★★☆☆☆", collagen: "★★★☆☆" },
     cooking: "コンフィ、グリル",
-    science: "極めて小さく薄いもも肉。胸肉に比べて結合組織が多いため、コンフィにするか、しっかり焼いて皮目をクリスピーにします。",
+    science: "極めて小さく薄いもも肉。胸肉に比べて結合組織が多いため、低温の油でコンフィにするか、しっかり焼いて皮目をクリスピーにします。",
     classification: "Gibier de plume",
     logic: "Confit or Crisp grill",
-    chef_note: "胸肉の横に可愛らしく添えられることが多い。小さいながらも旨味は非常に濃い。"
+    chef_note: "胸肉の横に可愛らしく添えられることが多い。小さいながらも旨味は非常に濃い部位です。"
+  },
+  {
+    id: "cut_gibier_pigeon_aile",
+    number: "3",
+    name_fr: "Aile de pigeon",
+    name_en: "Pigeon wing",
+    name_ja: "エール・ド・ピジョン（鳩手羽）",
+    dish_fr: "Ailerons de pigeon caramélisés (鳩手羽のキャラメリゼ)",
+    origin: "フランス全土",
+    global_dish: "中国料理の宴席などで、醤油ベースの甘辛いタレで煮込まれる「紅燒鴿翅」（Hóng shāo gē chì / ホン シャオ ゴー チー）として提供されます。",
+    pin: { x: 35, y: 35 },
+    properties: { tenderness: "★★★☆☆", fat: "★★☆☆☆", collagen: "★★★★☆" },
+    cooking: "煮込み、キャラメリゼ、出汁とり",
+    science: "骨周りのゼラチン質と旨味が詰まっていますが、肉量は少ない部位です。高温で香ばしく焼き上げるか、ソースのベースとして重宝されます。",
+    classification: "Gibier de plume",
+    logic: "Braising / Stock extraction",
+    chef_note: "メインディッシュとして単体で出されることは少なく、アミューズや副菜として骨から外れるほど柔らかく煮込まれることが多いです。"
+  },
+  {
+    id: "cut_gibier_pigeon_carcasse",
+    number: "4",
+    name_fr: "Carcasse de pigeon",
+    name_en: "Pigeon carcass (bones)",
+    name_ja: "カルカス・ド・ピジョン（鳩ガラ）",
+    dish_fr: "Jus de pigeon / Salmis (鳩のジュ／サルミソース)",
+    origin: "フランスのクラシック料理全般",
+    global_dish: "中国料理の滋養強壮スープ「鴿子湯」（Gē zi tāng / ゴー ズ タン）のベースとして、薬膳食材と共にじっくり煮込まれます。",
+    pin: { x: 50, y: 45 },
+    properties: { tenderness: "☆☆☆☆☆", fat: "★☆☆☆☆", collagen: "★★★★★" },
+    cooking: "フォン（出汁）、ソース抽出",
+    science: "骨からは芳醇な香りと強いゼラチン質が出ます。オーブンでローストして香ばしさを引き出してから香味野菜と煮出すことで、重厚なソースのベースになります。",
+    classification: "Gibier de plume",
+    logic: "Roast and Simmer",
+    chef_note: "内臓（レバーや心臓）と共にすり潰してソースのリエゾン（とろみ付け）に使う「サルミ仕立て」は、古典フランス料理の真骨頂です。"
   }
 ];
 
 export const hareCuts = [
   {
-    id: "cut_gibier_lievre",
+    id: "cut_gibier_lievre_rable",
     number: "1",
     name_fr: "Râble de lièvre",
     name_en: "Saddle of hare",
-    name_ja: "ラーブル・ド・リエーヴル（野ウサギの背肉）",
+    name_ja: "ラーブル・ド・リエーヴル（野うさぎの背肉）",
+    dish_fr: "Râble de lièvre rôti (野うさぎ背肉のロースト)",
+    origin: "フランス全土（ソローニュ地方など）",
+    global_dish: "イギリスの「Roast Saddle of Hare（野うさぎ背肉のロースト）」。赤身肉の強い風味に負けないよう、レッドカラント（赤すぐり）のゼリーを添えます。",
     pin: { x: 50, y: 40 },
     properties: { tenderness: "★★★★☆", fat: "★☆☆☆☆", collagen: "★★★☆☆" },
     cooking: "ロティ、ソテー、ソース・ポワブラード",
-    science: "家ウサギ（Lapin）に比べて野ウサギ（Lièvre）は肉質が赤黒く、野性味が強い。背肉は一番柔らかい中心部位です。",
+    science: "家ウサギ（Lapin）に比べて野ウサギ（Lièvre）は肉質が赤黒く、野性味が極めて強い。背肉は一番柔らかい中心部位です。",
     classification: "Gibier de poil",
     logic: "Short cook / Roast medium",
-    chef_note: "フランス料理で最も高貴とされるジビエの一つ。「Lièvre à la Royale（ウサギのロワイヤル）」は宮廷料理の流れを汲む伝説の一皿。"
+    chef_note: "骨付きのままローストし、火入れ後に切り分けます。火を通しすぎると鉄っぽさが強調されるため注意が必要です。"
+  },
+  {
+    id: "cut_gibier_lievre_filet",
+    number: "2",
+    name_fr: "Filet de lièvre",
+    name_en: "Hare loin / Fillet",
+    name_ja: "フィレ・ド・リエーヴル（野うさぎフィレ）",
+    dish_fr: "Filet de lièvre poêlé (野うさぎフィレ肉のポワレ)",
+    origin: "フランス全土",
+    global_dish: "ドイツでは「Hasenfilet（野うさぎのフィレ）」として、秋から冬の狩猟シーズンにシュペッツレ（伝統的な卵麺）と共に供されます。",
+    pin: { x: 55, y: 38 },
+    properties: { tenderness: "★★★★★", fat: "★☆☆☆☆", collagen: "★★☆☆☆" },
+    cooking: "ポワレ、ソテー",
+    science: "背肉（ラーブル）の内側に付随する最も繊細で柔らかい部位。脂質が極端に少ないため、ベーコンや豚の網脂で巻く（クレピーヌ包み）ことでパサつきを防ぎます。",
+    classification: "Gibier de poil",
+    logic: "Barding / Flash pan-fry",
+    chef_note: "非常に小さく貴重な部位。トリュフやフォアグラと合わせるような、洗練された一皿に向いています。"
+  },
+  {
+    id: "cut_gibier_lievre_cuissot",
+    number: "3",
+    name_fr: "Cuissot de lièvre",
+    name_en: "Hare leg",
+    name_ja: "キュイッソ・ド・リエーヴル（野うさぎもも肉）",
+    dish_fr: "Civet de lièvre (野うさぎのシヴェ)",
+    origin: "フランス山間部、伝統的ジビエ料理",
+    global_dish: "ギリシャ料理で、小玉ねぎとトマト、赤ワイン、シナモンで煮込む「Λαγός στιφάδο (Lagos stifado / ラゴス・スティファド)」が有名です。",
+    pin: { x: 75, y: 50 },
+    properties: { tenderness: "★★☆☆☆", fat: "★☆☆☆☆", collagen: "★★★★★" },
+    cooking: "シヴェ（赤ワインと血の煮込み）、煮込み",
+    science: "運動量が多く非常に硬いが、筋肉の旨味が濃い部位。赤ワインと野うさぎ自身の血で煮込むことで、強いコラーゲンがゼラチン化し、濃厚でとろける食感となります。",
+    classification: "Gibier de poil",
+    logic: "Blood emulsification / Slow braise",
+    chef_note: "古典料理「シヴェ」の代表格。ソースの仕上げに血を加えることで、独特の深いコクと黒光りする艶が生まれます。"
+  },
+  {
+    id: "cut_gibier_lievre_epaule",
+    number: "4",
+    name_fr: "Épaule de lièvre",
+    name_en: "Hare shoulder",
+    name_ja: "エポール・ド・リエーヴル（野うさぎ肩肉）",
+    dish_fr: "Lièvre à la Royale (ウサギのロワイヤル / ファルスとして)",
+    origin: "フランス・ペリゴール地方、ポワトゥー地方",
+    global_dish: "イタリア料理のパスタソース「Ragù di lepre（野うさぎのラグー）」として、肉がほぐれるまで煮込んで幅広パスタのパッパルデッレと合わせます。",
+    pin: { x: 30, y: 45 },
+    properties: { tenderness: "★★☆☆☆", fat: "★☆☆☆☆", collagen: "★★★★☆" },
+    cooking: "煮込み、ファルス（詰め物）、ラグー",
+    science: "筋張っておりそのまま焼くには硬いため、ひき肉にしてパテやテリーヌのベースにするか、長時間の煮込み料理に用います。",
+    classification: "Gibier de poil",
+    logic: "Minced / Slow cooking",
+    chef_note: "伝説の宮廷料理「Lièvre à la Royale」では、骨を抜いた肉にフォアグラやトリュフ、肩肉などのファルスを詰め、一昼夜かけて煮込みます。"
   }
 ];
+export const exoticMeats = [
+  {
+    id: "meat_crocodile",
+    name_fr: "Crocodile / Alligator",
+    name_en: "Crocodile / Alligator",
+    name_ja: "ワニ（クロコダイル / アリゲーター）",
+    properties: { tenderness: "★★★☆☆", fat: "★☆☆☆☆", collagen: "★★★★☆" },
+    cooking: "フライ、グリル、シチュー",
+    science: "鶏肉と白身魚の中間のような淡白な味わいで、高タンパク・低脂肪。尾（テール）部分などは運動量が多く、加熱すると適度な弾力が生まれ、ゼラチン質も非常に豊富です。",
+    global_dish: {
+      asia: "中国・広東料理などで滋養強壮のスープ「鱷魚湯」（È yú tāng / オー ユー タン）として飲まれるほか、タイなどのナイトマーケットではワニ肉の串焼きが屋台料理として有名です。",
+      europe: "該当なし",
+      africa: "南アフリカやケニアなどで、スパイスとアプリコットジャムで甘辛くマリネしたワニ肉の串焼き（Sosatie：ソサティ）として食されます。",
+      americas: "アメリカ南部（ルイジアナ州など）のケイジャン・クレオール料理において、「Alligator Nuggets（ワニ肉のフライ）」やスパイシーなスープ「Gator Gumbo（ワニ肉のガンボ）」が名物です。",
+      oceania: "オーストラリアの先住民アボリジニの伝統食（ブッシュタッカー）に由来し、現在も専門レストランでワニ肉のバーベキューやステーキとして広く提供されています。"
+    }
+  },
+  {
+    id: "meat_snake",
+    name_fr: "Serpent",
+    name_en: "Snake",
+    name_ja: "蛇（ヘビ）",
+    properties: { tenderness: "★★☆☆☆", fat: "★☆☆☆☆", collagen: "★★★☆☆" },
+    cooking: "スープ、フライ、炭火焼き",
+    science: "筋肉質で鶏肉に近い弾力がありますが、小骨が非常に多いのが特徴です。脂質が極めて少なく、漢方的な視点では体を温める作用が強いとされます。",
+    global_dish: {
+      asia: "中国南部、香港、台湾で冬の滋養強壮料理として親しまれるヘビスープ「蛇羹」（Shé gēng / シェー ゴン）や「蛇湯」（Shé tāng / シェー タン）が有名です。複数の蛇の肉と木耳などを細切りにしてとろみをつけます。",
+      europe: "該当なし",
+      africa: "該当なし（※一部地域でパイソンなどを食す文化はありますが、広く知られた伝統料理としての名称は該当なし）",
+      americas: "アメリカ南部および南西部（テキサス州など）における開拓時代の郷土料理として、「Deep-fried Rattlesnake（ガラガラヘビのフライ）」があります。",
+      oceania: "オーストラリアの先住民の伝統食として、カーペットニシキヘビなどを熾火（おきび）で丸焼きにする食文化があります。"
+    }
+  },
+  {
+    id: "meat_bison",
+    name_fr: "Bison",
+    name_en: "Bison / Buffalo",
+    name_ja: "バイソン（アメリカヤギュウ）",
+    properties: { tenderness: "★★★☆☆", fat: "★☆☆☆☆", collagen: "★★☆☆☆" },
+    cooking: "ステーキ、ハンバーガー、ロースト",
+    science: "牛肉に味が似ていますが、牛肉よりも脂質・カロリーが低く、鉄分やオメガ3脂肪酸が豊富です。赤身主体のため、火を通しすぎるとすぐにパサついてしまうためミディアムレアが推奨されます。",
+    global_dish: {
+      asia: "該当なし",
+      europe: "ポーランドのビャウォヴィエジャの森周辺などで、厳格に管理・間引きされたヨーロッパバイソン（ズーブル）の肉が、ステーキや赤ワイン煮込みとして提供されることがあります。",
+      africa: "該当なし",
+      americas: "北米先住民の最も重要な伝統食。乾燥させたバイソン肉に脂肪やベリーを混ぜた保存食「Pemmican（ペミカン）」が発祥です。現代ではヘルシーな赤身肉として「Bison Burger（バイソンバーガー）」やステーキが広く愛されています。",
+      oceania: "該当なし"
+    }
+  },
+  {
+    id: "meat_softshell_turtle",
+    name_fr: "Tortue à carapace molle / Trionyx",
+    name_en: "Softshell Turtle",
+    name_ja: "すっぽん（鼈）",
+    properties: { tenderness: "★★★☆☆", fat: "★★☆☆☆", collagen: "★★★★★" },
+    cooking: "鍋物、スープ、煮込み",
+    science: "甲羅の縁の部分（エンペラ）などに極めて純度の高いゼラチン質（コラーゲン）を含みます。筋肉部分からはアミノ酸が豊富な濃厚で深い旨味の出汁が取れます。",
+    global_dish: {
+      asia: "日本の「まる鍋（すっぽん鍋）」が有名なほか、中国や台湾では漢方薬膳スープの「鱉湯」（Biē tāng / ビエ タン）として珍重されます。生薬とともに長時間蒸し煮にして成分を抽出します。",
+      europe: "該当なし（※過去に海亀を用いたコンソメスープが存在しましたが、すっぽん固有の郷土料理としては該当なし）",
+      africa: "該当なし",
+      americas: "アメリカ南部（特にルイジアナ州のニューオーリンズ周辺）において、カミツキガメやすっぽんの肉を用いたスパイシーな煮込みスープ「Turtle Soup（タートルスープ）」がクレオール料理の定番となっています。",
+      oceania: "該当なし"
+    }
+  },
+  {
+    id: "meat_bear",
+    name_fr: "Ours",
+    name_en: "Bear",
+    name_ja: "熊（クマ）",
+    properties: { tenderness: "★★☆☆☆", fat: "★★★★☆", collagen: "★★★☆☆" },
+    cooking: "煮込み、ロースト",
+    science: "雑食性のため、木の実を多く食べた時期（秋〜冬）の脂身には強い甘みと豊かな風味があります。旋毛虫などの寄生虫リスクがあるため、中心部までの完全な加熱（ウェルダンまたは長時間の煮込み）が必須です。",
+    global_dish: {
+      asia: "日本のマタギ文化に根付く「熊鍋」のほか、中国料理では古来より「満漢全席」にも名を連ねる宮廷の超高級食材「熊掌」（Xióng zhǎng / シオン ジャン：熊の手のひらの煮込み）があります。",
+      europe: "フィンランドをはじめとする北欧やロシアにおいて、伝統的な狩猟肉として「Karhunpaisti（熊肉のロースト）」や、ベリー類と赤ワインを使った煮込み料理が存在します。",
+      africa: "該当なし",
+      americas: "北米のアラスカ州やカナダなどハンティング文化が盛んな地域で、猟師（ハンター）の家庭料理として「Bear Stew（熊肉のシチュー）」や「Bear Roast（熊肉のロースト）」が食べられています。",
+      oceania: "該当なし"
+    }
+  }
+];
+
