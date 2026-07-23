@@ -172,7 +172,6 @@ function runSequenceEngine(container, episode) {
         
         <!-- Dialog UI -->
         <div id="rpg-dialog-pane" class="rpg-dialog-pane" style="display: none;">
-          <div class="avatar-holder" id="dialog-avatar"></div>
           <div class="name-badge" id="dialog-name"></div>
           <div class="dialog-text-box" id="dialog-text"></div>
           <div class="click-prompt">▼ クリックで進む</div>
@@ -328,15 +327,23 @@ function runSequenceEngine(container, episode) {
     if (charLayer) {
       charLayer.innerHTML = ''; // Clear previous sprites
 
+      // bg_camille_cry.webp, bg_after_battle.webp, bg_father.webp が背景のときはキャラクター写真を重ねて表示しない
+      const bgValLower = bgVal.toLowerCase();
+      const shouldSuppressSprites = bgValLower.includes('bg_camille_cry.webp') ||
+                                    bgValLower.includes('bg_after_battle.webp') ||
+                                    bgValLower.includes('bg_father.webp');
+
       let activeSprites = [];
-      if (step.characters && Array.isArray(step.characters)) {
-        activeSprites = step.characters;
-      } else if (step.character) {
-        activeSprites = [{
-          id: step.character,
-          expression: step.expression || 'default',
-          position: step.position || 'center'
-        }];
+      if (!shouldSuppressSprites) {
+        if (step.characters && Array.isArray(step.characters)) {
+          activeSprites = step.characters;
+        } else if (step.character) {
+          activeSprites = [{
+            id: step.character,
+            expression: step.expression || 'default',
+            position: step.position || 'center'
+          }];
+        }
       }
 
       activeSprites.forEach(spriteInfo => {
@@ -381,13 +388,11 @@ function runSequenceEngine(container, episode) {
       });
     }
 
-    // Set Avatar & Name (Hidden per user request since character name is in the text)
+    // Set Name (Hidden per user request since character name is in the text)
     const char = step.character ? episode.characters[step.character] : null;
-    const avatarEl = container.querySelector('#dialog-avatar');
     const nameEl = container.querySelector('#dialog-name');
     const textBox = container.querySelector('#dialog-text');
 
-    avatarEl.style.display = 'none';
     nameEl.style.display = 'none';
 
     // Show Learning Point if present

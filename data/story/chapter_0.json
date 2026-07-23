@@ -17,12 +17,10 @@
       },
       "characters": {
         "hero": {
-          "name": "主人公",
-          "avatar": "👤"
+          "name": "主人公"
         },
         "camille": {
           "name": "カミーユ",
-          "avatar": "👧",
           "images": {
             "normal": "assets/story/chapter_0/char_camille_normal.webp",
             "determined": "assets/story/chapter_0/char_camille_determined.webp",
@@ -31,7 +29,6 @@
         },
         "father": {
           "name": "父",
-          "avatar": "🧔",
           "images": {
             "default": "assets/story/chapter_0/char_father_default.webp",
             "sorry": "assets/story/chapter_0/char_father_sorry.webp"
@@ -237,8 +234,7 @@
           "background": "bgMarseille",
           "character": "camille",
           "text": "「うん！ マルセイユ市場へ出発！」",
-          "expression": "cry",
-          "position": "center"
+          "characters": []
         },
         {
           "type": "reward",
@@ -260,12 +256,10 @@
       },
       "characters": {
         "hero": {
-          "name": "主人公",
-          "avatar": "👤"
+          "name": "主人公"
         },
         "camille": {
           "name": "カミーユ",
-          "avatar": "👧",
           "images": {
             "normal": "assets/story/chapter_0/char_camille_normal.webp",
             "determined": "assets/story/chapter_0/char_camille_determined.webp",
@@ -273,24 +267,19 @@
           }
         },
         "storeowner": {
-          "name": "八百屋の店主",
-          "avatar": "👨‍🌾"
+          "name": "八百屋の店主"
         },
         "fishmonger": {
-          "name": "魚屋の店主",
-          "avatar": "🐟"
+          "name": "魚屋の店主"
         },
         "woman": {
-          "name": "市場の女性",
-          "avatar": "👩"
+          "name": "市場の女性"
         },
         "thief": {
-          "name": "泥棒",
-          "avatar": "👤"
+          "name": "泥棒"
         },
         "greek_merchant": {
-          "name": "ギリシャ商人",
-          "avatar": "🧔"
+          "name": "ギリシャ商人"
         }
       },
       "sequence": [
@@ -305,27 +294,6 @@
             "title": "marche",
             "text": "意味: 市場\nカタカナのマルシェとしても親しまれています。"
           }
-        },
-        {
-          "type": "dialog",
-          "background": "Marseille",
-          "character": "hero",
-          "characters": [
-            {
-              "id": "camille",
-              "expression": "normal",
-              "position": "center"
-            }
-          ],
-          "text": "「人波だな……。買い出し、早く終わるかな。」"
-        },
-        {
-          "type": "dialog",
-          "background": "Marseille",
-          "character": "camille",
-          "expression": "determined",
-          "position": "center",
-          "text": "「弱気は禁止！ まずは八百屋屋さんだよ！」"
         },
         {
           "type": "dialog",
@@ -439,7 +407,7 @@
           "background": "Marseille",
           "character": "fishmonger",
           "characters": [],
-          "text": "「よし、まずは魚の目利きを試させてもらおうか！」"
+          "text": "「よし、ならまずは魚の目利きを試させてもらおうか！」"
         },
         {
           "type": "fixedBattle",
@@ -449,12 +417,12 @@
           "questions": [
             {
               "questionId": "q_0_2_2_1",
-              "text": "ブイヤベース用として最も適切な魚介類を指す単語はどれか。\n(Choisissez le bon ingrédient pour la bouillabaisse.)",
+              "text": "ブイヤベース用として最も適切な材料を指す単語はどれか。\n(Choisissez le bon ingrédient pour la bouillabaisse.)",
               "options": [
-                "poisson (魚)",
-                "bœuf (牛肉)",
-                "poulet (鶏肉)",
-                "porc (豚肉)"
+                "poisson",
+                "bœuf",
+                "poulet",
+                "porc"
               ],
               "answerIndex": 0,
               "explanation": "poisson は「魚」を意味します。ブイヤベースは地中海の魚介をふんだんに使ったスープ料理です。"
@@ -569,7 +537,7 @@
               "position": "center"
             }
           ],
-          "text": "「おい！カミーユ！！」"
+          "text": "「ええ！？カミーユ！！？」"
         },
         {
           "type": "dialog",
@@ -583,7 +551,7 @@
           "background": "港のコンテナ",
           "character": "thief",
           "characters": [],
-          "text": "「はぁ……はぁ……ここまで来れば大丈夫か……」"
+          "text": "「はぁ……はぁ……ここまで来れば大丈夫か……。」"
         },
         {
           "type": "dialog",
@@ -597,42 +565,7 @@
           "background": "港のコンテナ",
           "character": null,
           "characters": [],
-          "text": "（怪しげな男たちと合流する）"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "greek_merchant",
-          "characters": [],
-          "text": "「約束の品は手に入れたのだろうな？」"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "hero",
-          "characters": [],
-          "text": "「あづいら……！」"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "camille",
-          "characters": [],
-          "text": "「あれが盗まれたペンダントだよ！」"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "greek_merchant",
-          "characters": [],
-          "text": "「ふむ……。怪しいネズミが迷い込んだようだ。」"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "thief",
-          "characters": [],
-          "text": "「おい、ギリシャ人！どうするんだ？」"
+          "text": "（怪しげな男たちが別の言語で話している）"
         },
         {
           "type": "dialog",
@@ -650,56 +583,14 @@
           "background": "港のコンテナ",
           "character": "greek_merchant",
           "characters": [],
-          "text": "「余計なことを聞くネズミだな。」"
+          "text": "「ところで、そこのネズミは誰だね？」"
         },
         {
           "type": "dialog",
           "background": "港のコンテナ",
-          "character": "thief",
-          "characters": [],
-          "text": "「サクッと片付けちまおう！」"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": null,
-          "characters": [],
-          "text": "（囲まれてしまう二人）"
-        },
-        {
-          "type": "dialog",
-          "background": "港のコンテナ",
-          "character": "greek_merchant",
-          "characters": [],
-          "text": "「さて、大人しくペンダントを諦めて帰るか？」"
-        },
-        {
-          "type": "dialog",
-          "background": "黒",
-          "character": null,
-          "characters": [],
-          "text": "（緊迫の対峙！）"
-        },
-        {
-          "type": "dialog",
-          "background": "黒",
-          "character": "camille",
-          "expression": "determined",
-          "position": "center",
-          "text": "「絶対に嫌！」"
-        },
-        {
-          "type": "dialog",
-          "background": "黒",
           "character": "hero",
-          "characters": [
-            {
-              "id": "camille",
-              "expression": "determined",
-              "position": "center"
-            }
-          ],
-          "text": "「カミーユを絶対に守る！」"
+          "characters": [],
+          "text": "「(気づかれてた！？） 」"
         },
         {
           "type": "reward",
@@ -723,12 +614,10 @@
       },
       "characters": {
         "hero": {
-          "name": "主人公",
-          "avatar": "👤"
+          "name": "主人公"
         },
         "camille": {
           "name": "カミーユ",
-          "avatar": "👧",
           "images": {
             "normal": "assets/story/chapter_0/char_camille_normal.webp",
             "determined": "assets/story/chapter_0/char_camille_determined.webp",
@@ -737,7 +626,6 @@
         },
         "father": {
           "name": "父",
-          "avatar": "🧔",
           "images": {
             "default": "assets/story/chapter_0/char_father_default.webp",
             "sorry": "assets/story/chapter_0/char_father_sorry.webp"
@@ -745,7 +633,6 @@
         },
         "proprietress": {
           "name": "女将さん",
-          "avatar": "👩",
           "images": {
             "smile": "assets/story/chapter_0/char_proprietress_smile.webp",
             "worried": "assets/story/chapter_0/char_proprietress_worried.webp",
@@ -755,23 +642,19 @@
         },
         "everyone": {
           "name": "みんな",
-          "avatar": "👥",
           "images": {
             "everyone_smile": "assets/story/chapter_0/char_everyone_smile.webp",
             "delicious": "assets/story/chapter_0/char_delicious.webp"
           }
         },
         "thief": {
-          "name": "泥棒",
-          "avatar": "👤"
+          "name": "泥棒"
         },
         "greek_merchant": {
-          "name": "ギリシャ商人",
-          "avatar": "🧔"
+          "name": "ギリシャ商人"
         },
         "police": {
-          "name": "衛兵",
-          "avatar": "💂"
+          "name": "衛兵"
         }
       },
       "sequence": [
