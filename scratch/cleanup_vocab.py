@@ -10,7 +10,7 @@ except AttributeError:
 CATEGORIES = [
     "Vocabulary", "Grammar", "Theory", "Service", 
     "Philosophy", "Techniques", "Brigade", "Equipment", 
-    "General", "Verbs"
+    "General", "Verbs", "Préposition", "Adverbe", "Conjonction"
 ]
 
 def capitalize_term(s):
@@ -27,7 +27,7 @@ def add_pos_to_japanese(item):
     # Check if already has POS prefix like (Nom), (Verbe), etc.
     if ja.startswith("(") or ja.startswith("（"):
         # Check if it starts with known POS patterns
-        if any(ja.startswith(prefix) for prefix in ["(Nom)", "(Verbe)", "(Adj)", "(Adv)", "（Nom）", "（Verbe）", "（Adj）", "（Adv）"]):
+        if any(ja.startswith(prefix) for prefix in ["(Nom)", "(Verbe)", "(Adj)", "(Adv)", "(Prép)", "(Conj)", "（Nom）", "（Verbe）", "（Adj）", "（Adv）", "（Prép）", "（Conj）"]):
             return
             
     tags = item.get("tags", [])

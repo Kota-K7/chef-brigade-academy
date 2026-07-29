@@ -1,5 +1,6 @@
 import { state, toggleFavorite, isFavorite, ensureDataLoaded } from '../../app.js';
 import { speakFrench } from '../utils/audio.js';
+import { getPrepositionIllustration } from '../utils/illustrations.js';
 
 export function renderGrammar() {
   const container = document.createElement('div');
@@ -34,6 +35,8 @@ function renderGrammarContent(container, activeLevel) {
     .filter(item => item.grammar)
     .map(item => ({
       id: item.id,
+      category: item.category,
+      french: item.french,
       level: item.level,
       topic: item.grammar.topic,
       explanation_en: item.grammar.explanation_en,
@@ -60,6 +63,12 @@ function renderGrammarContent(container, activeLevel) {
     const frMatch = item.topic.match(/\(([^)]+)\)/);
     const frTitle = frMatch ? frMatch[1] : item.topic;
     
+    const isPreposition = item.category === 'Préposition' || item.id.includes('prep_');
+    const illustrationSvg = isPreposition ? getPrepositionIllustration(item.french || '') : '';
+    const illustrationHtml = illustrationSvg 
+      ? `<div class="preposition-illustration-container" style="height: 130px; background-color: #fcfbfa; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0.8rem 0; overflow: hidden; border: 1px solid rgba(0,0,0,0.03);">${illustrationSvg}</div>`
+      : '';
+
     card.innerHTML = `
       <div class="grammar-header">
         <div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
@@ -74,6 +83,7 @@ function renderGrammarContent(container, activeLevel) {
           <span class="toggle-icon" style="font-size: 1rem; color: var(--color-text-muted); font-weight: bold;">▼</span>
         </div>
       </div>
+      ${illustrationHtml}
       <div class="grammar-body">
         <div class="grammar-expl">
           <p style="margin-bottom: 0.6rem; font-weight: 500; color: var(--color-secondary);">Explanation (EN):</p>

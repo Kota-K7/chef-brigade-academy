@@ -8,11 +8,11 @@
     "properties": {
       "id": {
         "type": "string",
-        "pattern": "^(kb_|vocab_|gram_|cuis_)[a-z0-9_]+$"
+        "pattern": "^(kb_|vocab_|gram_|cuis_|prep_|adv_|conj_)[a-z0-9_]+$"
       },
       "category": {
         "type": "string",
-        "enum": ["Vocabulary", "Grammar", "Theory", "Service", "Philosophy", "Techniques", "Brigade", "Equipment", "General", "Verbs"]
+        "enum": ["Vocabulary", "Grammar", "Theory", "Service", "Philosophy", "Techniques", "Brigade", "Equipment", "General", "Verbs", "Préposition", "Adverbe", "Conjonction"]
       },
       "level": {
         "type": "string",

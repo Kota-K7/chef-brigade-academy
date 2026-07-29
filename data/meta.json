@@ -1,25 +1,25 @@
 {
   "counts": {
-    "vocabulary": 29,
+    "vocabulary": 604,
     "grammar": 20,
     "cuisine": 8
   },
   "featured": {
-    "id": "vocab_brider",
+    "id": "vocab_rincer",
     "category": "Techniques",
-    "level": "C1",
+    "level": "A1",
     "tags": [
-      "poultry",
-      "preparation",
-      "basics"
+      "Verbe",
+      "Action",
+      "Hygiène"
     ],
-    "french": "Brider",
-    "english": "To truss / tie meat or poultry with string",
-    "japanese": "ブライドする（糸で縛る・整形する）",
-    "definition_fr": "(verbe) Attacher les membres d'une volaille ou d'une pièce de viande à l'aide d'une ficelle pour maintenir sa forme pendant la cuisson.",
-    "context_fr": "Bridez le poulet fermier avant de l'enfourner pour assurer une cuisson uniforme.",
-    "context_en": "Truss the farm chicken before putting it in the oven to ensure even cooking.",
-    "context_ja": "均一に火が入るように、オーブンに入れる前に地鶏をブライド（糸縛り）してください。",
+    "french": "Rincer",
+    "english": "To rinse",
+    "japanese": "(Verbe) ゆすぐ、軽く洗う",
+    "definition_fr": "Laver légèrement à l'eau claire.",
+    "context_fr": "Il est en train de rincer la salade.",
+    "context_en": "He is rinsing the salad.",
+    "context_ja": "彼はサラダ（レタス）を洗っています。",
     "is_professional": true
   }
 }

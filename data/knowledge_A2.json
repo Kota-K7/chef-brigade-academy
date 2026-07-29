@@ -4757,5 +4757,397 @@
         "ja": "じゃがいもの皮をむいてください。"
       }
     ]
+  },
+  {
+    "id": "prep_au_milieu_de",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Dressage"
+    ],
+    "french": "Au milieu de",
+    "english": "In the middle of",
+    "japanese": "(Prép) 〜の中央に、真ん中に",
+    "definition_fr": "Désigne le centre exact d'une surface ou d'une assiette.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Déposez une quenelle de glace au milieu de l'assiette à dessert.",
+        "en": "Place a scoop of ice cream in the middle of the dessert plate.",
+        "ja": "デザート皿の中央にアイスクリームのクネルを1つ置きます。"
+      }
+    ]
+  },
+  {
+    "id": "prep_au_dessous_de",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Hygiène"
+    ],
+    "french": "Au-dessous de",
+    "english": "Below / under",
+    "japanese": "(Prép) 〜の下に、〜未満で",
+    "definition_fr": "Marque une position plus basse ou une valeur inférieure.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Conservez les préparations sensibles au-dessous de trois degrés.",
+        "en": "Store sensitive preparations below three degrees.",
+        "ja": "傷みやすい仕込み品は3度以下で保存してください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_au_dessus_de",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Technique"
+    ],
+    "french": "Au-dessus de",
+    "english": "Above / over",
+    "japanese": "(Prép) 〜の上に（接触せず上方）",
+    "definition_fr": "Marque une position plus élevée sans contact direct.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Tenez la passoire fine au-dessus du cul-de-poule pour filtrer la sauce.",
+        "en": "Hold the fine strainer above the mixing bowl to filter the sauce.",
+        "ja": "ソースを漉すために、ボウルの上で細目ざるを保持してください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_autour_de",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Dressage"
+    ],
+    "french": "Autour de",
+    "english": "Around",
+    "japanese": "(Prép) 〜のまわりに、周囲に",
+    "definition_fr": "Indique une disposition en cercle ou encerclant un élément central.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Disposez les légumes étuvés autour du filet de bœuf rôti.",
+        "en": "Arrange the steamed vegetables around the roasted beef fillet.",
+        "ja": "牛フィレ肉のローストの周りに蒸し野菜をあしらいます。"
+      }
+    ]
+  },
+  {
+    "id": "prep_chez",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Lieu",
+      "Approvisionnement"
+    ],
+    "french": "Chez",
+    "english": "At the shop/place of",
+    "japanese": "(Prép) 〜の店で、〜のところで",
+    "definition_fr": "Désigne la boutique, l'atelier ou l'exploitation d'un artisan/commerçant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef achète le fromage frais chez le crémier du marché.",
+        "en": "The chef buys fresh cheese at the market cheesemonger's.",
+        "ja": "シェフは市場の乳製品店（クレミエ）でフレッシュチーズを購入します。"
+      }
+    ]
+  },
+  {
+    "id": "prep_contre",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Contact",
+      "Technique"
+    ],
+    "french": "Contre",
+    "english": "Against",
+    "japanese": "(Prép) 〜に押し当てて、〜に対して",
+    "definition_fr": "Exprime la proximité immédiate ou le contact appuyé.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Plaquez la lame du couteau contre l'arête centrale du poisson.",
+        "en": "Press the knife blade against the central bone of the fish.",
+        "ja": "包丁の刃を魚の中骨にしっかりと押し当ててください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_depuis",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Temps",
+      "Cuisson"
+    ],
+    "french": "Depuis",
+    "english": "Since / for (duration)",
+    "japanese": "(Prép) 〜前から、〜以来",
+    "definition_fr": "Marque le point de départ d'une action qui continue dans le présent.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La sauce consommé mijote doucement depuis deux heures.",
+        "en": "The consommé sauce has been simmering gently for two hours.",
+        "ja": "コンソメソースは2時間前から弱火でじっくり煮込まれています。"
+      }
+    ]
+  },
+  {
+    "id": "prep_en_face_de",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Organisation"
+    ],
+    "french": "En face de",
+    "english": "Opposite / facing",
+    "japanese": "(Prép) 〜の向かいに",
+    "definition_fr": "Indique une position vis-à-visの対面にあること。",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le poste de dressage se trouve juste en face de la zone de cuisson.",
+        "en": "The plating station is located directly opposite the cooking zone.",
+        "ja": "盛り付けコーナーは調理エリアのちょうど向かい側にあります。"
+      }
+    ]
+  },
+  {
+    "id": "prep_entre",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Technique"
+    ],
+    "french": "Entre",
+    "english": "Between",
+    "japanese": "(Prép) 〜の間に",
+    "definition_fr": "Indique une situation intermédiaire entre deux objets ou limites.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Étalez la pâte feuilletée entre deux feuilles de papier cuisson.",
+        "en": "Roll out the puff pastry between two sheets of baking paper.",
+        "ja": "クッキングシート2枚の間にパイ生地を挟んで伸ばします。"
+      }
+    ]
+  },
+  {
+    "id": "prep_jusqu_a",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Limite",
+      "Cuisson"
+    ],
+    "french": "Jusqu'à",
+    "english": "Until / up to",
+    "japanese": "(Prép) 〜まで（限界・到達点）",
+    "definition_fr": "Indique le point d'aboutissement d'une action ou d'une température.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Chauffez le sirop de sucre jusqu'à cent dix degrés au thermomètre.",
+        "en": "Heat the sugar syrup up to one hundred and ten degrees on the thermometer.",
+        "ja": "シュガーシロップを温度計で110度になるまで加熱します。"
+      }
+    ]
+  },
+  {
+    "id": "prep_selon",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Condition",
+      "Cuisine"
+    ],
+    "french": "Selon",
+    "english": "According to / depending on",
+    "japanese": "(Prép) 〜に応じて、〜に従って",
+    "definition_fr": "Indique la conformité ou l'adaptation à une norme/préférence.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Assaisonnez le bouillon avec du sel et du poivre selon votre goût.",
+        "en": "Season the broth with salt and pepper according to your taste.",
+        "ja": "お好みに応じてブイヨンに塩・コショウで味付けしてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_vers",
+    "category": "Préposition",
+    "level": "A2",
+    "tags": [
+      "Préposition",
+      "Direction",
+      "Temps"
+    ],
+    "french": "Vers",
+    "english": "Towards / around (time)",
+    "japanese": "(Prép) 〜の方へ、〜頃に",
+    "definition_fr": "Marque la direction du mouvement ou une approximation temporelle.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Versez le sirop chaud vers le centre de la cuve.",
+        "en": "Pour the hot syrup towards the center of the bowl.",
+        "ja": "温かいシロップをボウルの中央に向かって注ぎ入れます。"
+      }
+    ]
+  },
+  {
+    "id": "adv_lentement",
+    "category": "Adverbe",
+    "level": "A2",
+    "tags": [
+      "Adverbe",
+      "Vitesse",
+      "Technique"
+    ],
+    "french": "Lentement",
+    "english": "Slowly",
+    "japanese": "(Adv) ゆっくりと、時間をかけて",
+    "definition_fr": "Indique une vitesse réduite pour assurer la précision d'une émulsion.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Versez l'huile neutre très lentement en mince filet pour réussir la mayonnaise.",
+        "en": "Pour the neutral oil very slowly in a thin stream to succeed with the mayonnaise.",
+        "ja": "マヨネーズを成功させるために、味のない油（サラダ油等）を細い糸のようにゆっくり注ぎます。"
+      }
+    ]
+  },
+  {
+    "id": "adv_parfois",
+    "category": "Adverbe",
+    "level": "A2",
+    "tags": [
+      "Adverbe",
+      "Fréquence"
+    ],
+    "french": "Parfois",
+    "english": "Sometimes",
+    "japanese": "(Adv) ときどき、たまに",
+    "definition_fr": "Indique une fréquence occasionnelle.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Nous proposons parfois du poisson sauvage selon l'arrivage de la marée.",
+        "en": "We sometimes offer wild fish depending on the daily catch.",
+        "ja": "仕入れ状況に応じて、ときどき天然の魚を提供します。"
+      }
+    ]
+  },
+  {
+    "id": "conj_car",
+    "category": "Conjonction",
+    "level": "A2",
+    "tags": [
+      "Conjonction",
+      "Explication"
+    ],
+    "french": "Car",
+    "english": "For / because",
+    "japanese": "(Conj) なぜなら、〜だからだ",
+    "definition_fr": "Introduit l'explication ou la justification d'un fait.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Réduisez l'intensité du feu car le beurre risque de brûler.",
+        "en": "Reduce the heat because the butter might burn.",
+        "ja": "バターが焦げるおそれがあるため、火力を弱めてください。"
+      }
+    ]
+  },
+  {
+    "id": "conj_donc",
+    "category": "Conjonction",
+    "level": "A2",
+    "tags": [
+      "Conjonction",
+      "Conséquence"
+    ],
+    "french": "Donc",
+    "english": "So / therefore",
+    "japanese": "(Conj) したがって、だから",
+    "definition_fr": "Exprime une conclusion ou une conséquence logique.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le poisson a atteint la bonne température à cœur, nous pouvons donc le dresser.",
+        "en": "The fish has reached the right core temperature, so we can plate it.",
+        "ja": "魚の中心温度が適温に達したため、お皿に盛り付けることができます。"
+      }
+    ]
+  },
+  {
+    "id": "conj_ni",
+    "category": "Conjonction",
+    "level": "A2",
+    "tags": [
+      "Conjonction",
+      "Négation",
+      "Service"
+    ],
+    "french": "Ni",
+    "english": "Neither / nor",
+    "japanese": "(Conj) 〜も…もない（否定の列挙）",
+    "definition_fr": "Sert à coordonner des éléments niés.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce potage végétalien ne contient ni crème ni beurre.",
+        "en": "This vegan soup contains neither cream nor butter.",
+        "ja": "このヴィーガンスープには生クリームもバターも含まれていません。"
+      }
+    ]
+  },
+  {
+    "id": "conj_parce_que",
+    "category": "Conjonction",
+    "level": "A2",
+    "tags": [
+      "Conjonction",
+      "Cause"
+    ],
+    "french": "Parce que",
+    "english": "Because",
+    "japanese": "(Conj) なぜなら〜だから",
+    "definition_fr": "Introduit une proposition exprimant la cause.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "On plonge les légumes dans la glace parce que cela stoppe la cuisson immédiatement.",
+        "en": "We plunge vegetables into ice because it stops cooking immediately.",
+        "ja": "野菜を氷水に浸すのは、加熱（火の通り）をただちに止めるためです。"
+      }
+    ]
   }
 ]

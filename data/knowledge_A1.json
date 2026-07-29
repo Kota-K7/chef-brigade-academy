@@ -6967,5 +6967,813 @@
         "ja": "提供する直前に、粉砂糖を振りかけて（まぶして）ください。"
       }
     ]
+  },
+  {
+    "id": "prep_avec",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Moyen",
+      "Cuisine"
+    ],
+    "french": "Avec",
+    "english": "With / using",
+    "japanese": "(Prép) 〜と一緒に、〜を使って",
+    "definition_fr": "Marque l'accompagnement ou l'outil utilisé pour effectuer une tâche.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Fouettez la crème avec un fouet en inox bien propre.",
+        "en": "Whip the cream with a clean stainless steel whisk.",
+        "ja": "清潔なステンレス製ホイッパーを使って生クリームを泡立てます。"
+      }
+    ]
+  },
+  {
+    "id": "prep_dans",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Cuisine"
+    ],
+    "french": "Dans",
+    "english": "In / inside",
+    "japanese": "(Prép) 〜の中に",
+    "definition_fr": "Indique la présence ou l'introduction à l'intérieur d'un récipient ou d'un lieu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Versez le lait chaud dans la casserole.",
+        "en": "Pour the hot milk into the saucepan.",
+        "ja": "片手鍋の中に温かい牛乳を注ぎ入れます。"
+      }
+    ]
+  },
+  {
+    "id": "prep_de",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Origine",
+      "Quantité",
+      "Cuisine"
+    ],
+    "french": "De",
+    "english": "Of / from",
+    "japanese": "(Prép) 〜の、〜から（産地・原料）",
+    "definition_fr": "Indique la provenance, l'appartenance ou le contenu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez un filet de jus de citron frais.",
+        "en": "Add a drizzle of fresh lemon juice.",
+        "ja": "新鮮なレモン果汁をひとしずく加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_derriere",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Restaurant"
+    ],
+    "french": "Derrière",
+    "english": "Behind",
+    "japanese": "(Prép) 〜の後ろに",
+    "definition_fr": "Indique la position à l'arrière d'un lieu ou d'un comptoir.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le barman range les bouteilles de sirop derrière le comptoir.",
+        "en": "The bartender stores the syrup bottles behind the counter.",
+        "ja": "バーテンダーはカウンターの後ろにシロップの瓶を収納します。"
+      }
+    ]
+  },
+  {
+    "id": "prep_devant",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Restaurant"
+    ],
+    "french": "Devant",
+    "english": "In front of",
+    "japanese": "(Prép) 〜の前に",
+    "definition_fr": "Indique la présence sur la face antérieure d'un objet ou d'un client.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur dresse l'assiette chaude devant le client.",
+        "en": "The server places the hot plate in front of the customer.",
+        "ja": "ウェイターはお客様の前に温かいお皿を盛り付けて出します。"
+      }
+    ]
+  },
+  {
+    "id": "prep_en",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Matière",
+      "Manière",
+      "Cuisine"
+    ],
+    "french": "En",
+    "english": "In / into / made of",
+    "japanese": "(Prép) 〜で、〜の状態で、〜製で",
+    "definition_fr": "Exprime la matière, la forme d'une découpe ou un état.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Coupez les pommes de terre en petits dés réguliers.",
+        "en": "Cut the potatoes into small, even cubes.",
+        "ja": "じゃがいもを均一な小さなさいの目切りにしてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_loin_de",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Hygiène"
+    ],
+    "french": "Loin de",
+    "english": "Far from",
+    "japanese": "(Prép) 〜から遠くに、離して",
+    "definition_fr": "Exprime une grande distance ou la séparation obligatoire par sécurité.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Stockez les produits d'entretien loin de la réserve d'ingrédients.",
+        "en": "Store cleaning products far from the ingredient storage.",
+        "ja": "洗剤類は食材保管庫から遠く離れた場所に保管してください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_par",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Moyen",
+      "Cuisine"
+    ],
+    "french": "Par",
+    "english": "By / through / per",
+    "japanese": "(Prép) 〜によって、〜経由で、〜ごとに",
+    "definition_fr": "Indique le moyen, la manière ou la répartition.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Commencez par éplucher tous les légumes de la soupe.",
+        "en": "Start by peeling all the soup vegetables.",
+        "ja": "まずスープ用の野菜の皮をすべてむくことから始めてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_pendant",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Temps",
+      "Cuisson"
+    ],
+    "french": "Pendant",
+    "english": "During / for",
+    "japanese": "(Prép) 〜の間に、〜期間",
+    "definition_fr": "Désigne la durée complète d'un processus ou d'une cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez reposer la pâte à brioche pendant trente minutes.",
+        "en": "Let the brioche dough rest for thirty minutes.",
+        "ja": "ブリオッシュ生地を30分間休ませてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_pour",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "But",
+      "Cuisine"
+    ],
+    "french": "Pour",
+    "english": "For / in order to",
+    "japanese": "(Prép) 〜のために、〜の目的で",
+    "definition_fr": "Indique la destination, l'usage ou le destinataire d'une préparation.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce couteau de chef est idéal pour trancher la viande.",
+        "en": "This chef's knife is ideal for slicing meat.",
+        "ja": "このシェフナイフは肉を薄切りにするのに最適です。"
+      }
+    ]
+  },
+  {
+    "id": "prep_pres_de",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Sécurité"
+    ],
+    "french": "Près de",
+    "english": "Near / close to",
+    "japanese": "(Prép) 〜の近くに",
+    "definition_fr": "Indique la faible distance spatiale.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ne laissez pas le beurre doux près de la plaque de cuisson chaude.",
+        "en": "Do not leave the unsalted butter near the hot cooking plate.",
+        "ja": "無塩バターを熱い加熱プレートの近くに放置しないでください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_sans",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Exclusion",
+      "Restaurant"
+    ],
+    "french": "Sans",
+    "english": "Without",
+    "japanese": "(Prép) 〜なしで、〜抜きで",
+    "definition_fr": "Indique l'absence ou l'exclusion d'un ingrédient ou d'un objet.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Préparez cette salade sans oignon pour le client allergique.",
+        "en": "Prepare this salad without onion for the allergic customer.",
+        "ja": "アレルギーのお客様のために、このサラダは玉ねぎ抜きで準備してください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_sous",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Cuisine"
+    ],
+    "french": "Sous",
+    "english": "Under / beneath",
+    "japanese": "(Prép) 〜の下に",
+    "definition_fr": "Indique une position inférieure par rapport à un objet.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Placez le bac inox sous le plan de travail.",
+        "en": "Place the stainless steel container under the worktop.",
+        "ja": "作業台の下にステンレスバットを置いてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_sur",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Cuisine"
+    ],
+    "french": "Sur",
+    "english": "On / upon",
+    "japanese": "(Prép) 〜の上に、〜に接して",
+    "definition_fr": "Indique la position sur une surface ou le support d'un objet.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Posez le poisson sur la planche à découper.",
+        "en": "Place the fish on the cutting board.",
+        "ja": "まな板の上に魚を置いてください。"
+      }
+    ]
+  },
+  {
+    "id": "prep_a",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Lieu",
+      "Cuisson",
+      "Cuisine"
+    ],
+    "french": "À",
+    "english": "At / to / with (flavor or style)",
+    "japanese": "(Prép) 〜に、〜で、〜風味の",
+    "definition_fr": "Indique le lieu, la température, le mode de cuisson ou le parfum d'un plat.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Cuisez la tarte aux pommes au four à 180 degrés.",
+        "en": "Bake the apple tart in the oven at 180 degrees.",
+        "ja": "アップルタルトをオーブンで180度で焼き上げます。"
+      }
+    ]
+  },
+  {
+    "id": "prep_a_cote_de",
+    "category": "Préposition",
+    "level": "A1",
+    "tags": [
+      "Préposition",
+      "Position",
+      "Service"
+    ],
+    "french": "À côté de",
+    "english": "Next to / beside",
+    "japanese": "(Prép) 〜の隣に、〜の側に",
+    "definition_fr": "Indique la proximité immédiate sur un même plan.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Placez le verre à eau juste à côté du verre à vin rouge.",
+        "en": "Place the water glass right next to the red wine glass.",
+        "ja": "水用グラスを赤ワイングラスのすぐ隣に配置してください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_assez",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Quantité",
+      "Suffisance"
+    ],
+    "french": "Assez",
+    "english": "Enough / sufficiently",
+    "japanese": "(Adv) 十分に、かなり",
+    "definition_fr": "Indique une quantité suffisante ou une intensité modérée.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La pâte est désormais assez souple pour être étalée.",
+        "en": "The dough is now flexible enough to be rolled out.",
+        "ja": "生地はもう伸ばすのに十分柔らかくなっています。"
+      }
+    ]
+  },
+  {
+    "id": "adv_beaucoup",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Quantité"
+    ],
+    "french": "Beaucoup",
+    "english": "A lot / much",
+    "japanese": "(Adv) たくさん、非常に",
+    "definition_fr": "Indique une grande quantité ou une forte intensité.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef utilise beaucoup d'herbes fraîches au printemps.",
+        "en": "The chef uses a lot of fresh herbs in the spring.",
+        "ja": "シェフは春になると新鮮なハーブをたくさん使用します。"
+      }
+    ]
+  },
+  {
+    "id": "adv_bien",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Manière",
+      "Cuisine"
+    ],
+    "french": "Bien",
+    "english": "Well / thoroughly",
+    "japanese": "(Adv) よく、十分に、綺麗に",
+    "definition_fr": "Indique une action réalisée de façon correcte ou complète.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mélangez bien la préparation pour obtenir une pâte lisse.",
+        "en": "Mix the preparation well to obtain a smooth batter.",
+        "ja": "滑らかな生地になるよう、生地をよく混ぜ合わせてください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_deja",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Temps"
+    ],
+    "french": "Déjà",
+    "english": "Already",
+    "japanese": "(Adv) すでに、もう",
+    "definition_fr": "Marque l'accomplissement d'un fait plus tôt que prévu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "L'eau bout déjà dans la grande marmite inox.",
+        "en": "The water is already boiling in the large stainless steel pot.",
+        "ja": "大きなステンレス鍋の中の水はすでに沸騰しています。"
+      }
+    ]
+  },
+  {
+    "id": "adv_encore",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Temps",
+      "Quantité"
+    ],
+    "french": "Encore",
+    "english": "Still / again / more",
+    "japanese": "(Adv) まだ、さらに、もう一度",
+    "definition_fr": "Indique la continuation d'un état ou un ajout.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez réduire la sauce encore deux minutes sur feu doux.",
+        "en": "Let the sauce reduce for two more minutes on low heat.",
+        "ja": "ソースを弱火でさらに2分間煮詰めさせてください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_ensemble",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Manière",
+      "Technique"
+    ],
+    "french": "Ensemble",
+    "english": "Together",
+    "japanese": "(Adv) 一緒に、併せて",
+    "definition_fr": "Marque la réunion ou le mélange simultané de plusieurs éléments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Fouettez vigoureusement le sucre semoule et les jaunes d'œufs ensemble.",
+        "en": "Vigorously whisk the granulated sugar and egg yolks together.",
+        "ja": "グラニュー糖と卵黄を一緒に力強く泡立てます。"
+      }
+    ]
+  },
+  {
+    "id": "adv_ici",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Lieu"
+    ],
+    "french": "Ici",
+    "english": "Here",
+    "japanese": "(Adv) ここで、ここに",
+    "definition_fr": "Désigne l'endroit où se trouve le locuteur.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Posez le plateau de vaisselle propre juste ici.",
+        "en": "Set the tray of clean dishes right here.",
+        "ja": "きれいな食器のトレーをちょうどここに置いてください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_jamais",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Négation",
+      "Sécurité"
+    ],
+    "french": "Jamais",
+    "english": "Never",
+    "japanese": "(Adv) 決して〜ない",
+    "definition_fr": "Exprime l'absence totale de survenance d'un fait.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ne laissez jamais un couteau aiguisé au fond du bac de plonge.",
+        "en": "Never leave a sharp knife at the bottom of the washing sink.",
+        "ja": "研いだ包丁を洗い場（ plonge ）のシンクの底に放置することは絶対におやめください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_maintenant",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Temps",
+      "Service"
+    ],
+    "french": "Maintenant",
+    "english": "Now",
+    "japanese": "(Adv) 今、ただちに",
+    "definition_fr": "Désigne le moment présent ou l'immédiateté d'un envoi.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Envoyez l'entrée chaude à la table quatre maintenant !",
+        "en": "Send the hot starter to table four now!",
+        "ja": "ただちに4番テーブルへ温かい前菜をお持ち（発送）してください！"
+      }
+    ]
+  },
+  {
+    "id": "adv_mal",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Manière",
+      "Qualité"
+    ],
+    "french": "Mal",
+    "english": "Badly / poorly",
+    "japanese": "(Adv) 悪く、不十分に",
+    "definition_fr": "Marque une exécution incorrecte ou insuffisante.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Si la viande est mal cuite, le client risque de la renvoyer.",
+        "en": "If the meat is poorly cooked, the customer might send it back.",
+        "ja": "肉の火の通し方が悪いと、お客様が焼き直しを求めて送り返す可能性があります。"
+      }
+    ]
+  },
+  {
+    "id": "adv_peu",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Quantité"
+    ],
+    "french": "Peu",
+    "english": "Little / a little",
+    "japanese": "(Adv) 少し、わずかに",
+    "definition_fr": "Indique une petite quantité.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez un peu de sel fin dans la pâte à crêpes.",
+        "en": "Add a little fine salt into the crepe batter.",
+        "ja": "クレープ生地に細塩を少量加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_souvent",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Fréquence"
+    ],
+    "french": "Souvent",
+    "english": "Often",
+    "japanese": "(Adv) よく、しばしば",
+    "definition_fr": "Indique une grande fréquence répétée.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef de partie vérifie souvent la température du four.",
+        "en": "The station chef often checks the oven temperature.",
+        "ja": "部門シェフはしばしばオーブンの設定温度を確認します。"
+      }
+    ]
+  },
+  {
+    "id": "adv_toujours",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Fréquence",
+      "Hygiène"
+    ],
+    "french": "Toujours",
+    "english": "Always",
+    "japanese": "(Adv) 常に、いつも",
+    "definition_fr": "Indique une constance sans exception dans le temps.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Désinfectez toujours vos mains avant de dresser les assiettes.",
+        "en": "Always sanitize your hands before plating the dishes.",
+        "ja": "お皿に盛り付ける前は常に手を消毒してください。"
+      }
+    ]
+  },
+  {
+    "id": "adv_trop",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Intensité",
+      "Attention"
+    ],
+    "french": "Trop",
+    "english": "Too / too much",
+    "japanese": "(Adv) 〜すぎる、過剰に",
+    "definition_fr": "Indique un excès dépassant ce qui est souhaitable.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Attention, cette réduction de jus est trop salée.",
+        "en": "Be careful, this juice reduction is too salty.",
+        "ja": "注意してください。この煮詰めたソース（ジュ）は塩分が強すぎます。"
+      }
+    ]
+  },
+  {
+    "id": "adv_tres",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Intensité"
+    ],
+    "french": "Très",
+    "english": "Very",
+    "japanese": "(Adv) とても、大変",
+    "definition_fr": "Renforce le sens d'un adjectif ou d'un autre adverbe.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce bouillon de volaille est très parfumé et savoureux.",
+        "en": "This poultry broth is very flavorful and tasty.",
+        "ja": "この鶏のブイヨンはとても香りが高く味わい深いです。"
+      }
+    ]
+  },
+  {
+    "id": "adv_vite",
+    "category": "Adverbe",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Vitesse",
+      "Cuisine"
+    ],
+    "french": "Vite",
+    "english": "Quickly / fast",
+    "japanese": "(Adv) 早く、迅速に",
+    "definition_fr": "Caractérise une vitesse d'exécution élevée nécessaire en coup de feu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Travaillez vite pour éviter que le soufflé au chocolat ne retombe.",
+        "en": "Work fast to prevent the chocolate souffle from deflating.",
+        "ja": "チョコレートのスフレが萎んでしまわないよう、手早く作業してください。"
+      }
+    ]
+  },
+  {
+    "id": "conj_et",
+    "category": "Conjonction",
+    "level": "A1",
+    "tags": [
+      "Conjonction",
+      "Liaison"
+    ],
+    "french": "Et",
+    "english": "And",
+    "japanese": "(Conj) 〜と、そして",
+    "definition_fr": "Reliant deux mots ou propositions de même fonction.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Assaisonnez la farce avec du sel et du poivre moulu.",
+        "en": "Season the stuffing with salt and ground pepper.",
+        "ja": "詰め物（ファルス）に塩と挽きコショウで味付けします。"
+      }
+    ]
+  },
+  {
+    "id": "conj_mais",
+    "category": "Conjonction",
+    "level": "A1",
+    "tags": [
+      "Conjonction",
+      "Opposition"
+    ],
+    "french": "Mais",
+    "english": "But",
+    "japanese": "(Conj) しかし、だが",
+    "definition_fr": "Marque une restriction, une nuance ou une opposition.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ce plat traditionnel est simple mais particulièrement savoureux.",
+        "en": "This traditional dish is simple but particularly tasty.",
+        "ja": "この伝統料理はシンプルですが、特に味わい深いです。"
+      }
+    ]
+  },
+  {
+    "id": "conj_ou",
+    "category": "Conjonction",
+    "level": "A1",
+    "tags": [
+      "Conjonction",
+      "Choix",
+      "Service"
+    ],
+    "french": "Ou",
+    "english": "Or",
+    "japanese": "(Conj) または、あるいは",
+    "definition_fr": "Marque une alternative entre deux possibilités.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Désirez-vous de l'eau minérale plate ou gazeuse ?",
+        "en": "Would you like still or sparkling mineral water?",
+        "ja": "ミネラルウォーターはガスなし（プレーン）とガス入りのどちらになさいますか？"
+      }
+    ]
+  },
+  {
+    "id": "conj_quand",
+    "category": "Conjonction",
+    "level": "A1",
+    "tags": [
+      "Conjonction",
+      "Temps"
+    ],
+    "french": "Quand",
+    "english": "When",
+    "japanese": "(Conj) 〜するとき",
+    "definition_fr": "Indique le moment où une action se réalise.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Retirez la casserole du feu quand le mélange commence à frémir.",
+        "en": "Remove the pan from the heat when the mixture begins to simmer.",
+        "ja": "混合物がフツフツと泡立ち始めたら（煮立ち始めたら）鍋を火から外してください。"
+      }
+    ]
+  },
+  {
+    "id": "conj_si",
+    "category": "Conjonction",
+    "level": "A1",
+    "tags": [
+      "Conjonction",
+      "Condition",
+      "Technique"
+    ],
+    "french": "Si",
+    "english": "If",
+    "japanese": "(Conj) もし〜なら",
+    "definition_fr": "Exprime une condition ou une hypothèse.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Si la sauce béchamel est trop épaisse, détendez-la avec un peu de lait chaud.",
+        "en": "If the bechamel sauce is too thick, loosen it with a little hot milk.",
+        "ja": "ベシャメルソースが重すぎる（固すぎる）場合は、少量の温かい牛乳で伸ばしてください。"
+      }
+    ]
   }
 ]

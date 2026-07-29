@@ -3,7 +3,7 @@ import os
 import re
 
 ALL_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
-CATEGORIES = ["Vocabulary", "Grammar", "Theory", "Service", "Philosophy", "Techniques", "Brigade", "Equipment", "General", "Verbs"]
+CATEGORIES = ["Vocabulary", "Grammar", "Theory", "Service", "Philosophy", "Techniques", "Brigade", "Equipment", "General", "Verbs", "Préposition", "Adverbe", "Conjonction"]
 
 def validate():
     print("Starting automated database validation...")
@@ -39,7 +39,7 @@ def validate():
             
             if "id" in item:
                 iid = item["id"]
-                if not re.match(r"^(kb_|vocab_|gram_|cuis_)[a-z0-9_]+$", iid):
+                if not re.match(r"^(kb_|vocab_|gram_|cuis_|prep_|adv_|conj_)[a-z0-9_]+$", iid):
                     errors.append(f"Invalid ID format '{iid}' at {loc}. Must start with kb_, vocab_, gram_, or cuis_ and contain only lowercase letters, digits, and underscores.")
                 if iid in ids:
                     errors.append(f"Duplicate ID found: '{iid}' at {loc}")
