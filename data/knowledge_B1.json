@@ -253,5 +253,65 @@
       "content_en": "Stocks are the liquid and aromatic backbone of French cuisine. They are categorized into white stocks (veal, poultry, fish - bones are simmered directly with aromatic vegetables) and brown stocks (veal, beef, game - bones and meat are roasted in the oven until browned before being simmered). Slow cooking extracts collagen, which gives body to the final sauce.",
       "content_ja": "フォン（出汁）はフランス料理の液体ベースおよび芳香の骨格です。白い出汁「フォン・ブラン」（子牛、鶏、魚など、骨を香草野菜と直接煮出したもの）と、茶色い出汁「フォン・ブラン/フォン・ブリュン」（子牛、牛、ジビエなど、骨や肉をオーブンで褐色にローストしてから煮出したもの）に分類されます。弱火での長時間の煮込みによって骨からコラーゲンを抽出し、これがソースにコクと粘り気を与えます。"
     }
+  },
+  {
+    "id": "gram_plus_que_parfait",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Past Perfect Tense (Le Plus-que-parfait)",
+      "explanation_ja": "大過去（Plus-que-parfait）は、過去のある出来事よりも前に完了していた動作や状態を表す時制です。「過去の中のさらに前」を示すため、別の過去の出来事と組み合わせて使われます。形は助動詞avoirまたはêtreの半過去（imparfait）＋過去分詞で作ります。複合過去（passé composé）が単純な過去の完了を表すのに対し、大過去は出来事の順序関係を明確にします。料理の分野では、仕込み、マリネ、熟成、下処理など、サービス前に完了していた工程を説明するときに重要な表現です。",
+      "explanation_en": "The pluperfect (Plus-que-parfait) expresses an action or state that had already been completed before another past event. It is formed with the imperfect form of avoir or être plus the past participle. While the passé composé simply describes a completed past action, the pluperfect emphasizes the order of past events. In culinary contexts, it is useful for describing preparation steps, marinating, aging, and tasks completed before service."
+    },
+    "examples": [
+      {
+        "fr": "Le chef avait préparé la sauce avant l'ouverture du restaurant.",
+        "en": "The chef had prepared the sauce before the restaurant opened.",
+        "ja": "シェフはレストランの開店前にソースを準備していました。"
+      },
+      {
+        "fr": "Nous avions déjà coupé les légumes quand le service a commencé.",
+        "en": "We had already cut the vegetables when the service started.",
+        "ja": "営業が始まった時、私たちはすでに野菜を切り終えていました。"
+      },
+      {
+        "fr": "La viande avait été marinée pendant douze heures avant la cuisson.",
+        "en": "The meat had been marinated for twelve hours before cooking.",
+        "ja": "肉は加熱前に12時間マリネされていました。"
+      }
+    ]
+  },
+  {
+    "id": "gram_future_tenses",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Future Tenses: Futur Simple and Futur Antérieur (Le Futur Simple et le Futur Antérieur)",
+      "explanation_ja": "フランス語の未来表現には、主に単純未来（Futur simple）と前未来（Futur antérieur）があります。Futur simpleは未来の予定、意志、予測を表します。不定詞を語幹として、ai, as, a, ons, ez, ontの語尾を付けます（一部不規則変化あり）。Futur antérieurは「未来のある時点までに完了している行動」を表し、avoirまたはêtreの未来形＋過去分詞で作ります。料理の現場では、新しいメニュー計画、仕込み予定、料理完成時点の説明などで使用されます。",
+      "explanation_en": "French uses two main future tenses: the simple future (Futur simple) and the future perfect (Futur antérieur). Futur simple expresses future plans, intentions, and predictions. It is generally formed using the infinitive as the stem with future endings. Futur antérieur describes an action that will have been completed before another future moment and is formed with the future tense of avoir or être plus the past participle. These forms are useful for discussing menu planning, preparation schedules, and future culinary projects."
+    },
+    "examples": [
+      {
+        "fr": "Le chef créera un nouveau menu gastronomique pour la saison prochaine.",
+        "en": "The chef will create a new gastronomic menu for the next season.",
+        "ja": "シェフは次のシーズンのために新しいガストロノミーメニューを作るでしょう。"
+      },
+      {
+        "fr": "Nous préparerons les ingrédients avant l'arrivée des clients.",
+        "en": "We will prepare the ingredients before the customers arrive.",
+        "ja": "私たちはお客様の到着前に食材を準備します。"
+      },
+      {
+        "fr": "À midi, le chef aura terminé toutes les préparations.",
+        "en": "At noon, the chef will have finished all the preparations.",
+        "ja": "正午には、シェフはすべての仕込みを終えているでしょう。"
+      }
+    ]
   }
 ]

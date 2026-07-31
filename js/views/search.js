@@ -79,9 +79,10 @@ export function renderSearch() {
       const normalizedQuery = query.toLowerCase().trim();
       
       // Search pools
-      const vocabs = state.db?.vocabulary || [];
-      const grammars = state.db?.grammar || [];
-      const cuisines = state.db?.cuisine || [];
+      const allItems = state.db?.knowledge || [];
+      const vocabs = allItems.filter(item => item.french && item.japanese && !item.grammar && !item.cuisine);
+      const grammars = allItems.filter(item => item.grammar);
+      const cuisines = allItems.filter(item => item.cuisine);
       
       const matches = [];
       

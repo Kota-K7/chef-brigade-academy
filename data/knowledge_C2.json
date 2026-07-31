@@ -111,5 +111,35 @@
         "ja": "エスコフィエはフランス料理を体系化するためにこの本を書きました。彼はその中でブリガード（組織）の構成を簡略化しました。"
       }
     ]
+  },
+  {
+    "id": "gram_passe_anterieur",
+    "category": "Grammar",
+    "level": "C2",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Past Anterior (Le Passé Antérieur)",
+      "explanation_ja": "前過去（Passé Antérieur）は、文学や歴史的文章で使われる高度な過去時制です。単純過去（Passé Simple）で表される過去の出来事より前に完了した動作を示します。形は助動詞avoirまたはêtreの単純過去＋過去分詞で作ります。現代の日常会話ではほとんど使用されませんが、古典的な料理書、歴史資料、19世紀〜20世紀初頭のガストロノミー文献を読む際に登場します。エスコフィエなどの古典的な料理文献では、工程の順序や完成までの流れを文学的に記述するために理解しておく価値があります。",
+      "explanation_en": "The past anterior (Passé Antérieur) is a literary tense used mainly in historical writing, classical literature, and formal narratives. It describes an action completed before another action expressed with the passé simple. It is formed with the passé simple of avoir or être plus the past participle. Although rarely used in modern conversation, understanding this tense is useful when reading classical culinary texts, historical recipes, and gastronomic literature from earlier periods."
+    },
+    "examples": [
+      {
+        "fr": "Quand le chef eut terminé la préparation, il servit le plat aux invités.",
+        "en": "When the chef had finished the preparation, he served the dish to the guests.",
+        "ja": "シェフが仕込みを終えると、料理を客に提供しました。"
+      },
+      {
+        "fr": "Après que le pâtissier eut mélangé les ingrédients, il enfourna la pâte.",
+        "en": "After the pastry chef had mixed the ingredients, he put the dough in the oven.",
+        "ja": "パティシエが材料を混ぜ終えた後、生地をオーブンに入れました。"
+      },
+      {
+        "fr": "Dès que le cuisinier eut ajouté les épices, l'arôme changea complètement.",
+        "en": "As soon as the cook had added the spices, the aroma changed completely.",
+        "ja": "料理人がスパイスを加えるとすぐに、香りは完全に変化しました。"
+      }
+    ]
   }
 ]

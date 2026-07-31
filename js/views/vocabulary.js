@@ -113,6 +113,28 @@ function renderVocabContent(container, initialLevel) {
         ? `<div class="preposition-illustration-container" style="height: 130px; background-color: #fcfbfa; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0.8rem 0; overflow: hidden; border: 1px solid rgba(0,0,0,0.03);">${illustrationSvg}</div>`
         : '';
 
+      let genderHtml = '';
+      if (item.gender) {
+        const genderLabel = item.gender === 'm' ? 'Masculin' : item.gender === 'f' ? 'Féminin' : item.gender === 'm/f' ? 'M/F' : item.gender;
+        const genderColorStyle = item.gender === 'm' 
+          ? 'background-color: rgba(0, 0, 91, 0.05); color: var(--color-primary); border: 1px solid rgba(0, 0, 91, 0.12);'
+          : item.gender === 'f'
+          ? 'background-color: rgba(220, 38, 38, 0.05); color: var(--color-secondary); border: 1px solid rgba(220, 38, 38, 0.12);'
+          : 'background-color: rgba(90, 106, 128, 0.05); color: var(--color-text-muted); border: 1px solid rgba(90, 106, 128, 0.12);';
+        genderHtml = `<span style="font-size: 0.72rem; font-weight: 600; padding: 0.1rem 0.45rem; border-radius: 4px; display: inline-block; ${genderColorStyle}">${genderLabel}</span>`;
+      }
+      
+      let verbGroupHtml = '';
+      if (item.verb_group) {
+        let groupText = '';
+        if (item.verb_group === 1 || item.verb_group === '1') groupText = '1er groupe (-er)';
+        else if (item.verb_group === 2 || item.verb_group === '2') groupText = '2e groupe (-ir)';
+        else if (item.verb_group === 3 || item.verb_group === '3') groupText = '3e groupe (Irrégulier)';
+        else groupText = `${item.verb_group}e groupe`;
+        
+        verbGroupHtml = `<span style="font-size: 0.72rem; font-weight: 600; padding: 0.1rem 0.45rem; border-radius: 4px; display: inline-block; background-color: rgba(107, 156, 104, 0.07); color: var(--color-success); border: 1px solid rgba(107, 156, 104, 0.15);">${groupText}</span>`;
+      }
+
       card.innerHTML = `
         <div style="display: flex; flex-direction: column; height: 100%; justify-content: space-between; gap: 1.5rem;">
           <div>
@@ -122,9 +144,17 @@ function renderVocabContent(container, initialLevel) {
             </div>
             
             <div class="term-header">
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
-                <h3 class="term-title">${item.french}</h3>
-                <button class="audio-btn" data-text="${item.french}" title="Listen pronunciation" style="background: none; border: none; font-size: 1.15rem; cursor: pointer; color: var(--color-accent); transition: var(--transition); padding: 0.2rem;">🔊</button>
+              <div style="display: flex; flex-direction: column; gap: 0.25rem; align-items: flex-start;">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <h3 class="term-title">${item.french}</h3>
+                  <button class="audio-btn" data-text="${item.french}" title="Listen pronunciation" style="background: none; border: none; font-size: 1.15rem; cursor: pointer; color: var(--color-accent); transition: var(--transition); padding: 0.2rem;">🔊</button>
+                </div>
+                ${genderHtml || verbGroupHtml ? `
+                  <div style="display: flex; gap: 0.3rem; flex-wrap: wrap;">
+                    ${genderHtml}
+                    ${verbGroupHtml}
+                  </div>
+                ` : ''}
               </div>
               <button class="fav-btn ${isFav ? 'active' : ''}" data-id="${item.id}">
                 ${isFav ? '★' : '☆'}

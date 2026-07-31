@@ -1,6 +1,7 @@
 import { renderHome } from './js/views/home.js';
 import { renderVocabulary } from './js/views/vocabulary.js';
 import { renderGrammar } from './js/views/grammar.js';
+import { renderReference } from './js/views/reference.js';
 import { renderCuisine } from './js/views/cuisine.js';
 import { renderQuiz } from './js/views/quiz.js';
 import { renderFavorites } from './js/views/favorites.js';
@@ -184,6 +185,7 @@ const views = {
   home: renderHome,
   vocabulary: renderVocabulary,
   grammar: renderGrammar,
+  reference: renderReference,
   cuisine: renderCuisine,
   quiz: renderQuiz,
   favorites: renderFavorites,

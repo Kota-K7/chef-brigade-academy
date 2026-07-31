@@ -185,5 +185,95 @@
       "content_en": "Hot emulsion sauces like Béarnaise or Hollandaise bind melted butter with water using lecithin in egg yolks. The cooking temperature must stay below 65°C (149°F) to prevent egg protein coagulation, which causes the sauce to split.",
       "content_ja": "ベアルネーズやオランデーズなどの温製乳化ソースは、卵黄に含まれるレシチンによって溶かしバターと水分を結合させます。卵白質が凝固してソースが分離するのを防ぐため、調理温度は必ず65℃未満に保つ必要があります。"
     }
+  },
+  {
+    "id": "gram_conditionnel_passe",
+    "category": "Grammar",
+    "level": "C1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Past Conditional (Le Conditionnel Passé)",
+      "explanation_ja": "条件法過去（Conditionnel passé）は、過去に実現しなかった出来事、後悔、仮定、推測を表す表現です。「もし〜していたら、〜しただろう」「〜だったかもしれない」という意味になります。形は助動詞avoirまたはêtreの条件法現在＋過去分詞で作ります。条件法現在（je voudrais、il faudraitなど）が現在の丁寧な依頼や仮定を表すのに対し、条件法過去は過去の結果や可能性について述べます。料理の批評、レストランレビュー、シェフへのインタビューなど、料理について分析的に語る場面でよく使われます。",
+      "explanation_en": "The past conditional (Conditionnel passé) expresses unreal past situations, regrets, hypothetical results, or uncertain conclusions. It corresponds to meanings such as 'would have done' or 'might have happened'. It is formed with the conditional present of avoir or être plus the past participle. While the present conditional is used for polite requests and present hypotheses, the past conditional refers to unrealized or hypothetical situations in the past. It frequently appears in culinary reviews, chef interviews, and gastronomic discussions."
+    },
+    "examples": [
+      {
+        "fr": "Le chef aurait choisi un autre vin pour accompagner ce plat.",
+        "en": "The chef would have chosen another wine to accompany this dish.",
+        "ja": "シェフはこの料理に合わせるため、別のワインを選んでいただろう。"
+      },
+      {
+        "fr": "Nous aurions pu améliorer la texture avec une cuisson plus lente.",
+        "en": "We could have improved the texture with slower cooking.",
+        "ja": "もっとゆっくり加熱していれば、食感を改善できただろう。"
+      },
+      {
+        "fr": "Sans cette technique, le dessert n'aurait pas été aussi délicat.",
+        "en": "Without this technique, the dessert would not have been so delicate.",
+        "ja": "この技法がなければ、そのデザートはこれほど繊細ではなかったでしょう。"
+      }
+    ]
+  },
+  {
+    "id": "gram_subjonctif_passe",
+    "category": "Grammar",
+    "level": "C1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Past Subjunctive (Le Subjonctif Passé)",
+      "explanation_ja": "接続法過去（Subjonctif passé）は、感情、評価、疑念、必要性などを表す文の中で、主節より前に完了した出来事を示す時制です。形は接続法現在の助動詞（avoirまたはêtre）＋過去分詞で作ります。接続法現在が「〜すること」を問題にするのに対して、接続法過去では「すでに〜したこと」への感情や評価を表します。料理分野では、伝統料理への評価、レストラン批評、食文化についての議論など、より高度な文章表現で使用されます。",
+      "explanation_en": "The past subjunctive (Subjonctif passé) expresses emotions, judgments, doubts, or necessity about an action that has already been completed. It is formed with the subjunctive present of avoir or être plus the past participle. Unlike the present subjunctive, which focuses on an action or situation, the past subjunctive emphasizes that the action has already happened. It is common in formal culinary writing, restaurant criticism, and discussions about food culture."
+    },
+    "examples": [
+      {
+        "fr": "Je suis heureux que le chef ait conservé cette recette traditionnelle.",
+        "en": "I am happy that the chef has preserved this traditional recipe.",
+        "ja": "シェフがこの伝統的なレシピを残してくれたことを嬉しく思います。"
+      },
+      {
+        "fr": "Il est dommage que le restaurant n'ait pas utilisé des produits locaux.",
+        "en": "It is a shame that the restaurant did not use local products.",
+        "ja": "そのレストランが地元の食材を使わなかったことは残念です。"
+      },
+      {
+        "fr": "Le critique doute que le pâtissier ait réussi cette création.",
+        "en": "The critic doubts that the pastry chef succeeded with this creation.",
+        "ja": "評論家は、そのパティシエがこの作品を成功させたか疑っています。"
+      }
+    ]
+  },
+  {
+    "id": "gram_non_finite_forms",
+    "category": "Grammar",
+    "level": "C1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Non-finite Verb Forms: Infinitive, Participles and Gérondif (Les Formes Non Personnelles du Verbe)",
+      "explanation_ja": "非定形動詞（Formes non personnelles）とは、主語によって活用されない動詞の形を指します。主な種類は、不定詞（Infinitif）、現在分詞（Participe présent）、過去分詞（Participe passé）、ジェロンディフ（Gérondif）です。不定詞は動詞の基本形で、レシピの手順、目的、命令的な表現で頻繁に使われます。現在分詞は「〜している状態」や同時進行を表し、文章を簡潔にします。過去分詞は複合時制や受動表現を作るための重要な形です。ジェロンディフはen＋現在分詞で、「〜しながら」「〜することで」という意味を表します。料理書、レシピ、厨房マニュアルではこれらの形が非常によく使われます。",
+      "explanation_en": "Non-finite verb forms are verb forms that do not change according to the subject. The main forms are the infinitive, present participle, past participle, and gerund (Gérondif). The infinitive is used for recipe instructions, purposes, and general actions. The present participle describes simultaneous actions or states. The past participle is essential for compound tenses and passive constructions. The gerund (en + present participle) expresses simultaneous actions or methods. These forms are especially common in recipes, culinary books, and kitchen manuals."
+    },
+    "examples": [
+      {
+        "fr": "Ajouter le sel progressivement permet de mieux contrôler l'assaisonnement.",
+        "en": "Adding salt gradually allows better control of seasoning.",
+        "ja": "塩を少しずつ加えることで、味付けをより調整しやすくなります。"
+      },
+      {
+        "fr": "Les légumes coupés sont prêts à être cuisinés.",
+        "en": "The cut vegetables are ready to be cooked.",
+        "ja": "切られた野菜は調理する準備ができています。"
+      },
+      {
+        "fr": "En mélangeant doucement la sauce, le chef obtient une texture homogène.",
+        "en": "By mixing the sauce gently, the chef obtains a homogeneous texture.",
+        "ja": "ソースを優しく混ぜることで、シェフは均一な食感を作り出します。"
+      }
+    ]
   }
 ]

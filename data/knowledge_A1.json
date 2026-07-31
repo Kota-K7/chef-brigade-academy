@@ -165,7 +165,8 @@
         "en": "Your grandmother's recipe was very simple.",
         "ja": "あなたの祖母のレシピはとてもシンプルでした。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_addition",
@@ -187,7 +188,8 @@
         "en": "I would like the bill, please.",
         "ja": "お会計をお願いします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_apporter",
@@ -209,7 +211,8 @@
         "en": "The waiter brings the menu.",
         "ja": "ウェイターがメニューを持ってきます。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_aperitif",
@@ -231,7 +234,8 @@
         "en": "We have an aperitif in the living room with black olives.",
         "ja": "私たちはリビングで黒オリーブをつまみながらアペリティフ（食前酒）をいただきます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bar",
@@ -253,7 +257,8 @@
         "en": "We can have a drink at the bar before dining.",
         "ja": "夕食の前にバーで一杯飲むことができます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bistro",
@@ -274,7 +279,8 @@
         "en": "This Parisian bistro offers an excellent homemade steak and fries.",
         "ja": "このパリのビストロは、素晴らしい自家製のステーキフリットを提供しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_boisson",
@@ -295,7 +301,8 @@
         "en": "What drink would you like to have?",
         "ja": "お飲み物は何になさいますか？"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_boucherie",
@@ -316,7 +323,8 @@
         "en": "I buy a roast beef at the neighborhood butcher shop.",
         "ja": "私は近所の肉屋（ブシュリー）でローストビーフ用の牛肉を購入します。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_bouteille_d_eau",
@@ -338,7 +346,8 @@
         "en": "Bring a bottle of cold water for table eight.",
         "ja": "8番テーブルに冷たいボトルの水を持って行ってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_brasserie",
@@ -359,7 +368,8 @@
         "en": "On Sundays, the brasserie is full of neighborhood families.",
         "ja": "日曜日、そのブラッスリーは地元の家族連れでいっぱいです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_caisse",
@@ -381,7 +391,8 @@
         "en": "Payment is made directly at the register.",
         "ja": "お支払いはレジにて直接お願いいたします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_carte",
@@ -402,7 +413,8 @@
         "en": "The customer consults the menu to order.",
         "ja": "お客様は注文するためにメニュー（アラカルト）をチェックしています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_carte_bancaire",
@@ -424,7 +436,8 @@
         "en": "Can I pay with my credit card? - Of course.",
         "ja": "クレジットカードで支払えますか？ - もちろんです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_chaise",
@@ -446,7 +459,8 @@
         "en": "There are four chairs around the round table.",
         "ja": "円卓の周りに4脚の椅子があります。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cheque",
@@ -468,7 +482,8 @@
         "en": "Can we pay by check? - Yes, it is possible.",
         "ja": "小切手で支払うことは可能ですか？ - はい、可能です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_client",
@@ -490,7 +505,8 @@
         "en": "The customer is waiting for his order.",
         "ja": "お客様が注文を待っています。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_commander",
@@ -511,7 +527,8 @@
         "en": "I order a vegetable soup.",
         "ja": "私は野菜スープを注文します。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_comptoir",
@@ -533,7 +550,8 @@
         "en": "The customers drink their coffee directly at the counter.",
         "ja": "お客様はカウンターで直接コーヒーを飲まれます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_dessert",
@@ -554,7 +572,8 @@
         "en": "The dessert that you bought is delicious.",
         "ja": "あなたが買ったデザートは美味しいです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_digestif",
@@ -576,7 +595,8 @@
         "en": "The waiter offers a local digestif to close the meal.",
         "ja": "ウェイターは食事の締めくくりに地元の食後酒（ディジェスティフ）を提案します。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_entree",
@@ -597,7 +617,8 @@
         "en": "As a starter, we offer onion soup.",
         "ja": "前菜として、オニオンスープをご用意しております。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_especes",
@@ -619,7 +640,8 @@
         "en": "We only accept cash at the register.",
         "ja": "当レジ（会計所）では現金のみのお取り扱いとなっております。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_menu",
@@ -640,7 +662,8 @@
         "en": "Would you like to see the menu?",
         "ja": "メニューをご覧になりますか？"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_monnaie",
@@ -662,7 +685,8 @@
         "en": "Here is your change from the bill.",
         "ja": "こちらがお会計のお釣りになります。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_nappe",
@@ -683,7 +707,8 @@
         "en": "There is a white tablecloth on the table.",
         "ja": "テーブルの上に白いテーブルクロスがあります。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_note",
@@ -704,7 +729,8 @@
         "en": "Please check the bill before cashing out.",
         "ja": "お会計を受け取る（レジに入れる）前に伝票を確認してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_payer",
@@ -726,7 +752,8 @@
         "en": "I would like to pay the bill.",
         "ja": "お会計を支払いたいです。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_pique_nique",
@@ -747,7 +774,8 @@
         "en": "We prepare sandwiches and fruit for the picnic.",
         "ja": "私たちはピクニック用にサンドイッチとフルーツを用意しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plat",
@@ -768,7 +796,8 @@
         "en": "This dish is more expensive than that one.",
         "ja": "この料理はあちらの料理より値段が高いです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plat_du_jour",
@@ -789,7 +818,8 @@
         "en": "Today's special is grilled fish.",
         "ja": "本日の日替わり料理は焼き魚（グリルの魚料理）です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plat_principal",
@@ -810,7 +840,8 @@
         "en": "Tonight's main course is a roast lamb.",
         "ja": "今夜のメインディッシュは子羊のローストです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plateau",
@@ -832,7 +863,8 @@
         "en": "The waiter carries the glasses on a tray.",
         "ja": "ウェイターがトレイに乗せてグラスを運びます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_poissonnerie",
@@ -853,7 +885,8 @@
         "en": "We find very fresh shrimp at the fish market.",
         "ja": "魚屋（ポワソヌリー）に行くと、とても新鮮なエビが売っています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_patisserie",
@@ -875,7 +908,8 @@
         "en": "We buy a large mille-feuille at the pastry shop on Sundays.",
         "ja": "私たちは日曜日にケーキ屋（パティスリー）で大きなミルフィーユを買います。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_reservation",
@@ -896,7 +930,8 @@
         "en": "Do you have a reservation for tonight?",
         "ja": "今夜のご予約はございますか？"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_salle",
@@ -918,7 +953,8 @@
         "en": "The waiter works mainly in the dining room.",
         "ja": "ウェイターは主に客席（ホール）で仕事をします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_serviette",
@@ -939,7 +975,8 @@
         "en": "Take a napkin, please.",
         "ja": "ナプキンを取ってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_servir",
@@ -961,7 +998,8 @@
         "en": "The fish must be served hot immediately.",
         "ja": "魚料理は熱いうちにすぐに提供しなければなりません。"
       }
-    ]
+    ],
+    "verb_group": 3
   },
   {
     "id": "vocab_table",
@@ -983,7 +1021,8 @@
         "en": "I would like a table by the fireplace.",
         "ja": "暖炉のそばのテーブルをお願いします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_terrasse",
@@ -1005,7 +1044,8 @@
         "en": "I would like a table on the terrace, please.",
         "ja": "テラス席をお願いします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_toilettes",
@@ -1026,7 +1066,8 @@
         "en": "The restrooms are down the hall on the right.",
         "ja": "お手洗いは廊下の奥の右側にございます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_aiguiser",
@@ -1047,7 +1088,8 @@
         "en": "You must sharpen your knife before cutting the meat.",
         "ja": "肉を切る前に包丁を研ぐ必要があります。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_farcir",
@@ -1068,7 +1110,8 @@
         "en": "Chop the parsley and stuff the turkey!",
         "ja": "パセリを刻んで、七面鳥に詰め物をしてください！"
       }
-    ]
+    ],
+    "verb_group": 2
   },
   {
     "id": "vocab_fouetter",
@@ -1090,7 +1133,8 @@
         "en": "You have to whip the cream to make chantilly cream.",
         "ja": "シャンティイ・クリーム（ホイップクリーム）を作るには、クリームを泡立てる必要があります。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_laver_les_mains",
@@ -1112,7 +1156,8 @@
         "en": "You must wash your hands before entering the kitchen.",
         "ja": "厨房に入る前に手を洗わなければいけません。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_nettoyer",
@@ -1134,7 +1179,8 @@
         "en": "Please clean table number four.",
         "ja": "4番のテーブルをきれいに掃除してください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_poivrer",
@@ -1156,7 +1202,8 @@
         "en": "I forgot to pepper the steak.",
         "ja": "ステーキに胡椒を振るのを忘れました。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_poeler",
@@ -1177,7 +1224,8 @@
         "en": "Pan-fry the salmon fillet skin-side down.",
         "ja": "サーモンの切り身を皮目を下にしてフライパンで焼いてください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_presser",
@@ -1198,7 +1246,8 @@
         "en": "She squeezed the orange by hand.",
         "ja": "彼女は手でオレンジを絞りました。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_prechauffer",
@@ -1220,7 +1269,8 @@
         "en": "You must preheat the oven before starting the cake.",
         "ja": "ケーキを作り始める前にオーブンを予熱する必要があります。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_rincer",
@@ -1242,7 +1292,8 @@
         "en": "He is rinsing the salad.",
         "ja": "彼はサラダ（レタス）を洗っています。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_rotir",
@@ -1263,7 +1314,8 @@
         "en": "I roasted vegetables in the oven.",
         "ja": "オーブンで野菜をローストしました。"
       }
-    ]
+    ],
+    "verb_group": 2
   },
   {
     "id": "vocab_saler",
@@ -1285,7 +1337,8 @@
         "en": "He always oversalts his dishes.",
         "ja": "彼はいつも料理に塩をかけすぎます。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_trancher",
@@ -1307,7 +1360,8 @@
         "en": "Slice the bread before serving it.",
         "ja": "提供する前にパンをスライスして。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_tremper",
@@ -1328,7 +1382,8 @@
         "en": "He soaked the bread in his coffee.",
         "ja": "彼はコーヒーにパンを浸しました。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_verser",
@@ -1349,7 +1404,8 @@
         "en": "Pour the batter into the pan.",
         "ja": "型に生地を注いで。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_etaler",
@@ -1371,7 +1427,8 @@
         "en": "Roll out the dough with a rolling pin.",
         "ja": "麺棒で生地を平らに伸ばしてください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_boucher",
@@ -1393,7 +1450,8 @@
         "en": "Buy the meat at the butcher's.",
         "ja": "肉屋で肉を買ってください。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_boulanger",
@@ -1415,7 +1473,8 @@
         "en": "The baker prepares the bread in the morning.",
         "ja": "パン職人は朝にパンを準備します。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_chef",
@@ -1437,7 +1496,8 @@
         "en": "Yes, Chef!",
         "ja": "はい、シェフ！"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_chef_de_cuisine",
@@ -1458,7 +1518,8 @@
         "en": "The head chef designs the new seasonal menu.",
         "ja": "総料理長（シェフ・ド・キュイジーヌ）は新しい季節のメニューを考案します。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cuisine",
@@ -1480,7 +1541,8 @@
         "en": "He works in the kitchen of a great restaurant.",
         "ja": "彼は大きなレストランの厨房で働いています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cuisinier",
@@ -1502,7 +1564,8 @@
         "en": "The cook prepares the meal.",
         "ja": "料理人が食事を準備します。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_mise_en_place",
@@ -1546,7 +1609,8 @@
         "en": "The pastry chef makes very good cakes.",
         "ja": "そのパティシエはとても美味しいケーキを作ります。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_serveur",
@@ -1568,7 +1632,8 @@
         "en": "The waiter brings a plate.",
         "ja": "ウェイターが皿を運んできます。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_assiette",
@@ -1589,7 +1654,8 @@
         "en": "Plate the food (Arrange the plates).",
         "ja": "皿に盛り付ける。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_bol",
@@ -1611,7 +1677,8 @@
         "en": "She mixes all the ingredients in a large bowl.",
         "ja": "彼女は大きなボウルで全ての材料を混ぜます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bouteille",
@@ -1632,7 +1699,8 @@
         "en": "Bring a bottle of red wine to table five.",
         "ja": "5番テーブルに赤ワインのボトルを1本持っていってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_carafe",
@@ -1654,7 +1722,8 @@
         "en": "Please fill the carafe with cold water.",
         "ja": "カラフェに冷たい水を入れてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_casserole",
@@ -1675,7 +1744,8 @@
         "en": "Heat the water in the saucepan.",
         "ja": "片手鍋で水を温めてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_chambre_froide",
@@ -1696,7 +1766,8 @@
         "en": "Store fresh vegetables in the cold room.",
         "ja": "新鮮な野菜を冷蔵室（コールドルーム）に収納してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_congelateur",
@@ -1717,7 +1788,8 @@
         "en": "Put the ice cream in the freezer.",
         "ja": "アイスクリームを冷凍庫に入れてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_couteau",
@@ -1738,7 +1810,8 @@
         "en": "He chopped the herbs with a sharp knife.",
         "ja": "彼はよく切れる包丁でハーブを刻みました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_couteau_de_cuisine",
@@ -1759,7 +1832,8 @@
         "en": "Clean your kitchen knife after each use.",
         "ja": "使用後は毎回、料理用包丁をきれいに洗ってください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_couteau_de_table",
@@ -1780,7 +1854,8 @@
         "en": "Place the table knife to the right of the plate.",
         "ja": "お皿の右側にテーブルナイフを配置してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cuillere",
@@ -1801,7 +1876,8 @@
         "en": "A spoon of sugar is enough.",
         "ja": "スプーン1杯の砂糖で十分です。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cuillere_a_cafe",
@@ -1822,7 +1898,8 @@
         "en": "Put a teaspoon of baking powder.",
         "ja": "ベーキングパウダーを小さじ1杯入れてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cuillere_a_soupe",
@@ -1843,7 +1920,8 @@
         "en": "Add two tablespoons of olive oil.",
         "ja": "オリーブオイルを大さじ2杯加えてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cul_de_poule",
@@ -1886,7 +1964,8 @@
         "en": "You must preheat the oven before starting.",
         "ja": "始める前にオーブンを予熱する必要があります。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_fourchette",
@@ -1907,7 +1986,8 @@
         "en": "Crush the potatoes with a fork.",
         "ja": "フォークでじゃがいもを潰して。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_fourchette_de_table",
@@ -1928,7 +2008,8 @@
         "en": "Put the table fork to the left of the plate.",
         "ja": "お皿の左側にテーブルフォークを置いてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_fourneau",
@@ -1949,7 +2030,8 @@
         "en": "Clean the kitchen stove at the end of the service.",
         "ja": "サービスの終了時にガスレンジ（コンロ）を清掃してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_gant_de_cuisine",
@@ -1970,7 +2052,8 @@
         "en": "Use the oven mitt to take the dish out of the oven.",
         "ja": "オーブンから皿を取り出すにはオーブンミトンを使用してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_lave_vaisselle",
@@ -1992,7 +2075,8 @@
         "en": "Fill the dishwasher after service.",
         "ja": "サービス（営業）終了後に、食洗機に食器を詰め込んでください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_louche",
@@ -2013,7 +2097,8 @@
         "en": "Serve the soup with a ladle.",
         "ja": "お玉でスープをよそってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_minuteur",
@@ -2034,7 +2119,8 @@
         "en": "Set the timer to fifteen minutes.",
         "ja": "タイマーを15分に設定してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_moule_a_gateau",
@@ -2055,7 +2141,8 @@
         "en": "Butter the cake mold before pouring the batter.",
         "ja": "生地を流し込む前にケーキ型にバターを塗ってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_ouvre_boite",
@@ -2077,7 +2164,8 @@
         "en": "Where is the can opener stored in the drawers?",
         "ja": "引き出しの中のどこに缶切りがしまってありますか？"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plaque_de_cuisson",
@@ -2099,7 +2187,8 @@
         "en": "Place the pan on the hot cooktop.",
         "ja": "片手鍋を温まったコンロ（調理プレート）の上に置いてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_plat_de_service",
@@ -2120,7 +2209,8 @@
         "en": "Arrange the meat on a large serving platter.",
         "ja": "大きめの盛り皿に肉料理を盛り付けてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_plat_a_four",
@@ -2142,7 +2232,8 @@
         "en": "Arrange the chopped vegetables in the hot baking dish.",
         "ja": "カットした野菜を熱いオーブン皿（プラ・タ・フル）に並べてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_poubelle",
@@ -2163,7 +2254,8 @@
         "en": "Throw the potato peels into the trash can.",
         "ja": "じゃがいもの皮はゴミ箱に捨ててください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_poele",
@@ -2184,7 +2276,8 @@
         "en": "She sautéed the onions in the pan.",
         "ja": "彼女はフライパンで玉ねぎを炒めました。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_presse_agrume",
@@ -2206,7 +2299,8 @@
         "en": "Squeeze the lemon with a citrus juicer.",
         "ja": "レモン搾り器（プレス・アグリューム）でレモンを搾ってください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_refrigerateur",
@@ -2227,7 +2321,8 @@
         "en": "There is nothing left in the fridge.",
         "ja": "冷蔵庫にはもう何も残っていません。"
       }
-    ]
+    ],
+    "gender": "m/f"
   },
   {
     "id": "vocab_savon",
@@ -2248,7 +2343,8 @@
         "en": "Wash your hands with antibacterial soap.",
         "ja": "抗菌石鹸を使って手を洗ってください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_tasse",
@@ -2269,7 +2365,8 @@
         "en": "I would like a cup of tea.",
         "ja": "紅茶を一杯お願いします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_thermometre",
@@ -2290,7 +2387,8 @@
         "en": "Check the sugar temperature with a kitchen thermometer.",
         "ja": "砂糖の加熱温度（糖度・状態）を製菓用温度計で管理してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_tire_bouchon",
@@ -2312,7 +2410,8 @@
         "en": "The sommelier uses his corkscrew to open the red wine bottle.",
         "ja": "ソムリエは赤ワインのボトルを開けるためにコルク抜き（ソムリエナイフ）を使用します。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_toque",
@@ -2333,7 +2432,8 @@
         "en": "Wearing a chef hat is mandatory in the kitchen.",
         "ja": "厨房内でのコック帽の着用は義務付けられています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_torchon",
@@ -2354,7 +2454,8 @@
         "en": "Take a dry kitchen towel to carry this hot pan.",
         "ja": "その熱い片手鍋を運ぶために乾いたトーションを使用してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_verre",
@@ -2375,7 +2476,8 @@
         "en": "She measured the milk with a measuring cup.",
         "ja": "彼女は計量カップ（計量グラス）で牛乳を計りました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_verre_a_eau",
@@ -2396,7 +2498,8 @@
         "en": "Fill the customer's water glass.",
         "ja": "お客様のお水用グラスを満たしてください（お水を注いでください）。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_verre_a_vin",
@@ -2417,7 +2520,8 @@
         "en": "Please bring two clean wine glasses.",
         "ja": "きれいなワイングラスを2個持ってきてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_veste_de_cuisine",
@@ -2438,7 +2542,8 @@
         "en": "The chef jacket protects against burns.",
         "ja": "コックコートは火傷から身体を守ります。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_eplucheur",
@@ -2460,7 +2565,8 @@
         "en": "Use the peeler to peel the potatoes.",
         "ja": "ジャガイモの皮をむくためにピーラー（皮むき器）を使用してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_eponge",
@@ -2481,7 +2587,8 @@
         "en": "Wipe the sponge on the workspace after each task.",
         "ja": "毎回の作業後に作業台をスポンジできれいに拭いてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_abricot",
@@ -2502,7 +2609,8 @@
         "en": "The chef is preparing an apricot tart.",
         "ja": "シェフはアプリコットタルトを作っています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_acheter",
@@ -2523,7 +2631,8 @@
         "en": "You buy a kilo of beans.",
         "ja": "あなたは1キロのインゲン豆を買います。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_acide",
@@ -2564,7 +2673,8 @@
         "en": "An English-style lamb stew.",
         "ja": "イギリス風の子羊のラグー（煮込み）。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_ail",
@@ -2586,7 +2696,8 @@
         "en": "Do not put garlic in the sauce.",
         "ja": "ソースにニンニクを入れないでください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_ajouter",
@@ -2607,7 +2718,8 @@
         "en": "You need to add the eggs one at a time.",
         "ja": "卵を一つずつ加える必要があります。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_amer",
@@ -2648,7 +2760,8 @@
         "en": "Fresh pineapple brings an exotic touch to the salad.",
         "ja": "新鮮なパイナップルはサラダにエキゾチックなタッチをもたらします。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_anchois",
@@ -2669,7 +2782,8 @@
         "en": "The pissaladière is garnished with onions and anchovies.",
         "ja": "ピサラディエール（プロヴァンス風ピザ）にはタマネギとアンチョビがトッピングされています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_aneth",
@@ -2691,7 +2805,8 @@
         "en": "Fresh dill beautifully decorates the marinated salmon.",
         "ja": "新鮮なディル（アネット）は、マリネしたサーモンを美しくデコレーションします。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_asperge",
@@ -2712,7 +2827,8 @@
         "en": "Green asparagus pairs well with a hollandaise sauce.",
         "ja": "グリーンアスパラガスはオランデーズソースとよく合います。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_au_revoir",
@@ -2733,7 +2849,8 @@
         "en": "Goodbye and thank you for your service.",
         "ja": "さようなら、そして良いサービスをありがとうございました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_aubergine",
@@ -2754,7 +2871,8 @@
         "en": "Eggplant is a key ingredient of ratatouille.",
         "ja": "ナスはラタトゥイユの重要な具材です。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_avocat",
@@ -2776,7 +2894,8 @@
         "en": "He is preparing a starter with avocado and shrimp.",
         "ja": "彼はアボカドと小エビを使った前菜（アントレ）を用意しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_baguette",
@@ -2798,7 +2917,8 @@
         "en": "Buy a hot baguette at the bakery.",
         "ja": "パン屋で温かいバゲットを1本買ってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_banane",
@@ -2819,7 +2939,8 @@
         "en": "Cut the banana into slices for the fruit salad.",
         "ja": "フルーツサラダ用にバナナを輪切りにしてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_basilic",
@@ -2841,7 +2962,8 @@
         "en": "The caprese salad contains tomato, mozzarella, and basil.",
         "ja": "カプレーゼサラダにはトマト、モッツァレラ、バジルが入っています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_beurre",
@@ -2863,7 +2985,8 @@
         "en": "Incorporate the cold butter while whisking continuously.",
         "ja": "絶えず泡立てながら冷たいバターを混ぜ込んでください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bien_sur",
@@ -2905,7 +3028,8 @@
         "en": "I would like my steak cooked medium, please.",
         "ja": "私のステーキ（ビフテキ）はミディアム（a point）でお願いします。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_biscuit",
@@ -2927,7 +3051,8 @@
         "en": "She has a dry biscuit with her coffee.",
         "ja": "彼女はコーヒーと一緒に乾燥焼き菓子を1個食べます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_biere",
@@ -2949,7 +3074,8 @@
         "en": "The customer orders a very cold lager beer.",
         "ja": "お客様はとてもよく冷えた生ビール（ラガービール）を注文しています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_boire",
@@ -2970,7 +3096,8 @@
         "en": "White wine is drunk chilled.",
         "ja": "白ワインは冷やして飲まれます。"
       }
-    ]
+    ],
+    "verb_group": 3
   },
   {
     "id": "vocab_bon",
@@ -3012,7 +3139,8 @@
         "en": "Here is your beef plate. Enjoy your meal!",
         "ja": "牛肉のお皿です。どうぞ召し上がれ！"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bonjour",
@@ -3033,7 +3161,8 @@
         "en": "Hello chef, how are you?",
         "ja": "シェフ、おはようございます。お元気ですか？"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_bonsoir",
@@ -3054,7 +3183,8 @@
         "en": "Good evening, welcome to our restaurant.",
         "ja": "こんばんは、私たちのレストランへようこそ。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_brioche",
@@ -3077,7 +3207,8 @@
         "en": "The French toast brioche is served caramelized with ice cream.",
         "ja": "ブリオッシュのフレンチトースト（brioche perdue）はキャラメリゼされ、アイスクリームを添えて提供されます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_brocoli",
@@ -3098,7 +3229,8 @@
         "en": "Broccoli goes very well with roasted chicken.",
         "ja": "ブロッコリーはローストチキンの付け合わせにとてもよく合います。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_boeuf",
@@ -3119,7 +3251,8 @@
         "en": "The beef Burgundy has been stewing since this morning.",
         "ja": "ブッフ・ブルギニョンは今朝から煮込まれています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cabillaud",
@@ -3140,7 +3273,8 @@
         "en": "The cod loin is steam-cooked.",
         "ja": "タラの背身（dos de cabillaud）はスチーム（蒸し）調理されます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cafe",
@@ -3161,7 +3295,8 @@
         "en": "Do you take sugar in your coffee?",
         "ja": "コーヒーに砂糖は入れますか？"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_calamar",
@@ -3182,7 +3317,8 @@
         "en": "He loves to eat fried squid rings.",
         "ja": "彼はイカのフリット（ベニエ）を食べるのが大好きです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_canard",
@@ -3203,7 +3339,8 @@
         "en": "The duck breast is served medium-rare.",
         "ja": "マグレ・ド・カナール（鴨の胸肉）はロゼ（ミディアムレア）で提供されます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cannelle",
@@ -3225,7 +3362,8 @@
         "en": "Add some powdered cinnamon on the cooked apples.",
         "ja": "焼きリンゴにシナモンパウダーを少しふってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_carotte",
@@ -3247,7 +3385,8 @@
         "en": "Dice the carrots for the soup.",
         "ja": "スープ用に人参を角切りにしてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cerise",
@@ -3268,7 +3407,8 @@
         "en": "The chef decorates the cake with a candied cherry.",
         "ja": "シェフはケーキを砂糖漬けのサクランボでデコレーションします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_champignon",
@@ -3289,7 +3429,8 @@
         "en": "She is eating a mushroom omelet.",
         "ja": "彼女はマッシュルームオムレツを食べています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_chaud",
@@ -3331,7 +3472,8 @@
         "en": "Heat the pan with a little oil.",
         "ja": "少量の油でフライパンを温めてください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_chocolat",
@@ -3353,7 +3495,8 @@
         "en": "He melts the dark chocolate in a double boiler.",
         "ja": "彼は湯煎でブラックチョコレートを溶かしています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_chocolat_chaud",
@@ -3374,7 +3517,8 @@
         "en": "In winter, a good homemade hot chocolate warms the body.",
         "ja": "冬には、美味しい自家製のホットチョコレート（ショコラ・ショー）が体を温めてくれます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_chou",
@@ -3395,7 +3539,8 @@
         "en": "Cut the cabbage into thin strips.",
         "ja": "キャベツを細切りにしてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_chou_fleur",
@@ -3416,7 +3561,8 @@
         "en": "Cook the cauliflower florets in the steamer.",
         "ja": "カリフラワーの小房をスチーマーで蒸し焼き（加熱）にしてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_cidre",
@@ -3437,7 +3583,8 @@
         "en": "Cider traditionally accompanies Breton crepes.",
         "ja": "シードルは伝統的にブルターニュ風クレープ（ガレット）によく合わせられます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_citron",
@@ -3458,7 +3605,8 @@
         "en": "Add a little lemon juice.",
         "ja": "レモン汁を少し加えてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_citron_vert",
@@ -3480,7 +3628,8 @@
         "en": "Add lime juice to the cocktail.",
         "ja": "カクテルにライムの果汁を加えてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_citrouille",
@@ -3501,7 +3650,8 @@
         "en": "In autumn, we prepare a hot pumpkin soup.",
         "ja": "秋には、温かいカボチャのポタージュ（ヴルーテ）を用意します。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_concombre",
@@ -3522,7 +3672,8 @@
         "en": "Cut the cucumber into thin slices.",
         "ja": "きゅうりを薄い輪切りにスライスしてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_confiture",
@@ -3544,7 +3695,8 @@
         "en": "She spreads strawberry jam on her toast.",
         "ja": "彼女はトーストにイチゴジャムを塗っています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_copieux",
@@ -3585,7 +3737,8 @@
         "en": "The scallops are pan-seared in butter sauce.",
         "ja": "ホタテ貝（コキーユ・サンジャック）はブールブランソースでソテー（ポワレ）されます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_coriandre",
@@ -3607,7 +3760,8 @@
         "en": "Add freshly chopped coriander at the last minute.",
         "ja": "仕上げの直前に、刻んだ新鮮なコリアンダー（パクチー）を加えてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_couper",
@@ -3629,7 +3783,8 @@
         "en": "Cut the tomatoes in half.",
         "ja": "トマトを半分に切って。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_courgette",
@@ -3650,7 +3805,8 @@
         "en": "The chef sautés the zucchini in olive oil.",
         "ja": "シェフはズッキーニをオリーブオイルでソテーします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_crabe",
@@ -3671,7 +3827,8 @@
         "en": "The chef is preparing a fresh crab salad.",
         "ja": "シェフは新鮮なカニのサラダを用意しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_crevette",
@@ -3693,7 +3850,8 @@
         "en": "Add peeled shrimp to the salad.",
         "ja": "殻をむいたエビをサラダに加えてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_croissant",
@@ -3715,7 +3873,8 @@
         "en": "I eat a croissant with my coffee in the morning.",
         "ja": "朝、コーヒーと一緒にクロワッサンを食べます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_croquant",
@@ -3777,7 +3936,8 @@
         "en": "I eat a sweet chocolate crepe for afternoon snack.",
         "ja": "おやつ（グーテ）に甘いチョコレートクレープを食べます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_cuire",
@@ -3798,7 +3958,8 @@
         "en": "I prefer to steam vegetables.",
         "ja": "野菜は蒸して調理するのが好きです。"
       }
-    ]
+    ],
+    "verb_group": 3
   },
   {
     "id": "vocab_curry",
@@ -3820,7 +3981,8 @@
         "en": "The curry chicken is served very hot with rice.",
         "ja": "チキンカレー（poulet au curry）は、ご飯を添えてとても温かい状態で提供されます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_d_accord",
@@ -3863,7 +4025,8 @@
         "en": "Roast turkey is traditionally served at Christmas.",
         "ja": "ローストターキー（七面鳥のロースト）は伝統的にクリスマスに提供されます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_donner",
@@ -3885,7 +4048,8 @@
         "en": "Give me the salt.",
         "ja": "塩をちょうだい（私に渡して）。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_deguster",
@@ -3906,7 +4070,8 @@
         "en": "We are going to taste these Burgundy wines.",
         "ja": "私たちはこれらのブルゴーニュワインをじっくり味わいます。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_delicieux",
@@ -3948,7 +4113,8 @@
         "en": "I would like some bread and mineral water.",
         "ja": "パンとミネラルウォーターを少しください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_eau_gazeuse",
@@ -3969,7 +4135,8 @@
         "en": "Serve the sparkling water with a slice of lemon.",
         "ja": "炭酸水にレモンのスライスを添えて提供してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_eau_minerale",
@@ -3990,7 +4157,8 @@
         "en": "Would you like still or sparkling mineral water?",
         "ja": "炭酸なしと炭酸入りのミネラルウォーター、どちらにいたしますか？"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_eau_plate",
@@ -4011,7 +4179,8 @@
         "en": "Would you like still water or sparkling water?",
         "ja": "普通の水（ガスなし）と炭酸水（ガスあり）のどちらにいたしますか？"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_enchante",
@@ -4054,7 +4223,8 @@
         "en": "Chopped tarragon flavors the classic béarnaise sauce.",
         "ja": "刻んだエストラゴンは、クラシックなベアルネーズソースの香りを引き立てます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_excusez_moi",
@@ -4097,7 +4267,8 @@
         "en": "Do you need flour? - Yes, give me some.",
         "ja": "小麦粉が必要ですか？ - はい、少しください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_feu",
@@ -4118,7 +4289,8 @@
         "en": "Turn down the heat under the saucepan.",
         "ja": "片手鍋の下の火力を弱めて（弱火にして）ください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_flan",
@@ -4140,7 +4312,8 @@
         "en": "The traditional pastry flan is a great French classic.",
         "ja": "伝統的なフラン・パティシエはフランスの代表的な定番洋菓子です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_fondant",
@@ -4202,7 +4375,8 @@
         "en": "The strawberry tart is ready.",
         "ja": "イチゴタルトの準備ができました。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_froid",
@@ -4244,7 +4418,8 @@
         "en": "I chose a very good cheese.",
         "ja": "私はとても美味しいチーズを選びました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_fruit",
@@ -4265,7 +4440,8 @@
         "en": "Cut the fruits into small pieces.",
         "ja": "果物を小さく切ってください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_gaufre",
@@ -4287,7 +4463,8 @@
         "en": "Would you like powdered sugar on your waffle?",
         "ja": "ワッフルに粉砂糖（シュガーパウダー）をかけますか？"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_gingembre",
@@ -4309,7 +4486,8 @@
         "en": "Grate some fresh ginger to flavor the marinade.",
         "ja": "マリネ液の風味づけに新鮮なショウガを少しすりおろしてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_glace",
@@ -4331,7 +4509,8 @@
         "en": "Add two scoops of vanilla ice cream to the tart.",
         "ja": "タルトの上にバニラアイスクリームを2スクープ乗せてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_gout",
@@ -4352,7 +4531,8 @@
         "en": "This soup has a very strong mushroom taste.",
         "ja": "このスープはマッシュルームの味がとても強くします。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_gouter",
@@ -4373,7 +4553,8 @@
         "en": "I tasted the dish before serving it.",
         "ja": "提供する前に料理の味見をしました。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_grand",
@@ -4436,7 +4617,8 @@
         "en": "Add coarse salt to the cooking water.",
         "ja": "茹でる用の（加熱調理用の）水に粗塩を加えてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_gateau",
@@ -4458,7 +4640,8 @@
         "en": "The chef prepares a big cake for the birthday.",
         "ja": "シェフは誕生日のために大きなケーキを準備しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_haricot",
@@ -4479,7 +4662,8 @@
         "en": "We are preparing green beans with butter.",
         "ja": "インゲン豆のバター和え（ソテー）を準備しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_herbe",
@@ -4501,7 +4685,8 @@
         "en": "Add fresh herbs at the end of plating.",
         "ja": "盛り付けの最後に新鮮なハーブを添えて（加えて）ください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_heure",
@@ -4522,7 +4707,8 @@
         "en": "What time is it in the kitchen?",
         "ja": "厨房では今何時ですか？"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_homard",
@@ -4543,7 +4729,8 @@
         "en": "The grilled Breton lobster is a high-end dish.",
         "ja": "ブルターニュ産オマール海老のグリルは最高級（ハイエンド）料理です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_huile",
@@ -4565,7 +4752,8 @@
         "en": "Heat some olive oil in the pan.",
         "ja": "フライパンでオリーブオイルを熱してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_huile_d_olive",
@@ -4587,7 +4775,8 @@
         "en": "Drizzle the tomatoes with a stream of olive oil.",
         "ja": "トマトにオリーブオイルをひと回しかけてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_huitre",
@@ -4608,7 +4797,8 @@
         "en": "We serve fresh oysters with lemon.",
         "ja": "新鮮な生牡蠣はレモンを添えて提供します。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_jambon",
@@ -4630,7 +4820,8 @@
         "en": "Add a slice of ham to your sandwich.",
         "ja": "サンドイッチにハムを1枚挟んでください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_jour",
@@ -4651,7 +4842,8 @@
         "en": "I work every day.",
         "ja": "私は毎日働きます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_jus",
@@ -4673,7 +4865,8 @@
         "en": "Cranberry juice brings acidity.",
         "ja": "クランベリーのジュースが酸味を加えます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_lait",
@@ -4695,7 +4888,8 @@
         "en": "She measured the milk with a measuring cup.",
         "ja": "彼女は計量カップで牛乳を計りました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_laitue",
@@ -4716,7 +4910,8 @@
         "en": "Wash the lettuce leaves well before serving.",
         "ja": "提供する前にレタスの葉をよく洗ってください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_lapin",
@@ -4737,7 +4932,8 @@
         "en": "Rabbit with Dijon mustard is a traditional recipe.",
         "ja": "ラパン・ア・ラ・ムータルド（ウサギのディジョンマスタード煮込み）は伝統料理です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_laver",
@@ -4759,7 +4955,8 @@
         "en": "Wash the lettuce.",
         "ja": "レタスを洗って。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_levure",
@@ -4781,7 +4978,8 @@
         "en": "Mix the baker's yeast with lukewarm water.",
         "ja": "パン用酵母（イースト）をぬるま湯と混ぜ合わせてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_limonade",
@@ -4802,7 +5000,8 @@
         "en": "A cold lemonade with ice cubes please.",
         "ja": "氷の入った冷たいレモネードをお願いします。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_legume",
@@ -4823,7 +5022,8 @@
         "en": "Please prepare the vegetables.",
         "ja": "野菜を準備してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_maigre",
@@ -4864,7 +5064,8 @@
         "en": "We are going to eat at the restaurant tonight.",
         "ja": "今夜はレストランで食事をします。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_mangue",
@@ -4885,7 +5086,8 @@
         "en": "She prepares a homemade mango sorbet.",
         "ja": "彼女は自家製のマンゴーシャーベットを作っています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_matin",
@@ -4906,7 +5108,8 @@
         "en": "We get up early in the morning.",
         "ja": "私たちは朝早く起きます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_mayonnaise",
@@ -4928,7 +5131,8 @@
         "en": "Serve the fries with homemade mayonnaise.",
         "ja": "フライドポテトに自家製マヨネーズを添えて提供してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_melon",
@@ -4949,7 +5153,8 @@
         "en": "Serve the fresh melon with raw ham.",
         "ja": "冷たいメロンを生ハムと一緒に提供してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_menthe",
@@ -4971,7 +5176,8 @@
         "en": "Add a few fresh mint leaves to the tea.",
         "ja": "紅茶に新鮮なミントの葉を数枚加えてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_merci",
@@ -5014,7 +5220,8 @@
         "en": "She measured the milk with a measuring cup.",
         "ja": "彼女は計量カップで牛乳を計りました。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_miel",
@@ -5035,7 +5242,8 @@
         "en": "This sauce contains honey to sweeten the taste.",
         "ja": "このソースは味をまろやかにするために蜂蜜が入っています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_minute",
@@ -5056,7 +5264,8 @@
         "en": "Let the fish cook for ten minutes.",
         "ja": "魚を10分間加熱してください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_moelleux",
@@ -5097,7 +5306,8 @@
         "en": "We serve very popular mussels and fries.",
         "ja": "とても人気の高いムール・フリット（ムール貝とフライドポテト）を提供しています。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_moutarde",
@@ -5119,7 +5329,8 @@
         "en": "Add a spoonful of mustard to the vinaigrette.",
         "ja": "ヴィネグレットソースにマスタードをスプーン1杯加えてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_mouton",
@@ -5140,7 +5351,8 @@
         "en": "The mutton stew simmers gently in the pot.",
         "ja": "羊肉の煮込み（ラグー）が鍋の中で静かにコトコト煮えています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_myrtille",
@@ -5161,7 +5373,8 @@
         "en": "Blueberry tart is a mountain specialty.",
         "ja": "ブルーベリータルト（tarte aux myrtilles）は山岳地方の名物です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_melanger",
@@ -5182,7 +5395,8 @@
         "en": "She mixes all the ingredients in a large bowl.",
         "ja": "彼女は大きなボウルで全ての材料を混ぜます。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_navet",
@@ -5203,7 +5417,8 @@
         "en": "Turnip is a traditional ingredient of pot-au-feu.",
         "ja": "カブ（ナヴェ）はポトフの伝統的な具材です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_non",
@@ -5266,7 +5481,8 @@
         "en": "Let the meat marinate overnight.",
         "ja": "肉を一晩マリネ液に漬け込んでおいて。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_odeur",
@@ -5287,7 +5503,8 @@
         "en": "The smell of hot bread is wonderful.",
         "ja": "温かいパンの香りは素晴らしいです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_oignon",
@@ -5309,7 +5526,8 @@
         "en": "I thinly sliced an onion for the soup.",
         "ja": "スープ用に玉ねぎを薄切りにしました。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_orange",
@@ -5330,7 +5548,8 @@
         "en": "In the morning, I drink a fresh orange juice.",
         "ja": "朝、私は新鮮なオレンジジュースを飲みます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_oui",
@@ -5372,7 +5591,8 @@
         "en": "Slice the bread before serving it.",
         "ja": "提供する前にパンをスライスして。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_pamplemousse",
@@ -5393,7 +5613,8 @@
         "en": "Grapefruit is excellent squeezed for breakfast.",
         "ja": "グレープフルーツは朝食に搾りたてを飲むと素晴らしいです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_paprika",
@@ -5415,7 +5636,8 @@
         "en": "Sprinkle a little paprika over the sautéed potatoes.",
         "ja": "ポテトソテーの上にパプリカパウダーを少し振りかけてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_pardon",
@@ -5499,7 +5721,8 @@
         "en": "The pear Belle-Hélène is a classic dessert.",
         "ja": "ポワール・ベル・エレーヌ（洋ナシのチョコレートソースがけ）は古典的なデザートです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_poireau",
@@ -5520,7 +5743,8 @@
         "en": "Leek is indispensable for pot-au-feu.",
         "ja": "ポワロー（西洋ネギ）はポトフに欠かせません。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_poisson",
@@ -5542,7 +5766,8 @@
         "en": "Poach the fish.",
         "ja": "魚をポシェ（低温でゆでる）する。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_poivre",
@@ -5563,7 +5788,8 @@
         "en": "Add a little salt and pepper.",
         "ja": "塩と胡椒を少し加えてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_pomme",
@@ -5584,7 +5810,8 @@
         "en": "I'm going to prepare an apple tart.",
         "ja": "リンゴのタルトを準備します。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_pomme_de_terre",
@@ -5605,7 +5832,8 @@
         "en": "Please peel the potatoes.",
         "ja": "じゃがいもの皮をむいてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_porc",
@@ -5626,7 +5854,8 @@
         "en": "Thin slices of pork belly.",
         "ja": "豚バラ肉の薄切り。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_poulet",
@@ -5648,7 +5877,8 @@
         "en": "I just roasted the chicken.",
         "ja": "たった今、鶏肉をローストしたところです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_preparer",
@@ -5669,7 +5899,8 @@
         "en": "I'm going to prepare an apple tart.",
         "ja": "リンゴのタルトを準備します。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_pates",
@@ -5691,7 +5922,8 @@
         "en": "We are eating fresh pasta tonight.",
         "ja": "今夜は生パスタを食べます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_peche",
@@ -5712,7 +5944,8 @@
         "en": "The vineyard peach is a delight in summer.",
         "ja": "サマーピーチ（桃）は夏のごちそうです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_radis",
@@ -5733,7 +5966,8 @@
         "en": "Serve the radishes with country bread and salted butter.",
         "ja": "ラディッシュを田舎パンと有塩バターと一緒に提供してください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_raisin",
@@ -5754,7 +5988,8 @@
         "en": "Black grapes are used to make red wine.",
         "ja": "黒ブドウは赤ワインを作るために使用されます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_regarder",
@@ -5775,7 +6010,8 @@
         "en": "I look at the menu.",
         "ja": "私はメニューを見ます。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_repas",
@@ -5796,7 +6032,8 @@
         "en": "It's mealtime!",
         "ja": "食事の時間です！"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_riz",
@@ -5818,7 +6055,8 @@
         "en": "I prefer white rice to accompany the fish.",
         "ja": "魚料理の付け合わせには白米の方が好きです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_romarin",
@@ -5840,7 +6078,8 @@
         "en": "Rosemary perfectly flavors the roast lamb.",
         "ja": "ローズマリーはローストしたラム肉（子羊）の香りづけに最適です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_s_il_vous_plait",
@@ -5884,7 +6123,8 @@
         "en": "Saffron gives a beautiful yellow color and a unique scent to bouillabaisse.",
         "ja": "サフランは、ブイヤベースに美しい黄色と独特の香りを与えます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sain",
@@ -5926,7 +6166,8 @@
         "en": "The green salad is served with a vinaigrette dressing.",
         "ja": "グリーンサラダはヴィネグレットソース（ドレッシング）と一緒に提供されます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_sale",
@@ -5968,7 +6209,8 @@
         "en": "Raise your wine glasses. Cheers!",
         "ja": "ワイングラスを上げてください。乾杯！"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_sardine",
@@ -5989,7 +6231,8 @@
         "en": "Grilled sardines are delicious in summer.",
         "ja": "イワシのグリルは夏にとても美味しいです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_sauce",
@@ -6011,7 +6254,8 @@
         "en": "Coat the fish with the hollandaise sauce.",
         "ja": "魚にオランデーズソースをかけて（コーティングして）ください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_saucisse",
@@ -6033,7 +6277,8 @@
         "en": "Grill the sausages on the pan.",
         "ja": "フライパンでソーセージをグリルしてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_saumon",
@@ -6055,7 +6300,8 @@
         "en": "The chef prepares a grilled salmon fillet.",
         "ja": "シェフはサーモンのグリルの切り身を準備しています。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_savoureux",
@@ -6116,7 +6362,8 @@
         "en": "Give me the salt.",
         "ja": "塩をちょうだい。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sel_fin",
@@ -6138,7 +6385,8 @@
         "en": "Season the meat with a pinch of fine salt.",
         "ja": "微細塩をひとつまみ振って肉に味付けをしてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sirop",
@@ -6160,7 +6408,8 @@
         "en": "Grenadine syrup is drunk with very cold water.",
         "ja": "グレナデンシロップはとても冷たい水で割って（希釈して）飲みます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_soir",
@@ -6181,7 +6430,8 @@
         "en": "We are going to eat at the restaurant tonight.",
         "ja": "今夜はレストランで食事をします。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sole",
@@ -6202,7 +6452,8 @@
         "en": "Sole meunière is a great classic of French cuisine.",
         "ja": "シタビラメのムニエル（sole meunière）はフランス料理の偉大な古典です。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_soupe",
@@ -6223,7 +6474,8 @@
         "en": "A hot soup is excellent in winter.",
         "ja": "温かいスープは冬にぴったりです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_sucre",
@@ -6245,7 +6497,8 @@
         "en": "Put and beat the eggs and sugar together.",
         "ja": "卵と砂糖を一緒に入れて混ぜ合わせる。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sucre_en_poudre",
@@ -6267,7 +6520,8 @@
         "en": "Add fifty grams of granulated sugar.",
         "ja": "グラニュー糖を50グラム加えてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_sucre_adj",
@@ -6331,7 +6585,8 @@
         "en": "A Niçoise salad with tuna and hard-boiled eggs.",
         "ja": "マグロ（ツナ）とゆで卵が入ったニース風サラダ。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_the",
@@ -6352,7 +6607,8 @@
         "en": "I prefer to drink green tea in the morning.",
         "ja": "私は朝、緑茶を飲む方が好きです。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_tiede",
@@ -6393,7 +6649,8 @@
         "en": "Cut the tomatoes in half.",
         "ja": "トマトを半分に切って。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_travailler",
@@ -6415,7 +6672,8 @@
         "en": "He works in the kitchen of a great restaurant.",
         "ja": "彼は大きなレストランの厨房で働いています。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_truite",
@@ -6436,7 +6694,8 @@
         "en": "The trout meunière is basted with brown butter.",
         "ja": "マス・ムニエルには焦がしバター（beurre noisette）がかけられます。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_tres_bien",
@@ -6479,7 +6738,8 @@
         "en": "The vanilla ice cream is very fragrant.",
         "ja": "バニラアイスクリームはとても香りが豊かです。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_veau",
@@ -6500,7 +6760,8 @@
         "en": "The veal scallopini is cooked in the pan.",
         "ja": "子牛肉のエスカロップ（薄切り）はフライパンで焼き上げます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_vendre",
@@ -6521,7 +6782,8 @@
         "en": "The butcher sells meat.",
         "ja": "肉屋が肉を売っています。"
       }
-    ]
+    ],
+    "verb_group": 3
   },
   {
     "id": "vocab_viande",
@@ -6543,7 +6805,8 @@
         "en": "Let the meat marinate overnight.",
         "ja": "肉を一晩マリネ液に漬け込んでおいて。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_vin",
@@ -6565,7 +6828,8 @@
         "en": "White wine is drunk chilled.",
         "ja": "白ワインは冷やして飲まれます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_vinaigrette",
@@ -6587,7 +6851,8 @@
         "en": "Mix the vinaigrette well before serving it.",
         "ja": "提供する前にヴィネグレットドレッシングをよく混ぜてください。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_yaourt",
@@ -6609,7 +6874,8 @@
         "en": "I have a plain yogurt for dessert.",
         "ja": "デザートにプレーンヨーグルトを食べます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_ca_va",
@@ -6652,7 +6918,8 @@
         "en": "Listen to the chef's advice.",
         "ja": "シェフのアドバイスを聞いてください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_epice",
@@ -6674,7 +6941,8 @@
         "en": "Cinnamon is a very sweet spice.",
         "ja": "シナモンはとても甘い（マイルドな）香辛料です。"
       }
-    ]
+    ],
+    "gender": "f"
   },
   {
     "id": "vocab_epinard",
@@ -6695,7 +6963,8 @@
         "en": "Fresh spinach reduces a lot during cooking.",
         "ja": "新鮮なホウレンソウは加熱調理するとかなり縮みます。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_oeuf",
@@ -6716,7 +6985,8 @@
         "en": "Separate the egg white from the yolk.",
         "ja": "卵白と卵黄を分けてください。"
       }
-    ]
+    ],
+    "gender": "m"
   },
   {
     "id": "vocab_aider",
@@ -6737,7 +7007,8 @@
         "en": "Can I help you with the dishes?",
         "ja": "皿洗いを手伝いましょうか？"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_appeler",
@@ -6758,7 +7029,8 @@
         "en": "The customer raises his hand to call the waiter.",
         "ja": "客はウェイターを呼ぶために手を挙げています。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_choisir",
@@ -6779,7 +7051,8 @@
         "en": "Take your time to choose your dish.",
         "ja": "お料理を選ぶのは、どうぞごゆっくり時間をかけてください。"
       }
-    ]
+    ],
+    "verb_group": 2
   },
   {
     "id": "vocab_demander",
@@ -6800,7 +7073,8 @@
         "en": "I ask the waiter for the bill.",
         "ja": "私はウェイターにお会計をお願いします。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_dejeuner",
@@ -6821,7 +7095,8 @@
         "en": "He likes to have lunch on the bistro's terrace.",
         "ja": "彼はビストロのテラス席で昼食をとるのが好きです。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_diner",
@@ -6842,7 +7117,8 @@
         "en": "We are going to have dinner at eight in the evening.",
         "ja": "私たちは夜の8時に夕食をとる予定です。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_emporter",
@@ -6863,7 +7139,8 @@
         "en": "I would like a box to take away the leftovers.",
         "ja": "残り物を持ち帰るための箱をいただけますか？"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_fermer",
@@ -6884,7 +7161,8 @@
         "en": "Do not forget to close the cold room door.",
         "ja": "冷蔵室（コールドルーム）のドアを閉めるのを忘れないでください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_ouvrir",
@@ -6905,7 +7183,8 @@
         "en": "We are going to open the restaurant at exactly noon.",
         "ja": "私たちは正午ぴったりにレストランを開店します。"
       }
-    ]
+    ],
+    "verb_group": 3
   },
   {
     "id": "vocab_peler",
@@ -6925,7 +7204,8 @@
         "en": "Peel the oranges to the quick for the sweet dessert.",
         "ja": "甘いデザート用に、オレンジの（皮だけでなく薄皮まで）丸むき（peler a vif）にしてください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_reserver",
@@ -6946,7 +7226,8 @@
         "en": "Can I reserve a table for two people?",
         "ja": "2人分のテーブルを予約できますか？"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "vocab_saupoudrer",
@@ -6966,7 +7247,8 @@
         "en": "Sprinkle powdered sugar just before serving.",
         "ja": "提供する直前に、粉砂糖を振りかけて（まぶして）ください。"
       }
-    ]
+    ],
+    "verb_group": 1
   },
   {
     "id": "prep_avec",
@@ -7773,6 +8055,96 @@
         "fr": "Si la sauce béchamel est trop épaisse, détendez-la avec un peu de lait chaud.",
         "en": "If the bechamel sauce is too thick, loosen it with a little hot milk.",
         "ja": "ベシャメルソースが重すぎる（固すぎる）場合は、少量の温かい牛乳で伸ばしてください。"
+      }
+    ]
+  },
+  {
+    "id": "gram_subject_pronouns_types",
+    "category": "Grammar",
+    "level": "A1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Subject Pronouns and Types (Les Sujets et les Pronoms Sujets)",
+      "explanation_ja": "フランス語の文では、動詞の活用を決める主語（sujet）が非常に重要です。主語は大きく人称代名詞、名詞、固有名詞、不定代名詞、関係代名詞、不定詞などに分類できます。基本的な主語人称代名詞は je（私）、tu（君）、il/elle（彼・彼女）、on（人々・私たち）、nous（私たち）、vous（あなた・あなた方）、ils/elles（彼ら・彼女ら）です。厨房やレストランでは、料理人同士の会話で「on」が『私たち（スタッフ全員）』という意味で頻繁に使われます。また、主語によって動詞の形が変化するため、フランス語では主語を省略することは基本的にできません。",
+      "explanation_en": "In French, the subject (sujet) determines the conjugation of the verb and is normally required in a sentence. Subjects can be personal pronouns, nouns, proper names, indefinite pronouns, relative pronouns, or even infinitives. The main subject pronouns are je (I), tu (you), il/elle (he/she), on (one/we), nous (we), vous (you formal/plural), and ils/elles (they). In professional kitchens, 'on' is frequently used to mean 'we' when referring to the kitchen team."
+    },
+    "examples": [
+      {
+        "fr": "Je prépare la sauce pendant que le chef vérifie la cuisson.",
+        "en": "I prepare the sauce while the chef checks the cooking.",
+        "ja": "シェフが火入れを確認している間、私はソースを準備します。"
+      },
+      {
+        "fr": "On ajoute les herbes fraîches avant de servir le plat.",
+        "en": "We add the fresh herbs before serving the dish.",
+        "ja": "料理を提供する前に、私たちは新鮮なハーブを加えます。"
+      },
+      {
+        "fr": "Le pâtissier qui travaille ici prépare des desserts raffinés.",
+        "en": "The pastry chef who works here prepares refined desserts.",
+        "ja": "ここで働くパティシエは洗練されたデザートを作ります。"
+      }
+    ]
+  },
+  {
+    "id": "gram_verb_groups",
+    "category": "Grammar",
+    "level": "A1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "French Verb Groups (Les Groupes de Verbes)",
+      "explanation_ja": "フランス語の動詞は、活用パターンによって3つのグループに分類されます。第1群（1er groupe）は語尾が-erで終わる規則動詞で、parler（話す）、aimer（好む）、cuisiner（料理する）など最も数が多いグループです。第2群（2e groupe）は-irで終わり、現在分詞が-issantになる規則動詞で、finir（終える）、choisir（選ぶ）などがあります。第3群（3e groupe）は不規則動詞を中心としたグループで、être、avoir、faire、aller、venirなど重要な動詞が含まれます。フランス語学習では、第1群の規則を理解した後、第3群の頻出動詞を優先して覚えることが重要です。",
+      "explanation_en": "French verbs are traditionally divided into three groups according to their conjugation patterns. The first group contains regular -er verbs, which represent the majority of French verbs. The second group contains regular -ir verbs with the -issant present participle pattern. The third group includes irregular verbs such as être, avoir, faire, aller, and venir. Understanding these groups helps learners predict conjugation patterns and organize vocabulary learning."
+    },
+    "examples": [
+      {
+        "fr": "Le chef cuisine les légumes frais chaque matin.",
+        "en": "The chef cooks fresh vegetables every morning.",
+        "ja": "シェフは毎朝、新鮮な野菜を料理します。"
+      },
+      {
+        "fr": "Nous choisissons les meilleurs produits du marché.",
+        "en": "We choose the best products from the market.",
+        "ja": "私たちは市場から最高の食材を選びます。"
+      },
+      {
+        "fr": "Le serveur va chercher le vin recommandé par le sommelier.",
+        "en": "The waiter goes to get the wine recommended by the sommelier.",
+        "ja": "ウェイターはソムリエが推薦したワインを取りに行きます。"
+      }
+    ]
+  },
+  {
+    "id": "gram_types_of_verbs",
+    "category": "Grammar",
+    "level": "A1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Types of Verbs (Les Types de Verbes)",
+      "explanation_ja": "フランス語の動詞は、文中での働きによって分類できます。主な種類は、①他動詞（verbes transitifs）：目的語を必要とする動詞、②自動詞（verbes intransitifs）：目的語を直接取らない動詞、③代名動詞（verbes pronominaux）：seを伴い、再帰・相互・慣用的な意味を表す動詞、④非人称動詞（verbes impersonnels）：主語が形式的なilになる動詞、⑤助動詞（auxiliaires）：複合時制を作るêtreとavoirです。料理の現場では、ajouter（加える）、couper（切る）、préparer（準備する）などの他動詞が多く使われ、se préparer（準備する）、se servir（提供される・使われる）などの代名動詞も頻繁に登場します。",
+      "explanation_en": "French verbs can be classified according to their function in a sentence. Main categories include transitive verbs (requiring an object), intransitive verbs (without a direct object), pronominal verbs (using se for reflexive, reciprocal, or idiomatic meanings), impersonal verbs (using the formal subject il), and auxiliary verbs (être and avoir used to create compound tenses). These categories are especially useful in culinary French because kitchen instructions frequently use transitive and pronominal verbs."
+    },
+    "examples": [
+      {
+        "fr": "Le cuisinier coupe les légumes avec précision.",
+        "en": "The cook cuts the vegetables precisely.",
+        "ja": "料理人は野菜を正確に切ります。"
+      },
+      {
+        "fr": "La pâte se prépare avec de la farine et du beurre.",
+        "en": "The dough is prepared with flour and butter.",
+        "ja": "生地は小麦粉とバターで作られます。"
+      },
+      {
+        "fr": "Il faut respecter la température de cuisson.",
+        "en": "It is necessary to respect the cooking temperature.",
+        "ja": "加熱温度を守る必要があります。"
       }
     ]
   }

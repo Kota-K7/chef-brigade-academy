@@ -1,0 +1,858 @@
+[
+  {
+    "id": "ref_subjects",
+    "title_fr": "Les pronoms sujets et les types de sujets",
+    "title_en": "Subject Pronouns and Types",
+    "title_ja": "主語の種類",
+    "definition_fr": "Le sujet indique qui fait l’action du verbe. Il peut être une personne, un objet, une idée ou une action.",
+    "definition_ja": "主語は動詞の動作主体を示します。人だけではなく、物や行為も主語になります。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "Les pronoms personnels sujets (主語人称代名詞)",
+        "headers": [
+          "Personne",
+          "Pronom"
+        ],
+        "rows": [
+          [
+            "1re personne singulier (1人称単数)",
+            "je (j')"
+          ],
+          [
+            "2e personne singulier (2人称単数)",
+            "tu"
+          ],
+          [
+            "3e personne singulier (3人称単数)",
+            "il / elle"
+          ],
+          [
+            "1re personne pluriel (1人称複数)",
+            "nous"
+          ],
+          [
+            "2e personne pluriel / politesse (2人称複数/敬称)",
+            "vous"
+          ],
+          [
+            "3e personne pluriel (3人称複数)",
+            "ils / elles"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les types de sujets (主語の種類)",
+        "headers": [
+          "Type",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Nom commun (普通名詞)",
+            "Le chef prépare la sauce. (シェフがソースを準備する。)"
+          ],
+          [
+            "Nom propre (固有名詞)",
+            "Paul cuisine un plat. (ポールが料理を作る。)"
+          ],
+          [
+            "Pronom personnel (人称代名詞)",
+            "Il travaille en cuisine. (彼は厨房で働いている。)"
+          ],
+          [
+            "Pronom indéfini (不定代名詞)",
+            "On ajoute du sel. (塩を加える。)"
+          ],
+          [
+            "Infinitif sujet (主語になる不定詞)",
+            "Cuisiner demande de la précision. (料理することは正確さを要求する。)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "Point cuisine : « On » (厨房のポイント)",
+        "content_fr": "En cuisine, on signifie souvent nous. La brigade utilise souvent cette forme pour montrer le travail d’équipe.",
+        "content_ja": "厨房では、on はしばしば nous（私たち）を意味します。例：「On prépare la mise en place.」（私たちは仕込みをする）チーム全体の連帯感や共同作業を示すのによく使われます。"
+      }
+    ]
+  },
+  {
+    "id": "ref_verb_groups",
+    "title_fr": "Les groupes de verbes français",
+    "title_en": "French Verb Groups",
+    "title_ja": "動詞の分類",
+    "definition_fr": "Les verbes français sont divisés en trois groupes selon leur infinitif et leur conjugaison.",
+    "definition_ja": "フランス語動詞は活用の特徴によって3種類に分類されます。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "Les trois groupes (3つのグループ)",
+        "headers": [
+          "Groupe",
+          "Caractéristique",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "1er groupe",
+            "-er régulier (規則動詞)",
+            "préparer, cuisiner"
+          ],
+          [
+            "2e groupe",
+            "-ir régulier (-issant) (規則動詞)",
+            "finir, choisir"
+          ],
+          [
+            "3e groupe",
+            "irrégulier (不規則動詞)",
+            "être, avoir, faire"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Verbes culinaires essentiels (重要な調理動詞)",
+        "headers": [
+          "Verbe",
+          "Groupe",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "préparer",
+            "1er",
+            "準備する"
+          ],
+          [
+            "couper",
+            "1er",
+            "切る"
+          ],
+          [
+            "finir",
+            "2e",
+            "終える"
+          ],
+          [
+            "choisir",
+            "2e",
+            "選ぶ"
+          ],
+          [
+            "faire",
+            "3e",
+            "する・作る"
+          ],
+          [
+            "mettre",
+            "3e",
+            "入れる"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "À retenir (重要)",
+        "content_fr": "Les verbes du 3e groupe sont moins réguliers, mais ils sont très fréquents.",
+        "content_ja": "第3群動詞は規則性が低いですが、日常的・業務的に多用されるため、特に「être」「avoir」「faire」「aller」「mettre」は最優先で暗記してください。"
+      }
+    ]
+  },
+  {
+    "id": "ref_present_indicative",
+    "title_fr": "Le présent de l’indicatif",
+    "title_en": "Present Tense",
+    "title_ja": "直説法現在",
+    "definition_fr": "Le présent exprime une action actuelle, une habitude ou une vérité générale.",
+    "definition_ja": "現在の動作・習慣・一般的事実を表します。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "Verbes réguliers : Préparer (-er動詞の規則変化)",
+        "headers": [
+          "Sujet",
+          "Conjugaison"
+        ],
+        "rows": [
+          [
+            "je",
+            "prépare"
+          ],
+          [
+            "tu",
+            "prépares"
+          ],
+          [
+            "il/elle",
+            "prépare"
+          ],
+          [
+            "nous",
+            "préparons"
+          ],
+          [
+            "vous",
+            "préparez"
+          ],
+          [
+            "ils/elles",
+            "préparent"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Verbes réguliers : Finir (-ir動詞の規則変化)",
+        "headers": [
+          "Sujet",
+          "Conjugaison"
+        ],
+        "rows": [
+          [
+            "je",
+            "finis"
+          ],
+          [
+            "tu",
+            "finis"
+          ],
+          [
+            "il/elle",
+            "finit"
+          ],
+          [
+            "nous",
+            "finissons"
+          ],
+          [
+            "vous",
+            "finissez"
+          ],
+          [
+            "ils/elles",
+            "finissent"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Verbes irréguliers essentiels (不規則動詞の主要現在変化)",
+        "headers": [
+          "Verbe",
+          "je / j'",
+          "nous",
+          "ils / elles"
+        ],
+        "rows": [
+          [
+            "être (〜である)",
+            "suis",
+            "sommes",
+            "sont"
+          ],
+          [
+            "avoir (〜を持つ)",
+            "ai",
+            "avons",
+            "ont"
+          ],
+          [
+            "faire (する・作る)",
+            "fais",
+            "faisons",
+            "font"
+          ],
+          [
+            "aller (行く)",
+            "vais",
+            "allons",
+            "vont"
+          ]
+        ]
+      },
+      {
+        "type": "examples",
+        "title": "Exemples en cuisine (厨房での例文)",
+        "examples": [
+          {
+            "fr": "Je prépare la sauce.",
+            "ja": "私はソースを準備する。"
+          },
+          {
+            "fr": "Nous vérifions la cuisson.",
+            "ja": "私たちは火入れを確認する。"
+          },
+          {
+            "fr": "Le chef goûte le plat.",
+            "ja": "シェフは料理を味見する。"
+          }
+        ]
+      },
+      {
+        "type": "info",
+        "title": "Point cuisine (現場の視点)",
+        "content_fr": "Dans les recettes, le présent est souvent utilisé pour expliquer les étapes.",
+        "content_ja": "レシピの手順説明では、現在形がよく使われます。例：「On ajoute le beurre et on mélange.」（バターを加えて混ぜる）"
+      }
+    ]
+  },
+  {
+    "id": "ref_conjugation_patterns",
+    "title_fr": "Les modèles de conjugaison",
+    "title_en": "Verb Conjugation Patterns",
+    "title_ja": "動詞活用パターン",
+    "definition_fr": "La conjugaison française change selon la personne, le temps, et le groupe du verbe.",
+    "definition_ja": "フランス語の動詞は、人称・時制・動詞グループによって形が変化します。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. Être (être型)",
+        "headers": [
+          "Sujet",
+          "Présent"
+        ],
+        "rows": [
+          [
+            "je",
+            "suis"
+          ],
+          [
+            "tu",
+            "es"
+          ],
+          [
+            "il/elle",
+            "est"
+          ],
+          [
+            "nous",
+            "sommes"
+          ],
+          [
+            "vous",
+            "êtes"
+          ],
+          [
+            "ils/elles",
+            "sont"
+          ]
+        ],
+        "example": {
+          "fr": "La sauce est prête.",
+          "ja": "ソースは完成している。"
+        }
+      },
+      {
+        "type": "table",
+        "title": "2. Avoir (avoir型)",
+        "headers": [
+          "Sujet",
+          "Présent"
+        ],
+        "rows": [
+          [
+            "j'",
+            "ai"
+          ],
+          [
+            "tu",
+            "as"
+          ],
+          [
+            "il/elle",
+            "a"
+          ],
+          [
+            "nous",
+            "avons"
+          ],
+          [
+            "vous",
+            "avez"
+          ],
+          [
+            "ils/elles",
+            "ont"
+          ]
+        ],
+        "example": {
+          "fr": "Le plat a une belle couleur.",
+          "ja": "料理は美しい色をしている。"
+        }
+      },
+      {
+        "type": "table",
+        "title": "3. Aller (aller型)",
+        "headers": [
+          "Sujet",
+          "Présent"
+        ],
+        "rows": [
+          [
+            "je",
+            "vais"
+          ],
+          [
+            "tu",
+            "vas"
+          ],
+          [
+            "il/elle",
+            "va"
+          ],
+          [
+            "nous",
+            "allons"
+          ],
+          [
+            "vous",
+            "allez"
+          ],
+          [
+            "ils/elles",
+            "vont"
+          ]
+        ],
+        "example": {
+          "fr": "Le chef va préparer le dessert.",
+          "ja": "シェフはデザートを準備する予定です。"
+        }
+      },
+      {
+        "type": "info",
+        "title": "À retenir",
+        "content_fr": "Les verbes être, avoir, aller, faire sont irréguliers mais indispensables.",
+        "content_ja": "これら4つの動詞は不規則ですが、複合時制の助動詞や近接未来など、すべての動詞表現の基礎になるため完璧に暗記してください。"
+      }
+    ]
+  },
+  {
+    "id": "ref_auxiliaries",
+    "title_fr": "Les auxiliaires : Être et Avoir",
+    "title_en": "Auxiliary Verbs",
+    "title_ja": "助動詞の使い分け",
+    "definition_fr": "Les temps composés utilisent un auxiliaire + un participe passé.",
+    "definition_ja": "複合過去などの複合時制では「助動詞 + 過去分詞」の形で記述します。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "Avoir : majorité des verbes (大半の動詞は avoir を助動詞とする)",
+        "headers": [
+          "Verbe",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "manger",
+            "J'ai mangé le plat. (私は料理を食べた。)"
+          ],
+          [
+            "préparer",
+            "J'ai préparé la sauce. (私はソースを準備した。)"
+          ],
+          [
+            "cuisiner",
+            "J'ai cuisiné hier. (私は昨日料理した。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Être : mouvements et changements (移動・状態変化を表す自動詞は être を使用)",
+        "headers": [
+          "Verbe",
+          "Sens",
+          "Exemple au Passé Composé"
+        ],
+        "rows": [
+          [
+            "aller",
+            "行く",
+            "Je suis allé(e)"
+          ],
+          [
+            "venir",
+            "来る",
+            "Il est venu"
+          ],
+          [
+            "arriver",
+            "到着する",
+            "Le chef est arrivé tôt. (シェフは早く到着した。)"
+          ],
+          [
+            "partir",
+            "出発する",
+            "Ils sont partis"
+          ],
+          [
+            "naître",
+            "生まれる",
+            "Elle est née"
+          ],
+          [
+            "mourir",
+            "死ぬ",
+            "Il est mort"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Les verbes pronominaux (代名動詞もすべて être を使用)",
+        "headers": [
+          "Infinitif",
+          "Passé composé (je-form)"
+        ],
+        "rows": [
+          [
+            "se lever (起きる)",
+            "je me suis levé(e)"
+          ],
+          [
+            "se préparer (準備する)",
+            "je me suis préparé(e)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "Point cuisine",
+        "content_fr": "La brigade est arrivée avant le service.",
+        "content_ja": "「到着する（arriver）」「調理場に入る（entrer）」など、厨房では移動を意味する動詞が頻出するため、être を用いた複合過去形を頻繁に耳にします。"
+      }
+    ]
+  },
+  {
+    "id": "ref_types_of_verbs",
+    "title_fr": "Les types de verbes",
+    "title_en": "Types of Verbs",
+    "title_ja": "動詞の種類",
+    "definition_fr": "Les verbes peuvent être classés selon leur relation avec le complément.",
+    "definition_ja": "フランス語の動詞は、目的語（補語）の取り方や主語の性質によって分類できます。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. Verbes transitifs (他動詞 - 目的語が必要)",
+        "headers": [
+          "Verbe",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "couper",
+            "Couper les légumes. (野菜を切る。)"
+          ],
+          [
+            "préparer",
+            "Préparer une sauce. (ソースを準備する。)"
+          ],
+          [
+            "ajouter",
+            "Ajouter du sel. (塩を加える。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. Verbes intransitifs (自動詞 - 目的語が不要)",
+        "headers": [
+          "Verbe",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "venir",
+            "Le chef vient. (シェフが来る。)"
+          ],
+          [
+            "arriver",
+            "Le client arrive. (お客様が到着する。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. Verbes pronominaux (代名動詞 - se + 動詞)",
+        "headers": [
+          "Verbe",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "se préparer",
+            "Je me prépare. (私は準備をする。)"
+          ],
+          [
+            "se laver",
+            "Je me lave. (私は体を洗う/手を洗う。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. Verbes impersonnels (非人称動詞 - 主語がil固定)",
+        "headers": [
+          "Expression",
+          "Sens",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "Il faut",
+            "〜する必要がある",
+            "Il faut respecter les produits. (食材を尊重する必要がある。)"
+          ],
+          [
+            "Il pleut",
+            "雨が降る",
+            "Il pleut dehors. (外は雨が降っている。)"
+          ],
+          [
+            "Il neige",
+            "雪が降る",
+            "Il neige sur les montagnes. (山に雪が降っている。)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ref_future_tenses",
+    "title_fr": "Les temps du futur",
+    "title_en": "Future Tenses",
+    "title_ja": "未来形",
+    "definition_fr": "Le futur permet de parler d’une action à venir.",
+    "definition_ja": "未来の予定・予測、または未来のある時点までに完了する動作を表します。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "Futur simple : Formation (単純未来の作り方：不定詞 ＋ 語尾)",
+        "headers": [
+          "Personne",
+          "Terminaison",
+          "Exemple (préparer)"
+        ],
+        "rows": [
+          [
+            "je",
+            "-ai",
+            "préparerai"
+          ],
+          [
+            "tu",
+            "-as",
+            "prépareras"
+          ],
+          [
+            "il / elle",
+            "-a",
+            "préparera"
+          ],
+          [
+            "nous",
+            "-ons",
+            "préparerons"
+          ],
+          [
+            "vous",
+            "-ez",
+            "préparerez"
+          ],
+          [
+            "ils / elles",
+            "-ont",
+            "prépareront"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Verbes irréguliers fréquents (単純未来の不規則語幹)",
+        "headers": [
+          "Verbe",
+          "Radical futur",
+          "Exemple (je-form)"
+        ],
+        "rows": [
+          [
+            "être",
+            "ser-",
+            "je serai"
+          ],
+          [
+            "avoir",
+            "aur-",
+            "j'aurai"
+          ],
+          [
+            "aller",
+            "ir-",
+            "j'irai"
+          ],
+          [
+            "faire",
+            "fer-",
+            "je ferai"
+          ],
+          [
+            "venir",
+            "viendr-",
+            "je viendrai"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Futur antérieur (前未来 : 「未来のその時点までに完了している動作」)",
+        "headers": [
+          "Structure",
+          "Usage"
+        ],
+        "rows": [
+          [
+            "Avoir / Être au futur + Participe passé",
+            "未来の特定時点までの完了や推測を表す。"
+          ]
+        ],
+        "example": {
+          "fr": "Le chef aura terminé la préparation avant midi.",
+          "ja": "正午までにシェフは仕込みを終えているでしょう。"
+        }
+      },
+      {
+        "type": "info",
+        "title": "Point cuisine",
+        "content_fr": "Menu planning : Nous préparerons le nouveau menu demain.",
+        "content_ja": "新しいメニューを明日準備する（Futur simple）。仕込みやメニューの切り替え予定を共有する際によく使われます。"
+      }
+    ]
+  },
+  {
+    "id": "ref_non_finite_forms",
+    "title_fr": "Les formes non finies du verbe",
+    "title_en": "Non-finite Verb Forms",
+    "title_ja": "非定形動詞",
+    "definition_fr": "Les formes non finies ne changent pas selon la personne.",
+    "definition_ja": "主語人称によって活用しない、動詞の基本形態や分詞形態です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. Infinitif (不定詞 - 辞書形)",
+        "headers": [
+          "Exemple",
+          "Sens"
+        ],
+        "rows": [
+          [
+            "préparer",
+            "準備する"
+          ],
+          [
+            "cuire",
+            "加熱する"
+          ],
+          [
+            "mélanger",
+            "混ぜる"
+          ]
+        ],
+        "example": {
+          "fr": "Cuire lentement améliore le goût.",
+          "ja": "ゆっくりと調理することは味（仕上がり）を向上させます。"
+        }
+      },
+      {
+        "type": "table",
+        "title": "2. Participe passé (過去分詞 - 複合時制や受動表現に使用)",
+        "headers": [
+          "Verbe",
+          "Participe passé",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "faire",
+            "fait",
+            "Le plat est fait. (料理は作られた。)"
+          ],
+          [
+            "préparer",
+            "préparé",
+            "La sauce est préparée."
+          ],
+          [
+            "cuire",
+            "cuit",
+            "Les légumes sont cuits. (野菜は加熱されている。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. Participe présent (現在分詞 - 同時進行や理由を表す形容詞的用法)",
+        "headers": [
+          "Infinitif",
+          "Participe présent",
+          "Sens / Exemple"
+        ],
+        "rows": [
+          [
+            "préparer",
+            "préparant",
+            "準備しながら / 準備する人"
+          ],
+          [
+            "mélanger",
+            "mélangeant",
+            "混ぜながら"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. Gérondif (ジェロンディフ : en ＋ 現在分詞 - 「〜しながら」「〜することで」)",
+        "headers": [
+          "Structure",
+          "Exemple"
+        ],
+        "rows": [
+          [
+            "en + participe présent",
+            "En mélangeant doucement, on obtient une sauce lisse. (優しく混ぜることで、滑らかなソースが得られる。)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Résumé (まとめ)",
+        "headers": [
+          "Forme",
+          "Utilisation principale"
+        ],
+        "rows": [
+          [
+            "Infinitif",
+            "action générale, recette (レシピ指示・一般的な動作)"
+          ],
+          [
+            "Participe passé",
+            "temps composés, adjectif (複合時制・受動・形容詞)"
+          ],
+          [
+            "Participe présent",
+            "action simultanée (同時動作・状態表現)"
+          ],
+          [
+            "Gérondif",
+            "manière, moyen (動作の手段・方法・付帯状況)"
+          ]
+        ]
+      }
+    ]
+  }
+]

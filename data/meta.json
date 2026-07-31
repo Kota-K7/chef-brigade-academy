@@ -1,25 +1,25 @@
 {
   "counts": {
     "vocabulary": 604,
-    "grammar": 20,
+    "grammar": 29,
     "cuisine": 8
   },
   "featured": {
-    "id": "vocab_rincer",
-    "category": "Techniques",
+    "id": "adv_trop",
+    "category": "Adverbe",
     "level": "A1",
     "tags": [
-      "Verbe",
-      "Action",
-      "Hygiène"
+      "Adverbe",
+      "Intensité",
+      "Attention"
     ],
-    "french": "Rincer",
-    "english": "To rinse",
-    "japanese": "(Verbe) ゆすぐ、軽く洗う",
-    "definition_fr": "Laver légèrement à l'eau claire.",
-    "context_fr": "Il est en train de rincer la salade.",
-    "context_en": "He is rinsing the salad.",
-    "context_ja": "彼はサラダ（レタス）を洗っています。",
+    "french": "Trop",
+    "english": "Too / too much",
+    "japanese": "(Adv) 〜すぎる、過剰に",
+    "definition_fr": "Indique un excès dépassant ce qui est souhaitable.",
+    "context_fr": "Attention, cette réduction de jus est trop salée.",
+    "context_en": "Be careful, this juice reduction is too salty.",
+    "context_ja": "注意してください。この煮詰めたソース（ジュ）は塩分が強すぎます。",
     "is_professional": true
   }
 }
