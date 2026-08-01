@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "art_hachis_parmentier",
+    "category": "Classique",
+    "level_scaffolding": {
+      "suggested_level": "A2",
+      "a1_hint_level": "high",
+      "c1_hint_level": "none"
+    },
+    "title_fr": "Hachis Parmentier : un classique familial de la cuisine française",
+    "title_ja": "アッシェ・パルマンティエ ― フランス家庭料理 of 定番",
+    "image": "assets/images/hachis_parmentier.jpg",
+    "overview": {
+      "context_ja": "フランスの大人気家庭料理「アッシェ・パルマンティエ」の歴史、材料、そして作り方をフランス語の文章で読み解きましょう。",
+      "context_en": "Learn the history, ingredients, and preparation method of 'Hachis Parmentier', a beloved French home classic, through real French text."
+    },
+    "sessions": [
+      {
+        "session_id": 1,
+        "title": "Introduction (導入)",
+        "type": "text",
+        "text_fr": "Le hachis Parmentier est un grand classique de la cuisine familiale française. Ce plat est préparé avec de la viande de bœuf hachée et une purée de pommes de terre. Il est simple, économique et très apprécié pendant l'hiver.\n\nSon nom vient d'Antoine-Augustin Parmentier, un pharmacien français du XVIIIᵉ siècle qui a contribué à faire connaître la pomme de terre en France.",
+        "text_ja": "アッシェ・パルマンティエは、フランスの家庭料理を代表する定番料理の一つである。牛ひき肉とマッシュポテトを重ねて焼き上げるこの料理は、シンプルで経済的なうえ、寒い季節には特に親しまれている。\n\nその名前は、18世紀のフランス人薬剤師アントワーヌ＝オーギュスタン・パルマンティエに由来する。彼は、当時まだ広く受け入れられていなかったジャガイモの価値を人々に広めた人物として知られている。",
+        "tokens": [
+          {
+            "word": "Le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "hachis",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Parmentier",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "est",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "grand",
+            "pos": "noun",
+            "vocab_id": "vocab_grand",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "classique",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de la",
+            "pos": "article_partitive",
+            "vocab_id": "gram_partitive",
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "cuisine",
+            "pos": "noun",
+            "vocab_id": "vocab_cuisine",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "familiale",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "française.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Ce",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "plat",
+            "pos": "noun",
+            "vocab_id": "vocab_plat",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "est",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "préparé",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "avec",
+            "pos": "preposition",
+            "vocab_id": "prep_avec",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "de la",
+            "pos": "article_partitive",
+            "vocab_id": "gram_partitive",
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "viande",
+            "pos": "other",
+            "vocab_id": "vocab_viande",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "bœuf",
+            "pos": "other",
+            "vocab_id": "vocab_boeuf",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "hachée",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "une",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "purée",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "pommes de terre.",
+            "pos": "noun",
+            "vocab_id": "vocab_pomme_de_terre",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "pomme de terre",
+              "group": "Nom composé (複合名詞)",
+              "tense": "N/A",
+              "context_ja": "「大地のりんご」という意味の、フランス語の『じゃがいも』を表す複合名詞です。"
+            }
+          },
+          {
+            "word": "Il",
+            "pos": "pronoun_subject",
+            "vocab_id": null,
+            "gram_id": "gram_subject_pronouns_types",
+            "analysis": null
+          },
+          {
+            "word": "est",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "simple,",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "économique",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "très",
+            "pos": "other",
+            "vocab_id": "adv_tres",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "apprécié",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pendant",
+            "pos": "other",
+            "vocab_id": "prep_pendant",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "l'hiver.",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Son",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "nom",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "vient",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "d'Antoine-Augustin",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Parmentier,",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pharmacien",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "français",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "du",
+            "pos": "article_partitive",
+            "vocab_id": null,
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "XVIIIᵉ",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "siècle",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "qui",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "a",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "contribué",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "à",
+            "pos": "preposition",
+            "vocab_id": "prep_a",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "faire",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "connaître",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "la",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pomme de terre",
+            "pos": "noun",
+            "vocab_id": "vocab_pomme_de_terre",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "en",
+            "pos": "preposition",
+            "vocab_id": "prep_en",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "France.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "q_hachis_intro_1_deb",
+            "target_level": "débutant",
+            "type": "choice",
+            "question_ja": "文頭の 'est' (Le hachis Parmentier est...) の原形（不定詞）はどれですか？",
+            "question_fr": "Quelle est l'infinitif du verbe 'est' ?",
+            "options": [
+              "avoir (持つ)",
+              "être (〜である)",
+              "faire (する)"
+            ],
+            "answer": "être (〜である)"
+          },
+          {
+            "id": "q_hachis_intro_1_int",
+            "target_level": "intermédiaire",
+            "type": "conjugation",
+            "question_ja": "次の括弧内の動詞 'être' を主語に適合する三人称単数現在形に活用させて入力してください : 'Le hachis Parmentier ___ (être) un grand classique.'",
+            "question_fr": "Conjuguez le verbe 'être' au présent pour correspondre au sujet : 'Le hachis Parmentier ___ (être)'",
+            "blank_word": "est"
+          },
+          {
+            "id": "q_hachis_intro_1_adv",
+            "target_level": "avancé",
+            "type": "kitchen_situation",
+            "question_ja": "アッシェ・パルマンティエがフランスの一般家庭で特によく作られる季節やシチュエーションは何ですか？（フランス語で答えなさい：l'___）",
+            "question_fr": "Pendant quelle saison ce plat chaud est-il particulièrement apprécié en famille ? (l'___)",
+            "blank_word": "hiver"
+          }
+        ]
+      },
+      {
+        "session_id": 2,
+        "title": "Ingrédients (材料)",
+        "type": "ingredients",
+        "text_fr": "500 g de bœuf haché\n1 kg de pommes de terre\n1 oignon\n2 gousses d'ail\n40 g de beurre\n10 cl de lait\ndu fromage râpé\ndu sel\ndu poivre\nun peu de noix de muscade",
+        "text_ja": "牛ひき肉 500g\nじゃがいも 1kg\n玉ねぎ 1個\nにんにく 2片\nバター 40g\n牛乳 100ml\nシュレッドチーズ 適量\n塩\n黒こしょう\nナツメグ 少々",
+        "tokens": [
+          {
+            "word": "500",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "g",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "bœuf haché",
+            "pos": "noun",
+            "vocab_id": "vocab_boeuf",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "1",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "kg",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "pommes de terre",
+            "pos": "noun",
+            "vocab_id": "vocab_pomme_de_terre",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "pomme de terre",
+              "group": "Nom composé (複合名詞)",
+              "tense": "N/A",
+              "context_ja": "「大地のりんご」という意味の、フランス語の『じゃがいも』を表す複合名詞です。"
+            }
+          },
+          {
+            "word": "1",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "oignon",
+            "pos": "other",
+            "vocab_id": "vocab_oignon",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "2",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "gousses",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "d'ail",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "40",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "g",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "beurre",
+            "pos": "other",
+            "vocab_id": "vocab_beurre",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "10",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "cl",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "lait",
+            "pos": "noun",
+            "vocab_id": "vocab_lait",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "du",
+            "pos": "article_partitive",
+            "vocab_id": null,
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "fromage",
+            "pos": "other",
+            "vocab_id": "vocab_fromage",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "râpé",
+            "pos": "other",
+            "vocab_id": "vocab_fromage",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "du",
+            "pos": "article_partitive",
+            "vocab_id": null,
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "sel",
+            "pos": "noun",
+            "vocab_id": "vocab_sel",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "du",
+            "pos": "article_partitive",
+            "vocab_id": null,
+            "gram_id": "gram_partitive",
+            "analysis": null
+          },
+          {
+            "word": "poivre",
+            "pos": "other",
+            "vocab_id": "vocab_poivre",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "peu",
+            "pos": "other",
+            "vocab_id": "adv_peu",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "noix de muscade",
+            "pos": "noun",
+            "vocab_id": "vocab_muscade",
+            "gram_id": null,
+            "analysis": null
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "q_hachis_ing_1_deb",
+            "target_level": "débutant",
+            "type": "preposition",
+            "question_ja": "量や割合を表すフレーズ '500 g ___ bœuf haché' の空欄に入る適切な前置詞を選んでください。",
+            "question_fr": "Sélectionnez la préposition correcte après une expression de quantité : '500 g ___ bœuf haché'",
+            "options": [
+              "de",
+              "du",
+              "la"
+            ],
+            "answer": "de"
+          },
+          {
+            "id": "q_hachis_ing_1_int",
+            "target_level": "intermédiaire",
+            "type": "input",
+            "question_ja": "男性名詞 'sel' (塩) の前に入る、不特定量を表す適切な部分冠詞を入力してください。",
+            "question_fr": "Entrez l'article partitif approprié pour le nom masculin 'sel' : '___ sel'",
+            "blank_word": "du"
+          },
+          {
+            "id": "q_hachis_ing_1_adv",
+            "target_level": "avancé",
+            "type": "word_order",
+            "question_ja": "「バター40g」を意味するフランス語の表現になるように、単語を並び替えてください。",
+            "question_fr": "Ordonnez les mots pour écrire '40g of butter' :",
+            "options": [
+              "beurre",
+              "de",
+              "40 g"
+            ],
+            "answer_words": [
+              "40 g",
+              "de",
+              "beurre"
+            ]
+          }
+        ]
+      },
+      {
+        "session_id": 3,
+        "title": "Préparation : Partie 1 (作り方 前半)",
+        "type": "steps",
+        "text_fr": "Épluchez les pommes de terre et coupez-les en morceaux.\nFaites-les cuire dans de l'eau salée pendant environ vingt minutes.\nPendant ce temps, faites revenir l'oignon et l'ail dans un peu de beurre.\nAjoutez le bœuf haché et laissez cuire jusqu'à ce que la viande soit bien dorée.\nÉcrasez les pommes de terre avec le beurre, le lait et la noix de muscade afin d'obtenir une purée bien lisse.",
+        "text_ja": "じゃがいものの皮をむき、一口大に切る。\n塩を加えた湯で、およそ20分間ゆでる。\nその間に、少量のバターで玉ねぎとにんにくを炒める。\n牛ひき肉を加え、全体にしっかり焼き色が付くまで加熱する。\nゆでたじゃがいもを、バター・牛乳・ナツメグとともにつぶし、なめらかなマッシュポテトを作る。",
+        "tokens": [
+          {
+            "word": "Épluchez",
+            "pos": "verb",
+            "vocab_id": "vocab_eplucher",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "éplucher",
+              "group": "1er groupe (-er)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "料理手順を直接指示する「皮をむきなさい」という命令形です。レシピで定番の表現です。"
+            }
+          },
+          {
+            "word": "les",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pommes de terre",
+            "pos": "noun",
+            "vocab_id": "vocab_pomme_de_terre",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "pomme de terre",
+              "group": "Nom composé (複合名詞)",
+              "tense": "N/A",
+              "context_ja": "「大地のりんご」という意味の、フランス語の『じゃがいも』を表す複合名詞です。"
+            }
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "coupez-les",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "en",
+            "pos": "preposition",
+            "vocab_id": "prep_en",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "morceaux.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Faites-les",
+            "pos": "other",
+            "vocab_id": "vocab_faire",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "cuire",
+            "pos": "other",
+            "vocab_id": "vocab_cuire",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "cuire",
+              "group": "3e groupe (irregular)",
+              "tense": "Infinitif présent (原形)",
+              "context_ja": "「熱を加える、煮る、焼く」という意味の動詞原形です。使役動詞 faites の後に置かれて「加熱しなさい」となります。"
+            }
+          },
+          {
+            "word": "dans",
+            "pos": "preposition",
+            "vocab_id": "prep_dans",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "l'eau",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "salée",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pendant",
+            "pos": "other",
+            "vocab_id": "prep_pendant",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "environ",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "vingt",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "minutes.",
+            "pos": "noun",
+            "vocab_id": "vocab_minute",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Pendant",
+            "pos": "other",
+            "vocab_id": "prep_pendant",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "ce",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "temps,",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "faites revenir",
+            "pos": "verb",
+            "vocab_id": "vocab_faire_revenir",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "faire revenir",
+              "group": "Locution verbale (動詞句)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "使役動詞 faire と revenir (炒める) を組み合わせ、「（焼き色がつかないように）炒めなさい、ソテーしなさい」という指示を表します。"
+            }
+          },
+          {
+            "word": "l'oignon",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "l'ail",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "dans",
+            "pos": "preposition",
+            "vocab_id": "prep_dans",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "peu",
+            "pos": "other",
+            "vocab_id": "adv_peu",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "beurre.",
+            "pos": "other",
+            "vocab_id": "vocab_beurre",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Ajoutez",
+            "pos": "verb",
+            "vocab_id": "vocab_ajouter",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "ajouter",
+              "group": "1er groupe (-er)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "「加えなさい」という命令法表現です。材料を後から投入する際の主要な表現です。"
+            }
+          },
+          {
+            "word": "le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "bœuf haché",
+            "pos": "noun",
+            "vocab_id": "vocab_boeuf",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "laissez",
+            "pos": "verb",
+            "vocab_id": "vocab_laisser",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "cuire",
+            "pos": "other",
+            "vocab_id": "vocab_cuire",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "cuire",
+              "group": "3e groupe (irregular)",
+              "tense": "Infinitif présent (原形)",
+              "context_ja": "「熱を加える、煮る、焼く」という意味の動詞原形です。使役動詞 faites の後に置かれて「加熱しなさい」となります。"
+            }
+          },
+          {
+            "word": "jusqu'à",
+            "pos": "other",
+            "vocab_id": "prep_jusqu_a",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "ce",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "que",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "la",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "viande",
+            "pos": "other",
+            "vocab_id": "vocab_viande",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "soit",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "bien",
+            "pos": "other",
+            "vocab_id": "adv_bien",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "dorée.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Écrasez",
+            "pos": "verb",
+            "vocab_id": "vocab_ecraser",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "écraser",
+              "group": "1er groupe (-er)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "「（押しつぶしなさい）」という命令形です。じゃがいもをマッシュして purée にする工程で使われています。"
+            }
+          },
+          {
+            "word": "les",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pommes de terre",
+            "pos": "noun",
+            "vocab_id": "vocab_pomme_de_terre",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "pomme de terre",
+              "group": "Nom composé (複合名詞)",
+              "tense": "N/A",
+              "context_ja": "「大地のりんご」という意味の、フランス語の『じゃがいも』を表す複合名詞です。"
+            }
+          },
+          {
+            "word": "avec",
+            "pos": "preposition",
+            "vocab_id": "prep_avec",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "beurre,",
+            "pos": "other",
+            "vocab_id": "vocab_beurre",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "lait",
+            "pos": "noun",
+            "vocab_id": "vocab_lait",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "la",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "noix de muscade",
+            "pos": "noun",
+            "vocab_id": "vocab_muscade",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "afin",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "d'obtenir",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "une",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "purée",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "bien",
+            "pos": "other",
+            "vocab_id": "adv_bien",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "lisse.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "q_hachis_prep1_1_deb",
+            "target_level": "débutant",
+            "type": "choice",
+            "question_ja": "最初の指示 'Épluchez' (Épluchez les pommes de terre...) はどのような調理動作ですか？",
+            "question_fr": "Que signifie le verbe 'Épluchez' ?",
+            "options": [
+              "皮をむく",
+              "一口大に切る",
+              "ゆでる"
+            ],
+            "answer": "皮をむく"
+          },
+          {
+            "id": "q_hachis_prep1_1_int",
+            "target_level": "intermédiaire",
+            "type": "structure_analysis",
+            "question_ja": "指示語 'Faites-les cuire' における代名詞 'les' は何を指していますか？",
+            "question_fr": "Que représente le pronom 'les' dans la phrase 'Faites-les cuire' ?",
+            "options": [
+              "les pommes de terre",
+              "les morceaux de viande",
+              "l'oignon et l'ail"
+            ],
+            "answer": "les pommes de terre"
+          },
+          {
+            "id": "q_hachis_prep1_1_adv",
+            "target_level": "avancé",
+            "type": "conjugation",
+            "question_ja": "動詞 'éplucher' (皮をむく) を、vousに対する命令形（手動調理手順で使う形）に活用させて入力してください。",
+            "question_fr": "Conjuguez le verbe 'éplucher' à l'impératif présent (vous) :",
+            "blank_word": "épluchez"
+          }
+        ]
+      },
+      {
+        "session_id": 4,
+        "title": "Préparation : Partie 2 (作り方 後半)",
+        "type": "steps",
+        "text_fr": "Déposez la viande dans un plat à gratin.\nRecouvrez-la avec la purée.\nSaupoudrez de fromage râpé.\nEnfournez pendant environ vingt-cinq minutes à 200 °C jusqu'à obtenir une belle croûte dorée.\nServez immédiatement avec une salade verte.",
+        "text_ja": "耐熱皿に炒めた牛肉を広げる。\nその上からマッシュポテトを均一に重ねる。\nさらにシュレッドチーズを全体に振りかける。\n200℃に予熱したオーブンで約25分焼き、美しい焼き色が付いたら取り出す。\nグリーンサラダを添えて、温かいうちにいただく。",
+        "tokens": [
+          {
+            "word": "Déposez",
+            "pos": "verb",
+            "vocab_id": "vocab_deposer",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "la",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "viande",
+            "pos": "other",
+            "vocab_id": "vocab_viande",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "dans",
+            "pos": "preposition",
+            "vocab_id": "prep_dans",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "plat",
+            "pos": "noun",
+            "vocab_id": "vocab_plat",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "à",
+            "pos": "preposition",
+            "vocab_id": "prep_a",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "gratin.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Recouvrez-la",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "avec",
+            "pos": "preposition",
+            "vocab_id": "prep_avec",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "la",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "purée.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Saupoudrez",
+            "pos": "verb",
+            "vocab_id": "vocab_saupoudrer",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "saupoudrer",
+              "group": "1er groupe (-er)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "「（〜を振りかけなさい）」という表現で、粉末やシュレッドチーズを表面に散らす際によく使われます。"
+            }
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "fromage",
+            "pos": "other",
+            "vocab_id": "vocab_fromage",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "râpé.",
+            "pos": "other",
+            "vocab_id": "vocab_fromage",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Enfournez",
+            "pos": "verb",
+            "vocab_id": "vocab_enfourner",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "enfourner",
+              "group": "1er groupe (-er)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "「オーブン（four）に入れなさい」というレシピ特有の動詞で、焼き上げ指示の基本動詞です。"
+            }
+          },
+          {
+            "word": "pendant",
+            "pos": "other",
+            "vocab_id": "prep_pendant",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "environ",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "vingt-cinq",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "minutes",
+            "pos": "noun",
+            "vocab_id": "vocab_minute",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "à",
+            "pos": "preposition",
+            "vocab_id": "prep_a",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "200",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "°C",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "jusqu'à",
+            "pos": "other",
+            "vocab_id": "prep_jusqu_a",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "obtenir",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "une",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "belle",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "croûte",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "dorée.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Servez",
+            "pos": "verb",
+            "vocab_id": "vocab_servir",
+            "gram_id": null,
+            "analysis": {
+              "lemma": "servir",
+              "group": "3e groupe (irregular)",
+              "tense": "Impératif présent (vous)",
+              "context_ja": "「（給仕しなさい、食卓に出しなさい）」という命令表現です。最後の提供手順を示します。"
+            }
+          },
+          {
+            "word": "immédiatement",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "avec",
+            "pos": "preposition",
+            "vocab_id": "prep_avec",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "une",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "salade",
+            "pos": "other",
+            "vocab_id": "vocab_salade",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "verte.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "q_hachis_prep2_1_deb",
+            "target_level": "débutant",
+            "type": "preposition",
+            "question_ja": "「〜の間（時間幅）」を表すのに適した前置詞を選んでください : 'Enfournez ___ environ vingt-cinq minutes'",
+            "question_fr": "Choisissez la préposition de durée appropriée : 'Enfournez ___ environ vingt-cinq minutes'",
+            "options": [
+              "pendant",
+              "dans",
+              "depuis"
+            ],
+            "answer": "pendant"
+          },
+          {
+            "id": "q_hachis_prep2_1_int",
+            "target_level": "intermédiaire",
+            "type": "word_order",
+            "question_ja": "「グリーンサラダと一緒にすぐ提供しなさい」となるようにフランス語の単語を正しく並び替えてください。",
+            "question_fr": "Ordonnez les mots pour faire la phrase correcte :",
+            "options": [
+              "salade",
+              "verte.",
+              "Servez",
+              "avec",
+              "une",
+              "immédiatement"
+            ],
+            "answer_words": [
+              "Servez",
+              "immédiatement",
+              "avec",
+              "une",
+              "salade",
+              "verte."
+            ]
+          },
+          {
+            "id": "q_hachis_prep2_1_adv",
+            "target_level": "avancé",
+            "type": "input",
+            "question_ja": "「オーブンに入れる」という意味を持つフランス語の命令動詞を正しく入力してください。",
+            "question_fr": "Entrez le verbe à l'impératif présent (vous) signifiant 'mettre au four' :",
+            "blank_word": "enfournez"
+          }
+        ]
+      },
+      {
+        "session_id": 5,
+        "title": "Le saviez-vous ? (コラム)",
+        "type": "column",
+        "text_fr": "À l'origine, le hachis Parmentier était souvent préparé avec les restes d'un rôti de bœuf. Aujourd'hui encore, beaucoup de familles françaises utilisent les restes de viande pour éviter le gaspillage alimentaire. C'est un excellent exemple de cuisine traditionnelle simple, généreuse et économique.",
+        "text_ja": "もともとアッシェ・パルマンティエは、ローストビーフの残り肉を無駄なく使い切るために考えられた料理だった。現在でも、多くのフランスの家庭では食品ロスを減らすため、残った肉を活用してこの料理を作っている。シンプルで温かみがあり、経済的でもあるこの料理は、フランスの家庭料理を象徴する一皿と言える。",
+        "tokens": [
+          {
+            "word": "À",
+            "pos": "preposition",
+            "vocab_id": "prep_a",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "l'origine,",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "hachis",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Parmentier",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "était",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "souvent",
+            "pos": "other",
+            "vocab_id": "adv_souvent",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "préparé",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "avec",
+            "pos": "preposition",
+            "vocab_id": "prep_avec",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "les",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "restes",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "d'un",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "rôti",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "bœuf.",
+            "pos": "other",
+            "vocab_id": "vocab_boeuf",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "Aujourd'hui",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "encore,",
+            "pos": "other",
+            "vocab_id": "adv_encore",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "beaucoup",
+            "pos": "other",
+            "vocab_id": "adv_beaucoup",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "familles",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "françaises",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "utilisent",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "les",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "restes",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "viande",
+            "pos": "other",
+            "vocab_id": "vocab_viande",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "pour",
+            "pos": "other",
+            "vocab_id": "prep_pour",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "éviter",
+            "pos": "verb",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "le",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "gaspillage",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "alimentaire.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "C'est",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "un",
+            "pos": "article",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "excellent",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "exemple",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "de",
+            "pos": "preposition",
+            "vocab_id": "prep_de",
+            "gram_id": "gram_prepositions_culinary",
+            "analysis": null
+          },
+          {
+            "word": "cuisine",
+            "pos": "noun",
+            "vocab_id": "vocab_cuisine",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "traditionnelle",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "simple,",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "généreuse",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "et",
+            "pos": "conjunction",
+            "vocab_id": "conj_et",
+            "gram_id": null,
+            "analysis": null
+          },
+          {
+            "word": "économique.",
+            "pos": "other",
+            "vocab_id": null,
+            "gram_id": null,
+            "analysis": null
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "q_hachis_col_1_deb",
+            "target_level": "débutant",
+            "type": "choice",
+            "question_ja": "家庭において、余った肉を活用することは何を防ぐこと（避けること）につながりますか？",
+            "question_fr": "L'utilisation des restes de viande permet d'éviter quoi ?",
+            "options": [
+              "le gaspillage alimentaire (食品ロス)",
+              "la fatigue (疲労)",
+              "le coût du gaz (ガス代)"
+            ],
+            "answer": "le gaspillage alimentaire (食品ロス)",
+            "options_fr": [
+              "le gaspillage alimentaire",
+              "la fatigue",
+              "le coût du gaz"
+            ],
+            "answer_fr": "le gaspillage alimentaire"
+          },
+          {
+            "id": "q_hachis_col_1_int",
+            "target_level": "intermédiaire",
+            "type": "conjugation",
+            "question_ja": "動詞 'éviter' (避ける) の不定詞（原形）を、文章に適合するように空欄に入力してください : 'pour ___ le gaspillage'",
+            "question_fr": "Entrez l'infinitif du verbe 'éviter' : 'pour ___ le gaspillage'",
+            "blank_word": "éviter"
+          },
+          {
+            "id": "q_hachis_col_1_adv",
+            "target_level": "avancé",
+            "type": "kitchen_situation",
+            "question_ja": "アッシェ・パルマンティエは、歴史的には元々何の残り肉で作られていましたか？（フランス語で記述しなさい）",
+            "question_fr": "Avec quels restes de viande ce plat était-il préparé à l'origine ? (en français)",
+            "blank_word": "les restes de rôti de bœuf"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -10,6 +10,7 @@ import { renderSearch } from './js/views/search.js';
 import { renderSettings } from './js/views/settings.js';
 import { renderDictation } from './js/views/dictation.js';
 import { renderStory } from './js/views/story.js';
+import { renderReading } from './js/views/reading.js';
 
 // Global State
 export const state = {
@@ -195,7 +196,8 @@ const views = {
   settings: renderSettings,
   // Phase 3 views
   dictation: renderDictation,
-  story: renderStory
+  story: renderStory,
+  reading: renderReading
 };
 
 export function navigateTo(viewName) {
@@ -226,15 +228,42 @@ export function navigateTo(viewName) {
 
 // App Initialization
 async function initApp() {
+  if (window.__app_initialized) return;
+  window.__app_initialized = true;
   try {
     const response = await fetch('data/meta.json');
     state.meta = await response.json();
     
+    // Hamburger menu drawer toggle logic
+    const toggleBtn = document.getElementById('hamburger-menu-toggle');
+    const navBand = document.querySelector('.nav-band');
+    if (toggleBtn && navBand) {
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        navBand.classList.toggle('mobile-open');
+        toggleBtn.classList.toggle('active');
+      });
+      
+      // Close menu if clicking outside the navbar
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.nav-band') && !e.target.closest('#hamburger-menu-toggle')) {
+          navBand.classList.remove('mobile-open');
+          toggleBtn.classList.remove('active');
+        }
+      });
+    }
+
     // Register Navigation Click Listeners
     document.querySelectorAll('.nav-link').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const view = e.target.closest('.nav-link').getAttribute('data-tab');
         navigateTo(view);
+        
+        // Auto-close menu on navigating
+        if (navBand && navBand.classList.contains('mobile-open')) {
+          navBand.classList.remove('mobile-open');
+          if (toggleBtn) toggleBtn.classList.remove('active');
+        }
       });
     });
     
