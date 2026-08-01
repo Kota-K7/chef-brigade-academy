@@ -11,8 +11,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="apple-touch-icon" href="/assets/icon-192-Cj_-870D.png">
-  <script type="module" crossorigin src="/assets/index-BmfT1oI5.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CcFMHGla.css">
+  <script type="module" crossorigin src="/assets/index-DN1p1zg_.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-QrpNHLtL.css">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 <body>
   <div id="app-container">
@@ -26,24 +26,50 @@
               <div class="brand-subtitle">Cuisine & Langue</div>
             </div>
           </div>
+          <button id="hamburger-menu-toggle" aria-label="Toggle Navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
         </div>
       </div>
       <div class="header-band red-band"></div>
       <div class="nav-band">
         <div class="nav-inner">
           <nav id="main-nav">
-            <button class="nav-link active" data-tab="home">Home</button>
-            <button class="nav-link" data-tab="vocabulary">Vocabulary</button>
-            <button class="nav-link" data-tab="grammar">Grammar</button>
-            <button class="nav-link" data-tab="reference">📕 Reference</button>
-            <button class="nav-link" data-tab="cuisine">Cuisine</button>
-            <button class="nav-link" data-tab="quiz">Quiz</button>
-            <button class="nav-link" data-tab="review">Review</button>
-            <button class="nav-link" data-tab="dictation">✍️ Dictation</button>
-            <button class="nav-link" data-tab="story">🏰 Histoire</button>
-            <button class="nav-link" data-tab="favorites">★ Favorites</button>
-            <button class="nav-link" data-tab="search">🔍 Search</button>
-            <button class="nav-link" data-tab="settings">⚙️ Settings</button>
+            <div class="nav-left-menu">
+              <div class="nav-menu-group">
+                <button class="nav-link active" data-tab="home">Home</button>
+              </div>
+              <div class="nav-group-divider"></div>
+              <div class="nav-menu-group">
+                <button class="nav-link" data-tab="vocabulary">Vocabulary</button>
+                <button class="nav-link" data-tab="grammar">Grammar</button>
+                <button class="nav-link" data-tab="reference">Reference</button>
+              </div>
+              <div class="nav-group-divider"></div>
+              <div class="nav-menu-group">
+                <button class="nav-link" data-tab="reading">Reading</button>
+                <button class="nav-link" data-tab="story">History</button>
+              </div>
+              <div class="nav-group-divider"></div>
+              <div class="nav-menu-group">
+                <button class="nav-link" data-tab="cuisine">Cuisine</button>
+              </div>
+              <div class="nav-group-divider"></div>
+              <div class="nav-menu-group">
+                <button class="nav-link" data-tab="quiz">Quiz</button>
+                <button class="nav-link" data-tab="dictation">Dictation</button>
+                <button class="nav-link" data-tab="review">Review</button>
+              </div>
+            </div>
+            <div class="nav-right-menu">
+              <div class="nav-menu-group">
+                <button class="nav-link utility-icon-link" data-tab="search" title="Search">🔍</button>
+                <button class="nav-link utility-icon-link" data-tab="favorites" title="Favorites">⭐</button>
+                <button class="nav-link utility-icon-link" data-tab="settings" title="Settings">⚙️</button>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
