@@ -1956,11 +1956,11 @@
     `}}}function an(){const e=document.getElementById("youglish-sidebar"),i=document.getElementById("youglish-sidebar-toggle"),t=document.getElementById("youglish-search-input"),n=document.getElementById("youglish-search-btn"),a=document.getElementById("yg-widget-container");if(!e||!i||!t||!n||!a)return;i.addEventListener("click",r=>{r.stopPropagation(),e.classList.toggle("open"),e.classList.contains("open")&&t.focus()}),document.addEventListener("click",r=>{e.classList.contains("open")&&!e.contains(r.target)&&e.classList.remove("open")});let o=null;function u(){const r=t.value.trim();if(r)if(a.innerHTML='<div id="yg-widget" style="width: 100%;"></div>',window.YG)try{o=new YG("yg-widget",{width:230,components:9,accentColor:"#C5A880",autoStart:1,search:r,language:"french"})}catch(b){console.error("Failed to load YouGlish widget:",b),a.innerHTML=`
           <div style="font-size: 0.75rem; text-align: center; color: var(--color-error); padding: 1rem;">
             ウィジェットの読み込みに失敗しました。<br>
-            <a href="https://youglish.com/pronounce/${encodeURIComponent(r)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">YouGlishサイトで直接開く</a>
+            <a href="https://youglish.com/pronounce/${encodeURIComponent(r)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">YouGlish[...]</a>
           </div>
         `}else window.open(`https://youglish.com/pronounce/${encodeURIComponent(r)}/french`,"_blank"),a.innerHTML=`
         <div style="font-size: 0.75rem; text-align: center; color: rgba(255,255,255,0.7); padding: 1rem;">
           発音ページを別タブで開きました。<br>
-          <a href="https://youglish.com/pronounce/${encodeURIComponent(r)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開かない場合はこちら</a>
+          <a href="https://youglish.com/pronounce/${encodeURIComponent(r)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開く</a>
         </div>
-      `}n.addEventListener("click",u),t.addEventListener("keypress",r=>{r.key==="Enter"&&u()})}document.addEventListener("DOMContentLoaded",nn);
+      `}n.addEventListener("click",u),t.addEventListener("keypress",r=>{r.key==="Enter"&&u()})}"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js").then(e=>console.log("ServiceWorker registered:",e.scope)).catch(e=>console.warn("ServiceWorker registration failed:",e))});document.addEventListener("DOMContentLoaded",nn);
