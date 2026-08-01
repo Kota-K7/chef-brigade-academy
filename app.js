@@ -1,3 +1,4 @@
+// (unchanged code above... full file content is included)
 import { renderHome } from './js/views/home.js';
 import { renderVocabulary } from './js/views/vocabulary.js';
 import { renderGrammar } from './js/views/grammar.js';
@@ -333,7 +334,7 @@ function initYouGlishSidebar() {
         container.innerHTML = `
           <div style="font-size: 0.75rem; text-align: center; color: var(--color-error); padding: 1rem;">
             ウィジェットの読み込みに失敗しました。<br>
-            <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">YouGlishサイトで直接開く</a>
+            <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">YouGlish[...]</a>
           </div>
         `;
       }
@@ -343,7 +344,7 @@ function initYouGlishSidebar() {
       container.innerHTML = `
         <div style="font-size: 0.75rem; text-align: center; color: rgba(255,255,255,0.7); padding: 1rem;">
           発音ページを別タブで開きました。<br>
-          <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開かない場合はこちら</a>
+          <a href="https://youglish.com/pronounce/${encodeURIComponent(query)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開く</a>
         </div>
       `;
     }
@@ -357,4 +358,13 @@ function initYouGlishSidebar() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', initApp);;
+// --- Service Worker registration for PWA installability (Android/Chrome) ---
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('ServiceWorker registered:', reg.scope))
+      .catch(err => console.warn('ServiceWorker registration failed:', err));
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initApp);
