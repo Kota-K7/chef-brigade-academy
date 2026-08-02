@@ -141,5 +141,225 @@
         "ja": "料理人がスパイスを加えるとすぐに、香りは完全に変化しました。"
       }
     ]
+  },
+  {
+    "id": "vocab_caviardage",
+    "category": "Media",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Media"
+    ],
+    "french": "Caviardage",
+    "english": "Redaction / Censorship",
+    "japanese": "(Nom) 墨塗り、検閲",
+    "definition_fr": "Terme d'apprentissage (caviardage).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de caviardage.",
+        "en": "Practical use of redaction / censorship.",
+        "ja": "(Nom) 墨塗り、検閲の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chnaie",
+    "category": "Nature",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Chênaie",
+    "english": "Oak grove",
+    "japanese": "(Nom) 樫の木立",
+    "definition_fr": "Terme d'apprentissage (chênaie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chênaie.",
+        "en": "Practical use of oak grove.",
+        "ja": "(Nom) 樫の木立の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_circonspection",
+    "category": "Psychology",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Circonspection",
+    "english": "Circumspection / Caution",
+    "japanese": "(Nom) 慎重さ",
+    "definition_fr": "Terme d'apprentissage (circonspection).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de circonspection.",
+        "en": "Practical use of circumspection / caution.",
+        "ja": "(Nom) 慎重さの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cochenille",
+    "category": "Science",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cochenille",
+    "english": "Cochineal",
+    "japanese": "(Nom) コチニール（エンジムシ）",
+    "definition_fr": "Terme d'apprentissage (cochenille).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cochenille.",
+        "en": "Practical use of cochineal.",
+        "ja": "(Nom) コチニール（エンジムシ）の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_corrlat",
+    "category": "Science",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Corrélat",
+    "english": "Correlate",
+    "japanese": "(Nom) 相関物",
+    "definition_fr": "Terme d'apprentissage (corrélat).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de corrélat.",
+        "en": "Practical use of correlate.",
+        "ja": "(Nom) 相関物の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_couvaison",
+    "category": "Science",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Couvaison",
+    "english": "Brooding / Incubation",
+    "japanese": "(Nom) 抱卵、孵化",
+    "definition_fr": "Terme d'apprentissage (couvaison).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de couvaison.",
+        "en": "Practical use of brooding / incubation.",
+        "ja": "(Nom) 抱卵、孵化の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_croupion",
+    "category": "Nature",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Croupion",
+    "english": "Rump",
+    "japanese": "(Nom) 尾骨",
+    "definition_fr": "Terme d'apprentissage (croupion).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de croupion.",
+        "en": "Practical use of rump.",
+        "ja": "(Nom) 尾骨の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_monocle",
+    "category": "Fashion",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Fashion"
+    ],
+    "french": "Monocle",
+    "english": "Monocle",
+    "japanese": "(Nom) 片眼鏡",
+    "definition_fr": "Terme d'apprentissage (monocle).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : monocle.",
+        "en": "Common example: monocle.",
+        "ja": "よく使う例: (Nom) 片眼鏡。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rongement",
+    "category": "General",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Rongement",
+    "english": "Gnawing",
+    "japanese": "(Nom) 蝕むこと",
+    "definition_fr": "Terme d'apprentissage (rongement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rongement.",
+        "en": "Usage: gnawing.",
+        "ja": "使用例: (Nom) 蝕むこと。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_supplique",
+    "category": "Society",
+    "level": "C2",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Supplique",
+    "english": "Petition",
+    "japanese": "(Nom) 嘆願書",
+    "definition_fr": "Terme d'apprentissage (supplique).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : supplique.",
+        "en": "Usage: petition.",
+        "ja": "使用例: (Nom) 嘆願書。"
+      }
+    ],
+    "gender": "f"
   }
 ]

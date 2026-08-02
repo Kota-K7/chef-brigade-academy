@@ -275,5 +275,486 @@
         "ja": "ソースを優しく混ぜることで、シェフは均一な食感を作り出します。"
       }
     ]
+  },
+  {
+    "id": "vocab_cardinal",
+    "category": "Religion",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Cardinal",
+    "english": "Cardinal",
+    "japanese": "(Nom) 枢機卿、基本数",
+    "definition_fr": "Terme d'apprentissage (cardinal).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cardinal.",
+        "en": "Practical use of cardinal.",
+        "ja": "(Nom) 枢機卿、基本数の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cervelet",
+    "category": "Science",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cervelet",
+    "english": "Cerebellum",
+    "japanese": "(Nom) 小脳",
+    "definition_fr": "Terme d'apprentissage (cervelet).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cervelet.",
+        "en": "Practical use of cerebellum.",
+        "ja": "(Nom) 小脳の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chaire",
+    "category": "Education",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Education"
+    ],
+    "french": "Chaire",
+    "english": "Chair / Professorship",
+    "japanese": "(Nom) 講座、教授職",
+    "definition_fr": "Terme d'apprentissage (chaire).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chaire.",
+        "en": "Practical use of chair / professorship.",
+        "ja": "(Nom) 講座、教授職の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chrtient",
+    "category": "Religion",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Chrétienté",
+    "english": "Christendom",
+    "japanese": "(Nom) キリスト教界",
+    "definition_fr": "Terme d'apprentissage (chrétienté).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chrétienté.",
+        "en": "Practical use of christendom.",
+        "ja": "(Nom) キリスト教界の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cintisme",
+    "category": "Science",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cinétisme",
+    "english": "Kinetics",
+    "japanese": "(Nom) 運動性",
+    "definition_fr": "Terme d'apprentissage (cinétisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cinétisme.",
+        "en": "Practical use of kinetics.",
+        "ja": "(Nom) 運動性の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_circonscription",
+    "category": "Society",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Circonscription",
+    "english": "Constituency",
+    "japanese": "(Nom) 選挙区",
+    "definition_fr": "Terme d'apprentissage (circonscription).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de circonscription.",
+        "en": "Practical use of constituency.",
+        "ja": "(Nom) 選挙区の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_commanditaire",
+    "category": "Business",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Commanditaire",
+    "english": "Sponsor / Silent partner",
+    "japanese": "(Nom) 出資者、スポンサー",
+    "definition_fr": "Terme d'apprentissage (commanditaire).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de commanditaire.",
+        "en": "Practical use of sponsor / silent partner.",
+        "ja": "(Nom) 出資者、スポンサーの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_commutation",
+    "category": "Technology",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Commutation",
+    "english": "Switching / Commutation",
+    "japanese": "(Nom) スイッチング、減刑",
+    "definition_fr": "Terme d'apprentissage (commutation).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de commutation.",
+        "en": "Practical use of switching / commutation.",
+        "ja": "(Nom) スイッチング、減刑の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_complaisance",
+    "category": "Psychology",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Complaisance",
+    "english": "Complacency / Indulgence",
+    "japanese": "(Nom) 自己満足、好意",
+    "definition_fr": "Terme d'apprentissage (complaisance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de complaisance.",
+        "en": "Practical use of complacency / indulgence.",
+        "ja": "(Nom) 自己満足、好意の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_confrrie",
+    "category": "History",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Confrérie",
+    "english": "Brotherhood / Guild",
+    "japanese": "(Nom) ギルド、組合",
+    "definition_fr": "Terme d'apprentissage (confrérie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de confrérie.",
+        "en": "Practical use of brotherhood / guild.",
+        "ja": "(Nom) ギルド、組合の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_consortium",
+    "category": "Business",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Consortium",
+    "english": "Consortium",
+    "japanese": "(Nom) 共同事業体",
+    "definition_fr": "Terme d'apprentissage (consortium).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de consortium.",
+        "en": "Practical use of consortium.",
+        "ja": "(Nom) 共同事業体の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_conspirateur",
+    "category": "History",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Conspirateur",
+    "english": "Conspirator",
+    "japanese": "(Nom) 陰謀者",
+    "definition_fr": "Terme d'apprentissage (conspirateur).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conspirateur.",
+        "en": "Practical use of conspirator.",
+        "ja": "(Nom) 陰謀者の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_contingent",
+    "category": "Society",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Contingent",
+    "english": "Quota / Contingent",
+    "japanese": "(Nom) 割り当て、定員",
+    "definition_fr": "Terme d'apprentissage (contingent).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de contingent.",
+        "en": "Practical use of quota / contingent.",
+        "ja": "(Nom) 割り当て、定員の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_contrepouvoir",
+    "category": "Society",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Contre-pouvoir",
+    "english": "Counterweight / Counter-power",
+    "japanese": "(Nom) 牽制勢力",
+    "definition_fr": "Terme d'apprentissage (contre-pouvoir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de contre-pouvoir.",
+        "en": "Practical use of counterweight / counter-power.",
+        "ja": "(Nom) 牽制勢力の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_convoyeur",
+    "category": "Business",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Convoyeur",
+    "english": "Courier / Escort",
+    "japanese": "(Nom) 搬送人、警備員",
+    "definition_fr": "Terme d'apprentissage (convoyeur).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de convoyeur.",
+        "en": "Practical use of courier / escort.",
+        "ja": "(Nom) 搬送人、警備員の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_riger",
+    "category": "Verbs",
+    "level": "C1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Ériger",
+    "english": "To erect / set up",
+    "japanese": "(Verbe) 建立する、打ち立てる",
+    "definition_fr": "Terme d'apprentissage (ériger).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de ériger.",
+        "en": "Practical use of to erect / set up.",
+        "ja": "(Verbe) 建立する、打ち立てるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_grimer",
+    "category": "Verbs",
+    "level": "C1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Grimer",
+    "english": "To make up / disguise",
+    "japanese": "(Verbe) 化粧する、化けさせる",
+    "definition_fr": "Terme d'apprentissage (grimer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de grimer.",
+        "en": "Practical use of to make up / disguise.",
+        "ja": "(Verbe) 化粧する、化けさせるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_hypothquer",
+    "category": "Verbs",
+    "level": "C1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Hypothéquer",
+    "english": "To mortgage",
+    "japanese": "(Verbe) 抵当に入れる",
+    "definition_fr": "Terme d'apprentissage (hypothéquer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de hypothéquer.",
+        "en": "Practical use of to mortgage.",
+        "ja": "(Verbe) 抵当に入れるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_magnificence",
+    "category": "General",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Magnificence",
+    "english": "Magnificence",
+    "japanese": "(Nom) 壮大さ、華麗さ",
+    "definition_fr": "Terme d'apprentissage (magnificence).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : magnificence.",
+        "en": "Common example: magnificence.",
+        "ja": "よく使う例: (Nom) 壮大さ、華麗さ。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_mue",
+    "category": "Nature",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Mue",
+    "english": "Molt / Voice change",
+    "japanese": "(Nom) 脱皮、声変わり",
+    "definition_fr": "Terme d'apprentissage (mue).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : mue.",
+        "en": "Common example: molt / voice change.",
+        "ja": "よく使う例: (Nom) 脱皮、声変わり。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_sacrement",
+    "category": "Religion",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Sacrement",
+    "english": "Sacrament",
+    "japanese": "(Nom) 秘跡",
+    "definition_fr": "Terme d'apprentissage (sacrement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sacrement.",
+        "en": "Usage: sacrament.",
+        "ja": "使用例: (Nom) 秘跡。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_servitude",
+    "category": "Society",
+    "level": "C1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Servitude",
+    "english": "Servitude / Easement",
+    "japanese": "(Nom) 奴隷状態、地役権",
+    "definition_fr": "Terme d'apprentissage (servitude).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : servitude.",
+        "en": "Usage: servitude / easement.",
+        "ja": "使用例: (Nom) 奴隷状態、地役権。"
+      }
+    ],
+    "gender": "f"
   }
 ]

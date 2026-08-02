@@ -150,6 +150,12 @@ export async function ensureDataLoaded(type, level) {
       const existingIds = new Set(state.db.knowledge.map(item => item.id));
       for (const item of data) {
         if (!existingIds.has(item.id)) {
+          // Normalize context sentence fallbacks from examples array if missing
+          if (!item.context_fr && item.examples && item.examples.length > 0) {
+            item.context_fr = item.examples[0].fr;
+            item.context_en = item.examples[0].en;
+            item.context_ja = item.examples[0].ja;
+          }
           state.db.knowledge.push(item);
         }
       }

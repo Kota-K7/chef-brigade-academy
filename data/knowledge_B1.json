@@ -313,5 +313,6387 @@
         "ja": "正午には、シェフはすべての仕込みを終えているでしょう。"
       }
     ]
+  },
+  {
+    "id": "vocab_sagesse",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Philosophie"
+    ],
+    "french": "Sagesse",
+    "english": "Wisdom",
+    "japanese": "(Nom) 賢明さ、知恵",
+    "definition_fr": "Connaissance sage et équilibrée.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Les conseils empreints de sagesse.",
+        "en": "Translation of: Les conseils empreints de sagesse.",
+        "ja": "例文: Les conseils empreints de sagesse."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_fiert",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Émotion"
+    ],
+    "french": "Fierté",
+    "english": "Pride",
+    "japanese": "(Nom) 誇り、自負",
+    "definition_fr": "Sentiment d'honneur et de dignité.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Ressentir de la fierté pour son travail.",
+        "en": "Translation of: Ressentir de la fierté pour son travail.",
+        "ja": "例文: Ressentir de la fierté pour son travail."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_droit",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Droit"
+    ],
+    "french": "Droit",
+    "english": "Right / Law",
+    "japanese": "(Nom) 権利、法律",
+    "definition_fr": "Ensemble des règles juridiques.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Connaître ses droits et devoirs.",
+        "en": "Translation of: Connaître ses droits et devoirs.",
+        "ja": "例文: Connaître ses droits et devoirs."
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_loi",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Droit"
+    ],
+    "french": "Loi",
+    "english": "Law",
+    "japanese": "(Nom) 法律、規律",
+    "definition_fr": "Règle votée par le parlement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Respecter la loi en vigueur.",
+        "en": "Translation of: Respecter la loi en vigueur.",
+        "ja": "例文: Respecter la loi en vigueur."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_universit",
+    "category": "Places",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Études"
+    ],
+    "french": "Université",
+    "english": "University",
+    "japanese": "(Nom) 大学",
+    "definition_fr": "Établissement d'enseignement supérieur.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Poursuivre ses études à l'université.",
+        "en": "Translation of: Poursuivre ses études à l'université.",
+        "ja": "例文: Poursuivre ses études à l'université."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_navigateur",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Informatique"
+    ],
+    "french": "Navigateur",
+    "english": "Browser",
+    "japanese": "(Nom) ブラウザ",
+    "definition_fr": "Logiciel de consultation du Web.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ouvrir un nouvel onglet dans le navigateur.",
+        "en": "Open a new tab in the browser.",
+        "ja": "ブラウザで新しいタブを開く。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_sculpture",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Art"
+    ],
+    "french": "Sculpture",
+    "english": "Sculpture",
+    "japanese": "(Nom) 彫刻",
+    "definition_fr": "Art de tailler la pierre ou le bois.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Une sculpture en marbre blanc.",
+        "en": "Translation of: Une sculpture en marbre blanc.",
+        "ja": "日本語訳: Une sculpture en marbre blanc."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_science",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Savoir"
+    ],
+    "french": "Science",
+    "english": "Science",
+    "japanese": "(Nom) 科学、学問",
+    "definition_fr": "Ensemble méthodique de connaissances.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Avancer dans le domaine de la science.",
+        "en": "Translation of: Avancer dans le domaine de la science.",
+        "ja": "日本語訳: Avancer dans le domaine de la science."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_physique",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Savoir"
+    ],
+    "french": "Physique",
+    "english": "Physics",
+    "japanese": "(Nom) 物理学",
+    "definition_fr": "Science des propriétés de la matière.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Étudier les lois de la physique.",
+        "en": "Translation of: Étudier les lois de la physique.",
+        "ja": "日本語訳: Étudier les lois de la physique."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chimie",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Savoir"
+    ],
+    "french": "Chimie",
+    "english": "Chemistry",
+    "japanese": "(Nom) 化学",
+    "definition_fr": "Science de la constitution des corps.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Réaliser une expérience en chimie.",
+        "en": "Translation of: Réaliser une expérience en chimie.",
+        "ja": "日本語訳: Réaliser une expérience en chimie."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_biologie",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Savoir"
+    ],
+    "french": "Biologie",
+    "english": "Biology",
+    "japanese": "(Nom) 生物学",
+    "definition_fr": "Science du vivant et des organismes.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la biologie cellulaire.",
+        "en": "Translation of: Comprendre la biologie cellulaire.",
+        "ja": "日本語訳: Comprendre la biologie cellulaire."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_mathmatique",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Savoir"
+    ],
+    "french": "Mathématique",
+    "english": "Mathematics",
+    "japanese": "(Nom) 数学",
+    "definition_fr": "Science des nombres et des figures.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Résoudre une équation mathématique.",
+        "en": "Translation of: Résoudre une équation mathématique.",
+        "ja": "日本語訳: Résoudre une équation mathématique."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_architecte",
+    "category": "Work",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Profession"
+    ],
+    "french": "Architecte",
+    "english": "Architect",
+    "japanese": "(Nom) 建築家",
+    "definition_fr": "Concepteur de bâtiments et édifices.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "L'architecte dessine les plans.",
+        "en": "Translation of: L'architecte dessine les plans.",
+        "ja": "日本語訳: L'architecte dessine les plans."
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_comptable",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Profession"
+    ],
+    "french": "Comptable",
+    "english": "Accountant",
+    "japanese": "(Nom) 会計士、経理",
+    "definition_fr": "Gestionnaire de la comptabilité.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le comptable vérifie les factures.",
+        "en": "Translation of: Le comptable vérifie les factures.",
+        "ja": "日本語訳: Le comptable vérifie les factures."
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_pense",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstraction"
+    ],
+    "french": "Pensée",
+    "english": "Thought",
+    "japanese": "(Nom) 思考、考え",
+    "definition_fr": "Activité de l'esprit qui pense.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exprimer sa pensée librement.",
+        "en": "Translation: Exprimer sa pensée librement.",
+        "ja": "日本語訳: Exprimer sa pensée librement."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_ame",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstraction"
+    ],
+    "french": "Ame",
+    "english": "Soul",
+    "japanese": "(Nom) 魂、精神",
+    "definition_fr": "Principe de la vie spirituelle.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Une musique qui touche l'âme.",
+        "en": "Translation: Une musique qui touche l'âme.",
+        "ja": "日本語訳: Une musique qui touche l'âme."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_intention",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstraction"
+    ],
+    "french": "Intention",
+    "english": "Intention",
+    "japanese": "(Nom) 意図、つもり",
+    "definition_fr": "Dessein délibéré d'agir.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Avoir la bonne intention.",
+        "en": "Translation: Avoir la bonne intention.",
+        "ja": "日本語訳: Avoir la bonne intention."
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_dsir",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstraction"
+    ],
+    "french": "Désir",
+    "english": "Desire",
+    "japanese": "(Nom) 欲望、願い",
+    "definition_fr": "Aspiration vers un bien.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Réaliser son désir le plus cher.",
+        "en": "Translation: Réaliser son désir le plus cher.",
+        "ja": "日本語訳: Réaliser son désir le plus cher."
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chec",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstraction"
+    ],
+    "french": "Échec",
+    "english": "Failure",
+    "japanese": "(Nom) 失敗",
+    "definition_fr": "Insuccès d'une entreprise.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Tirer les leçons d'un échec.",
+        "en": "Translation: Tirer les leçons d'un échec.",
+        "ja": "日本語訳: Tirer les leçons d'un échec."
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_dsirer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Action"
+    ],
+    "french": "Désirer",
+    "english": "To desire",
+    "japanese": "(Verbe) 欲望する、欲する",
+    "definition_fr": "Vouloir fortement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Désirer réussir son projet.",
+        "en": "Translation: Désirer réussir son projet.",
+        "ja": "日本語訳: Désirer réussir son projet."
+      }
+    ]
+  },
+  {
+    "id": "vocab_production",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Production",
+    "english": "Production",
+    "japanese": "(Nom) 生産、制作",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant production.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la production dans son contexte.",
+        "en": "Understand the production in context.",
+        "ja": "文脈で(Nom) 生産、制作を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gestion",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Gestion",
+    "english": "Management",
+    "japanese": "(Nom) 管理、運営",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant gestion.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la gestion dans son contexte.",
+        "en": "Understand the management in context.",
+        "ja": "文脈で(Nom) 管理、運営を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_evolution",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Evolution",
+    "english": "Evolution",
+    "japanese": "(Nom) 進化、発展",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant evolution.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la evolution dans son contexte.",
+        "en": "Understand the evolution in context.",
+        "ja": "文脈で(Nom) 進化、発展を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_revolution",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Revolution",
+    "english": "Revolution",
+    "japanese": "(Nom) 革命、変革",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant revolution.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la revolution dans son contexte.",
+        "en": "Understand the revolution in context.",
+        "ja": "文脈で(Nom) 革命、変革を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_condition",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Condition",
+    "english": "Condition",
+    "japanese": "(Nom) 条件、状態",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant condition.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la condition dans son contexte.",
+        "en": "Understand the condition in context.",
+        "ja": "文脈で(Nom) 条件、状態を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_organisation",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Organisation",
+    "english": "Organization",
+    "japanese": "(Nom) 組織、整理",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant organisation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la organisation dans son contexte.",
+        "en": "Understand the organization in context.",
+        "ja": "文脈で(Nom) 組織、整理を理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sensation",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Sensation",
+    "english": "Sensation",
+    "japanese": "(Nom) 感覚、センセーション",
+    "gender": "f",
+    "definition_fr": "Concept essentiel concernant sensation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Comprendre la sensation dans son contexte.",
+        "en": "Understand the sensation in context.",
+        "ja": "文脈で(Nom) 感覚、センセーションを理解する。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_analyse",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Analyse",
+    "english": "Analysis",
+    "japanese": "(Nom) 分析、解析",
+    "gender": "f",
+    "definition_fr": "Concept relatif à analyse.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot analyse dans une phrase claire.",
+        "en": "Use the word analysis in a clear sentence.",
+        "ja": "(Nom) 分析、解析を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_dveloppement",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Développement",
+    "english": "Development",
+    "japanese": "(Nom) 開発、発展",
+    "gender": "m",
+    "definition_fr": "Concept relatif à développement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot développement dans une phrase claire.",
+        "en": "Use the word development in a clear sentence.",
+        "ja": "(Nom) 開発、発展を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_proposition",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Proposition",
+    "english": "Proposal",
+    "japanese": "(Nom) 提案、申し出",
+    "gender": "f",
+    "definition_fr": "Concept relatif à proposition.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot proposition dans une phrase claire.",
+        "en": "Use the word proposal in a clear sentence.",
+        "ja": "(Nom) 提案、申し出を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_contrat",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Contrat",
+    "english": "Contract",
+    "japanese": "(Nom) 契約、契約書",
+    "gender": "m",
+    "definition_fr": "Concept relatif à contrat.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot contrat dans une phrase claire.",
+        "en": "Use the word contract in a clear sentence.",
+        "ja": "(Nom) 契約、契約書を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_budget",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Budget",
+    "english": "Budget",
+    "japanese": "(Nom) 予算、経費",
+    "gender": "m",
+    "definition_fr": "Concept relatif à budget.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot budget dans une phrase claire.",
+        "en": "Use the word budget in a clear sentence.",
+        "ja": "(Nom) 予算、経費を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_finance",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Finance",
+    "english": "Finance",
+    "japanese": "(Nom) 財務、金融",
+    "gender": "f",
+    "definition_fr": "Concept relatif à finance.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot finance dans une phrase claire.",
+        "en": "Use the word finance in a clear sentence.",
+        "ja": "(Nom) 財務、金融を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_investissement",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Investissement",
+    "english": "Investment",
+    "japanese": "(Nom) 投資、出資",
+    "gender": "m",
+    "definition_fr": "Concept relatif à investissement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot investissement dans une phrase claire.",
+        "en": "Use the word investment in a clear sentence.",
+        "ja": "(Nom) 投資、出資を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_valeur",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Valeur",
+    "english": "Value",
+    "japanese": "(Nom) 価値、価格",
+    "gender": "f",
+    "definition_fr": "Concept relatif à valeur.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot valeur dans une phrase claire.",
+        "en": "Use the word value in a clear sentence.",
+        "ja": "(Nom) 価値、価格を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_principe",
+    "category": "Abstract",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstract"
+    ],
+    "french": "Principe",
+    "english": "Principle",
+    "japanese": "(Nom) 原則、主義",
+    "gender": "m",
+    "definition_fr": "Concept relatif à principe.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot principe dans une phrase claire.",
+        "en": "Use the word principle in a clear sentence.",
+        "ja": "(Nom) 原則、主義を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_norme",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Norme",
+    "english": "Standard / Norm",
+    "japanese": "(Nom) 基準、規範",
+    "gender": "f",
+    "definition_fr": "Concept relatif à norme.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot norme dans une phrase claire.",
+        "en": "Use the word standard / norm in a clear sentence.",
+        "ja": "(Nom) 基準、規範を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_impact",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Impact",
+    "english": "Impact",
+    "japanese": "(Nom) 影響、インパクト",
+    "gender": "m",
+    "definition_fr": "Concept relatif à impact.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot impact dans une phrase claire.",
+        "en": "Use the word impact in a clear sentence.",
+        "ja": "(Nom) 影響、インパクトを文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_influence",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Influence",
+    "english": "Influence",
+    "japanese": "(Nom) 影響力、感化",
+    "gender": "f",
+    "definition_fr": "Concept relatif à influence.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot influence dans une phrase claire.",
+        "en": "Use the word influence in a clear sentence.",
+        "ja": "(Nom) 影響力、感化を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_transformation",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Transformation",
+    "english": "Transformation",
+    "japanese": "(Nom) 変容、変革",
+    "gender": "f",
+    "definition_fr": "Concept relatif à transformation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot transformation dans une phrase claire.",
+        "en": "Use the word transformation in a clear sentence.",
+        "ja": "(Nom) 変容、変革を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_innovation",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Innovation",
+    "english": "Innovation",
+    "japanese": "(Nom) 革新、イノベーション",
+    "gender": "f",
+    "definition_fr": "Concept relatif à innovation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot innovation dans une phrase claire.",
+        "en": "Use the word innovation in a clear sentence.",
+        "ja": "(Nom) 革新、イノベーションを文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_consquence",
+    "category": "Abstract",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Abstract"
+    ],
+    "french": "Conséquence",
+    "english": "Consequence",
+    "japanese": "(Nom) 結果、帰結",
+    "gender": "f",
+    "definition_fr": "Concept relatif à conséquence.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot conséquence dans une phrase claire.",
+        "en": "Use the word consequence in a clear sentence.",
+        "ja": "(Nom) 結果、帰結を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_origine",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Origine",
+    "english": "Origin",
+    "japanese": "(Nom) 起源、由来",
+    "gender": "f",
+    "definition_fr": "Concept relatif à origine.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot origine dans une phrase claire.",
+        "en": "Use the word origin in a clear sentence.",
+        "ja": "(Nom) 起源、由来を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_poque",
+    "category": "Time",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Time"
+    ],
+    "french": "Époque",
+    "english": "Era / Period",
+    "japanese": "(Nom) 時代、時期",
+    "gender": "f",
+    "definition_fr": "Concept relatif à époque.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot époque dans une phrase claire.",
+        "en": "Use the word era / period in a clear sentence.",
+        "ja": "(Nom) 時代、時期を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_littrature",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Littérature",
+    "english": "Literature",
+    "japanese": "(Nom) 文学",
+    "gender": "f",
+    "definition_fr": "Concept relatif à littérature.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot littérature dans une phrase claire.",
+        "en": "Use the word literature in a clear sentence.",
+        "ja": "(Nom) 文学を文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_posie",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Poésie",
+    "english": "Poetry",
+    "japanese": "(Nom) 詩歌、ポエジー",
+    "gender": "f",
+    "definition_fr": "Concept relatif à poésie.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser le mot poésie dans une phrase claire.",
+        "en": "Use the word poetry in a clear sentence.",
+        "ja": "(Nom) 詩歌、ポエジーを文で正しく使う。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_complexe",
+    "category": "Adjectives",
+    "level": "B1",
+    "tags": [
+      "Adjectif"
+    ],
+    "french": "Complexe",
+    "english": "Complex",
+    "japanese": "(Adjectif) 複雑な",
+    "definition_fr": "Qualificatif exprimant la propriété complexe.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Un exemple très complexe pour illustrer.",
+        "en": "A very complex example to illustrate.",
+        "ja": "説明するためのとても(Adjectif) 複雑な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_incertain",
+    "category": "Adjectives",
+    "level": "B1",
+    "tags": [
+      "Adjectif"
+    ],
+    "french": "Incertain",
+    "english": "Uncertain",
+    "japanese": "(Adjectif) 不確実な",
+    "definition_fr": "Qualificatif exprimant la propriété incertain.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Un exemple très incertain pour illustrer.",
+        "en": "A very uncertain example to illustrate.",
+        "ja": "説明するためのとても(Adjectif) 不確実な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_obscur",
+    "category": "Adjectives",
+    "level": "B1",
+    "tags": [
+      "Adjectif"
+    ],
+    "french": "Obscur",
+    "english": "Dark / Obscure",
+    "japanese": "(Adjectif) 暗い、不鮮明な",
+    "definition_fr": "Qualificatif exprimant la propriété obscur.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Un exemple très obscur pour illustrer.",
+        "en": "A very dark / obscure example to illustrate.",
+        "ja": "説明するためのとても(Adjectif) 暗い、不鮮明な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_accompagnement",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Accompagnement",
+    "english": "Support / Escort",
+    "japanese": "(Nom) 支援、伴走、付き添い",
+    "definition_fr": "Terme essentiel signifiant accompagnement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement accompagnement dans la conversation.",
+        "en": "Properly use support / escort in conversation.",
+        "ja": "会話で(Nom) 支援、伴走、付き添いを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_adaptation",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Adaptation",
+    "english": "Adaptation",
+    "japanese": "(Nom) 適応、順応",
+    "definition_fr": "Terme essentiel signifiant adaptation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement adaptation dans la conversation.",
+        "en": "Properly use adaptation in conversation.",
+        "ja": "会話で(Nom) 適応、順応を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_adhrent",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Adhérent",
+    "english": "Member",
+    "japanese": "(Nom) 会員、加盟者",
+    "definition_fr": "Terme essentiel signifiant adhérent.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement adhérent dans la conversation.",
+        "en": "Properly use member in conversation.",
+        "ja": "会話で(Nom) 会員、加盟者を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_administration",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Administration",
+    "english": "Administration",
+    "japanese": "(Nom) 行政、管理",
+    "definition_fr": "Terme essentiel signifiant administration.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement administration dans la conversation.",
+        "en": "Properly use administration in conversation.",
+        "ja": "会話で(Nom) 行政、管理を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_alliance",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Alliance",
+    "english": "Alliance",
+    "japanese": "(Nom) 同盟、結婚指輪",
+    "definition_fr": "Terme essentiel signifiant alliance.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement alliance dans la conversation.",
+        "en": "Properly use alliance in conversation.",
+        "ja": "会話で(Nom) 同盟、結婚指輪を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_amnagement",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Aménagement",
+    "english": "Development / Layout",
+    "japanese": "(Nom) 整備、レイアウト",
+    "definition_fr": "Terme essentiel signifiant aménagement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement aménagement dans la conversation.",
+        "en": "Properly use development / layout in conversation.",
+        "ja": "会話で(Nom) 整備、レイアウトを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_aperu",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Aperçu",
+    "english": "Overview / Preview",
+    "japanese": "(Nom) 概要、プレビュー",
+    "definition_fr": "Terme essentiel signifiant aperçu.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement aperçu dans la conversation.",
+        "en": "Properly use overview / preview in conversation.",
+        "ja": "会話で(Nom) 概要、プレビューを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_approbation",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Approbation",
+    "english": "Approval",
+    "japanese": "(Nom) 承認、認可",
+    "definition_fr": "Terme essentiel signifiant approbation.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement approbation dans la conversation.",
+        "en": "Properly use approval in conversation.",
+        "ja": "会話で(Nom) 承認、認可を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_approche",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Approche",
+    "english": "Approach",
+    "japanese": "(Nom) アプローチ、手法",
+    "definition_fr": "Terme essentiel signifiant approche.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement approche dans la conversation.",
+        "en": "Properly use approach in conversation.",
+        "ja": "会話で(Nom) アプローチ、手法を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_argument",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Argument",
+    "english": "Argument",
+    "japanese": "(Nom) 議論、主張",
+    "definition_fr": "Terme essentiel signifiant argument.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement argument dans la conversation.",
+        "en": "Properly use argument in conversation.",
+        "ja": "会話で(Nom) 議論、主張を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_assemblage",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Assemblage",
+    "english": "Assembly / Blend",
+    "japanese": "(Nom) 組み立て、アッサンブラージュ",
+    "definition_fr": "Terme essentiel signifiant assemblage.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement assemblage dans la conversation.",
+        "en": "Properly use assembly / blend in conversation.",
+        "ja": "会話で(Nom) 組み立て、アッサンブラージュを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_assemble",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Assemblée",
+    "english": "Assembly / Meeting",
+    "japanese": "(Nom) 集会、議会",
+    "definition_fr": "Terme essentiel signifiant assemblée.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement assemblée dans la conversation.",
+        "en": "Properly use assembly / meeting in conversation.",
+        "ja": "会話で(Nom) 集会、議会を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_atout",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Atout",
+    "english": "Asset / Advantage",
+    "japanese": "(Nom) 強み、長所",
+    "definition_fr": "Terme essentiel signifiant atout.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement atout dans la conversation.",
+        "en": "Properly use asset / advantage in conversation.",
+        "ja": "会話で(Nom) 強み、長所を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_autorit",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Autorité",
+    "english": "Authority",
+    "japanese": "(Nom) 権威、当局",
+    "definition_fr": "Terme essentiel signifiant autorité.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement autorité dans la conversation.",
+        "en": "Properly use authority in conversation.",
+        "ja": "会話で(Nom) 権威、当局を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_avancement",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Avancement",
+    "english": "Advancement / Progress",
+    "japanese": "(Nom) 進捗、昇進",
+    "definition_fr": "Terme essentiel signifiant avancement.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement avancement dans la conversation.",
+        "en": "Properly use advancement / progress in conversation.",
+        "ja": "会話で(Nom) 進捗、昇進を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_axe",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Axe",
+    "english": "Axis / Focus",
+    "japanese": "(Nom) 軸、重要課題",
+    "definition_fr": "Terme essentiel signifiant axe.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement axe dans la conversation.",
+        "en": "Properly use axis / focus in conversation.",
+        "ja": "会話で(Nom) 軸、重要課題を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_balayage",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Balayage",
+    "english": "Scanning / Sweeping",
+    "japanese": "(Nom) スキャン、清掃",
+    "definition_fr": "Terme essentiel signifiant balayage.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement balayage dans la conversation.",
+        "en": "Properly use scanning / sweeping in conversation.",
+        "ja": "会話で(Nom) スキャン、清掃を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_bassin",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Bassin",
+    "english": "Basin / Pool",
+    "japanese": "(Nom) 水槽、盆地",
+    "definition_fr": "Terme essentiel signifiant bassin.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement bassin dans la conversation.",
+        "en": "Properly use basin / pool in conversation.",
+        "ja": "会話で(Nom) 水槽、盆地を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_bnfice",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Bénéfice",
+    "english": "Profit / Benefit",
+    "japanese": "(Nom) 利益、恩恵",
+    "definition_fr": "Terme essentiel signifiant bénéfice.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement bénéfice dans la conversation.",
+        "en": "Properly use profit / benefit in conversation.",
+        "ja": "会話で(Nom) 利益、恩恵を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_bilan",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Bilan",
+    "english": "Assessment / Balance sheet",
+    "japanese": "(Nom) 総括、貸借対照表",
+    "definition_fr": "Terme essentiel signifiant bilan.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement bilan dans la conversation.",
+        "en": "Properly use assessment / balance sheet in conversation.",
+        "ja": "会話で(Nom) 総括、貸借対照表を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_branche",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Branche",
+    "english": "Branch / Industry",
+    "japanese": "(Nom) 枝、業界分野",
+    "definition_fr": "Terme essentiel signifiant branche.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement branche dans la conversation.",
+        "en": "Properly use branch / industry in conversation.",
+        "ja": "会話で(Nom) 枝、業界分野を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_brique",
+    "category": "Construction",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Construction"
+    ],
+    "french": "Brique",
+    "english": "Brick",
+    "japanese": "(Nom) レンガ",
+    "definition_fr": "Terme essentiel signifiant brique.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement brique dans la conversation.",
+        "en": "Properly use brick in conversation.",
+        "ja": "会話で(Nom) レンガを正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cadre",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Cadre",
+    "english": "Executive / Frame",
+    "japanese": "(Nom) 幹部、フレーム",
+    "definition_fr": "Terme essentiel signifiant cadre.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement cadre dans la conversation.",
+        "en": "Properly use executive / frame in conversation.",
+        "ja": "会話で(Nom) 幹部、フレームを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_canal",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Canal",
+    "english": "Channel / Canal",
+    "japanese": "(Nom) 運河、チャネル",
+    "definition_fr": "Terme essentiel signifiant canal.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement canal dans la conversation.",
+        "en": "Properly use channel / canal in conversation.",
+        "ja": "会話で(Nom) 運河、チャネルを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_candidature",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Candidature",
+    "english": "Application",
+    "japanese": "(Nom) 応募、立候補",
+    "definition_fr": "Terme essentiel signifiant candidature.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement candidature dans la conversation.",
+        "en": "Properly use application in conversation.",
+        "ja": "会話で(Nom) 応募、立候補を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_capital",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Capital",
+    "english": "Capital",
+    "japanese": "(Nom) 資本、資金",
+    "definition_fr": "Terme essentiel signifiant capital.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement capital dans la conversation.",
+        "en": "Properly use capital in conversation.",
+        "ja": "会話で(Nom) 資本、資金を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_carrire",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Carrière",
+    "english": "Career / Quarry",
+    "japanese": "(Nom) キャリア、経歴",
+    "definition_fr": "Terme essentiel signifiant carrière.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement carrière dans la conversation.",
+        "en": "Properly use career / quarry in conversation.",
+        "ja": "会話で(Nom) キャリア、経歴を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chantier",
+    "category": "Construction",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Construction"
+    ],
+    "french": "Chantier",
+    "english": "Construction site",
+    "japanese": "(Nom) 建設現場",
+    "definition_fr": "Terme essentiel signifiant chantier.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement chantier dans la conversation.",
+        "en": "Properly use construction site in conversation.",
+        "ja": "会話で(Nom) 建設現場を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_charge",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Charge",
+    "english": "Load / Expense",
+    "japanese": "(Nom) 負担、経費",
+    "definition_fr": "Terme essentiel signifiant charge.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement charge dans la conversation.",
+        "en": "Properly use load / expense in conversation.",
+        "ja": "会話で(Nom) 負担、経費を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cible",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Cible",
+    "english": "Target",
+    "japanese": "(Nom) ターゲット、標的",
+    "definition_fr": "Terme essentiel signifiant cible.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement cible dans la conversation.",
+        "en": "Properly use target in conversation.",
+        "ja": "会話で(Nom) ターゲット、標的を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_circuit",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Circuit",
+    "english": "Circuit / Tour",
+    "japanese": "(Nom) 回路、周遊コース",
+    "definition_fr": "Terme essentiel signifiant circuit.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement circuit dans la conversation.",
+        "en": "Properly use circuit / tour in conversation.",
+        "ja": "会話で(Nom) 回路、周遊コースを正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_collecte",
+    "category": "Services",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Services"
+    ],
+    "french": "Collecte",
+    "english": "Collection",
+    "japanese": "(Nom) 収集、回収",
+    "definition_fr": "Terme essentiel signifiant collecte.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement collecte dans la conversation.",
+        "en": "Properly use collection in conversation.",
+        "ja": "会話で(Nom) 収集、回収を正しく使用する。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_comit",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Comité",
+    "english": "Committee",
+    "japanese": "(Nom) 委員会",
+    "definition_fr": "Terme essentiel signifiant comité.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utiliser correctement comité dans la conversation.",
+        "en": "Properly use committee in conversation.",
+        "ja": "会話で(Nom) 委員会を正しく使用する。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_bnvolat",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Bénévolat",
+    "english": "Volunteering",
+    "japanese": "(Nom) ボランティア活動",
+    "definition_fr": "Terme d'apprentissage (bénévolat).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de bénévolat.",
+        "en": "Practical use of volunteering.",
+        "ja": "(Nom) ボランティア活動の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_bton_1",
+    "category": "Construction",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Construction"
+    ],
+    "french": "Béton",
+    "english": "Concrete",
+    "japanese": "(Nom) コンクリート",
+    "definition_fr": "Terme d'apprentissage (béton).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de béton.",
+        "en": "Practical use of concrete.",
+        "ja": "(Nom) コンクリートの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cabinet",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Cabinet",
+    "english": "Practice / Office / Cabinet",
+    "japanese": "(Nom) 診療所、書斎、内閣",
+    "definition_fr": "Terme d'apprentissage (cabinet).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cabinet.",
+        "en": "Practical use of practice / office / cabinet.",
+        "ja": "(Nom) 診療所、書斎、内閣の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cadence",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Cadence",
+    "english": "Pace / Rhythm",
+    "japanese": "(Nom) ペース、リズム",
+    "definition_fr": "Terme d'apprentissage (cadence).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cadence.",
+        "en": "Practical use of pace / rhythm.",
+        "ja": "(Nom) ペース、リズムの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_capteur",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Capteur",
+    "english": "Sensor",
+    "japanese": "(Nom) センサー",
+    "definition_fr": "Terme d'apprentissage (capteur).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de capteur.",
+        "en": "Practical use of sensor.",
+        "ja": "(Nom) センサーの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_capture",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Capture",
+    "english": "Capture",
+    "japanese": "(Nom) 捕獲、キャプチャ",
+    "definition_fr": "Terme d'apprentissage (capture).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de capture.",
+        "en": "Practical use of capture.",
+        "ja": "(Nom) 捕獲、キャプチャの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_caractristique",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Caractéristique",
+    "english": "Characteristic",
+    "japanese": "(Nom) 特徴",
+    "definition_fr": "Terme d'apprentissage (caractéristique).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de caractéristique.",
+        "en": "Practical use of characteristic.",
+        "ja": "(Nom) 特徴の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_carrosse",
+    "category": "History",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Carrosse",
+    "english": "Carriage",
+    "japanese": "(Nom) 馬車",
+    "definition_fr": "Terme d'apprentissage (carrosse).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de carrosse.",
+        "en": "Practical use of carriage.",
+        "ja": "(Nom) 馬車の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cartouche",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Cartouche",
+    "english": "Cartridge",
+    "japanese": "(Nom) カートリッジ",
+    "definition_fr": "Terme d'apprentissage (cartouche).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cartouche.",
+        "en": "Practical use of cartridge.",
+        "ja": "(Nom) カートリッジの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cavalire",
+    "category": "Sports",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Sports"
+    ],
+    "french": "Cavalière",
+    "english": "Horsewoman",
+    "japanese": "(Nom) 女性騎手",
+    "definition_fr": "Terme d'apprentissage (cavalière).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cavalière.",
+        "en": "Practical use of horsewoman.",
+        "ja": "(Nom) 女性騎手の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cellule",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cellule",
+    "english": "Cell",
+    "japanese": "(Nom) 細胞、独房",
+    "definition_fr": "Terme d'apprentissage (cellule).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cellule.",
+        "en": "Practical use of cell.",
+        "ja": "(Nom) 細胞、独房の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_centrale",
+    "category": "Energy",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Energy"
+    ],
+    "french": "Centrale",
+    "english": "Power plant",
+    "japanese": "(Nom) 発電所",
+    "definition_fr": "Terme d'apprentissage (centrale).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de centrale.",
+        "en": "Practical use of power plant.",
+        "ja": "(Nom) 発電所の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cramique",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Céramique",
+    "english": "Ceramic",
+    "japanese": "(Nom) セラミック、陶芸",
+    "definition_fr": "Terme d'apprentissage (céramique).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de céramique.",
+        "en": "Practical use of ceramic.",
+        "ja": "(Nom) セラミック、陶芸の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_certification",
+    "category": "Education",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Education"
+    ],
+    "french": "Certification",
+    "english": "Certification",
+    "japanese": "(Nom) 認定、資格取得",
+    "definition_fr": "Terme d'apprentissage (certification).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de certification.",
+        "en": "Practical use of certification.",
+        "ja": "(Nom) 認定、資格取得の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_certitude",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Certitude",
+    "english": "Certainty",
+    "japanese": "(Nom) 確信",
+    "definition_fr": "Terme d'apprentissage (certitude).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de certitude.",
+        "en": "Practical use of certainty.",
+        "ja": "(Nom) 確信の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chagrin",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Chagrin",
+    "english": "Grief / Sorrow",
+    "japanese": "(Nom) 悲しみ、憂鬱",
+    "definition_fr": "Terme d'apprentissage (chagrin).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chagrin.",
+        "en": "Practical use of grief / sorrow.",
+        "ja": "(Nom) 悲しみ、憂鬱の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chair",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Chair",
+    "english": "Flesh",
+    "japanese": "(Nom) 肉、肉体",
+    "definition_fr": "Terme d'apprentissage (chair).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chair.",
+        "en": "Practical use of flesh.",
+        "ja": "(Nom) 肉、肉体の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_charbon",
+    "category": "Energy",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Energy"
+    ],
+    "french": "Charbon",
+    "english": "Coal",
+    "japanese": "(Nom) 石炭",
+    "definition_fr": "Terme d'apprentissage (charbon).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de charbon.",
+        "en": "Practical use of coal.",
+        "ja": "(Nom) 石炭の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chargement",
+    "category": "Transport",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Transport"
+    ],
+    "french": "Chargement",
+    "english": "Loading / Freight",
+    "japanese": "(Nom) 積み込み、貨物",
+    "definition_fr": "Terme d'apprentissage (chargement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chargement.",
+        "en": "Practical use of loading / freight.",
+        "ja": "(Nom) 積み込み、貨物の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_charit",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Charité",
+    "english": "Charity",
+    "japanese": "(Nom) 慈善、チャリティー",
+    "definition_fr": "Terme d'apprentissage (charité).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de charité.",
+        "en": "Practical use of charity.",
+        "ja": "(Nom) 慈善、チャリティーの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_charrette",
+    "category": "History",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Charrette",
+    "english": "Cart",
+    "japanese": "(Nom) 荷車",
+    "definition_fr": "Terme d'apprentissage (charrette).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de charrette.",
+        "en": "Practical use of cart.",
+        "ja": "(Nom) 荷車の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chaudire",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Chaudière",
+    "english": "Boiler",
+    "japanese": "(Nom) ボイラー",
+    "definition_fr": "Terme d'apprentissage (chaudière).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chaudière.",
+        "en": "Practical use of boiler.",
+        "ja": "(Nom) ボイラーの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chefduvre",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Chef-d'œuvre",
+    "english": "Masterpiece",
+    "japanese": "(Nom) 傑作、名作",
+    "definition_fr": "Terme d'apprentissage (chef-d'œuvre).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chef-d'œuvre.",
+        "en": "Practical use of masterpiece.",
+        "ja": "(Nom) 傑作、名作の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chevelure",
+    "category": "Health",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Health"
+    ],
+    "french": "Chevelure",
+    "english": "Head of hair",
+    "japanese": "(Nom) 豊かな髪",
+    "definition_fr": "Terme d'apprentissage (chevelure).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chevelure.",
+        "en": "Practical use of head of hair.",
+        "ja": "(Nom) 豊かな髪の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_chiffre_daffaires",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Chiffre d'affaires",
+    "english": "Turnover / Revenue",
+    "japanese": "(Nom) 売上高",
+    "definition_fr": "Terme d'apprentissage (chiffre d'affaires).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chiffre d'affaires.",
+        "en": "Practical use of turnover / revenue.",
+        "ja": "(Nom) 売上高の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chimiste",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Chimiste",
+    "english": "Chemist",
+    "japanese": "(Nom) 化学者",
+    "definition_fr": "Terme d'apprentissage (chimiste).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chimiste.",
+        "en": "Practical use of chemist.",
+        "ja": "(Nom) 化学者の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chmage",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Chômage",
+    "english": "Unemployment",
+    "japanese": "(Nom) 失業",
+    "definition_fr": "Terme d'apprentissage (chômage).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chômage.",
+        "en": "Practical use of unemployment.",
+        "ja": "(Nom) 失業の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_christianisme",
+    "category": "Religion",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Christianisme",
+    "english": "Christianity",
+    "japanese": "(Nom) キリスト教",
+    "definition_fr": "Terme d'apprentissage (christianisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de christianisme.",
+        "en": "Practical use of christianity.",
+        "ja": "(Nom) キリスト教の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_chronologie",
+    "category": "History",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Chronologie",
+    "english": "Chronology",
+    "japanese": "(Nom) 年表、時系列",
+    "definition_fr": "Terme d'apprentissage (chronologie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de chronologie.",
+        "en": "Practical use of chronology.",
+        "ja": "(Nom) 年表、時系列の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_ciment",
+    "category": "Construction",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Construction"
+    ],
+    "french": "Ciment",
+    "english": "Cement",
+    "japanese": "(Nom) セメント",
+    "definition_fr": "Terme d'apprentissage (ciment).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de ciment.",
+        "en": "Practical use of cement.",
+        "ja": "(Nom) セメントの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_circonstance",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Circonstance",
+    "english": "Circumstance",
+    "japanese": "(Nom) 事情、状況",
+    "definition_fr": "Terme d'apprentissage (circonstance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de circonstance.",
+        "en": "Practical use of circumstance.",
+        "ja": "(Nom) 事情、状況の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_citoyen",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Citoyen",
+    "english": "Citizen",
+    "japanese": "(Nom) 市民",
+    "definition_fr": "Terme d'apprentissage (citoyen).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de citoyen.",
+        "en": "Practical use of citizen.",
+        "ja": "(Nom) 市民の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_claque",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Claque",
+    "english": "Slap",
+    "japanese": "(Nom) 平手打ち",
+    "definition_fr": "Terme d'apprentissage (claque).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de claque.",
+        "en": "Practical use of slap.",
+        "ja": "(Nom) 平手打ちの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_clocher",
+    "category": "Architecture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Architecture"
+    ],
+    "french": "Clocher",
+    "english": "Steeple / Bell tower",
+    "japanese": "(Nom) 鐘楼",
+    "definition_fr": "Terme d'apprentissage (clocher).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de clocher.",
+        "en": "Practical use of steeple / bell tower.",
+        "ja": "(Nom) 鐘楼の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_clture",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Clôture",
+    "english": "Fence / Closing",
+    "japanese": "(Nom) 柵、閉幕",
+    "definition_fr": "Terme d'apprentissage (clôture).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de clôture.",
+        "en": "Practical use of fence / closing.",
+        "ja": "(Nom) 柵、閉幕の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_concidence",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Coïncidence",
+    "english": "Coincidence",
+    "japanese": "(Nom) 偶然の一致",
+    "definition_fr": "Terme d'apprentissage (coïncidence).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de coïncidence.",
+        "en": "Practical use of coincidence.",
+        "ja": "(Nom) 偶然の一致の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_collaborateur",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Collaborateur",
+    "english": "Collaborator / Employee",
+    "japanese": "(Nom) 協働者、社員",
+    "definition_fr": "Terme d'apprentissage (collaborateur).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de collaborateur.",
+        "en": "Practical use of collaborator / employee.",
+        "ja": "(Nom) 協働者、社員の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_collaboration",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Collaboration",
+    "english": "Collaboration",
+    "japanese": "(Nom) 協働、コラボレーション",
+    "definition_fr": "Terme d'apprentissage (collaboration).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de collaboration.",
+        "en": "Practical use of collaboration.",
+        "ja": "(Nom) 協働、コラボレーションの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_colorant",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Colorant",
+    "english": "Coloring agent",
+    "japanese": "(Nom) 着色料",
+    "definition_fr": "Terme d'apprentissage (colorant).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de colorant.",
+        "en": "Practical use of coloring agent.",
+        "ja": "(Nom) 着色料の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_combattant",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Combattant",
+    "english": "Fighter",
+    "japanese": "(Nom) 闘士、兵士",
+    "definition_fr": "Terme d'apprentissage (combattant).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de combattant.",
+        "en": "Practical use of fighter.",
+        "ja": "(Nom) 闘士、兵士の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_combinaison",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Combinaison",
+    "english": "Wetsuit / Combination",
+    "japanese": "(Nom) 組み合わせ、つなぎ服",
+    "definition_fr": "Terme d'apprentissage (combinaison).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de combinaison.",
+        "en": "Practical use of wetsuit / combination.",
+        "ja": "(Nom) 組み合わせ、つなぎ服の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_commandant",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Commandant",
+    "english": "Commander",
+    "japanese": "(Nom) 司令官、機長",
+    "definition_fr": "Terme d'apprentissage (commandant).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de commandant.",
+        "en": "Practical use of commander.",
+        "ja": "(Nom) 司令官、機長の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_commission",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Commission",
+    "english": "Commission / Committee",
+    "japanese": "(Nom) 手数料、委員会",
+    "definition_fr": "Terme d'apprentissage (commission).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de commission.",
+        "en": "Practical use of commission / committee.",
+        "ja": "(Nom) 手数料、委員会の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_comptiteur",
+    "category": "Sports",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Sports"
+    ],
+    "french": "Compétiteur",
+    "english": "Competitor",
+    "japanese": "(Nom) 競技者",
+    "definition_fr": "Terme d'apprentissage (compétiteur).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de compétiteur.",
+        "en": "Practical use of competitor.",
+        "ja": "(Nom) 競技者の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_composant",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Composant",
+    "english": "Component",
+    "japanese": "(Nom) 部品、コンポーネント",
+    "definition_fr": "Terme d'apprentissage (composant).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de composant.",
+        "en": "Practical use of component.",
+        "ja": "(Nom) 部品、コンポーネントの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_compromis",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Compromis",
+    "english": "Compromise",
+    "japanese": "(Nom) 妥協、譲歩",
+    "definition_fr": "Terme d'apprentissage (compromis).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de compromis.",
+        "en": "Practical use of compromise.",
+        "ja": "(Nom) 妥協、譲歩の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_comptabilit",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Comptabilité",
+    "english": "Accounting",
+    "japanese": "(Nom) 会計",
+    "definition_fr": "Terme d'apprentissage (comptabilité).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de comptabilité.",
+        "en": "Practical use of accounting.",
+        "ja": "(Nom) 会計の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_comptegouttes",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Compte-gouttes",
+    "english": "Dropper",
+    "japanese": "(Nom) スポイト",
+    "definition_fr": "Terme d'apprentissage (compte-gouttes).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de compte-gouttes.",
+        "en": "Practical use of dropper.",
+        "ja": "(Nom) スポイトの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_compterendu",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Compte-rendu",
+    "english": "Report / Minutes",
+    "japanese": "(Nom) 報告書、議事録",
+    "definition_fr": "Terme d'apprentissage (compte-rendu).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de compte-rendu.",
+        "en": "Practical use of report / minutes.",
+        "ja": "(Nom) 報告書、議事録の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_concepteur",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Concepteur",
+    "english": "Designer / Developer",
+    "japanese": "(Nom) 開発者、設計者",
+    "definition_fr": "Terme d'apprentissage (concepteur).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de concepteur.",
+        "en": "Practical use of designer / developer.",
+        "ja": "(Nom) 開発者、設計者の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_conception",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Conception",
+    "english": "Design / Concept",
+    "japanese": "(Nom) 設計、概念",
+    "definition_fr": "Terme d'apprentissage (conception).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conception.",
+        "en": "Practical use of design / concept.",
+        "ja": "(Nom) 設計、概念の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_concessionnaire",
+    "category": "Commerce",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Commerce"
+    ],
+    "french": "Concessionnaire",
+    "english": "Dealer",
+    "japanese": "(Nom) ディーラー",
+    "definition_fr": "Terme d'apprentissage (concessionnaire).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de concessionnaire.",
+        "en": "Practical use of dealer.",
+        "ja": "(Nom) ディーラーの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_concurrence",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Concurrence",
+    "english": "Competition",
+    "japanese": "(Nom) 競合、ライバル関係",
+    "definition_fr": "Terme d'apprentissage (concurrence).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de concurrence.",
+        "en": "Practical use of competition.",
+        "ja": "(Nom) 競合、ライバル関係の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_confrencier",
+    "category": "Education",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Education"
+    ],
+    "french": "Conférencier",
+    "english": "Speaker / Lecturer",
+    "japanese": "(Nom) 講演者",
+    "definition_fr": "Terme d'apprentissage (conférencier).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conférencier.",
+        "en": "Practical use of speaker / lecturer.",
+        "ja": "(Nom) 講演者の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_confidentialit",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Confidentialité",
+    "english": "Confidentiality",
+    "japanese": "(Nom) 機密性",
+    "definition_fr": "Terme d'apprentissage (confidentialité).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de confidentialité.",
+        "en": "Practical use of confidentiality.",
+        "ja": "(Nom) 機密性の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_conscience",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Conscience",
+    "english": "Conscience / Awareness",
+    "japanese": "(Nom) 意識、良心",
+    "definition_fr": "Terme d'apprentissage (conscience).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conscience.",
+        "en": "Practical use of conscience / awareness.",
+        "ja": "(Nom) 意識、良心の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_conservation",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Conservation",
+    "english": "Preservation / Storage",
+    "japanese": "(Nom) 保存",
+    "definition_fr": "Terme d'apprentissage (conservation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conservation.",
+        "en": "Practical use of preservation / storage.",
+        "ja": "(Nom) 保存の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_conservateur",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Conservateur",
+    "english": "Curator / Conservative",
+    "japanese": "(Nom) 学芸員、保守派",
+    "definition_fr": "Terme d'apprentissage (conservateur).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conservateur.",
+        "en": "Practical use of curator / conservative.",
+        "ja": "(Nom) 学芸員、保守派の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_constellation",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Constellation",
+    "english": "Constellation",
+    "japanese": "(Nom) 星座",
+    "definition_fr": "Terme d'apprentissage (constellation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de constellation.",
+        "en": "Practical use of constellation.",
+        "ja": "(Nom) 星座の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_conteneur",
+    "category": "Transport",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Transport"
+    ],
+    "french": "Conteneur",
+    "english": "Container",
+    "japanese": "(Nom) コンテナ",
+    "definition_fr": "Terme d'apprentissage (conteneur).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conteneur.",
+        "en": "Practical use of container.",
+        "ja": "(Nom) コンテナの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_contour",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Contour",
+    "english": "Outline / Contour",
+    "japanese": "(Nom) 輪郭、外周",
+    "definition_fr": "Terme d'apprentissage (contour).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de contour.",
+        "en": "Practical use of outline / contour.",
+        "ja": "(Nom) 輪郭、外周の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_contrainte",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Contrainte",
+    "english": "Constraint / Pressure",
+    "japanese": "(Nom) 制約、制圧",
+    "definition_fr": "Terme d'apprentissage (contrainte).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de contrainte.",
+        "en": "Practical use of constraint / pressure.",
+        "ja": "(Nom) 制約、制圧の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_contribution",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Contribution",
+    "english": "Contribution",
+    "japanese": "(Nom) 寄与、貢献",
+    "definition_fr": "Terme d'apprentissage (contribution).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de contribution.",
+        "en": "Practical use of contribution.",
+        "ja": "(Nom) 寄与、貢献の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_convaincant",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Adjectif",
+      "General"
+    ],
+    "french": "Convaincant",
+    "english": "Convincing",
+    "japanese": "(Adjectif) 説得力のある",
+    "definition_fr": "Terme d'apprentissage (convaincant).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de convaincant.",
+        "en": "Practical use of convincing.",
+        "ja": "(Adjectif) 説得力のあるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_convention",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Convention",
+    "english": "Convention / Agreement",
+    "japanese": "(Nom) 協定、コンベンション",
+    "definition_fr": "Terme d'apprentissage (convention).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de convention.",
+        "en": "Practical use of convention / agreement.",
+        "ja": "(Nom) 協定、コンベンションの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_conversion",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Conversion",
+    "english": "Conversion",
+    "japanese": "(Nom) 変換、転換",
+    "definition_fr": "Terme d'apprentissage (conversion).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de conversion.",
+        "en": "Practical use of conversion.",
+        "ja": "(Nom) 変換、転換の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_coopration",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Coopération",
+    "english": "Cooperation",
+    "japanese": "(Nom) 協力",
+    "definition_fr": "Terme d'apprentissage (coopération).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de coopération.",
+        "en": "Practical use of cooperation.",
+        "ja": "(Nom) 協力の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_coordination",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Coordination",
+    "english": "Coordination",
+    "japanese": "(Nom) 調整、コーディネーション",
+    "definition_fr": "Terme d'apprentissage (coordination).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de coordination.",
+        "en": "Practical use of coordination.",
+        "ja": "(Nom) 調整、コーディネーションの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_corrida",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Corrida",
+    "english": "Bullfight",
+    "japanese": "(Nom) 闘牛",
+    "definition_fr": "Terme d'apprentissage (corrida).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de corrida.",
+        "en": "Practical use of bullfight.",
+        "ja": "(Nom) 闘牛の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cosmos",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cosmos",
+    "english": "Cosmos",
+    "japanese": "(Nom) 宇宙",
+    "definition_fr": "Terme d'apprentissage (cosmos).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cosmos.",
+        "en": "Practical use of cosmos.",
+        "ja": "(Nom) 宇宙の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cotisation",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Cotisation",
+    "english": "Contribution / Dues",
+    "japanese": "(Nom) 会費、保険料",
+    "definition_fr": "Terme d'apprentissage (cotisation).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cotisation.",
+        "en": "Practical use of contribution / dues.",
+        "ja": "(Nom) 会費、保険料の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_coupure_de_presse",
+    "category": "Media",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Media"
+    ],
+    "french": "Coupure de presse",
+    "english": "Press clipping",
+    "japanese": "(Nom) 新聞の切り抜き",
+    "definition_fr": "Terme d'apprentissage (coupure de presse).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de coupure de presse.",
+        "en": "Practical use of press clipping.",
+        "ja": "(Nom) 新聞の切り抜きの実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cot_de_la_vie",
+    "category": "Economy",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Economy"
+    ],
+    "french": "Coût de la vie",
+    "english": "Cost of living",
+    "japanese": "(Nom) 生活費",
+    "definition_fr": "Terme d'apprentissage (coût de la vie).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de coût de la vie.",
+        "en": "Practical use of cost of living.",
+        "ja": "(Nom) 生活費の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_couturier",
+    "category": "Fashion",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Fashion"
+    ],
+    "french": "Couturier",
+    "english": "Fashion designer",
+    "japanese": "(Nom) クチュリエ、服飾デザイナー",
+    "definition_fr": "Terme d'apprentissage (couturier).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de couturier.",
+        "en": "Practical use of fashion designer.",
+        "ja": "(Nom) クチュリエ、服飾デザイナーの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_crainte",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Crainte",
+    "english": "Fear / Dread",
+    "japanese": "(Nom) 恐れ、心配",
+    "definition_fr": "Terme d'apprentissage (crainte).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de crainte.",
+        "en": "Practical use of fear / dread.",
+        "ja": "(Nom) 恐れ、心配の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_crne",
+    "category": "Health",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Health"
+    ],
+    "french": "Crâne",
+    "english": "Skull",
+    "japanese": "(Nom) 頭蓋骨",
+    "definition_fr": "Terme d'apprentissage (crâne).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de crâne.",
+        "en": "Practical use of skull.",
+        "ja": "(Nom) 頭蓋骨の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cratre",
+    "category": "Nature",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Cratère",
+    "english": "Crater",
+    "japanese": "(Nom) 噴火口、クレーター",
+    "definition_fr": "Terme d'apprentissage (cratère).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cratère.",
+        "en": "Practical use of crater.",
+        "ja": "(Nom) 噴火口、クレーターの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_critre",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Critère",
+    "english": "Criterion",
+    "japanese": "(Nom) 基準、クライテリア",
+    "definition_fr": "Terme d'apprentissage (critère).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de critère.",
+        "en": "Practical use of criterion.",
+        "ja": "(Nom) 基準、クライテリアの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_croquis",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Croquis",
+    "english": "Sketch",
+    "japanese": "(Nom) スケッチ",
+    "definition_fr": "Terme d'apprentissage (croquis).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de croquis.",
+        "en": "Practical use of sketch.",
+        "ja": "(Nom) スケッチの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_croyance",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Croyance",
+    "english": "Belief",
+    "japanese": "(Nom) 信仰、信念",
+    "definition_fr": "Terme d'apprentissage (croyance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de croyance.",
+        "en": "Practical use of belief.",
+        "ja": "(Nom) 信仰、信念の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_culte",
+    "category": "Religion",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Culte",
+    "english": "Worship / Cult",
+    "japanese": "(Nom) 礼拝、カルト",
+    "definition_fr": "Terme d'apprentissage (culte).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de culte.",
+        "en": "Practical use of worship / cult.",
+        "ja": "(Nom) 礼拝、カルトの実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_cuve",
+    "category": "Industry",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Industry"
+    ],
+    "french": "Cuve",
+    "english": "Vat / Tank",
+    "japanese": "(Nom) タンク、樽",
+    "definition_fr": "Terme d'apprentissage (cuve).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cuve.",
+        "en": "Practical use of vat / tank.",
+        "ja": "(Nom) タンク、樽の実用的な例。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_cylindre",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Cylindre",
+    "english": "Cylinder",
+    "japanese": "(Nom) シリンダー、円筒",
+    "definition_fr": "Terme d'apprentissage (cylindre).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de cylindre.",
+        "en": "Practical use of cylinder.",
+        "ja": "(Nom) シリンダー、円筒の実用的な例。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_embellir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Embellir",
+    "english": "To beautify",
+    "japanese": "(Verbe) 美しくする",
+    "definition_fr": "Terme d'apprentissage (embellir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de embellir.",
+        "en": "Practical use of to beautify.",
+        "ja": "(Verbe) 美しくするの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_embaucher",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Embaucher",
+    "english": "To hire",
+    "japanese": "(Verbe) 雇う、採用する",
+    "definition_fr": "Terme d'apprentissage (embaucher).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de embaucher.",
+        "en": "Practical use of to hire.",
+        "ja": "(Verbe) 雇う、採用するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_encadrer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Encadrer",
+    "english": "To frame / supervise",
+    "japanese": "(Verbe) 枠にはめる、指導する",
+    "definition_fr": "Terme d'apprentissage (encadrer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de encadrer.",
+        "en": "Practical use of to frame / supervise.",
+        "ja": "(Verbe) 枠にはめる、指導するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_enrichir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Enrichir",
+    "english": "To enrich",
+    "japanese": "(Verbe) 豊かにする",
+    "definition_fr": "Terme d'apprentissage (enrichir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de enrichir.",
+        "en": "Practical use of to enrich.",
+        "ja": "(Verbe) 豊かにするの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_entretenir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Entretenir",
+    "english": "To maintain / entertain",
+    "japanese": "(Verbe) 維持する、維持管理する",
+    "definition_fr": "Terme d'apprentissage (entretenir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de entretenir.",
+        "en": "Practical use of to maintain / entertain.",
+        "ja": "(Verbe) 維持する、維持管理するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pargner",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Épargner",
+    "english": "To save (money) / spare",
+    "japanese": "(Verbe) 貯金する、免れさせる",
+    "definition_fr": "Terme d'apprentissage (épargner).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de épargner.",
+        "en": "Practical use of to save (money) / spare.",
+        "ja": "(Verbe) 貯金する、免れさせるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_puiser",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Épuiser",
+    "english": "To exhaust / run out",
+    "japanese": "(Verbe) 使い果たす、疲れさせる",
+    "definition_fr": "Terme d'apprentissage (épuiser).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de épuiser.",
+        "en": "Practical use of to exhaust / run out.",
+        "ja": "(Verbe) 使い果たす、疲れさせるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_quilibrer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Équilibrer",
+    "english": "To balance",
+    "japanese": "(Verbe) バランスをとる",
+    "definition_fr": "Terme d'apprentissage (équilibrer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de équilibrer.",
+        "en": "Practical use of to balance.",
+        "ja": "(Verbe) バランスをとるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_estimer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Estimer",
+    "english": "To estimate / esteem",
+    "japanese": "(Verbe) 見積もる、評価する",
+    "definition_fr": "Terme d'apprentissage (estimer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de estimer.",
+        "en": "Practical use of to estimate / esteem.",
+        "ja": "(Verbe) 見積もる、評価するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tablir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Établir",
+    "english": "To establish",
+    "japanese": "(Verbe) 確立する",
+    "definition_fr": "Terme d'apprentissage (établir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de établir.",
+        "en": "Practical use of to establish.",
+        "ja": "(Verbe) 確立するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_vacuer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Évacuer",
+    "english": "To evacuate",
+    "japanese": "(Verbe) 避難させる",
+    "definition_fr": "Terme d'apprentissage (évacuer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de évacuer.",
+        "en": "Practical use of to evacuate.",
+        "ja": "(Verbe) 避難させるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_valuer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Évaluer",
+    "english": "To evaluate",
+    "japanese": "(Verbe) 評価する",
+    "definition_fr": "Terme d'apprentissage (évaluer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de évaluer.",
+        "en": "Practical use of to evaluate.",
+        "ja": "(Verbe) 評価するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_voluer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Évoluer",
+    "english": "To evolve / progress",
+    "japanese": "(Verbe) 進化する、推移する",
+    "definition_fr": "Terme d'apprentissage (évoluer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de évoluer.",
+        "en": "Practical use of to evolve / progress.",
+        "ja": "(Verbe) 進化する、推移するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_excuter",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Exécuter",
+    "english": "To execute / perform",
+    "japanese": "(Verbe) 実行する、遂行する",
+    "definition_fr": "Terme d'apprentissage (exécuter).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de exécuter.",
+        "en": "Practical use of to execute / perform.",
+        "ja": "(Verbe) 実行する、遂行するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_exercer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Exercer",
+    "english": "To exercise / practice",
+    "japanese": "(Verbe) 行使する、練習する",
+    "definition_fr": "Terme d'apprentissage (exercer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de exercer.",
+        "en": "Practical use of to exercise / practice.",
+        "ja": "(Verbe) 行使する、練習するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_exiger",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Exiger",
+    "english": "To demand / require",
+    "japanese": "(Verbe) 要求する",
+    "definition_fr": "Terme d'apprentissage (exiger).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de exiger.",
+        "en": "Practical use of to demand / require.",
+        "ja": "(Verbe) 要求するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_expdier",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Expédier",
+    "english": "To dispatch / ship",
+    "japanese": "(Verbe) 発送する",
+    "definition_fr": "Terme d'apprentissage (expédier).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de expédier.",
+        "en": "Practical use of to dispatch / ship.",
+        "ja": "(Verbe) 発送するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_exploiter",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Exploiter",
+    "english": "To exploit / operate",
+    "japanese": "(Verbe) 開発する、活用する",
+    "definition_fr": "Terme d'apprentissage (exploiter).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de exploiter.",
+        "en": "Practical use of to exploit / operate.",
+        "ja": "(Verbe) 開発する、活用するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_faciliter",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Faciliter",
+    "english": "To facilitate",
+    "japanese": "(Verbe) 容易にする",
+    "definition_fr": "Terme d'apprentissage (faciliter).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de faciliter.",
+        "en": "Practical use of to facilitate.",
+        "ja": "(Verbe) 容易にするの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_facturer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Facturer",
+    "english": "To invoice / bill",
+    "japanese": "(Verbe) 請求書を発行する",
+    "definition_fr": "Terme d'apprentissage (facturer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de facturer.",
+        "en": "Practical use of to invoice / bill.",
+        "ja": "(Verbe) 請求書を発行するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_faillir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Faillir",
+    "english": "To almost do / fail",
+    "japanese": "(Verbe) 〜しそうになる",
+    "definition_fr": "Terme d'apprentissage (faillir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de faillir.",
+        "en": "Practical use of to almost do / fail.",
+        "ja": "(Verbe) 〜しそうになるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_feuilleter",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Feuilleter",
+    "english": "To flip through",
+    "japanese": "(Verbe) ページをめくる",
+    "definition_fr": "Terme d'apprentissage (feuilleter).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de feuilleter.",
+        "en": "Practical use of to flip through.",
+        "ja": "(Verbe) ページをめくるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_figurer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Figurer",
+    "english": "To figure / appear",
+    "japanese": "(Verbe) 登場する、位置する",
+    "definition_fr": "Terme d'apprentissage (figurer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de figurer.",
+        "en": "Practical use of to figure / appear.",
+        "ja": "(Verbe) 登場する、位置するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_financer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Financer",
+    "english": "To finance",
+    "japanese": "(Verbe) 資金調達する",
+    "definition_fr": "Terme d'apprentissage (financer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de financer.",
+        "en": "Practical use of to finance.",
+        "ja": "(Verbe) 資金調達するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_flatter",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Flatter",
+    "english": "To flatter",
+    "japanese": "(Verbe) お世辞を言う",
+    "definition_fr": "Terme d'apprentissage (flatter).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de flatter.",
+        "en": "Practical use of to flatter.",
+        "ja": "(Verbe) お世辞を言うの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fonder",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Fonder",
+    "english": "To found / establish",
+    "japanese": "(Verbe) 設立する、基礎を置く",
+    "definition_fr": "Terme d'apprentissage (fonder).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de fonder.",
+        "en": "Practical use of to found / establish.",
+        "ja": "(Verbe) 設立する、基礎を置くの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_forcer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Forcer",
+    "english": "To force",
+    "japanese": "(Verbe) 強制する",
+    "definition_fr": "Terme d'apprentissage (forcer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de forcer.",
+        "en": "Practical use of to force.",
+        "ja": "(Verbe) 強制するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_formuler",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Formuler",
+    "english": "To formulate",
+    "japanese": "(Verbe) 明確に述べる",
+    "definition_fr": "Terme d'apprentissage (formuler).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de formuler.",
+        "en": "Practical use of to formulate.",
+        "ja": "(Verbe) 明確に述べるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fournir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Fournir",
+    "english": "To supply / provide",
+    "japanese": "(Verbe) 供給する、提供する",
+    "definition_fr": "Terme d'apprentissage (fournir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de fournir.",
+        "en": "Practical use of to supply / provide.",
+        "ja": "(Verbe) 供給する、提供するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_franchir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Franchir",
+    "english": "To cross / overcome",
+    "japanese": "(Verbe) 越える、克服する",
+    "definition_fr": "Terme d'apprentissage (franchir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de franchir.",
+        "en": "Practical use of to cross / overcome.",
+        "ja": "(Verbe) 越える、克服するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_garantir",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Garantir",
+    "english": "To guarantee",
+    "japanese": "(Verbe) 保証する",
+    "definition_fr": "Terme d'apprentissage (garantir).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de garantir.",
+        "en": "Practical use of to guarantee.",
+        "ja": "(Verbe) 保証するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gouverner",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Gouverner",
+    "english": "To govern",
+    "japanese": "(Verbe) 統治する",
+    "definition_fr": "Terme d'apprentissage (gouverner).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de gouverner.",
+        "en": "Practical use of to govern.",
+        "ja": "(Verbe) 統治するの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_honorer",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Honorer",
+    "english": "To honor",
+    "japanese": "(Verbe) 敬う、栄誉を与える",
+    "definition_fr": "Terme d'apprentissage (honorer).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de honorer.",
+        "en": "Practical use of to honor.",
+        "ja": "(Verbe) 敬う、栄誉を与えるの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_hurler",
+    "category": "Verbs",
+    "level": "B1",
+    "tags": [
+      "Verbe",
+      "Verbs"
+    ],
+    "french": "Hurler",
+    "english": "To yell / howl",
+    "japanese": "(Verbe) 叫ぶ、遠吠えする",
+    "definition_fr": "Terme d'apprentissage (hurler).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation pratique de hurler.",
+        "en": "Practical use of to yell / howl.",
+        "ja": "(Verbe) 叫ぶ、遠吠えするの実用的な例。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_maon",
+    "category": "Construction",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Construction"
+    ],
+    "french": "Maçon",
+    "english": "Mason / Bricklayer",
+    "japanese": "(Nom) 石工、レンガ職人",
+    "definition_fr": "Terme d'apprentissage (maçon).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : maçon.",
+        "en": "Common example: mason / bricklayer.",
+        "ja": "よく使う例: (Nom) 石工、レンガ職人。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_maintien",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Maintien",
+    "english": "Maintenance / Preservation",
+    "japanese": "(Nom) 保持、維持",
+    "definition_fr": "Terme d'apprentissage (maintien).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : maintien.",
+        "en": "Common example: maintenance / preservation.",
+        "ja": "よく使う例: (Nom) 保持、維持。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_matrise",
+    "category": "Education",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Education"
+    ],
+    "french": "Maîtrise",
+    "english": "Mastery / Master degree",
+    "japanese": "(Nom) 熟達、修士号",
+    "definition_fr": "Terme d'apprentissage (maîtrise).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : maîtrise.",
+        "en": "Common example: mastery / master degree.",
+        "ja": "よく使う例: (Nom) 熟達、修士号。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_mandat",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Mandat",
+    "english": "Mandate / Term",
+    "japanese": "(Nom) 任期、委任状",
+    "definition_fr": "Terme d'apprentissage (mandat).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Exemple courant : mandat.",
+        "en": "Common example: mandate / term.",
+        "ja": "よく使う例: (Nom) 任期、委任状。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_manie",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Manie",
+    "english": "Mania / Habit",
+    "japanese": "(Nom) 癖、マニア",
+    "definition_fr": "Terme d'apprentissage (manie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : manie.",
+        "en": "Common example: mania / habit.",
+        "ja": "よく使う例: (Nom) 癖、マニア。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_manipulation",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Manipulation",
+    "english": "Manipulation",
+    "japanese": "(Nom) 操作、改ざん",
+    "definition_fr": "Terme d'apprentissage (manipulation).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Exemple courant : manipulation.",
+        "en": "Common example: manipulation.",
+        "ja": "よく使う例: (Nom) 操作、改ざん。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_manuscrit",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Manuscrit",
+    "english": "Manuscript",
+    "japanese": "(Nom/Adj) 原稿、手書きの",
+    "definition_fr": "Terme d'apprentissage (manuscrit).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : manuscrit.",
+        "en": "Common example: manuscript.",
+        "ja": "よく使う例: (Nom/Adj) 原稿、手書きの。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_marais",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Marais",
+    "english": "Swamp / Marsh",
+    "japanese": "(Nom) 沼地、湿原",
+    "definition_fr": "Terme d'apprentissage (marais).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : marais.",
+        "en": "Common example: swamp / marsh.",
+        "ja": "よく使う例: (Nom) 沼地、湿原。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_massif",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Massif",
+    "english": "Massif / Massive",
+    "japanese": "(Nom/Adj) 山塊、重厚な",
+    "definition_fr": "Terme d'apprentissage (massif).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : massif.",
+        "en": "Common example: massif / massive.",
+        "ja": "よく使う例: (Nom/Adj) 山塊、重厚な。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_mt",
+    "category": "Transport",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Transport"
+    ],
+    "french": "Mât",
+    "english": "Mast",
+    "japanese": "(Nom) 帆柱、マスト",
+    "definition_fr": "Terme d'apprentissage (mât).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : mât.",
+        "en": "Common example: mast.",
+        "ja": "よく使う例: (Nom) 帆柱、マスト。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_maturit",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Maturité",
+    "english": "Maturity",
+    "japanese": "(Nom) 成熟、満期",
+    "definition_fr": "Terme d'apprentissage (maturité).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : maturité.",
+        "en": "Common example: maturity.",
+        "ja": "よく使う例: (Nom) 成熟、満期。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_mcanisme",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Mécanisme",
+    "english": "Mechanism",
+    "japanese": "(Nom) メカニズム、仕組み",
+    "definition_fr": "Terme d'apprentissage (mécanisme).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Exemple courant : mécanisme.",
+        "en": "Common example: mechanism.",
+        "ja": "よく使う例: (Nom) メカニズム、仕組み。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_migration",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Migration",
+    "english": "Migration",
+    "japanese": "(Nom) 移住、渡り",
+    "definition_fr": "Terme d'apprentissage (migration).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : migration.",
+        "en": "Common example: migration.",
+        "ja": "よく使う例: (Nom) 移住、渡り。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_militant",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Militant",
+    "english": "Activist",
+    "japanese": "(Nom/Adj) 活動家、闘士",
+    "definition_fr": "Terme d'apprentissage (militant).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : militant.",
+        "en": "Common example: activist.",
+        "ja": "よく使う例: (Nom/Adj) 活動家、闘士。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_mise",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Mise",
+    "english": "Bet / Putting",
+    "japanese": "(Nom) 賭け金、配置",
+    "definition_fr": "Terme d'apprentissage (mise).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : mise.",
+        "en": "Common example: bet / putting.",
+        "ja": "よく使う例: (Nom) 賭け金、配置。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_modalit",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Modalité",
+    "english": "Modality / Terms",
+    "japanese": "(Nom) 条件、様式",
+    "definition_fr": "Terme d'apprentissage (modalité).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Exemple courant : modalité.",
+        "en": "Common example: modality / terms.",
+        "ja": "よく使う例: (Nom) 条件、様式。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_moisson",
+    "category": "Agriculture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Agriculture"
+    ],
+    "french": "Moisson",
+    "english": "Harvest",
+    "japanese": "(Nom) 収穫",
+    "definition_fr": "Terme d'apprentissage (moisson).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : moisson.",
+        "en": "Common example: harvest.",
+        "ja": "よく使う例: (Nom) 収穫。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_monastre",
+    "category": "Religion",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Religion"
+    ],
+    "french": "Monastère",
+    "english": "Monastery",
+    "japanese": "(Nom) 修道院",
+    "definition_fr": "Terme d'apprentissage (monastère).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : monastère.",
+        "en": "Common example: monastery.",
+        "ja": "よく使う例: (Nom) 修道院。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_mythologie",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Mythologie",
+    "english": "Mythology",
+    "japanese": "(Nom) 神話体系",
+    "definition_fr": "Terme d'apprentissage (mythologie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : mythologie.",
+        "en": "Common example: mythology.",
+        "ja": "よく使う例: (Nom) 神話体系。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_narration",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Narration",
+    "english": "Narration",
+    "japanese": "(Nom) 叙述、ナレーション",
+    "definition_fr": "Terme d'apprentissage (narration).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : narration.",
+        "en": "Common example: narration.",
+        "ja": "よく使う例: (Nom) 叙述、ナレーション。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_orient",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Orient",
+    "english": "Orient / East",
+    "japanese": "(Nom) 東洋、オリエント",
+    "definition_fr": "Terme d'apprentissage (orient).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : orient.",
+        "en": "Common example: orient / east.",
+        "ja": "よく使う例: (Nom) 東洋、オリエント。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_patrimoine",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Patrimoine",
+    "english": "Heritage / Assets",
+    "japanese": "(Nom) 遺産、資産",
+    "definition_fr": "Terme d'apprentissage (patrimoine).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : patrimoine.",
+        "en": "Common example: heritage / assets.",
+        "ja": "よく使う例: (Nom) 遺産、資産。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_perspective",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Perspective",
+    "english": "Perspective",
+    "japanese": "(Nom) 視点、遠近法",
+    "definition_fr": "Terme d'apprentissage (perspective).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : perspective.",
+        "en": "Common example: perspective.",
+        "ja": "よく使う例: (Nom) 視点、遠近法。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_procs",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Procès",
+    "english": "Trial / Lawsuit",
+    "japanese": "(Nom) 裁判、訴訟",
+    "definition_fr": "Terme d'apprentissage (procès).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : procès.",
+        "en": "Common example: trial / lawsuit.",
+        "ja": "よく使う例: (Nom) 裁判、訴訟。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_protestation",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Protestation",
+    "english": "Protest",
+    "japanese": "(Nom) 抗議",
+    "definition_fr": "Terme d'apprentissage (protestation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Exemple courant : protestation.",
+        "en": "Common example: protest.",
+        "ja": "よく使う例: (Nom) 抗議。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_protocole",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Protocole",
+    "english": "Protocol",
+    "japanese": "(Nom) プロトコル、儀礼",
+    "definition_fr": "Terme d'apprentissage (protocole).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Exemple courant : protocole.",
+        "en": "Common example: protocol.",
+        "ja": "よく使う例: (Nom) プロトコル、儀礼。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_racisme",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Racisme",
+    "english": "Racism",
+    "japanese": "(Nom) 人種差別",
+    "definition_fr": "Terme d'apprentissage (racisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : racisme.",
+        "en": "Usage: racism.",
+        "ja": "使用例: (Nom) 人種差別。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rage",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Rage",
+    "english": "Rage / Rabies",
+    "japanese": "(Nom) 激怒、狂犬病",
+    "definition_fr": "Terme d'apprentissage (rage).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rage.",
+        "en": "Usage: rage / rabies.",
+        "ja": "使用例: (Nom) 激怒、狂犬病。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_raisonnement",
+    "category": "Philosophy",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Philosophy"
+    ],
+    "french": "Raisonnement",
+    "english": "Reasoning",
+    "japanese": "(Nom) 推論、論理的思考",
+    "definition_fr": "Terme d'apprentissage (raisonnement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : raisonnement.",
+        "en": "Usage: reasoning.",
+        "ja": "使用例: (Nom) 推論、論理的思考。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_ralentissement",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Ralentissement",
+    "english": "Slowdown",
+    "japanese": "(Nom) 減速、停滞",
+    "definition_fr": "Terme d'apprentissage (ralentissement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : ralentissement.",
+        "en": "Usage: slowdown.",
+        "ja": "使用例: (Nom) 減速、停滞。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_raret",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Rareté",
+    "english": "Rarity",
+    "japanese": "(Nom) 希少性",
+    "definition_fr": "Terme d'apprentissage (rareté).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rareté.",
+        "en": "Usage: rarity.",
+        "ja": "使用例: (Nom) 希少性。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rassemblement",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Rassemblement",
+    "english": "Gathering / Rally",
+    "japanese": "(Nom) 集会、集まり",
+    "definition_fr": "Terme d'apprentissage (rassemblement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rassemblement.",
+        "en": "Usage: gathering / rally.",
+        "ja": "使用例: (Nom) 集会、集まり。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rassurance",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Rassurance",
+    "english": "Reassurance",
+    "japanese": "(Nom) 安心させること",
+    "definition_fr": "Terme d'apprentissage (rassurance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rassurance.",
+        "en": "Usage: reassurance.",
+        "ja": "使用例: (Nom) 安心させること。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_ralisme",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Réalisme",
+    "english": "Realism",
+    "japanese": "(Nom) 現実主義、リアリズム",
+    "definition_fr": "Terme d'apprentissage (réalisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : réalisme.",
+        "en": "Usage: realism.",
+        "ja": "使用例: (Nom) 現実主義、リアリズム。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rassort",
+    "category": "Commerce",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Commerce"
+    ],
+    "french": "Réassort",
+    "english": "Restocking",
+    "japanese": "(Nom) 品補充",
+    "definition_fr": "Terme d'apprentissage (réassort).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : réassort.",
+        "en": "Usage: restocking.",
+        "ja": "使用例: (Nom) 品補充。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_reconversion",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Reconversion",
+    "english": "Retraining / Career change",
+    "japanese": "(Nom) 職業転換、キャリアチェンジ",
+    "definition_fr": "Terme d'apprentissage (reconversion).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : reconversion.",
+        "en": "Usage: retraining / career change.",
+        "ja": "使用例: (Nom) 職業転換、キャリアチェンジ。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_recul",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Recul",
+    "english": "Setback / Decline / Perspective",
+    "japanese": "(Nom) 後退、引き、客観的視点",
+    "definition_fr": "Terme d'apprentissage (recul).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : recul.",
+        "en": "Usage: setback / decline / perspective.",
+        "ja": "使用例: (Nom) 後退、引き、客観的視点。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rgulation",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Régulation",
+    "english": "Regulation / Control",
+    "japanese": "(Nom) 調整、規制",
+    "definition_fr": "Terme d'apprentissage (régulation).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : régulation.",
+        "en": "Usage: regulation / control.",
+        "ja": "使用例: (Nom) 調整、規制。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rejet",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Rejet",
+    "english": "Rejection / Discharge",
+    "japanese": "(Nom) 拒絶、排出",
+    "definition_fr": "Terme d'apprentissage (rejet).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rejet.",
+        "en": "Usage: rejection / discharge.",
+        "ja": "使用例: (Nom) 拒絶、排出。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_relance",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Relance",
+    "english": "Relaunch / Reminder",
+    "japanese": "(Nom) 景気刺激、督促",
+    "definition_fr": "Terme d'apprentissage (relance).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : relance.",
+        "en": "Usage: relaunch / reminder.",
+        "ja": "使用例: (Nom) 景気刺激、督促。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_relief",
+    "category": "Geography",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Geography"
+    ],
+    "french": "Relief",
+    "english": "Relief / Topography",
+    "japanese": "(Nom) 地形、浮き彫り",
+    "definition_fr": "Terme d'apprentissage (relief).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : relief.",
+        "en": "Usage: relief / topography.",
+        "ja": "使用例: (Nom) 地形、浮き彫り。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rmunration",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Rémunération",
+    "english": "Remuneration / Pay",
+    "japanese": "(Nom) 報酬、給与",
+    "definition_fr": "Terme d'apprentissage (rémunération).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : rémunération.",
+        "en": "Usage: remuneration / pay.",
+        "ja": "使用例: (Nom) 報酬、給与。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rendement",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Rendement",
+    "english": "Yield / Efficiency",
+    "japanese": "(Nom) 利回り、歩留まり",
+    "definition_fr": "Terme d'apprentissage (rendement).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : rendement.",
+        "en": "Usage: yield / efficiency.",
+        "ja": "使用例: (Nom) 利回り、歩留まり。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_renforcement",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Renforcement",
+    "english": "Reinforcement",
+    "japanese": "(Nom) 強化、補強",
+    "definition_fr": "Terme d'apprentissage (renforcement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : renforcement.",
+        "en": "Usage: reinforcement.",
+        "ja": "使用例: (Nom) 強化、補強。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rentail",
+    "category": "Commerce",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Commerce"
+    ],
+    "french": "Rentail",
+    "english": "Retail",
+    "japanese": "(Nom) 小売（英語借用）",
+    "definition_fr": "Terme d'apprentissage (rentail).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : rentail.",
+        "en": "Usage: retail.",
+        "ja": "使用例: (Nom) 小売（英語借用）。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rentabilit",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Rentabilité",
+    "english": "Profitability",
+    "japanese": "(Nom) 収益性、採算",
+    "definition_fr": "Terme d'apprentissage (rentabilité).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : rentabilité.",
+        "en": "Usage: profitability.",
+        "ja": "使用例: (Nom) 収益性、採算。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_renvoi",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Renvoi",
+    "english": "Dismissal / Reference",
+    "japanese": "(Nom) 解雇、参照",
+    "definition_fr": "Terme d'apprentissage (renvoi).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : renvoi.",
+        "en": "Usage: dismissal / reference.",
+        "ja": "使用例: (Nom) 解雇、参照。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rpartition",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Répartition",
+    "english": "Distribution / Allocation",
+    "japanese": "(Nom) 分配、割り振りを",
+    "definition_fr": "Terme d'apprentissage (répartition).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : répartition.",
+        "en": "Usage: distribution / allocation.",
+        "ja": "使用例: (Nom) 分配、割り振りを。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_reproduction",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Reproduction",
+    "english": "Reproduction",
+    "japanese": "(Nom) 複製、繁殖",
+    "definition_fr": "Terme d'apprentissage (reproduction).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : reproduction.",
+        "en": "Usage: reproduction.",
+        "ja": "使用例: (Nom) 複製、繁殖。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_ressort",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Ressort",
+    "english": "Spring (mechanics) / Jurisdiction",
+    "japanese": "(Nom) バネ、所轄",
+    "definition_fr": "Terme d'apprentissage (ressort).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : ressort.",
+        "en": "Usage: spring (mechanics) / jurisdiction.",
+        "ja": "使用例: (Nom) バネ、所轄。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_restriction",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Restriction",
+    "english": "Restriction",
+    "japanese": "(Nom) 制限、制約",
+    "definition_fr": "Terme d'apprentissage (restriction).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : restriction.",
+        "en": "Usage: restriction.",
+        "ja": "使用例: (Nom) 制限、制約。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rtablissement",
+    "category": "Health",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Health"
+    ],
+    "french": "Rétablissement",
+    "english": "Recovery / Restoration",
+    "japanese": "(Nom) 全快、復旧",
+    "definition_fr": "Terme d'apprentissage (rétablissement).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rétablissement.",
+        "en": "Usage: recovery / restoration.",
+        "ja": "使用例: (Nom) 全快、復旧。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_retransmission",
+    "category": "Media",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Media"
+    ],
+    "french": "Retransmission",
+    "english": "Broadcast / Relay",
+    "japanese": "(Nom) 中継放送",
+    "definition_fr": "Terme d'apprentissage (retransmission).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : retransmission.",
+        "en": "Usage: broadcast / relay.",
+        "ja": "使用例: (Nom) 中継放送。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rvlation",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Révélation",
+    "english": "Revelation",
+    "japanese": "(Nom) 暴露、新発見",
+    "definition_fr": "Terme d'apprentissage (révélation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : révélation.",
+        "en": "Usage: revelation.",
+        "ja": "使用例: (Nom) 暴露、新発見。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_revendication",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Revendication",
+    "english": "Claim / Demand",
+    "japanese": "(Nom) 要求、権利主張",
+    "definition_fr": "Terme d'apprentissage (revendication).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : revendication.",
+        "en": "Usage: claim / demand.",
+        "ja": "使用例: (Nom) 要求、権利主張。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rverie",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Rêverie",
+    "english": "Daydream",
+    "japanese": "(Nom) 空想、白昼夢",
+    "definition_fr": "Terme d'apprentissage (rêverie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rêverie.",
+        "en": "Usage: daydream.",
+        "ja": "使用例: (Nom) 空想、白昼夢。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_rivalit",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Rivalité",
+    "english": "Rivalry",
+    "japanese": "(Nom) ライバル関係、対立",
+    "definition_fr": "Terme d'apprentissage (rivalité).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rivalité.",
+        "en": "Usage: rivalry.",
+        "ja": "使用例: (Nom) ライバル関係、対立。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_robotique",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Robotique",
+    "english": "Robotics",
+    "japanese": "(Nom/Adj) ロボット工学",
+    "definition_fr": "Terme d'apprentissage (robotique).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : robotique.",
+        "en": "Usage: robotics.",
+        "ja": "使用例: (Nom/Adj) ロボット工学。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_romantisme",
+    "category": "Culture",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Culture"
+    ],
+    "french": "Romantisme",
+    "english": "Romanticism",
+    "japanese": "(Nom) ロマン主義",
+    "definition_fr": "Terme d'apprentissage (romantisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : romantisme.",
+        "en": "Usage: romanticism.",
+        "ja": "使用例: (Nom) ロマン主義。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_rotation",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Rotation",
+    "english": "Rotation",
+    "japanese": "(Nom) 回転、ローテーション",
+    "definition_fr": "Terme d'apprentissage (rotation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : rotation.",
+        "en": "Usage: rotation.",
+        "ja": "使用例: (Nom) 回転、ローテーション。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_roulement",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Roulement",
+    "english": "Rolling / Bearing",
+    "japanese": "(Nom) 転がり、ベアリング",
+    "definition_fr": "Terme d'apprentissage (roulement).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : roulement.",
+        "en": "Usage: rolling / bearing.",
+        "ja": "使用例: (Nom) 転がり、ベアリング。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_ruse",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Ruse",
+    "english": "Trick / Cunning",
+    "japanese": "(Nom) 策略、ずる賢さ",
+    "definition_fr": "Terme d'apprentissage (ruse).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : ruse.",
+        "en": "Usage: trick / cunning.",
+        "ja": "使用例: (Nom) 策略、ずる賢さ。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_sabre",
+    "category": "History",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "History"
+    ],
+    "french": "Sabre",
+    "english": "Saber",
+    "japanese": "(Nom) サーベル、軍刀",
+    "definition_fr": "Terme d'apprentissage (sabre).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sabre.",
+        "en": "Usage: saber.",
+        "ja": "使用例: (Nom) サーベル、軍刀。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_sacrifice",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Sacrifice",
+    "english": "Sacrifice",
+    "japanese": "(Nom) 犠牲、サクリファイス",
+    "definition_fr": "Terme d'apprentissage (sacrifice).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sacrifice.",
+        "en": "Usage: sacrifice.",
+        "ja": "使用例: (Nom) 犠牲、サクリファイス。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_salive",
+    "category": "Health",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Health"
+    ],
+    "french": "Salive",
+    "english": "Saliva",
+    "japanese": "(Nom) 唾液",
+    "definition_fr": "Terme d'apprentissage (salive).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : salive.",
+        "en": "Usage: saliva.",
+        "ja": "使用例: (Nom) 唾液。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_sanction",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Sanction",
+    "english": "Sanction / Penalty",
+    "japanese": "(Nom) 制裁、処罰",
+    "definition_fr": "Terme d'apprentissage (sanction).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sanction.",
+        "en": "Usage: sanction / penalty.",
+        "ja": "使用例: (Nom) 制裁、処罰。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_scheresse",
+    "category": "Nature",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Sécheresse",
+    "english": "Drought",
+    "japanese": "(Nom) 干ばつ、日照り",
+    "definition_fr": "Terme d'apprentissage (sécheresse).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sécheresse.",
+        "en": "Usage: drought.",
+        "ja": "使用例: (Nom) 干ばつ、日照り。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_sduction",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Séduction",
+    "english": "Seduction",
+    "japanese": "(Nom) 魅了、誘惑",
+    "definition_fr": "Terme d'apprentissage (séduction).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : séduction.",
+        "en": "Usage: seduction.",
+        "ja": "使用例: (Nom) 魅了、誘惑。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_segment",
+    "category": "Math",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Math"
+    ],
+    "french": "Segment",
+    "english": "Segment",
+    "japanese": "(Nom) 線分、セグメント",
+    "definition_fr": "Terme d'apprentissage (segment).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : segment.",
+        "en": "Usage: segment.",
+        "ja": "使用例: (Nom) 線分、セグメント。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_seuil",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Seuil",
+    "english": "Threshold / Doorstep",
+    "japanese": "(Nom) 敷居、しきい値",
+    "definition_fr": "Terme d'apprentissage (seuil).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : seuil.",
+        "en": "Usage: threshold / doorstep.",
+        "ja": "使用例: (Nom) 敷居、しきい値。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_simulation",
+    "category": "Technology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Technology"
+    ],
+    "french": "Simulation",
+    "english": "Simulation",
+    "japanese": "(Nom) シミュレーション",
+    "definition_fr": "Terme d'apprentissage (simulation).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : simulation.",
+        "en": "Usage: simulation.",
+        "ja": "使用例: (Nom) シミュレーション。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_sociologie",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Sociologie",
+    "english": "Sociology",
+    "japanese": "(Nom) 社会学",
+    "definition_fr": "Terme d'apprentissage (sociologie).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : sociologie.",
+        "en": "Usage: sociology.",
+        "ja": "使用例: (Nom) 社会学。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_soupon",
+    "category": "Psychology",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Psychology"
+    ],
+    "french": "Soupçon",
+    "english": "Suspicion / Hint",
+    "japanese": "(Nom) 疑惑、ほんの少し",
+    "definition_fr": "Terme d'apprentissage (soupçon).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : soupçon.",
+        "en": "Usage: suspicion / hint.",
+        "ja": "使用例: (Nom) 疑惑、ほんの少し。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_stereotype",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Stereotype",
+    "english": "Stereotype",
+    "japanese": "(Nom) 固定観念",
+    "definition_fr": "Terme d'apprentissage (stereotype).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : stereotype.",
+        "en": "Usage: stereotype.",
+        "ja": "使用例: (Nom) 固定観念。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_stimulation",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Stimulation",
+    "english": "Stimulation",
+    "japanese": "(Nom) 刺激、活性化",
+    "definition_fr": "Terme d'apprentissage (stimulation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : stimulation.",
+        "en": "Usage: stimulation.",
+        "ja": "使用例: (Nom) 刺激、活性化。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_substance",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Substance",
+    "english": "Substance",
+    "japanese": "(Nom) 物質、要旨",
+    "definition_fr": "Terme d'apprentissage (substance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : substance.",
+        "en": "Usage: substance.",
+        "ja": "使用例: (Nom) 物質、要旨。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_subvention",
+    "category": "Economy",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Economy"
+    ],
+    "french": "Subvention",
+    "english": "Subsidy / Grant",
+    "japanese": "(Nom) 補助金、助成金",
+    "definition_fr": "Terme d'apprentissage (subvention).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : subvention.",
+        "en": "Usage: subsidy / grant.",
+        "ja": "使用例: (Nom) 補助金、助成金。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_supervision",
+    "category": "Business",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Business"
+    ],
+    "french": "Supervision",
+    "english": "Supervision",
+    "japanese": "(Nom) 監督、監修",
+    "definition_fr": "Terme d'apprentissage (supervision).",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisation : supervision.",
+        "en": "Usage: supervision.",
+        "ja": "使用例: (Nom) 監督、監修。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_surcharge",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Surcharge",
+    "english": "Overload / Extra charge",
+    "japanese": "(Nom) 過重負担、追加料金",
+    "definition_fr": "Terme d'apprentissage (surcharge).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : surcharge.",
+        "en": "Usage: overload / extra charge.",
+        "ja": "使用例: (Nom) 過重負担、追加料金。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_syndicat",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Syndicat",
+    "english": "Trade union",
+    "japanese": "(Nom) 労働組合",
+    "definition_fr": "Terme d'apprentissage (syndicat).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : syndicat.",
+        "en": "Usage: trade union.",
+        "ja": "使用例: (Nom) 労働組合。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_synthse",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Synthèse",
+    "english": "Synthesis / Summary",
+    "japanese": "(Nom) 合成、サマリー",
+    "definition_fr": "Terme d'apprentissage (synthèse).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : synthèse.",
+        "en": "Usage: synthesis / summary.",
+        "ja": "使用例: (Nom) 合成、サマリー。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_tmoignage",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Témoignage",
+    "english": "Testimony",
+    "japanese": "(Nom) 証言",
+    "definition_fr": "Terme d'apprentissage (témoignage).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : témoignage.",
+        "en": "Usage: testimony.",
+        "ja": "使用例: (Nom) 証言。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_terrorisme",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Terrorisme",
+    "english": "Terrorism",
+    "japanese": "(Nom) テロリズム",
+    "definition_fr": "Terme d'apprentissage (terrorisme).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : terrorisme.",
+        "en": "Usage: terrorism.",
+        "ja": "使用例: (Nom) テロリズム。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_tolrance",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Tolérance",
+    "english": "Tolerance",
+    "japanese": "(Nom) 寛容さ、許容誤差",
+    "definition_fr": "Terme d'apprentissage (tolérance).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : tolérance.",
+        "en": "Usage: tolerance.",
+        "ja": "使用例: (Nom) 寛容さ、許容誤差。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_transparence",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Transparence",
+    "english": "Transparency",
+    "japanese": "(Nom) 透明性",
+    "definition_fr": "Terme d'apprentissage (transparence).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : transparence.",
+        "en": "Usage: transparency.",
+        "ja": "使用例: (Nom) 透明性。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_tribu",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Tribu",
+    "english": "Tribe",
+    "japanese": "(Nom) 部族",
+    "definition_fr": "Terme d'apprentissage (tribu).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : tribu.",
+        "en": "Usage: tribe.",
+        "ja": "使用例: (Nom) 部族。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_tribunal",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Society"
+    ],
+    "french": "Tribunal",
+    "english": "Court of law",
+    "japanese": "(Nom) 裁判所",
+    "definition_fr": "Terme d'apprentissage (tribunal).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : tribunal.",
+        "en": "Usage: court of law.",
+        "ja": "使用例: (Nom) 裁判所。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_triomphe",
+    "category": "General",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "General"
+    ],
+    "french": "Triomphe",
+    "english": "Triumph",
+    "japanese": "(Nom) 勝利、大成功",
+    "definition_fr": "Terme d'apprentissage (triomphe).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : triomphe.",
+        "en": "Usage: triumph.",
+        "ja": "使用例: (Nom) 勝利、大成功。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_vaisseau",
+    "category": "Science",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Science"
+    ],
+    "french": "Vaisseau",
+    "english": "Vessel / Spaceship",
+    "japanese": "(Nom) 血管、宇宙船",
+    "definition_fr": "Terme d'apprentissage (vaisseau).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : vaisseau.",
+        "en": "Usage: vessel / spaceship.",
+        "ja": "使用例: (Nom) 血管、宇宙船。"
+      }
+    ],
+    "gender": "m"
+  },
+  {
+    "id": "vocab_vgtation",
+    "category": "Nature",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Nature"
+    ],
+    "french": "Végétation",
+    "english": "Vegetation",
+    "japanese": "(Nom) 植生",
+    "definition_fr": "Terme d'apprentissage (végétation).",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Utilisation : végétation.",
+        "en": "Usage: vegetation.",
+        "ja": "使用例: (Nom) 植生。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_libert",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Philosophie"
+    ],
+    "french": "Liberté",
+    "english": "Freedom / Liberty",
+    "japanese": "(Nom) 自由",
+    "definition_fr": "Pouvoir d'agir sans contrainte.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "La liberté est un droit fondamental.",
+        "en": "Freedom is a fundamental right.",
+        "ja": "自由は基本的人権です。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_galit",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Philosophie"
+    ],
+    "french": "Égalité",
+    "english": "Equality",
+    "japanese": "(Nom) 平等",
+    "definition_fr": "Absence de toute discrimination.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "L'égalité de tous devant la loi est essentielle.",
+        "en": "Equality of all before the law is essential.",
+        "ja": "法の前の平等は非常に重要です。"
+      }
+    ],
+    "gender": "f"
+  },
+  {
+    "id": "vocab_justice",
+    "category": "Society",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Droit"
+    ],
+    "french": "Justice",
+    "english": "Justice",
+    "japanese": "(Nom) 正義、司法",
+    "definition_fr": "Principe moral de respecter le droit.",
+    "is_professional": false,
+    "examples": [
+      {
+        "fr": "Le tribunal rend la justice de manière impartiale.",
+        "en": "The court dispenses justice impartially.",
+        "ja": "裁判所は公平に正義を下します。"
+      }
+    ],
+    "gender": "f"
   }
 ]

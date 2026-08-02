@@ -104,9 +104,10 @@ export function renderSearch() {
       
       // 3. Culinary Theory Search
       cuisines.forEach(item => {
-        const matchText = `${item.topic} ${item.category} ${item.content_fr} ${item.content_en} ${item.content_ja} ${(item.tags || []).join(' ')}`.toLowerCase();
+        const c = item.cuisine;
+        const matchText = `${c.topic} ${item.category} ${c.content_fr} ${c.content_en} ${c.content_ja} ${(item.tags || []).join(' ')}`.toLowerCase();
         if (matchText.includes(normalizedQuery)) {
-          matches.push({ ...item, type: 'cuisine', title: item.topic, subtitle: `${item.category} • Culinary Theory` });
+          matches.push({ ...item, type: 'cuisine', title: c.topic, subtitle: `${item.category} • Culinary Theory` });
         }
       });
       
@@ -160,8 +161,8 @@ export function renderSearch() {
           `;
         } else if (match.type === 'cuisine') {
           detailHTML = `
-            <p style="font-size: 0.9rem; margin-top: 0.5rem; font-style: italic; color: var(--color-primary);">${match.content_fr.substring(0, 150)}...</p>
-            <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--color-text-main);">${match.content_ja.substring(0, 120)}...</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem; font-style: italic; color: var(--color-primary);">${(match.cuisine.content_fr || '').substring(0, 150)}...</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--color-text-main);">${(match.cuisine.content_ja || '').substring(0, 120)}...</p>
           `;
         }
         
