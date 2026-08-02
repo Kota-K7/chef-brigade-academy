@@ -1,0 +1,111 @@
+{
+  "title": "文法リファレンス 統合時のおすすめ表示順序ガイド",
+  "description": "既存の8章と新規補填した6つの表・解説ファイルを学習体系に合わせて再配置した推奨順序一覧です。",
+  "total_items": 14,
+  "recommended_order": [
+    {
+      "order": 1,
+      "id": "ref_subjects",
+      "source": "existing",
+      "title_ja": "① 人称代名詞（主語の種類）",
+      "reason": "すべての文・動詞活用の土台となるため一番最初。"
+    },
+    {
+      "order": 2,
+      "id": "ref_definite_indefinite_articles",
+      "source": "supplementary",
+      "file": "ref_definite_indefinite_articles.json",
+      "title_ja": "② 定冠詞・不定冠詞表 (le/la/les, un/une/des)",
+      "reason": "名詞の性別と特定・不特定の判断の基礎。"
+    },
+    {
+      "order": 3,
+      "id": "ref_partitive_articles",
+      "source": "supplementary",
+      "file": "ref_partitive_articles.json",
+      "title_ja": "③ 部分冠詞表 (du, de la, de l')",
+      "reason": "料理・食材（数えられないもの）の表現で最重要。"
+    },
+    {
+      "order": 4,
+      "id": "ref_possessive_adjectives",
+      "source": "supplementary",
+      "file": "ref_possessive_adjectives.json",
+      "title_ja": "④ 所有形容詞表 (mon/ma/mes, ton/ta/tes, son/sa/ses)",
+      "reason": "「私の〜」「あなたの〜」など厨房での所有権指示に必須。"
+    },
+    {
+      "order": 5,
+      "id": "ref_demonstrative_adjectives",
+      "source": "supplementary",
+      "file": "ref_demonstrative_adjectives.json",
+      "title_ja": "⑤ 指示形容詞表 (ce / cet / cette / ces)",
+      "reason": "目の前の道具・食材を指し示す指示語。"
+    },
+    {
+      "order": 6,
+      "id": "ref_adjective_agreement",
+      "source": "supplementary",
+      "file": "ref_adjective_agreement.json",
+      "title_ja": "⑥ 形容詞の性数変化表 (petit/petite/petits/petites等)",
+      "reason": "名詞修飾・状態説明の基礎ルール。"
+    },
+    {
+      "order": 7,
+      "id": "ref_verb_groups",
+      "source": "existing",
+      "title_ja": "⑦ 動詞の分類（3つのグループ）",
+      "reason": "動詞学習への導入（規則動詞と不規則動詞の整理）。"
+    },
+    {
+      "order": 8,
+      "id": "ref_present_indicative",
+      "source": "existing",
+      "title_ja": "⑧ 直説法現在（規則動詞活用 -er, -ir）",
+      "reason": "規則動詞の現在形活用の基本語尾パターン。"
+    },
+    {
+      "order": 9,
+      "id": "ref_essential_irregular_verbs",
+      "source": "supplementary",
+      "file": "ref_essential_irregular_verbs.json",
+      "title_ja": "⑨ 主要な不規則動詞活用表 (faire, aller, venir, prendre)",
+      "reason": "最重要の4大不規則動詞の活用を丸ごと暗記。"
+    },
+    {
+      "order": 10,
+      "id": "ref_conjugation_patterns",
+      "source": "existing",
+      "title_ja": "⑩ 動詞活用パターン（être, avoir型等）",
+      "reason": "être, avoir の詳細な活用表。"
+    },
+    {
+      "order": 11,
+      "id": "ref_auxiliaries",
+      "source": "existing",
+      "title_ja": "⑪ 助動詞の使い分け（être / avoir）",
+      "reason": "複合過去などの時制作りに必要な助動詞の選定。"
+    },
+    {
+      "order": 12,
+      "id": "ref_types_of_verbs",
+      "source": "existing",
+      "title_ja": "⑫ 動詞の種類（他動詞・自動詞・代名動詞・非人称動詞）",
+      "reason": "文法的な動詞の性質の分類。"
+    },
+    {
+      "order": 13,
+      "id": "ref_future_tenses",
+      "source": "existing",
+      "title_ja": "⑬ 未来形 (Futur simple / Futur antérieur)",
+      "reason": "単純未来・前未来の解説。"
+    },
+    {
+      "order": 14,
+      "id": "ref_non_finite_forms",
+      "source": "existing",
+      "title_ja": "⑭ 非定形動詞 (不定詞, 過去分詞, 現在分詞, ジェロンディフ)",
+      "reason": "応用的な動詞変化形態。"
+    }
+  ]
+}

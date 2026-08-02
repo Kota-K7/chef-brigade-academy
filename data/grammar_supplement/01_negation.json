@@ -1,0 +1,44 @@
+{
+  "id": "supp_negation",
+  "title_ja": "否定文 (ne ... pas)",
+  "title_fr": "La Négation (Ne... pas)",
+  "level": "A1",
+  "category": "文法基礎",
+  "summary_ja": "動詞を ne と pas で挟む最も基本的な否定の表現です。厨房での作業拒否・不可・指示の否定にも必須です。",
+  "rules": [
+    {
+      "rule_title": "基本構造：ne + 動詞 + pas",
+      "explanation": "動詞の前後に ne と pas を配置します。動詞が母音や無声の h で始まる場合は ne が n' にエリジオン（省略）します。",
+      "example_fr": "Je ne comprends pas.",
+      "example_ja": "わかりません。"
+    },
+    {
+      "rule_title": "直接目的語の不定冠詞・部分冠詞の否定 (deへの変化)",
+      "example_fr": "Je n'ai pas de couteau.",
+      "explanation": "否定文では、直接目的語につく不定冠詞(un, une, des)や部分冠詞(du, de la)は原則として「de (d')」に変化します。"
+    },
+    {
+      "rule_title": "その他の否定表現 (ne ... plus, ne ... jamais)",
+      "explanation": "pas の代わりに plus (もう〜ない) や jamais (決して〜ない) を使うことで、より詳細な否定表現が可能です。",
+      "example_fr": "Il n'y a plus de beurre.",
+      "example_ja": "バターはもうありません。"
+    }
+  ],
+  "kitchen_examples": [
+    {
+      "french": "Je ne trouve pas la sauce béarnaise.",
+      "japanese": "ベアルネーズソースが見つかりません。",
+      "context": "冷蔵庫やパントリーを探している時"
+    },
+    {
+      "french": "N'oubliez pas de saler l'eau des pâtes.",
+      "japanese": "パスタのお湯に塩を入れるのを忘れないでください。",
+      "context": "シェフからの指導・注意"
+    },
+    {
+      "french": "Ce poisson n'est pas frais.",
+      "japanese": "この魚は新鮮ではありません。",
+      "context": "検品時の確認"
+    }
+  ]
+}

@@ -80,6 +80,459 @@
     ]
   },
   {
+    "id": "ref_definite_indefinite_articles",
+    "title_fr": "Les Articles Définis et Indéfinis",
+    "title_en": "Definite and Indefinite Articles",
+    "title_ja": "定冠詞・不定冠詞",
+    "definition_fr": "Les articles définis désignent une chose spécifique ou générale (le, la, les), tandis que les articles indéfinis désignent une chose non spécifique ou dénombrable (un, une, des).",
+    "definition_ja": "特定のものを指す「定冠詞」（le / la / les）と、不特定で数えられるものを指す「不定冠詞」（un / une / des）の解説および形態表です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "定冠詞 (Les Articles Définis)",
+        "headers": [
+          "性",
+          "単数 (通常)",
+          "単数 (母音・無声のh前)",
+          "複数"
+        ],
+        "rows": [
+          [
+            "男性名詞",
+            "le (ル)",
+            "l' (エル)",
+            "les (レ)"
+          ],
+          [
+            "女性名詞",
+            "la (ラ)",
+            "l' (エル)",
+            "les (レ)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "定冠詞の役割とエリジオン",
+        "content_ja": "【使う場面】特定のモノ（話し手と聞き手が「どれか」分かっているもの）、総称（〜というもの全般）、または唯一のものを指す時に使います。\n【エリジオン(省略)】le / la の後ろに母音や無声の h で始まる単語が来ると l' に合体します（例: l'eau [水], l'oignon [玉ねぎ]）。",
+        "content_fr": "On utilise l'article défini pour désigner une chose précise, unique ou une généralité."
+      },
+      {
+        "type": "table",
+        "title": "不定冠詞 (Les Articles Indéfinis)",
+        "headers": [
+          "性",
+          "単数",
+          "複数"
+        ],
+        "rows": [
+          [
+            "男性名詞",
+            "un (アン)",
+            "des (デ)"
+          ],
+          [
+            "女性名詞",
+            "une (ユヌ)",
+            "des (デ)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "不定冠詞の役割",
+        "content_ja": "【使う場面】「1つの〜」「数ある中のどれか1つ」「いくつかの〜」と、数えられる不特定のもの・数え始めるものを指す時に使います。",
+        "content_fr": "On utilise l'article indéfini pour désigner un élément non précisé ou comptable."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での例文",
+        "examples": [
+          {
+            "fr": "Passez-moi le couteau de chef.",
+            "ja": "（あの/指定の）シェフナイフを私に渡してください。[定冠詞]"
+          },
+          {
+            "fr": "J'ai besoin d'un couteau bien aiguisé.",
+            "ja": "(どれでもいいので1本の)よく研がれたナイフが必要です。[不定冠詞]"
+          },
+          {
+            "fr": "Le sel est sur la table.",
+            "ja": "塩はテーブルの上にあります。[特定・定冠詞]"
+          },
+          {
+            "fr": "Commandez des oignons pour demain.",
+            "ja": "明日用に玉ねぎ（いくつか）を発注してください。[複数不定冠詞]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ref_partitive_articles",
+    "title_fr": "Les Articles Partitifs",
+    "title_en": "Partitive Articles",
+    "title_ja": "部分冠詞",
+    "definition_fr": "L'article partitif s'emploie devant des noms de masse pour indiquer une quantité indéterminée d'une chose non comptable.",
+    "definition_ja": "食材や液体など、数えられない名詞の「一部」や「いくらかの量」を指す「部分冠詞」（du / de la / de l'）の解説および形態表です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "部分冠詞の形態表",
+        "headers": [
+          "性・条件",
+          "フランス語",
+          "発音",
+          "例 (単語)"
+        ],
+        "rows": [
+          [
+            "男性単数名詞",
+            "du",
+            "デュ",
+            "du beurre (バター), du poisson (魚肉)"
+          ],
+          [
+            "女性単数名詞",
+            "de la",
+            "ドゥ・ラ",
+            "de la farine (小麦粉), de la viande (肉)"
+          ],
+          [
+            "母音・無声hで始まる単数",
+            "de l'",
+            "ドゥ・レル",
+            "de l'eau (水), de l'huile (油)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "部分冠詞の使い方とルール",
+        "content_ja": "【基本原則】「1個、2個」と数えられない質量・液体・粉末・食材全般に対して、「いくらかの量」という意味でつけます。\n【定冠詞との違い】\n・J'aime le fromage. (私はチーズというものが好きだ [総称・定冠詞])\n・Je mange du fromage. (私はチーズをいくらか食べている [実量・部分冠詞])\n【否定文での変化】否定文になると部分冠詞(du, de la, de l')はすべて de (d') に変化します。(例: Je ne mets pas de sel. [塩は入れません])",
+        "content_fr": "L'article partitif s'emploie devant des noms massifs ou non comptables pour indiquer une quantité indéterminée."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での例文",
+        "examples": [
+          {
+            "fr": "Ajoutez du beurre dans la poêle.",
+            "ja": "フライパンにバターを（適量）加えてください。"
+          },
+          {
+            "fr": "Mettez de la farine sur le plan de travail.",
+            "ja": "作業台に小麦粉を振ってください。"
+          },
+          {
+            "fr": "Verse un filet de l'huile d'olive.",
+            "ja": "オリーブオイルをひと回し注いで。"
+          },
+          {
+            "fr": "Il n'y a plus de sucre dans la réserve.",
+            "ja": "在庫の中に砂糖はもうありません。[否定によるde変化]"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ref_possessive_adjectives",
+    "title_fr": "Les Adjectifs Possessifs",
+    "title_en": "Possessive Adjectives",
+    "title_ja": "所有形容詞一覧",
+    "definition_fr": "Les adjectifs possessifs s'accordent en genre et en nombre avec le nom déterminé pour indiquer le possesseur.",
+    "definition_ja": "「私の」「あなたの」など所有の関係を示し、修飾する名詞の性・数（および母音始動の例外ルール）に応じて形が変化する所有形容詞の一覧表です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "所有形容詞 完全一覧表",
+        "headers": [
+          "所有者",
+          "男性単数名詞の前",
+          "女性単数名詞の前",
+          "母音・無声h始動の女性名詞前",
+          "男女複数名詞の前"
+        ],
+        "rows": [
+          [
+            "私 (je)",
+            "mon (モン)",
+            "ma (マ)",
+            "mon (モン) ※例外",
+            "mes (メ)"
+          ],
+          [
+            "あなた (tu)",
+            "ton (トン)",
+            "ta (タ)",
+            "ton (トン) ※例外",
+            "tes (テ)"
+          ],
+          [
+            "彼 / 彼女 (il/elle)",
+            "son (ソン)",
+            "sa (サ)",
+            "son (ソン) ※例外",
+            "ses (セ)"
+          ],
+          [
+            "私たち (nous)",
+            "notre (ノートル)",
+            "notre (ノートル)",
+            "notre (ノートル)",
+            "nos (ノー)"
+          ],
+          [
+            "あなたたち / 敬称 (vous)",
+            "votre (ヴォートル)",
+            "votre (ヴォートル)",
+            "votre (ヴォートル)",
+            "vos (ヴォ)"
+          ],
+          [
+            "彼ら / 彼女ら (ils/elles)",
+            "leur (ルール)",
+            "leur (ルール)",
+            "leur (ルール)",
+            "leurs (ルール)"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "間違えやすい注意点",
+        "content_ja": "【所有者の性別ではなく、後ろの「モノ」の性で決まる！】\nフランス語では、所有者が男性か女性かに関わらず、修飾される名詞の性・数で形容詞が決まります。\n例: 彼のエプロン → mon tablier / 彼の厨房 → sa cuisine (cuisineが女性名詞のため sa)\n【母音前の例外ルール】\n女性名詞であっても母音で始まる場合、ma / ta / sa ではなく mon / ton / son を使います。(例: mon assiette [私の皿])",
+        "content_fr": "L'adjectif possessif s'accorde en genre et en nombre avec le nom qu'il détermine, et non avec le possesseur."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での例文",
+        "examples": [
+          {
+            "fr": "Où est mon couteau de chef ?",
+            "ja": "私のシェフナイフはどこにありますか？ (couteau: 男性)"
+          },
+          {
+            "fr": "Chef, voici ma préparation.",
+            "ja": "シェフ、これが私の仕込み物です。 (préparation: 女性)"
+          },
+          {
+            "fr": "Nettoyez votre poste de travail.",
+            "ja": "各自の作業場を清掃してください。 (poste: 男性)"
+          },
+          {
+            "fr": "Nos clients sont très satisfaits de nos plats.",
+            "ja": "私のお客様方は私たちの料理に非常に満足しています。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ref_demonstrative_adjectives",
+    "title_fr": "Les Adjectifs Démonstratifs",
+    "title_en": "Demonstrative Adjectives",
+    "title_ja": "指示形容詞一覧",
+    "definition_fr": "Les adjectifs démonstratifs servent à désigner ou à montrer des objets ou des personnes dans un contexte donné.",
+    "definition_ja": "「この」「その」「あの」と、目の前の食材や道具、話題になっている具体的な物事を指し示す指示形容詞の一覧表です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "指示形容詞 形態・使い分け一覧表",
+        "headers": [
+          "対象名詞の条件",
+          "フランス語",
+          "発音",
+          "例 (名詞)",
+          "意味"
+        ],
+        "rows": [
+          [
+            "男性単数名詞 (子音で始まる)",
+            "ce",
+            "ス",
+            "ce restaurant",
+            "この/そのレストラン"
+          ],
+          [
+            "男性単数名詞 (母音・無声h始動)",
+            "cet",
+            "セットゥ",
+            "cet oignon / cet hommage",
+            "この玉ねぎ / このオマージュ"
+          ],
+          [
+            "女性単数名詞 (すべて)",
+            "cette",
+            "セットゥ",
+            "cette sauce / cette recette",
+            "このソース / このレシピ"
+          ],
+          [
+            "複数名詞 (男女共通)",
+            "ces",
+            "セ",
+            "ces légumes / ces viandes",
+            "これらの野菜 / これらの肉"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "使い方のポイントと「-ci / -là」の強調語尾",
+        "content_ja": "【男性単数 cet の存在理由】\n「ce oignon」だと「ス・オニオン」となり母音が連続して話しにくいため、「cet oignon (セットニオン)」とリエゾンさせて滑らかに発音するために cet が存在します。\n【「この」と「あの」を明確に区別したい場合】\n名詞の後ろに -ci (これ/近いもの) や -là (あれ/遠いもの) を付けます。\n・ce plat-ci (こちらの料理)\n・ce plat-là (あちらの料理)",
+        "content_fr": "On utilise « cet » devant un nom masculin commençant par une voyelle ou un h muet."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での例文",
+        "examples": [
+          {
+            "fr": "Passez-moi cette casserole.",
+            "ja": "この片手鍋を私に渡してください。 (casserole: 女性)"
+          },
+          {
+            "fr": "Cet ingrédient est essentiel pour le goût.",
+            "ja": "この原材料は味にとって不可欠です。 (ingrédient: 男性母音始動)"
+          },
+          {
+            "fr": "Goûtez ce bouillon pour ajuster le sel.",
+            "ja": "塩加減を調整するためにこの出汁（ブイヨン）を味見してください。 (bouillon: 男性子音始動)"
+          },
+          {
+            "fr": "Rangez ces assiettes dans l'étagère.",
+            "ja": "これらの皿を棚にしまってください。 (assiettes: 複数)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ref_adjective_agreement",
+    "title_fr": "L'Accord des Adjectifs",
+    "title_en": "Adjective Agreement",
+    "title_ja": "形容詞の性数変化",
+    "definition_fr": "L'accord en genre et en nombre des adjectifs qualificatifs avec les noms qu'ils qualifient.",
+    "definition_ja": "フランス語の形容詞を、修飾する名詞の性（男性・女性）および数（単数・複数）に一致させるための基本ルールと特殊な変化パターンです。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. 基本ルール (例: petit = 小さい)",
+        "headers": [
+          "性",
+          "単数",
+          "複数"
+        ],
+        "rows": [
+          [
+            "男性名詞",
+            "petit (プティ)",
+            "petits (プティ) [+s]"
+          ],
+          [
+            "女性名詞",
+            "petite (プティトゥ) [+e]",
+            "petites (プティトゥ) [+es]"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. 厨房でよく使う形容詞の変化パターン一覧",
+        "headers": [
+          "意味 / 形容詞(男性単数)",
+          "女性単数",
+          "男性複数",
+          "女性複数",
+          "変化のルール・特徴"
+        ],
+        "rows": [
+          [
+            "grand (大きい)",
+            "grande",
+            "grands",
+            "grandes",
+            "語尾に e / s / es を追加"
+          ],
+          [
+            "bon (良い・美味しい)",
+            "bonne",
+            "bons",
+            "bonnes",
+            "語尾 -on 判で n を重ねて e ( -nne )"
+          ],
+          [
+            "chaud (温かい)",
+            "chaude",
+            "chauds",
+            "chaudes",
+            "語尾に e / s / es を追加"
+          ],
+          [
+            "froid (冷たい)",
+            "froide",
+            "froids",
+            "froides",
+            "語尾に e / s / es を追加"
+          ],
+          [
+            "frais (新鮮な)",
+            "fraîche",
+            "frais",
+            "fraîches",
+            "女性形で -îche に特殊変化"
+          ],
+          [
+            "beau (美しい・見事な)",
+            "belle",
+            "beaux",
+            "belles",
+            "男性複数は -x, 女性形は belle"
+          ],
+          [
+            "nouveau (新しい)",
+            "nouvelle",
+            "nouveaux",
+            "nouvelles",
+            "男性複数は -x, 女性形は nouvelle"
+          ],
+          [
+            "sec (乾燥した・辛口の)",
+            "sèche",
+            "secs",
+            "sèches",
+            "女性形で -che に変化"
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "一致の重要ルール",
+        "content_ja": "【基本形】\n・女性形：男性単数形に -e をつける。\n・複数形：単数形に -s をつける。\n【語尾がすでに -e の場合】男性単数が -e で終わる形容詞 (例: rouge [赤], propre [清潔な]) は女性形になっても同形です (rouge, propre)。\n【語尾が -s または -x の場合】男性単数が -s/-x で終わる形容詞 (例: frais) は、男性複数になっても -s を重ねず同形です。",
+        "content_fr": "En règle générale, on ajoute un -e au féminin et un -s au pluriel."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での例文",
+        "examples": [
+          {
+            "fr": "Un petit poêle (男性) / Une petite casserole (女性)",
+            "ja": "小さなフライパン / 小さな片手鍋"
+          },
+          {
+            "fr": "Le bouillon est chaud. (男性) / La soupe est chaude. (女性)",
+            "ja": "ブイヨンは熱い。 / スープは熱い。"
+          },
+          {
+            "fr": "Des légumes frais et des viandes fraîches.",
+            "ja": "新鮮な野菜（男性複数）と新鮮な肉（女性複数）。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "ref_verb_groups",
     "title_fr": "Les groupes de verbes français",
     "title_en": "French Verb Groups",
@@ -297,6 +750,214 @@
         "title": "Point cuisine (現場の視点)",
         "content_fr": "Dans les recettes, le présent est souvent utilisé pour expliquer les étapes.",
         "content_ja": "レシピの手順説明では、現在形がよく使われます。例：「On ajoute le beurre et on mélange.」（バターを加えて混ぜる）"
+      }
+    ]
+  },
+  {
+    "id": "ref_essential_irregular_verbs",
+    "title_fr": "Les Verbes Irréguliers Essentiels",
+    "title_en": "Essential Irregular Verbs",
+    "title_ja": "主要な不規則動詞活用表",
+    "definition_fr": "Les conjugaisons au présent de l'indicatif des quatre verbes irréguliers les plus fréquents : faire, aller, venir et prendre.",
+    "definition_ja": "厨房や日常会話で非常に頻出する、主要な4つの不規則動詞（faire, aller, venir, prendre）の直説法現在活用表です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. Faire (する・作る・調理する)",
+        "headers": [
+          "人称",
+          "活用",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je",
+            "fais",
+            "フェ",
+            "Je fais la mise en place."
+          ],
+          [
+            "tu",
+            "fais",
+            "フェ",
+            "Tu fais la sauce."
+          ],
+          [
+            "il / elle / on",
+            "fait",
+            "フェ",
+            "Il fait chaud en cuisine."
+          ],
+          [
+            "nous",
+            "faisons",
+            "フェゾン",
+            "Nous faisons la pâte."
+          ],
+          [
+            "vous",
+            "faites",
+            "フェットゥ",
+            "Vous faites attention."
+          ],
+          [
+            "ils / elles",
+            "font",
+            "フォン",
+            "Ils font le service."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. Aller (行く / 近接未来助動詞)",
+        "headers": [
+          "人称",
+          "活用",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je",
+            "vais",
+            "ヴェ",
+            "Je vais au marché."
+          ],
+          [
+            "tu",
+            "vas",
+            "ヴァ",
+            "Tu vas bien ?"
+          ],
+          [
+            "il / elle / on",
+            "va",
+            "ヴァ",
+            "Le chef va arriver."
+          ],
+          [
+            "nous",
+            "allons",
+            "アロン",
+            "Nous allons commencer."
+          ],
+          [
+            "vous",
+            "allez",
+            "アレ",
+            "Vous allez cuire le poisson."
+          ],
+          [
+            "ils / elles",
+            "vont",
+            "ヴォン",
+            "Ils vont servir le dessert."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. Venir (来る / 近接過去助動詞)",
+        "headers": [
+          "人称",
+          "活用",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je",
+            "viens",
+            "ヴィアン",
+            "Je viens de terminer."
+          ],
+          [
+            "tu",
+            "viens",
+            "ヴィアン",
+            "Tu viens d'où ?"
+          ],
+          [
+            "il / elle / on",
+            "vient",
+            "ヴィアン",
+            "La commande vient d'arriver."
+          ],
+          [
+            "nous",
+            "venons",
+            "ヴノン",
+            "Nous venons ensemble."
+          ],
+          [
+            "vous",
+            "venez",
+            "ヴネ",
+            "Vous venez m'aider ?"
+          ],
+          [
+            "ils / elles",
+            "viennent",
+            "ヴィエンヌ",
+            "Ils viennent de livrer la viande."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. Prendre (取る・食べる・飲む・注文を取る)",
+        "headers": [
+          "人称",
+          "活用",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je",
+            "prends",
+            "プラン",
+            "Je prends cette poêle."
+          ],
+          [
+            "tu",
+            "prends",
+            "プラン",
+            "Tu prends du café ?"
+          ],
+          [
+            "il / elle / on",
+            "prend",
+            "プラン",
+            "Il prend la commande."
+          ],
+          [
+            "nous",
+            "prenons",
+            "プノン",
+            "Nous prenons une pause."
+          ],
+          [
+            "vous",
+            "prenez",
+            "プネ",
+            "Vous prenez quel couteau ?"
+          ],
+          [
+            "ils / elles",
+            "prennent",
+            "プレンヌ",
+            "Ils prennent la suite."
+          ]
+        ]
+      },
+      {
+        "type": "info",
+        "title": "調理現場での使い方のポイント",
+        "content_ja": "【Faire】「料理を作る(faire la cuisine)」「生地を作る(faire la pâte)」「掃除をする(faire le ménage)」など超多用途動詞です。\n【Aller + 動詞原形】近接未来「〜するつもりだ、これから〜する」を作ります。\n【Venir + de + 動詞原形】近接過去「たった今〜したばかりだ」を作ります。(例: Je viens de sortir la tarte du four. [タルトをオーブンから出したばかりです])\n【Preprendreの派生動詞】apprendre(学ぶ), comprendre(理解する) も prendre と全く同じ活用をします。",
+        "content_fr": "Ces quatre verbes sont indispensables au quotidien en cuisine pour exprimer les actions, le futur proche, le passé récent et les prises de commande."
       }
     ]
   },

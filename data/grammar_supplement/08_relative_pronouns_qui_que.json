@@ -1,0 +1,45 @@
+{
+  "id": "supp_relative_pronouns_qui_que",
+  "title_ja": "関係代名詞 qui / que",
+  "title_fr": "Les Pronoms Relatifs (Qui et Que)",
+  "level": "A2-B1",
+  "category": "関係代名詞",
+  "summary_ja": "先行詞（名詞）の説明を後ろから付け足す接続詞です。qui は主語の役割、que は直接目的語の役割を果たします。",
+  "rules": [
+    {
+      "rule_title": "主格の関係代名詞 qui (〜である名詞)",
+      "explanation": "qui の後ろには「動詞」が続きます。先行詞が人であってもモノであっても qui を使います（エリジオンしません）。",
+      "example_fr": "Le plat qui est célèbre... (有名な料理) / Le chef qui cuisine... (調理しているシェフ)",
+      "example_ja": "qui + 動詞"
+    },
+    {
+      "rule_title": "目的格の関係代名詞 que / qu' (〜を...する名詞)",
+      "explanation": "que の後ろには「主語 + 動詞」が続きます。先行詞を目的語として説明します。母音の前では qu' にエリジオンします。",
+      "example_fr": "La sauce que je prépare... (私が準備しているソース) / Le poisson qu'il a acheté... (彼が買った魚)",
+      "example_ja": "que + 主語 + 動詞"
+    },
+    {
+      "rule_title": "qui と que の識別ポイント",
+      "explanation": "直後が「動詞」なら qui、「主語(人称代名詞や名詞)」なら que(qu') と見分けるのが鉄則です。",
+      "example_fr": "Le couteau qui coupe bien (よく切れるナイフ) vs Le couteau que j'utilise (私が使うナイフ)",
+      "example_ja": "判定ルール"
+    }
+  ],
+  "kitchen_examples": [
+    {
+      "french": "Voici le bouillon qui a mijoté pendant quatre heures.",
+      "japanese": "これが4時間コトコト煮込んだ出汁（ブイヨン）です。",
+      "context": "仕込みの確認"
+    },
+    {
+      "french": "C'est la recette que le chef nous a transmise.",
+      "japanese": "これはシェフが私たちに伝授してくれたレシピです。",
+      "context": "料理の由来"
+    },
+    {
+      "french": "Goutons le dessert qu'elle vient de réaliser.",
+      "japanese": "彼女が作ってくれたばかりのデセールを試食してみましょう。",
+      "context": "試食会"
+    }
+  ]
+}

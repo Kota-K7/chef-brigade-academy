@@ -181,25 +181,25 @@
       "grammar"
     ],
     "grammar": {
-      "topic": "Imperative with Object Pronouns",
-      "explanation_ja": "命令文で目的語代名詞を併用するルールです。肯定命令では動詞の直後にハイフンで繋ぎ（例：donnez-le-moi！それを私にください）、否定命令では動詞の前に代名詞を置きます（例：ne le touchez pas！それに触らないで）。",
-      "explanation_en": "When giving orders with pronouns in the imperative mood, attach the pronouns to the verb with a hyphen in affirmative commands (e.g., 'donnez-le-moi'). In negative commands, pronouns go before the verb (e.g., 'ne le touchez pas')."
+      "topic": "L'Impératif avec les Pronoms (命令形＋代名詞 (Donnez-le-moi))",
+      "explanation_en": "Word order rules for object pronouns in the imperative mood. In affirmative commands, pronouns follow the verb connected by hyphens (e.g., 'passez-le-moi'). In negative commands, pronouns precede the verb (e.g., 'ne le touchez pas').",
+      "explanation_ja": "厨房の現場で「それを私に渡して！」「彼らにそれを見せて」と短く素早く指示を出すための語順ルールです。\n\n■ ルール：\n1. 【肯定命令文での語順：動詞 - 目的語代名詞】\n   肯定命令では代名詞を動詞の後ろにハイフンで繋ぎます。me, te は moi, toi に変化します。\n   （例: Passez-moi le sel ! / Regardez-moi.）\n2. 【二重目的語の肯定命令 (Donnez-le-moi)】\n   直接目的語(le/la/les) ＋ 間接目的語(moi/toi/lui/nous/vous/leur) の順でハイフン接続します。\n   （例: Donnez-le-moi. (それを私にください) / Apportez-la-lui. (それを彼/彼女に持って行ってください)）\n3. 【否定命令文での語順 (Ne me le donnez pas)】\n   否定命令では代名詞は通常の文と同様に動詞の前に戻り、moi/toi も me/te に戻ります。\n   （例: Ne me le donnez pas. / Ne lui parlez pas pendant le service.）"
     },
     "examples": [
       {
-        "fr": "Servez-le chaud !",
-        "en": "Serve it hot!",
-        "ja": "温かいうちに提供しなさい！"
+        "fr": "Montrez-moi votre technique de taillage !",
+        "en": "Show me your cutting technique!",
+        "ja": "(仕込み指導) あなたの切り方の技術を私に見せてください！"
       },
       {
-        "fr": "Ne le brûlez pas !",
-        "en": "Do not burn it!",
-        "ja": "焦がさないでください！"
+        "fr": "Ce plat est prêt, envoyez-le tout de suite !",
+        "en": "This dish is ready, send it right away!",
+        "ja": "(サービスピーク時) この料理は完成しました、すぐにデシャップ（ホール）へ出してください！"
       },
       {
-        "fr": "Préparez-les à l'avance !",
-        "en": "Prepare them in advance!",
-        "ja": "それらを事前に準備しておきなさい！"
+        "fr": "Ne le laissez pas brûler sur le feu !",
+        "en": "Do not let it burn on the fire!",
+        "ja": "(火入れの注意喚起) 火の上でそれを焦がさないようにしなさい！"
       }
     ]
   },
@@ -6695,5 +6695,35 @@
       }
     ],
     "gender": "f"
+  },
+  {
+    "id": "gram_relative_pronouns_qui_que",
+    "category": "Grammar",
+    "level": "B1",
+    "tags": [
+      "grammar"
+    ],
+    "grammar": {
+      "topic": "Les Pronoms Relatifs (Qui et Que) (関係代名詞 qui / que)",
+      "explanation_en": "Basic relative pronouns 'qui' (who/which as subject) and 'que' (whom/which as direct object). They are used to link clauses together and add descriptions to a preceding noun (antecedent).",
+      "explanation_ja": "先行詞（名詞）の説明を後ろから付け足す接続詞です。qui は主語の役割、que は直接目的語の役割を果たします。\n\n■ ルール：\n1. 【主格の関係代名詞 qui (〜である名詞)】\n   qui の後ろには「動詞」が続きます。先行詞が人であってもモノであっても qui を使います（エリジオンしません）。\n   （例: Le plat qui est célèbre... (有名な料理) / Le chef qui cuisine... (調理しているシェフ)）\n2. 【目的格の関係代名詞 que / qu' (〜を...する名詞)】\n   que の後ろには「主語 + 動詞」が続きます。先行詞を目的語として説明します。母音の前では qu' にエリジオンします。\n   （例: La sauce que je prépare... (私が準備しているソース) / Le poisson qu'il a acheté... (彼が買った魚)）\n3. 【qui と que の識別ポイント】\n   直後が「動詞」なら qui、「主語(人称代名詞や名詞)」なら que(qu') と見分けるのが鉄則です。\n   （例: Le couteau qui coupe bien (よく切れるナイフ) vs Le couteau que j'utilise (私が使うナイフ)）"
+    },
+    "examples": [
+      {
+        "fr": "Voici le bouillon qui a mijoté pendant quatre heures.",
+        "en": "Here is the stock that has simmered for four hours.",
+        "ja": "(仕込みの確認) これが4時間コトコト煮込んだ出汁（ブイヨン）です。"
+      },
+      {
+        "fr": "C'est la recette que le chef nous a transmise.",
+        "en": "This is the recipe that the chef passed down to us.",
+        "ja": "(料理の由来) これはシェフが私たちに伝授してくれたレシピです。"
+      },
+      {
+        "fr": "Goutons le dessert qu'elle vient de réaliser.",
+        "en": "Let's taste the dessert she just made.",
+        "ja": "(試食会) 彼女が作ってくれたばかりのデセールを試食してみましょう。"
+      }
+    ]
   }
 ]

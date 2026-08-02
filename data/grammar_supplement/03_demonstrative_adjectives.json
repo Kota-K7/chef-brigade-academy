@@ -1,0 +1,45 @@
+{
+  "id": "supp_demonstrative_adjectives",
+  "title_ja": "指示形容詞 (ce, cet, cette, ces)",
+  "title_fr": "Les Adjectifs Démonstratifs",
+  "level": "A1-A2",
+  "category": "代名詞・形容詞",
+  "summary_ja": "「この〜」「その〜」「あの〜」と、特定のモノや人を指し示す形容詞です。性・数・母音始動に応じた使い分けが必須です。",
+  "rules": [
+    {
+      "rule_title": "男性単数名詞: ce / cet",
+      "explanation": "子音で始まる男性単数名詞には ce、母音または無声の h で始まる男性単数名詞には cet を使います。",
+      "example_fr": "ce plat (この料理), cet œuf (この卵), cet hommage (このオマージュ)",
+      "example_ja": "ce plat / cet œuf"
+    },
+    {
+      "rule_title": "女性単数名詞: cette",
+      "explanation": "女性単数名詞にはすべて cette を使います（母音で始まっても cette のままです）。",
+      "example_fr": "cette sauce (このソース), cette assiette (この皿)",
+      "example_ja": "cette sauce / cette assiette"
+    },
+    {
+      "rule_title": "男女複数名詞: ces",
+      "explanation": "性別を問わず、すべての複数名詞に対して ces を使います。",
+      "example_fr": "ces légumes (これらの野菜), ces viandes (これらの肉)",
+      "example_ja": "ces légumes / ces viandes"
+    }
+  ],
+  "kitchen_examples": [
+    {
+      "french": "Passez-moi cette casserole, s'il vous plaît.",
+      "japanese": "この片手鍋を取ってください。",
+      "context": "調理中の器具要請"
+    },
+    {
+      "french": "Cet œuf doit être poché pendant trois minutes.",
+      "japanese": "この卵は3分間ポーチ（ゆで）しなければなりません。",
+      "context": "火入れの指示"
+    },
+    {
+      "french": "Goûtez ces sauces pour vérifier l'assaisonnement.",
+      "japanese": "味付けを確認するためにこれらのソースを試食してください。",
+      "context": "味見・確認"
+    }
+  ]
+}

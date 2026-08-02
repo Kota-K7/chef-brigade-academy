@@ -1,0 +1,45 @@
+{
+  "id": "supp_imperative_with_pronouns",
+  "title_ja": "命令形＋代名詞 (Donnez-le-moi)",
+  "title_fr": "L'Impératif avec les Pronoms",
+  "level": "A2-B1",
+  "category": "動詞・代名詞",
+  "summary_ja": "厨房の現場で「それを私に渡して！」「彼らにそれを見せて」と短く素早く指示を出すための語順ルールです。",
+  "rules": [
+    {
+      "rule_title": "肯定命令文での語順：動詞 - 目的語代名詞",
+      "explanation": "肯定命令では代名詞を動詞の後ろにハイフンで繋ぎます。me, te は moi, toi に変化します。",
+      "example_fr": "Passez-moi le sel ! / Regardez-moi.",
+      "example_ja": "私に塩を回してください！ / 私を見てください。"
+    },
+    {
+      "rule_title": "二重目的語の肯定命令 (Donnez-le-moi)",
+      "explanation": "直接目的語(le/la/les) ＋ 間接目的語(moi/toi/lui/nous/vous/leur) の順でハイフン接続します。",
+      "example_fr": "Donnez-le-moi. (それを私にください) / Apportez-la-lui. (それを彼/彼女に持って行ってください)",
+      "example_ja": "肯定命令の代名詞順序"
+    },
+    {
+      "rule_title": "否定命令文での語順 (Ne me le donnez pas)",
+      "explanation": "否定命令では代名詞は通常の文と同様に動詞の前に戻り、moi/toi も me/te に戻ります。",
+      "example_fr": "Ne me le donnez pas. / Ne lui parlez pas pendant le service.",
+      "example_ja": "否定命令の語順ルール"
+    }
+  ],
+  "kitchen_examples": [
+    {
+      "french": "Montrez-moi votre technique de taillage !",
+      "japanese": "あなたの切り方の技術を私に見せてください！",
+      "context": "仕込み指導"
+    },
+    {
+      "french": "Ce plat est prêt, envoyez-le tout de suite !",
+      "japanese": "この料理は完成しました、すぐにデシャップ（ホール）へ出してください！",
+      "context": "サービスピーク時"
+    },
+    {
+      "french": "Ne le laissez pas brûler sur le feu !",
+      "japanese": "火の上でそれを焦がさないようにしなさい！",
+      "context": "火入れの注意喚起"
+    }
+  ]
+}

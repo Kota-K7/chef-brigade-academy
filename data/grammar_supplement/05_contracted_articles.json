@@ -1,0 +1,45 @@
+{
+  "id": "supp_contracted_articles",
+  "title_ja": "冠詞の縮約変化 (du, au, des, aux)",
+  "title_fr": "Les Articles Contractés",
+  "level": "A1",
+  "category": "冠詞・前置詞",
+  "summary_ja": "前置詞 de (〜の/〜から) や à (〜に/〜で) が定冠詞 (le, les) と隣り合うと形が融合して変化するルールです。",
+  "rules": [
+    {
+      "rule_title": "前置詞 de + 定冠詞の縮約",
+      "explanation": "de + le = du / de + les = des / (de + la = de la [縮約なし] / de + l' = de l' [縮約なし])",
+      "example_fr": "le chef du restaurant (de + le), l'odeur des épices (de + les)",
+      "example_ja": "レストランのシェフ、スパイスの香り"
+    },
+    {
+      "rule_title": "前置詞 à + 定冠詞の縮約",
+      "explanation": "à + le = au / à + les = aux / (à + la = à la [縮約なし] / à + l' = à l' [縮約なし])",
+      "example_fr": "la cuisson au four (à + le), la glace aux fraises (à + les), tarte à la crème (縮約なし)",
+      "example_ja": "オーブン焼き、イチゴのアイス、クリームタルト"
+    },
+    {
+      "rule_title": "フランス料理用語での「à la / au / aux」の重要性",
+      "explanation": "「〜風」「〜入りの」「〜を添えた」という料理名に非常に頻出します。",
+      "example_fr": "Canard au miel (ハチミツ風味の鴨), Sauce aux champignons (キノコソース)",
+      "example_ja": "調理法・味付けの名称ルール"
+    }
+  ],
+  "kitchen_examples": [
+    {
+      "french": "Ajoutez le sel au jus de viande.",
+      "japanese": "出汁（フォンドボー等）に塩を加えてください。",
+      "context": "ソース作り"
+    },
+    {
+      "french": "C'est la spécialité du chef de partie.",
+      "japanese": "これは部門シェフ（シェフ・ド・パルティ）のスペシャリテです。",
+      "context": "料理の背景解説"
+    },
+    {
+      "french": "Servir chaud avec une garniture aux légumes de saison.",
+      "japanese": "旬の野菜の付け合わせを添えて温かい状態でサーブする。",
+      "context": "レシピの指示書き"
+    }
+  ]
+}
