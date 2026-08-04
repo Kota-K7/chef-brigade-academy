@@ -24031,5 +24031,977 @@
       }
     ],
     "gender": "m"
+  },
+  {
+    "id": "vocab_time_lundi",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Jour"
+    ],
+    "french": "lundi",
+    "japanese": "月曜日",
+    "definition_fr": "Premier jour de la semaine de travail.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Le restaurant est fermé le lundi.",
+        "ja": "レストランは月曜日が定休日です。",
+        "en": "The restaurant is closed on Mondays."
+      }
+    ],
+    "english": "Monday"
+  },
+  {
+    "id": "vocab_time_mercredi",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Jour"
+    ],
+    "french": "mercredi",
+    "japanese": "水曜日",
+    "definition_fr": "Troisième jour de la semaine.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Nous recevons la livraison le mercredi.",
+        "ja": "水曜日に配送を受け取ります。",
+        "en": "We receive the delivery on Wednesdays."
+      }
+    ],
+    "english": "Wednesday"
+  },
+  {
+    "id": "vocab_time_jeudi",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Jour"
+    ],
+    "french": "jeudi",
+    "japanese": "木曜日",
+    "definition_fr": "Quatrième jour de la semaine.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "À jeudi prochain !",
+        "ja": "また来週の木曜日に！",
+        "en": "See you next Thursday!"
+      }
+    ],
+    "english": "Thursday"
+  },
+  {
+    "id": "vocab_time_vendredi",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Jour"
+    ],
+    "french": "vendredi",
+    "japanese": "金曜日",
+    "definition_fr": "Cinquième jour de la semaine.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Le vendredi soir est très chargé en cuisine.",
+        "ja": "金曜日の夜は厨房がとても忙しいです。",
+        "en": "Friday night is very busy in the kitchen."
+      }
+    ],
+    "english": "Friday"
+  },
+  {
+    "id": "vocab_time_samedi",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Jour"
+    ],
+    "french": "samedi",
+    "japanese": "土曜日",
+    "definition_fr": "Sixième jour de la semaine, premier jour du week-end.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Bon samedi à tous !",
+        "ja": "皆さん、よい土曜日を！",
+        "en": "Good Saturday to everyone!"
+      }
+    ],
+    "english": "Saturday"
+  },
+  {
+    "id": "vocab_time_avant_hier",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Temps"
+    ],
+    "french": "avant-hier",
+    "japanese": "一昨日（おととい）",
+    "definition_fr": "Le jour précédant hier.",
+    "examples": [
+      {
+        "fr": "Le chef est arrivé avant-hier.",
+        "ja": "シェフは一昨日到着しました。",
+        "en": "The chef arrived the day before yesterday."
+      }
+    ],
+    "english": "Day before yesterday"
+  },
+  {
+    "id": "vocab_time_apres_demain",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Temps"
+    ],
+    "french": "après-demain",
+    "japanese": "明後日（あさって）",
+    "definition_fr": "Le jour suivant demain.",
+    "examples": [
+      {
+        "fr": "Le nouveau menu commence après-demain.",
+        "ja": "新しいメニューは明後日始まります。",
+        "en": "The new menu starts the day after tomorrow."
+      }
+    ],
+    "english": "Day after tomorrow"
+  },
+  {
+    "id": "vocab_time_janvier",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "janvier",
+    "japanese": "1月",
+    "definition_fr": "Premier mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Le restaurant ferme une semaine en janvier.",
+        "ja": "レストランは1月に1週間休業します。",
+        "en": "The restaurant closes for one week in January."
+      }
+    ],
+    "english": "January"
+  },
+  {
+    "id": "vocab_time_fevrier",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "février",
+    "japanese": "2月",
+    "definition_fr": "Deuxième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "En février, nous préparons les crêpes.",
+        "ja": "2月にはクレープを用意します。",
+        "en": "In February, we prepare crepes."
+      }
+    ],
+    "english": "February"
+  },
+  {
+    "id": "vocab_time_avril",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "avril",
+    "japanese": "4月",
+    "definition_fr": "Quatrième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Les asperges arrivent en avril.",
+        "ja": "アスパラガスは4月に入荷します。",
+        "en": "Asparagus arrives in April."
+      }
+    ],
+    "english": "April"
+  },
+  {
+    "id": "vocab_time_juin",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "juin",
+    "japanese": "6月",
+    "definition_fr": "Sixième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "L'été commence en juin.",
+        "ja": "夏は6月に始まります。",
+        "en": "Summer begins in June."
+      }
+    ],
+    "english": "June"
+  },
+  {
+    "id": "vocab_time_juillet",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "juillet",
+    "japanese": "7月",
+    "definition_fr": "Septième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Il fait chaud en juillet.",
+        "ja": "7月は暑いです。",
+        "en": "It is hot in July."
+      }
+    ],
+    "english": "July"
+  },
+  {
+    "id": "vocab_time_aout",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "août",
+    "japanese": "8月",
+    "definition_fr": "Huitième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Beaucoup de fournisseurs sont en vacances en août.",
+        "ja": "8月は多くの業者が休暇に入ります。",
+        "en": "Many suppliers are on vacation in August."
+      }
+    ],
+    "english": "August"
+  },
+  {
+    "id": "vocab_time_septembre",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "septembre",
+    "japanese": "9月",
+    "definition_fr": "Neuvième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "La rentrée gastronomique est en septembre.",
+        "ja": "美食のシーズン再開は9月です。",
+        "en": "The gastronomic season restarts in September."
+      }
+    ],
+    "english": "September"
+  },
+  {
+    "id": "vocab_time_octobre",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "octobre",
+    "japanese": "10月",
+    "definition_fr": "Dixième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "C'est la saison des champignons en octobre.",
+        "ja": "10月はきのこのシーズンです。",
+        "en": "It is mushroom season in October."
+      }
+    ],
+    "english": "October"
+  },
+  {
+    "id": "vocab_time_novembre",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "novembre",
+    "japanese": "11月",
+    "definition_fr": "Onzième mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Le Beaujolais nouveau arrive en novembre.",
+        "ja": "ボジョレー・ヌーヴォーは11月に到着します。",
+        "en": "The Beaujolais Nouveau arrives in November."
+      }
+    ],
+    "english": "November"
+  },
+  {
+    "id": "vocab_time_decembre",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nom",
+      "Temps",
+      "Mois"
+    ],
+    "french": "décembre",
+    "japanese": "12月",
+    "definition_fr": "Douzième et dernier mois de l'année.",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Décembre est le mois des fêtes.",
+        "ja": "12月は祝祭の月です。",
+        "en": "December is the festive month."
+      }
+    ],
+    "english": "December"
+  },
+  {
+    "id": "vocab_time_demie",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adjectif",
+      "Temps",
+      "Heure"
+    ],
+    "french": "demie",
+    "japanese": "半分・30分（〜時半）",
+    "definition_fr": "Moitié d'une heure (30 minutes).",
+    "gender": "f",
+    "examples": [
+      {
+        "fr": "Il est trois heures et demie.",
+        "ja": "3時半です。",
+        "en": "It is half past three."
+      }
+    ],
+    "english": "Half / half hour"
+  },
+  {
+    "id": "vocab_time_quelquefois",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Fréquence"
+    ],
+    "french": "quelquefois",
+    "japanese": "時々・たまに",
+    "definition_fr": "De temps en temps, parfois.",
+    "examples": [
+      {
+        "fr": "Quelquefois, nous faisons du pain maison.",
+        "ja": "時々自家製パンを作ります。",
+        "en": "Sometimes we make homemade bread."
+      }
+    ],
+    "english": "Sometimes"
+  },
+  {
+    "id": "vocab_time_rarement",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adverbe",
+      "Fréquence"
+    ],
+    "french": "rarement",
+    "japanese": "めったに〜ない",
+    "definition_fr": "Pas souvent, de manière exceptionnelle.",
+    "examples": [
+      {
+        "fr": "Le chef cuisine rarement ce poisson.",
+        "ja": "シェフがこの魚を料理することはめったにありません。",
+        "en": "The chef rarely cooks this fish."
+      }
+    ],
+    "english": "Rarely"
+  },
+  {
+    "id": "vocab_time_bonne_journee",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Expression",
+      "Salutation"
+    ],
+    "french": "bonne journée",
+    "japanese": "よい一日を！",
+    "definition_fr": "Souhait formulé en quittant quelqu'un pendant la journée.",
+    "examples": [
+      {
+        "fr": "Merci et bonne journée !",
+        "ja": "ありがとうございます、良い一日を！",
+        "en": "Thank you and have a good day!"
+      }
+    ],
+    "english": "Have a good day"
+  },
+  {
+    "id": "vocab_time_a_bientot",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Expression",
+      "Salutation"
+    ],
+    "french": "à bientôt",
+    "japanese": "また近いうちに！ / またね！",
+    "definition_fr": "Formule de prise de congé quand on pense se revoir prochainement.",
+    "examples": [
+      {
+        "fr": "Au revoir et à bientôt !",
+        "ja": "さようなら、また近いうちに！",
+        "en": "Goodbye and see you soon!"
+      }
+    ],
+    "english": "See you soon"
+  },
+  {
+    "id": "vocab_num_zero",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "zéro",
+    "japanese": "0（ゼロ）",
+    "definition_fr": "Chiffre représentant l'absence de quantité.",
+    "examples": [
+      {
+        "fr": "Le thermomètre indique zéro degré.",
+        "ja": "温度計は0度を指しています。",
+        "en": "The thermometer indicates zero degrees."
+      }
+    ],
+    "english": "Zero"
+  },
+  {
+    "id": "vocab_num_trois",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "trois",
+    "japanese": "3（さん）",
+    "definition_fr": "Nombre 3.",
+    "examples": [
+      {
+        "fr": "Trois œufs pour la pâte.",
+        "ja": "生地用に卵3個。",
+        "en": "Three eggs for the dough."
+      }
+    ],
+    "english": "Three"
+  },
+  {
+    "id": "vocab_num_quatre",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "quatre",
+    "japanese": "4（よん）",
+    "definition_fr": "Nombre 4.",
+    "examples": [
+      {
+        "fr": "Une table pour quatre personnes.",
+        "ja": "4名様のテーブル。",
+        "en": "A table for four people."
+      }
+    ],
+    "english": "Four"
+  },
+  {
+    "id": "vocab_num_cinq",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "cinq",
+    "japanese": "5（ご）",
+    "definition_fr": "Nombre 5.",
+    "examples": [
+      {
+        "fr": "Laissez cuire pendant cinq minutes.",
+        "ja": "5分間加熱してください。",
+        "en": "Let cook for five minutes."
+      }
+    ],
+    "english": "Five"
+  },
+  {
+    "id": "vocab_num_six",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "six",
+    "japanese": "6（ろく）",
+    "definition_fr": "Nombre 6.",
+    "examples": [
+      {
+        "fr": "Il y a six cuisiniers dans la brigade.",
+        "ja": "調理チームには6人の調理師がいます。",
+        "en": "There are six cooks in the brigade."
+      }
+    ],
+    "english": "Six"
+  },
+  {
+    "id": "vocab_num_sept",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "sept",
+    "japanese": "7（なな）",
+    "definition_fr": "Nombre 7.",
+    "examples": [
+      {
+        "fr": "Le service commence à sept heures.",
+        "ja": "ディナーサービスは7時に始まります。",
+        "en": "Service starts at seven o'clock."
+      }
+    ],
+    "english": "Seven"
+  },
+  {
+    "id": "vocab_num_huit",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "huit",
+    "japanese": "8（はち）",
+    "definition_fr": "Nombre 8.",
+    "examples": [
+      {
+        "fr": "Huit portions de poisson.",
+        "ja": "魚8ポーション。",
+        "en": "Eight portions of fish."
+      }
+    ],
+    "english": "Eight"
+  },
+  {
+    "id": "vocab_num_neuf",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "neuf",
+    "japanese": "9（きゅう）",
+    "definition_fr": "Nombre 9.",
+    "examples": [
+      {
+        "fr": "Neuf euros le kilo.",
+        "ja": "1キロ当たり9ユーロ。",
+        "en": "Nine euros per kilo."
+      }
+    ],
+    "english": "Nine"
+  },
+  {
+    "id": "vocab_num_dix",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "dix",
+    "japanese": "10（じゅう）",
+    "definition_fr": "Nombre 10.",
+    "examples": [
+      {
+        "fr": "Dix minutes de repos pour la viande.",
+        "ja": "肉を10分間休ませます。",
+        "en": "Ten minutes of rest for the meat."
+      }
+    ],
+    "english": "Ten"
+  },
+  {
+    "id": "vocab_num_onze",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "onze",
+    "japanese": "11（じゅういち）",
+    "definition_fr": "Nombre 11.",
+    "examples": [
+      {
+        "fr": "Le marché ouvre à onze heures.",
+        "ja": "市場は11時に開きます。",
+        "en": "The market opens at eleven o'clock."
+      }
+    ],
+    "english": "Eleven"
+  },
+  {
+    "id": "vocab_num_douze",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "douze",
+    "japanese": "12（じゅうに）",
+    "definition_fr": "Nombre 12 (une douzaine).",
+    "examples": [
+      {
+        "fr": "Une douzaine d'huîtres (douze huîtres).",
+        "ja": "カキ1ダース（12個）。",
+        "en": "A dozen oysters (twelve oysters)."
+      }
+    ],
+    "english": "Twelve"
+  },
+  {
+    "id": "vocab_num_treize",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "treize",
+    "japanese": "13（じゅうさん）",
+    "definition_fr": "Nombre 13.",
+    "examples": [
+      {
+        "fr": "Treize convives à table.",
+        "ja": "テーブルに13人の会食者。",
+        "en": "Thirteen guests at the table."
+      }
+    ],
+    "english": "Thirteen"
+  },
+  {
+    "id": "vocab_num_quatorze",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "quatorze",
+    "japanese": "14（じゅうよん）",
+    "definition_fr": "Nombre 14.",
+    "examples": [
+      {
+        "fr": "Le service de midi finit à quatorze heures.",
+        "ja": "昼のサービスは14時に終わります。",
+        "en": "The lunch service ends at two o'clock."
+      }
+    ],
+    "english": "Fourteen"
+  },
+  {
+    "id": "vocab_num_quinze",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "quinze",
+    "japanese": "15（じゅうご）",
+    "definition_fr": "Nombre 15.",
+    "examples": [
+      {
+        "fr": "Quinze grammes de sel.",
+        "ja": "塩15グラム。",
+        "en": "Fifteen grams of salt."
+      }
+    ],
+    "english": "Fifteen"
+  },
+  {
+    "id": "vocab_num_seize",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "seize",
+    "japanese": "16（じゅうろく）",
+    "definition_fr": "Nombre 16.",
+    "examples": [
+      {
+        "fr": "Seize bouteilles de vin blanc.",
+        "ja": "白ワイン16本。",
+        "en": "Sixteen bottles of white wine."
+      }
+    ],
+    "english": "Sixteen"
+  },
+  {
+    "id": "vocab_num_vingt",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "vingt",
+    "japanese": "20（にじゅう）",
+    "definition_fr": "Nombre 20.",
+    "examples": [
+      {
+        "fr": "Vingt centilitres de crème.",
+        "ja": "生クリーム20センチリットル。",
+        "en": "Twenty centiliters of cream."
+      }
+    ],
+    "english": "Twenty"
+  },
+  {
+    "id": "vocab_num_trente",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "trente",
+    "japanese": "30（さんじゅう）",
+    "definition_fr": "Nombre 30.",
+    "examples": [
+      {
+        "fr": "Trente secondes au micro-ondes.",
+        "ja": "電子レンジで30秒。",
+        "en": "Thirty seconds in the microwave."
+      }
+    ],
+    "english": "Thirty"
+  },
+  {
+    "id": "vocab_num_quarante",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "quarante",
+    "japanese": "40（よんじゅう）",
+    "definition_fr": "Nombre 40.",
+    "examples": [
+      {
+        "fr": "Quarante degrés Celsius.",
+        "ja": "摂氏40度。",
+        "en": "Forty degrees Celsius."
+      }
+    ],
+    "english": "Forty"
+  },
+  {
+    "id": "vocab_num_cinquante",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "cinquante",
+    "japanese": "50（ごじゅう）",
+    "definition_fr": "Nombre 50.",
+    "examples": [
+      {
+        "fr": "Cinquante grammes de beurre doux.",
+        "ja": "無塩バター50グラム。",
+        "en": "Fifty grams of unsalted butter."
+      }
+    ],
+    "english": "Fifty"
+  },
+  {
+    "id": "vocab_num_soixante",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "soixante",
+    "japanese": "60（ろくじゅう）",
+    "definition_fr": "Nombre 60.",
+    "examples": [
+      {
+        "fr": "Soixante minutes font une heure.",
+        "ja": "60分で1時間です。",
+        "en": "Sixty minutes make an hour."
+      }
+    ],
+    "english": "Sixty"
+  },
+  {
+    "id": "vocab_num_cent",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "cent",
+    "japanese": "100（ひゃく）",
+    "definition_fr": "Nombre 100.",
+    "examples": [
+      {
+        "fr": "Cent grammes de farine.",
+        "ja": "小麦粉100グラム。",
+        "en": "One hundred grams of flour."
+      }
+    ],
+    "english": "Hundred"
+  },
+  {
+    "id": "vocab_num_mille",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "mille",
+    "japanese": "1,000（せん）",
+    "definition_fr": "Nombre 1000 (invariable).",
+    "examples": [
+      {
+        "fr": "Mille millilitres égalent un litre.",
+        "ja": "1000ミリリットルは1リットルに相当します。",
+        "en": "One thousand milliliters equal one liter."
+      }
+    ],
+    "english": "Thousand"
+  },
+  {
+    "id": "vocab_num_premier",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adjectif",
+      "Ordre"
+    ],
+    "french": "premier / première",
+    "japanese": "第1の / 最初の",
+    "definition_fr": "Qui vient en tête, avant tous les autres.",
+    "examples": [
+      {
+        "fr": "C'est notre premier service.",
+        "ja": "これが私たちの最初のディナーサービスです。",
+        "en": "It is our first service."
+      }
+    ],
+    "english": "First"
+  },
+  {
+    "id": "vocab_num_deuxieme",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adjectif",
+      "Ordre"
+    ],
+    "french": "deuxième",
+    "japanese": "第2の / 2番目の",
+    "definition_fr": "Qui suit le premier.",
+    "examples": [
+      {
+        "fr": "Le deuxième plat est la viande.",
+        "ja": "2番目の料理（メイン）は肉料理です。",
+        "en": "The second course is the meat."
+      }
+    ],
+    "english": "Second"
+  },
+  {
+    "id": "vocab_num_dernier",
+    "category": "Vocabulary",
+    "level": "A1",
+    "tags": [
+      "Adjectif",
+      "Ordre"
+    ],
+    "french": "dernier / dernière",
+    "japanese": "最後の / 直近の",
+    "definition_fr": "Qui vient après tous les autres.",
+    "examples": [
+      {
+        "fr": "Dernière commande à 22 heures !",
+        "ja": "ラストオーダーは22時です！",
+        "en": "Last order at 10 PM!"
+      }
+    ],
+    "english": "Last"
   }
 ]

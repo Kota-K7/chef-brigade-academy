@@ -19877,5 +19877,27 @@
       }
     ],
     "gender": "f"
+  },
+  {
+    "id": "vocab_num_million",
+    "category": "Vocabulary",
+    "level": "A2",
+    "tags": [
+      "Nom",
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "million",
+    "japanese": "100万（ひゃくまん）",
+    "definition_fr": "Un million (1 000 000).",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Un million d'euros.",
+        "ja": "100万ユーロ。",
+        "en": "One million euros."
+      }
+    ],
+    "english": "Million"
   }
 ]

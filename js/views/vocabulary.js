@@ -107,8 +107,7 @@ function renderVocabContent(container, initialLevel) {
       const ctxFr = item.examples && item.examples[0] ? item.examples[0].fr : "";
       const ctxJa = item.examples && item.examples[0] ? item.examples[0].ja : "";
 
-      const isPreposition = item.category === 'Préposition' || item.id.includes('prep_');
-      const illustrationSvg = isPreposition ? getPrepositionIllustration(item.french) : '';
+      const illustrationSvg = getPrepositionIllustration(item.french);
       const illustrationHtml = illustrationSvg 
         ? `<div class="preposition-illustration-container" style="height: 130px; background-color: #fcfbfa; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0.8rem 0; overflow: hidden; border: 1px solid rgba(0,0,0,0.03);">${illustrationSvg}</div>`
         : '';

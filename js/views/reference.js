@@ -1,4 +1,5 @@
 import { speakFrench } from '../utils/audio.js';
+import { getPrepositionIllustration } from '../utils/illustrations.js';
 
 export function renderReference() {
   const container = document.createElement('div');
@@ -199,6 +200,54 @@ function showTopicDetails(panel, topic) {
       
       secContainer.appendChild(list);
       
+    } else if (sec.type === 'illustrations_grid') {
+      const title = document.createElement('h4');
+      title.className = 'ref-sec-title';
+      title.innerText = sec.title;
+      secContainer.appendChild(title);
+      
+      const grid = document.createElement('div');
+      grid.className = 'ref-illustrations-grid';
+      grid.style.display = 'grid';
+      grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(180px, 1fr))';
+      grid.style.gap = '1rem';
+      grid.style.marginTop = '1rem';
+      
+      sec.items.forEach(item => {
+        const cell = document.createElement('div');
+        cell.className = 'ref-illustration-card';
+        cell.style.border = '1px solid rgba(0,0,0,0.06)';
+        cell.style.borderRadius = '8px';
+        cell.style.padding = '0.8rem 0.5rem';
+        cell.style.backgroundColor = '#fcfbfa';
+        cell.style.display = 'flex';
+        cell.style.flexDirection = 'column';
+        cell.style.alignItems = 'center';
+        cell.style.transition = 'transform 0.2s ease, box-shadow 0.2s ease';
+        
+        cell.addEventListener('mouseenter', () => {
+          cell.style.transform = 'translateY(-2px)';
+          cell.style.boxShadow = '0 4px 12px rgba(0,0,0,0.05)';
+        });
+        cell.addEventListener('mouseleave', () => {
+          cell.style.transform = 'none';
+          cell.style.boxShadow = 'none';
+        });
+        
+        const svg = getPrepositionIllustration(item.word);
+        cell.innerHTML = `
+          <div class="preposition-illustration-container" style="width: 100%; height: 110px; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: 4px; background-color: #ffffff;">
+            ${svg}
+          </div>
+          <div style="font-weight: bold; margin-top: 0.6rem; display: flex; align-items: center; gap: 0.4rem; color: var(--color-primary); font-size: 0.95rem;">
+            <span>${item.word}</span>
+            <button class="audio-btn" data-speak="${item.word}" style="background: none; border: none; cursor: pointer; font-size: 0.85rem; color: var(--color-accent); line-height: 1; padding: 2px;">🔊</button>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--color-text-muted); text-align: center; margin-top: 0.2rem; font-weight: 500;">${item.desc}</div>
+        `;
+        grid.appendChild(cell);
+      });
+      secContainer.appendChild(grid);
     } else if (sec.type === 'info') {
       const infoBox = document.createElement('div');
       infoBox.className = 'ref-info-box';

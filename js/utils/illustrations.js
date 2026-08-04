@@ -41,6 +41,60 @@ const baseSvg = (key, content, label) => `
 </svg>
 `;
 
+function makeCalendarSvg(activeDayIndex, label) {
+  const days = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+  let boxes = '';
+  for (let i = 0; i < 7; i++) {
+    const x = 24 + i * 28;
+    const isActive = i === activeDayIndex;
+    const bgColor = isActive ? '#e76f51' : '#ffffff';
+    const textColor = isActive ? '#ffffff' : '#1c2833';
+    const border = isActive ? 'stroke="#e76f51" stroke-width="2"' : 'stroke="#1c2833" stroke-width="1.5"';
+    boxes += `
+      <rect x="${x}" y="50" width="24" height="24" fill="${bgColor}" ${border} rx="4" />
+      <text x="${x + 12}" y="66" text-anchor="middle" font-size="10" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="bold" fill="${textColor}">${days[i]}</text>
+    `;
+  }
+  return baseSvg(`calendar_${activeDayIndex}`, `
+    <!-- Calendar Header Grid -->
+    <rect x="20" y="20" width="200" height="20" fill="#1c2833" rx="4" />
+    <text x="120" y="33" text-anchor="middle" font-size="9" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="bold" fill="#ffffff" letter-spacing="1px">LA SEMAINE</text>
+    ${boxes}
+  `, label);
+}
+
+function makeTimelineSvg(activeIndex, label) {
+  const terms = ['Avant-hier', 'Hier', "Aujourd'hui", 'Demain', 'Après-demain'];
+  const termsJa = ['一昨日', '昨日', '今日', '明日', '明後日'];
+  let nodes = '';
+  const lineY = 65;
+  
+  for (let i = 0; i < 5; i++) {
+    const x = 25 + i * 47;
+    const isActive = i === activeIndex;
+    const circleColor = isActive ? '#e76f51' : '#1c2833';
+    const radius = isActive ? 7 : 4;
+    const fontSize = isActive ? 8 : 7;
+    const fontColor = isActive ? '#e76f51' : '#7f8c8d';
+    const fontWeight = isActive ? 'bold' : 'normal';
+    
+    nodes += `
+      <circle cx="${x}" cy="${lineY}" r="${radius}" fill="${circleColor}" />
+      <text x="${x}" y="${lineY - 14}" text-anchor="middle" font-size="${fontSize}" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="${fontWeight}" fill="${fontColor}">${terms[i]}</text>
+      <text x="${x}" y="${lineY + 16}" text-anchor="middle" font-size="7" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="${fontWeight}" fill="${fontColor}">${termsJa[i]}</text>
+    `;
+  }
+  
+  return baseSvg(`timeline_${activeIndex}`, `
+    <!-- Timeline axis -->
+    <line x1="20" y1="65" x2="220" y2="65" stroke="#1c2833" stroke-width="2" />
+    <!-- Arrow head -->
+    <path d="M 218 61 L 225 65 L 218 69 Z" fill="#1c2833" />
+    ${nodes}
+  `, label);
+}
+
+
 const illustrations = {
   sur: baseSvg('sur', `
     <!-- Board/Table surface -->
@@ -368,7 +422,62 @@ const illustrations = {
     <text x="133" y="36" font-size="9" fill="#e63946" font-weight="bold">110°C MAX</text>
     <!-- Rise Arrow -->
     <path d="M 85 85 L 85 36" fill="none" stroke="#e76f51" stroke-width="2.5" marker-end="url(#arrow-jusqu_a)"/>
-  `, "UNTIL / UP TO LIMIT (jusqu'à)")
+  `, "UNTIL / UP TO LIMIT (jusqu'à)"),
+
+  matin: baseSvg('matin', `
+    <!-- Horizon line -->
+    <line x1="30" y1="85" x2="210" y2="85" stroke="#1c2833" stroke-width="2"/>
+    <!-- Sun rising -->
+    <path d="M 95 85 A 25 25 0 0 1 145 85 Z" fill="#e76f51" stroke="#1c2833" stroke-width="2"/>
+    <!-- Sun rays -->
+    <line x1="120" y1="50" x2="120" y2="40" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+    <line x1="100" y1="60" x2="90" y2="52" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+    <line x1="140" y1="60" x2="150" y2="52" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="78" x2="73" y2="78" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+    <line x1="155" y1="78" x2="167" y2="78" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+  `, 'MORNING (le matin)'),
+
+  midi: baseSvg('midi', `
+    <!-- Sun directly overhead -->
+    <circle cx="120" cy="45" r="16" fill="#e76f51" stroke="#1c2833" stroke-width="2"/>
+    <line x1="120" y1="22" x2="120" y2="12" stroke="#e76f51" stroke-width="2"/>
+    <line x1="120" y1="68" x2="120" y2="78" stroke="#e76f51" stroke-width="2"/>
+    <line x1="97" y1="45" x2="87" y2="45" stroke="#e76f51" stroke-width="2"/>
+    <line x1="143" y1="45" x2="153" y2="45" stroke="#e76f51" stroke-width="2"/>
+    <!-- Clock showing 12:00 -->
+    <circle cx="120" cy="85" r="15" fill="#ffffff" stroke="#1c2833" stroke-width="2"/>
+    <line x1="120" y1="85" x2="120" y2="73" stroke="#1c2833" stroke-width="2" stroke-linecap="round"/>
+    <line x1="120" y1="85" x2="120" y2="80" stroke="#e76f51" stroke-width="2" stroke-linecap="round"/>
+  `, 'NOON (midi)'),
+
+  'apres midi': baseSvg('apres_midi', `
+    <!-- Sun slightly tilted to the right -->
+    <circle cx="155" cy="50" r="14" fill="#e76f51" stroke="#1c2833" stroke-width="2"/>
+    <line x1="155" y1="30" x2="155" y2="22" stroke="#e76f51" stroke-width="1.5"/>
+    <line x1="135" y1="50" x2="127" y2="50" stroke="#e76f51" stroke-width="1.5"/>
+    <!-- Landscape/Ground -->
+    <line x1="30" y1="90" x2="210" y2="90" stroke="#1c2833" stroke-width="2"/>
+    <!-- chef hat in daylight -->
+    <path d="M 70 90 L 70 70 C 70 62, 80 58, 85 62 C 90 58, 100 62, 100 70 L 100 90 Z" fill="#ffffff" stroke="#1c2833" stroke-width="1.5"/>
+  `, 'AFTERNOON (l\'après-midi)'),
+
+  soir: baseSvg('soir', `
+    <!-- Horizon line -->
+    <line x1="30" y1="85" x2="210" y2="85" stroke="#1c2833" stroke-width="2"/>
+    <!-- Sun setting -->
+    <path d="M 100 85 A 20 20 0 0 1 140 85 Z" fill="#e76f51" opacity="0.6"/>
+    <!-- Evening stars -->
+    <path d="M 50 35 L 52 40 L 57 41 L 53 44 L 54 49 L 50 46 L 46 49 L 47 44 L 43 41 L 48 40 Z" fill="#f4a261" transform="scale(0.8) translate(10, 10)"/>
+  `, 'EVENING (le soir)'),
+
+  nuit: baseSvg('nuit', `
+    <!-- Crescent Moon -->
+    <path d="M 100 35 A 30 30 0 1 0 145 80 A 24 24 0 1 1 100 35" fill="#f4a261" stroke="#1c2833" stroke-width="2" filter="url(#shadow-nuit)"/>
+    <!-- Sparkly Stars -->
+    <circle cx="60" cy="45" r="2" fill="#ffffff"/>
+    <circle cx="75" cy="75" r="1.5" fill="#ffffff"/>
+    <circle cx="165" cy="40" r="2" fill="#ffffff"/>
+  `, 'NIGHT (la nuit)')
 };
 
 // Mappings for variants/aliases to guarantee lookup hits
@@ -394,3 +503,22 @@ illustrations['jusqu a'] = illustrations['jusqu_a'];
 illustrations['jusqu à'] = illustrations['jusqu_a'];
 illustrations["jusqu'a"] = illustrations['jusqu_a'];
 illustrations["jusqu'à"] = illustrations['jusqu_a'];
+
+// Calendar dynamic mappings
+illustrations['lundi'] = makeCalendarSvg(0, 'MONDAY (lundi)');
+illustrations['mardi'] = makeCalendarSvg(1, 'TUESDAY (mardi)');
+illustrations['mercredi'] = makeCalendarSvg(2, 'WEDNESDAY (mercredi)');
+illustrations['jeudi'] = makeCalendarSvg(3, 'THURSDAY (jeudi)');
+illustrations['vendredi'] = makeCalendarSvg(4, 'FRIDAY (vendredi)');
+illustrations['samedi'] = makeCalendarSvg(5, 'SATURDAY (samedi)');
+illustrations['dimanche'] = makeCalendarSvg(6, 'SUNDAY (dimanche)');
+
+// Timeline dynamic mappings
+illustrations['avant hier'] = makeTimelineSvg(0, 'DAY BEFORE YESTERDAY (avant-hier)');
+illustrations['hier'] = makeTimelineSvg(1, 'YESTERDAY (hier)');
+illustrations['aujourd hui'] = makeTimelineSvg(2, "TODAY (aujourd'hui)");
+illustrations['demain'] = makeTimelineSvg(3, 'TOMORROW (demain)');
+illustrations['apres demain'] = makeTimelineSvg(4, 'DAY AFTER TOMORROW (après-demain)');
+
+// Additional time mappings
+illustrations['l apres midi'] = illustrations['apres midi'];

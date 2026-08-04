@@ -1,0 +1,217 @@
+{
+  "chapterId": "career_ch_0",
+  "episodes": [
+    {
+      "episodeTitle": "第0-1話：フランス料理店へようこそ",
+      "scene1_intro_dialog": [
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "またせたのぉ、ごめんやで坊ちゃん。",
+          "learningPoint": {
+            "title": "金竹満 (かねだけみつる)",
+            "text": "金竹グループの社長。趣味はお金稼ぎ。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "満さん！いえいえすみません、お忙しい中ありがとうございます。で、どんなバイトを紹介してくださるんですか？"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ここやここ、フランス料理屋やな"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ええええええ！！？"
+        },
+        {
+          "type": "dialog",
+          "character": "ピエール",
+          "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。話は聞いてる、よろしく頼む。",
+          "learningPoint": {
+            "title": "Jean",
+            "text": "Pierre (ジャン＝ピエール) - レストラン「La Nouvelle Étoile」の Chef（料理長）です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔"
+        },
+        {
+          "type": "dialog",
+          "character": "ピエール",
+          "text": "フランス料理はそんなに甘くないぞ…。"
+        }
+      ],
+      "part1_grammar_lesson": "*   **今日の目標**: 挨拶、主語人称代名詞、動詞 `être` / `avoir` の基本をマスターする。\n*   **学習項目**:\n    *   挨拶・基本コミュニケーション（Bonjour, Merci等）\n    *   主語人称代名詞（Je, Tu等）\n    *   êtreとavoirの導入（être=状態・存在、avoir=所有・経験の直感的なイメージ）",
+      "part2_basic_exercises": "*   **学習項目**:\n    *   挨拶の適切な選択問題\n    *   主語に対する人称代名詞の穴埋め\n    *   主語に対応するêtre/avoirの基礎的な打ち込み問題",
+      "scene2_kitchen_dialog": [
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "お！Bonjour 新入り君!!! 俺はここのスーシェフ、佐伯だ。よろしくね。",
+          "learningPoint": {
+            "title": "佐伯博 (さえきはく)",
+            "text": "本レストランの Sous-chef。フランスで働いていたこともあり、信頼のおける先輩です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あ、よろしくお願いします！"
+        },
+        {
+          "type": "dialog",
+          "character": "？？？",
+          "text": "誰か―！！そこのトマト『3つ』取って！シェフ、お願いしますッ！！"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "シェフをこき使う料理人がいてたまるか！"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっ、3つですね, はい！"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "おおありがとう。君が新入り君かい？動きがいいね！",
+          "learningPoint": {
+            "title": "Élodie (エロディ)",
+            "text": "本レストランの Chef de partie – entrées et plats（前菜・メイン担当）。活発で明るい先輩。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "それじゃ早速、他のことも頼んじゃおうかなっ！！"
+        }
+      ],
+      "part3_grammar_lesson": "*   **学習項目**:\n    *   肯定文と否定文（ne...pasの構造）\n    *   名詞の性と語順（男性名詞・女性名詞の判別）",
+      "part4_applied_exercises": "*   **学習項目**:\n    *   肯定文と否定文の作成（ne...pasの構造）\n    *   名詞の性と語順（男性名詞・女性名詞の判別）\n    *   厨房にある基本的な単語を使ったêtre/avoirの否定文打ち込み",
+      "scene3_outro_dialog": [
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（よろけて後ろの人にぶつかる）"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……。",
+          "learningPoint": {
+            "title": "Gaël (ガエル)",
+            "text": "本レストランのパティシエ。無口だが仕事は極めて正確。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あっ、すみません！俺、邪魔でしたか？"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "いや……気にしなくていい。そこのボウルを『1つ』、俺に取ってくれるか？"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はいっ（ちょっと怖いかも…？）"
+        }
+      ],
+      "part5_grammar_lesson": "*   **学習項目**:\n    *   冠詞（定冠詞・不定冠詞）\n    *   数字と計量（1〜10の数字）\n    *   【復習】挨拶と主語人称代名詞",
+      "part6_mixed_review": "*   **学習項目**:\n    *   冠詞（定冠詞・不定冠詞）の選択\n    *   数字と計量（1〜10の数字）\n    *   【復習】挨拶と主語人称代名詞の総ざらい",
+      "scene4_outro_dialog": [
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ええ動きやんけ。ま、最初はこんなもんやろ。ほな今日から頑張りや～"
+        }
+      ],
+      "episodeId": "career_ep_0_1"
+    },
+    {
+      "episodeTitle": "第0-2話：最初の注文 (La Première Commande)",
+      "scene1_intro_dialog": [
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "よし、新入り。挨拶と片付けは合格だ。次は初めての注文（commande）が入ったぞ。"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっ、もうですか！？私は何をすれば……"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "注文の内容を聞き取って、どの食材が必要か私に伝えるんだ。落ち着いてやればできる。",
+          "learningPoint": {
+            "title": "une commande",
+            "text": "「注文」「オーダー」を意味する女性名詞です。"
+          }
+        }
+      ],
+      "part1_grammar_lesson": "*   **今日の目標**: 数字（1〜20）と料理の計量単位（グラム、リットルなど）のマスター、および複数形名詞・複数冠詞の使い方を学び、前話で学習した動詞 `être`/`avoir` と否定文の基礎を復習・応用する。\n*   **文法解説（数字 1〜10 と計量単位）**:\n    *   **数字の表現 (1〜10)**:\n        *   1: **un / une** (※男性/女性名詞で変化)\n        *   2: **deux**, 3: **trois**, 4: **quatre**, 5: **cinq**\n        *   6: **six**, 7: **sept**, 8: **huit**, 9: **neuf**, 10: **dix**\n    *   **計量単位**:\n        「数詞 ＋ 単位 ＋ **de** ＋ 名詞」の構成で、分量や分量を示す名詞を表します。\n        *   グラム: **gramme** (例: 500 grammes de beurre = 500gのバター)\n        *   リットル: **litre** (例: un litre de lait = 1Lの牛乳)",
+      "part2_basic_exercises": "*   **ターゲットスキル**: 数字（1〜10）と計量単位の聞き取りと打ち込み\n*   **出題形式**: 打ち込み、4択",
+      "scene2_kitchen_dialog": [
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……。おい。バター（beurre）を200グラム計量してくれ。"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "は, はい！ええと、200グラム（deux cents grammes）ですね。"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "そうだ。正確さが命だぞ。",
+          "learningPoint": {
+            "title": "le beurre",
+            "text": "「バター」を意味する男性名詞です。"
+          }
+        }
+      ],
+      "part3_grammar_lesson": "*   **文法解説（数字 11〜20 と名詞の複数形）**:\n    *   **数字の表現 (11〜20)**:\n        *   11: **onze**, 12: **douze**, 13: **treize**, 14: **quatorze**, 15: **quinze**\n        *   16: **seize**, 17: **dix-sept**, 18: **dix-huit**, 19: **dix-neuf**, 20: **vingt**\n    *   **名詞の複数形と複数冠詞**:\n        名詞が複数個ある場合、名詞の語尾に通常 **-s** を付けます（発音はしません）。冠詞も複数形に変化します。\n        *   複数不定冠詞（いくつかの）: **des** (例: des assiettes = 数枚のお皿)\n        *   複数定冠詞（その〜たち）: **les** (例: les couteaux = それらの包丁 ※couteauの複数形はxがつく例外)",
+      "part4_applied_exercises": "*   **ターゲットスキル**: 数字（11〜20）の記述、複数形名詞を用いた計量・物品指示の作成\n*   **問題数**: 15問\n*   **出題形式**: 打ち込み、穴埋め",
+      "scene3_outro_dialog": [
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "お疲れ様。初めての計量、上手くいったようだね。"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ありがとうございます！なんとかガエルさんの求める正確さに応えられました。"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "素晴らしい。これで君も『La Nouvelle Étoile』の立派な一員（membre）だ。",
+          "learningPoint": {
+            "title": "membre",
+            "text": "「メンバー」「構成員」を意味する男性名詞です。"
+          }
+        }
+      ],
+      "part5_grammar_lesson": "*   **文法解説（être / avoir と否定文の復習・応用）**:\n    *   **être / avoir の活用**: 前話で学んだ主語（je/tu/il/elle）だけでなく、複数主語（nous/vous/ils/elles）の活用も確認します。\n        *   être: nous **sommes**, vous **êtes**, ils/elles **sont**\n        *   avoir: nous **avons**, vous **avez**, ils/elles **ont**\n    *   **否定文における「de」のルール**:\n        `avoir + 不定冠詞` の文を否定形にする際、un/une/des は **de (d')** に変化します。\n        *   肯定文: J'ai un couteau. (私はナイフを1本持っている)\n        *   否定文: Je n'ai pas **de** couteau. (私はナイフを持っていません)",
+      "part6_mixed_review": "*   **ターゲットスキル**: 数字（1〜20）、計量表現、複数形表現、および前話の復習（être/avoirの活用、否定文の de）の総合復習\n*   **問題数**: 15問 (第0章の全単語と数字の総復習)\n*   **出題形式**: 打ち込み、穴埋め、選択",
+      "scene4_outro_dialog": [],
+      "episodeId": "career_ep_0_2"
+    }
+  ]
+}

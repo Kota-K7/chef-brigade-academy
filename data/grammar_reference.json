@@ -1515,5 +1515,1032 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ref_time_expressions",
+    "title_ja": "時間・日付・時刻の表現",
+    "title_fr": "Le Temps, la Date et l'Heure",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. 曜日 (Les jours de la semaine)",
+        "headers": [
+          "曜日",
+          "フランス語",
+          "発音",
+          "ポイント・例文"
+        ],
+        "rows": [
+          [
+            "月曜日",
+            "lundi",
+            "ランディ",
+            "曜日はすべて小文字表記"
+          ],
+          [
+            "火曜日",
+            "mardi",
+            "マルディ",
+            "Le mardi, je travaille. (毎週火曜日に働きます)"
+          ],
+          [
+            "水曜日",
+            "mercredi",
+            "メルクルディ",
+            "「毎週〜曜日」は le + 曜日"
+          ],
+          [
+            "木曜日",
+            "jeudi",
+            "ジュディ",
+            "à jeudi ! (木曜日にね！)"
+          ],
+          [
+            "金曜日",
+            "vendredi",
+            "ヴァンドルディ",
+            "Le vendredi soir (金曜の夜)"
+          ],
+          [
+            "土曜日",
+            "samedi",
+            "サムディ",
+            "Bon samedi ! (よい土曜日を！)"
+          ],
+          [
+            "日曜日",
+            "dimanche",
+            "ディマンシュ",
+            "Le restaurant est fermé le dimanche. (日曜定休)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. 時間帯 (Les moments de la journée)",
+        "headers": [
+          "時間帯",
+          "フランス語",
+          "発音",
+          "例文・表現"
+        ],
+        "rows": [
+          [
+            "朝",
+            "le matin",
+            "ル・マタン",
+            "Ce matin (今朝) / Le matin (毎朝)"
+          ],
+          [
+            "午後",
+            "l'après-midi",
+            "ラプレ・ミディ",
+            "Cet après-midi (今日の午後)"
+          ],
+          [
+            "夕方・夜",
+            "le soir",
+            "ル・ソワール",
+            "À ce soir ! (また今夜！)"
+          ],
+          [
+            "夜中・深夜",
+            "la nuit",
+            "ラ・ニュイ",
+            "Pendant la nuit (夜の間に)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. 相対的な日 (Les jours relatifs)",
+        "headers": [
+          "日本語",
+          "フランス語",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "一昨日",
+            "avant-hier",
+            "アヴァン・ティエール",
+            "Il est arrivé avant-hier."
+          ],
+          [
+            "昨日",
+            "hier",
+            "イエール",
+            "Hier, j'ai préparé la soupe."
+          ],
+          [
+            "今日",
+            "aujourd'hui",
+            "オージュルデュイ",
+            "Aujourd'hui, nous avons du poisson frais."
+          ],
+          [
+            "明日",
+            "demain",
+            "ドゥマン",
+            "À demain ! (また明日！)"
+          ],
+          [
+            "明後日",
+            "après-demain",
+            "アプレ・ドゥマン",
+            "Le chef arrive après-demain."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. 週・月・年と指示・前後関係 (Semaine, Mois, Année)",
+        "headers": [
+          "単位",
+          "基本形",
+          "今〜 (この〜)",
+          "先〜 (前)",
+          "来〜 (次)"
+        ],
+        "rows": [
+          [
+            "週",
+            "la semaine",
+            "cette semaine (今週)",
+            "la semaine dernière (先週)",
+            "la semaine prochaine (来週)"
+          ],
+          [
+            "月",
+            "le mois",
+            "ce mois-ci (今月)",
+            "le mois dernier (先月)",
+            "le mois prochain (来月)"
+          ],
+          [
+            "年",
+            "l'année",
+            "cette année (今年)",
+            "l'année dernière (去年)",
+            "l'année prochaine (来年)"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "5. 月 (Les mois de l'année)",
+        "headers": [
+          "月",
+          "フランス語",
+          "発音",
+          "月",
+          "フランス語",
+          "発音"
+        ],
+        "rows": [
+          [
+            "1月",
+            "janvier",
+            "ジャンヴィエ",
+            "7月",
+            "juillet",
+            "ジュイエ"
+          ],
+          [
+            "2月",
+            "février",
+            "フェヴリエ",
+            "8月",
+            "août",
+            "ウー / ウトゥ"
+          ],
+          [
+            "3月",
+            "mars",
+            "マルス",
+            "9月",
+            "septembre",
+            "セプタンプリュ"
+          ],
+          [
+            "4月",
+            "avril",
+            "アヴリル",
+            "10月",
+            "octobre",
+            "オクトーブル"
+          ],
+          [
+            "5月",
+            "mai",
+            "メ",
+            "11月",
+            "novembre",
+            "ノヴァンプリュ"
+          ],
+          [
+            "6月",
+            "juin",
+            "ジュアン",
+            "12月",
+            "décembre",
+            "デサンプリュ"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "6. 時刻の尋ね方と答え方 (L'heure)",
+        "headers": [
+          "表現",
+          "フランス語",
+          "発音",
+          "意味"
+        ],
+        "rows": [
+          [
+            "質問",
+            "Quelle heure est-il ?",
+            "ケール・ウール・エティル",
+            "何時ですか？"
+          ],
+          [
+            "1時",
+            "Il est une heure.",
+            "イレ・テュヌ・ウール",
+            "1時です"
+          ],
+          [
+            "2時",
+            "Il est deux heures.",
+            "イレ・ドゥ・ズール",
+            "2時です"
+          ],
+          [
+            "15分",
+            "et quart",
+            "エ・カール",
+            "〜時15分 (例: 4h et quart)"
+          ],
+          [
+            "30分",
+            "et demie",
+            "エ・ドゥミ",
+            "〜時半 (例: 3h et demie)"
+          ],
+          [
+            "45分",
+            "moins le quart",
+            "ムワン・ル・カール",
+            "〜時15分前 (例: 4h moins le quart = 3:45)"
+          ],
+          [
+            "5分/10分",
+            "et cinq / et dix",
+            "エ・サンク / エ・ディス",
+            "〜時5分 / 〜時10分"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "7. 時間に関する主要前置詞 (Les prépositions)",
+        "headers": [
+          "前置詞",
+          "用法・意味",
+          "例文",
+          "日本語訳"
+        ],
+        "rows": [
+          [
+            "à",
+            "〜時に",
+            "à huit heures / à midi",
+            "8時に / 正午に"
+          ],
+          [
+            "en",
+            "〜月・〜年に",
+            "en août / en 2026",
+            "8月に / 2026年に"
+          ],
+          [
+            "le",
+            "〜曜日に (習慣)",
+            "le lundi",
+            "毎週月曜日に"
+          ],
+          [
+            "de... à...",
+            "〜から〜まで",
+            "de 8 h à 10 h",
+            "8時から10時まで"
+          ],
+          [
+            "vers",
+            "〜ごろ",
+            "vers midi",
+            "正午ごろ"
+          ],
+          [
+            "depuis",
+            "〜からずっと",
+            "depuis ce matin",
+            "今朝からずっと"
+          ],
+          [
+            "pendant",
+            "〜の間",
+            "pendant deux heures",
+            "2時間の間"
+          ],
+          [
+            "avant / après",
+            "〜の前 / 〜の後",
+            "avant le service / après 14h",
+            "仕込み/サービスの前に / 14時以降に"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "8. 頻度を表す副詞 (Les adverbes de fréquence)",
+        "headers": [
+          "頻度",
+          "フランス語",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "いつも",
+            "toujours",
+            "トゥジュール",
+            "Je vérifie toujours la température."
+          ],
+          [
+            "よく",
+            "souvent",
+            "スヴァン",
+            "Il vient souvent au restaurant."
+          ],
+          [
+            "時々",
+            "parfois / quelquefois",
+            "パルフォワ / ケルケフォワ",
+            "Je prépare parfois ce dessert."
+          ],
+          [
+            "めったに〜ない",
+            "rarement",
+            "ラールマン",
+            "On utilise rarement cette épice."
+          ],
+          [
+            "決して〜ない",
+            "jamais",
+            "ジャメ",
+            "Ne laissez jamais le feu sans surveillance."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "9. よく使う挨拶・時間表現 (Expressons utiles)",
+        "headers": [
+          "表現",
+          "意味",
+          "使うタイミング"
+        ],
+        "rows": [
+          [
+            "À demain !",
+            "また明日！",
+            "退勤時・別れ際"
+          ],
+          [
+            "À lundi !",
+            "また月曜日に！",
+            "週末前の別れ際"
+          ],
+          [
+            "Bon week-end !",
+            "よい週末を！",
+            "金曜・土曜の別れ際"
+          ],
+          [
+            "Bonne journée !",
+            "よい一日を！",
+            "日中の挨拶・見送り"
+          ],
+          [
+            "Bonne soirée !",
+            "よい夕方・夜を！",
+            "夕方の挨拶・見送り"
+          ],
+          [
+            "Bonne nuit !",
+            "おやすみなさい！",
+            "夜遅くの別れ"
+          ],
+          [
+            "À tout à l'heure !",
+            "またあとで！（同日内）",
+            "中抜け・一時外出"
+          ],
+          [
+            "À bientôt !",
+            "また近いうちに！",
+            "一般的な別れの挨拶"
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "title": "A1最優先キーワード20選",
+        "content_ja": "【最優先20語】\n1. aujourd'hui (今日) / 2. demain (明日) / 3. hier (昨日) / 4. après-demain (明後日) / 5. avant-hier (一昨日)\n6. lundi〜dimanche (7曜日)\n7. le matin (朝) / 8. l'après-midi (午後) / 9. le soir (夕方・夜) / 10. la nuit (夜中)\n11. maintenant (今) / 12. bientôt (もうすぐ) / 13. tôt (早く) / 14. tard (遅く)\n15. quelle heure est-il ? (何時ですか？) / 16. il est... (〜時です)\n17. à (〜時に) / 18. en (〜月・年に) / 19. le (〜曜日に) / 20. de... à... (〜から〜まで)\n\nこれらをマスターすれば、厨房のシフト確認、納品時間の打ち合わせ、予約受付、日常の挨拶など時間に関わる会話の90%以上をカバーできます。",
+        "content_fr": "Ces expressions temporelles sont fondamentales pour gérer les plannings, les réservations et la communication quotidienne en cuisine."
+      }
+    ],
+    "title_en": "Time, Date, and Clock Expressions",
+    "definition_fr": "Les expressions de temps permettent de situer des actions dans la journée, la semaine, le mois ou l'année.",
+    "definition_ja": "曜日・月・日付・時刻・時間帯・頻度など、日程調整・厨房のシフト・予約や日常会話で必須となる時間表現の一覧表と解説です。"
+  },
+  {
+    "id": "ref_numbers",
+    "title_ja": "数詞・数字の法則と表現",
+    "title_fr": "Les Nombres et les Chiffres",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. 0〜16 (完全暗記ゾーン)",
+        "headers": [
+          "数字",
+          "フランス語",
+          "発音",
+          "数字",
+          "フランス語",
+          "発音"
+        ],
+        "rows": [
+          [
+            "0",
+            "zéro",
+            "ゼロ",
+            "9",
+            "neuf",
+            "ヌフ"
+          ],
+          [
+            "1",
+            "un / une",
+            "アン / ユヌ",
+            "10",
+            "dix",
+            "ディス"
+          ],
+          [
+            "2",
+            "deux",
+            "ドゥ",
+            "11",
+            "onze",
+            "オンズ"
+          ],
+          [
+            "3",
+            "trois",
+            "トロワ",
+            "12",
+            "douze",
+            "ドゥーズ"
+          ],
+          [
+            "4",
+            "quatre",
+            "キャトル",
+            "13",
+            "treize",
+            "トレーズ"
+          ],
+          [
+            "5",
+            "cinq",
+            "サンク",
+            "14",
+            "quatorze",
+            "キャトルズ"
+          ],
+          [
+            "6",
+            "six",
+            "シス",
+            "15",
+            "quinze",
+            "キャンジ"
+          ],
+          [
+            "7",
+            "sept",
+            "セットゥ",
+            "16",
+            "seize",
+            "セーズ"
+          ],
+          [
+            "8",
+            "huit",
+            "ユイットゥ",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. 17〜19 (10 + 7〜9)",
+        "headers": [
+          "数字",
+          "フランス語",
+          "発音",
+          "構造"
+        ],
+        "rows": [
+          [
+            "17",
+            "dix-sept",
+            "ディセットゥ",
+            "dix (10) + sept (7)"
+          ],
+          [
+            "18",
+            "dix-huit",
+            "ディズユイットゥ",
+            "dix (10) + huit (8) ※リエゾン"
+          ],
+          [
+            "19",
+            "dix-neuf",
+            "ディズヌフ",
+            "dix (10) + neuf (9) ※リエゾン"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. 十の位 (20〜60) と一の位の組み合わせ",
+        "headers": [
+          "十の位",
+          "21/31等 (etが入る)",
+          "22/32等 (ハイフンのみ)",
+          "法則・ポイント"
+        ],
+        "rows": [
+          [
+            "20 : vingt (ヴァン)",
+            "21 : vingt-et-un (ヴァン・テ・アン)",
+            "22 : vingt-deux (ヴァン・ドゥ)",
+            "「1」だけ et が入る"
+          ],
+          [
+            "30 : trente (トラントゥ)",
+            "31 : trente-et-un",
+            "35 : trente-cinq",
+            "22以降はハイフン(-)で接続"
+          ],
+          [
+            "40 : quarante (キャラントゥ)",
+            "41 : quarante-et-un",
+            "48 : quarante-huit",
+            "et は 21,31,41,51,61 のみ"
+          ],
+          [
+            "50 : cinquante (サンカントゥ)",
+            "51 : cinquante-et-un",
+            "56 : cinquante-six",
+            "x 22-et-deux のような組み合わせは不可"
+          ],
+          [
+            "60 : soixante (ソワサントゥ)",
+            "61 : soixante-et-un",
+            "63 : soixante-trois",
+            "60台までは一般的な十進法"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. 特殊な70〜99の構造 (60+10, 4x20, 4x20+10)",
+        "headers": [
+          "範囲",
+          "ベース構造",
+          "例 (数字)",
+          "フランス語",
+          "発音・注意点"
+        ],
+        "rows": [
+          [
+            "70〜79",
+            "60 (soixante) + 10〜19",
+            "70",
+            "soixante-dix",
+            "60 + 10"
+          ],
+          [
+            "70〜79",
+            "71のみ et-onze",
+            "71",
+            "soixante-et-onze",
+            "60 + 11 (etが入る)"
+          ],
+          [
+            "70〜79",
+            "72以降はハイフン",
+            "75 / 79",
+            "soixante-quinze / soixante-dix-neuf",
+            "60+15 / 60+19"
+          ],
+          [
+            "80",
+            "4 x 20 (quatre-vingts)",
+            "80",
+            "quatre-vingts",
+            "※単独の80は -s がつく"
+          ],
+          [
+            "81〜89",
+            "80 + 1〜9",
+            "81",
+            "quatre-vingt-un",
+            "※81は et は入らない！ -s も消える"
+          ],
+          [
+            "81〜89",
+            "-",
+            "88",
+            "quatre-vingt-huit",
+            "80 + 8"
+          ],
+          [
+            "90〜99",
+            "80 (quatre-vingt) + 10〜19",
+            "90",
+            "quatre-vingt-dix",
+            "80 + 10"
+          ],
+          [
+            "90〜99",
+            "-",
+            "91 / 99",
+            "quatre-vingt-onze / quatre-vingt-dix-neuf",
+            "80+11 (etなし) / 80+19"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "5. 百(cent)・千(mille)・百万(million)・十億(milliard)",
+        "headers": [
+          "単位",
+          "フランス語",
+          "複数形(s)のルール",
+          "un(1)の要否",
+          "例とスペル"
+        ],
+        "rows": [
+          [
+            "100",
+            "cent (サン)",
+            "後ろに数字が来ないと -s がつく",
+            "100単独に un は不要",
+            "100 = cent / 200 = deux cents / 201 = deux cent un (-s消える)"
+          ],
+          [
+            "1,000",
+            "mille (ミル)",
+            "常に不変 (絶対に -s はつかない)",
+            "1000単独に un は不要",
+            "1,000 = mille / 2,000 = deux mille / 3,500 = trois mille cinq cents"
+          ],
+          [
+            "1,000,000",
+            "million (ミリオン)",
+            "名詞のため複数形で -s がつく",
+            "100万には un が必要",
+            "1,000,000 = un million / 2,000,000 = deux millions"
+          ],
+          [
+            "1,000,000,000",
+            "milliard (ミリアール)",
+            "名詞のため複数形で -s がつく",
+            "10億には un が必要",
+            "1,000,000,000 = un milliard / 3,000,000,000 = trois milliards"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "6. 複合桁・大きめの数字の読み方実例",
+        "headers": [
+          "数字",
+          "フランス語表記",
+          "分解・読み方"
+        ],
+        "rows": [
+          [
+            "532",
+            "cinq cent trente-deux",
+            "500 (cinq cent) + 32 (trente-deux)"
+          ],
+          [
+            "1,984",
+            "mille neuf cent quatre-vingt-quatre",
+            "1,000 (mille) + 900 (neuf cent) + 84 (quatre-vingt-quatre)"
+          ],
+          [
+            "2,026",
+            "deux mille vingt-six",
+            "2,000 (deux mille) + 26 (vingt-six)"
+          ],
+          [
+            "5,320",
+            "cinq mille trois cent vingt",
+            "5,000 (cinq mille) + 300 (trois cent) + 20 (vingt)"
+          ],
+          [
+            "58,741",
+            "cinquante-huit mille sept cent quarante et un",
+            "58,000 (cinquante-huit mille) + 741 (sept cent quarante et un)"
+          ],
+          [
+            "532,532",
+            "cinq cent trente-deux mille cinq cent trente-deux",
+            "532,000 + 532"
+          ],
+          [
+            "1,200,345",
+            "un million deux cent mille trois cent quarante-cinq",
+            "100万 (un million) + 20万 (deux cent mille) + 345"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "7. 厨房・日常で役立つ序数詞 (〜番目)",
+        "headers": [
+          "順序",
+          "フランス語 (男性)",
+          "フランス語 (女性)",
+          "略記"
+        ],
+        "rows": [
+          [
+            "第1の / 最初の",
+            "premier (プルミエ)",
+            "première (プルミエール)",
+            "1er / 1re"
+          ],
+          [
+            "第2の",
+            "deuxième (ドゥジエーム)",
+            "deuxième",
+            "2e"
+          ],
+          [
+            "第3の",
+            "troisième (トロワジエーム)",
+            "troisième",
+            "3e"
+          ],
+          [
+            "第4の",
+            "quatrième (キャトリエーム)",
+            "quatrième",
+            "4e"
+          ],
+          [
+            "最後の",
+            "dernier (ドルニエ)",
+            "dernière (ドルニエール)",
+            "dernier"
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "title": "暗記のコツと厨房実用ルールまとめ",
+        "content_ja": "【暗記すべきコア単語】\n0〜16 / 20 (vingt) / 30 (trente) / 40 (quarante) / 50 (cinquante) / 60 (soixante) / 100 (cent) / 1000 (mille) / 100万 (million)\n\n【重要なスペル・文法規則】\n1. et の使用: 21, 31, 41, 51, 61, 71 のみ (81, 91 は et なし)。\n2. 80 (quatre-vingts): 端数がない時だけ -s。後ろに数字が続くと s が消える (例: 81 = quatre-vingt-un)。\n3. cent の -s: 200 (deux cents) などキリの良い百には -s がつくが、後ろに数字が続くと消える (例: 201 = deux cent un)。\n4. mille: 常に不変。1000に un は付けない (mille un)。\n5. million / milliard: 文法上は普通名詞。頭に un が必要で、複数形で -s がつく (deux millions deステータス)。",
+        "content_fr": "Retenez les nombres de 0 à 16 et les dizaines. Comprenez les règles d'accord pour cent, vingt et mille."
+      },
+      {
+        "type": "examples",
+        "title": "厨房での実用例文 (分量・人件費・人数)",
+        "examples": [
+          {
+            "fr": "Il faut 250 (deux cent cinquante) grammes de beurre.",
+            "ja": "バターが250グラム必要です。"
+          },
+          {
+            "fr": "Nous avons 80 (quatre-vingts) couverts ce soir.",
+            "ja": "今夜は80名様のご来店（カバー数）があります。"
+          },
+          {
+            "fr": "Cette recette coûte 15 (quinze) euros par portion.",
+            "ja": "このレシピは1ポーションあたり15ユーロかかります。"
+          },
+          {
+            "fr": "C'est la première fois que je prépare ce plat.",
+            "ja": "この料理を作るのは私が初めて（第1回目）です。"
+          }
+        ]
+      }
+    ],
+    "title_en": "Numbers and Numerals",
+    "definition_fr": "Les nombres cardinaux et ordinaux permettent de quantifier les ingrédients, compter les couverts et gérer les ordres de service.",
+    "definition_ja": "フランス語の数詞（0から100万、10億まで）の規則・スペルルール・読み方、および厨房や日常会話で必須となる単位や序数詞の全体系まとめです。"
+  },
+  {
+    "id": "ref_prepositions",
+    "title_fr": "Les Prépositions de Lieu et de Position",
+    "title_en": "Prepositions of Place and Position",
+    "title_ja": "前置詞（位置・場所・関係）",
+    "definition_fr": "Les prépositions relient des mots pour indiquer le lieu, le moment, la manière ou le but.",
+    "definition_ja": "前置詞は、名詞や代名詞の前に置かれ、位置、時間、方法、目的などの関係を示します。特に厨房内での指示や配置には欠かせない重要な要素です。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. 基本的な前置詞と用法 (Prépositions de base)",
+        "headers": [
+          "前置詞",
+          "主な意味・用法",
+          "例文",
+          "和訳"
+        ],
+        "rows": [
+          [
+            "sur",
+            "〜の上に (接触あり)",
+            "Le plat est sur la table.",
+            "皿はテーブルの上にあります。"
+          ],
+          [
+            "sous",
+            "〜の下に",
+            "Le bac est sous le plan de travail.",
+            "容器は作業台の下にあります。"
+          ],
+          [
+            "dans",
+            "〜の中に (空間内)",
+            "L'eau est dans la casserole.",
+            "水は鍋の中に入っています。"
+          ],
+          [
+            "avec / sans",
+            "〜と一緒に / 〜なしで",
+            "Servez avec de la sauce / sans sel.",
+            "ソースを添えて / 塩なしで提供してください。"
+          ],
+          [
+            "pour",
+            "〜のために、〜用",
+            "Ce couteau est pour le poisson.",
+            "このナイフは魚用です。"
+          ],
+          [
+            "devant / derrière",
+            "〜の前に / 〜の後ろに",
+            "Placez l'assiette devant le client.",
+            "皿を顧客の前に置いてください。"
+          ],
+          [
+            "chez",
+            "〜の店で、〜の家で",
+            "J'achète le pain chez le boulanger.",
+            "私はパン屋でパンを買います。"
+          ]
+        ]
+      },
+      {
+        "type": "illustrations_grid",
+        "title": "2. 前置詞イラスト一覧 (Galerie des illustrations)",
+        "items": [
+          {
+            "word": "sur",
+            "desc": "〜の上に (接触あり)"
+          },
+          {
+            "word": "sous",
+            "desc": "〜の下に"
+          },
+          {
+            "word": "dans",
+            "desc": "〜の中に"
+          },
+          {
+            "word": "avec",
+            "desc": "〜と一緒に、〜を用いて"
+          },
+          {
+            "word": "sans",
+            "desc": "〜なしで"
+          },
+          {
+            "word": "pour",
+            "desc": "〜のために、〜用"
+          },
+          {
+            "word": "par",
+            "desc": "〜によって、〜を通って"
+          },
+          {
+            "word": "en",
+            "desc": "〜の状態で、〜の中に"
+          },
+          {
+            "word": "à",
+            "desc": "〜に、〜で (場所・温度)"
+          },
+          {
+            "word": "de",
+            "desc": "〜から、〜の (起点・所有)"
+          },
+          {
+            "word": "devant",
+            "desc": "〜の前に"
+          },
+          {
+            "word": "derrière",
+            "desc": "〜の後ろに"
+          },
+          {
+            "word": "chez",
+            "desc": "〜のところ（店・家）で"
+          },
+          {
+            "word": "entre",
+            "desc": "〜の間に"
+          },
+          {
+            "word": "vers",
+            "desc": "〜のほうへ、〜ごろ"
+          },
+          {
+            "word": "contre",
+            "desc": "〜に対して、〜に押しあてて"
+          },
+          {
+            "word": "depuis",
+            "desc": "〜からずっと（起点と継続）"
+          },
+          {
+            "word": "pendant",
+            "desc": "〜の間（特定の期間）"
+          },
+          {
+            "word": "selon",
+            "desc": "〜に従って、〜によって"
+          },
+          {
+            "word": "à côté de",
+            "desc": "〜のとなりに"
+          },
+          {
+            "word": "en face de",
+            "desc": "〜の向かいに"
+          },
+          {
+            "word": "au-dessus de",
+            "desc": "〜の上方に（接触なし）"
+          },
+          {
+            "word": "au-dessous de",
+            "desc": "〜の下方に（接触なし）"
+          },
+          {
+            "word": "autour de",
+            "desc": "〜のまわりに"
+          },
+          {
+            "word": "au milieu de",
+            "desc": "〜の真ん中に"
+          },
+          {
+            "word": "près de",
+            "desc": "〜の近くに"
+          },
+          {
+            "word": "loin de",
+            "desc": "〜から遠くに"
+          },
+          {
+            "word": "jusqu'à",
+            "desc": "〜にいたるまで、〜まで"
+          }
+        ]
+      }
+    ]
   }
 ]

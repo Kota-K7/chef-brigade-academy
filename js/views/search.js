@@ -169,8 +169,7 @@ export function renderSearch() {
         // Render Tags
         const tagsHTML = (match.tags || []).map(t => `<span class="tag-badge" style="background-color: rgba(197, 168, 128, 0.12); color: var(--color-accent); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 20px; font-weight: 500;">#${t}</span>`).join(' ');
         
-        const isPreposition = match.type === 'vocabulary' && (match.category === 'Préposition' || match.id.includes('prep_'));
-        const illustrationSvg = isPreposition ? getPrepositionIllustration(match.french) : '';
+        const illustrationSvg = match.type === 'vocabulary' ? getPrepositionIllustration(match.french) : '';
         const illustrationHtml = illustrationSvg 
           ? `<div class="preposition-illustration-container" style="height: 130px; background-color: #fcfbfa; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; margin: 0.8rem 0; overflow: hidden; border: 1px solid rgba(0,0,0,0.03);">${illustrationSvg}</div>`
           : '';

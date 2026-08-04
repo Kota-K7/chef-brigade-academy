@@ -6725,5 +6725,27 @@
         "ja": "(試食会) 彼女が作ってくれたばかりのデセールを試食してみましょう。"
       }
     ]
+  },
+  {
+    "id": "vocab_num_milliard",
+    "category": "Vocabulary",
+    "level": "B1",
+    "tags": [
+      "Nom",
+      "Nombre",
+      "Quantité"
+    ],
+    "french": "milliard",
+    "japanese": "10億（じゅうおく）",
+    "definition_fr": "Un milliard (1 000 000 000).",
+    "gender": "m",
+    "examples": [
+      {
+        "fr": "Un milliard de personnes.",
+        "ja": "10億人の人々。",
+        "en": "One billion people."
+      }
+    ],
+    "english": "Billion"
   }
 ]
