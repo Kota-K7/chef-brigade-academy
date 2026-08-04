@@ -128,11 +128,18 @@ function showTopicDetails(panel, topic) {
       const table = document.createElement('table');
       table.className = 'ref-table';
       
-      // Headers
+      // Determine which columns are "発音"
+      const pronunciationColIndices = [];
       const trHead = document.createElement('tr');
-      sec.headers.forEach(h => {
+      sec.headers.forEach((h, idx) => {
         const th = document.createElement('th');
-        th.innerText = h;
+        if (h === '発音') {
+          pronunciationColIndices.push(idx);
+          th.innerText = '音声';
+          th.style.textAlign = 'center';
+        } else {
+          th.innerText = h;
+        }
         trHead.appendChild(th);
       });
       table.appendChild(trHead);
@@ -142,16 +149,25 @@ function showTopicDetails(panel, topic) {
         const trRow = document.createElement('tr');
         r.forEach((cell, idx) => {
           const td = document.createElement('td');
-          td.innerText = cell;
           
-          // Add sound to conjugations or verbs in tables!
-          if (idx === 1 && (sec.title.includes('Conjugaison') || sec.title.includes('Présent') || sec.title.includes('Exemple'))) {
-            // Include audio button inline for nice UX
-            td.style.position = 'relative';
-            td.innerHTML = `
-              <span style="margin-right: 1.5rem;">${cell}</span>
-              <button class="ref-table-audio-btn" data-speak="${cell.split('(')[0].trim()}" title="Listen pronunciation">🔊</button>
-            `;
+          if (pronunciationColIndices.includes(idx)) {
+            // Pronunciation column! Replace Katakana with interactive audio button.
+            // The French word is in the column to the left (idx - 1)
+            const frenchText = r[idx - 1] ? r[idx - 1].split('(')[0].trim() : '';
+            td.innerHTML = `<button class="ref-table-audio-btn" data-speak="${frenchText}" title="Listen pronunciation">🔊</button>`;
+            td.style.textAlign = 'center';
+          } else {
+            td.innerText = cell;
+            
+            // Add sound to conjugations or verbs in tables!
+            if (idx === 1 && (sec.title.includes('Conjugaison') || sec.title.includes('Présent') || sec.title.includes('Exemple'))) {
+              // Include audio button inline for nice UX
+              td.style.position = 'relative';
+              td.innerHTML = `
+                <span style="margin-right: 1.5rem;">${cell}</span>
+                <button class="ref-table-audio-btn" data-speak="${cell.split('(')[0].trim()}" title="Listen pronunciation">🔊</button>
+              `;
+            }
           }
           
           trRow.appendChild(td);

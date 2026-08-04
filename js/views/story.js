@@ -7,7 +7,13 @@ import { state, ensureQuizzesLoaded, ensureDataLoaded, navigateTo } from '../../
 // キャラクターごとの表示サイズ倍率 (1.0 = 標準)
 // 女将さんのサイズ比率を少し拡大するために、ここで倍率を設定できます。
 const CHARACTER_SCALES = {
-  proprietress: 1.5 // 女将さん (他のキャラより縦横比が縦長なため1.5倍に拡大)
+  proprietress: 1.5,
+  kanetake: 1.45,
+  saeki: 1.45,
+  elodie: 1.45,
+  gael: 1.45,
+  jean_pierre: 1.45,
+  "ピエール": 1.45
 };
 
 // Web Audio API lightweight synthesizer for zero-dependency retro SFX
@@ -76,41 +82,73 @@ export function renderStory() {
 async function renderChapterSelector(container) {
   container.innerHTML = `
     <div class="view-header">
-      <h2>🏰 Histoire (フランス歴史体験RPG)</h2>
-      <p class="subtitle">フランスの歴史を追体験しながら、フランス語・文化を学ぶストーリー学習モードです。</p>
+      <h2>🏰 Mode Histoire (ストーリー学習)</h2>
+      <p class="subtitle">厨房でのキャリアストーリー、または歴史体験RPGを選択して学びます。</p>
     </div>
     
-    <div class="chapter-list">
-      <div class="story-chapter-card active-chapter">
-        <div class="chapter-card-header">
-          <span class="chapter-badge">Chapter 0</span>
-          <h3>第0章: ガリア以前 - 始まりの地</h3>
+    <div class="chapter-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+      <!-- Career Mode Card (First, for Beginner!) -->
+      <div class="story-chapter-card active-chapter" style="display: flex; flex-direction: column; justify-content: space-between; border-left: 5px solid var(--color-accent);">
+        <div>
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: var(--color-accent); color: white;">Beginner</span>
+            <h3>第0章: 金竹満「はじまりへの招待」</h3>
+          </div>
+          <p class="chapter-desc">フランス料理店でのアルバイトから始まり、一人前の料理人へと成長していく修行ストーリーです。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第1話: フランス料理店へようこそ</h4>
+                <span class="play-time">⏱️ 5分 • A1基本挨拶 & 存在動詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_0" data-episode="career_ep_0_1">For beginner</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2話: 最初の注文</h4>
+                <span class="play-time">⏱️ 5分 • 数字(1-20) & 複数名詞・冠詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_0" data-episode="career_ep_0_2">For beginner</button>
+            </div>
+          </div>
         </div>
-        <p class="chapter-desc">ガリア遠征以前の古代フランスを舞台に、生活の基礎挨拶やマルセイユ周辺の食文化を体験します。</p>
-        
-        <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem;">
-          <div class="episode-row">
-            <div class="episode-info">
-              <h4>第1話: 目覚めと試練</h4>
-              <span class="play-time">⏱️ 推奨プレイ時間: 5分</span>
-            </div>
-            <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_1">開始する</button>
+      </div>
+
+      <!-- History RPG Card -->
+      <div class="story-chapter-card active-chapter" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="chapter-card-header">
+            <span class="chapter-badge">Chapter 0</span>
+            <h3>第0章: ガリア以前 - 始まりの地</h3>
           </div>
+          <p class="chapter-desc">ガリア遠征以前の古代フランスを舞台に、生活の基礎挨拶やマルセイユ周辺の食文化を体験します。</p>
           
-          <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
-            <div class="episode-info">
-              <h4>第2話: 憧れの市場</h4>
-              <span class="play-time">⏱️ 推奨プレイ時間: 5分</span>
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第1話: 目覚めと試練</h4>
+                <span class="play-time">⏱️ 5分 • プロヴァンスの文化</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_1">開始する</button>
             </div>
-            <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_2">開始する</button>
-          </div>
-          
-          <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
-            <div class="episode-info">
-              <h4>第3話: 銀のペンダント</h4>
-              <span class="play-time">⏱️ 推奨プレイ時間: 5分</span>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2話: 憧れの市場</h4>
+                <span class="play-time">⏱️ 5分 • マルシェの語彙</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_2">開始する</button>
             </div>
-            <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_3">開始する</button>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3話: 銀のペンダント</h4>
+                <span class="play-time">⏱️ 5分 • 日常会話フレーズ</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="0" data-episode="ep_0_3">開始する</button>
+            </div>
           </div>
         </div>
       </div>
@@ -132,7 +170,8 @@ async function startEpisode(container, chapterNum, episodeId) {
   try {
     container.innerHTML = `<div class="story-loader"><div class="spinner"></div><p>物語を読み込んでいます...</p></div>`;
     
-    const response = await fetch(`data/story/chapter_${chapterNum}.json`);
+    const filename = chapterNum === 'career_0' ? 'chapter_career_0.json' : `chapter_${chapterNum}.json`;
+    const response = await fetch(`data/story/${filename}`);
     if (!response.ok) throw new Error("Story file could not be loaded");
     
     const chapterData = await response.json();
@@ -142,7 +181,7 @@ async function startEpisode(container, chapterNum, episodeId) {
       throw new Error("Episode data not found in chapter file");
     }
     
-    runSequenceEngine(container, episode);
+    runSequenceEngine(container, episode, chapterNum, chapterData);
   } catch (err) {
     container.innerHTML = `
       <div class="alert alert-info" style="border-left-color: var(--color-error); background-color: #FFEBEE; color: var(--color-error)">
@@ -155,7 +194,7 @@ async function startEpisode(container, chapterNum, episodeId) {
 }
 
 // Core Story Engine Sequence controller
-function runSequenceEngine(container, episode) {
+function runSequenceEngine(container, episode, chapterNum, chapterData) {
   let currentIndex = 0;
   const sequence = episode.sequence;
   
@@ -524,10 +563,149 @@ function runSequenceEngine(container, episode) {
       return arr;
     }
 
+    let refDataCached = null;
+
+    async function loadBattleReference() {
+      if (refDataCached) return refDataCached;
+      try {
+        const res = await fetch('data/grammar_reference.json');
+        refDataCached = await res.json();
+        return refDataCached;
+      } catch (err) {
+        console.error("Failed to load battle reference:", err);
+        return [];
+      }
+    }
+
+    async function toggleBattleReference(btn) {
+      if (sidebar.style.opacity === '1') {
+        sidebar.style.opacity = '0';
+        sidebar.style.pointerEvents = 'none';
+        btn.innerText = '📖 参考資料を表示';
+      } else {
+        sidebar.style.opacity = '1';
+        sidebar.style.pointerEvents = 'auto';
+        btn.innerText = '📖 参考資料を隠す';
+        
+        sidebar.innerHTML = `
+          <h3>📖 参考資料 (Dictionnaire)</h3>
+          <div style="text-align: center; margin: 2rem 0;">
+            <div class="spinner" style="margin: 0 auto 0.5rem;"></div>
+            <p style="font-size: 0.8rem; color: var(--color-text-muted);">読み込み中...</p>
+          </div>
+        `;
+        
+        const refs = await loadBattleReference();
+        
+        sidebar.innerHTML = `
+          <h3 style="margin-bottom: 0.8rem;">📖 参考資料 (Dictionnaire)</h3>
+          
+          <select class="battle-ref-topic-select" style="width: 100%; padding: 0.5rem; border-radius: var(--radius-sm); border: 1px solid rgba(197,168,128,0.3); background: #ffffff; color: #1e293b; font-size: 0.85rem; margin-bottom: 1rem;">
+            ${refs.map((ref, idx) => `
+              <option value="${idx}">${ref.title_ja} (${ref.title_fr})</option>
+            `).join('')}
+          </select>
+          
+          <div class="battle-ref-content" style="max-height: 420px; overflow-y: auto; font-size: 0.8rem;"></div>
+        `;
+        
+        const select = sidebar.querySelector('.battle-ref-topic-select');
+        const contentDiv = sidebar.querySelector('.battle-ref-content');
+        
+        function displayRefTopic(idx) {
+          const topic = refs[idx];
+          if (!topic) return;
+          
+          let html = `<h4 style="color: var(--color-accent); border-bottom: 1px solid rgba(197,168,128,0.2); padding-bottom: 0.3rem; margin-bottom: 0.6rem;">${topic.title_ja} (${topic.title_fr})</h4>`;
+          
+          topic.sections.forEach(sec => {
+            html += `<div style="margin-bottom: 1rem;">`;
+            if (sec.title) {
+              html += `<div style="font-weight: bold; font-size: 0.85rem; color: var(--color-primary); margin-bottom: 0.3rem;">${sec.title}</div>`;
+            }
+            if (sec.text) {
+              html += `<p style="white-space: pre-line; margin-bottom: 0.5rem; line-height: 1.4;">${sec.text}</p>`;
+            }
+            if (sec.headers && sec.rows) {
+              // Extract pronunciation columns
+              const pronIndices = [];
+              const updatedHeaders = sec.headers.map((h, hidx) => {
+                if (h === '発音') {
+                  pronIndices.push(hidx);
+                  return '音声';
+                }
+                return h;
+              });
+
+              html += `
+                <table style="width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 0.75rem;">
+                  <thead>
+                    <tr style="border-bottom: 2px solid rgba(197,168,128,0.3);">
+                      ${updatedHeaders.map(h => `<th style="padding: 0.3rem; text-align: left; background: rgba(197,168,128,0.05);">${h}</th>`).join('')}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${sec.rows.map(row => `
+                      <tr style="border-bottom: 1px solid rgba(0,0,0,0.05);">
+                        ${row.map((cell, cidx) => {
+                          if (pronIndices.includes(cidx)) {
+                            const frenchText = row[cidx - 1] ? row[cidx - 1].split('(')[0].trim() : '';
+                            return `<td style="padding: 0.3rem; text-align: center;"><button class="ref-table-audio-btn" data-speak="${frenchText}" style="background: none; border: none; cursor: pointer; padding: 0; font-size: 0.85rem;">🔊</button></td>`;
+                          }
+                          return `<td style="padding: 0.3rem;">${cell}</td>`;
+                        }).join('')}
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              `;
+            }
+            html += `</div>`;
+          });
+          
+          contentDiv.innerHTML = html;
+          
+          contentDiv.querySelectorAll('.ref-table-audio-btn').forEach(audioBtn => {
+            audioBtn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const text = audioBtn.getAttribute('data-speak');
+              if (text && typeof speakFrench === 'function') {
+                speakFrench(text);
+              } else if (text) {
+                const u = new SpeechSynthesisUtterance(text);
+                u.lang = 'fr-FR';
+                window.speechSynthesis.speak(u);
+              }
+            });
+          });
+        }
+        
+        let initialTopicIdx = 0;
+        if (episode.episodeId === 'career_ep_0_1') {
+          const idx = refs.findIndex(r => r.id === 'ref_essential_irregular_verbs');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_0_2') {
+          const idx = refs.findIndex(r => r.id === 'ref_time_expressions');
+          if (idx !== -1) initialTopicIdx = idx;
+        }
+        
+        select.value = initialTopicIdx;
+        displayRefTopic(initialTopicIdx);
+        
+        select.addEventListener('change', (e) => {
+          displayRefTopic(parseInt(e.target.value));
+        });
+      }
+    }
+
     function renderBattleScreen() {
       if (enemyHp <= 0) {
         // Player wins
         playCorrectSound();
+        // Hide sidebar
+        sidebar.style.opacity = '0';
+        sidebar.style.pointerEvents = 'none';
+        
         battlePane.innerHTML = `
           <div class="battle-victory">
             <h2 class="victory-title">👑 VICTOIRE ! (勝利)</h2>
@@ -545,6 +723,10 @@ function runSequenceEngine(container, episode) {
       if (playerHp <= 0) {
         // Player loses (Game Over)
         playWrongSound();
+        // Hide sidebar
+        sidebar.style.opacity = '0';
+        sidebar.style.pointerEvents = 'none';
+        
         battlePane.innerHTML = `
           <div class="battle-defeat">
             <h2>💀 GAME OVER</h2>
@@ -570,9 +752,8 @@ function runSequenceEngine(container, episode) {
       }
 
       if (questionIndex >= questions.length) {
-        // Run out of questions but HP remains
         if (enemyHp > 0) {
-          enemyHp = 0; // Trigger win
+          enemyHp = 0;
           renderBattleScreen();
         }
         return;
@@ -580,9 +761,8 @@ function runSequenceEngine(container, episode) {
 
       const currentQ = questions[questionIndex];
 
-      battlePane.innerHTML = `
+      const hudHtml = `
         <div class="battle-hud">
-          <!-- Player HP -->
           <div class="hud-bar-container">
             <span class="hud-label">VOUS (あなた)</span>
             <div class="hud-hp-track">
@@ -591,7 +771,6 @@ function runSequenceEngine(container, episode) {
             <span class="hud-value">${playerHp} / ${maxPlayerHp}</span>
           </div>
           
-          <!-- Enemy HP -->
           <div class="hud-bar-container">
             <span class="hud-label">${step.enemyName}</span>
             <div class="hud-hp-track">
@@ -600,38 +779,91 @@ function runSequenceEngine(container, episode) {
             <span class="hud-value">${enemyHp} / ${maxEnemyHp}</span>
           </div>
         </div>
-
-        <div class="battle-question-box">
-          <div class="q-header">Question ${questionIndex + 1}</div>
-          <div class="q-body" style="white-space: pre-line;">${currentQ.text}</div>
-          
-          <div class="battle-options-list">
-            ${currentQ.options.map((opt, idx) => `
-              <button class="battle-opt-btn" data-idx="${idx}">${opt}</button>
-            `).join('')}
-          </div>
-          
-          <!-- Feedback Drawer -->
-          <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
-            <div class="feedback-title" id="fb-title"></div>
-            <p class="feedback-desc" id="fb-desc"></p>
-            <button class="action-btn next-q-btn" id="next-q-btn" style="width: 100%; margin-top: 0.8rem;">次の試練へ</button>
-          </div>
-        </div>
       `;
 
-      // Bind option clicks
-      const optBtns = battlePane.querySelectorAll('.battle-opt-btn');
-      optBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          const selectedIdx = parseInt(e.target.getAttribute('data-idx'));
-          handleAnswer(selectedIdx, currentQ, optBtns);
+      if (currentQ.type === 'typing') {
+        // Render Typing input field
+        battlePane.innerHTML = `
+          ${hudHtml}
+          <div class="battle-question-box">
+            <div class="q-header">Question ${questionIndex + 1} (スペル入力)</div>
+            <div class="q-body" style="white-space: pre-line; line-height: 1.4; font-size: 0.95rem;">${currentQ.text}</div>
+            
+            <div class="battle-typing-area" style="margin: 1rem 0; display: flex; flex-direction: column; gap: 0.6rem;">
+              <input type="text" class="battle-input-field" placeholder="フランス語の答えを入力してください..." style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 2px solid rgba(197,168,128,0.4); background: rgba(255,255,255,0.06); color: white; font-size: 1rem; text-align: center; outline: none; transition: border-color 0.2s;" />
+              <button class="action-btn submit-typing-btn" style="width: 100%; padding: 0.75rem; font-weight: bold; background: var(--color-accent); color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">回答を送信</button>
+              <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">📖 参考資料を表示</button>
+            </div>
+            
+            <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
+              <div class="feedback-title" id="fb-title"></div>
+              <p class="feedback-desc" id="fb-desc"></p>
+              <button class="action-btn next-q-btn" id="next-q-btn" style="width: 100%; margin-top: 0.8rem;">次の試練へ</button>
+            </div>
+          </div>
+        `;
+
+        const inputField = battlePane.querySelector('.battle-input-field');
+        const submitBtn = battlePane.querySelector('.submit-typing-btn');
+        const toggleRefBtn = battlePane.querySelector('.toggle-battle-ref-btn');
+
+        setTimeout(() => inputField.focus(), 150);
+
+        inputField.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' && !submitBtn.disabled) {
+            submitBtn.click();
+          }
         });
-      });
+
+        submitBtn.addEventListener('click', () => {
+          const userVal = inputField.value;
+          handleTypingAnswer(userVal, currentQ, inputField, submitBtn);
+        });
+
+        toggleRefBtn.addEventListener('click', () => {
+          toggleBattleReference(toggleRefBtn);
+        });
+      } else {
+        // Render Multiple Choice question
+        battlePane.innerHTML = `
+          ${hudHtml}
+          <div class="battle-question-box">
+            <div class="q-header">Question ${questionIndex + 1}</div>
+            <div class="q-body" style="white-space: pre-line;">${currentQ.text}</div>
+            
+            <div class="battle-options-list">
+              ${currentQ.options.map((opt, idx) => `
+                <button class="battle-opt-btn" data-idx="${idx}">${opt}</button>
+              `).join('')}
+            </div>
+
+            <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">📖 参考資料を表示</button>
+            
+            <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
+              <div class="feedback-title" id="fb-title"></div>
+              <p class="feedback-desc" id="fb-desc"></p>
+              <button class="action-btn next-q-btn" id="next-q-btn" style="width: 100%; margin-top: 0.8rem;">次の試練へ</button>
+            </div>
+          </div>
+        `;
+
+        const optBtns = battlePane.querySelectorAll('.battle-opt-btn');
+        const toggleRefBtn = battlePane.querySelector('.toggle-battle-ref-btn');
+
+        optBtns.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const selectedIdx = parseInt(e.target.getAttribute('data-idx'));
+            handleAnswer(selectedIdx, currentQ, optBtns);
+          });
+        });
+
+        toggleRefBtn.addEventListener('click', () => {
+          toggleBattleReference(toggleRefBtn);
+        });
+      }
     }
 
     function handleAnswer(selectedIdx, question, optBtns) {
-      // Disable buttons
       optBtns.forEach(btn => btn.disabled = true);
       
       const feedbackDiv = battlePane.querySelector('#battle-feedback');
@@ -648,7 +880,6 @@ function runSequenceEngine(container, episode) {
         fbTitle.className = "feedback-title text-success";
         nextBtn.innerText = "次の試練へ";
         
-        // Flash enemy HP track red as a visual hit effect
         const enemyFill = battlePane.querySelector('.enemy-hp');
         if (enemyFill) {
           enemyFill.classList.add('flash-white');
@@ -666,12 +897,62 @@ function runSequenceEngine(container, episode) {
         fbTitle.className = "feedback-title text-error";
         nextBtn.innerText = "もう一度挑戦する";
         
-        // Add screen shake effect to the viewport
         viewport.classList.add('shake-vfx');
         setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
 
         nextBtn.onclick = () => {
-          renderBattleScreen(); // Redraw same screen to retry
+          renderBattleScreen();
+        };
+      }
+      
+      fbDesc.innerText = question.explanation;
+      feedbackDiv.style.display = 'block';
+    }
+
+    function handleTypingAnswer(userVal, question, inputField, submitBtn) {
+      inputField.disabled = true;
+      submitBtn.disabled = true;
+      
+      const feedbackDiv = battlePane.querySelector('#battle-feedback');
+      const fbTitle = battlePane.querySelector('#fb-title');
+      const fbDesc = battlePane.querySelector('#fb-desc');
+      const nextBtn = battlePane.querySelector('#next-q-btn');
+      
+      // Normalize comparison (lowercase, remove excess punctuation)
+      const cleanUserVal = userVal.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
+      const isCorrect = question.acceptedAnswers.some(ans => {
+        return cleanUserVal === ans.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
+      });
+      
+      if (isCorrect) {
+        playCorrectSound();
+        enemyHp = Math.max(0, enemyHp - 1);
+        fbTitle.innerText = "✅ 正解！ (Très bien)";
+        fbTitle.className = "feedback-title text-success";
+        nextBtn.innerText = "次の試練へ";
+        
+        const enemyFill = battlePane.querySelector('.enemy-hp');
+        if (enemyFill) {
+          enemyFill.classList.add('flash-white');
+        }
+
+        nextBtn.onclick = () => {
+          questionIndex++;
+          renderBattleScreen();
+        };
+      } else {
+        playWrongSound();
+        playHitSound();
+        playerHp = Math.max(0, playerHp - 2); // typing mistake causes 2 damage
+        fbTitle.innerText = `❌ 不正解！ (正解: ${question.acceptedAnswers[0]})`;
+        fbTitle.className = "feedback-title text-error";
+        nextBtn.innerText = "もう一度挑戦する";
+        
+        viewport.classList.add('shake-vfx');
+        setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
+
+        nextBtn.onclick = () => {
+          renderBattleScreen();
         };
       }
       
@@ -697,26 +978,167 @@ function runSequenceEngine(container, episode) {
     // Store clear flag
     localStorage.setItem(`cba_story_${episode.episodeId}_cleared`, 'true');
 
+    // 1. Determine Reward Image URL
+    const isCareer = episode.episodeId.startsWith('career_');
+    const rewardImgUrl = isCareer 
+      ? 'assets/story/career_story/group_photo.webp'
+      : 'assets/story/chapter_0/bg_after_battle.webp';
+
+    // 2. Render Stage 1: Reward Image Presentation
     rewardPane.innerHTML = `
-      <div class="reward-card">
-        <h2 style="font-family: var(--font-serif); color: var(--color-accent); font-size: 1.5rem; text-align: center;">🎉 Episode 1 Terminé !</h2>
-        <p style="text-align: center; margin: 0.6rem 0; font-size: 0.95rem; color: var(--color-text-main);">エピソード「${episode.episodeTitle}」をクリアしました！</p>
+      <div class="reward-card animate-fade-in">
+        <h2 style="font-family: var(--font-serif); color: var(--color-accent); font-size: 1.4rem; text-align: center; margin-bottom: 0.5rem;">🎉 Épisode Terminé !</h2>
+        <p style="text-align: center; margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-main);">エピソード「${episode.episodeTitle}」をクリアしました！</p>
         
-        <div style="background: rgba(197, 168, 128, 0.1); border: 1px solid rgba(197, 168, 128, 0.3); border-radius: var(--radius-sm); padding: 1rem; margin: 1.2rem 0; display: flex; align-items: center; justify-content: center; gap: 1rem;">
-          <span style="font-size: 2rem;">🏆</span>
+        <div class="reward-photo-frame" style="width: 100%; border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--color-accent); margin-bottom: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+          <img src="${rewardImgUrl}" alt="Reward Image" style="width: 100%; height: auto; display: block;" />
+        </div>
+        
+        <div style="background: rgba(197, 168, 128, 0.08); border: 1px solid rgba(197, 168, 128, 0.25); border-radius: var(--radius-sm); padding: 0.8rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
+          <span style="font-size: 1.8rem;">🏆</span>
           <div style="text-align: left;">
-            <div style="font-weight: 700; color: var(--color-primary); font-size: 1rem;">+${step.xp} XP</div>
-            <div style="font-size: 0.75rem; color: var(--color-text-muted);">アカデミー経験値獲得</div>
+            <div style="font-weight: 700; color: var(--color-primary); font-size: 0.95rem;">+${step.xp} XP</div>
+            <div style="font-size: 0.7rem; color: var(--color-text-muted);">アカデミー経験値獲得</div>
           </div>
         </div>
         
-        <button class="action-btn claim-reward-btn" style="width: 100%; padding: 0.8rem; font-weight: 700;">拠点に戻る</button>
+        <button class="action-btn claim-reward-btn" style="width: 100%; padding: 0.8rem; font-weight: 700;">報酬を受け取る</button>
       </div>
     `;
 
     rewardPane.querySelector('.claim-reward-btn').addEventListener('click', () => {
-      currentIndex++;
-      nextStep();
+      // Trigger Stage 2: Stamp Animation
+      triggerStampSequence();
     });
+
+    function triggerStampSequence() {
+      // Clear reward card
+      rewardPane.innerHTML = `
+        <div class="completion-stamp-wrapper">
+          <div class="mission-complete-banner animate-slide-in">MISSION COMPLETE</div>
+          <div class="stamp-ink-overlay" style="display: none;">
+            <svg viewBox="0 0 120 120" style="width: 160px; height: 160px;">
+              <circle cx="60" cy="60" r="50" fill="none" stroke="#e63946" stroke-width="4.5" stroke-dasharray="140" opacity="0.85" />
+              <circle cx="60" cy="60" r="45" fill="none" stroke="#e63946" stroke-width="2.5" opacity="0.85" />
+              <!-- App logo stamp design (chef hat + stars) -->
+              <path d="M 45 46 C 45 35, 55 30, 60 35 C 65 30, 75 35, 75 46 Z" fill="none" stroke="#e63946" stroke-width="3" stroke-linecap="round" />
+              <rect x="41" y="48" width="38" height="6" fill="none" stroke="#e63946" stroke-width="2.5" rx="1.5" />
+              <text x="60" y="70" text-anchor="middle" font-size="8.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946" letter-spacing="0.5">CHEF BRIGADE</text>
+              <text x="60" y="81" text-anchor="middle" font-size="7.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946" letter-spacing="0.5">ACADEMY</text>
+              <text x="60" y="93" text-anchor="middle" font-size="8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946">APPROVED</text>
+            </svg>
+          </div>
+        </div>
+      `;
+
+      // Animate stamp stomp down
+      const stampOverlay = rewardPane.querySelector('.stamp-ink-overlay');
+      setTimeout(() => {
+        stampOverlay.style.display = 'flex';
+        stampOverlay.classList.add('animate-stamp-stomp');
+        
+        // Play hit sound and shake screen
+        playHitSound();
+        viewport.classList.add('shake-vfx');
+        setTimeout(() => viewport.classList.remove('shake-vfx'), 450);
+      }, 700);
+
+      // Transition to Stage 3: End Screen Actions
+      setTimeout(() => {
+        renderEndScreen();
+      }, 2300);
+    }
+
+    const defShowToast = function(message) {
+      let toast = document.querySelector('.cba-toast');
+      if (toast) toast.remove();
+      
+      toast = document.createElement('div');
+      toast.className = 'cba-toast';
+      toast.innerText = message;
+      document.body.appendChild(toast);
+      
+      // Auto dismiss
+      setTimeout(() => {
+        toast.classList.add('fade-out');
+        setTimeout(() => toast.remove(), 400);
+      }, 2500);
+    };
+
+    function renderEndScreen() {
+      // Find index of current episode in chapterData to determine next episode
+      const currentIdx = chapterData && chapterData.episodes 
+        ? chapterData.episodes.findIndex(ep => ep.episodeId === episode.episodeId)
+        : -1;
+      const nextEp = currentIdx !== -1 && chapterData.episodes[currentIdx + 1]
+        ? chapterData.episodes[currentIdx + 1]
+        : null;
+
+      rewardPane.innerHTML = `
+        <div class="reward-card end-screen-card animate-fade-in">
+          <h2 style="font-family: var(--font-serif); color: var(--color-primary); font-size: 1.4rem; text-align: center; margin-bottom: 0.5rem;">🎉 Félicitations !</h2>
+          <p style="text-align: center; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted);">エピソード「${episode.episodeTitle}」をすべてクリアしました！</p>
+          
+          <div class="end-actions-wrapper" style="display: flex; flex-direction: column; gap: 1rem; width: 100%;">
+            <!-- Next Episode Button -->
+            ${nextEp ? `
+              <button class="action-btn next-ep-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: var(--color-accent); color: white;">
+                👉 次の話へ進む (${nextEp.episodeTitle})
+              </button>
+            ` : `
+              <button class="action-btn next-ep-btn" style="width: 100%; padding: 0.9rem; font-weight: 700;" disabled>
+                🏆 全話クリア！
+              </button>
+            `}
+            
+            <!-- Home Button -->
+            <button class="action-btn home-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: #374151; color: white;">
+              🏠 ホームに戻る
+            </button>
+            
+            <!-- Share Button -->
+            <button class="action-btn share-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: #2563eb; color: white;">
+              🔗 友達へ共有する
+            </button>
+          </div>
+        </div>
+      `;
+
+      // Bind events
+      const homeBtn = rewardPane.querySelector('.home-btn');
+      const shareBtn = rewardPane.querySelector('.share-btn');
+      const nextBtn = rewardPane.querySelector('.next-ep-btn');
+
+      homeBtn.addEventListener('click', () => {
+        navigateTo('home');
+      });
+
+      if (nextEp && nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          startEpisode(container, chapterNum, nextEp.episodeId);
+        });
+      }
+
+      shareBtn.addEventListener('click', () => {
+        const shareText = `CHEF BRIGADE ACADEMYでフランス語と料理の修行中！「${episode.episodeTitle}」をクリアしました！みんなも一緒に楽しく学習しよう！ #ChefBrigadeAcademy`;
+        
+        if (navigator.share) {
+          navigator.share({
+            title: 'Chef Brigade Academy',
+            text: shareText,
+            url: window.location.href
+          }).catch(err => {
+            console.log("Error sharing:", err);
+          });
+        } else {
+          // Fallback: copy to clipboard
+          navigator.clipboard.writeText(shareText).then(() => {
+            defShowToast("シェア用テキストをクリップボードにコピーしました！");
+          }).catch(err => {
+            console.error("Could not copy text: ", err);
+          });
+        }
+      });
+    }
   }
 }
