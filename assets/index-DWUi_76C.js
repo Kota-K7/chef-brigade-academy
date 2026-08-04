@@ -2035,4 +2035,4 @@
           発音ページを別タブで開きました。<br>
           <a href="https://youglish.com/pronounce/${encodeURIComponent(i)}/french" target="_blank" style="color: var(--color-accent); font-weight: 600; text-decoration: underline;">開く</a>
         </div>
-      `}a.addEventListener("click",m),t.addEventListener("keypress",i=>{i.key==="Enter"&&m()})}"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/sw.js").then(e=>console.log("ServiceWorker registered:",e.scope)).catch(e=>console.warn("ServiceWorker registration failed:",e))});document.addEventListener("DOMContentLoaded",rn);
+      `}a.addEventListener("click",m),t.addEventListener("keypress",i=>{i.key==="Enter"&&m()})}"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").then(e=>console.log("ServiceWorker registered:",e.scope)).catch(e=>console.warn("ServiceWorker registration failed:",e))});document.addEventListener("DOMContentLoaded",rn);
