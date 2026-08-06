@@ -1,85 +1,32 @@
-import { speakFrench } from '../utils/audio.js';
-import { state, ensureQuizzesLoaded, ensureDataLoaded, navigateTo } from '../../app.js';
+import os
 
-// ==========================================
-// 補正設定 (Character adjustments)
-// ==========================================
-// キャラクターごとの表示サイズ倍率 (1.0 = 標準)
-// 女将さんのサイズ比率を少し拡大するために、ここで倍率を設定できます。
-const CHARACTER_SCALES = {
-  proprietress: 1.5,
-  kanetake: 1.45,
-  saeki: 1.45,
-  elodie: 1.45,
-  gael: 1.45,
-  jean_pierre: 1.45,
-  "ピエール": 1.45
-};
+workspace_dir = r"c:\Users\kotya\.gemini\antigravity-ide\scratch\chef-brigade-academy"
+story_path = os.path.join(workspace_dir, "js", "views", "story.js")
 
-// Web Audio API lightweight synthesizer for zero-dependency retro SFX
-let audioCtx = null;
-function initAudio() {
-  if (!audioCtx) {
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  }
-}
+with open(story_path, 'r', encoding='utf-8') as f:
+    lines = f.readlines()
 
-function playBeep(freq, type, duration, volume = 0.06) {
-  try {
-    initAudio();
-    if (!audioCtx || audioCtx.state === 'suspended') {
-      // Try to resume if suspended by browser auto-play policy
-      audioCtx.resume();
-    }
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    
-    osc.type = type || 'sine';
-    osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
-    
-    gain.gain.setValueAtTime(volume, audioCtx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
-    
-    osc.connect(gain);
-    gain.connect(audioCtx.destination);
-    
-    osc.start();
-    osc.stop(audioCtx.currentTime + duration);
-  } catch (e) {
-    // Fail silently without blocking execution
-  }
-}
+# Let's locate indices for:
+# 1. renderChapterSelector start & end
+# 2. startEpisode start & end
+# 3. startBattle start & end
 
-function playTypingSound() {
-  playBeep(780, 'sine', 0.03, 0.04);
-}
+# Let's inspect line contents
+render_selector_start = None
+render_selector_end = None
+for idx, line in enumerate(lines):
+    if "async function renderChapterSelector(container)" in line:
+        render_selector_start = idx
+    if render_selector_start is not None and line.strip() == "}" and render_selector_end is None and idx > render_selector_start:
+        # Check if it's the end of renderChapterSelector
+        # Let's find the closing bracket
+        if idx < 170: # renderChapterSelector ends around line 166
+            render_selector_end = idx
 
-function playCorrectSound() {
-  playBeep(523.25, 'sine', 0.08, 0.08); // C5
-  setTimeout(() => playBeep(659.25, 'sine', 0.15, 0.08), 80); // E5
-}
+print(f"renderChapterSelector lines: {render_selector_start + 1} to {render_selector_end + 1}")
 
-function playWrongSound() {
-  playBeep(180, 'triangle', 0.3, 0.12);
-}
-
-function playHitSound() {
-  playBeep(110, 'sawtooth', 0.2, 0.1);
-}
-
-// Main story view entry point
-export function renderStory() {
-  const container = document.createElement('div');
-  container.className = 'story-mode-container';
-  
-  // Initial state: Chapter Selector
-  renderChapterSelector(container);
-  
-  return container;
-}
-
-// Render Chapter and Episode Selection
-async function renderChapterSelector(container) {
+# Let's replace renderChapterSelector lines
+new_selector_lines = """async function renderChapterSelector(container) {
   container.innerHTML = `
     <div class="view-header">
       <h2>🏰 Mode RPG (学習RPG)</h2>
@@ -200,9 +147,26 @@ async function renderChapterSelector(container) {
     });
   });
 }
+"""
 
-// Load and start visual novel sequence
-async function startEpisode(container, chapterNum, episodeId) {
+lines[render_selector_start:render_selector_end+1] = [new_selector_lines]
+
+# Re-join and scan again for startEpisode
+code = "".join(lines)
+lines = code.splitlines(keepends=True)
+
+start_ep_idx = None
+end_ep_idx = None
+for idx, line in enumerate(lines):
+    if "async function startEpisode(" in line:
+        start_ep_idx = idx
+    if start_ep_idx is not None and line.strip() == "}" and end_ep_idx is None and idx > start_ep_idx:
+        if idx < start_ep_idx + 35:
+            end_ep_idx = idx
+
+print(f"startEpisode lines: {start_ep_idx + 1} to {end_ep_idx + 1}")
+
+new_start_ep_lines = """async function startEpisode(container, chapterNum, episodeId) {
   try {
     container.innerHTML = `<div class="story-loader"><div class="spinner"></div><p>物語を読み込んでいます...</p></div>`;
     
@@ -234,300 +198,30 @@ async function startEpisode(container, chapterNum, episodeId) {
     `;
   }
 }
-    
-    runSequenceEngine(container, episode, chapterNum, chapterData);
-  } catch (err) {
-    container.innerHTML = `
-      <div class="alert alert-info" style="border-left-color: var(--color-error); background-color: #FFEBEE; color: var(--color-error)">
-        <h3>物語の読み込みエラー</h3>
-        <p>${err.message}</p>
-        <button class="action-btn" onclick="location.reload()">再読み込み</button>
-      </div>
-    `;
-  }
-}
+"""
 
-// Core Story Engine Sequence controller
-function runSequenceEngine(container, episode, chapterNum, chapterData) {
-  let currentIndex = 0;
-  const sequence = episode.sequence;
-  
-  // Set up game screen wrapper
-  container.innerHTML = `
-    <div class="rpg-game-wrapper">
-      <!-- Main Game Board -->
-      <div class="rpg-main-viewport" id="rpg-viewport">
-        <!-- Tutorial overlay -->
-        <div id="rpg-tutorial-overlay" class="rpg-overlay" style="display: none;"></div>
-        
-        <!-- Character Sprite Layer -->
-        <div id="rpg-character-layer" class="rpg-character-layer"></div>
-        
-        <!-- Dialog UI -->
-        <div id="rpg-dialog-pane" class="rpg-dialog-pane" style="display: none;">
-          <div class="name-badge" id="dialog-name"></div>
-          <div class="dialog-text-box" id="dialog-text"></div>
-          <div class="click-prompt">▼ クリックで進む</div>
-        </div>
-        
-        <!-- Battle UI -->
-        <div id="rpg-battle-pane" class="rpg-battle-pane" style="display: none;"></div>
-        
-        <!-- Reward UI -->
-        <div id="rpg-reward-pane" class="rpg-reward-pane" style="display: none;"></div>
-      </div>
-      
-      <!-- Side panel for Learning Points (Visible only when present) -->
-      <div class="rpg-learning-sidebar" id="rpg-sidebar" style="opacity: 0; pointer-events: none;">
-        <h3>💡 学習ポイント (Point d'Étude)</h3>
-        <div class="sidebar-lp-title" id="lp-title"></div>
-        <div class="sidebar-lp-content" id="lp-content"></div>
-      </div>
-    </div>
-  `;
+lines[start_ep_idx:end_ep_idx+1] = [new_start_ep_lines]
 
-  const viewport = container.querySelector('#rpg-viewport');
-  const dialogPane = container.querySelector('#rpg-dialog-pane');
-  const battlePane = container.querySelector('#rpg-battle-pane');
-  const rewardPane = container.querySelector('#rpg-reward-pane');
-  const tutorialOverlay = container.querySelector('#rpg-tutorial-overlay');
-  const sidebar = container.querySelector('#rpg-sidebar');
-  
-  let typingInterval = null;
-  let isTyping = false;
-  let fullTextToSkip = "";
+# Re-join and scan again for startBattle
+code = "".join(lines)
+lines = code.splitlines(keepends=True)
 
-  function nextStep() {
-    if (isTyping) {
-      // Skip typing effect and show full text immediately
-      clearInterval(typingInterval);
-      const textBox = container.querySelector('#dialog-text');
-      textBox.innerText = fullTextToSkip;
-      isTyping = false;
-      return;
-    }
+start_battle_idx = None
+end_battle_idx = None
+for idx, line in enumerate(lines):
+    if "async function startBattle(step)" in line:
+        start_battle_idx = idx
+    if start_battle_idx is not None and line.strip() == "}" and end_battle_idx is None and idx > start_battle_idx:
+        # startBattle is very long, it ends near the bottom of story.js
+        # Let's find the closing bracket at the very end of startBattle block
+        # We can detect it if the next lines contain something unrelated or if it's the final function inside the engine
+        if idx > start_battle_idx + 300:
+            end_battle_idx = idx
 
-    if (currentIndex >= sequence.length) {
-      // Story finished, go back to selector
-      renderChapterSelector(container);
-      return;
-    }
+print(f"startBattle lines: {start_battle_idx + 1} to {end_battle_idx + 1}")
 
-    const step = sequence[currentIndex];
-    
-    // Process step based on type
-    if (step.type === 'tutorial') {
-      showTutorial(step);
-    } else if (step.type === 'dialog') {
-      showDialog(step);
-    } else if (step.type === 'fixedBattle' || step.type === 'randomBattle') {
-      startBattle(step);
-    } else if (step.type === 'reward') {
-      showReward(step);
-    }
-
-    updatePolicyNotice(step);
-  }
-
-  function updatePolicyNotice(step) {
-    let policyOverlay = viewport.querySelector('.ai-policy-notice');
-    const isThiefCaughtBg = (step && step.background === 'bg_thief_caught.png') || 
-                           (viewport.style.background && viewport.style.background.includes('bg_thief_caught.png'));
-
-    if (isThiefCaughtBg) {
-      if (!policyOverlay) {
-        policyOverlay = document.createElement('div');
-        policyOverlay.className = 'ai-policy-notice';
-        policyOverlay.innerText = '※AIポリシーの都合により、カミーユはうさぎの縫いぐるみに差し替えられました';
-        viewport.appendChild(policyOverlay);
-      }
-    } else {
-      if (policyOverlay) {
-        policyOverlay.remove();
-      }
-    }
-  }
-
-  // Bind screen clicks to progress dialogue (only when in dialog mode)
-  viewport.addEventListener('click', (e) => {
-    // If clicking a button in battle or reward, don't trigger dialogue nextStep
-    if (e.target.closest('button') || e.target.closest('.battle-question-box') || dialogPane.style.display === 'none') {
-      return;
-    }
-    nextStep();
-  });
-
-  // Start sequence
-  nextStep();
-
-  // --- Render Functions ---
-
-  function showTutorial(step) {
-    dialogPane.style.display = 'none';
-    battlePane.style.display = 'none';
-    rewardPane.style.display = 'none';
-    sidebar.style.opacity = '0';
-    sidebar.style.pointerEvents = 'none';
-    
-    // Clear character sprites
-    const charLayer = container.querySelector('#rpg-character-layer');
-    if (charLayer) charLayer.innerHTML = '';
-    
-    tutorialOverlay.innerHTML = `
-      <div class="tutorial-card">
-        <h3>📖 ${step.title}</h3>
-        <p style="white-space: pre-line; line-height: 1.6; text-align: justify; margin: 1.2rem 0; font-size: 0.9rem;">${step.text}</p>
-        <button class="action-btn start-tut-btn" style="width: 100%; padding: 0.8rem; font-weight: 700;">冒険を開始する</button>
-      </div>
-    `;
-    tutorialOverlay.style.display = 'flex';
-
-    tutorialOverlay.querySelector('.start-tut-btn').addEventListener('click', () => {
-      tutorialOverlay.style.display = 'none';
-      currentIndex++;
-      nextStep();
-    });
-  }
-
-  function showDialog(step) {
-    tutorialOverlay.style.display = 'none';
-    battlePane.style.display = 'none';
-    rewardPane.style.display = 'none';
-    dialogPane.style.display = 'block';
-
-    // Apply background CSS or gradient
-    const bgVal = episode.backgrounds[step.background] || "#000000";
-    viewport.style.background = bgVal;
-    
-    // Apply shake effect if specified in the step
-    if (step.shake) {
-      viewport.classList.add('shake-vfx');
-      setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
-    }
-    
-    if (bgVal.includes('url(')) {
-      viewport.style.backgroundSize = 'cover';
-      viewport.style.backgroundPosition = 'center';
-      viewport.style.backgroundRepeat = 'no-repeat';
-    } else {
-      viewport.style.backgroundSize = '';
-      viewport.style.backgroundPosition = '';
-      viewport.style.backgroundRepeat = '';
-    }
-
-    // Update Character Sprite Layer
-    const charLayer = container.querySelector('#rpg-character-layer');
-    if (charLayer) {
-      charLayer.innerHTML = ''; // Clear previous sprites
-
-      // bg_camille_cry.webp, bg_after_battle.webp, bg_father.webp, bg_room.webp が背景のときはキャラクター写真を重ねて表示しない
-      const bgValLower = bgVal.toLowerCase();
-      const shouldSuppressSprites = bgValLower.includes('bg_camille_cry.webp') ||
-                                    bgValLower.includes('bg_after_battle.webp') ||
-                                    bgValLower.includes('bg_father.webp') ||
-                                    bgValLower.includes('bg_room.webp');
-
-      let activeSprites = [];
-      if (!shouldSuppressSprites) {
-        if (step.characters && Array.isArray(step.characters)) {
-          activeSprites = step.characters;
-        } else if (step.character) {
-          activeSprites = [{
-            id: step.character,
-            expression: step.expression || 'default',
-            position: step.position || 'center'
-          }];
-        }
-      }
-
-      activeSprites.forEach(spriteInfo => {
-        const charDef = episode.characters[spriteInfo.id];
-        const expr = spriteInfo.expression || 'default';
-        let pos = spriteInfo.position || 'center';
-        
-        // 女将さん(proprietress)が単独で出現するシーン（画面上のスプライトが女将さんのみ）の場合、中央に配置する
-        if (activeSprites.length === 1 && spriteInfo.id === 'proprietress') {
-          pos = 'center';
-        }
-        
-        let spriteUrl = null;
-        if (charDef && charDef.images) {
-          if (charDef.images[expr]) {
-            spriteUrl = charDef.images[expr];
-          } else if (expr === 'default' && charDef.images['normal']) {
-            spriteUrl = charDef.images['normal'];
-          } else {
-            const keys = Object.keys(charDef.images);
-            if (keys.length > 0) {
-              spriteUrl = charDef.images[keys[0]];
-            }
-          }
-        }
-
-        if (spriteUrl) {
-          const img = document.createElement('img');
-          img.src = spriteUrl;
-          img.className = `rpg-character-sprite pos-${pos} sprite-${spriteInfo.id}`;
-          
-          // キャラクター倍率設定を適用する
-          const scale = CHARACTER_SCALES[spriteInfo.id] || 1.0;
-          img.style.setProperty('--char-scale', scale);
-          
-          charLayer.appendChild(img);
-          // Trigger transition
-          setTimeout(() => {
-            img.classList.add('active');
-          }, 50);
-        }
-      });
-    }
-
-    // Set Name (Hidden per user request since character name is in the text)
-    const char = step.character ? episode.characters[step.character] : null;
-    const nameEl = container.querySelector('#dialog-name');
-    const textBox = container.querySelector('#dialog-text');
-
-    nameEl.style.display = 'none';
-
-    // Show Learning Point if present
-    if (step.learningPoint) {
-      container.querySelector('#lp-title').innerText = step.learningPoint.title;
-      container.querySelector('#lp-content').innerText = step.learningPoint.text;
-      sidebar.style.opacity = '1';
-      sidebar.style.pointerEvents = 'auto';
-    } else {
-      sidebar.style.opacity = '0';
-      sidebar.style.pointerEvents = 'none';
-    }
-
-    // Prep display text (Prepend name to dialogue text if speaking)
-    const displayText = char ? `${char.name}：${step.text}` : step.text;
-
-    // Typing effect
-    textBox.innerText = "";
-    fullTextToSkip = displayText;
-    isTyping = true;
-    let charIndex = 0;
-    
-    clearInterval(typingInterval);
-    typingInterval = setInterval(() => {
-      if (charIndex < displayText.length) {
-        textBox.innerText += displayText[charIndex];
-        charIndex++;
-        // Play very short clicks for character voices
-        if (charIndex % 2 === 0) {
-          playTypingSound();
-        }
-      } else {
-        clearInterval(typingInterval);
-        isTyping = false;
-      }
-    }, 30);
-
-    currentIndex++;
-  }
-
-  async function startBattle(step) {
+# We will write the full new startBattle function
+new_start_battle = """  async function startBattle(step) {
     dialogPane.style.display = 'none';
     tutorialOverlay.style.display = 'none';
     rewardPane.style.display = 'none';
@@ -1373,332 +1067,12 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
 
     renderBattleScreen();
   }
-        });
+"""
 
-        submitBtn.addEventListener('click', () => {
-          const userVal = inputField.value;
-          handleTypingAnswer(userVal, currentQ, inputField, submitBtn);
-        });
+lines[start_battle_idx:end_battle_idx+1] = [new_start_battle]
 
-        toggleRefBtn.addEventListener('click', () => {
-          toggleBattleReference(toggleRefBtn);
-        });
-      } else {
-        // Render Multiple Choice question
-        battlePane.innerHTML = `
-          ${hudHtml}
-          <div class="battle-question-box">
-            <div class="q-header">Question ${questionIndex + 1}</div>
-            <div class="q-body" style="white-space: pre-line;">${currentQ.text}</div>
-            
-            <div class="battle-options-list">
-              ${currentQ.options.map((opt, idx) => `
-                <button class="battle-opt-btn" data-idx="${idx}">${opt}</button>
-              `).join('')}
-            </div>
+# Write merged content back
+with open(story_path, 'w', encoding='utf-8') as f:
+    f.writelines(lines)
 
-            <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">📖 参考資料を表示</button>
-            
-            <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
-              <div class="feedback-title" id="fb-title"></div>
-              <p class="feedback-desc" id="fb-desc"></p>
-              <button class="action-btn next-q-btn" id="next-q-btn" style="width: 100%; margin-top: 0.8rem;">次の試練へ</button>
-            </div>
-          </div>
-        `;
-
-        const optBtns = battlePane.querySelectorAll('.battle-opt-btn');
-        const toggleRefBtn = battlePane.querySelector('.toggle-battle-ref-btn');
-
-        optBtns.forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            const selectedIdx = parseInt(e.target.getAttribute('data-idx'));
-            handleAnswer(selectedIdx, currentQ, optBtns);
-          });
-        });
-
-        toggleRefBtn.addEventListener('click', () => {
-          toggleBattleReference(toggleRefBtn);
-        });
-      }
-    }
-
-    function handleAnswer(selectedIdx, question, optBtns) {
-      optBtns.forEach(btn => btn.disabled = true);
-      
-      const feedbackDiv = battlePane.querySelector('#battle-feedback');
-      const fbTitle = battlePane.querySelector('#fb-title');
-      const fbDesc = battlePane.querySelector('#fb-desc');
-      const nextBtn = battlePane.querySelector('#next-q-btn');
-      
-      const isCorrect = selectedIdx === question.answerIndex;
-      
-      if (isCorrect) {
-        playCorrectSound();
-        enemyHp = Math.max(0, enemyHp - 1);
-        fbTitle.innerText = "✅ 正解！ (Très bien)";
-        fbTitle.className = "feedback-title text-success";
-        nextBtn.innerText = "次の試練へ";
-        
-        const enemyFill = battlePane.querySelector('.enemy-hp');
-        if (enemyFill) {
-          enemyFill.classList.add('flash-white');
-        }
-
-        nextBtn.onclick = () => {
-          questionIndex++;
-          renderBattleScreen();
-        };
-      } else {
-        playWrongSound();
-        playHitSound();
-        playerHp = Math.max(0, playerHp - step.enemyDamage);
-        fbTitle.innerText = "❌ 不正解！";
-        fbTitle.className = "feedback-title text-error";
-        nextBtn.innerText = "もう一度挑戦する";
-        
-        viewport.classList.add('shake-vfx');
-        setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
-
-        nextBtn.onclick = () => {
-          renderBattleScreen();
-        };
-      }
-      
-      fbDesc.innerText = question.explanation;
-      feedbackDiv.style.display = 'block';
-    }
-
-    function handleTypingAnswer(userVal, question, inputField, submitBtn) {
-      inputField.disabled = true;
-      submitBtn.disabled = true;
-      
-      const feedbackDiv = battlePane.querySelector('#battle-feedback');
-      const fbTitle = battlePane.querySelector('#fb-title');
-      const fbDesc = battlePane.querySelector('#fb-desc');
-      const nextBtn = battlePane.querySelector('#next-q-btn');
-      
-      // Normalize comparison (lowercase, remove excess punctuation)
-      const cleanUserVal = userVal.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
-      const isCorrect = question.acceptedAnswers.some(ans => {
-        return cleanUserVal === ans.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
-      });
-      
-      if (isCorrect) {
-        playCorrectSound();
-        enemyHp = Math.max(0, enemyHp - 1);
-        fbTitle.innerText = "✅ 正解！ (Très bien)";
-        fbTitle.className = "feedback-title text-success";
-        nextBtn.innerText = "次の試練へ";
-        
-        const enemyFill = battlePane.querySelector('.enemy-hp');
-        if (enemyFill) {
-          enemyFill.classList.add('flash-white');
-        }
-
-        nextBtn.onclick = () => {
-          questionIndex++;
-          renderBattleScreen();
-        };
-      } else {
-        playWrongSound();
-        playHitSound();
-        playerHp = Math.max(0, playerHp - 2); // typing mistake causes 2 damage
-        fbTitle.innerText = `❌ 不正解！ (正解: ${question.acceptedAnswers[0]})`;
-        fbTitle.className = "feedback-title text-error";
-        nextBtn.innerText = "もう一度挑戦する";
-        
-        viewport.classList.add('shake-vfx');
-        setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
-
-        nextBtn.onclick = () => {
-          renderBattleScreen();
-        };
-      }
-      
-      fbDesc.innerText = question.explanation;
-      feedbackDiv.style.display = 'block';
-    }
-
-    renderBattleScreen();
-  }
-
-  function showReward(step) {
-    dialogPane.style.display = 'none';
-    battlePane.style.display = 'none';
-    tutorialOverlay.style.display = 'none';
-    sidebar.style.opacity = '0';
-    sidebar.style.pointerEvents = 'none';
-    rewardPane.style.display = 'block';
-
-    // Clear character sprites
-    const charLayer = container.querySelector('#rpg-character-layer');
-    if (charLayer) charLayer.innerHTML = '';
-
-    // Store clear flag
-    localStorage.setItem(`cba_story_${episode.episodeId}_cleared`, 'true');
-
-    // 1. Determine Reward Image URL
-    const isCareer = episode.episodeId.startsWith('career_');
-    const rewardImgUrl = isCareer 
-      ? 'assets/story/career_story/group_photo.webp'
-      : 'assets/story/chapter_0/bg_after_battle.webp';
-
-    // 2. Render Stage 1: Reward Image Presentation
-    rewardPane.innerHTML = `
-      <div class="reward-card animate-fade-in">
-        <h2 style="font-family: var(--font-serif); color: var(--color-accent); font-size: 1.4rem; text-align: center; margin-bottom: 0.5rem;">🎉 Épisode Terminé !</h2>
-        <p style="text-align: center; margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-main);">エピソード「${episode.episodeTitle}」をクリアしました！</p>
-        
-        <div class="reward-photo-frame" style="width: 100%; border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--color-accent); margin-bottom: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
-          <img src="${rewardImgUrl}" alt="Reward Image" style="width: 100%; height: auto; display: block;" />
-        </div>
-        
-        <div style="background: rgba(197, 168, 128, 0.08); border: 1px solid rgba(197, 168, 128, 0.25); border-radius: var(--radius-sm); padding: 0.8rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 0.8rem;">
-          <span style="font-size: 1.8rem;">🏆</span>
-          <div style="text-align: left;">
-            <div style="font-weight: 700; color: var(--color-primary); font-size: 0.95rem;">+${step.xp} XP</div>
-            <div style="font-size: 0.7rem; color: var(--color-text-muted);">アカデミー経験値獲得</div>
-          </div>
-        </div>
-        
-        <button class="action-btn claim-reward-btn" style="width: 100%; padding: 0.8rem; font-weight: 700;">報酬を受け取る</button>
-      </div>
-    `;
-
-    rewardPane.querySelector('.claim-reward-btn').addEventListener('click', () => {
-      // Trigger Stage 2: Stamp Animation
-      triggerStampSequence();
-    });
-
-    function triggerStampSequence() {
-      // Clear reward card
-      rewardPane.innerHTML = `
-        <div class="completion-stamp-wrapper">
-          <div class="mission-complete-banner animate-slide-in">MISSION COMPLETE</div>
-          <div class="stamp-ink-overlay" style="display: none;">
-            <svg viewBox="0 0 120 120" style="width: 160px; height: 160px;">
-              <circle cx="60" cy="60" r="50" fill="none" stroke="#e63946" stroke-width="4.5" stroke-dasharray="140" opacity="0.85" />
-              <circle cx="60" cy="60" r="45" fill="none" stroke="#e63946" stroke-width="2.5" opacity="0.85" />
-              <!-- App logo stamp design (chef hat + stars) -->
-              <path d="M 45 46 C 45 35, 55 30, 60 35 C 65 30, 75 35, 75 46 Z" fill="none" stroke="#e63946" stroke-width="3" stroke-linecap="round" />
-              <rect x="41" y="48" width="38" height="6" fill="none" stroke="#e63946" stroke-width="2.5" rx="1.5" />
-              <text x="60" y="70" text-anchor="middle" font-size="8.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946" letter-spacing="0.5">CHEF BRIGADE</text>
-              <text x="60" y="81" text-anchor="middle" font-size="7.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946" letter-spacing="0.5">ACADEMY</text>
-              <text x="60" y="93" text-anchor="middle" font-size="8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="900" fill="#e63946">APPROVED</text>
-            </svg>
-          </div>
-        </div>
-      `;
-
-      // Animate stamp stomp down
-      const stampOverlay = rewardPane.querySelector('.stamp-ink-overlay');
-      setTimeout(() => {
-        stampOverlay.style.display = 'flex';
-        stampOverlay.classList.add('animate-stamp-stomp');
-        
-        // Play hit sound and shake screen
-        playHitSound();
-        viewport.classList.add('shake-vfx');
-        setTimeout(() => viewport.classList.remove('shake-vfx'), 450);
-      }, 700);
-
-      // Transition to Stage 3: End Screen Actions
-      setTimeout(() => {
-        renderEndScreen();
-      }, 2300);
-    }
-
-    const defShowToast = function(message) {
-      let toast = document.querySelector('.cba-toast');
-      if (toast) toast.remove();
-      
-      toast = document.createElement('div');
-      toast.className = 'cba-toast';
-      toast.innerText = message;
-      document.body.appendChild(toast);
-      
-      // Auto dismiss
-      setTimeout(() => {
-        toast.classList.add('fade-out');
-        setTimeout(() => toast.remove(), 400);
-      }, 2500);
-    };
-
-    function renderEndScreen() {
-      // Find index of current episode in chapterData to determine next episode
-      const currentIdx = chapterData && chapterData.episodes 
-        ? chapterData.episodes.findIndex(ep => ep.episodeId === episode.episodeId)
-        : -1;
-      const nextEp = currentIdx !== -1 && chapterData.episodes[currentIdx + 1]
-        ? chapterData.episodes[currentIdx + 1]
-        : null;
-
-      rewardPane.innerHTML = `
-        <div class="reward-card end-screen-card animate-fade-in">
-          <h2 style="font-family: var(--font-serif); color: var(--color-primary); font-size: 1.4rem; text-align: center; margin-bottom: 0.5rem;">🎉 Félicitations !</h2>
-          <p style="text-align: center; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted);">エピソード「${episode.episodeTitle}」をすべてクリアしました！</p>
-          
-          <div class="end-actions-wrapper" style="display: flex; flex-direction: column; gap: 1rem; width: 100%;">
-            <!-- Next Episode Button -->
-            ${nextEp ? `
-              <button class="action-btn next-ep-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: var(--color-accent); color: white;">
-                👉 次の話へ進む (${nextEp.episodeTitle})
-              </button>
-            ` : `
-              <button class="action-btn next-ep-btn" style="width: 100%; padding: 0.9rem; font-weight: 700;" disabled>
-                🏆 全話クリア！
-              </button>
-            `}
-            
-            <!-- Home Button -->
-            <button class="action-btn home-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: #374151; color: white;">
-              🏠 ホームに戻る
-            </button>
-            
-            <!-- Share Button -->
-            <button class="action-btn share-btn" style="width: 100%; padding: 0.9rem; font-weight: 700; background: #2563eb; color: white;">
-              🔗 友達へ共有する
-            </button>
-          </div>
-        </div>
-      `;
-
-      // Bind events
-      const homeBtn = rewardPane.querySelector('.home-btn');
-      const shareBtn = rewardPane.querySelector('.share-btn');
-      const nextBtn = rewardPane.querySelector('.next-ep-btn');
-
-      homeBtn.addEventListener('click', () => {
-        navigateTo('home');
-      });
-
-      if (nextEp && nextBtn) {
-        nextBtn.addEventListener('click', () => {
-          startEpisode(container, chapterNum, nextEp.episodeId);
-        });
-      }
-
-      shareBtn.addEventListener('click', () => {
-        const shareText = `CHEF BRIGADE ACADEMYでフランス語と料理の修行中！「${episode.episodeTitle}」をクリアしました！みんなも一緒に楽しく学習しよう！ #ChefBrigadeAcademy`;
-        
-        if (navigator.share) {
-          navigator.share({
-            title: 'Chef Brigade Academy',
-            text: shareText,
-            url: window.location.href
-          }).catch(err => {
-            console.log("Error sharing:", err);
-          });
-        } else {
-          // Fallback: copy to clipboard
-          navigator.clipboard.writeText(shareText).then(() => {
-            defShowToast("シェア用テキストをクリップボードにコピーしました！");
-          }).catch(err => {
-            console.error("Could not copy text: ", err);
-          });
-        }
-      });
-    }
-  }
-}
+print("Merged js/views/story.js successfully.")

@@ -143,42 +143,14 @@
           "enemyName": "父 (食文化の試練)",
           "enemyHp": 3,
           "enemyDamage": 3,
-          "questions": [
+          "criteria": [
             {
-              "questionId": "q_0_1_1",
-              "text": "マルセイユを含むプロヴァンス地方の伝統料理ではないものを選べ。\n(Quel plat n'est pas une spécialité de Provence ?)",
-              "options": [
-                "Bouillabaisse(ブイヤベース)",
-                "Ratatouille(ラタトゥイユ)",
-                "Daube provençale(ドーブ・プロヴァンサル)",
-                "Quiche lorraine(キッシュロレーヌ)"
-              ],
-              "answerIndex": 3,
-              "explanation": "Quiche lorraine（キッシュ・ロレーヌ）はフランス東北部ロレーヌ地方の伝統料理です。その他の料理はすべてプロヴァンス地方の名物（spécialité）です。"
+              "tag": "#marseille_culture",
+              "count": 2
             },
             {
-              "questionId": "q_0_1_2",
-              "text": "ブイヤベース(Bouillabaisse)を作るのに最適な食材の組み合わせを選べ。\n(Quels ingrédients sont les meilleurs pour préparer une bouillabaisse ?)",
-              "options": [
-                "Poisson, tomate, ail, huile d'olive (魚・トマト・にんにく・オリーブオイル)",
-                "Bœuf, carotte, vin rouge, oignon (牛肉・にんじん・赤ワイン・玉ねぎ)",
-                "Aubergine, courgette, tomate, poivron (ナス・ズッキーニ・トマト・ピーマン)",
-                "Poulet, champignon, vin blanc, crème (鶏肉・きのこ・白ワイン・クリーム)"
-              ],
-              "answerIndex": 0,
-              "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。Bは牛肉の煮込み（Daube）、Cはラタトゥイユ、Dはクリームチキンの主な材料です。"
-            },
-            {
-              "questionId": "q_0_1_3",
-              "text": "文脈に合う正しいフランス語の並びを選べ。\n(Tu ___ le chevalier de Camille. / 君はカミーユの騎士です)",
-              "options": [
-                "Tu es le chevalier de Camille.",
-                "Tu suis le chevalier de Camille.",
-                "Tu as le chevalier de Camille.",
-                "Tu fais le chevalier de Camille."
-              ],
-              "answerIndex": 0,
-              "explanation": "正解はA。「Tu es ～」はêtre（〜である）の二人称単数活用で、「君は〜です」という意味になります。(例: Tu es mon ami = 君は私の友達です)"
+              "tag": "#etre",
+              "count": 1
             }
           ]
         },
@@ -314,42 +286,14 @@
           "enemyName": "八百屋 (買い出しの試練)",
           "enemyHp": 3,
           "enemyDamage": 3,
-          "questions": [
+          "criteria": [
             {
-              "questionId": "q_0_2_1_1",
-              "text": "八百屋に対して、丁寧に「こんにちは。野菜をください」と伝えるのに最も適切なものはどれか。\n(Quel est le plus approprié ?)",
-              "options": [
-                "Bonjour ! Je voudrais acheter des légumes. ",
-                "Bonne nuit ! Je voudrais acheter des légumes.",
-                "Au revoir ! Je voudrais acheter des légumes. ",
-                "Merci ! Je voudrais acheter des légumes. "
-              ],
-              "answerIndex": 0,
-              "explanation": "Bonjour は日中の一般的な挨拶「こんにちは」です。Je voudrais + 動詞の原形（acheter=買う）で「〜したいです」という丁寧な表現になります。"
+              "tag": "#vegetables",
+              "count": 2
             },
             {
-              "questionId": "q_0_2_1_2",
-              "text": "「トマトを4個ください。」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
-              "options": [
-                "Je voudrais quatre tomates.",
-                "Je voudrais deux tomates.",
-                "Je mange quatre tomates.",
-                "Quatre tomates, merci."
-              ],
-              "answerIndex": 0,
-              "explanation": "「Je voudrais + 数量 + 名詞」で丁寧な注文になります。quatre は「4」、tomates は「トマト」です。"
-            },
-            {
-              "questionId": "q_0_2_1_3",
-              "text": "「玉ねぎを1個ください」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
-              "options": [
-                "Je voudrais un oignon.",
-                "Tu voudrais un oignon.",
-                "Je suis un oignon.",
-                "J'ai un oignon."
-              ],
-              "answerIndex": 0,
-              "explanation": "Je voudrais（私は〜が欲しいです）は、買い物や注文の際に最もよく使われる表現です。oignon は「玉ねぎ」です。"
+              "tag": "#numbers",
+              "count": 1
             }
           ]
         },
@@ -414,30 +358,14 @@
           "enemyName": "魚屋 (食材選びの試練)",
           "enemyHp": 2,
           "enemyDamage": 4,
-          "questions": [
+          "criteria": [
             {
-              "questionId": "q_0_2_2_1",
-              "text": "ブイヤベース用として最も適切な材料を指す単語はどれか。\n(Choisissez le bon ingrédient pour la bouillabaisse.)",
-              "options": [
-                "poisson",
-                "bœuf",
-                "poulet",
-                "porc"
-              ],
-              "answerIndex": 0,
-              "explanation": "poisson は「魚」を意味します。ブイヤベースは地中海の魚介をふんだんに使ったスープ料理です。"
+              "tag": "#ingredients",
+              "count": 1
             },
             {
-              "questionId": "q_0_2_2_2",
-              "text": "「魚を1kgください」と注文する正しい表現を選べ。\n(Choisissez la bonne phrase.)",
-              "options": [
-                "Je voudrais un kilo de poisson.",
-                "Je voudrais poisson un kilo.",
-                "Un poisson kilo.",
-                "Merci un kilo."
-              ],
-              "answerIndex": 0,
-              "explanation": "分量を表すときは「数 + kilo(s) + de + 名詞」の語順になります。"
+              "tag": "#units",
+              "count": 1
             }
           ]
         },
@@ -733,42 +661,14 @@
           "enemyName": "泥棒",
           "enemyHp": 3,
           "enemyDamage": 3,
-          "questions": [
+          "criteria": [
             {
-              "questionId": "q_0_3_1_1",
-              "text": "「助けてください！」に当てはまるフランス語は？",
-              "options": [
-                "Regardez-moi, s'il vous plaît !",
-                "Mangez-moi, s'il vous plaît !",
-                "Aidez-moi, s'il vous plaît !",
-                "Attendez-moi, s'il vous plaît !"
-              ],
-              "answerIndex": 2,
-              "explanation": "aider（助ける）の命令形 Aidez に moi（私を）と s'il vous plaît（お願いします）を繋げて「助けてください」となります。"
+              "tag": "#greetings",
+              "count": 2
             },
             {
-              "questionId": "q_0_3_1_2",
-              "text": "「彼女はカミーユです。」に当てはまるフランス語は？",
-              "options": [
-                "Elle est Camille.",
-                "Il est Camille.",
-                "Elle a Camille.",
-                "Elle suis Camille."
-              ],
-              "answerIndex": 0,
-              "explanation": "Elle（彼女）に動詞 être（〜である）の三人称単数形 est を組み合わせて「Elle est Camille.」となります。"
-            },
-            {
-              "questionId": "q_0_3_1_3",
-              "text": "「私は彼女を守ります。」に当てはまるフランス語は？",
-              "options": [
-                "Je suis Camille.",
-                "Je protège Camille.",
-                "J'ai Camille.",
-                "Je mange Camille."
-              ],
-              "answerIndex": 1,
-              "explanation": "protéger（守る）の一人称単数現在形 protège を用いて「Je protège Camille.」となります。"
+              "tag": "#subjects",
+              "count": 1
             }
           ]
         },
@@ -1190,78 +1090,26 @@
           "enemyName": "女将",
           "enemyHp": 6,
           "enemyDamage": 2,
-          "questions": [
+          "criteria": [
             {
-              "questionId": "q_0_3_2_1",
-              "text": "市場で店員に丁寧に「野菜を2kgください」と注文するとき、最も自然な表現はどれか。",
-              "options": [
-                "Je voudrais deux kilos de légumes.",
-                "Je veux deux kilo des légumes.",
-                "Je voudrais légumes deux kilos.",
-                "Je suis deux kilos de légumes."
-              ],
-              "answerIndex": 0,
-              "explanation": "「Je voudrais + 数量 + de + 名詞」で丁寧な注文になります。"
+              "tag": "#marseille_culture",
+              "count": 1
             },
             {
-              "questionId": "q_0_3_2_2",
-              "text": "市場で「魚を1kg、肉を2kg、りんごを500gください」と正しく注文しているものはどれか。",
-              "options": [
-                "Je voudrais un kilo poisson, deux kilos viande, cinq cents grammes pommes.",
-                "Je voudrais un kilo de poisson, two kilos de viande, cinq cents grammes de pommes.",
-                "Je voudrais un kilo de poisson, deux kilos de viande, cinq cents grammes de pommes.",
-                "Je voudrais un poisson kilo, deux viande kilos, pommes grammes."
-              ],
-              "answerIndex": 2,
-              "explanation": "数量を表現する際は「数 + 単位 + de + 名詞」となります。kilo や gramme の後に de が必須です。"
+              "tag": "#numbers",
+              "count": 1
             },
             {
-              "questionId": "q_0_3_2_3",
-              "text": "市場で出会った人について「彼らは日本人です」と正しく表現しているものはどれか。",
-              "options": [
-                "Ils êtes japonais.",
-                "Ils sont Japonais.",
-                "Ils être japonais.",
-                "Ils ont japonais."
-              ],
-              "answerIndex": 1,
-              "explanation": "Ils（彼ら）に対する être の活用は sont となります。また、国籍・民族を表す名詞は語頭を大文字（Japonais）にします。"
+              "tag": "#units",
+              "count": 1
             },
             {
-              "questionId": "q_0_3_2_4",
-              "text": "戦闘中、仲間が「彼を守ってください！」と叫びました。正しいフランス語はどれか。",
-              "options": [
-                "Protégez-le !",
-                "Le protégez !",
-                "Protéger lui !",
-                "Vous proteger-le !"
-              ],
-              "answerIndex": 0,
-              "explanation": "動詞protéger（守る）の命令形「Protégez !」の後に、目的語代名詞「le（彼を）」をハイフンで繋いで「Protégez-le !」とします。"
+              "tag": "#nationality",
+              "count": 1
             },
             {
-              "questionId": "q_0_3_2_5",
-              "text": "「こんにちは、マダム」に当てはまる最も適切なフランス語はどれか。",
-              "options": [
-                "Bonjour, Madame.",
-                "Au revoir, Madame.",
-                "Merci, Madame.",
-                "Bonne nuit, Madame."
-              ],
-              "answerIndex": 0,
-              "explanation": "Bonjour は昼間の一般的なあいさつ「こんにちは」です。"
-            },
-            {
-              "questionId": "q_0_3_2_6",
-              "text": "「私たちは日本人です」に当てはまる正しいフランス語はどれか。",
-              "options": [
-                "Nous sommes japonais.",
-                "Nous êtes japonais.",
-                "Nous suis japonais.",
-                "Nous es japonais."
-              ],
-              "answerIndex": 0,
-              "explanation": "Nous（私たち）に対する être の活用は sommes になります。êtes は vous、suis は je、es は tu に対応します。"
+              "tag": "#greetings",
+              "count": 2
             }
           ]
         },

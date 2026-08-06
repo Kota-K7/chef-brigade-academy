@@ -1,0 +1,2896 @@
+[
+  {
+    "id": "quiz_1",
+    "tags": [
+      "#vocabulary"
+    ],
+    "type": "choice",
+    "text": "Quel est le terme culinaire français pour désigner la préparation de tous vos outils et ingrédients avant de commencer à cuisiner ? / What is the French culinary term for setting up all your tools and ingredients before starting to cook?",
+    "options": [
+      "Mise en bouteille",
+      "Mise en place",
+      "Mise en scène",
+      "Ciseler"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Mise en place",
+      "mise en place"
+    ],
+    "explanation": "This concept is the bedrock of kitchen organization worldwide."
+  },
+  {
+    "id": "quiz_2",
+    "tags": [
+      "#cuts"
+    ],
+    "type": "choice",
+    "text": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ? / Which cutting style produces a tiny 1-2 mm cube?",
+    "options": [
+      "Macédoine",
+      "Bâtonnets",
+      "Brunoise",
+      "Paysanne"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Brunoise",
+      "brunoise"
+    ],
+    "explanation": "Usually cut from a julienne base."
+  },
+  {
+    "id": "quiz_3",
+    "tags": [
+      "#grammar"
+    ],
+    "type": "choice",
+    "text": "Choisissez le verbe impératif correct pour donner un ordre poli ou à un groupe en cuisine pour nettoyer le plan de travail : '___ le plan de travail, s'il vous plaît !' / Choose the correct imperative verb for giving a polite or group kitchen command to clean the workbench: '___ le plan de travail, s'il vous plaît !'",
+    "options": [
+      "Nettoie",
+      "Nettoyons",
+      "Nettoyez",
+      "Nettoyer"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Nettoyez",
+      "nettoyez"
+    ],
+    "explanation": "Remember to use the formal 'vous' form."
+  },
+  {
+    "id": "quiz_4",
+    "tags": [
+      "#sauces"
+    ],
+    "type": "choice",
+    "text": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ? / Which mother sauce is prepared using white stock and blond roux?",
+    "options": [
+      "Béchamel",
+      "Espagnole",
+      "Hollandaise",
+      "Velouté"
+    ],
+    "answerIndex": 3,
+    "acceptedAnswers": [
+      "Velouté",
+      "velouté"
+    ],
+    "explanation": "It translates to 'velvety' in English."
+  },
+  {
+    "id": "quiz_5",
+    "tags": [
+      "#grammar"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.' / Fill in the blank with the correct partitive article: 'Ajoutez ___ beurre dans la sauce béarnaise.'",
+    "options": [
+      "du",
+      "de la",
+      "des",
+      "de"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "du",
+      "du"
+    ],
+    "explanation": "Beurre (butter) is masculine singular in French."
+  },
+  {
+    "id": "quiz_6",
+    "tags": [
+      "#meat"
+    ],
+    "type": "choice",
+    "text": "Quel morceau de bœuf est le plus tendre (tendreté ★★★★★) et doit être cuit très rapidement à feu vif ? / Which beef cut is the tenderest (tenderness ★★★★★) and must be cooked very quickly over high heat?",
+    "options": [
+      "Rumsteck",
+      "Filet de bœuf",
+      "Palette",
+      "Poitrine"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Filet de bœuf",
+      "filet de bœuf"
+    ],
+    "explanation": "It is the psoas major muscle, which does very little movement."
+  },
+  {
+    "id": "quiz_7",
+    "tags": [
+      "#meat"
+    ],
+    "type": "choice",
+    "text": "Pourquoi la joue de porc nécessite-t-elle une cuisson très longue (braiser ou confire) ? / Why does pork cheek require very long cooking (braising or confit)?",
+    "options": [
+      "Elle n'a pas de graisse",
+      "Elle est riche en collagène de haute densité qui doit se transformer en gélatine",
+      "Elle brûle trop vite à feu vif",
+      "Elle doit être servie saignante"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Elle est riche en collagène de haute densité qui doit se transformer en gélatine",
+      "elle est riche en collagène de haute densité qui doit se transformer en gélatine"
+    ],
+    "explanation": "Cheek is a masticatory muscle rich in connective tissues."
+  },
+  {
+    "id": "quiz_8",
+    "tags": [
+      "#map"
+    ],
+    "type": "choice",
+    "text": "Quelle région française est célèbre pour ses fromages Camembert, ses vergers de pommiers et a accueilli le débarquement allié en 1944 ? / Which French region is famous for Camembert cheese, apple orchards, and hosted the Allied landings in 1944?",
+    "options": [
+      "Bourgogne",
+      "Alsace",
+      "Normandie",
+      "Provence"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Normandie",
+      "normandie"
+    ],
+    "explanation": "Signature dishes include Sole Normande and Poulet Vallée d'Auge."
+  },
+  {
+    "id": "quiz_9",
+    "tags": [
+      "#map"
+    ],
+    "type": "choice",
+    "text": "Où s'est déroulée la célèbre bataille d'Alésia (52 av. J.-C.) dans l'histoire de la Bourgogne ? / Where did the famous Battle of Alesia (52 BC) take place in the history of Burgundy?",
+    "options": [
+      "Alésia",
+      "Dijon",
+      "Paris",
+      "Avignon"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Alésia",
+      "alésia"
+    ],
+    "explanation": "This region is the heartland of Escargots and Bœuf Bourguignon."
+  },
+  {
+    "id": "quiz_10",
+    "tags": [
+      "#science"
+    ],
+    "type": "choice",
+    "text": "À quelle température commence généralement la réaction de Maillard, essentielle pour dorer les viandes ? / At what temperature does the Maillard reaction, essential for browning meats, typically begin?",
+    "options": [
+      "65°C",
+      "100°C",
+      "140°C",
+      "250°C"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "140°C",
+      "140°c"
+    ],
+    "explanation": "It involves a chemical reaction between amino acids and reducing sugars."
+  },
+  {
+    "id": "quiz_11",
+    "tags": [
+      "#sauces"
+    ],
+    "type": "choice",
+    "text": "Quelle est la limite de température supérieure pour éviter la dénaturation de l'émulsion chaude (ex. Hollandaise, Béarnaise) ? / What is the upper temperature limit to prevent breaking a hot emulsion (e.g. Hollandaise, Béarnaise)?",
+    "options": [
+      "45°C",
+      "65°C",
+      "85°C",
+      "100°C"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "65°C",
+      "65°c"
+    ],
+    "explanation": "Overheating coagulates the egg yolks and separates the fat."
+  },
+  {
+    "id": "quiz_12",
+    "tags": [
+      "#cuts"
+    ],
+    "type": "choice",
+    "text": "Quelles sont les dimensions classiques d'une coupe en Julienne ? / What are the classic dimensions of a Julienne cut?",
+    "options": [
+      "1-2 mm x 1-2 mm x 1-2 mm",
+      "1-2 mm x 1-2 mm x 4-5 cm",
+      "5 mm x 5 mm x 5 cm",
+      "1 cm x 1 cm x 1 cm"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "1-2 mm x 1-2 mm x 4-5 cm",
+      "1-2 mm x 1-2 mm x 4-5 cm"
+    ],
+    "explanation": "These are thin matchsticks of vegetables."
+  },
+  {
+    "id": "quiz_13",
+    "tags": [
+      "#vocabulary"
+    ],
+    "type": "choice",
+    "text": "Quel terme désigne l'action d'attacher les membres d'une volaille avec une ficelle de cuisine avant la cuisson ? / What term describes tying a bird's limbs with kitchen twine before cooking?",
+    "options": [
+      "Brider",
+      "Chiffonner",
+      "Dégorger",
+      "Napper"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Brider",
+      "brider"
+    ],
+    "explanation": "It ensures even cooking and holds stuffing inside."
+  },
+  {
+    "id": "quiz_14",
+    "tags": [
+      "#map"
+    ],
+    "type": "choice",
+    "text": "Quel événement historique majeur s'est déroulé à Avignon en 1309, influençant l'histoire de la Provence ? / Which major historical event took place in Avignon in 1309, shaping the history of Provence?",
+    "options": [
+      "Débarquement des troupes",
+      "Papauté d'Avignon (Avignon Papacy)",
+      "Bataille de Dunkerque",
+      "Naissance de Napoléon"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Papauté d'Avignon (Avignon Papacy)",
+      "papauté d'avignon (avignon papacy)"
+    ],
+    "explanation": "This event relocated the seat of the Catholic Pope to southern France."
+  },
+  {
+    "id": "quiz_15",
+    "tags": [
+      "#science"
+    ],
+    "type": "choice",
+    "text": "Quel est le terme scientifique pour la dispersion stable de deux liquides normalement non miscibles (comme l'huile et l'eau) ? / What is the scientific term for a stable dispersion of two normally unmixable liquids (like oil and water)?",
+    "options": [
+      "Émulsion (Emulsion)",
+      "Coagulation",
+      "Fermentation",
+      "Caramélisation"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Émulsion (Emulsion)",
+      "émulsion (emulsion)"
+    ],
+    "explanation": "Mayonnaise and vinaigrette are classic examples."
+  },
+  {
+    "id": "quiz_16",
+    "tags": [
+      "#science"
+    ],
+    "type": "choice",
+    "text": "Pourquoi faut-il utiliser de l'alginate de sodium avec une teneur spécifique en ions calcium pour la sphérification de base ? / Why must sodium alginate react with a specific calcium ion concentration for basic spherification?",
+    "options": [
+      "Pour former un gel thermo-irréversible par réticulation des chaînes polymériques.",
+      "Pour augmenter la volatilité des arômes lipophiles.",
+      "Pour empêcher la dénaturation des protéines animales.",
+      "Pour catalyser la réaction de Maillard à moins de 50°C."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Pour former un gel thermo-irréversible par réticulation des chaînes polymériques.",
+      "pour former un gel thermo-irréversible par réticulation des chaînes polymériques."
+    ],
+    "explanation": "It forms a thermo-irreversible gel via cross-linking polymer chains."
+  },
+  {
+    "id": "quiz_17",
+    "tags": [
+      "#sauces"
+    ],
+    "type": "choice",
+    "text": "Lors d'une liaison au sang pour un lièvre à la royale, à quelle température le sang commence-t-il à coaguler ? / During a blood liaison for lièvre à la royale, at what temperature does the blood start to coagulate?",
+    "options": [
+      "73°C - 75°C",
+      "55°C - 58°C",
+      "85°C - 90°C",
+      "100°C"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "73°C - 75°C",
+      "73°c - 75°c"
+    ],
+    "explanation": "Going above this threshold causes the sauce to split (trancher)."
+  },
+  {
+    "id": "quiz_18",
+    "tags": [
+      "#grammar"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide avec le pronom correct : 'Avez-vous besoin de farine ? - Oui, donnez-m'___.' / Fill in the blank with the correct pronoun: 'Avez-vous besoin de farine ? - Oui, donnez-m'___.'",
+    "options": [
+      "en",
+      "y",
+      "le",
+      "la"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en",
+      "en"
+    ],
+    "explanation": "Use 'en' to replace quantities or nouns introduced by 'de'."
+  },
+  {
+    "id": "quiz_19",
+    "tags": [
+      "#grammar"
+    ],
+    "type": "choice",
+    "text": "Quelle préposition est correcte pour indiquer le boucher comme lieu d'achat ? 'J'achète la viande ___ le boucher.' / Which preposition is correct to indicate the butcher as the place of purchase? 'J'achète la viande ___ le boucher.'",
+    "options": [
+      "chez",
+      "à",
+      "de",
+      "en"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "chez",
+      "chez"
+    ],
+    "explanation": "Use 'chez' for a person's home or business establishment."
+  },
+  {
+    "id": "quiz_20",
+    "tags": [
+      "#sauces"
+    ],
+    "type": "choice",
+    "text": "Quelle est la différence fondamentale dans la préparation d'un fond brun par rapport à un fond blanc ? / What is the fundamental difference in preparing a brown stock compared to a white stock?",
+    "options": [
+      "Les os et viandes sont d'abord rôtis au four jusqu'à coloration brune.",
+      "On utilise uniquement du poisson.",
+      "On ajoute de la crème fraîche au début.",
+      "On ne met pas de garniture aromatique."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Les os et viandes sont d'abord rôtis au four jusqu'à coloration brune.",
+      "les os et viandes sont d'abord rôtis au four jusqu'à coloration brune."
+    ],
+    "explanation": "Browning the bones and meat gives the stock its dark color and deep roasted flavor."
+  },
+  {
+    "id": "q_career_0_1_1",
+    "tags": [
+      "#greetings",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「おはよう」や「こんにちは」を表す、最も一般的なフランス語の挨拶を入力してください。\n(Entrez la salutation standard du matin en français.)",
+    "options": [
+      "Bonjour",
+      "Merci",
+      "S'il vous plaît",
+      "Enchanté"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Bonjour",
+      "bonjour"
+    ],
+    "explanation": "Bonjour は最も一般的な朝・日中の挨拶です。"
+  },
+  {
+    "id": "q_career_0_1_2",
+    "tags": [
+      "#greetings",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「ありがとう」を意味するフランス語を入力してください。\n(Entrez le mot pour 'merci'.)",
+    "options": [
+      "Bonjour",
+      "Merci",
+      "S'il vous plaît",
+      "Oui"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Merci",
+      "merci"
+    ],
+    "explanation": "Merci はフランス語の「ありがとう」です。"
+  },
+  {
+    "id": "q_career_0_1_3",
+    "tags": [
+      "#subject_pronouns",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「私は（I）」に対応する、フランス語の主語人称代名詞を入力してください。\n(Entrez le pronom sujet pour 'Je'.)",
+    "options": [
+      "Tu",
+      "Il",
+      "Je",
+      "Nous"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Je",
+      "je"
+    ],
+    "explanation": "フランス語の「私は」にあたる主語人称代名詞は Je です。"
+  },
+  {
+    "id": "q_career_0_1_4",
+    "tags": [
+      "#verb_etre",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「私は新人です（Je ___ nouveau.）」の空欄に入る、動詞 être の現在形活用を入力してください。\n(Entrez la forme correcte de être: Je ___ nouveau.)",
+    "options": [
+      "suis",
+      "es",
+      "est",
+      "sommes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "suis",
+      "Suis"
+    ],
+    "explanation": "主語が Je のとき、être の現在形は suis になります。"
+  },
+  {
+    "id": "q_career_0_1_4_b",
+    "tags": [
+      "#verb_etre",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「君は準備ができている（Tu ___ prêt.）」の空欄に入る、動詞 être の現在形活用を入力してください。\n(Entrez la forme de être pour 'Tu'.)",
+    "options": [
+      "suis",
+      "es",
+      "est",
+      "êtes"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "es",
+      "Es"
+    ],
+    "explanation": "主語が Tu のとき、être の現在形は es になります。"
+  },
+  {
+    "id": "q_career_0_1_4_c",
+    "tags": [
+      "#verb_avoir",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「私は包丁を持っています（J'___ un couteau.）」の空欄に入る、動詞 avoir の一人称単数現在形を入力してください。\n(Entrez la forme de avoir pour 'Je'.)",
+    "options": [
+      "ai",
+      "as",
+      "a",
+      "avons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ai",
+      "Ai"
+    ],
+    "explanation": "主語が Je (j') のとき、avoir の現在形は ai になります。"
+  },
+  {
+    "id": "q_career_0_1_4_d",
+    "tags": [
+      "#greetings",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「お願いします」を意味する丁寧なフランス語表現を入力してください。\n(Entrez 'please' en français.)",
+    "options": [
+      "Bonjour",
+      "Merci",
+      "S'il vous plaît",
+      "Enchanté"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "S'il vous plaît",
+      "s'il vous plaît",
+      "sil vous plait"
+    ],
+    "explanation": "S'il vous plaît は「お願いします」を意味する丁寧な表現です。"
+  },
+  {
+    "id": "q_career_0_1_5",
+    "tags": [
+      "#articles",
+      "#gender",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「包丁・ナイフ（couteau）」は男性名詞です。不特定の「1本の包丁」を表す男性単数不定冠詞（___ couteau）を入力してください。\n(Entrez l'article indéfini pour 'couteau'.)",
+    "options": [
+      "un",
+      "une",
+      "des",
+      "le"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "un",
+      "Un"
+    ],
+    "explanation": "couteau は男性単数名詞なので、不定冠詞は un になります。"
+  },
+  {
+    "id": "q_career_0_1_6",
+    "tags": [
+      "#articles",
+      "#gender",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「片手鍋（casserole）」は女性名詞です。不特定の「1つの片手鍋」を表す女性単数不定冠詞（___ casserole）を入力してください。\n(Entrez l'article indéfini pour 'casserole'.)",
+    "options": [
+      "un",
+      "une",
+      "des",
+      "la"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "une",
+      "Une"
+    ],
+    "explanation": "casserole は女性単数名詞なので、不定冠詞は une になります。"
+  },
+  {
+    "id": "q_career_0_1_7",
+    "tags": [
+      "#negation",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「私は包丁を持っていません」の否定文「Je n'ai pas ___ couteau.」の空欄に入る前置詞を入力してください。\n(Entrez la préposition de négation.)",
+    "options": [
+      "un",
+      "du",
+      "de",
+      "le"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "de",
+      "De"
+    ],
+    "explanation": "否定文 (ne...pas) の直接目的語に付く不定冠詞は de に変化します。"
+  },
+  {
+    "id": "q_career_0_1_7_b",
+    "tags": [
+      "#articles",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「その料理長（chef / 男性名詞）」を表す男性単数定冠詞（___ chef）を入力してください。\n(Entrez l'article défini masculin: ___ chef.)",
+    "options": [
+      "le",
+      "la",
+      "les",
+      "un"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le",
+      "Le"
+    ],
+    "explanation": "特定された男性単数名詞には定冠詞 le を使います。"
+  },
+  {
+    "id": "q_career_0_1_7_c",
+    "tags": [
+      "#articles",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「その厨房（cuisine / 女性名詞）」を表す女性単数定冠詞（___ cuisine）を入力してください。\n(Entrez l'article défini féminin: ___ cuisine.)",
+    "options": [
+      "le",
+      "la",
+      "les",
+      "une"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "la",
+      "La"
+    ],
+    "explanation": "特定された女性単数名詞には定冠詞 la を使います。"
+  },
+  {
+    "id": "q_career_0_1_7_d",
+    "tags": [
+      "#negation",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「私はお皿（assiette / 女性名詞）を持っていません」は「Je n'ai pas ___ assiette.」となります。空欄に入る語句を入力してください。\n(Entrez la préposition de négation devant voyelle.)",
+    "options": [
+      "de",
+      "d'",
+      "une",
+      "l'"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "d'",
+      "d",
+      "D'"
+    ],
+    "explanation": "否定の de の後ろに母音で始まる名詞が続く場合、エリジオンして d' になります。"
+  },
+  {
+    "id": "q_career_0_1_8",
+    "tags": [
+      "#numbers",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「3」を表すフランス語の数字を入力してください。\n(Entrez le nombre '3' en français.)",
+    "options": [
+      "deux",
+      "trois",
+      "quatre",
+      "cinq"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "trois",
+      "Trois"
+    ],
+    "explanation": "3はフランス語で trois と言います。"
+  },
+  {
+    "id": "q_career_0_1_9",
+    "tags": [
+      "#plurals",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「トマト（tomate / 女性名詞）」の複数不定形「いくつかのトマト」を表すフランス語（冠詞＋名詞の複数形）を入力してください。\n(Traduisez: some tomatoes)",
+    "options": [
+      "une tomate",
+      "des tomate",
+      "des tomatoes",
+      "des tomates"
+    ],
+    "answerIndex": 3,
+    "acceptedAnswers": [
+      "des tomates",
+      "Des tomates"
+    ],
+    "explanation": "複数不定冠詞 des と、名詞の末尾に s を付けた tomates を組み合わせます。"
+  },
+  {
+    "id": "q_career_0_1_10",
+    "tags": [
+      "#verb_avoir",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「私たちは持っています（Nous ___）」の空欄に入る、動詞 avoir の現在形活用を入力してください。\n(Entrez la forme correcte de avoir: Nous ___)",
+    "options": [
+      "avons",
+      "avez",
+      "ont",
+      "sommes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons",
+      "Avons"
+    ],
+    "explanation": "主語が Nous のとき、avoir の現在形は avons になります。"
+  },
+  {
+    "id": "q_career_0_1_10_b",
+    "tags": [
+      "#verb_etre",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「彼らは〜です（Ils ___）」の空欄に入る、動詞 être の現在形活用を入力してください。\n(Entrez la forme de être pour 'Ils'.)",
+    "options": [
+      "sommes",
+      "êtes",
+      "sont",
+      "ont"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "sont",
+      "Sont"
+    ],
+    "explanation": "主語が Ils のとき、être の現在形は sont になります。"
+  },
+  {
+    "id": "q_career_0_1_10_c",
+    "tags": [
+      "#numbers",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「1」を表すフランス語の数字（男性形）を入力してください。\n(Entrez le chiffre '1' en français.)",
+    "options": [
+      "un",
+      "une",
+      "deux",
+      "trois"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "un",
+      "Un"
+    ],
+    "explanation": "1はフランス語で un と言います。"
+  },
+  {
+    "id": "q_career_0_1_10_d",
+    "tags": [
+      "#numbers",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「10」を表すフランス語の数字を入力してください。\n(Entrez le nombre '10'.)",
+    "options": [
+      "cinq",
+      "huit",
+      "neuf",
+      "dix"
+    ],
+    "answerIndex": 3,
+    "acceptedAnswers": [
+      "dix",
+      "Dix"
+    ],
+    "explanation": "10はフランス語で dix と書きます。"
+  },
+  {
+    "id": "q_career_0_2_1",
+    "tags": [
+      "#units",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「1リットルの牛乳」は「un litre ___ lait」と言います。空欄に入る前置詞を入力してください。\n(Entrez la préposition: un litre ___ lait.)",
+    "options": [
+      "de",
+      "du",
+      "le",
+      "un"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "de",
+      "De"
+    ],
+    "explanation": "分量や計量の単位を名詞と結ぶには前置詞 de を使います。"
+  },
+  {
+    "id": "q_career_0_2_2",
+    "tags": [
+      "#numbers",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「200（two hundred）」を意味するフランス語を入力してください。\n(Entrez le nombre '200'.)",
+    "options": [
+      "deux cent",
+      "deux cents",
+      "deux centes",
+      "cent deux"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "deux cents",
+      "deux cent",
+      "Deux cents",
+      "Deux cent"
+    ],
+    "explanation": "200は deux cents と表現します。"
+  },
+  {
+    "id": "q_career_0_2_3",
+    "tags": [
+      "#numbers",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「5」を意味するフランス語の数字を入力してください。\n(Entrez le chiffre '5'.)",
+    "options": [
+      "quatre",
+      "cinq",
+      "six",
+      "sept"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "cinq",
+      "Cinq"
+    ],
+    "explanation": "5はフランス語で cinq と書きます。"
+  },
+  {
+    "id": "q_career_0_2_3_b",
+    "tags": [
+      "#units",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「1本の水（bouteille d'eau）」のように、容器を表す言葉を結ぶ前置詞（___ d'eau）を省略形で入力してください。\n(Entrez la préposition élidée.)",
+    "options": [
+      "de",
+      "d'",
+      "la",
+      "une"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "d'",
+      "d",
+      "D'"
+    ],
+    "explanation": "母音で始まる水（eau）の前では前置詞 de は d' に縮約されます。"
+  },
+  {
+    "id": "q_career_0_2_3_c",
+    "tags": [
+      "#numbers",
+      "#basic",
+      "#A1"
+    ],
+    "text": "「7」を意味するフランス語の数字を入力してください。\n(Entrez le chiffre '7'.)",
+    "options": [
+      "six",
+      "sept",
+      "huit",
+      "neuf"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "sept",
+      "Sept"
+    ],
+    "explanation": "7はフランス語で sept と言います。"
+  },
+  {
+    "id": "q_career_0_2_4",
+    "tags": [
+      "#numbers",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「15」を意味するフランス語の数字を入力してください。\n(Entrez le nombre '15'.)",
+    "options": [
+      "quatorze",
+      "quinze",
+      "seize",
+      "dix-cinq"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "quinze",
+      "Quinze"
+    ],
+    "explanation": "15はフランス語で quinze です。"
+  },
+  {
+    "id": "q_career_0_2_5",
+    "tags": [
+      "#plurals",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「その包丁（複数形）」を表すフランス語（定冠詞複数＋名詞複数形）を入力してください。couteauの複数形はxがつく例外「couteaux」になります。\n(Traduisez: the knives)",
+    "options": [
+      "les couteaus",
+      "les couteau",
+      "les couteaux",
+      "des couteaux"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "les couteaux",
+      "Les couteaux"
+    ],
+    "explanation": "定冠詞の複数形 les と、複数形例外の couteaux を使います。"
+  },
+  {
+    "id": "q_career_0_2_6",
+    "tags": [
+      "#numbers",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「12」を意味するフランス語の数字を入力してください。\n(Entrez le nombre '12'.)",
+    "options": [
+      "onze",
+      "douze",
+      "treize",
+      "dix-deux"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "douze",
+      "Douze"
+    ],
+    "explanation": "12はフランス語で物理的に douze です。"
+  },
+  {
+    "id": "q_career_0_2_6_b",
+    "tags": [
+      "#plurals",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「それらの皿（複数形）」を表すフランス語（定冠詞複数＋名詞複数形）を入力してください。\n(Traduisez: the plates)",
+    "options": [
+      "l'assiette",
+      "les assiette",
+      "les assiettes",
+      "des assiettes"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "les assiettes",
+      "Les assiettes"
+    ],
+    "explanation": "特定されたお皿の複数形は les assiettes です。"
+  },
+  {
+    "id": "q_career_0_2_6_c",
+    "tags": [
+      "#numbers",
+      "#applied",
+      "#A1"
+    ],
+    "text": "「20」を意味するフランス語の数字を入力してください。\n(Entrez le nombre '20'.)",
+    "options": [
+      "dix",
+      "vingt",
+      "trente",
+      "deux dix"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "vingt",
+      "Vingt"
+    ],
+    "explanation": "20はフランス語で vingt と書きます。"
+  },
+  {
+    "id": "q_career_0_2_7",
+    "tags": [
+      "#negation",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「私はオーブン（four / 男性名詞）を持っていません」は「Je n'ai pas ___ four.」となります。空欄に入る言葉を入力してください。\n(Entrez la préposition de négation.)",
+    "options": [
+      "un",
+      "de",
+      "le",
+      "pas"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "de",
+      "De"
+    ],
+    "explanation": "否定文では直接目的語の不定冠詞は de に変化します。"
+  },
+  {
+    "id": "q_career_0_2_8",
+    "tags": [
+      "#numbers",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「18」を表すフランス語の数字を入力してください（ハイフンを含めてください）。\n(Entrez le nombre '18'.)",
+    "options": [
+      "dix huit",
+      "dix-huit",
+      "dix-sept",
+      "dix-neuf"
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "dix-huit",
+      "Dix-huit"
+    ],
+    "explanation": "18は dix-huit (10 + 8) です。"
+  },
+  {
+    "id": "q_career_0_2_9",
+    "tags": [
+      "#verb_etre",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「彼らは厨房にいます（Ils ___ dans la cuisine.）」の空欄に入る、動詞 être の現在形活用を入力してください。\n(Entrez la forme de être pour 'Ils'.)",
+    "options": [
+      "suis",
+      "sommes",
+      "sont",
+      "ont"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "sont",
+      "Sont"
+    ],
+    "explanation": "主語が Ils のとき、être の現在形は sont です。"
+  },
+  {
+    "id": "q_career_0_2_9_b",
+    "tags": [
+      "#verb_avoir",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「私たちは2本のナイフを持っています（Nous ___ deux couteaux.）」の空欄に入る、動詞 avoir の現在形活用を入力してください。\n(Entrez la forme de avoir pour 'Nous'.)",
+    "options": [
+      "avons",
+      "avez",
+      "ont",
+      "sommes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons",
+      "Avons"
+    ],
+    "explanation": "主語が Nous のとき、avoir の現在形は avons になります。"
+  },
+  {
+    "id": "q_career_0_2_9_c",
+    "tags": [
+      "#verb_avoir",
+      "#mixed",
+      "#A1"
+    ],
+    "text": "「あなたは〜を持っている（Vous ___）」の空欄に入る、動詞 avoir の二人称複数現在形を入力してください。\n(Entrez la forme de avoir pour 'Vous'.)",
+    "options": [
+      "avez",
+      "avons",
+      "ont",
+      "êtes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avez",
+      "Avez"
+    ],
+    "explanation": "主語が Vous のとき、avoir の現在形は avez になります。"
+  },
+  {
+    "id": "q_scramble_1",
+    "tags": [
+      "#scramble",
+      "#verb_etre",
+      "#A1"
+    ],
+    "type": "scramble",
+    "text": "「私は新人です」となるようにフランス語を並び替えてください。",
+    "words": [
+      "nouveau.",
+      "Je",
+      "suis"
+    ],
+    "answer": "Je suis nouveau.",
+    "acceptedAnswers": [
+      "Je suis nouveau.",
+      "je suis nouveau"
+    ],
+    "explanation": "Je（私は） + suis（である） + nouveau（新しい・新人）の順になります。"
+  },
+  {
+    "id": "q_cloze_1",
+    "tags": [
+      "#cloze",
+      "#verb_avoir",
+      "#A1"
+    ],
+    "type": "cloze",
+    "text": "空欄に入る正しい動詞を入力または選択してください。\n私たちは包丁を持っています。: Nous [avons] des couteaux.",
+    "clozeText": "Nous [avons] des couteaux.",
+    "options": [
+      "avons",
+      "avez",
+      "ont",
+      "sommes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons"
+    ],
+    "explanation": "主語が Nous のとき、avoir の現在活用は avons です。"
+  },
+  {
+    "id": "q_matching_1",
+    "tags": [
+      "#matching",
+      "#greetings",
+      "#A1"
+    ],
+    "type": "matching",
+    "text": "正しいペアを結びつけてください。",
+    "pairs": [
+      {
+        "left": "Bonjour",
+        "right": "こんにちは"
+      },
+      {
+        "left": "Merci",
+        "right": "ありがとう"
+      },
+      {
+        "left": "S'il vous plaît",
+        "right": "お願いします"
+      }
+    ],
+    "explanation": "挨拶表現の正しい日本語訳のペアです。"
+  },
+  {
+    "id": "q_0_1_1",
+    "tags": [
+      "#marseille_culture",
+      "#A1"
+    ],
+    "text": "マルセイユを含むプロヴァンス地方の伝統料理ではないものを選べ。\n(Quel plat n'est pas une spécialité de Provence ?)",
+    "options": [
+      "Bouillabaisse(ブイヤベース)",
+      "Ratatouille(ラタトゥイユ)",
+      "Daube provençale(ドーブ・プロヴァンサル)",
+      "Quiche lorraine(キッシュロレーヌ)"
+    ],
+    "answerIndex": 3,
+    "acceptedAnswers": [
+      "Quiche lorraine",
+      "quiche lorraine"
+    ],
+    "explanation": "Quiche lorraine（キッシュ・ロレーヌ）はフランス東北部ロレーヌ地方の伝統料理です。その他の料理はすべてプロヴァンス地方の名物（spécialité）です。"
+  },
+  {
+    "id": "q_0_1_2",
+    "tags": [
+      "#marseille_culture",
+      "#A1"
+    ],
+    "text": "ブイヤベース(Bouillabaisse)を作るのに最適な食材の組み合わせを選べ。\n(Quels ingrédients sont les meilleurs pour préparer une bouillabaisse ?)",
+    "options": [
+      "Poisson, tomate, ail, huile d'olive (魚・トマト・にんにく・オリーブオイル)",
+      "Bœuf, carotte, vin rouge, oignon (牛肉・にんじん・赤ワイン・玉ねぎ)",
+      "Aubergine, courgette, tomate, poivron (ナス・ズッキーニ・トマト・ピーマン)",
+      "Poulet, champignon, vin blanc, crème (鶏肉・きのこ・白ワイン・クリーム)"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Poisson, tomate, ail, huile d'olive",
+      "poisson, tomate, ail, huile d'olive"
+    ],
+    "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。"
+  },
+  {
+    "id": "q_0_1_3",
+    "tags": [
+      "#verb_etre",
+      "#A1"
+    ],
+    "text": "文脈に合う正しいフランス語の並びを選べ。\n(Tu ___ le chevalier de Camille. / 君はカミーユの騎士です)",
+    "options": [
+      "Tu es le chevalier de Camille.",
+      "Tu suis le chevalier de Camille.",
+      "Tu as le chevalier de Camille.",
+      "Tu fait le chevalier de Camille."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Tu es le chevalier de Camille.",
+      "tu es le chevalier de camille"
+    ],
+    "explanation": "正解はA。「Tu es ～」はêtre（〜である）の二人称単数活用で、「君は〜です」という意味になります。"
+  },
+  {
+    "id": "q_0_2_1_1",
+    "tags": [
+      "#greetings",
+      "#A1"
+    ],
+    "text": "八百屋に対して、丁寧に「こんにちは。野菜をください」と伝えるのに最も適切なものはどれか。\n(Quel est le plus approprié ?)",
+    "options": [
+      "Bonjour ! Je voudrais acheter des légumes.",
+      "Bonne nuit ! Je voudrais acheter des légumes.",
+      "Au revoir ! Je voudrais acheter des légumes.",
+      "Merci ! Je voudrais acheter des légumes."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Bonjour ! Je voudrais acheter des légumes.",
+      "bonjour ! je voudrais acheter des legumes."
+    ],
+    "explanation": "Bonjour は日中の一般的な挨拶「こんにちは」です。Je voudrais + 動詞の原形（acheter=買う）で「〜したいです」という丁寧な表現になります。"
+  },
+  {
+    "id": "q_0_2_1_2",
+    "tags": [
+      "#vegetables",
+      "#A1"
+    ],
+    "text": "「トマトを4個ください。」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
+    "options": [
+      "Je voudrais quatre tomates.",
+      "Je voudrais deux tomates.",
+      "Je mange quatre tomates.",
+      "Quatre tomates, merci."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je voudrais quatre tomates.",
+      "je voudrais quatre tomates"
+    ],
+    "explanation": "「Je voudrais + 数量 + 名詞」で丁寧な注文になります。quatre は「4」、tomates は「トマト」です。"
+  },
+  {
+    "id": "q_0_2_1_3",
+    "tags": [
+      "#vegetables",
+      "#A1"
+    ],
+    "text": "「玉ねぎを1個ください」と伝える正しいフランス語を選べ。\n(Choisissez la bonne phrase.)",
+    "options": [
+      "Je voudrais un oignon.",
+      "Tu voudrais un oignon.",
+      "Je suis un oignon.",
+      "J'ai un oignon."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je voudrais un oignon.",
+      "je voudrais un oignon"
+    ],
+    "explanation": "Je voudrais（私は〜が欲しいです）は、買い物や注文の際に最もよく使われる表現です。oignon は「玉ねぎ」です。"
+  },
+  {
+    "id": "q_0_2_2_1",
+    "tags": [
+      "#ingredients",
+      "#A1"
+    ],
+    "text": "ブイヤベース用として最も適切な材料を指す単語はどれか。\n(Choisissez le bon ingrédient pour la bouillabaisse.)",
+    "options": [
+      "poisson",
+      "bœuf",
+      "poulet",
+      "porc"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "poisson",
+      "Poisson"
+    ],
+    "explanation": "poisson は「魚」を意味します。ブイヤベースは地中海の魚介をふんだんに使ったスープ料理です。"
+  },
+  {
+    "id": "q_0_2_2_2",
+    "tags": [
+      "#units",
+      "#A1"
+    ],
+    "text": "「魚を1kgください」と注文する正しい表現を選べ。\n(Choisissez la bonne phrase.)",
+    "options": [
+      "Je voudrais un kilo de poisson.",
+      "Je voudrais poisson un kilo.",
+      "Un poisson kilo.",
+      "Merci un kilo."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je voudrais un kilo de poisson.",
+      "je voudrais un kilo de poisson"
+    ],
+    "explanation": "分量を表すときは「数 + kilo(s) + de + 名詞」の語順になります。"
+  },
+  {
+    "id": "q_0_3_1_1",
+    "tags": [
+      "#greetings",
+      "#A1"
+    ],
+    "text": "「助けてください！」に当てはまるフランス語は？\n(Comment dit-on 'Help me, please' ?)",
+    "options": [
+      "Regardez-moi, s'il vous plaît !",
+      "Mangez-moi, s'il vous plaît !",
+      "Aidez-moi, s'il vous plaît !",
+      "Attendez-moi, s'il vous plaît !"
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Aidez-moi, s'il vous plaît !",
+      "aidez-moi, s'il vous plaît !"
+    ],
+    "explanation": "aider（助ける）の命令形 Aidez に moi（私を）と s'il vous plaît（お願いします）を繋げて「助けてください」となります。"
+  },
+  {
+    "id": "q_0_3_1_2",
+    "tags": [
+      "#verb_etre",
+      "#A1"
+    ],
+    "text": "「彼女はカミーユです。」に当てはまるフランス語は？\n(Traduisez: She is Camille.)",
+    "options": [
+      "Elle est Camille.",
+      "Il est Camille.",
+      "Elle a Camille.",
+      "Elle suis Camille."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Elle est Camille.",
+      "elle est camille"
+    ],
+    "explanation": "Elle（彼女）に動詞 être（〜である）の三人称単数形 est を組み合わせて「Elle est Camille.」となります。"
+  },
+  {
+    "id": "q_0_3_1_3",
+    "tags": [
+      "#subject_pronouns",
+      "#A1"
+    ],
+    "text": "「私は彼女を守ります。」に当てはまるフランス語は？\n(Traduisez: I protect Camille.)",
+    "options": [
+      "Je suis Camille.",
+      "Je protège Camille.",
+      "J'ai Camille.",
+      "Je mange Camille."
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Je protège Camille.",
+      "je protege camille"
+    ],
+    "explanation": "protéger（守る）の一人称単数現在形 protège を用いて「Je protège Camille.」となります。"
+  },
+  {
+    "id": "q_0_3_2_1",
+    "tags": [
+      "#units",
+      "#A1"
+    ],
+    "text": "市場で店員に丁寧に「野菜を2kgください」と注文するとき、最も自然な表現はどれか。\n(Entrez la phrase correcte.)",
+    "options": [
+      "Je voudrais deux kilos de légumes.",
+      "Je veux deux kilo des légumes.",
+      "Je voudrais légumes deux kilos.",
+      "Je suis deux kilos de légumes."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je voudrais deux kilos de légumes.",
+      "je voudrais deux kilos de legumes"
+    ],
+    "explanation": "「Je voudrais + 数量 + de + 名詞」で丁寧な注文になります。"
+  },
+  {
+    "id": "q_0_3_2_2",
+    "tags": [
+      "#units",
+      "#A1"
+    ],
+    "text": "市場で「魚を1kg、肉を2kg、りんごを500gください」と正しく注文しているものはどれか。\n(Choisissez la phrase correcte.)",
+    "options": [
+      "Je voudrais un kilo poisson, deux kilos viande, cinq cents grammes pommes.",
+      "Je voudrais un kilo de poisson, two kilos de viande, cinq cents grammes de pommes.",
+      "Je voudrais un kilo de poisson, deux kilos de viande, cinq cents grammes de pommes.",
+      "Je voudrais un poisson kilo, deux viande kilos, pommes grammes."
+    ],
+    "answerIndex": 2,
+    "acceptedAnswers": [
+      "Je voudrais un kilo de poisson, deux kilos de viande, cinq cents grammes de pommes.",
+      "je voudrais un kilo de poisson, deux kilos de viande, cinq cents grammes de pommes"
+    ],
+    "explanation": "数量を表現する際は「数 + 単位 + de + 名詞」となります。kilo や gramme の後に de が必須です。"
+  },
+  {
+    "id": "q_0_3_2_3",
+    "tags": [
+      "#nationality",
+      "#A1"
+    ],
+    "text": "市場で出会った人について「彼らは日本人です」と正しく表現しているものはどれか。\n(Choisissez la phrase correcte.)",
+    "options": [
+      "Ils êtes japonais.",
+      "Ils sont Japonais.",
+      "Ils être japonais.",
+      "Ils ont japonais."
+    ],
+    "answerIndex": 1,
+    "acceptedAnswers": [
+      "Ils sont Japonais.",
+      "ils sont japonais"
+    ],
+    "explanation": "Ils（彼ら）に対する être の活用は sont となります。また、国籍・民族を表す名詞は語頭を大文字（Japonais）にします。"
+  },
+  {
+    "id": "q_0_3_2_4",
+    "tags": [
+      "#subject_pronouns",
+      "#A1"
+    ],
+    "text": "戦闘中、仲間が「彼を守ってください！」と叫びました。正しいフランス語はどれか。\n(Traduisez: Protect him!)",
+    "options": [
+      "Protégez-le !",
+      "Le protégez !",
+      "Protéger lui !",
+      "Vous proteger-le !"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Protégez-le !",
+      "protegez-le"
+    ],
+    "explanation": "動詞protéger（守る）の命令形「Protégez !」の後に、目的語代名詞「le（彼を）」をハイフンで繋いで「Protégez-le !」とします。"
+  },
+  {
+    "id": "q_0_3_2_5",
+    "tags": [
+      "#greetings",
+      "#A1"
+    ],
+    "text": "「こんにちは、マダム」に当てはまる最も適切なフランス語はどれか。\n(Traduisez: Hello, Madame.)",
+    "options": [
+      "Bonjour, Madame.",
+      "Au revoir, Madame.",
+      "Merci, Madame.",
+      "Bonne nuit, Madame."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Bonjour, Madame.",
+      "bonjour, madame"
+    ],
+    "explanation": "Bonjour は昼間の一般的なあいさつ「こんにちは」です。"
+  },
+  {
+    "id": "q_0_3_2_6",
+    "tags": [
+      "#nationality",
+      "#A1"
+    ],
+    "text": "「私たちは日本人です」に当てはまる正しいフランス語はどれか。\n(Traduisez: We are Japanese.)",
+    "options": [
+      "Nous sommes japonais.",
+      "Nous êtes japonais.",
+      "Nous suis japonais.",
+      "Nous es japonais."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Nous sommes japonais.",
+      "nous sommes japonais"
+    ],
+    "explanation": "Nous（私たち）に対する être の活用は sommes になります。"
+  },
+  {
+    "id": "q_placeholder_noun_gender",
+    "tags": [
+      "#noun_gender",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#noun_gender」に合致する問題文がここに追加されます。 (Placeholder question for #noun_gender)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#noun_gender」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_demonstrative_cest",
+    "tags": [
+      "#demonstrative_cest",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#demonstrative_cest」に合致する問題文がここに追加されます。 (Placeholder question for #demonstrative_cest)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#demonstrative_cest」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_basic_adjectives",
+    "tags": [
+      "#basic_adjectives",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#basic_adjectives」に合致する問題文がここに追加されます。 (Placeholder question for #basic_adjectives)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#basic_adjectives」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_pronunciation",
+    "tags": [
+      "#pronunciation",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#pronunciation」に合致する問題文がここに追加されます。 (Placeholder question for #pronunciation)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#pronunciation」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_regular_verbs_1_2",
+    "tags": [
+      "#regular_verbs_1_2",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#regular_verbs_1_2」に合致する問題文がここに追加されます。 (Placeholder question for #regular_verbs_1_2)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#regular_verbs_1_2」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_questions",
+    "tags": [
+      "#questions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#questions」に合致する問題文がここに追加されます。 (Placeholder question for #questions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#questions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_question_words",
+    "tags": [
+      "#question_words",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#question_words」に合致する問題文がここに追加されます。 (Placeholder question for #question_words)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#question_words」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_prepositions",
+    "tags": [
+      "#prepositions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#prepositions」に合致する問題文がここに追加されます。 (Placeholder question for #prepositions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#prepositions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_three_verb_groups",
+    "tags": [
+      "#three_verb_groups",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#three_verb_groups」に合致する問題文がここに追加されます。 (Placeholder question for #three_verb_groups)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#three_verb_groups」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_transitive_intransitive",
+    "tags": [
+      "#transitive_intransitive",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#transitive_intransitive」に合致する問題文がここに追加されます。 (Placeholder question for #transitive_intransitive)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#transitive_intransitive」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_indicative_present",
+    "tags": [
+      "#indicative_present",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#indicative_present」に合致する問題文がここに追加されます。 (Placeholder question for #indicative_present)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#indicative_present」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_verb_conjugation_patterns",
+    "tags": [
+      "#verb_conjugation_patterns",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#verb_conjugation_patterns」に合致する問題文がここに追加されます。 (Placeholder question for #verb_conjugation_patterns)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#verb_conjugation_patterns」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_irregular_verbs_major",
+    "tags": [
+      "#irregular_verbs_major",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#irregular_verbs_major」に合致する問題文がここに追加されます。 (Placeholder question for #irregular_verbs_major)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#irregular_verbs_major」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_possessive_adjectives",
+    "tags": [
+      "#possessive_adjectives",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#possessive_adjectives」に合致する問題文がここに追加されます。 (Placeholder question for #possessive_adjectives)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#possessive_adjectives」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_demonstrative_adjectives",
+    "tags": [
+      "#demonstrative_adjectives",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#demonstrative_adjectives」に合致する問題文がここに追加されます。 (Placeholder question for #demonstrative_adjectives)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#demonstrative_adjectives」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_adjective_agreement",
+    "tags": [
+      "#adjective_agreement",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#adjective_agreement」に合致する問題文がここに追加されます。 (Placeholder question for #adjective_agreement)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#adjective_agreement」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_adjective_position",
+    "tags": [
+      "#adjective_position",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#adjective_position」に合致する問題文がここに追加されます。 (Placeholder question for #adjective_position)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#adjective_position」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_interrogative_adjectives",
+    "tags": [
+      "#interrogative_adjectives",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#interrogative_adjectives」に合致する問題文がここに追加されます。 (Placeholder question for #interrogative_adjectives)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#interrogative_adjectives」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_partitive_articles",
+    "tags": [
+      "#partitive_articles",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#partitive_articles」に合致する問題文がここに追加されます。 (Placeholder question for #partitive_articles)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#partitive_articles」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_near_future",
+    "tags": [
+      "#near_future",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#near_future」に合致する問題文がここに追加されます。 (Placeholder question for #near_future)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#near_future」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_imperative",
+    "tags": [
+      "#imperative",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#imperative」に合致する問題文がここに追加されます。 (Placeholder question for #imperative)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#imperative」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_object_pronouns_basic",
+    "tags": [
+      "#object_pronouns_basic",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#object_pronouns_basic」に合致する問題文がここに追加されます。 (Placeholder question for #object_pronouns_basic)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#object_pronouns_basic」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_irregular_verbs_1",
+    "tags": [
+      "#irregular_verbs_1",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#irregular_verbs_1」に合致する問題文がここに追加されます。 (Placeholder question for #irregular_verbs_1)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#irregular_verbs_1」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_contracted_articles",
+    "tags": [
+      "#contracted_articles",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#contracted_articles」に合致する問題文がここに追加されます。 (Placeholder question for #contracted_articles)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#contracted_articles」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_near_past",
+    "tags": [
+      "#near_past",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#near_past」に合致する問題文がここに追加されます。 (Placeholder question for #near_past)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#near_past」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_passive_pronominal_verbs",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#passive_pronominal_verbs」に合致する問題文がここに追加されます。 (Placeholder question for #passive_pronominal_verbs)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#passive_pronominal_verbs」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_past_compose",
+    "tags": [
+      "#past_compose",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#past_compose」に合致する問題文がここに追加されます。 (Placeholder question for #past_compose)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#past_compose」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_auxiliary_selection",
+    "tags": [
+      "#auxiliary_selection",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#auxiliary_selection」に合致する問題文がここに追加されます。 (Placeholder question for #auxiliary_selection)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#auxiliary_selection」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_past_participle_agreement",
+    "tags": [
+      "#past_participle_agreement",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#past_participle_agreement」に合致する問題文がここに追加されます。 (Placeholder question for #past_participle_agreement)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#past_participle_agreement」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_comparative",
+    "tags": [
+      "#comparative",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#comparative」に合致する問題文がここに追加されます。 (Placeholder question for #comparative)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#comparative」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_superlative",
+    "tags": [
+      "#superlative",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#superlative」に合致する問題文がここに追加されます。 (Placeholder question for #superlative)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#superlative」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_imperative_with_pronouns",
+    "tags": [
+      "#imperative_with_pronouns",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#imperative_with_pronouns」に合致する問題文がここに追加されます。 (Placeholder question for #imperative_with_pronouns)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#imperative_with_pronouns」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_object_pronouns_direct_indirect",
+    "tags": [
+      "#object_pronouns_direct_indirect",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#object_pronouns_direct_indirect」に合致する問題文がここに追加されます。 (Placeholder question for #object_pronouns_direct_indirect)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#object_pronouns_direct_indirect」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_imparfait",
+    "tags": [
+      "#imparfait",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#imparfait」に合致する問題文がここに追加されます。 (Placeholder question for #imparfait)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#imparfait」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_imparfait_vs_past_compose",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#imparfait_vs_past_compose」に合致する問題文がここに追加されます。 (Placeholder question for #imparfait_vs_past_compose)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#imparfait_vs_past_compose」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_relative_pronouns_basic",
+    "tags": [
+      "#relative_pronouns_basic",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#relative_pronouns_basic」に合致する問題文がここに追加されます。 (Placeholder question for #relative_pronouns_basic)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#relative_pronouns_basic」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_conjunctions_basic",
+    "tags": [
+      "#conjunctions_basic",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#conjunctions_basic」に合致する問題文がここに追加されます。 (Placeholder question for #conjunctions_basic)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#conjunctions_basic」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_gerund_participle",
+    "tags": [
+      "#gerund_participle",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#gerund_participle」に合致する問題文がここに追加されます。 (Placeholder question for #gerund_participle)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#gerund_participle」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_conditional_present",
+    "tags": [
+      "#conditional_present",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#conditional_present」に合致する問題文がここに追加されます。 (Placeholder question for #conditional_present)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#conditional_present」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_polite_expressions",
+    "tags": [
+      "#polite_expressions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#polite_expressions」に合致する問題文がここに追加されます。 (Placeholder question for #polite_expressions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#polite_expressions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_si_clauses_present",
+    "tags": [
+      "#si_clauses_present",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#si_clauses_present」に合致する問題文がここに追加されます。 (Placeholder question for #si_clauses_present)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#si_clauses_present」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_pronouns_y_en",
+    "tags": [
+      "#pronouns_y_en",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#pronouns_y_en」に合致する問題文がここに追加されます。 (Placeholder question for #pronouns_y_en)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#pronouns_y_en」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_subjunctive_basic",
+    "tags": [
+      "#subjunctive_basic",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#subjunctive_basic」に合致する問題文がここに追加されます。 (Placeholder question for #subjunctive_basic)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#subjunctive_basic」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_emotions",
+    "tags": [
+      "#emotions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#emotions」に合致する問題文がここに追加されます。 (Placeholder question for #emotions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#emotions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_obligation_il_faut_que",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#obligation_il_faut_que」に合致する問題文がここに追加されます。 (Placeholder question for #obligation_il_faut_que)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#obligation_il_faut_que」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_conjunctions_advanced",
+    "tags": [
+      "#conjunctions_advanced",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#conjunctions_advanced」に合致する問題文がここに追加されます。 (Placeholder question for #conjunctions_advanced)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#conjunctions_advanced」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_logical_connectives",
+    "tags": [
+      "#logical_connectives",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#logical_connectives」に合致する問題文がここに追加されます。 (Placeholder question for #logical_connectives)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#logical_connectives」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_passive_voice",
+    "tags": [
+      "#passive_voice",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#passive_voice」に合致する問題文がここに追加されます。 (Placeholder question for #passive_voice)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#passive_voice」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_pronominal_verbs",
+    "tags": [
+      "#pronominal_verbs",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#pronominal_verbs」に合致する問題文がここに追加されます。 (Placeholder question for #pronominal_verbs)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#pronominal_verbs」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_causative_faire",
+    "tags": [
+      "#causative_faire",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#causative_faire」に合致する問題文がここに追加されます。 (Placeholder question for #causative_faire)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#causative_faire」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_pluperfect",
+    "tags": [
+      "#pluperfect",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#pluperfect」に合致する問題文がここに追加されます。 (Placeholder question for #pluperfect)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#pluperfect」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_conditional_past",
+    "tags": [
+      "#conditional_past",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#conditional_past」に合致する問題文がここに追加されます。 (Placeholder question for #conditional_past)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#conditional_past」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_hypothetical_si_clauses",
+    "tags": [
+      "#hypothetical_si_clauses",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#hypothetical_si_clauses」に合致する問題文がここに追加されます。 (Placeholder question for #hypothetical_si_clauses)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#hypothetical_si_clauses」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_grammar_review",
+    "tags": [
+      "#grammar_review",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#grammar_review」に合致する問題文がここに追加されます。 (Placeholder question for #grammar_review)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#grammar_review」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_nuance_expressions",
+    "tags": [
+      "#nuance_expressions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#nuance_expressions」に合致する問題文がここに追加されます。 (Placeholder question for #nuance_expressions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#nuance_expressions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_synonyms",
+    "tags": [
+      "#synonyms",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#synonyms」に合致する問題文がここに追加されます。 (Placeholder question for #synonyms)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#synonyms」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_polite_criticism",
+    "tags": [
+      "#polite_criticism",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#polite_criticism」に合致する問題文がここに追加されます。 (Placeholder question for #polite_criticism)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#polite_criticism」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_newspaper_style",
+    "tags": [
+      "#newspaper_style",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#newspaper_style」に合致する問題文がここに追加されます。 (Placeholder question for #newspaper_style)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#newspaper_style」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_abstract_vocabulary",
+    "tags": [
+      "#abstract_vocabulary",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#abstract_vocabulary」に合致する問題文がここに追加されます。 (Placeholder question for #abstract_vocabulary)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#abstract_vocabulary」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_metaphorical_expressions",
+    "tags": [
+      "#metaphorical_expressions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#metaphorical_expressions」に合致する問題文がここに追加されます。 (Placeholder question for #metaphorical_expressions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#metaphorical_expressions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_cultural_expressions",
+    "tags": [
+      "#cultural_expressions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#cultural_expressions」に合致する問題文がここに追加されます。 (Placeholder question for #cultural_expressions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#cultural_expressions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_debate_expressions",
+    "tags": [
+      "#debate_expressions",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#debate_expressions」に合致する問題文がここに追加されます。 (Placeholder question for #debate_expressions)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#debate_expressions」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_presentation_style",
+    "tags": [
+      "#presentation_style",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#presentation_style」に合致する問題文がここに追加されます。 (Placeholder question for #presentation_style)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#presentation_style」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_culinary_philosophy",
+    "tags": [
+      "#culinary_philosophy",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#culinary_philosophy」に合致する問題文がここに追加されます。 (Placeholder question for #culinary_philosophy)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#culinary_philosophy」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  },
+  {
+    "id": "q_placeholder_cuisine",
+    "tags": [
+      "#cuisine",
+      "#placeholder"
+    ],
+    "type": "choice",
+    "text": "【プレースホルダー問題】今後、タグ「#cuisine」に合致する問題文がここに追加されます。 (Placeholder question for #cuisine)",
+    "options": [
+      "A (正解選択肢)",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "A (正解選択肢)",
+      "a"
+    ],
+    "explanation": "これは新規学習項目「#cuisine」のためのプレースホルダー問題です。問題の追加をお待ちください。"
+  }
+]

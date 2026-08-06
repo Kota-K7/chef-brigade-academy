@@ -367,9 +367,20 @@ function initYouGlishSidebar() {
 // --- Service Worker registration for PWA installability (Android/Chrome) ---
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js')
-      .then(reg => console.log('ServiceWorker registered:', reg.scope))
-      .catch(err => console.warn('ServiceWorker registration failed:', err));
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      // Unregister any active service workers on localhost to clean up development environment
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (let registration of registrations) {
+          registration.unregister().then(() => {
+            console.log('Local ServiceWorker unregistered successfully.');
+          });
+        }
+      });
+    } else {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('ServiceWorker registered:', reg.scope))
+        .catch(err => console.warn('ServiceWorker registration failed:', err));
+    }
   });
 }
 

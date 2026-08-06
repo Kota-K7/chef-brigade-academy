@@ -820,7 +820,21 @@ function renderQuizContent(container) {
     const allVocabulary = state.db?.vocabulary || [];
     let vocabularyList = allVocabulary.filter(item => includeGeneral || item.is_professional);
 
-    if (selectedCategory !== 'ALL') {
+    const grammars = state.db?.grammar || [];
+    const grammarExamplesMapped = grammars.flatMap(item => {
+      return (item.examples || []).map(ex => ({
+        id: `spelling_grammar_${item.id}_${ex.fr}`,
+        french: ex.fr,
+        japanese: ex.ja,
+        category: "grammar",
+        is_professional: true,
+        definition_fr: `Thème de grammaire: ${item.topic}`
+      }));
+    });
+
+    if (selectedCategory === 'ALL') {
+      vocabularyList = vocabularyList.concat(grammarExamplesMapped);
+    } else {
       if (selectedCategory === 'meat') {
         vocabularyList = vocabularyList.filter(item => 
           item.tags?.includes('meat') || item.tags?.includes('beef') || item.tags?.includes('pork') || item.tags?.includes('poultry') || /viande|boeuf|porc|poulet/i.test(item.french)
@@ -837,8 +851,12 @@ function renderQuizContent(container) {
         vocabularyList = vocabularyList.filter(item => 
           item.tags?.includes('science') || /réaction|émulsion|liaison/i.test(item.french)
         );
+      } else if (selectedCategory === 'map') {
+        vocabularyList = vocabularyList.filter(item => 
+          item.tags?.includes('map') || item.tags?.includes('region') || /région|ville|carte|terroir/i.test(item.french)
+        );
       } else if (selectedCategory === 'grammar') {
-        vocabularyList = []; // Spelling is based on vocabulary words
+        vocabularyList = grammarExamplesMapped;
       }
     }
 
