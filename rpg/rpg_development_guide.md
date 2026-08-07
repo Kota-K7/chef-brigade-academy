@@ -22,7 +22,7 @@
 | **`#plurals`** | 第0章 | 第0-2話 | 名詞・形容詞の複数形、複数定冠詞 | `ref_plurals` |
 | **`#units`** | 第0章 | 第0-2話 | 計量単位、部分冠詞的な `kilo(s) de...` | `ref_cuisine_vocabulary` |
 | **`#nationality`** | 第0章 | - | 国籍の形容詞表現、主頭大文字ルール | `ref_adjectives` |
-| **`#marseille_culture`**| 第0章 | - | プロヴァンス地方・マルセイユの歴史、食文化 | (歴史解説) |
+| **`#regional_culture`**| 第0章 | - | 各地方の郷土料理・歴史文化 | (歴史解説) |
 | **`#three_verb_groups`**| - | 第1-1話 | 動詞の3つのグループ（第1、第2、第3群） | `ref_verb_groups` |
 | **`#transitive_intransitive`**| - | 第1-1話 | 自動詞・他動詞の区別 | - |
 | **`#indicative_present`**| - | 第1-1話 | 直説法現在の規則活用と概念 | `ref_verb_groups` |

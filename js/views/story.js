@@ -207,33 +207,27 @@ async function startEpisode(container, chapterNum, episodeId) {
     container.innerHTML = `<div class="story-loader"><div class="spinner"></div><p>物語を読み込んでいます...</p></div>`;
     
     const filePath = chapterNum === 'career_0' ? 'rpg/story/chapter_career_0.json' : `rpg/history/chapter_${chapterNum}.json`;
-    const [storyRes, qDbRes] = await Promise.all([
+    const [storyRes, qDbRes, refRes] = await Promise.all([
       fetch(filePath),
-      fetch('rpg/questions_db.json')
+      fetch('rpg/questions_db.json'),
+      fetch('data/grammar_reference.json').catch(() => null)
     ]);
     if (!storyRes.ok) throw new Error("Story file could not be loaded");
     if (!qDbRes.ok) throw new Error("Questions database could not be loaded");
     
     const chapterData = await storyRes.json();
     const questionsDb = await qDbRes.json();
+    let grammarRefs = [];
+    if (refRes && refRes.ok) {
+      grammarRefs = await refRes.json();
+    }
     state.questionsDb = questionsDb;
+    state.grammarRefs = grammarRefs;
     
     const episode = chapterData.episodes.find(ep => ep.episodeId === episodeId);
     if (!episode) {
       throw new Error("Episode data not found in chapter file");
     }
-    
-    runSequenceEngine(container, episode, chapterNum, chapterData);
-  } catch (err) {
-    container.innerHTML = `
-      <div class="alert alert-info" style="border-left-color: var(--color-error); background-color: #FFEBEE; color: var(--color-error)">
-        <h3>物語の読み込みエラー</h3>
-        <p>${err.message}</p>
-        <button class="action-btn" onclick="location.reload()">再読み込み</button>
-      </div>
-    `;
-  }
-}
     
     runSequenceEngine(container, episode, chapterNum, chapterData);
   } catch (err) {
@@ -258,7 +252,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       <!-- Main Game Board -->
       <div class="rpg-main-viewport" id="rpg-viewport">
         <!-- Tutorial overlay -->
-        <div id="rpg-tutorial-overlay" class="rpg-overlay" style="display: none;"></div>
+        <div id="rpg-tutorial-overlay" class="rpg-overlay" style="display: none; flex-direction: column;"></div>
         
         <!-- Character Sprite Layer -->
         <div id="rpg-character-layer" class="rpg-character-layer"></div>
@@ -373,20 +367,254 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     const charLayer = container.querySelector('#rpg-character-layer');
     if (charLayer) charLayer.innerHTML = '';
     
-    tutorialOverlay.innerHTML = `
-      <div class="tutorial-card">
-        <h3>📖 ${step.title}</h3>
-        <p style="white-space: pre-line; line-height: 1.6; text-align: justify; margin: 1.2rem 0; font-size: 0.9rem;">${step.text}</p>
-        <button class="action-btn start-tut-btn" style="width: 100%; padding: 0.8rem; font-weight: 700;">冒険を開始する</button>
-      </div>
-    `;
     tutorialOverlay.style.display = 'flex';
+    tutorialOverlay.style.flexDirection = 'column';
+    
+    // Helper to extract French text from columns to read aloud
+    function getFrenchTextToSpeak(row, headers) {
+      const frIdx = headers.findIndex(h => h.includes("フランス語") || h.includes("Pronom") || h.includes("Exemple") || h.includes("活用形"));
+      if (frIdx !== -1) {
+        if (headers[frIdx].includes("活用形")) {
+          const subjectIdx = headers.findIndex(h => h.includes("人称") || h.includes("主語"));
+          if (subjectIdx !== -1) {
+            const subj = row[subjectIdx].split('(')[0].split('（')[0].trim();
+            const conj = row[frIdx].trim();
+            return `${subj} ${conj}`;
+          }
+        }
+        return row[frIdx].split('(')[0].split('（')[0].trim();
+      }
+      return row[0].split('(')[0].split('（')[0].trim();
+    }
 
-    tutorialOverlay.querySelector('.start-tut-btn').addEventListener('click', () => {
-      tutorialOverlay.style.display = 'none';
-      currentIndex++;
-      nextStep();
-    });
+    // Helper to speak using browser speech synthesis
+    function speakText(text) {
+      if (!text) return;
+      if (typeof speakFrench === 'function') {
+        speakFrench(text);
+      } else {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = 'fr-FR';
+        window.speechSynthesis.speak(u);
+      }
+    }
+
+    // Helper to parse table and replace "発音" with a speak button
+    function buildTableHtml(headers, rows) {
+      const cleanHeaders = [...headers];
+      const pronIdx = headers.findIndex(h => h.includes("発音") || h.includes("Pronunciation"));
+      
+      if (pronIdx !== -1) {
+        cleanHeaders[pronIdx] = "音声";
+      }
+      
+      return `
+        <table class="tutorial-table" style="width: 100%; border-collapse: collapse; margin-top: 0.4rem; margin-bottom: 0.6rem; font-size: 0.8rem; box-shadow: var(--shadow-sm); border-radius: var(--radius-sm); overflow: hidden; border: 1px solid rgba(197, 168, 128, 0.2);">
+           <thead>
+             <tr style="border-bottom: 2px solid rgba(197, 168, 128, 0.3); background: rgba(197, 168, 128, 0.08); color: var(--color-primary);">
+               ${cleanHeaders.map(h => `<th style="padding: 0.4rem; text-align: left; font-weight: 600;">${h}</th>`).join('')}
+             </tr>
+           </thead>
+           <tbody>
+             ${rows.map(row => {
+               const cells = row.map((cell, cidx) => {
+                 if (cidx === pronIdx) {
+                   const speakText = getFrenchTextToSpeak(row, headers);
+                   return `<td style="padding: 0.4rem; text-align: center;"><button class="play-audio-btn" data-french="${speakText}" style="background: none; border: none; cursor: pointer; font-size: 1.15rem; padding: 2px; line-height: 1; transition: transform 0.1s;" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">🔊</button></td>`;
+                 }
+                 return `<td style="padding: 0.4rem; line-height: 1.4;">${cell}</td>`;
+               });
+               return `<tr style="border-bottom: 1px solid rgba(197, 168, 128, 0.1); background: rgba(255,255,255,0.02);">${cells.join('')}</tr>`;
+             }).join('')}
+           </tbody>
+         </table>
+      `;
+    }
+
+    // Helper to render a reference section
+    function renderRefSection(section) {
+      if (!section) return '';
+      let html = '';
+      if (section.title) {
+        html += `<div class="ref-sec-title" style="font-weight: bold; margin-top: 0.6rem; margin-bottom: 0.3rem; color: var(--color-primary); font-size: 0.85rem;">${section.title}</div>`;
+      }
+      if (section.text) {
+        html += `<p style="line-height: 1.4; margin-bottom: 0.4rem; font-size: 0.8rem; color: var(--color-text-main);">${section.text}</p>`;
+      }
+      if (section.type === 'table' && section.headers && section.rows) {
+        html += buildTableHtml(section.headers, section.rows);
+      } else if (section.type === 'info') {
+        html += `
+          <div class="ref-sec-info-box" style="background: rgba(197, 168, 128, 0.08); border-left: 4px solid var(--color-accent); padding: 0.5rem; margin-top: 0.4rem; margin-bottom: 0.6rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.8rem; line-height: 1.45;">
+            ${section.content_ja ? `<div style="font-weight: 500;">${section.content_ja}</div>` : ''}
+            ${section.content_fr ? `<div style="color: var(--color-text-muted); font-size: 0.75rem; margin-top: 0.2rem;">${section.content_fr}</div>` : ''}
+          </div>
+        `;
+      }
+      return html;
+    }
+
+    function bindAudioButtons(targetContainer) {
+      targetContainer.querySelectorAll('.play-audio-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const text = btn.getAttribute('data-french');
+          speakText(text);
+        });
+      });
+    }
+
+    if (step.targets && step.targets.length > 0) {
+      // 1. Goal Step (Restricted to <= 360px height to prevent overflow/clipping)
+      tutorialOverlay.innerHTML = `
+        <div class="tutorial-card" style="max-width: 600px; width: 95%; max-height: 360px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; padding: 1rem 1.2rem;">
+          <div>
+            <h3 style="font-family: var(--font-serif); color: var(--color-primary); border-bottom: 2px solid var(--color-accent); padding-bottom: 0.4rem; margin-top: 0; margin-bottom: 0.6rem; font-size: 1.15rem;">📖 ${step.title || '今日の学習目標'}</h3>
+            ${step.goal ? `<p class="tutorial-goal" style="font-weight: bold; margin: 0.5rem 0; color: var(--color-accent); font-size: 0.85rem;">${step.goal}</p>` : ''}
+            <div class="tutorial-targets-container" style="background: rgba(197, 168, 128, 0.05); padding: 0.8rem; border-radius: var(--radius-md); border: 1px solid rgba(197,168,128,0.2); text-align: left; margin: 0.5rem 0; box-shadow: var(--shadow-sm); overflow-y: auto; max-height: 180px;">
+              <ul style="list-style: none; padding-left: 0; display: flex; flex-direction: column; gap: 0.6rem; margin: 0;">
+                ${step.targets.map(t => `<li style="display: flex; gap: 0.4rem; line-height: 1.4; font-size: 0.85rem; font-weight: 500;"><span style="color: var(--color-accent);">🎯</span><span>${t}</span></li>`).join('')}
+              </ul>
+            </div>
+          </div>
+          <button class="action-btn start-tut-btn" style="width: 100%; padding: 0.6rem; font-weight: 700; margin-top: 0.6rem; font-size: 0.9rem;">冒険を開始する</button>
+        </div>
+      `;
+      
+      tutorialOverlay.querySelector('.start-tut-btn').addEventListener('click', () => {
+        tutorialOverlay.style.display = 'none';
+        currentIndex++;
+        nextStep();
+      });
+      
+    } else if (step.pages && step.pages.length > 0) {
+      // 2. Paginated Explanation Step (Restricted to <= 280px card height, with start-battle button below the card)
+      tutorialOverlay.innerHTML = `
+        <div class="tutorial-card" style="max-width: 650px; width: 95%; max-height: 280px; height: 74%; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; padding: 0.8rem 1.2rem; margin-bottom: 0;">
+          <div>
+            <h3 style="font-family: var(--font-serif); color: var(--color-primary); margin-top: 0; margin-bottom: 0.3rem; font-size: 1.1rem; line-height: 1.2;">📖 ${step.title || '事前解説'}</h3>
+            ${step.goal ? `<p class="tutorial-goal" style="font-size: 0.75rem; color: var(--color-text-muted); margin: 0 0 0.4rem 0; border-bottom: 1px dashed rgba(197, 168, 128, 0.2); padding-bottom: 0.2rem; line-height: 1.2;">${step.goal}</p>` : ''}
+            
+            <div class="tutorial-page-content" style="overflow-y: auto; max-height: 150px; padding: 0.3rem; text-align: left; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.05); background: rgba(0,0,0,0.02); min-height: 110px; box-sizing: border-box;">
+              <!-- Dynamic page content will be injected here -->
+            </div>
+          </div>
+          
+          <div class="tutorial-pager" style="display: flex; align-items: center; justify-content: center; gap: 1.2rem; margin-top: 0.4rem; padding-top: 0.2rem; border-top: 1px solid rgba(0,0,0,0.05); user-select: none;">
+            <span class="prev-page-btn" style="cursor: pointer; font-size: 1.2rem; transition: transform 0.1s; color: var(--color-primary);" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">◀</span>
+            <span style="font-size: 0.8rem; font-weight: bold; color: var(--color-text-muted); min-width: 75px; text-align: center;">Page <span id="tut-page-curr">1</span> / <span id="tut-page-total">${step.pages.length}</span></span>
+            <span class="next-page-btn" style="cursor: pointer; font-size: 1.2rem; transition: transform 0.1s; color: var(--color-primary);" onmouseover="this.style.transform='scale(1.2)'" onmouseout="this.style.transform='scale(1)'">▶</span>
+          </div>
+        </div>
+        <button class="action-btn start-battle-btn" style="display: none; width: 90%; max-width: 320px; padding: 0.65rem 1rem; font-weight: bold; margin-top: 0.8rem; background: var(--color-accent); font-size: 0.95rem; box-shadow: var(--shadow-md); border-radius: var(--radius-sm); border: none; color: white; cursor: pointer; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); transition: transform 0.15s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">練習問題に挑戦する ⚔️</button>
+      `;
+      
+      const prevBtn = tutorialOverlay.querySelector('.prev-page-btn');
+      const nextBtn = tutorialOverlay.querySelector('.next-page-btn');
+      const startBattleBtn = tutorialOverlay.querySelector('.start-battle-btn');
+      let currentPage = 0;
+      
+      function renderPage(pageIdx) {
+        const page = step.pages[pageIdx];
+        const pageContentDiv = tutorialOverlay.querySelector('.tutorial-page-content');
+        
+        let pageHtml = `<h4 style="color: var(--color-accent); font-family: var(--font-serif); font-size: 0.95rem; margin-top: 0; margin-bottom: 0.3rem; border-bottom: 1px solid rgba(197, 168, 128, 0.15); padding-bottom: 0.15rem; line-height: 1.25;">${page.title}</h4>`;
+        
+        if (page.type === 'custom') {
+          if (page.text) {
+            pageHtml += `<p style="white-space: pre-line; line-height: 1.4; font-size: 0.8rem; margin: 0 0 0.4rem 0; color: var(--color-text-main);">${page.text}</p>`;
+          }
+          if (page.headers && page.rows) {
+            pageHtml += buildTableHtml(page.headers, page.rows);
+          }
+        } else if (page.referenceTopicId) {
+          const topic = state.grammarRefs ? state.grammarRefs.find(r => r.id === page.referenceTopicId) : null;
+          if (topic) {
+            if (topic.definition_ja) {
+              pageHtml += `<p style="font-size: 0.75rem; color: var(--color-text-main); font-weight: 500; margin: 0 0 0.4rem 0; line-height: 1.4;">${topic.definition_ja}</p>`;
+            }
+            if (page.sectionIndices && page.sectionIndices.length > 0) {
+              page.sectionIndices.forEach(secIdx => {
+                const sec = topic.sections[secIdx];
+                if (sec) {
+                  pageHtml += renderRefSection(sec);
+                }
+              });
+            } else if (topic.sections) {
+              topic.sections.forEach(sec => {
+                pageHtml += renderRefSection(sec);
+              });
+            }
+          } else {
+            pageHtml += `<p style="font-size: 0.8rem; color: var(--color-error);">解説データが見つかりませんでした。(${page.referenceTopicId})</p>`;
+          }
+        }
+        
+        pageContentDiv.innerHTML = pageHtml;
+        tutorialOverlay.querySelector('#tut-page-curr').innerText = pageIdx + 1;
+        
+        // Bind speak button clicks
+        bindAudioButtons(pageContentDiv);
+        
+        // Navigation states (using visibility to prevent layout shifts)
+        prevBtn.style.visibility = pageIdx === 0 ? 'hidden' : 'visible';
+        nextBtn.style.visibility = pageIdx === step.pages.length - 1 ? 'hidden' : 'visible';
+        
+        // Show start battle button below card only on final page
+        if (pageIdx === step.pages.length - 1) {
+          startBattleBtn.style.display = 'block';
+        } else {
+          startBattleBtn.style.display = 'none';
+        }
+        
+        // Scroll back to top of content page
+        pageContentDiv.scrollTop = 0;
+      }
+      
+      prevBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (currentPage > 0) {
+          currentPage--;
+          renderPage(currentPage);
+        }
+      });
+      
+      nextBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (currentPage < step.pages.length - 1) {
+          currentPage++;
+          renderPage(currentPage);
+        }
+      });
+      
+      startBattleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        tutorialOverlay.style.display = 'none';
+        currentIndex++;
+        nextStep();
+      });
+      
+      // Initialize first page
+      renderPage(0);
+      
+    } else {
+      // 3. Simple/History text tutorial fallback
+      tutorialOverlay.innerHTML = `
+        <div class="tutorial-card" style="max-width: 580px; width: 95%; max-height: 360px; box-sizing: border-box; padding: 1rem 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <h3 style="font-size: 1.15rem; margin-top: 0;">📖 ${step.title}</h3>
+            <p style="white-space: pre-line; line-height: 1.5; text-align: justify; margin: 0.8rem 0; font-size: 0.85rem; overflow-y: auto; max-height: 200px;">${step.text || ''}</p>
+          </div>
+          <button class="action-btn start-tut-btn" style="width: 100%; padding: 0.6rem; font-weight: 700; margin-top: 0.6rem; font-size: 0.9rem;">冒険を開始する</button>
+        </div>
+      `;
+      
+      tutorialOverlay.querySelector('.start-tut-btn').addEventListener('click', () => {
+        tutorialOverlay.style.display = 'none';
+        currentIndex++;
+        nextStep();
+      });
+    }
   }
 
   function showDialog(step) {
@@ -1356,155 +1584,6 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         playHitSound();
         playerHp = Math.max(0, playerHp - 2);
         fbTitle.innerText = `❌ 不正解！ (正解: ${question.answer})`;
-        fbTitle.className = "feedback-title text-error";
-        nextBtn.innerText = "もう一度挑戦する";
-        
-        viewport.classList.add('shake-vfx');
-        setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
-
-        nextBtn.onclick = () => {
-          renderBattleScreen();
-        };
-      }
-      
-      fbDesc.innerText = question.explanation;
-      feedbackDiv.style.display = 'block';
-    }
-
-    renderBattleScreen();
-  }
-        });
-
-        submitBtn.addEventListener('click', () => {
-          const userVal = inputField.value;
-          handleTypingAnswer(userVal, currentQ, inputField, submitBtn);
-        });
-
-        toggleRefBtn.addEventListener('click', () => {
-          toggleBattleReference(toggleRefBtn);
-        });
-      } else {
-        // Render Multiple Choice question
-        battlePane.innerHTML = `
-          ${hudHtml}
-          <div class="battle-question-box">
-            <div class="q-header">Question ${questionIndex + 1}</div>
-            <div class="q-body" style="white-space: pre-line;">${currentQ.text}</div>
-            
-            <div class="battle-options-list">
-              ${currentQ.options.map((opt, idx) => `
-                <button class="battle-opt-btn" data-idx="${idx}">${opt}</button>
-              `).join('')}
-            </div>
-
-            <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">📖 参考資料を表示</button>
-            
-            <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
-              <div class="feedback-title" id="fb-title"></div>
-              <p class="feedback-desc" id="fb-desc"></p>
-              <button class="action-btn next-q-btn" id="next-q-btn" style="width: 100%; margin-top: 0.8rem;">次の試練へ</button>
-            </div>
-          </div>
-        `;
-
-        const optBtns = battlePane.querySelectorAll('.battle-opt-btn');
-        const toggleRefBtn = battlePane.querySelector('.toggle-battle-ref-btn');
-
-        optBtns.forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            const selectedIdx = parseInt(e.target.getAttribute('data-idx'));
-            handleAnswer(selectedIdx, currentQ, optBtns);
-          });
-        });
-
-        toggleRefBtn.addEventListener('click', () => {
-          toggleBattleReference(toggleRefBtn);
-        });
-      }
-    }
-
-    function handleAnswer(selectedIdx, question, optBtns) {
-      optBtns.forEach(btn => btn.disabled = true);
-      
-      const feedbackDiv = battlePane.querySelector('#battle-feedback');
-      const fbTitle = battlePane.querySelector('#fb-title');
-      const fbDesc = battlePane.querySelector('#fb-desc');
-      const nextBtn = battlePane.querySelector('#next-q-btn');
-      
-      const isCorrect = selectedIdx === question.answerIndex;
-      
-      if (isCorrect) {
-        playCorrectSound();
-        enemyHp = Math.max(0, enemyHp - 1);
-        fbTitle.innerText = "✅ 正解！ (Très bien)";
-        fbTitle.className = "feedback-title text-success";
-        nextBtn.innerText = "次の試練へ";
-        
-        const enemyFill = battlePane.querySelector('.enemy-hp');
-        if (enemyFill) {
-          enemyFill.classList.add('flash-white');
-        }
-
-        nextBtn.onclick = () => {
-          questionIndex++;
-          renderBattleScreen();
-        };
-      } else {
-        playWrongSound();
-        playHitSound();
-        playerHp = Math.max(0, playerHp - step.enemyDamage);
-        fbTitle.innerText = "❌ 不正解！";
-        fbTitle.className = "feedback-title text-error";
-        nextBtn.innerText = "もう一度挑戦する";
-        
-        viewport.classList.add('shake-vfx');
-        setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
-
-        nextBtn.onclick = () => {
-          renderBattleScreen();
-        };
-      }
-      
-      fbDesc.innerText = question.explanation;
-      feedbackDiv.style.display = 'block';
-    }
-
-    function handleTypingAnswer(userVal, question, inputField, submitBtn) {
-      inputField.disabled = true;
-      submitBtn.disabled = true;
-      
-      const feedbackDiv = battlePane.querySelector('#battle-feedback');
-      const fbTitle = battlePane.querySelector('#fb-title');
-      const fbDesc = battlePane.querySelector('#fb-desc');
-      const nextBtn = battlePane.querySelector('#next-q-btn');
-      
-      // Normalize comparison (lowercase, remove excess punctuation)
-      const cleanUserVal = userVal.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
-      const isCorrect = question.acceptedAnswers.some(ans => {
-        return cleanUserVal === ans.toLowerCase().replace(/[.,!?;:・]/g, "").trim();
-      });
-      
-      if (isCorrect) {
-        playCorrectSound();
-        enemyHp = Math.max(0, enemyHp - 1);
-        fbTitle.innerText = "✅ 正解！ (Très bien)";
-        fbTitle.className = "feedback-title text-success";
-        nextBtn.innerText = "次の試練へ";
-        
-        const enemyFill = battlePane.querySelector('.enemy-hp');
-        if (enemyFill) {
-          enemyFill.classList.add('flash-white');
-        }
-
-        nextBtn.onclick = () => {
-          questionIndex++;
-          renderBattleScreen();
-        };
-      } else {
-        playWrongSound();
-        playHitSound();
-        playerHp = Math.max(0, playerHp - 2); // typing mistake causes 2 damage
-        fbTitle.innerText = `❌ 不正解！ (正解: ${question.acceptedAnswers[0]})`;
         fbTitle.className = "feedback-title text-error";
         nextBtn.innerText = "もう一度挑戦する";
         

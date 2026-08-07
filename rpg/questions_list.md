@@ -237,7 +237,7 @@
 |---|---|---|---|
 | `q_placeholder_logical_connectives` | 【プレースホルダー問題】今後、タグ「#logical_connectives」に合致する問題文がここに追加されます。 (Placeholder question for #logical_connectives) | **A (正解選択肢)** | これは新規学習項目「#logical_connectives」のためのプレースホルダー問題です。問題の追加をお待ちください。 |
 
-## 🏷️ #marseille_culture (2問)
+## 🏷️ #regional_culture (2問)
 
 | ID | 出題テキスト | 正解 | 解説 |
 |---|---|---|---|

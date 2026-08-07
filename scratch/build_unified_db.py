@@ -372,7 +372,7 @@ phase2_test_questions = [
 history_ch0_pool = [
     {
         "id": "q_0_1_1",
-        "tags": ["#marseille_culture", "#A1"],
+        "tags": ["#regional_culture", "#A1"],
         "text": "マルセイユを含むプロヴァンス地方の伝統料理ではないものを選べ。\n(Quel plat n'est pas une spécialité de Provence ?)",
         "options": ["Bouillabaisse(ブイヤベース)", "Ratatouille(ラタトゥイユ)", "Daube provençale(ドーブ・プロヴァンサル)", "Quiche lorraine(キッシュロレーヌ)"],
         "answerIndex": 3,
@@ -381,7 +381,7 @@ history_ch0_pool = [
     },
     {
         "id": "q_0_1_2",
-        "tags": ["#marseille_culture", "#A1"],
+        "tags": ["#regional_culture", "#A1"],
         "text": "ブイヤベース(Bouillabaisse)を作るのに最適な食材の組み合わせを選べ。\n(Quels ingrédients sont les meilleurs pour préparer une bouillabaisse ?)",
         "options": [
             "Poisson, tomate, ail, huile d'olive (魚・トマト・にんにく・オリーブオイル)",

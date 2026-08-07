@@ -145,7 +145,7 @@
           "enemyDamage": 3,
           "criteria": [
             {
-              "tag": "#marseille_culture",
+              "tag": "#regional_culture",
               "count": 2
             },
             {
@@ -1092,7 +1092,7 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#marseille_culture",
+              "tag": "#regional_culture",
               "count": 1
             },
             {

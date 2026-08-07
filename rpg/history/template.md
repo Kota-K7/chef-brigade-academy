@@ -68,7 +68,7 @@
 - `#ingredients` : 魚（poisson）や肉などの食材用語
 - `#units` : 計量・単位（litre, kilo, de の記述など）
 - `#nationality` : 国籍名詞・形容詞（Japonais など）
-- `#marseille_culture` : プロヴァンス地方・マルセイユの歴史文化や料理名
+- `#regional_culture` : 郷土料理や各地方の歴史文化・料理名
 
 ## 3. 自動選択される出題形式 (Format Engine)
 
