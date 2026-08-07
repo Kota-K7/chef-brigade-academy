@@ -2114,7 +2114,8 @@
     "tags": [
       "#verb_etre",
       "#basic",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Je ___ nouveau.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme correcte de être: Je ___ nouveau. (「私は新人です)",
     "options": [
@@ -2136,7 +2137,8 @@
     "tags": [
       "#verb_etre",
       "#basic",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Tu ___ prêt.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Tu'. (「君は準備ができている)",
     "options": [
@@ -2158,7 +2160,8 @@
     "tags": [
       "#verb_etre",
       "#mixed",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Ils ___）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは〜です)",
     "options": [
@@ -2180,7 +2183,8 @@
     "tags": [
       "#verb_etre",
       "#mixed",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Ils ___ dans la cuisine.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは厨房にいます)",
     "options": [
@@ -2202,7 +2206,8 @@
     "tags": [
       "#scramble",
       "#verb_etre",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私は新人です」となるようにフランス語を並び替えてください。)",
@@ -2222,7 +2227,8 @@
     "id": "q_0_1_3",
     "tags": [
       "#verb_etre",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Tu ___ le chevalier de Camille. / 君はカミーユの騎士です (文脈に合う正しいフランス語の並びを選べ。)",
     "options": [
@@ -2243,7 +2249,8 @@
     "id": "q_0_3_1_2",
     "tags": [
       "#verb_etre",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "text": "Traduisez: She is Camille. (「彼女はカミーユです。」に当てはまるフランス語は？)",
     "options": [
@@ -2263,7 +2270,8 @@
   {
     "id": "q_ve_01",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Nous ___ prêts.）」の動詞 être の活用を入力してください。 (Entrez 'sommes'. (「私たちは準備ができています)",
@@ -2279,7 +2287,8 @@
   {
     "id": "q_ve_02",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Vous ___ chef.）」の動詞 être の活用を入力してください。 (Entrez 'êtes'. (「あなたはシェフです)",
@@ -2296,7 +2305,8 @@
   {
     "id": "q_ve_03",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Ils ___ dans la cuisine.）」の動詞 être の活用を入力してください。 (Entrez 'sont'. (「彼らは厨房にいます)",
@@ -2312,7 +2322,8 @@
   {
     "id": "q_ve_04",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Elle ___ chef.）」の動詞 être の活用を入力してください。 (Entrez 'est'. (「彼女はシェフです)",
@@ -2328,7 +2339,8 @@
   {
     "id": "q_ve_05",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Tu ___ prêt.）」の動詞 être の活用を入力してください。 (Entrez 'es'. (「君は準備ができている)",
@@ -2344,7 +2356,8 @@
   {
     "id": "q_ve_06",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "typing",
     "text": "Je ___）」の動詞 être の活用を入力してください。 (Entrez 'suis'. (「私は〜です)",
@@ -2362,7 +2375,8 @@
     "tags": [
       "#association",
       "#verb_etre",
-      "#matching"
+      "#matching",
+      "#etre"
     ],
     "type": "matching",
     "text": "Associez la conjugaison de 'être'. (主語と動詞 être の現在の活用のペアを結びつけてください。)",
@@ -2391,7 +2405,8 @@
     "tags": [
       "#association",
       "#verb_etre",
-      "#matching"
+      "#matching",
+      "#etre"
     ],
     "type": "matching",
     "text": "Associez la conjugaison plurielle. (主語と動詞 être の複数は活用のペアを結びつけてください。)",
@@ -2418,7 +2433,8 @@
   {
     "id": "q_ve_09",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "cloze",
     "text": "Nous）は厨房にいます」 - 空欄に入る動詞 être の活用を選んでください。 (Nous [sommes] dans la cuisine. (「私たち)",
@@ -2438,7 +2454,8 @@
   {
     "id": "q_ve_10",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "cloze",
     "text": "Ils）は親切です」 - 空欄に入る動詞 être の活用を選んでください。 (Ils [sont] gentils. (「彼ら)",
@@ -2458,7 +2475,8 @@
   {
     "id": "q_ve_11",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私は新人です」となるように語を並べ替えてください。)",
@@ -2477,7 +2495,8 @@
   {
     "id": "q_ve_12",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「あなたはシェフです」となるように語を並べ替えてください。)",
@@ -2496,7 +2515,8 @@
   {
     "id": "q_ve_13",
     "tags": [
-      "#verb_etre"
+      "#verb_etre",
+      "#etre"
     ],
     "type": "choice",
     "text": "Choisissez la forme de 'être'. (「Je（私）」に対応する動詞 être の活用を選んでください。)",
@@ -2518,7 +2538,8 @@
     "tags": [
       "#verb_avoir",
       "#basic",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "text": "J'___ un couteau.）」の空欄に入る、動詞 avoir の一人称単数現在形を入力してください。 (Entrez la forme de avoir pour 'Je'. (「私は包丁を持っています)",
     "options": [
@@ -2540,7 +2561,8 @@
     "tags": [
       "#verb_avoir",
       "#mixed",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "text": "Nous ___）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme correcte de avoir: Nous ___ (「私たちは持っています)",
     "options": [
@@ -2562,7 +2584,8 @@
     "tags": [
       "#verb_avoir",
       "#mixed",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "text": "Nous ___ deux couteaux.）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme de avoir pour 'Nous'. (「私たちは2本のナイフを持っています)",
     "options": [
@@ -2584,7 +2607,8 @@
     "tags": [
       "#verb_avoir",
       "#mixed",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "text": "Vous ___）」の空欄に入る、動詞 avoir の二人称複数現在形を入力してください。 (Entrez la forme de avoir pour 'Vous'. (「あなたは〜を持っている)",
     "options": [
@@ -2606,7 +2630,8 @@
     "tags": [
       "#cloze",
       "#verb_avoir",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "cloze",
     "text": "Nous [avons] des couteaux. (私たちは包丁を持っています。 - 空欄に入る正しい動詞を入力または選択してください。)",
@@ -2626,7 +2651,8 @@
   {
     "id": "q_va_01",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "J'___ un couteau.）」の動詞 avoir の活用を入力してください。 (Entrez 'ai'. (「私は包丁を持っています)",
@@ -2642,7 +2668,8 @@
   {
     "id": "q_va_02",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Tu ___ une casserole.）」の動詞 avoir の活用を入力してください。 (Entrez 'as'. (「君は鍋を持っている)",
@@ -2658,7 +2685,8 @@
   {
     "id": "q_va_03",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Il ___ 20 ans.）」の動詞 avoir の活用を入力してください。 (Entrez 'a'. (「彼は20歳です)",
@@ -2674,7 +2702,8 @@
   {
     "id": "q_va_04",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Nous ___ du sel.）」の動詞 avoir の活用を入力してください。 (Entrez 'avons'. (「私たちは塩を持っています)",
@@ -2690,7 +2719,8 @@
   {
     "id": "q_va_05",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Vous ___ du temps ?）」の動詞 avoir の活用を入力してください。 (Entrez 'avez'. (「あなたは時間がありますか？)",
@@ -2706,7 +2736,8 @@
   {
     "id": "q_va_06",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Ils ___ du poisson.）」の動詞 avoir の活用を入力してください。 (Entrez 'ont'. (「彼らは魚を持っています)",
@@ -2724,7 +2755,8 @@
     "tags": [
       "#association",
       "#matching",
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "matching",
     "text": "Associez la conjugaison de 'avoir'. (主語と動詞 avoir の活用のペアを結びつけてください。)",
@@ -2753,7 +2785,8 @@
     "tags": [
       "#association",
       "#matching",
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "matching",
     "text": "Associez la conjugaison plurielle. (主語と動詞 avoir の複数は活用のペアを結びつけてください。)",
@@ -2780,7 +2813,8 @@
   {
     "id": "q_va_09",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "cloze",
     "text": "Nous [avons] des couteaux. (「私たちは包丁を持っています」 - 空欄に入る動詞 avoir の活用を選んでください。)",
@@ -2800,7 +2834,8 @@
   {
     "id": "q_va_10",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "cloze",
     "text": "Elle [a] vingt ans. (「彼女は20歳です」 - 空欄に入る動詞 avoir の活用を選んでください。)",
@@ -2820,7 +2855,8 @@
   {
     "id": "q_va_11",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私は包丁を持っています」となるように語を並べ替えてください。)",
@@ -2840,7 +2876,8 @@
   {
     "id": "q_va_12",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私たちは時間があります」となるように語を並べ替えてください。)",
@@ -2860,7 +2897,8 @@
   {
     "id": "q_va_13",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "choice",
     "text": "Choisissez la forme de 'avoir'. (「J'（私）」に対応する動詞 avoir の活用を選んでください。)",
@@ -2880,7 +2918,8 @@
   {
     "id": "q_va_14",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "choice",
     "text": "Choisissez la forme de 'avoir'. (「Vous（あなた）」に対応する動詞 avoir の活用を選んでください。)",
@@ -2900,7 +2939,8 @@
   {
     "id": "q_va_ext_01",
     "tags": [
-      "#verb_avoir"
+      "#verb_avoir",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Elles ___ quoi ?）」の動詞 avoir の活用を入力してください。 (Entrez 'ont'. (「彼女たちは何を持っていますか？)",
@@ -3317,7 +3357,8 @@
     "tags": [
       "#subject_pronouns",
       "#basic",
-      "#A1"
+      "#A1",
+      "#subjects"
     ],
     "text": "I）」に対応する、フランス語の主語人称代名詞を入力してください。 (Entrez le pronom sujet pour 'Je'. (「私は)",
     "options": [
@@ -3338,7 +3379,8 @@
     "id": "q_0_3_1_3",
     "tags": [
       "#subject_pronouns",
-      "#A1"
+      "#A1",
+      "#subjects"
     ],
     "text": "Traduisez: I protect Camille. (「私は彼女を守ります。」に当てはまるフランス語は？)",
     "options": [
@@ -3359,7 +3401,8 @@
     "id": "q_0_3_2_4",
     "tags": [
       "#subject_pronouns",
-      "#A1"
+      "#A1",
+      "#subjects"
     ],
     "text": "Traduisez: Protect him! (戦闘中、仲間が「彼を守ってください！」と叫びました。正しいフランス語はどれか。)",
     "options": [
@@ -3379,7 +3422,8 @@
   {
     "id": "q_sp_01",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Entrez 'Je'. (「私」に対応するフランス語の主語代名詞「Je」を入力してください。)",
@@ -3396,7 +3440,8 @@
   {
     "id": "q_sp_02",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Tu）」に対応する主語代名詞を入力してください。 (Entrez 'Tu'. (「君)",
@@ -3413,7 +3458,8 @@
   {
     "id": "q_sp_03",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Il）」に対応する主語代名詞を入力してください。 (Entrez 'Il'. (「彼)",
@@ -3430,7 +3476,8 @@
   {
     "id": "q_sp_04",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Elle）」に対応する主語代名詞を入力してください。 (Entrez 'Elle'. (「彼女)",
@@ -3447,7 +3494,8 @@
   {
     "id": "q_sp_05",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Nous）」に対応する主語代名詞を入力してください。 (Entrez 'Nous'. (「私たち)",
@@ -3464,7 +3512,8 @@
   {
     "id": "q_sp_06",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Vous）」の代名詞を入力してください。 (Entrez 'Vous'. (丁寧な「あなた / あなた方)",
@@ -3483,7 +3532,8 @@
     "tags": [
       "#association",
       "#subject_pronouns",
-      "#matching"
+      "#matching",
+      "#subjects"
     ],
     "type": "matching",
     "text": "Associez le pronom. (主語代名詞と日本語訳のペアを結びつけてください。)",
@@ -3512,7 +3562,8 @@
     "tags": [
       "#association",
       "#subject_pronouns",
-      "#matching"
+      "#matching",
+      "#subjects"
     ],
     "type": "matching",
     "text": "Associez le pronom pluriel. (複数主語代名詞と日本語訳のペアを結びつけてください。)",
@@ -3539,7 +3590,8 @@
   {
     "id": "q_sp_09",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "cloze",
     "text": "[Il] est chef. (「彼はシェフです」- 空欄に入る主語代名詞を選んでください。)",
@@ -3559,7 +3611,8 @@
   {
     "id": "q_sp_10",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "cloze",
     "text": "[Elle] est cuisinière. (「彼女は料理人です」- 空欄に入る主語代名詞を選んでください。)",
@@ -3579,7 +3632,8 @@
   {
     "id": "q_sp_11",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私はカミーユを守ります」となるように語を並べ替えてください。)",
@@ -3598,7 +3652,8 @@
   {
     "id": "q_sp_12",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「彼女はシェフです」となるように語を並べ替えてください。)",
@@ -3617,7 +3672,8 @@
   {
     "id": "q_sp_13",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "choice",
     "text": "Pronom pour un groupe mixte. (男女混合の「彼ら」を表す代名詞を選んでください。)",
@@ -3637,7 +3693,8 @@
   {
     "id": "q_sp_14",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "choice",
     "text": "Pronom informel pour 'nous'. (会話で「私たち」を意味するカジュアルな代名詞を選んでください。)",
@@ -3657,7 +3714,8 @@
   {
     "id": "q_sp_ext_01",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Entrez 'Elles'. (「女性たち（彼女たち）」のみのグループを指す主語代名詞「Elles」を入力してください。)",
@@ -3676,7 +3734,8 @@
     "tags": [
       "#association",
       "#subject_pronouns",
-      "#matching"
+      "#matching",
+      "#subjects"
     ],
     "type": "matching",
     "text": "Associez le nombre. (代名詞と対象人数のペアを結びつけてください。)",
@@ -3703,7 +3762,8 @@
   {
     "id": "q_sp_ext_03",
     "tags": [
-      "#subject_pronouns"
+      "#subject_pronouns",
+      "#subjects"
     ],
     "type": "typing",
     "text": "Entrez 'On'. (話し言葉で Nous の代わりに使われる三人称単数扱い代名詞「On」を入力してください。)",
@@ -6522,7 +6582,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "typing",
     "text": "Vous [êtes] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6537,7 +6598,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "typing",
     "text": "Ils [sont] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6551,7 +6613,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "typing",
     "text": "Elles [sont] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6565,7 +6628,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "choice",
     "text": "Quelle est la conjugaison de être pour 'Nous' ? (「Nous（私たち）」に対する動詞 être の現在形活用を選んでください。)",
@@ -6583,7 +6647,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "choice",
     "text": "Quelle est la forme correcte de être pour 'Tu' ? (「Tu（君）」に対する動詞 être の現在形活用を選んでください。)",
@@ -6601,10 +6666,19 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "cloze",
     "text": "Le chef [est] très exigeant. (「シェフはとても厳しいです」 - 空欄に入る動詞 être の活用を入力してください。)",
+    "clozeText": "Le chef [est] très exigeant.",
+    "options": [
+      "est",
+      "es",
+      "suis",
+      "êtes"
+    ],
+    "answerIndex": 0,
     "acceptedAnswers": [
       "est"
     ],
@@ -6615,7 +6689,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私たちは見習いシェフです」となるように並び替えてください。)",
@@ -6635,7 +6710,8 @@
       "#verb_etre",
       "#association",
       "#matching",
-      "#grammar"
+      "#grammar",
+      "#etre"
     ],
     "type": "matching",
     "text": "Associez le sujet et le verbe être. (主語と動詞 être の活用のペアを結びつけてください。)",
@@ -6664,7 +6740,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "typing",
     "text": "C'est [est] chaud ! (「熱いので注意！」 - C'est の est の不定形動詞は何ですか？)",
@@ -6679,7 +6756,8 @@
     "tags": [
       "#verb_etre",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#etre"
     ],
     "type": "typing",
     "text": "Qui [est] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6693,7 +6771,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Tu [as] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6707,7 +6786,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Vous [avez] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6721,7 +6801,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Ils [ont] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6735,7 +6816,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Elle [a] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6749,7 +6831,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "choice",
     "text": "Quelle est la forme de avoir pour 'Nous' ? (「Nous」に対する動詞 avoir の活用を選んでください。)",
@@ -6767,10 +6850,19 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "cloze",
     "text": "J'[ai] une question pour le chef. (「料理長に質問があります」 - 空欄に入る動詞 avoir の一人称単数形を入力してください。)",
+    "clozeText": "J'[ai] une question pour le chef.",
+    "options": [
+      "ai",
+      "as",
+      "a",
+      "avons"
+    ],
+    "answerIndex": 0,
     "acceptedAnswers": [
       "ai"
     ],
@@ -6781,7 +6873,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私たちは包丁を持っています」となるように並び替えてください。)",
@@ -6801,7 +6894,8 @@
       "#verb_avoir",
       "#association",
       "#matching",
-      "#grammar"
+      "#grammar",
+      "#avoir"
     ],
     "type": "matching",
     "text": "Associez le sujet et le verbe avoir. (主語と動詞 avoir の活用のペアを結びつけてください。)",
@@ -6830,7 +6924,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "Avez-[vous] du vin blanc ? (「白ワインはありますか？」 - 倒置疑問文の空欄に入る代名詞を入力してください。)",
@@ -6844,7 +6939,8 @@
     "tags": [
       "#verb_avoir",
       "#grammar",
-      "#A1"
+      "#A1",
+      "#avoir"
     ],
     "type": "typing",
     "text": "J'ai [faim]. (「お腹が空いた」を表す表現「J'ai ___」の空欄を入力してください。)",
