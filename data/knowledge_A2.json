@@ -19899,5 +19899,76 @@
       }
     ],
     "english": "Million"
+  },
+  {
+    "id": "dialogue_kitchen_taking_01",
+    "topic": "Dialogues et Commandes en Cuisine et Service",
+    "category": "grammar",
+    "level": "A2",
+    "description": "Exemples de dialogues en cuisine et en salle pour le jeu d'Association (taking).",
+    "explanation_fr": "Dialogues courants entre chef, apprentis et serveurs.",
+    "explanation_ja": "厨房およびホールでの実用対話表現。",
+    "examples": [
+      {
+        "fr": "Cuisson de l'entrecôte ? - Saignant, s'il vous plaît.",
+        "ja": "リブロースの焼き加減は？ / レアでお願いします。"
+      },
+      {
+        "fr": "Vous avez besoin d'aide ? - Oui, coupez les oignons.",
+        "ja": "手伝いが必要ですか？ / はい、玉ねぎを切ってください。"
+      },
+      {
+        "fr": "Où est le fond de veau ? - Dans le frigo, en bas.",
+        "ja": "フォン・ド・ヴォーはどこにありますか？ / 冷蔵庫の一番下にあります。"
+      },
+      {
+        "fr": "La soupe est prête ? - Oui, j'envoie tout de suite.",
+        "ja": "スープはできていますか？ / はい、すぐに出します。"
+      },
+      {
+        "fr": "Combien de couverts à la table 4 ? - Quatre couverts.",
+        "ja": "4番テーブルは何名様ですか？ / 4名様です。"
+      },
+      {
+        "fr": "Chaud devant, attention ! - Bien reçu, chef !",
+        "ja": "熱いお通りです、注意！ / 了解しました、シェフ！"
+      },
+      {
+        "fr": "Pouvez-vous repasser la sauce ? - Oui, je la monte au beurre.",
+        "ja": "ソースを温め直せますか？ / はい、バターを入れて仕上げます。"
+      },
+      {
+        "fr": "Est-ce qu'il reste de la crème ? - Non, il n'y en a plus.",
+        "ja": "生クリームは残っていますか？ / いいえ、もうありません。"
+      },
+      {
+        "fr": "Quelle est la spécialité du jour ? - Le magret de canard.",
+        "ja": "本日のスペシャルは何ですか？ / マグレ・ド・カナール（鴨胸肉）です。"
+      },
+      {
+        "fr": "Avez-vous pris la commande ? - Oui, la table 2 est prête.",
+        "ja": "注文は受けましたか？ / はい、2番テーブルの準備完了です。"
+      },
+      {
+        "fr": "Avez-vous besoin de farine ? - Oui, donnez-m'en un kilo.",
+        "ja": "小麦粉が必要ですか？ / はい、1キロ取ってください。"
+      },
+      {
+        "fr": "C'est à emporter ou sur place ? - C'est pour consommer sur place.",
+        "ja": "お持ち帰りですか、店内でお召し上がりですか？ / 店内でいただきます。"
+      },
+      {
+        "fr": "Où est la planche à découper ? - Sur le plan de travail de gauche.",
+        "ja": "まな板はどこにありますか？ / 左側の作業台の上にあります。"
+      },
+      {
+        "fr": "Le dessert est servi ? - Oui, la tarte est sur table.",
+        "ja": "デセールは出しましたか？ / はい、タルトはお席にあります。"
+      },
+      {
+        "fr": "Faut-il assaisonner la salade ? - Oui, avec une vinaigrette légère.",
+        "ja": "サラダに味付けが必要ですか？ / はい、軽いヴィネグレットで。"
+      }
+    ]
   }
 ]
