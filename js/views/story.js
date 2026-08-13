@@ -719,8 +719,20 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
 
     // Show Learning Point if present
     if (step.learningPoint) {
-      container.querySelector('#lp-title').innerText = step.learningPoint.title;
-      container.querySelector('#lp-content').innerText = step.learningPoint.text;
+      let lpTitle = container.querySelector('#lp-title');
+      let lpContent = container.querySelector('#lp-content');
+      if (!lpTitle || !lpContent) {
+        // Restore learning point layout in case sidebar HTML was overwritten by reference table
+        sidebar.innerHTML = `
+          <h3>💡 学習ポイント (Point d'Étude)</h3>
+          <div class="sidebar-lp-title" id="lp-title"></div>
+          <div class="sidebar-lp-content" id="lp-content"></div>
+        `;
+        lpTitle = container.querySelector('#lp-title');
+        lpContent = container.querySelector('#lp-content');
+      }
+      if (lpTitle) lpTitle.innerText = step.learningPoint.title;
+      if (lpContent) lpContent.innerText = step.learningPoint.text;
       sidebar.style.opacity = '1';
       sidebar.style.pointerEvents = 'auto';
     } else {

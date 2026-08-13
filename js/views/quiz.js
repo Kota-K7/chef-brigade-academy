@@ -884,6 +884,61 @@ function renderQuizContent(container) {
     let score = 0;
     let answered = false;
 
+    function speakSpelledWord(phrase) {
+      const cleanPhrase = phrase.trim();
+      const letters = cleanPhrase.split('').map(c => {
+        if (/[a-zA-ZàâäéèêëïîôöùûüçÀÂÄÉÈÊËÏÎÔÖÙÛÜÇ]/.test(c)) {
+          return c.toUpperCase();
+        }
+        return null;
+      }).filter(c => c !== null);
+      
+      const spellText = letters.join(', ');
+      const fullText = `${cleanPhrase}. ${spellText}.`;
+      
+      if (typeof window.speechSynthesis !== 'undefined') {
+        window.speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(fullText);
+        u.lang = 'fr-FR';
+        u.rate = 0.8;
+        window.speechSynthesis.speak(u);
+      }
+    }
+
+    function generateToothCavityHint(phrase) {
+      return phrase.split(' ').map(word => {
+        const cleanWord = word.replace(/['".,?!();]/g, '');
+        const N = cleanWord.length;
+        if (N === 0) return word;
+        
+        let maskedWord = "";
+        if (N === 1) {
+          maskedWord = "_";
+        } else if (N === 2) {
+          maskedWord = cleanWord[0] + " _";
+        } else if (N === 3) {
+          maskedWord = cleanWord[0] + " _ " + cleanWord[2];
+        } else if (N === 4) {
+          maskedWord = cleanWord[0] + " _ _ " + cleanWord[3];
+        } else if (N === 5) {
+          maskedWord = cleanWord[0] + " _ " + cleanWord[2] + " _ " + cleanWord[4];
+        } else {
+          let parts = [];
+          for (let i = 0; i < N; i++) {
+            if (i === 0 || i === N - 1) {
+              parts.push(cleanWord[i]);
+            } else if (i % 3 === 2) {
+              parts.push("_");
+            } else {
+              parts.push(cleanWord[i]);
+            }
+          }
+          maskedWord = parts.join(' ');
+        }
+        return maskedWord;
+      }).join('   ');
+    }
+
     function renderCurrentSpelling() {
       gameWrapper.innerHTML = '';
       answered = false;
@@ -931,6 +986,14 @@ function renderQuizContent(container) {
           <label style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.5rem; color: var(--color-text-muted);">Écrivez le mot en français (Write the French word):</label>
           <input type="text" class="spelling-input" id="spelling-input-field" placeholder="Tapez ici..." autocomplete="off" style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); font-size: 1.1rem; outline: none;" autofocus>
         </div>
+
+        <div class="spelling-hints-container" style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem;">
+          <button class="action-btn" id="spelling-hint-voice-btn" style="flex: 1; padding: 0.5rem 0.8rem; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; gap: 0.4rem; border-radius: var(--radius-sm); border: 1px solid var(--color-accent); background: rgba(197, 168, 128, 0.1); color: var(--color-primary); cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='rgba(197, 168, 128, 0.2)'" onmouseout="this.style.background='rgba(197, 168, 128, 0.1)'">🔊 音声ヒント</button>
+          <button class="action-btn" id="spelling-hint-text-btn" style="flex: 1; padding: 0.5rem 0.8rem; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; gap: 0.4rem; border-radius: var(--radius-sm); border: 1px solid var(--color-accent); background: rgba(197, 168, 128, 0.1); color: var(--color-primary); cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='rgba(197, 168, 128, 0.2)'" onmouseout="this.style.background='rgba(197, 168, 128, 0.1)'">📝 文字ヒント</button>
+        </div>
+        
+        <div id="spelling-text-hint-display" style="display: none; margin-bottom: 1.5rem; background-color: rgba(197, 168, 128, 0.1); border: 1px dashed var(--color-accent); padding: 0.8rem; border-radius: var(--radius-sm); font-size: 1.2rem; font-family: monospace; letter-spacing: 2px; text-align: center; color: var(--color-primary);">
+        </div>
         
         <div id="spelling-feedback-panel" style="display: none; margin-bottom: 1.5rem; padding: 1rem; border-radius: var(--radius-sm);">
           <strong id="spelling-feedback-title"></strong>
@@ -951,6 +1014,24 @@ function renderQuizContent(container) {
       const feedbackPanel = card.querySelector('#spelling-feedback-panel');
       const feedbackTitle = card.querySelector('#spelling-feedback-title');
       const feedbackMsg = card.querySelector('#spelling-feedback-msg');
+
+      const voiceHintBtn = card.querySelector('#spelling-hint-voice-btn');
+      const textHintBtn = card.querySelector('#spelling-hint-text-btn');
+      const textHintDisplay = card.querySelector('#spelling-text-hint-display');
+
+      const correctText = (item.acceptedAnswers && item.acceptedAnswers.length > 0) ? item.acceptedAnswers[0] : "";
+
+      voiceHintBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        speakSpelledWord(correctText);
+      });
+
+      textHintBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const hint = generateToothCavityHint(correctText);
+        textHintDisplay.innerText = hint;
+        textHintDisplay.style.display = 'block';
+      });
 
       setTimeout(() => inputField.focus(), 150);
 

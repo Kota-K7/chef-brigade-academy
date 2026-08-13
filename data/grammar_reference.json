@@ -169,6 +169,197 @@
     ]
   },
   {
+    "id": "ref_noun_genders",
+    "title_fr": "Le Genre des Noms",
+    "title_en": "Gender of Nouns",
+    "title_ja": "名詞の性（男性・女性）",
+    "definition_fr": "En français, tous les noms ont un genre : masculin ou féminin. On peut souvent le prédire d'après la terminaison ou la catégorie de sens.",
+    "definition_ja": "フランス語の名詞には男性・女性の性があります。これらは完全なランダムではなく、語尾や意味のカテゴリーからかなり高い精度で予測できます。",
+    "sections": [
+      {
+        "type": "info",
+        "title": "名詞の性（男性・女性）の基本概念",
+        "content_fr": "En français, tous les noms ont un genre grammatical : masculin (ex: le couteau) ou féminin (ex: la cuillère). Il n'y a pas de genre neutre.",
+        "content_ja": "フランス語のすべての名詞には男性・女性という文法上の「性」が存在します。英語にあるような「中性名詞」はありません。\n人間や動物などの生物だけでなく、無生物（調理器具、食材、概念など）にもすべての単語にどちらかの性が割り当てられています。\n* **男性名詞 (Masculin) の例:** `le couteau` (包丁), `le fromage` (チーズ), `le four` (オーブン)\n* **女性名詞 (Féminin) の例:** `la cuillère` (スプーン), `la crème` (クリーム), `la poêle` (フライパン)"
+      },
+      {
+        "type": "info",
+        "title": "性の影響：冠詞と形容詞の一致",
+        "content_fr": "Le genre du nom détermine la forme des articles (un/une, le/la) et l'accord des adjectifs (ex: un couteau chaud / une assiette chaude).",
+        "content_ja": "名詞の性は、その名詞に付く冠詞や、名詞を修飾する形容詞の形に影響を与えます。\n* 男性名詞には男性用の冠詞（`un` / `le` / `du`）を使い、形容詞も男性形になります。\n* 女性名詞には女性用の冠詞（`une` / `la` / `de la`）を使い、形容詞も女性形になります。\n* **一致の例:**\n  * `un couteau chaud` (温かい包丁 - 男性・単数)\n  * `une assiette chaude` (温かい皿 - 女性・単数)"
+      },
+      {
+        "type": "info",
+        "title": "💡 コラム：名詞の性には「クセ」がある！",
+        "content_fr": "Le genre des noms n'est pas complètement aléatoire. La terminaison, la catégorie sémantique et l'étymologie sont de bons indicateurs.",
+        "content_ja": "フランス語の名詞の性は完全なランダムではありません。**語尾・意味のカテゴリー・語源**を見ることで、初めて見る単語でも性をかなり予測できます。"
+      },
+      {
+        "type": "table",
+        "title": "① 意味による見分け方の法則",
+        "headers": [
+          "カテゴリー",
+          "性",
+          "特徴・例"
+        ],
+        "rows": [
+          [
+            "学問・学術分野",
+            "女性が多い",
+            "la biologie（生物学）, la chimie（化学）, la physique（物理学）, la philosophie（哲学）。\n※ -logie で終わる学問名（la gastronomie [美食学], la technologie [技術] など）は女性が基本。\n例外：le droit（法学）, le commerce（商学）"
+          ],
+          [
+            "果樹と果実",
+            "木＝男性\n果実＝女性",
+            "果樹を表す語（-ier）は男性：le pommier（リンゴの木）, le poirier（洋梨の木）, le cerisier（サクランボの木）, le pêcher（桃の木）。\n果実そのものは女性：la pomme（リンゴ）, la poire（洋梨）, la cerise（サクランボ）, la pêche（桃）。"
+          ],
+          [
+            "スポーツ",
+            "男性が多い",
+            "外国語由来のスポーツは基本男性：le football, le tennis, le rugby, le golf, le judo, le ski。\n※ただし、活動や競技を表す -ique / -ation で終わる抽象名詞は女性：la gymnastique, la natation, la musculation。"
+          ],
+          [
+            "言語名",
+            "男性（一貫）",
+            "言語名はすべて男性名詞：le français（フランス語）, le japonais（日本語）, le chinois（中国語）, l'anglais（英語）, l'espagnol（スペイン語）, l'italien（イタリア語）。"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "② 語尾による法則：女性名詞になりやすい語尾",
+        "headers": [
+          "主な語尾",
+          "例",
+          "発音"
+        ],
+        "rows": [
+          [
+            "-tion",
+            "la préparation (準備)",
+            ""
+          ],
+          [
+            "-sion",
+            "la décision (決定)",
+            ""
+          ],
+          [
+            "-té",
+            "la qualité (品質)",
+            ""
+          ],
+          [
+            "-té",
+            "la liberté (自由)",
+            ""
+          ],
+          [
+            "-ture",
+            "la culture (文化)",
+            ""
+          ],
+          [
+            "-ette",
+            "la baguette (バゲット)",
+            ""
+          ],
+          [
+            "-ette",
+            "la fourchette (フォーク)",
+            ""
+          ],
+          [
+            "-ance",
+            "la chance (幸運)",
+            ""
+          ],
+          [
+            "-ence",
+            "la différence (違い)",
+            ""
+          ],
+          [
+            "-ie",
+            "la cuisine (料理/厨房)",
+            ""
+          ],
+          [
+            "-ie",
+            "la boulangerie (パン屋)",
+            ""
+          ],
+          [
+            "-ure",
+            "la farine (小麦粉) ※例外もあり",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "③ 語尾による法則：男性名詞になりやすい語尾",
+        "headers": [
+          "主な語尾",
+          "例",
+          "発音"
+        ],
+        "rows": [
+          [
+            "-age",
+            "le fromage (チーズ)",
+            ""
+          ],
+          [
+            "-age",
+            "le voyage (旅行)",
+            ""
+          ],
+          [
+            "-ment",
+            "le gouvernement (政府)",
+            ""
+          ],
+          [
+            "-ment",
+            "le movement (動き)",
+            ""
+          ],
+          [
+            "-isme",
+            "le tourisme (観光)",
+            ""
+          ],
+          [
+            "-isme",
+            "le réalisme (現実主義)",
+            ""
+          ],
+          [
+            "-eau",
+            "le gâteau (ケーキ)",
+            ""
+          ],
+          [
+            "-eau",
+            "le couteau (ナイフ)",
+            ""
+          ],
+          [
+            "-ier",
+            "le pommier (リンゴの木)",
+            ""
+          ],
+          [
+            "-ier",
+            "le poirier (洋梨の木)",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "id": "ref_partitive_articles",
     "title_fr": "Les Articles Partitifs",
     "title_en": "Partitive Articles",

@@ -491,7 +491,7 @@
       "#basic",
       "#A1"
     ],
-    "text": "Entrez le mot pour 'merci'. (「ありがとう」を意味するフランス語を入力してください。)",
+    "text": "Entrez le mot pour [___]. (「ありがとう」を意味するフランス語を入力してください。)",
     "options": [
       "Bonjour",
       "Merci",
@@ -624,7 +624,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'je'. (« Bonjour, je m'appelle Camille. » の自己紹介で「私の名前は〜です」を意味する代名詞（___ m'appelle）を入力してください。)",
+    "text": "Entrez le mot correct. (« Bonjour, [___] m'appelle Camille. » の自己紹介で「私の名前は〜です」を意味する代名詞（___ m'appelle）を入力してください。)",
     "explanation": "Je m'appelle ... で自己紹介になります。",
     "options": [
       "je"
@@ -641,7 +641,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'Enchanté'. (厨房で「はじめまして」と挨拶する表現「Enchanté」を入力してください。)",
+    "text": "Entrez le mot correct. (厨房で「はじめまして」と挨拶する表現[___]を入力してください。)",
     "explanation": "初対面の挨拶は Enchanté と言います。",
     "options": [
       "Enchanté"
@@ -659,7 +659,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'suis'. (「私は〜です」と自己紹介する表現「Je suis...」の動詞を入力してください。)",
+    "text": "Entrez le mot correct. (「私は〜です」と自己紹介する表現「Je [___]...」の動詞を入力してください。)",
     "explanation": "Je suis + 名前/職業 で自己紹介できます。",
     "options": [
       "suis"
@@ -675,7 +675,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'Bonsoir'. (夜の挨拶「こんばんは」にあたる「Bonsoir」を入力してください。)",
+    "text": "Entrez le mot correct. (夜の挨拶「こんばんは」にあたる[___]を入力してください。)",
     "explanation": "夜の挨拶には Bonsoir を使います。",
     "options": [
       "Bonsoir"
@@ -692,7 +692,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'À bientôt'. (別れ際の挨拶「また近いうちに！」にあたる「À bientôt」を入力してください。)",
+    "text": "Entrez le mot correct. (別れ際の挨拶「また近いうちに！」にあたる[___]を入力してください。)",
     "explanation": "À bientôt は「また近いうちに」という意味の挨拶です。",
     "options": [
       "À bientôt"
@@ -710,7 +710,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'De rien'. (「どういたしまして」にあたる丁寧な表現「De rien」を入力してください。)",
+    "text": "Entrez le mot correct. (「どういたしまして」にあたる丁寧な表現[___]を入力してください。)",
     "explanation": "Merci に対する返答として De rien を使います。",
     "options": [
       "De rien"
@@ -727,7 +727,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'Ça va'. (「元気？ / 調子はどう？」という会話フレーズ「Ça va ?」を入力してください。)",
+    "text": "Entrez le mot correct. (「元気？ / 調子はどう？」という会話フレーズ「[___] ?」を入力してください。)",
     "explanation": "Ça va ? はカジュアルな挨拶です。",
     "options": [
       "Ça va"
@@ -745,7 +745,7 @@
       "#greetings"
     ],
     "type": "typing",
-    "text": "Entrez 'Comment'. (「お名前は何ですか？」の「Comment vous vous appelez ?」の冒頭疑問詞を入力してください。)",
+    "text": "Entrez le mot correct. (「お名前は何ですか？」の「[___] vous vous appelez ?」の冒頭疑問詞を入力してください。)",
     "explanation": "Comment vous vous appelez ? は丁寧な質問です。",
     "options": [
       "Comment"
@@ -898,7 +898,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'circonflexe'. (「câble」の上につく「ˆ」記号の名称「circonflexe」を入力してください。)",
+    "text": "Entrez le mot correct. (「câble」の上につく「ˆ」記号の名称[___]を入力してください。)",
     "explanation": "「ˆ」は accent circonflexe です。",
     "options": [
       "circonflexe"
@@ -914,7 +914,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "ç）の名称「cédille」を入力してください。 (Entrez 'cédille'. (「c」をサ行の音に変える記号)",
+    "text": "ç）の名称[___]を入力してください。 (Entrez le mot correct. (「c」をサ行の音に変える記号)",
     "explanation": "c の下につく記号は cédille です。",
     "options": [
       "cédille"
@@ -931,7 +931,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'aigu'. (「é」につくアクサン記号の名称「aigu」を入力してください。)",
+    "text": "Entrez le mot correct. (「é」につくアクサン記号の名称[___]を入力してください。)",
     "explanation": "「é」のアクサンは accent aigu です。",
     "options": [
       "aigu"
@@ -947,7 +947,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'grave'. (「è」につくアクサン記号の名称「grave」を入力してください。)",
+    "text": "Entrez le mot correct. (「è」につくアクサン記号の名称[___]を入力してください。)",
     "explanation": "「è」のアクサンは accent grave です。",
     "options": [
       "grave"
@@ -963,7 +963,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'ou'. (「ウ」に対応する母音綴り「ou」を入力してください。)",
+    "text": "Entrez le mot correct. (「ウ」に対応する母音綴り[___]を入力してください。)",
     "explanation": "ou は「ウ」と発音します。",
     "options": [
       "ou"
@@ -979,7 +979,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'oi'. (「ワ」と発音する二重母音綴り「oi」を入力してください。)",
+    "text": "Entrez le mot correct. (「ワ」と発音する二重母音綴り[___]を入力してください。)",
     "explanation": "oi は「ワ」と発音します。",
     "options": [
       "oi"
@@ -995,7 +995,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'eau'. (「eau（水）」などの「オ」と発音する綴り「eau」を入力してください。)",
+    "text": "Entrez le mot correct. (「[___]（水）」などの「オ」と発音する綴り[___]を入力してください。)",
     "explanation": "eau は「オ」と発音されます。",
     "options": [
       "eau"
@@ -1011,7 +1011,7 @@
       "#pronunciation"
     ],
     "type": "typing",
-    "text": "Entrez 'muet'. (語尾の子音 (s, t, d) は通常発音しません。「muet（無音）」を入力してください。)",
+    "text": "Entrez le mot correct. (語尾の子音 (s, t, d) は通常発音しません。「[___]（無音）」を入力してください。)",
     "explanation": "語尾子音は無音 (muet) になるのが原則です。",
     "options": [
       "muet"
@@ -1301,7 +1301,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "couteau）」の性別「masculin」を入力してください。 (Entrez 'masculin'. (「包丁)",
+    "text": "couteau）」の性別[___]を入力してください。 (Entrez le mot correct. (「包丁)",
     "explanation": "couteau は男性名詞です。",
     "options": [
       "masculin"
@@ -1317,7 +1317,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "casserole）」の性別「féminin」を入力してください。 (Entrez 'féminin'. (「片手鍋)",
+    "text": "casserole）」の性別[___]を入力してください。 (Entrez le mot correct. (「片手鍋)",
     "explanation": "casserole は女性名詞です。",
     "options": [
       "féminin"
@@ -1334,7 +1334,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "poêle）」は女性名詞です。不定冠詞「une」を入力してください。 (Entrez 'une'. (「フライパン)",
+    "text": "poêle）」は女性名詞です。不定冠詞[___]を入力してください。 (Entrez le mot correct. (「フライパン)",
     "explanation": "une poêle となります。",
     "options": [
       "une"
@@ -1350,7 +1350,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "four）」は男性名詞です。不定冠詞「un」を入力してください。 (Entrez 'un'. (「オーブン)",
+    "text": "four）」は男性名詞です。不定冠詞[___]を入力してください。 (Entrez le mot correct. (「オーブン)",
     "explanation": "un four となります。",
     "options": [
       "un"
@@ -1366,7 +1366,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "Entrez 'masculin'. (語尾が「-eau」で終わる名詞の性別「masculin」を入力してください。)",
+    "text": "Entrez le mot correct. (語尾が「-eau」で終わる名詞の性別[___]を入力してください。)",
     "explanation": "-eau で終わる単語の多くは男性名詞です。",
     "options": [
       "masculin"
@@ -1382,7 +1382,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "Entrez 'féminin'. (語尾が「-ette」で終わる名詞の性別「féminin」を入力してください。)",
+    "text": "Entrez le mot correct. (語尾が「-ette」で終わる名詞の性別[___]を入力してください。)",
     "explanation": "-ette で終わる単語は女性名詞になります。",
     "options": [
       "féminin"
@@ -1399,7 +1399,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "sel）」は男性名詞です。冠詞「un」を入力してください。 (Entrez 'un' pour sel. (「塩)",
+    "text": "sel）」は男性名詞です。冠詞[___]を入力してください。 (Entrez le mot correct.pour sel. (「塩)",
     "explanation": "sel は男性名詞です。",
     "options": [
       "un"
@@ -1415,7 +1415,7 @@
       "#noun_gender"
     ],
     "type": "typing",
-    "text": "eau）」は女性名詞です。冠詞「une」を入力してください。 (Entrez 'une' pour eau. (「水)",
+    "text": "eau）」は女性名詞です。冠詞[___]を入力してください。 (Entrez le mot correct.pour eau. (「水)",
     "explanation": "eau は女性名詞です。",
     "options": [
       "une"
@@ -1793,7 +1793,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "Entrez l'article défini. (「その水（eau）」の定冠詞（___ eau）を入力してください。)",
+    "text": "Entrez le mot correct.article défini. (「その水（eau）」の定冠詞（___ eau）を入力してください。)",
     "explanation": "母音で始まる名詞の前では l' になります。",
     "options": [
       "l'"
@@ -1842,7 +1842,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "Entrez l'article défini. (「その皿（assiette）」の定冠詞（___ assiette）を入力してください。)",
+    "text": "Entrez le mot correct.article défini. (「その皿（assiette）」の定冠詞（___ assiette）を入力してください。)",
     "explanation": "assiette は母音始まりなので l' assiette となります。",
     "options": [
       "l'"
@@ -1859,7 +1859,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "fe)」を入力してください。 (Entrez 'une'. (「一人の女性シェフ」の不定冠詞「___ chef)",
+    "text": "fe)」を入力してください。 (Entrez le mot correct. (「一人の女性シェフ」の不定冠詞「___ chef)",
     "explanation": "女性単数名詞には une を使います。",
     "options": [
       "une"
@@ -1875,7 +1875,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "Entrez 'un'. (「一人の男性シェフ」の不定冠詞「___ chef」を入力してください。)",
+    "text": "Entrez le mot correct. (「一人の男性シェフ」の不定冠詞「___ chef」を入力してください。)",
     "explanation": "男性単数名詞には un を使います。",
     "options": [
       "un"
@@ -1891,7 +1891,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "poêle）」の定冠詞「___ poêle」を入力してください。 (Entrez 'la'. (「そのフライパン)",
+    "text": "poêle）」の定冠詞「___ poêle」を入力してください。 (Entrez le mot correct. (「そのフライパン)",
     "explanation": "女性単数名詞には la を使います。",
     "options": [
       "la"
@@ -1907,7 +1907,7 @@
       "#articles"
     ],
     "type": "typing",
-    "text": "four）」の定冠詞「___ four」を入力してください。 (Entrez 'le'. (「そのオーブン)",
+    "text": "four）」の定冠詞「___ four」を入力してください。 (Entrez le mot correct. (「そのオーブン)",
     "explanation": "男性単数名詞には le を使います。",
     "options": [
       "le"
@@ -2274,7 +2274,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Nous ___ prêts.）」の動詞 être の活用を入力してください。 (Entrez 'sommes'. (「私たちは準備ができています)",
+    "text": "Nous ___ prêts.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「私たちは準備ができています)",
     "explanation": "Nous のとき être は sommes となります。",
     "options": [
       "sommes"
@@ -2291,7 +2291,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Vous ___ chef.）」の動詞 être の活用を入力してください。 (Entrez 'êtes'. (「あなたはシェフです)",
+    "text": "Vous ___ chef.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「あなたはシェフです)",
     "explanation": "Vous のとき être は êtes となります。",
     "options": [
       "êtes"
@@ -2309,7 +2309,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Ils ___ dans la cuisine.）」の動詞 être の活用を入力してください。 (Entrez 'sont'. (「彼らは厨房にいます)",
+    "text": "Ils ___ dans la cuisine.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「彼らは厨房にいます)",
     "explanation": "Ils / Elles のとき être は sont となります。",
     "options": [
       "sont"
@@ -2326,7 +2326,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Elle ___ chef.）」の動詞 être の活用を入力してください。 (Entrez 'est'. (「彼女はシェフです)",
+    "text": "Elle ___ chef.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「彼女はシェフです)",
     "explanation": "Il / Elle / On のとき être は est となります。",
     "options": [
       "est"
@@ -2343,7 +2343,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Tu ___ prêt.）」の動詞 être の活用を入力してください。 (Entrez 'es'. (「君は準備ができている)",
+    "text": "Tu ___ prêt.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「君は準備ができている)",
     "explanation": "Tu のとき être は es となります。",
     "options": [
       "es"
@@ -2360,7 +2360,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Je ___）」の動詞 être の活用を入力してください。 (Entrez 'suis'. (「私は〜です)",
+    "text": "Je ___）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「私は〜です)",
     "explanation": "Je のとき être は suis となります。",
     "options": [
       "suis"
@@ -2655,7 +2655,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "J'___ un couteau.）」の動詞 avoir の活用を入力してください。 (Entrez 'ai'. (「私は包丁を持っています)",
+    "text": "J'___ un couteau.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「私は包丁を持っています)",
     "explanation": "Je (J') に対する avoir の活用は ai です。",
     "options": [
       "ai"
@@ -2672,7 +2672,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Tu ___ une casserole.）」の動詞 avoir の活用を入力してください。 (Entrez 'as'. (「君は鍋を持っている)",
+    "text": "Tu ___ une casserole.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「君は鍋を持っている)",
     "explanation": "Tu に対する avoir の活用は as です。",
     "options": [
       "as"
@@ -2689,7 +2689,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Il ___ 20 ans.）」の動詞 avoir の活用を入力してください。 (Entrez 'a'. (「彼は20歳です)",
+    "text": "Il ___ 20 ans.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼は20歳です)",
     "explanation": "Il / Elle のとき avoir は a です。",
     "options": [
       "a"
@@ -2706,7 +2706,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Nous ___ du sel.）」の動詞 avoir の活用を入力してください。 (Entrez 'avons'. (「私たちは塩を持っています)",
+    "text": "Nous ___ du sel.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「私たちは塩を持っています)",
     "explanation": "Nous に対する avoir の活用は avons です。",
     "options": [
       "avons"
@@ -2723,7 +2723,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Vous ___ du temps ?）」の動詞 avoir の活用を入力してください。 (Entrez 'avez'. (「あなたは時間がありますか？)",
+    "text": "Vous ___ du temps ?）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「あなたは時間がありますか？)",
     "explanation": "Vous に対する avoir の活用は avez です。",
     "options": [
       "avez"
@@ -2740,7 +2740,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Ils ___ du poisson.）」の動詞 avoir の活用を入力してください。 (Entrez 'ont'. (「彼らは魚を持っています)",
+    "text": "Ils ___ du poisson.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼らは魚を持っています)",
     "explanation": "Ils / Elles に対する avoir の活用は ont です。",
     "options": [
       "ont"
@@ -2943,7 +2943,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Elles ___ quoi ?）」の動詞 avoir の活用を入力してください。 (Entrez 'ont'. (「彼女たちは何を持っていますか？)",
+    "text": "Elles ___ quoi ?）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼女たちは何を持っていますか？)",
     "explanation": "Elles に対応する avoir の活用は ont です。",
     "options": [
       "ont"
@@ -2959,7 +2959,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'C'est'. (「これは料理長です（___ un chef.）」の提示表現「C'est」を入力してください。)",
+    "text": "Entrez le mot correct. (「これは料理長です（___ un chef.）」の提示表現[___]を入力してください。)",
     "explanation": "単数名詞の提示には C'est を使います。",
     "options": [
       "C'est"
@@ -2976,7 +2976,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'Ce sont'. (「これらは包丁です（___ des couteaux.）」の複数提示表現「Ce sont」を入力してください。)",
+    "text": "Entrez le mot correct. (「これらは包丁です（___ des couteaux.）」の複数提示表現[___]を入力してください。)",
     "explanation": "複数名詞の提示には Ce sont を使います。",
     "options": [
       "Ce sont"
@@ -2993,7 +2993,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "C'est ___）」の形容詞「bon」を入力してください。 (Entrez 'bon'. (「美味しいです)",
+    "text": "C'est ___）」の形容詞[___]を入力してください。 (Entrez le mot correct. (「美味しいです)",
     "explanation": "C'est bon で「美味しいです」という意味になります。",
     "options": [
       "bon"
@@ -3009,7 +3009,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "C'est ___）」の形容詞「chaud」を入力してください。 (Entrez 'chaud'. (「熱いです)",
+    "text": "C'est ___）」の形容詞[___]を入力してください。 (Entrez le mot correct. (「熱いです)",
     "explanation": "C'est chaud で「熱いです」という意味になります。",
     "options": [
       "chaud"
@@ -3025,7 +3025,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'C'est'. (「これは私のレシピです（___ ma recette.）」の「C'est」を入力してください。)",
+    "text": "Entrez le mot correct. (「これは私のレシピです（___ ma recette.）」の[___]を入力してください。)",
     "explanation": "C'est + 所有形容詞 + 名詞 の形です。",
     "options": [
       "C'est"
@@ -3042,7 +3042,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'Ce sont'. (「これらは野菜です（___ des légumes.）」の「Ce sont」を入力してください。)",
+    "text": "Entrez le mot correct. (「これらは野菜です（___ des légumes.）」の[___]を入力してください。)",
     "explanation": "Ce sont des légumes. となります。",
     "options": [
       "Ce sont"
@@ -3234,7 +3234,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'C'est'. (「これは私の学校です（___ mon école.）」の「C'est」を入力してください。)",
+    "text": "Entrez le mot correct. (「これは私の学校です（___ mon école.）」の[___]を入力してください。)",
     "explanation": "単数提示の C'est です。",
     "options": [
       "C'est"
@@ -3251,7 +3251,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'Ce sont'. (「これらはリンゴです（___ des pommes.）」の「Ce sont」を入力してください。)",
+    "text": "Entrez le mot correct. (「これらはリンゴです（___ des pommes.）」の[___]を入力してください。)",
     "explanation": "複数提示の Ce sont です。",
     "options": [
       "Ce sont"
@@ -3268,7 +3268,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "C'est ___）」の形容詞「froid」を入力してください。 (Entrez 'froid'. (「冷たいです)",
+    "text": "C'est ___）」の形容詞[___]を入力してください。 (Entrez le mot correct. (「冷たいです)",
     "explanation": "C'est froid で「冷たいです」となります。",
     "options": [
       "froid"
@@ -3342,7 +3342,7 @@
       "#demonstrative_cest"
     ],
     "type": "typing",
-    "text": "Entrez 'c'est'. (「これは何ですか？」の疑問表現「Qu'est-ce que ___ ?」の提示動詞「c'est」を入力してください。)",
+    "text": "Entrez le mot correct. (「これは何ですか？」の疑問表現「Qu'est-ce que ___ ?」の提示動詞[___]を入力してください。)",
     "explanation": "Qu'est-ce que c'est ? で「これは何ですか？」となります。",
     "options": [
       "c'est"
@@ -3360,7 +3360,7 @@
       "#A1",
       "#subjects"
     ],
-    "text": "I）」に対応する、フランス語の主語人称代名詞を入力してください。 (Entrez le pronom sujet pour 'Je'. (「私は)",
+    "text": "I）」に対応する、フランス語の主語人称代名詞を入力してください。 (Entrez le pronom sujet pour [___]. (「私は)",
     "options": [
       "Tu",
       "Il",
@@ -3426,7 +3426,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Entrez 'Je'. (「私」に対応するフランス語の主語代名詞「Je」を入力してください。)",
+    "text": "Entrez le mot correct. (「私」に対応するフランス語の主語代名詞[___]を入力してください。)",
     "explanation": "「私」は Je です。",
     "options": [
       "Je"
@@ -3444,7 +3444,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Tu）」に対応する主語代名詞を入力してください。 (Entrez 'Tu'. (「君)",
+    "text": "[___]）」に対応する主語代名詞を入力してください。 (Entrez le mot correct. (「君)",
     "explanation": "親称「君」は Tu です。",
     "options": [
       "Tu"
@@ -3462,7 +3462,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Il）」に対応する主語代名詞を入力してください。 (Entrez 'Il'. (「彼)",
+    "text": "[___]）」に対応する主語代名詞を入力してください。 (Entrez le mot correct. (「彼)",
     "explanation": "男性単数「彼」は Il です。",
     "options": [
       "Il"
@@ -3480,7 +3480,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Elle）」に対応する主語代名詞を入力してください。 (Entrez 'Elle'. (「彼女)",
+    "text": "[___]）」に対応する主語代名詞を入力してください。 (Entrez le mot correct. (「彼女)",
     "explanation": "女性単数「彼女」は Elle です。",
     "options": [
       "Elle"
@@ -3498,7 +3498,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Nous）」に対応する主語代名詞を入力してください。 (Entrez 'Nous'. (「私たち)",
+    "text": "[___]）」に対応する主語代名詞を入力してください。 (Entrez le mot correct. (「私たち)",
     "explanation": "「私たち」は Nous です。",
     "options": [
       "Nous"
@@ -3516,7 +3516,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Vous）」の代名詞を入力してください。 (Entrez 'Vous'. (丁寧な「あなた / あなた方)",
+    "text": "[___]）」の代名詞を入力してください。 (Entrez le mot correct. (丁寧な「あなた / あなた方)",
     "explanation": "「あなた / あなた方」は Vous です。",
     "options": [
       "Vous"
@@ -3718,7 +3718,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Entrez 'Elles'. (「女性たち（彼女たち）」のみのグループを指す主語代名詞「Elles」を入力してください。)",
+    "text": "Entrez le mot correct. (「女性たち（彼女たち）」のみのグループを指す主語代名詞[___]を入力してください。)",
     "explanation": "女性のみの複数には Elles を使います。",
     "options": [
       "Elles"
@@ -3766,7 +3766,7 @@
       "#subjects"
     ],
     "type": "typing",
-    "text": "Entrez 'On'. (話し言葉で Nous の代わりに使われる三人称単数扱い代名詞「On」を入力してください。)",
+    "text": "Entrez le mot correct. (話し言葉で Nous の代わりに使われる三人称単数扱い代名詞[___]を入力してください。)",
     "explanation": "On は会話で「私たち」を意味します。",
     "options": [
       "On"
@@ -3783,7 +3783,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'chaud'. (「温かい / 熱い」の男性形形容詞「chaud」を入力してください。)",
+    "text": "Entrez le mot correct. (「温かい / 熱い」の男性形形容詞[___]を入力してください。)",
     "explanation": "chaud は熱い・温かいという意味です。",
     "options": [
       "chaud"
@@ -3799,7 +3799,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'froid'. (「冷たい」の男性形形容詞「froid」を入力してください。)",
+    "text": "Entrez le mot correct. (「冷たい」の男性形形容詞[___]を入力してください。)",
     "explanation": "froid は冷たいという意味です。",
     "options": [
       "froid"
@@ -3815,7 +3815,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'bon'. (「良い / 美味しい」の男性形形容詞「bon」を入力してください。)",
+    "text": "Entrez le mot correct. (「良い / 美味しい」の男性形形容詞[___]を入力してください。)",
     "explanation": "bon は良い・美味しいという意味です。",
     "options": [
       "bon"
@@ -3831,7 +3831,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'grand'. (「大きい」の男性形形容詞「grand」を入力してください。)",
+    "text": "Entrez le mot correct. (「大きい」の男性形形容詞[___]を入力してください。)",
     "explanation": "grand は大きいという意味です。",
     "options": [
       "grand"
@@ -3847,7 +3847,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'petit'. (「小さな」の男性形形容詞「petit」を入力してください。)",
+    "text": "Entrez le mot correct. (「小さな」の男性形形容詞[___]を入力してください。)",
     "explanation": "petit は小さいという意味です。",
     "options": [
       "petit"
@@ -3863,7 +3863,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'nouveau'. (「新しい」の男性形形容詞「nouveau」を入力してください。)",
+    "text": "Entrez le mot correct. (「新しい」の男性形形容詞[___]を入力してください。)",
     "explanation": "nouveau は新しいという意味です。",
     "options": [
       "nouveau"
@@ -4055,7 +4055,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'mauvais'. (「悪い」を意味する男性形形容詞「mauvais」を入力してください。)",
+    "text": "Entrez le mot correct. (「悪い」を意味する男性形形容詞[___]を入力してください。)",
     "explanation": "mauvais は悪いという意味です。",
     "options": [
       "mauvais"
@@ -4071,7 +4071,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'propre'. (「清潔な」を意味する形容詞「propre」を入力してください。)",
+    "text": "Entrez le mot correct. (「清潔な」を意味する形容詞[___]を入力してください。)",
     "explanation": "propre は清潔なという意味です。",
     "options": [
       "propre"
@@ -4087,7 +4087,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'sale'. (「汚れた」を意味する形容詞「sale」を入力してください。)",
+    "text": "Entrez le mot correct. (「汚れた」を意味する形容詞[___]を入力してください。)",
     "explanation": "sale は汚れたという意味です。",
     "options": [
       "sale"
@@ -4161,7 +4161,7 @@
       "#basic_adjectives"
     ],
     "type": "typing",
-    "text": "Entrez 'jeune'. (「若い」を意味する形容詞「jeune」を入力してください。)",
+    "text": "Entrez le mot correct. (「若い」を意味する形容詞[___]を入力してください。)",
     "explanation": "jeune は若いという意味です。",
     "options": [
       "jeune"
@@ -4178,7 +4178,7 @@
       "#applied",
       "#A1"
     ],
-    "text": "Entrez la préposition de négation. (「私は包丁を持っていません」の否定文「Je n'ai pas ___ couteau.」の空欄に入る前置詞を入力してください。)",
+    "text": "Entrez la préposition [___] négation. (「私は包丁を持っていません」の否定文「Je n'ai pas ___ couteau.」の空欄に入る前置詞を入力してください。)",
     "options": [
       "un",
       "du",
@@ -4223,7 +4223,7 @@
       "#mixed",
       "#A1"
     ],
-    "text": "four / 男性名詞）を持っていません」は「Je n'ai pas ___ four.」となります。空欄に入る言葉を入力してください。 (Entrez la préposition de négation. (「私はオーブン)",
+    "text": "four / 男性名詞）を持っていません」は「Je n'ai pas ___ four.」となります。空欄に入る言葉を入力してください。 (Entrez la préposition [___] négation. (「私はオーブン)",
     "options": [
       "un",
       "de",
@@ -4244,7 +4244,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'de'. (否定文「Je n'ai pas ___ couteau.」の「否定の de」を入力してください。)",
+    "text": "Entrez le mot correct. (否定文「Je n'ai pas ___ couteau.」の「否定の [___]」を入力してください。)",
     "explanation": "否定文で不定冠詞 un/une/des は de に変わります。",
     "options": [
       "de"
@@ -4260,7 +4260,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'ne'. (「Je ___ suis pas chef.」の「ne」を入力してください。)",
+    "text": "Entrez le mot correct. (「Je ___ suis pas chef.」の[___]を入力してください。)",
     "explanation": "動詞を ne ... pas で挟みます。",
     "options": [
       "ne"
@@ -4276,7 +4276,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'pas'. (「Je ne suis ___ prêt.」の「pas」を入力してください。)",
+    "text": "Entrez le mot correct. (「Je ne suis ___ prêt.」の[___]を入力してください。)",
     "explanation": "ne + 動詞 + pas で否定文を作ります。",
     "options": [
       "pas"
@@ -4292,7 +4292,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'n'. (母音動詞の前で ne が省略された形「n'」の「Je ___'ai pas.」を入力してください。)",
+    "text": "Entrez 'n'. (母音動詞の前で ne が省略された形[___]の「Je ___'ai pas.」を入力してください。)",
     "explanation": "母音前では ne は n' になります。",
     "options": [
       "n'"
@@ -4309,7 +4309,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'd'. (「Je n'ai pas ___ assiette.」のエリジオン形「d'」を入力してください。)",
+    "text": "Entrez 'd'. (「Je n'ai pas ___ assiette.」のエリジオン形[___]を入力してください。)",
     "explanation": "母音前では 否定の de は d' になります。",
     "options": [
       "d'"
@@ -4326,7 +4326,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Je ne suis pas ___）」の「prêt」を入力してください。 (Entrez 'prêt'. (「私は準備ができていません)",
+    "text": "Je ne suis pas ___）」の[___]を入力してください。 (Entrez le mot correct. (「私は準備ができていません)",
     "explanation": "Je ne suis pas prêt. となります。",
     "options": [
       "prêt"
@@ -4522,7 +4522,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Nous n'avons ___ de temps.）」の否定語「pas」を入力してください。 (Entrez 'pas'. (「私たちは時間がありません)",
+    "text": "Nous n'avons ___ de temps.）」の否定語[___]を入力してください。 (Entrez le mot correct. (「私たちは時間がありません)",
     "explanation": "n'avons pas de temps となります。",
     "options": [
       "pas"
@@ -4567,7 +4567,7 @@
       "#negation"
     ],
     "type": "typing",
-    "text": "Entrez 'pas'. (「まだ〜ない」を意味する否定フレーズの後半語「pas encore」の「pas」を入力してください。)",
+    "text": "Entrez le mot correct. (「まだ〜ない」を意味する否定フレーズの後半語「[___] encore」の[___]を入力してください。)",
     "explanation": "ne ... pas encore で「まだ〜ない」という意味になります。",
     "options": [
       "pas"
@@ -4805,7 +4805,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'trois'. (「3」を表すフランス語単語「trois」を入力してください。)",
+    "text": "Entrez le mot correct. (「3」を表すフランス語単語[___]を入力してください。)",
     "explanation": "3 は trois です。",
     "options": [
       "trois"
@@ -4821,7 +4821,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'cinq'. (「5」を表すフランス語単語「cinq」を入力してください。)",
+    "text": "Entrez le mot correct. (「5」を表すフランス語単語[___]を入力してください。)",
     "explanation": "5 は cinq です。",
     "options": [
       "cinq"
@@ -4837,7 +4837,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'sept'. (「7」を表すフランス語単語「sept」を入力してください。)",
+    "text": "Entrez le mot correct. (「7」を表すフランス語単語[___]を入力してください。)",
     "explanation": "7 は sept です。",
     "options": [
       "sept"
@@ -4853,7 +4853,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'dix'. (「10」を表すフランス語単語「dix」を入力してください。)",
+    "text": "Entrez le mot correct. (「10」を表すフランス語単語[___]を入力してください。)",
     "explanation": "10 は dix です。",
     "options": [
       "dix"
@@ -4869,7 +4869,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'douze'. (「12」を表すフランス語単語「douze」を入力してください。)",
+    "text": "Entrez le mot correct. (「12」を表すフランス語単語[___]を入力してください。)",
     "explanation": "12 は douze です。",
     "options": [
       "douze"
@@ -4885,7 +4885,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'quinze'. (「15」を表すフランス語単語「quinze」を入力してください。)",
+    "text": "Entrez le mot correct. (「15」を表すフランス語単語[___]を入力してください。)",
     "explanation": "15 は quinze です。",
     "options": [
       "quinze"
@@ -4901,7 +4901,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'vingt'. (「20」を表すフランス語単語「vingt」を入力してください。)",
+    "text": "Entrez le mot correct. (「20」を表すフランス語単語[___]を入力してください。)",
     "explanation": "20 は vingt です。",
     "options": [
       "vingt"
@@ -4917,7 +4917,7 @@
       "#numbers"
     ],
     "type": "typing",
-    "text": "Entrez 'dix-huit'. (「18」を表す単語「dix-huit」を入力してください。)",
+    "text": "Entrez le mot correct. (「18」を表す単語[___]を入力してください。)",
     "explanation": "18 は dix-huit と書きます。",
     "options": [
       "dix-huit"
@@ -5058,7 +5058,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "couteau）」の複数形「couteaux」を入力してください。 (Entrez 'couteaux'. (「包丁)",
+    "text": "couteau）」の複数形[___]を入力してください。 (Entrez le mot correct. (「包丁)",
     "explanation": "-eau で終わる単語の複数形は x がつきます。",
     "options": [
       "couteaux"
@@ -5074,7 +5074,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "gâteau）」の複数形「gâteaux」を入力してください。 (Entrez 'gâteaux'. (「ケーキ)",
+    "text": "gâteau）」の複数形[___]を入力してください。 (Entrez le mot correct. (「ケーキ)",
     "explanation": "-eau で終わる単語の複数形は x がつきます。",
     "options": [
       "gâteaux"
@@ -5091,7 +5091,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "chef）」の複数形「chefs」を入力してください。 (Entrez 'chefs'. (「シェフ)",
+    "text": "chef）」の複数形[___]を入力してください。 (Entrez le mot correct. (「シェフ)",
     "explanation": "通常の名詞の複数形は s をつけます。",
     "options": [
       "chefs"
@@ -5107,7 +5107,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "assiette）」の複数形「assiettes」を入力してください。 (Entrez 'assiettes'. (「お皿)",
+    "text": "assiette）」の複数形[___]を入力してください。 (Entrez le mot correct. (「お皿)",
     "explanation": "通常の複数形は s をつけます。",
     "options": [
       "assiettes"
@@ -5123,7 +5123,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "tomate）」の複数形「tomates」を入力してください。 (Entrez 'tomates'. (「トマト)",
+    "text": "tomate）」の複数形[___]を入力してください。 (Entrez le mot correct. (「トマト)",
     "explanation": "tomate の複数形は tomates です。",
     "options": [
       "tomates"
@@ -5139,7 +5139,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "légume）」の複数形「légumes」を入力してください。 (Entrez 'légumes'. (「野菜)",
+    "text": "légume）」の複数形[___]を入力してください。 (Entrez le mot correct. (「野菜)",
     "explanation": "légume の複数形は légumes です。",
     "options": [
       "légumes"
@@ -5330,7 +5330,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "eau）」の複数形「eaux」を入力してください。 (Entrez 'eaux'. (「水)",
+    "text": "eau）」の複数形[___]を入力してください。 (Entrez le mot correct. (「水)",
     "explanation": "-eau で終わる単語の複数形は x がつきます。",
     "options": [
       "eaux"
@@ -5375,7 +5375,7 @@
       "#plurals"
     ],
     "type": "typing",
-    "text": "mot）」の複数形「mots」を入力してください。 (Entrez 'mots'. (「1つの言葉 / 言語)",
+    "text": "mot）」の複数形[___]を入力してください。 (Entrez le mot correct. (「1つの言葉 / 言語)",
     "explanation": "mots となります。",
     "options": [
       "mots"
@@ -5414,7 +5414,7 @@
       "#basic",
       "#A1"
     ],
-    "text": "Entrez la préposition élidée. (「1本の水（bouteille d'eau）」のように、容器を表す言葉を結ぶ前置詞（___ d'eau）を省略形で入力してください。)",
+    "text": "Entrez la préposition élidée. (「1本の水（bouteille [___]eau）」のように、容器を表す言葉を結ぶ前置詞（___ [___]eau）を省略形で入力してください。)",
     "options": [
       "de",
       "d'",
@@ -5499,7 +5499,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "un kilo ___）」の前置詞「de」を入力してください。 (Entrez 'de'. (「1キロの〜)",
+    "text": "un kilo ___）」の前置詞[___]を入力してください。 (Entrez le mot correct. (「1キロの〜)",
     "explanation": "単位の後ろには de を置きます。",
     "options": [
       "de"
@@ -5515,7 +5515,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "un litre ___ lait）」の前置詞「de」を入力してください。 (Entrez 'de'. (「1リットルの牛乳)",
+    "text": "un litre ___ lait）」の前置詞[___]を入力してください。 (Entrez le mot correct. (「1リットルの牛乳)",
     "explanation": "un litre de lait となります。",
     "options": [
       "de"
@@ -5531,7 +5531,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "une bouteille d'eau）」の前置詞「d'」を入力してください。 (Entrez 'd'. (「1本の水)",
+    "text": "une bouteille [___]eau）」の前置詞[___]を入力してください。 (Entrez 'd'. (「1本の水)",
     "explanation": "母音前では de は d' になります。",
     "options": [
       "d'"
@@ -5548,7 +5548,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "un peu ___）」の前置詞「de」を入力してください。 (Entrez 'de'. (「少しの〜)",
+    "text": "un peu ___）」の前置詞[___]を入力してください。 (Entrez le mot correct. (「少しの〜)",
     "explanation": "un peu de で「少しの〜」という意味になります。",
     "options": [
       "de"
@@ -5564,7 +5564,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "une pincée de ___）」の「sel」を入力してください。 (Entrez 'sel'. (「ひとつまみの塩)",
+    "text": "une pincée de ___）」の[___]を入力してください。 (Entrez le mot correct. (「ひとつまみの塩)",
     "explanation": "une pincée de sel となります。",
     "options": [
       "sel"
@@ -5580,7 +5580,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "Entrez 'beaucoup'. (「たくさんの〜」の「beaucoup de」の「beaucoup」を入力してください。)",
+    "text": "Entrez le mot correct. (「たくさんの〜」の「[___] de」の[___]を入力してください。)",
     "explanation": "beaucoup de で「たくさんの〜」になります。",
     "options": [
       "beaucoup"
@@ -5775,7 +5775,7 @@
       "#units"
     ],
     "type": "typing",
-    "text": "beaucoup ___ eau）」のエリジオン形「d'」を入力してください。 (Entrez 'd'. (「たくさんの水)",
+    "text": "beaucoup ___ eau）」のエリジオン形[___]を入力してください。 (Entrez 'd'. (「たくさんの水)",
     "explanation": "beaucoup d'eau となります。",
     "options": [
       "d'"
@@ -5834,7 +5834,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'japonais'. (「私は日本人です（男性: Je suis ___）」の国籍形容詞「japonais」を入力してください。)",
+    "text": "Entrez le mot correct. (「私は日本人です（男性: Je suis ___）」の国籍形容詞[___]を入力してください。)",
     "explanation": "男性形は japonais です。",
     "options": [
       "japonais"
@@ -5850,7 +5850,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'japonaise'. (「私は日本人です（女性: Je suis ___）」の女性形国籍形容詞「japonaise」を入力してください。)",
+    "text": "Entrez le mot correct. (「私は日本人です（女性: Je suis ___）」の女性形国籍形容詞[___]を入力してください。)",
     "explanation": "女性形は e がついて japonaise となります。",
     "options": [
       "japonaise"
@@ -5866,7 +5866,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "C'est un chef ___）」の「français」を入力してください。 (Entrez 'français'. (「彼はフランス人シェフです)",
+    "text": "C'est un chef ___）」の[___]を入力してください。 (Entrez le mot correct. (「彼はフランス人シェフです)",
     "explanation": "国籍形容詞 français は小文字で名詞の後ろに置きます。",
     "options": [
       "français"
@@ -5883,7 +5883,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Elle est ___）」の女性形「française」を入力してください。 (Entrez 'française'. (「彼女はフランス人です)",
+    "text": "Elle est ___）」の女性形[___]を入力してください。 (Entrez le mot correct. (「彼女はフランス人です)",
     "explanation": "女性形は française となります。",
     "options": [
       "française"
@@ -5900,7 +5900,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "la cuisine ___）」の形容詞「italienne」を入力してください。 (Entrez 'italienne'. (「イタリアの料理)",
+    "text": "la cuisine ___）」の形容詞[___]を入力してください。 (Entrez le mot correct. (「イタリアの料理)",
     "explanation": "italien の女性形は italienne です。",
     "options": [
       "italienne"
@@ -5916,7 +5916,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'américain'. (「アメリカ人の（男性）」を表す国籍形容詞「américain」を入力してください。)",
+    "text": "Entrez le mot correct. (「アメリカ人の（男性）」を表す国籍形容詞[___]を入力してください。)",
     "explanation": "américain となります。",
     "options": [
       "américain"
@@ -6110,7 +6110,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'chinois'. (「中国の / 中国人の（男性）」を表す形容詞「chinois」を入力してください。)",
+    "text": "Entrez le mot correct. (「中国の / 中国人の（男性）」を表す形容詞[___]を入力してください。)",
     "explanation": "chinois となります。",
     "options": [
       "chinois"
@@ -6126,7 +6126,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'espagnol'. (「スペインの / スペイン人の（男性）」を表す形容詞「espagnol」を入力してください。)",
+    "text": "Entrez le mot correct. (「スペインの / スペイン人の（男性）」を表す形容詞[___]を入力してください。)",
     "explanation": "espagnol となります。",
     "options": [
       "espagnol"
@@ -6171,7 +6171,7 @@
       "#nationality"
     ],
     "type": "typing",
-    "text": "Entrez 'anglais'. (「イギリスの / イギリス人の（男性）」を表す形容詞「anglais」を入力してください。)",
+    "text": "Entrez le mot correct. (「イギリスの / イギリス人の（男性）」を表す形容詞[___]を入力してください。)",
     "explanation": "anglais となります。",
     "options": [
       "anglais"
@@ -6229,7 +6229,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'bouillabaisse'. (マルセイユの名物魚料理「bouillabaisse」を入力してください。)",
+    "text": "Entrez le mot correct. (マルセイユの名物魚料理[___]を入力してください。)",
     "explanation": "bouillabaisse はマルセイユの伝統的な魚料理です。",
     "options": [
       "bouillabaisse"
@@ -6245,7 +6245,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'ratatouille'. (プロヴァンスの伝統野菜料理「ratatouille」を入力してください。)",
+    "text": "Entrez le mot correct. (プロヴァンスの伝統野菜料理[___]を入力してください。)",
     "explanation": "ratatouille はプロヴァンスの名物野菜料理です。",
     "options": [
       "ratatouille"
@@ -6261,7 +6261,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'Lyon'. (美食の都と呼ばれるフランスの都市「Lyon」を入力してください。)",
+    "text": "Entrez le mot correct. (美食の都と呼ばれるフランスの都市[___]を入力してください。)",
     "explanation": "Lyon は美食の都と称されます。",
     "options": [
       "Lyon"
@@ -6278,7 +6278,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'choucroute'. (アルザス名物のキャベツ料理「choucroute」を入力してください。)",
+    "text": "Entrez le mot correct. (アルザス名物のキャベツ料理[___]を入力してください。)",
     "explanation": "choucroute はアルザスの代表的郷土料理です。",
     "options": [
       "choucroute"
@@ -6294,7 +6294,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'camembert'. (ノルマンディー名産チーズ「camembert」を入力してください。)",
+    "text": "Entrez le mot correct. (ノルマンディー名産チーズ[___]を入力してください。)",
     "explanation": "camembert はノルマンディー発祥のチーズです。",
     "options": [
       "camembert"
@@ -6310,7 +6310,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'cannelé'. (ボルドーの名物菓子「cannelé」を入力してください。)",
+    "text": "Entrez le mot correct. (ボルドーの名物菓子[___]を入力してください。)",
     "explanation": "cannelé はボルドーの伝統菓子です。",
     "options": [
       "cannelé"
@@ -6505,7 +6505,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'bourguignon'. (ブルゴーニュ名物の牛肉の赤ワイン煮込み「boeuf bourguignon」の「bourguignon」を入力してください。)",
+    "text": "Entrez le mot correct. (ブルゴーニュ名物の牛肉の赤ワイン煮込み「boeuf [___]」の[___]を入力してください。)",
     "explanation": "boeuf bourguignon はブルゴーニュ名物です。",
     "options": [
       "bourguignon"
@@ -6521,7 +6521,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'quiche'. (ロレーヌ地方名物の卵とベーコンのタルト「quiche lorraine」の「quiche」を入力してください。)",
+    "text": "Entrez le mot correct. (ロレーヌ地方名物の卵とベーコンのタルト「[___] lorraine」の[___]を入力してください。)",
     "explanation": "quiche lorraine はロレーヌ地方の名物です。",
     "options": [
       "quiche"
@@ -6566,7 +6566,7 @@
       "#regional_culture"
     ],
     "type": "typing",
-    "text": "Entrez 'aïoli'. (プロヴァンス名物のガーリックマヨネーズ「aïoli」を入力してください。)",
+    "text": "Entrez le mot correct. (プロヴァンス名物のガーリックマヨネーズ[___]を入力してください。)",
     "explanation": "aïoli はプロヴァンスの名物ソースです。",
     "options": [
       "aïoli"
@@ -6586,7 +6586,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Vous [êtes] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 être の活用を入力してください。)",
+    "text": "Vous [___] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 être の活用を入力してください。)",
     "acceptedAnswers": [
       "êtes",
       "etes"
@@ -6602,7 +6602,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Ils [sont] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 être の活用を入力してください。)",
+    "text": "Ils [___] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 être の活用を入力してください。)",
     "acceptedAnswers": [
       "sont"
     ],
@@ -6617,7 +6617,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Elles [sont] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 être の活用を入力してください。)",
+    "text": "Elles [___] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 être の活用を入力してください。)",
     "acceptedAnswers": [
       "sont"
     ],
@@ -6760,7 +6760,7 @@
       "#etre"
     ],
     "type": "typing",
-    "text": "Qui [est] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 être の活用を入力してください。)",
+    "text": "Qui [___] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 être の活用を入力してください。)",
     "acceptedAnswers": [
       "est"
     ],
@@ -6775,7 +6775,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Tu [as] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
+    "text": "Tu [___] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
     "acceptedAnswers": [
       "as"
     ],
@@ -6790,7 +6790,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Vous [avez] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
+    "text": "Vous [___] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
     "acceptedAnswers": [
       "avez"
     ],
@@ -6805,7 +6805,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Ils [ont] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
+    "text": "Ils [___] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
     "acceptedAnswers": [
       "ont"
     ],
@@ -6820,7 +6820,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Elle [a] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
+    "text": "Elle [___] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
     "acceptedAnswers": [
       "a"
     ],
@@ -6928,7 +6928,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "Avez-[vous] du vin blanc ? (「白ワインはありますか？」 - 倒置疑問文の空欄に入る代名詞を入力してください。)",
+    "text": "Avez-[___] du vin blanc ? (「白ワインはありますか？」 - 倒置疑問文の空欄に入る代名詞を入力してください。)",
     "acceptedAnswers": [
       "vous"
     ],
@@ -6943,7 +6943,7 @@
       "#avoir"
     ],
     "type": "typing",
-    "text": "J'ai [faim]. (「お腹が空いた」を表す表現「J'ai ___」の空欄を入力してください。)",
+    "text": "J'ai [___]. (「お腹が空いた」を表す表現「J'ai ___」の空欄を入力してください。)",
     "acceptedAnswers": [
       "faim"
     ],
@@ -6958,7 +6958,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Je [coupe] les oignons. (「私は玉ねぎを切ります」 - 動詞 couper の Je に対する活用を入力してください。)",
+    "text": "Je [___] les oignons. (「私は玉ねぎを切ります」 - 動詞 couper の Je に対する活用を入力してください。)",
     "acceptedAnswers": [
       "coupe"
     ],
@@ -6973,7 +6973,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Nous [mélangeons] la sauce. (「私たちはソースを混ぜます」 - 動詞 mélanger の Nous に対する活用を入力してください。)",
+    "text": "Nous [___] la sauce. (「私たちはソースを混ぜます」 - 動詞 mélanger の Nous に対する活用を入力してください。)",
     "acceptedAnswers": [
       "mélangeons",
       "melangeons"
@@ -6989,7 +6989,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Vous [ajoutez] du sel. (「あなた方は塩を加えます」 - 動詞 ajouter の Vous に対する活用を入力してください。)",
+    "text": "Vous [___] du sel. (「あなた方は塩を加えます」 - 動詞 ajouter の Vous に対する活用を入力してください。)",
     "acceptedAnswers": [
       "ajoutez"
     ],
@@ -7004,7 +7004,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Il [taille] les légumes en julienne. (「彼は野菜をジュリエンヌ（千切り）にします」 - 動詞 tailler の Il に対する活用を入力してください。)",
+    "text": "Il [___] les légumes en julienne. (「彼は野菜をジュリエンヌ（千切り）にします」 - 動詞 tailler の Il に対する活用を入力してください。)",
     "acceptedAnswers": [
       "taille"
     ],
@@ -7038,7 +7038,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Tu [chauffes] la poêle. (「君はフライパンを温めます」 - 動詞 chauffer の Tu に対する活用を入力してください。)",
+    "text": "Tu [___] la poêle. (「君はフライパンを温めます」 - 動詞 chauffer の Tu に対する活用を入力してください。)",
     "acceptedAnswers": [
       "chauffes"
     ],
@@ -7104,7 +7104,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Elles [préparent] le dessert. (「彼女たちはデセールを準備します」 - 動詞 préparer の Elles に対する活用を入力してください。)",
+    "text": "Elles [___] le dessert. (「彼女たちはデセールを準備します」 - 動詞 préparer の Elles に対する活用を入力してください。)",
     "acceptedAnswers": [
       "préparent",
       "preparent"
@@ -7120,7 +7120,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Le chef [goûte] la soupe. (「料理長がスープを味見します」 - 動詞 goûter の 3人称単数活用を入力してください。)",
+    "text": "Le chef [___] la soupe. (「料理長がスープを味見します」 - 動詞 goûter の 3人称単数活用を入力してください。)",
     "acceptedAnswers": [
       "goûte",
       "goute"
@@ -7135,7 +7135,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la coupe en dés de 1 à 2 mm : [brunoise]. (1〜2mmの超極小サイコロ切りの名称を入力してください。)",
+    "text": "Entrez le nom de la coupe en dés de 1 à 2 mm : [___]. (1〜2mmの超極小サイコロ切りの名称を入力してください。)",
     "acceptedAnswers": [
       "brunoise"
     ],
@@ -7149,7 +7149,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour la coupe en bâtonnets fins : [julienne]. (千切り（1〜2mm×4〜5cmの細切り）の名称を入力してください。)",
+    "text": "Entrez le terme pour la coupe en bâtonnets fins : [___]. (千切り（1〜2mm×4〜5cmの細切り）の名称を入力してください。)",
     "acceptedAnswers": [
       "julienne"
     ],
@@ -7163,7 +7163,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom du dés de 5mm : [macedoine]. (5mm角のさいの目切りのフランス料理用語を入力してください。)",
+    "text": "Entrez le nom du dés de 5mm : [___]. (5mm角のさいの目切りのフランス料理用語を入力してください。)",
     "acceptedAnswers": [
       "macédoine",
       "macedoine"
@@ -7214,7 +7214,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour couper en tranches fines : [emincer]. (薄切り（スライス）にする動詞を入力してください。)",
+    "text": "Entrez le terme pour couper en tranches fines : [___]. (薄切り（スライス）にする動詞を入力してください。)",
     "acceptedAnswers": [
       "émincer",
       "emincer"
@@ -7229,7 +7229,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom du carré de 1cm de côté : [macedoine]. (1cm角の角切りは「mirepoix」や「dés」です。粗い角切りを表す語を入力してください：[mirepoix].)",
+    "text": "Entrez le nom du carré de 1cm de côté : [macedoine]. (1cm角の角切りは[___]や「dés」です。粗い角切りを表す語を入力してください：[___].)",
     "acceptedAnswers": [
       "mirepoix"
     ],
@@ -7274,7 +7274,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le verbe signifiant '粗く砕く・潰し切りにする' : [concasser]. (トマトなどを粗く刻む動詞を入力してください。)",
+    "text": "Entrez le verbe signifiant '粗く砕く・潰し切りにする' : [___]. (トマトなどを粗く刻む動詞を入力してください。)",
     "acceptedAnswers": [
       "concasser"
     ],
@@ -7321,7 +7321,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour '豚肉' : [porc]. (「豚肉」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot français pour '豚肉' : [___]. (「豚肉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "porc"
     ],
@@ -7335,7 +7335,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '仔牛肉' : [veau]. (「仔牛肉」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '仔牛肉' : [___]. (「仔牛肉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "veau"
     ],
@@ -7349,7 +7349,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour '子羊肉' : [agneau]. (「子羊肉」を表すフランス語を入力してください。)",
+    "text": "Entrez le terme pour '子羊肉' : [___]. (「子羊肉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "agneau"
     ],
@@ -7399,7 +7399,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la cuisson 'ベリーレア' : [bleu]. (表面だけをサッと焼く焼き加減を入力してください。)",
+    "text": "Entrez le nom de la cuisson 'ベリーレア' : [___]. (表面だけをサッと焼く焼き加減を入力してください。)",
     "acceptedAnswers": [
       "bleu"
     ],
@@ -7444,7 +7444,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour la viande de volaille '鴨肉' : [canard]. (「鴨肉」を表すフランス語を入力してください。)",
+    "text": "Entrez le terme pour la viande de volaille '鴨肉' : [___]. (「鴨肉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "canard"
     ],
@@ -7458,7 +7458,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '鶏肉' : [poulet]. (「鶏肉」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '鶏肉' : [___]. (「鶏肉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "poulet"
     ],
@@ -7472,7 +7472,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la sauce à base de lait et de roux blanc : [béchamel]. (牛乳と白ルウから作られる基本ソース（ベシャメル）を入力してください。)",
+    "text": "Entrez le nom de la sauce à base de lait et de roux blanc : [___]. (牛乳と白ルウから作られる基本ソース（ベシャメル）を入力してください。)",
     "acceptedAnswers": [
       "béchamel",
       "bechamel"
@@ -7487,7 +7487,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom du fond clair de veau ou de volaille : [fond blanc]. (白い出汁（ブイヨン）の用語を入力してください。)",
+    "text": "Entrez le nom du fond clair de veau ou de volaille : [___]. (白い出汁（ブイヨン）の用語を入力してください。)",
     "acceptedAnswers": [
       "fond blanc"
     ],
@@ -7501,7 +7501,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom du fond rôti et coloré : [fond brun]. (骨や野菜を香ばしく炒めて取る褐色出汁を入力してください。)",
+    "text": "Entrez le nom du fond rôti et coloré : [___]. (骨や野菜を香ばしく炒めて取る褐色出汁を入力してください。)",
     "acceptedAnswers": [
       "fond brun"
     ],
@@ -7551,7 +7551,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la sauce béarnaise sans l'article : [bearnaise]. (エストラゴンとシャルロットを効かせた温かい乳化ソースを入力してください。)",
+    "text": "Entrez le nom de la sauce [___] sans l'article : [___]. (エストラゴンとシャルロットを効かせた温かい乳化ソースを入力してください。)",
     "acceptedAnswers": [
       "béarnaise",
       "bearnaise"
@@ -7566,7 +7566,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour l'émulsion froide d'huile et jaune d'œuf : [mayonnaise]. (冷たい乳化ソースの代表格を入力してください。)",
+    "text": "Entrez le mot pour l'émulsion froide d'huile et jaune d'œuf : [___]. (冷たい乳化ソースの代表格を入力してください。)",
     "acceptedAnswers": [
       "mayonnaise"
     ],
@@ -7611,7 +7611,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour la sauce à salade d'huile et vinaigre : [vinaigrette]. (フレンチドレッシングの基本「油と酢」のソースを入力してください。)",
+    "text": "Entrez le terme pour la sauce à salade d'huile et vinaigre : [___]. (フレンチドレッシングの基本「油と酢」のソースを入力してください。)",
     "acceptedAnswers": [
       "vinaigrette"
     ],
@@ -7643,7 +7643,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la réaction de coloration de la viande : [Maillard]. (肉の香ばしい焼き色と旨味を生む反応名（メイラード反応）を入力してください。)",
+    "text": "Entrez le nom de la réaction de coloration de la viande : [___]. (肉の香ばしい焼き色と旨味を生む反応名（メイラード反応）を入力してください。)",
     "acceptedAnswers": [
       "Maillard",
       "maillard"
@@ -7658,7 +7658,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour la dispersion de l'huile dans l'eau : [emulsion]. (本来混ざらない液体同士が均一に分散した状態を入力してください。)",
+    "text": "Entrez le terme pour la dispersion de l'huile dans l'eau : [___]. (本来混ざらない液体同士が均一に分散した状態を入力してください。)",
     "acceptedAnswers": [
       "émulsion",
       "emulsion"
@@ -7673,7 +7673,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "À quelle température environ commence la réaction de Maillard ? [140] °C. (メイラード反応が活発化し始める温度を入力してください。)",
+    "text": "À quelle température environ commence la réaction de Maillard ? [___] °C. (メイラード反応が活発化し始める温度を入力してください。)",
     "acceptedAnswers": [
       "140",
       "140°C",
@@ -7725,7 +7725,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la protéine du tissu conjonctif qui se transforme en gélatine à la cuisson : [collagene]. (長時間の加熱でゼラチン化する筋膜のタンパク質を入力してください。)",
+    "text": "Entrez le nom de la protéine du tissu conjonctif qui se transforme en gélatine à la cuisson : [___]. (長時間の加熱でゼラチン化する筋膜のタンパク質を入力してください。)",
     "acceptedAnswers": [
       "collagène",
       "collagene"
@@ -7740,7 +7740,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la technique de sphérification par alginate de sodium : [spherification]. (人工いくらを作る分子調理技術（球状化）を入力してください。)",
+    "text": "Entrez le nom de la technique de [___] par alginate de sodium : [___]. (人工いくらを作る分子調理技術（球状化）を入力してください。)",
     "acceptedAnswers": [
       "sphérification",
       "spherification"
@@ -7786,7 +7786,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "À quelle température la protéine du sang coagule-t-elle pour lier une sauce ? [70] °C. (Lièvre à la Royale等の血液によるつなぎで血液が凝固し始める温度を入力してください。)",
+    "text": "À quelle température la protéine du sang coagule-t-elle pour lier une sauce ? [___] °C. (Lièvre à la Royale等の血液によるつなぎで血液が凝固し始める温度を入力してください。)",
     "acceptedAnswers": [
       "70",
       "70°C"
@@ -7819,7 +7819,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour '玉ねぎ' : [oignon]. (「玉ねぎ」のフランス語を入力してください。)",
+    "text": "Entrez le mot français pour '玉ねぎ' : [___]. (「玉ねぎ」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "oignon"
     ],
@@ -7833,7 +7833,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour 'にんじん' : [carotte]. (「にんじん」のフランス語を入力してください。)",
+    "text": "Entrez le mot français pour 'にんじん' : [___]. (「にんじん」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "carotte"
     ],
@@ -7847,7 +7847,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'ジャガイモ' : [pomme de terre]. (「ジャガイモ」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'ジャガイモ' : [___]. (「ジャガイモ」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "pomme de terre"
     ],
@@ -7861,7 +7861,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'ニンニク' : [ail]. (「ニンニク」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'ニンニク' : [___]. (「ニンニク」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "ail"
     ],
@@ -7875,7 +7875,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'トマト' : [tomate]. (「トマト」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'トマト' : [___]. (「トマト」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "tomate"
     ],
@@ -7907,7 +7907,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'ズッキーニ' : [courgette]. (「ズッキーニ」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'ズッキーニ' : [___]. (「ズッキーニ」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "courgette"
     ],
@@ -7952,7 +7952,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'ナス' : [aubergine]. (「ナス」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'ナス' : [___]. (「ナス」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "aubergine"
     ],
@@ -7966,7 +7966,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'アスパラガス' : [asperge]. (「アスパラガス」のフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'アスパラガス' : [___]. (「アスパラガス」のフランス語を入力してください。)",
     "acceptedAnswers": [
       "asperge"
     ],
@@ -7980,7 +7980,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la région célèbre pour la bouillabaisse : [Provence]. (マルセイユやブイヤベースで有名な地方名を入力してください。)",
+    "text": "Entrez le nom de la région célèbre pour la bouillabaisse : [___]. (マルセイユやブイヤベースで有名な地方名を入力してください。)",
     "acceptedAnswers": [
       "Provence",
       "provence"
@@ -7995,7 +7995,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la région du Camembert et du cidre : [Normandie]. (カマンベールチーズやシードルで有名な地方名を入力してください。)",
+    "text": "Entrez la région du Camembert et du cidre : [___]. (カマンベールチーズやシードルで有名な地方名を入力してください。)",
     "acceptedAnswers": [
       "Normandie",
       "normandie"
@@ -8010,7 +8010,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la capitale de la gastronomie française : [Lyon]. (フランス美食の都と呼ばれる都市名を入力してください。)",
+    "text": "Entrez la capitale de la gastronomie française : [___]. (フランス美食の都と呼ばれる都市名を入力してください。)",
     "acceptedAnswers": [
       "Lyon",
       "lyon"
@@ -8061,7 +8061,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la région célèbre pour les crêpes et le galette de sarrasin : [Bretagne]. (そば粉のガレットやクレープで有名な地方名を入力してください。)",
+    "text": "Entrez le nom de la région célèbre pour les crêpes et le galette de sarrasin : [___]. (そば粉のガレットやクレープで有名な地方名を入力してください。)",
     "acceptedAnswers": [
       "Bretagne",
       "bretagne"
@@ -8076,7 +8076,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom de la région du boeuf bourguignon : [Bourgogne]. (ブフ・ブルギニョンや高級赤ワインで有名な地方名を入力してください。)",
+    "text": "Entrez le nom de la région du boeuf bourguignon : [___]. (ブフ・ブルギニョンや高級赤ワインで有名な地方名を入力してください。)",
     "acceptedAnswers": [
       "Bourgogne",
       "bourgogne"
@@ -8122,7 +8122,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le nom du plat de haricots blancs et canard du Sud-Ouest : [cassoulet]. (白インゲン豆と鴨のコンフィを土鍋で煮込んだ名物料理を入力してください。)",
+    "text": "Entrez le nom du plat de haricots blancs et canard du Sud-Ouest : [___]. (白インゲン豆と鴨のコンフィを土鍋で煮込んだ名物料理を入力してください。)",
     "acceptedAnswers": [
       "cassoulet"
     ],
@@ -8154,7 +8154,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Puis-je vous [aider] ? (「お手伝いしましょうか？」 - 動詞 aider を正しく補ってください。)",
+    "text": "Puis-je vous [___] ? (「お手伝いしましょうか？」 - 動詞 [___] を正しく補ってください。)",
     "acceptedAnswers": [
       "aider"
     ],
@@ -8168,7 +8168,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Avez-vous de la [farine] ? (「小麦粉はありますか？」 - 小麦粉 farine を正しく補ってください。)",
+    "text": "Avez-vous de la [___] ? (「小麦粉はありますか？」 - 小麦粉 [___] を正しく補ってください。)",
     "acceptedAnswers": [
       "farine"
     ],
@@ -8182,7 +8182,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "C'est prêt dans [dix] minutes. (「10分で準備できます」 - 数字 10 をフランス語で入力してください。)",
+    "text": "C'est prêt dans [___] minutes. (「10分で準備できます」 - 数字 10 をフランス語で入力してください。)",
     "acceptedAnswers": [
       "dix"
     ],
@@ -8232,7 +8232,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la formule de politesse : 'S'il vous [plaît]'. (丁寧な依頼の結び文句「S'il vous ___」の空欄を入力してください。)",
+    "text": "Entrez la formule de politesse : 'S'il vous [___]'. (丁寧な依頼の結び文句「S'il vous ___」の空欄を入力してください。)",
     "acceptedAnswers": [
       "plaît",
       "plait"
@@ -8297,7 +8297,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression pour dire 'お腹が空いた' : J'ai [faim]. (「私はお腹が空いています」の空欄を入力してください。)",
+    "text": "Entrez l'expression pour dire 'お腹が空いた' : J'ai [___]. (「私はお腹が空いています」の空欄を入力してください。)",
     "acceptedAnswers": [
       "faim"
     ],
@@ -8311,7 +8311,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression pour '喉が渇いた' : J'ai [soif]. (「私は喉が渇いています」の空欄を入力してください。)",
+    "text": "Entrez l'expression pour '喉が渇いた' : J'ai [___]. (「私は喉が渇いています」の空欄を入力してください。)",
     "acceptedAnswers": [
       "soif"
     ],
@@ -8325,7 +8325,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'はい' : [oui]. (「はい」を意味するフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'はい' : [___]. (「はい」を意味するフランス語を入力してください。)",
     "acceptedAnswers": [
       "oui"
     ],
@@ -8339,7 +8339,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'いいえ' : [non]. (「いいえ」を意味するフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'いいえ' : [___]. (「いいえ」を意味するフランス語を入力してください。)",
     "acceptedAnswers": [
       "non"
     ],
@@ -8353,7 +8353,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'お皿' : [assiette]. (「お皿」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'お皿' : [___]. (「お皿」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "assiette"
     ],
@@ -8367,7 +8367,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'グラス' : [verre]. (「グラス」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'グラス' : [___]. (「グラス」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "verre"
     ],
@@ -8381,7 +8381,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'スプーン' : [cuillere]. (「スプーン」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'スプーン' : [___]. (「スプーン」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "cuillère",
       "cuillere"
@@ -8396,7 +8396,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'フォーク' : [fourchette]. (「フォーク」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'フォーク' : [___]. (「フォーク」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "fourchette"
     ],
@@ -8410,7 +8410,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'テーブル' : [table]. (「テーブル」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'テーブル' : [___]. (「テーブル」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "table"
     ],
@@ -8455,7 +8455,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '厨房・キッチン' : [cuisine]. (「厨房」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '厨房・キッチン' : [___]. (「厨房」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "cuisine"
     ],
@@ -8469,7 +8469,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "plan de travail）を入力してください。 (Entrez le mot pour '作業台' : [plan de travail]. (「調理作業台」を表すフランス語)",
+    "text": "[___]）を入力してください。 (Entrez le mot pour '作業台' : [___]. (「調理作業台」を表すフランス語)",
     "acceptedAnswers": [
       "plan de travail"
     ],
@@ -8482,7 +8482,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Choisissez le pronom relatif pour les choses : C'est le couteau [qui] coupe bien. (「これはよく切れるナイフです」 - 主語となる関係代名詞を入力してください。)",
+    "text": "Choisissez le pronom relatif pour les choses : C'est le couteau [___] coupe bien. (「これはよく切れるナイフです」 - 主語となる関係代名詞を入力してください。)",
     "acceptedAnswers": [
       "qui"
     ],
@@ -8495,7 +8495,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "C'est la sauce [que] je préfère. (「これは私が最も好きなソースです」 - 目的語となる関係代名詞を入力してください。)",
+    "text": "C'est la sauce [___] je préfère. (「これは私が最も好きなソースです」 - 目的語となる関係代名詞を入力してください。)",
     "acceptedAnswers": [
       "que"
     ],
@@ -8508,7 +8508,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Donnez-[moi] le sel, s'il vous plaît. (「私に塩をください」 - 命令文に続く代名詞を入力してください。)",
+    "text": "Donnez-[___] le sel, s'il vous plaît. (「私に塩をください」 - 命令文に続く代名詞を入力してください。)",
     "acceptedAnswers": [
       "moi"
     ],
@@ -8555,7 +8555,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la préposition de lieu : J'achète la viande [chez] le boucher. (「精肉店（人）で肉を買う」の前置詞を入力してください。)",
+    "text": "Entrez la préposition de lieu : J'achète la viande [___] le boucher. (「精肉店（人）で肉を買う」の前置詞を入力してください。)",
     "acceptedAnswers": [
       "chez"
     ],
@@ -8617,7 +8617,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le pronom de quantité : Vous voulez de la farine ? - Oui, j'|en| veux. (「はい、それを（いくらか）欲しいです」の中性代名詞を入力してください。)",
+    "text": "Entrez le pronom de quantité : Vous voulez de la farine ? - Oui, j'|[___]| veux. (「はい、それを（いくらか）欲しいです」の中性代名詞を入力してください。)",
     "acceptedAnswers": [
       "en"
     ],
@@ -8630,7 +8630,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'adverbe de temps : Je viens [tout de suite]. (「ただちに伺います」の熟語 tout de suite を入力してください。)",
+    "text": "Entrez l'adverbe de temps : Je viens [___]. (「ただちに伺います」の熟語 [___] を入力してください。)",
     "acceptedAnswers": [
       "tout de suite"
     ],
@@ -8644,7 +8644,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre du mot 'casserole' ? [féminin]. (「casserole（片手鍋）」の性別を入力してください。)",
+    "text": "Quel est le genre du mot 'casserole' ? [___]. (「casserole（片手鍋）」の性別を入力してください。)",
     "acceptedAnswers": [
       "féminin",
       "feminin"
@@ -8659,7 +8659,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre du mot 'couteau' ? [masculin]. (「couteau（包丁）」の性別を入力してください。)",
+    "text": "Quel est le genre du mot 'couteau' ? [___]. (「couteau（包丁）」の性別を入力してください。)",
     "acceptedAnswers": [
       "masculin"
     ],
@@ -8673,7 +8673,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre du mot 'poêle' (フライパン) ? [féminin]. (「poêle」の性別を入力してください。)",
+    "text": "Quel est le genre du mot 'poêle' (フライパン) ? [___]. (「poêle」の性別を入力してください。)",
     "acceptedAnswers": [
       "féminin",
       "feminin"
@@ -8688,7 +8688,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre du mot 'four' (オーブン) ? [masculin]. (「four」の性別を入力してください。)",
+    "text": "Quel est le genre du mot 'four' (オーブン) ? [___]. (「four」の性別を入力してください。)",
     "acceptedAnswers": [
       "masculin"
     ],
@@ -8734,7 +8734,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre de 'sel' (塩) ? [masculin]. (「sel」の性別を入力してください。)",
+    "text": "Quel est le genre de 'sel' (塩) ? [___]. (「sel」の性別を入力してください。)",
     "acceptedAnswers": [
       "masculin"
     ],
@@ -8779,7 +8779,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre de 'farine' (小麦粉) ? [féminin]. (「farine」の性別を入力してください。)",
+    "text": "Quel est le genre de 'farine' (小麦粉) ? [___]. (「farine」の性別を入力してください。)",
     "acceptedAnswers": [
       "féminin",
       "feminin"
@@ -8794,7 +8794,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Quel est le genre de 'beurre' (バター) ? [masculin]. (「beurre」の性別を入力してください。)",
+    "text": "Quel est le genre de 'beurre' (バター) ? [___]. (「beurre」の性別を入力してください。)",
     "acceptedAnswers": [
       "masculin"
     ],
@@ -8808,7 +8808,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour '塩' : [sel]. (「塩」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot français pour '塩' : [___]. (「塩」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "sel"
     ],
@@ -8822,7 +8822,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour 'コショウ' : [poivre]. (「コショウ」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot français pour 'コショウ' : [___]. (「コショウ」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "poivre"
     ],
@@ -8836,7 +8836,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot français pour 'バター' : [beurre]. (「バター」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot français pour 'バター' : [___]. (「バター」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "beurre"
     ],
@@ -8850,7 +8850,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'オリーブオイル' : [huile d'olive]. (「オリーブオイル」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'オリーブオイル' : [___]. (「オリーブオイル」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "huile d'olive"
     ],
@@ -8864,7 +8864,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '小麦粉' : [farine]. (「小麦粉」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '小麦粉' : [___]. (「小麦粉」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "farine"
     ],
@@ -8893,7 +8893,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "crème fraîche）を入力してください。 (Entrez le mot pour '生クリーム' : [creme fraiche]. (「生クリーム」を表すフランス語)",
+    "text": "[___]）を入力してください。 (Entrez le mot pour '生クリーム' : [___]. (「生クリーム」を表すフランス語)",
     "acceptedAnswers": [
       "crème fraîche",
       "creme fraiche",
@@ -8940,7 +8940,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '砂糖' : [sucre]. (「砂糖」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '砂糖' : [___]. (「砂糖」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "sucre"
     ],
@@ -8954,7 +8954,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '酢' : [vinaigre]. (「酢」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '酢' : [___]. (「酢」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "vinaigre"
     ],
@@ -8967,7 +8967,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Traduisez en français : 'The chef arrives.' (「料理長が到着します」 - Le chef [arrive].)",
+    "text": "Traduisez en français : 'The chef arrives.' (「料理長が到着します」 - Le chef [___].)",
     "acceptedAnswers": [
       "arrive"
     ],
@@ -8980,7 +8980,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le chiffre '20' en français : [vingt]. (「20」を表すフランス語を入力してください。)",
+    "text": "Entrez le chiffre '20' en français : [___]. (「20」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "vingt"
     ],
@@ -9027,7 +9027,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la salutation du soir : [Bonsoir]. (「こんばんは」にあたる挨拶を入力してください。)",
+    "text": "Entrez la salutation du soir : [___]. (「こんばんは」にあたる挨拶を入力してください。)",
     "acceptedAnswers": [
       "Bonsoir",
       "bonsoir"
@@ -9041,7 +9041,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'すみません・ごめんなさい' : [Pardon]. (謝罪や呼びかけの語を入力してください。)",
+    "text": "Entrez le mot pour 'すみません・ごめんなさい' : [___]. (謝罪や呼びかけの語を入力してください。)",
     "acceptedAnswers": [
       "Pardon",
       "pardon"
@@ -9102,7 +9102,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression de remerciement renforcée : Merci [beaucoup]. (「本当にありがとうございます」の空欄を入力してください。)",
+    "text": "Entrez l'expression de remerciement renforcée : Merci [___]. (「本当にありがとうございます」の空欄を入力してください。)",
     "acceptedAnswers": [
       "beaucoup"
     ],
@@ -9115,7 +9115,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '明日' : [demain]. (「また明日」の A demain の demain を入力してください。)",
+    "text": "Entrez le mot pour '明日' : [___]. (「また明日」の A [___] の [___] を入力してください。)",
     "acceptedAnswers": [
       "demain"
     ],
@@ -9128,7 +9128,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour le dressage de l'assiette : [dressage]. (料理をお皿に美しく盛り付ける作業を入力してください。)",
+    "text": "Entrez le terme pour le [___] de l'assiette : [___]. (料理をお皿に美しく盛り付ける作業を入力してください。)",
     "acceptedAnswers": [
       "dressage"
     ],
@@ -9141,7 +9141,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "vapeur）を入力してください。 (Entrez le terme pour la cuisson à la vapeur : [vapeur]. (蒸し調理を表す単語)",
+    "text": "[___]）を入力してください。 (Entrez le terme pour la cuisson à la [___] : [___]. (蒸し調理を表す単語)",
     "acceptedAnswers": [
       "vapeur"
     ],
@@ -9154,7 +9154,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le terme pour la cuisson au four : [rotir]. (オーブンや直火で大きな塊肉をローストする動詞を入力してください：[rotir].)",
+    "text": "Entrez le terme pour la cuisson au four : [___]. (オーブンや直火で大きな塊肉をローストする動詞を入力してください：[___].)",
     "acceptedAnswers": [
       "rôtir",
       "rotir"
@@ -9202,7 +9202,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'エプロン' : [tablier]. (「エプロン」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'エプロン' : [___]. (「エプロン」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "tablier"
     ],
@@ -9215,7 +9215,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'コック帽' : [toque]. (「シェフのコック帽」を表す単語を入力してください。)",
+    "text": "Entrez le mot pour 'コック帽' : [___]. (「シェフのコック帽」を表す単語を入力してください。)",
     "acceptedAnswers": [
       "toque"
     ],
@@ -9258,7 +9258,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "planche à découper）を入力してください。 (Entrez le terme pour 'まな板' : [planche a decouper]. (「まな板」を表す用語)",
+    "text": "[___]）を入力してください。 (Entrez le terme pour 'まな板' : [___]. (「まな板」を表す用語)",
     "acceptedAnswers": [
       "planche à découper",
       "planche a decouper"
@@ -9272,7 +9272,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '泡立て器' : [fouet]. (「泡立て器（ホイッパー）」を表す用語を入力してください。)",
+    "text": "Entrez le mot pour '泡立て器' : [___]. (「泡立て器（ホイッパー）」を表す用語を入力してください。)",
     "acceptedAnswers": [
       "fouet"
     ],
@@ -9285,7 +9285,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le chiffre '30' en français : [trente]. (「30」を表すフランス語の数字を入力してください。)",
+    "text": "Entrez le chiffre '30' en français : [___]. (「30」を表すフランス語の数字を入力してください。)",
     "acceptedAnswers": [
       "trente"
     ],
@@ -9315,7 +9315,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '水' : [eau]. (「水」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '水' : [___]. (「水」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "eau"
     ],
@@ -9328,7 +9328,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "à + le = au) を入力してください。 (Entrez la préposition : 'Je suis [au] Japon'. (「私は日本にいます」の空欄に入る前置詞)",
+    "text": "à + le = [___]) を入力してください。 (Entrez la préposition : 'Je suis [___] Japon'. (「私は日本にいます」の空欄に入る前置詞)",
     "acceptedAnswers": [
       "au"
     ],
@@ -9358,7 +9358,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'パン' : [pain]. (「パン」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'パン' : [___]. (「パン」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "pain"
     ],
@@ -9417,7 +9417,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour '塩' : [sel]. (「塩」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour '塩' : [___]. (「塩」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "sel"
     ],
@@ -9447,7 +9447,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'コショウ' : [poivre]. (「コショウ」を表すフランス語を入力してください。)",
+    "text": "Entrez le mot pour 'コショウ' : [___]. (「コショウ」を表すフランス語を入力してください。)",
     "acceptedAnswers": [
       "poivre"
     ],
@@ -9461,7 +9461,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Comment vous vous [appelez] ? (「お名前は何ですか？」の動詞 s'appeler の vous 活用を入力してください。)",
+    "text": "Comment vous vous [___] ? (「お名前は何ですか？」の動詞 s'appeler の vous 活用を入力してください。)",
     "acceptedAnswers": [
       "appelez"
     ],
@@ -9475,7 +9475,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Je m'[appelle] Taro. (「私の名前はタロウです」の動詞 s'appeler の Je 活用を入力してください。)",
+    "text": "Je m'[___] Taro. (「私の名前はタロウです」の動詞 s'appeler の Je 活用を入力してください。)",
     "acceptedAnswers": [
       "appelle"
     ],
@@ -9507,7 +9507,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "D'où venez-[vous] ? (「どちらのご出身ですか？」の丁寧な問いかけの代名詞を入力してください。)",
+    "text": "D'où venez-[___] ? (「どちらのご出身ですか？」の丁寧な問いかけの代名詞を入力してください。)",
     "acceptedAnswers": [
       "vous"
     ],
@@ -9521,7 +9521,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Je viens [du] Japon. (「私は日本出身です」の空欄に入る venir + le の縮約形を入力してください。)",
+    "text": "Je viens [___] Japon. (「私は日本出身です」の空欄に入る venir + le の縮約形を入力してください。)",
     "acceptedAnswers": [
       "du"
     ],
@@ -9553,7 +9553,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression pour souhaiter une bonne soirée : Bonne [soirée] ! (「良い夜を！」を意味する表現の空欄を入力してください。)",
+    "text": "Entrez l'expression pour souhaiter une bonne [___] : Bonne [___] ! (「良い夜を！」を意味する表現の空欄を入力してください。)",
     "acceptedAnswers": [
       "soirée",
       "soiree"
@@ -9568,7 +9568,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez la salutation de départ pour la journée : Bonne [journée] ! (「良い一日を！」を意味する表現の空欄を入力してください。)",
+    "text": "Entrez la salutation de départ pour la [___] : Bonne [___] ! (「良い一日を！」を意味する表現の空欄を入力してください。)",
     "acceptedAnswers": [
       "journée",
       "journee"
@@ -9601,7 +9601,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression courante pour 'また後で！' : À tout à l'[heure] ! (「また後でね！」のフレーズの空欄を入力してください。)",
+    "text": "Entrez l'expression courante pour 'また後で！' : À tout à l'[___] ! (「また後でね！」のフレーズの空欄を入力してください。)",
     "acceptedAnswers": [
       "heure"
     ],
@@ -9633,7 +9633,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot familier pour dire 'じゃあね！ / またね！' : À [plus] ! (カジュアルな別れの言葉「À plus !」の空欄を入力してください。)",
+    "text": "Entrez le mot familier pour dire 'じゃあね！ / またね！' : À [___] ! (カジュアルな別れの言葉「À [___] !」の空欄を入力してください。)",
     "acceptedAnswers": [
       "plus"
     ],
@@ -9665,7 +9665,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression très familière pour dire '全くその通り！ / マジで！' : [Grave] ! (「それな！ / マジでその通り！」を表す若者口語を入力してください。)",
+    "text": "Entrez l'expression très familière pour dire '全くその通り！ / マジで！' : [___] ! (「それな！ / マジでその通り！」を表す若者口語を入力してください。)",
     "acceptedAnswers": [
       "Grave",
       "grave"
@@ -9698,7 +9698,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression pour dire 'まさにその通り！' : Tout à [fait] ! (「まさにその通りです」の Tout à fait の空欄を入力してください。)",
+    "text": "Entrez l'expression pour dire 'まさにその通り！' : Tout à [___] ! (「まさにその通りです」の Tout à [___] の空欄を入力してください。)",
     "acceptedAnswers": [
       "fait"
     ],
@@ -9730,7 +9730,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Comment dit-on '本当？ / え、そうなの？' quand on est surpris ? : Ah [bon] ? (驚きを表す「Ah bon ?」の空欄を入力してください。)",
+    "text": "Comment dit-on '本当？ / え、そうなの？' quand on est surpris ? : Ah [___] ? (驚きを表す「Ah [___] ?」の空欄を入力してください。)",
     "acceptedAnswers": [
       "bon"
     ],
@@ -9762,7 +9762,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot de confirmation : [D'accord] ! (「分かりました / OK」を意味する表現「D'accord」を入力してください。)",
+    "text": "Entrez le mot de confirmation : [___] ! (「分かりました / OK」を意味する表現[___]を入力してください。)",
     "acceptedAnswers": [
       "D'accord",
       "d'accord",
@@ -9796,7 +9796,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez l'expression pour s'excuser poliment dans la rue : Excusez-[moi]. (通り抜ける時などの「すみません」の代名詞を入力してください。)",
+    "text": "Entrez l'expression pour s'excuser poliment dans la rue : Excusez-[___]. (通り抜ける時などの「すみません」の代名詞を入力してください。)",
     "acceptedAnswers": [
       "moi"
     ],
@@ -9920,7 +9920,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Comment termine-t-on souvent un SMS ou message amical ? : [Bisous] ! (親しい友人間でメッセージの末尾につける「じゃあね / ハグ＆キス」の単語を入力してください。)",
+    "text": "Comment termine-t-on souvent un SMS ou message amical ? : [___] ! (親しい友人間でメッセージの末尾につける「じゃあね / ハグ＆キス」の単語を入力してください。)",
     "acceptedAnswers": [
       "Bisous",
       "bisous",
@@ -9955,7 +9955,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Entrez le mot pour 'どう致しまして (It's nothing)' : De [rien]. (「De ___」の空欄を入力してください。)",
+    "text": "Entrez le mot pour 'どう致しまして (It's nothing)' : De [___]. (「De ___」の空欄を入力してください。)",
     "acceptedAnswers": [
       "rien"
     ],
