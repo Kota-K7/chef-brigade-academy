@@ -153,19 +153,20 @@ function showTopicDetails(panel, topic) {
           if (pronunciationColIndices.includes(idx)) {
             // Pronunciation column! Replace Katakana with interactive audio button.
             // The French word is in the column to the left (idx - 1)
-            const frenchText = r[idx - 1] ? r[idx - 1].split('(')[0].trim() : '';
+            const frenchText = r[idx - 1] ? r[idx - 1].replace(/<[^>]*>/g, '').split('(')[0].trim() : '';
             td.innerHTML = `<button class="ref-table-audio-btn" data-speak="${frenchText}" title="Listen pronunciation">🔊</button>`;
             td.style.textAlign = 'center';
           } else {
-            td.innerText = cell;
+            td.innerHTML = cell;
             
             // Add sound to conjugations or verbs in tables!
             if (idx === 1 && (sec.title.includes('Conjugaison') || sec.title.includes('Présent') || sec.title.includes('Exemple'))) {
               // Include audio button inline for nice UX
               td.style.position = 'relative';
+              const cleanCell = cell.replace(/<[^>]*>/g, '').split('(')[0].trim();
               td.innerHTML = `
                 <span style="margin-right: 1.5rem;">${cell}</span>
-                <button class="ref-table-audio-btn" data-speak="${cell.split('(')[0].trim()}" title="Listen pronunciation">🔊</button>
+                <button class="ref-table-audio-btn" data-speak="${cleanCell}" title="Listen pronunciation">🔊</button>
               `;
             }
           }

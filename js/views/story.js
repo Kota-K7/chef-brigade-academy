@@ -94,8 +94,9 @@ async function renderChapterSelector(container) {
     
     <div class="chapter-list" style="display: flex; justify-content: center; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
       <!-- Career Mode Card (Story Tab) -->
-      <div id="rpg-card-story" class="story-chapter-card active-chapter" style="display: none; width: 100%; flex-direction: column; justify-content: space-between; border-left: 5px solid var(--color-accent);">
-        <div>
+      <div id="rpg-card-story" class="story-chapter-card active-chapter" style="display: none; width: 100%; flex-direction: column; gap: 1.5rem;">
+        <!-- Chapter 0 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid var(--color-accent);">
           <div class="chapter-card-header">
             <span class="chapter-badge" style="background-color: var(--color-accent); color: white;">Beginner</span>
             <h3>第0章: 金竹満「はじまりへの招待」</h3>
@@ -117,6 +118,76 @@ async function renderChapterSelector(container) {
                 <span class="play-time">⏱️ 5分 • 数字(1-20) & 複数名詞・冠詞</span>
               </div>
               <button class="action-btn play-episode-btn" data-chapter="career_0" data-episode="career_ep_0_2">開始する</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 1 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid var(--color-primary);">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: var(--color-primary); color: white;">A1 Practice</span>
+            <h3>第1章: 佐伯「厨房の基本動作」</h3>
+          </div>
+          <p class="chapter-desc">厨房の共通言語である動詞と疑問文、形容詞の使い方を学びます。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第1-1話: 料理人の言葉の型</h4>
+                <span class="play-time">⏱️ 5分 • 動詞3グループ & 規則・不規則動詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_1" data-episode="career_ep_1_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-2話: 問いかけと指示の交差点</h4>
+                <span class="play-time">⏱️ 5分 • 疑問文・疑問詞 & 所有・指示形容詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_1" data-episode="career_ep_1_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-3話: 料理を彩る言葉たち</h4>
+                <span class="play-time">⏱️ 5分 • 形容詞の性数一致・位置 & 部分冠詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_1" data-episode="career_ep_1_3">開始する</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 2 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid #e056fd;">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: #e056fd; color: white;">A1 Practice</span>
+            <h3>第2章: エロディ「厨房のテンポと彩り」</h3>
+          </div>
+          <p class="chapter-desc">前菜業務を通し、前置詞の縮約、指示・号令の命令形、時間表現（近接未来・過去）を学びます。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第2-1話: 食材と料理の架け橋</h4>
+                <span class="play-time">⏱️ 5分 • 定冠詞の縮約 & 提示表現 c'est/ce sont</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_2" data-episode="career_ep_2_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-2話: 厨房に響く号令</h4>
+                <span class="play-time">⏱️ 5分 • 命令形 & 目的語人称代名詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_2" data-episode="career_ep_2_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-3話: 料理人として説明する</h4>
+                <span class="play-time">⏱️ 5分 • 近接未来・過去 & 代名動詞（受動）</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_2" data-episode="career_ep_2_3">開始する</button>
             </div>
           </div>
         </div>
@@ -206,7 +277,8 @@ async function startEpisode(container, chapterNum, episodeId) {
   try {
     container.innerHTML = `<div class="story-loader"><div class="spinner"></div><p>物語を読み込んでいます...</p></div>`;
     
-    const filePath = chapterNum === 'career_0' ? 'rpg/story/chapter_career_0.json' : `rpg/history/chapter_${chapterNum}.json`;
+    const isCareer = chapterNum.startsWith('career_');
+    const filePath = isCareer ? `rpg/story/chapter_${chapterNum}.json` : `rpg/history/chapter_${chapterNum}.json`;
     const [storyRes, qDbRes, refRes] = await Promise.all([
       fetch(filePath),
       fetch('rpg/questions_db.json'),
@@ -999,7 +1071,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
                       <tr style="border-bottom: 1px solid rgba(0,0,0,0.05);">
                         ${row.map((cell, cidx) => {
                           if (pronIndices.includes(cidx)) {
-                            const frenchText = row[cidx - 1] ? row[cidx - 1].split('(')[0].trim() : '';
+                            const frenchText = row[cidx - 1] ? row[cidx - 1].replace(/<[^>]*>/g, '').split('(')[0].trim() : '';
                             return `<td style="padding: 0.3rem; text-align: center;"><button class="ref-table-audio-btn" data-speak="${frenchText}" style="background: none; border: none; cursor: pointer; padding: 0; font-size: 0.85rem;">🔊</button></td>`;
                           }
                           return `<td style="padding: 0.3rem;">${cell}</td>`;
@@ -1036,6 +1108,24 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           if (idx !== -1) initialTopicIdx = idx;
         } else if (episode.episodeId === 'career_ep_0_2') {
           const idx = refs.findIndex(r => r.id === 'ref_time_expressions');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_1_1') {
+          const idx = refs.findIndex(r => r.id === 'ref_verb_groups');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_1_2') {
+          const idx = refs.findIndex(r => r.id === 'ref_questions');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_1_3') {
+          const idx = refs.findIndex(r => r.id === 'ref_adjective_agreement');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_2_1') {
+          const idx = refs.findIndex(r => r.id === 'ref_contracted_articles');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_2_2') {
+          const idx = refs.findIndex(r => r.id === 'ref_imperative');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_2_3') {
+          const idx = refs.findIndex(r => r.id === 'ref_near_future_past');
           if (idx !== -1) initialTopicIdx = idx;
         }
         
