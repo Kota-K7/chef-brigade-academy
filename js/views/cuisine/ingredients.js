@@ -73,18 +73,18 @@ export function renderIngredientsSection(contentWrapper) {
     seafood: {
       title: "魚介類 (Seafood)",
       subCategories: [
-        { key: "poisson", label: "🐟 Poisson (魚)", cuts: fishCuts, img: "assets/seafood_cuts.png", placeholder: "Poisson" },
-        { key: "crustaces", label: "🦞 Crustacés (甲殻類)", cuts: crustaceanCuts, img: "assets/seafood_cuts.png", placeholder: "Crustaces" },
-        { key: "coquillages", label: "🐚 Coquillages (貝類)", cuts: shellfishCuts, img: "assets/seafood_cuts.png", placeholder: "Coquillages" },
-        { key: "mollusques", label: "🐙 Mollusques (軟体類)", cuts: molluskCuts, img: "assets/seafood_cuts.png", placeholder: "Mollusques" }
+        { key: "poisson", label: "🐟 Poisson (魚)", cuts: fishCuts, img: "assets/poisson.jpg", placeholder: "Poisson" },
+        { key: "crustaces", label: "🦞 Crustacés (甲殻類)", cuts: crustaceanCuts, img: "assets/crustaceans.jpg", placeholder: "Crustaces" },
+        { key: "coquillages", label: "🐚 Coquillages (貝類)", cuts: shellfishCuts, img: "assets/shellfish.jpg", placeholder: "Coquillages" },
+        { key: "mollusques", label: "🐙 Mollusques (軟体類)", cuts: molluskCuts, img: "assets/mollusks.jpg", placeholder: "Mollusques" }
       ]
     },
     cheese_wine: {
       title: "チーズ・ワイン (Cheese & Wine)",
       subCategories: [
-        { key: "fromages_fr", label: "🇫🇷 France (仏チーズ)", cuts: cheeseCutsFr, img: "assets/cheese_wine.png", placeholder: "Fromages" },
+        { key: "fromages_fr", label: "🇫🇷 France (仏チーズ)", cuts: cheeseCutsFr, img: "assets/france_map.png", placeholder: "Fromages" },
         { key: "fromages_world", label: "🌐 Monde (世界チーズ)", cuts: cheeseCutsWorld, img: "assets/cheese_wine.png", placeholder: "Fromages", hidePins: true },
-        { key: "fromages_classif", label: "🔬 Classification (製法分類)", cuts: cheeseClassifications, img: "assets/cheese_wine.png", placeholder: "Fromages", hidePins: true },
+        { key: "fromages_classif", label: "🔬 Classification (製法分類)", cuts: cheeseClassifications, img: "assets/cheese.jpg", placeholder: "Fromages", hidePins: true },
         { key: "vins", label: "🍷 Vins (ワイン)", cuts: wineCuts, img: "assets/cheese_wine.png", placeholder: "Vins" }
       ]
     },
@@ -98,14 +98,14 @@ export function renderIngredientsSection(contentWrapper) {
       title: "ハーブ・スパイス (Herbs & Spices)",
       subCategories: [
         { key: "herbes", label: "🌿 Herbes (香草)", cuts: herbCuts, img: "assets/herbs_spices.png", placeholder: "Herbes" },
-        { key: "epices", label: "🌶️ Épices (香辛料)", cuts: spiceCuts, img: "assets/herbs_spices.png", placeholder: "Epices" }
+        { key: "epices", label: "🌶️ Épices (香辛料)", cuts: spiceCuts, img: "assets/spices.jpg", placeholder: "Epices" }
       ]
     },
     fruits_mushrooms: {
       title: "果物・きのこ (Fruits & Mushrooms)",
       subCategories: [
-        { key: "fruits", label: "🍎 Fruits (果物)", cuts: fruitCuts, img: "assets/fruits_mushrooms.png", placeholder: "Fruits" },
-        { key: "champignons", label: "🍄 Champignons (きのこ)", cuts: mushroomCuts, img: "assets/fruits_mushrooms.png", placeholder: "Champignons" }
+        { key: "fruits", label: "🍎 Fruits (果物)", cuts: fruitCuts, img: "assets/fruits.jpg", placeholder: "Fruits" },
+        { key: "champignons", label: "🍄 Champignons (きのこ)", cuts: mushroomCuts, img: "assets/mushrooms.jpg", placeholder: "Champignons" }
       ]
     }
   };
