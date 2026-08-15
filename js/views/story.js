@@ -191,6 +191,41 @@ async function renderChapterSelector(container) {
             </div>
           </div>
         </div>
+
+        <!-- Chapter 3 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid var(--color-primary);">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: var(--color-primary); color: white;">A2 Practice</span>
+            <h3>第3章: ガエル「巨漢のパティシエと過去の轍」</h3>
+          </div>
+          <p class="chapter-desc">比較・最上級、目的語代名詞の語順、複合過去や半過去、接続詞・関係代名詞を学びます。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第3-1話: 繊細なる計量と指示</h4>
+                <span class="play-time">⏱️ 5分 • 比較級・最上級 & 目的語代名詞の語順</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_3" data-episode="career_ep_3_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-2話: 過去の足跡と複合過去</h4>
+                <span class="play-time">⏱️ 5分 • 複合過去 & 過去分詞の性数一致</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_3" data-episode="career_ep_3_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-3話: 語り継がれる過去と理由</h4>
+                <span class="play-time">⏱️ 5分 • 半過去 & 関係代名詞・接続詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="career_3" data-episode="career_ep_3_3">開始する</button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- History RPG Card (History Tab) -->
@@ -1126,6 +1161,15 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           if (idx !== -1) initialTopicIdx = idx;
         } else if (episode.episodeId === 'career_ep_2_3') {
           const idx = refs.findIndex(r => r.id === 'ref_near_future_past');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_3_1') {
+          const idx = refs.findIndex(r => r.id === 'ref_object_pronouns');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_3_2') {
+          const idx = refs.findIndex(r => r.id === 'ref_auxiliaries');
+          if (idx !== -1) initialTopicIdx = idx;
+        } else if (episode.episodeId === 'career_ep_3_3') {
+          const idx = refs.findIndex(r => r.id === 'ref_time_expressions');
           if (idx !== -1) initialTopicIdx = idx;
         }
         

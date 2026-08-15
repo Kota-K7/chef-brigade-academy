@@ -503,6 +503,16 @@
 | `q_verbs_8` | matching | Associez le verbe culinaire et son sens. (調理動詞と日本語訳のペアを結びつけてください。) | **couper = 切る, ajouter = 加える, mélanger = 混ぜる, assaisonner = 味付けする** | couper=切る, ajouter=加える, mélanger=混ぜる, assaisonner=味付けする。 |
 | `q_vocab_add_8` | matching | Associez le terme de tenue professionnelle et sa signification. (厨房ユニフォームと意味のペアを結びつけてください。) | **veste de cuisine = コックコート, tablier = エプロン, toque = コック帽, liteau = サービス用トーション (布巾)** | 調理身の回り品・ユニフォーム用語ペアです。 |
 
+## 🏷️ #auxiliary_selection (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_aux_01` | choice | Sélectionnez le bon auxiliaire (助動詞) : 'Le sous-chef ___ allé au marché.' (スーシェフは市場へ行きました) | **est** | 移動を表す動詞 aller（行く）は、過去の助動詞として être を取ります。 |
+| `q_aux_02` | choice | Sélectionnez le bon auxiliaire : 'Nous ___ partis tard hier.' (私たちは昨日遅くに出発しました) | **sommes** | 往来発着を表す動詞 partir（出発する）は助動詞に être を取ります。 |
+| `q_aux_03` | choice | Sélectionnez le bon auxiliaire : 'Elle ___ restée en cuisine.' (彼女は厨房に残りました) | **est** | rester（残る）は状態の継続・滞在を表す往来発着の仲間なので、助動詞に être を取ります。 |
+| `q_aux_04` | choice | Sélectionnez le bon auxiliaire : 'Ils ___ devenus de grands cuisiniers.' (彼らは一人前の料理人になった) | **sont** | 変化を表す動詞 devenir（〜になる）は助動詞に être を取ります。 |
+| `q_aux_05` | choice | Sélectionnez le bon auxiliaire : 'Je ___ tombé pendant le service.' (私は営業中に転んだ) | **suis** | tombé（転ぶ・落ちる）は移動・状態変化を表すため、助動詞に être を取ります。 |
+
 ## 🏷️ #avoir (30問)
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
@@ -671,6 +681,26 @@
 |---|---|---|---|---|
 | `q_cloze_1` | cloze | Nous [avons] des couteaux. (私たちは包丁を持っています。 - 空欄に入る正しい動詞を入力または選択してください。) | **avons** | 主語が Nous のとき、avoir の現在活用は avons です。 |
 
+## 🏷️ #comparative (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_comp_01` | choice | Complétez avec le comparatif de supériorité (plus) : 'Ce pain est ___ cuit que l'autre.' (このパンはもう一方よりもよく焼けている) | **plus** | 優等比較級は「plus + 形容詞/副詞 + que」の形を取ります。 |
+| `q_comp_02` | choice | Complétez avec le comparatif d'infériorité (moins) : 'Cette sauce est ___ salée que celle d'hier.' (このソースは昨日のものほど塩辛くない) | **moins** | 劣等比較級は「moins + 形容詞/副詞 + que」の形を取ります。 |
+| `q_comp_03` | choice | Complétez avec le comparatif d'égalité (aussi) : 'Le four A est ___ chaud que le four B.' (オーブンAはオーブンBと同じくらい熱い) | **aussi** | 同等比較級は「aussi + 形容詞/副詞 + que」の形を取ります。 |
+| `q_comp_04` | choice | Choisissez la bonne phrase : 'Le chef travaille ___ vite que l'apprenti.' (シェフは見習いよりも速く働く) | **plus** | 比較級「〜よりも速く」は plus vite que となります。 |
+| `q_comp_05` | choice | Complétez avec le comparatif d'infériorité : 'Les pommes sont ___ chères en hiver qu'en été.' (リンゴは夏より冬の方が安くない/安い) | **moins** | 「夏ほど高くない（＝安い）」を表現するには劣等比較級 moins ... que を使用します。 |
+
+## 🏷️ #conjunctions_basic (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_conj_01` | choice | Choisissez la bonne conjonction (接続詞) : 'Je ne mange pas de viande ___ je suis végétarien.' (私はベジタリアンなので肉を食べない) | **parce que** | 理由（〜だから、〜なので）を説明する接続詞は parce que（because）になります。 |
+| `q_conj_02` | choice | Choisissez la bonne conjonction : 'Le four est cassé, ___ nous ne pouvons pas cuire le pain.' (オーブンが壊れている。したがって、私たちはパンを焼くことができない) | **donc** | 結果や帰結（したがって、だから）を表す接続詞は donc（therefore, so）になります。 |
+| `q_conj_03` | choice | Choisissez la bonne conjonction : 'Le service était difficile, ___ les clients étaient contents.' (接客サービスは大変だったが、お客様たちは満足していた) | **mais** | 逆接（しかし、だが）を表す接続詞は mais（but）になります。 |
+| `q_conj_04` | choice | Choisissez la bonne conjonction : 'Nous fermons le restaurant ___ c'est lundi.' (月曜日なので、私たちはレストランを閉める) | **parce que** | 「月曜日だから」という直接の理由を提示する parce que が最適です。 |
+| `q_conj_05` | choice | Choisissez la bonne conjonction : 'Il a bien travaillé, ___ le chef l'a récompensé.' (彼はよく働いた。だから、シェフは彼にご褒美をあげた) | **donc** | 文脈的に「よく働いた、その結果（だから）〜された」という因果関係を導くため donc を使います。 |
+
 ## 🏷️ #contracted_articles (5問)
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
@@ -769,6 +799,16 @@
 | `q_verb_etre_add_7` | scramble | Remettez en ordre. (「私たちは見習いシェフです」となるように並び替えてください。) | **Nous sommes apprentis chefs.** | S + V (être) の順序で「Nous sommes apprentis chefs.」となります。 |
 | `q_verb_etre_add_8` | matching | Associez le sujet et le verbe être. (主語と動詞 être の活用のペアを結びつけてください。) | **Je = suis, Tu = es, Nous = sommes, Vous = êtes** | être の現在形活用: Je suis, Tu es, Nous sommes, Vous êtes。 |
 | `q_verb_etre_add_9` | typing | C'est [est] chaud ! (「熱いので注意！」 - C'est の est の不定形動詞は何ですか？) | **être** | est は動詞 être の3人称単数活用です。 |
+
+## 🏷️ #gerund_participle (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_gp_01` | choice | Complétez la structure du gérondif (ジェロンディフ) : 'Il s'est coupé le doigt ___ coupant les légumes.' (彼は野菜を切りながら指を切った) | **en** | ジェロンディフは「en + 現在分詞」の形を取り、同時進行する動作や手段・原因などを表します。 |
+| `q_gp_02` | choice | Choisissez le proverbe correct utilisant le gérondif : 'C'est ___ que l'on devient forgeron.' (習うより慣れよ / 鍛錬によって職人になる) | **en forgeant** | 「鍛えることによって（手段・方法）」を en + 現在分詞（forgeant）のジェロンディフで表しています。 |
+| `q_gp_03` | choice | Complétez : '___ la sauce, elle a ajusté le sel.' (ソースの味見をしながら、彼女は塩加減を調整した) | **En goûtant** | 「味見をしながら」という同時進行の動作を、goûter の現在分詞 goûtant に en をつけたジェロンディフで表現します。 |
+| `q_gp_04` | choice | Remplissez le vide : 'Il travaille tout ___ écoutant de la musique.' (彼は音楽を聴きながらずっと働いている) | **en** | tout en + 現在分詞 でジェロンディフの同時動作（〜しながら）を強調する構文になります。 |
+| `q_gp_05` | choice | Complétez : 'Nous apprenons le français ___ cuisinant.' (私たちは料理をしながらフランス語を学んでいる) | **en** | cuisinant（cuisiner の現在分詞）とセットにして「料理をしながら（ジェロンディフ）」を表すため en を用います。 |
 
 ## 🏷️ #grammar (54問)
 
@@ -884,6 +924,26 @@
 | `q_gr_43` | choice | Que dit-on à quelqu'un qui part en voyage ? (旅に出る人への「良い旅を！」の挨拶を選んでください。) | **Bon voyage !** | 「Bon voyage !」は旅行や出張に出かける人への挨拶です。 |
 | `q_matching_1` | matching | Associez les paires correctes. (正しいペアを結びつけてください。) | **Bonjour = こんにちは, Merci = ありがとう, S'il vous plaît = お願いします** | 挨拶表現の正しい日本語訳のペアです。 |
 
+## 🏷️ #imparfait (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_imp_01` | choice | Remplissez le vide avec l'imparfait : 'Quand j'___ jeune, je voulais être chef.' (私は若かった頃、シェフになりたかった) | **étais** | 過去の継続的な状態や背景を表すには半過去（imparfait）を使います。être の一人称単数半過去は étais です。 |
+| `q_imp_02` | choice | Complétez à l'imparfait : 'Le restaurant ___ beaucoup de clients.' (そのレストランは[当時]多くのお客さんがいた) | **avait** | avoir の三人称単数半過去形は avait となります。 |
+| `q_imp_03` | choice | Complétez à l'imparfait : 'Nous ___ le pain nous-mêmes.' (私たちは[当時]パンを自分たちで作っていた) | **faisions** | faire の半過去複数一人称（nous）は faisons の語幹に半過去語尾 -ions がついて faisions となります。 |
+| `q_imp_04` | choice | Complétez à l'imparfait : 'Tu ___ toujours attention aux détails.' (君はいつも細部に気をつけていた) | **faisais** | faire の二人称単数（tu）の半過去形は faisais です。 |
+| `q_imp_05` | choice | Complétez à l'imparfait : 'Les clients ___ satisfaits.' (お客様たちは満足していた) | **étaient** | être の三人称複数（ils/elles）の半過去形は étaient となります。 |
+
+## 🏷️ #imparfait_vs_past_compose (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_ivspc_01` | choice | Choisissez le bon temps (半過去と複合過去の使い分け) : 'Je cuisinais quand le chef ___.' (私が料理をしていた時、シェフが入ってきた) | **est entré** | 「〜していた（動作の背景：半過去 cuisinais）」という状態の中に、「シェフが入ってきた（突発的・完了した1回の動作：複合過去）」が起きたため、est entré を使用します。 |
+| `q_ivspc_02` | choice | Choisissez le bon temps : 'Hier, il ___ beau, alors nous avons fait le service dehors.' (昨日、天気がよかったので、私たちは外で接客サービスをした) | **faisait** | 天候や状態など、過去の出来事の『背景・状況』を説明する文脈では半過去 faisait を使用します。 |
+| `q_ivspc_03` | choice | Choisissez le bon temps : 'Soudain, le four ___ de fonctionner.' (突然、オーブンが動かなくなった) | **a arrêté** | Soudain（突然）という特定の時間において「（オーブンが）止まった」という1回限りの完了アクションを表すため、複合過去 a arrêté になります。 |
+| `q_ivspc_04` | choice | Choisissez le bon temps : 'Pendant que je lavais les légumes, le client ___.' (私が野菜を洗っている間に、顧客が到着した) | **est arrivé** | 野菜を洗っている動作の最中（半過去）に、顧客の到着という単発の出来事（複合過去）が起きた状況を表します。 |
+| `q_ivspc_05` | choice | Choisissez le bon temps : 'Nous ___ en train de manger quand le téléphone a sonné.' (電話が鳴ったとき、私たちは食べている最中だった) | **étions** | 「〜している最中だった」という過去の継続していた背景状態なので半過去 étions となります。 |
+
 ## 🏷️ #imperative (4問)
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
@@ -892,6 +952,16 @@
 | `q_career_2_2_imperative_2` | typing | 「（あなた方、）生地を仕上げてください！」は「___ la pâte !」です。動詞 finir の vous に対する命令形を入力してください。<br>(Complétez : ___ la pâte ! (finir - vous)) | **Finissez** | vous に対する命令形は、直説法現在形の vous 活用と同じ Finissez となります。 |
 | `q_career_2_2_imperative_3` | typing | 「（私たち、）仕込みを始めましょう！」は「___ la mise en place !」です。動詞 commencer の nous に対する命令形を入力してください。<br>(Complétez : ___ la mise en place ! (commencer - nous)) | **Commençons** | nous に対する命令形は、直説法現在形の nous 活用と同じ Commençons となります。 |
 | `q_career_2_2_imperative_4` | typing | 「ここに来て！（親しい相手に）」は「___ ici !」です。動詞 venir の tu に対する命令形を入力してください。<br>(Complétez : ___ ici ! (venir - tu)) | **Viens** | venir の tu に対する現在形 viens から主語を取り除き Viens となります。 |
+
+## 🏷️ #imperative_with_pronouns (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_imp_pr_01` | choice | Complétez la commande affirmative (肯定命令) : 'Donnez-___-___.' (それを私にください) | **le-moi** | 肯定命令形での代名詞の語順は「動詞 - 直接 - 間接」の順になり、me は強変化形の moi となります (Donnez-le-moi)。 |
+| `q_imp_pr_02` | choice | Complétez la commande négative (否定命令) : 'Ne ___ ___ donnez pas.' (それを私に与えないでください) | **me le** | 否定命令文では、通常の代名詞の語順（主語の直後と同じ位置）に戻るため、Ne me le donnez pas となります。 |
+| `q_imp_pr_03` | choice | Complétez la commande affirmative : 'Prépare-___-___ pour ce soir.' (それらを彼女のために準備しなさい) | **les-lui** | 肯定命令形なので「動詞 - 直接(les) - 間接(lui)」の順にハイフンで繋ぎます。 |
+| `q_imp_pr_04` | choice | Complétez la commande négative : 'Ne ___ ___ dis pas.' (それを彼/彼女に言ってはいけない) | **le lui** | 否定命令文の代名詞順序は「直接(le) ➔ 間接(lui)」になり、Ne le lui dis pas となります。 |
+| `q_imp_pr_05` | choice | Complétez la commande affirmative : 'Apporte-___-___ rapidement.' (それを[女性名詞の spatule を]彼らに持って行きなさい) | **la-leur** | 肯定命令形での順序は「動詞 - 直接(la) - 間接(leur)」になり、Apporte-la-leur となります。 |
 
 ## 🏷️ #indicative_present (3問)
 
@@ -1228,6 +1298,16 @@
 | `q_career_2_2_pronouns_3` | typing | 「それを私に渡して！」は「Donne-le-___ !」です。空欄に入る人称代名詞を入力してください。<br>(Complétez : Donne-le-___ ! (Give it to me!)) | **moi** | 肯定命令文で間接目的語「私に」を表す場合は moi になります。 |
 | `q_career_2_2_pronouns_4` | typing | 「それをそこに置かないで！」は「Ne le ___ pas là !」です。空欄に入る動詞 mettre の tu に対する命令形を入力してください。<br>(Complétez : Ne le ___ pas là ! (Don't put it there!)) | **mets** | 否定命令文では代名詞 le は動詞の「前」に置かれます。 |
 
+## 🏷️ #object_pronouns_direct_indirect (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_obj_di_01` | choice | Remplissez le vide : 'Le chef ___ explique la recette.' (シェフは私たちにレシピを説明する) | **nous** | expliquer qc à qn（人に物事を説明する）の構造です。「私たちに」は間接目的語代名詞の nous になります。 |
+| `q_obj_di_02` | choice | Choisissez la bonne place des pronoms : 'Je ___ ___ apporte le plat.' (私は彼にそれを[料理を]持って行きます) | **le lui** | 直接目的語(le)と間接目的語(lui/彼に)が並ぶ時の順序は「直接 ➔ 間接（le lui / la lui / les leur）」となります。 |
+| `q_obj_di_03` | choice | Choisissez la bonne place des pronoms : 'Elle ___ ___ montre la cuisine.' (彼女は私たちにそれを見せる) | **nous la** | 1・2人称（me, te, nous, vous）と3人称直接目的語（le, la, les）が並ぶ時は「1・2人称 ➔ 3人称（nous la）」の順になります。 |
+| `q_obj_di_04` | choice | Choisissez la bonne place : 'Nous ___ ___ prêtons nos couteaux.' (私たちは彼らにそれらを[包丁を]貸す) | **les leur** | 直接目的語(les)と間接目的語(leur/彼らに)が並ぶ順序は「直接 ➔ 間接」となり、les leur となります。 |
+| `q_obj_di_05` | choice | Remplissez les vides : 'Tu ___ ___ passes le sel ?' (私にそれを[塩を]回してくれますか？) | **me le** | 平叙文・疑問文では、1人称間接代名詞 me が直接代名詞 le の前に来て me le となります。 |
+
 ## 🏷️ #partitive_articles (4問)
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
@@ -1242,6 +1322,26 @@
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
 |---|---|---|---|---|
 | `q_career_2_3_passive_pronominal_1` | typing | 「それはどのように準備されますか？」は「Ça ___ prépare comment ?」です。空欄に入る代名動詞の再帰代名詞を入力してください。<br>(Complétez : Ça ___ prépare comment ? (How is that prepared?)) | **se** | 三人称（Ça）に対する代名動詞の再帰代名詞は se になります。「Ça se prépare」で「それは準備される」という受動的な意味を表します。 |
+
+## 🏷️ #past_compose (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_pc_01` | choice | Remplissez le vide pour la structure de base du passé composé : 'J'___ préparé la tarte.' (私はタルトを準備しました) | **ai** | ほとんどの動詞は助動詞として avoir（現在形）をとります。Je のときの活用 is ai になります。 |
+| `q_pc_02` | choice | Remplissez le vide : 'Nous ___ fini le service à minuit.' (私たちは深夜12時に営業サービスを終えた) | **avons** | finir は avoir を助動詞とするため、Nous avons fini となります。 |
+| `q_pc_03` | choice | Remplissez le vide : 'Tu ___ coupé les oignons ?' (君はタマネギを切りましたか？) | **as** | couper の過去における助動詞は avoir です。Tu の活用は as になります。 |
+| `q_pc_04` | choice | Remplissez le vide : 'Le chef ___ vérifié la cuisson.' (シェフは焼き加減をチェックしました) | **a** | 主語 Le chef（三人称単数）に対する avoir の現在形は a となります。 |
+| `q_pc_05` | choice | Remplissez le vide : 'Ils ___ acheté des légumes.' (彼らは野菜を買いました) | **ont** | 三人称複数 Ils に対する avoir の活用は ont となります。 |
+
+## 🏷️ #past_participle_agreement (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_ppa_01` | choice | Choisissez le bon participe passé avec être : 'Elle est ___ tard hier.' (彼女は昨日遅くに来た) | **venue** | 助動詞 être の場合、過去分詞は主語（Elle: 女性単数）の性と数に一致して女性単数形 venue となります。 |
+| `q_ppa_02` | choice | Choisissez le bon participe passé avec avoir (直接目的語が前にある場合) : 'La tarte que j'ai ___ était délicieuse.' (私が焼いたタルトは美味しかった) | **cuite** | 関係代名詞 que（修飾される名詞 tarte: 女性単数）が関係節内で動詞の前に位置するため、過去分詞 cuit は女性単数形 cuite に性数一致します。 |
+| `q_ppa_03` | choice | Choisissez le bon participe passé : 'Les clients sont ___ nombreux ce midi.' (本日のお昼、お客様は多く到着した) | **arrivés** | 助動詞 être のため、過去分詞は主語（Les clients: 男性複数）に一致して arrivés となります。 |
+| `q_ppa_04` | choice | Choisissez le bon participe passé : 'Les assiettes que nous avons ___ sont propres.' (私たちが洗ったお皿はきれいだ) | **lavées** | 関係代名詞 que の先行詞である assiettes（女性複数）が動詞の前にあるため、過去分詞は女性複数形 lavées に一致します。 |
+| `q_ppa_05` | choice | Choisissez le bon participe passé : 'Mes sœurs sont ___ nous voir.' (私の姉妹たちが私たちに会いに来た) | **venues** | 主語 Mes sœurs（女性複数）かつ助動詞 être なので、過去分詞は女性複数形 venues に一致します。 |
 
 ## 🏷️ #plurals (20問)
 
@@ -1366,6 +1466,16 @@
 | `q_rc_ext_03` | matching | Associez le plat et l'ingrédient principal. (フランスの郷土料理と主要食材のペアを結びつけてください。) | **Bouillabaisse = 地中海の様々な魚, Ratatouille = 夏野菜(ナス、ズッキーニ、トマト), Choucroute = 発酵キャベツとソーセージ, Boeuf bourguignon = 牛肉と赤ワイン** | 郷土料理と食材の組み合わせです。 |
 | `q_rc_ext_04` | typing | Entrez le mot correct. (プロヴァンス名物のガーリックマヨネーズ[___]を入力してください。) | **aïoli** | aïoli はプロヴァンスの名物ソースです。 |
 
+## 🏷️ #relative_pronouns_basic (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_rel_01` | choice | Choisissez le bon pronom relatif (関係代名詞) : 'C'est le chef ___ dirige la cuisine.' (これが厨房を取り仕切るシェフです) | **qui** | 関係節内で主語の役割をする関係代名詞は qui になります（qui dirige = 彼が率いる）。 |
+| `q_rel_02` | choice | Choisissez the bon pronom relatif : 'Le plat ___ vous avez préparé est excellent.' (あなたが準備した料理は素晴らしい) | **que** | 関係節内で直接目的語の役割をする関係代名詞は que になります（vous avez préparé le plat ➔ que vous avez...）。 |
+| `q_rel_03` | choice | Choisissez le bon pronom relatif : 'Je cherche le couteau ___ est sur la table.' (私はテーブルの上にある包丁を探している) | **qui** | 関係節内で動詞 est の主語として働くため qui を選択します。 |
+| `q_rel_04` | choice | Choisissez le bon pronom relatif : 'Les légumes ___ nous utilisons sont bio.' (私たちが使っている野菜はオーガニックだ) | **que** | nous utilisons (直接目的語) にあたる野菜を関係節に繋ぐため、直接目的格の que となります。 |
+| `q_rel_05` | choice | Choisissez le bon pronom relatif : 'L'apprenti ___ travaille dur réussira.' (熱心に働く見習いは成功するだろう) | **qui** | 関係節内で動詞 travaille の主語として働くため qui を使用します。 |
+
 ## 🏷️ #sauces (14問)
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
@@ -1433,6 +1543,16 @@
 | `q_sp_ext_01` | typing | Entrez le mot correct. (「女性たち（彼女たち）」のみのグループを指す主語代名詞[___]を入力してください。) | **Elles** | 女性のみの複数には Elles を使います。 |
 | `q_sp_ext_02` | matching | Associez le nombre. (代名詞と対象人数のペアを結びつけてください。) | **Je / Tu / Il / Elle = 単数(1人), Nous / Vous / Ils / Elles = 複数(2人以上), Vous = 丁寧な1人または複数, Tu = 親しい1人のみ** | 代名詞の単複と敬称親称です。 |
 | `q_sp_ext_03` | typing | Entrez le mot correct. (話し言葉で Nous の代わりに使われる三人称単数扱い代名詞[___]を入力してください。) | **On** | On は会話で「私たち」を意味します。 |
+
+## 🏷️ #superlative (5問)
+
+| ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
+|---|---|---|---|---|
+| `q_super_01` | choice | Complétez avec le superlatif : 'C'est ___ grand gâteau du monde !' (これは世界で最も大きいケーキだ！) | **le plus** | 最上級は「定冠詞 + plus/moins + 形容詞」の形を取ります。gâteau（男性単数）に合わせて定冠詞は le になります。 |
+| `q_super_02` | choice | Complétez avec le superlatif : 'Ce restaurant est ___ célèbre de la ville.' (このレストランは街で最も有名だ) | **le plus** | restaurant（男性単数）に対する最上級なので le plus célèbre になります。 |
+| `q_super_03` | choice | Complétez avec le superlatif de minorité (moins) : 'Voici ___ chère bouteille de vin de notre cave.' (これが私たちのセラーで最も高価ではない[安い]ワインボトルだ) | **la moins** | bouteille（女性単数名詞）を修飾するため、女性単数定冠詞の la を使用して la moins とします。 |
+| `q_super_04` | choice | Quel est le superlatif irrégulier de 'bon' ? 'Quel est ___ plat de la carte ?' (メニューの中で最も美味しい料理はどれですか？) | **le meilleur** | bon の優等最上級は不規則変化し、le plus bon ではなく le meilleur となります。 |
+| `q_super_05` | choice | Quel est le superlatif irrégulier de 'mauvais' ? 'Ce sont ___ conditions de travail.' (これらは最悪の労働条件だ) | **les pires** | mauvais の最上級は不規則変化して les pires（最悪の）となります。 |
 
 ## 🏷️ #time_expressions (5問)
 

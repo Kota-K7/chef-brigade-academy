@@ -1,0 +1,1248 @@
+{
+  "chapterId": "career_3",
+  "chapterTitle": "第3章: ガエル「巨漢のパティシエと過去の轍」",
+  "notes": "比較・最上級、目的語代名詞の語順、複合過去や半過去、接続詞・関係代名詞を学びます。",
+  "episodes": [
+    {
+      "episodeId": "career_ep_3_1",
+      "episodeTitle": "第3-1話：繊細なる計量と指示",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "比較級（plus, moins, aussi ... que）",
+            "最上級（le plus, le moins ...）",
+            "直接・間接目的語代名詞の語順",
+            "命令法と目的語代名詞の結合規則"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "おはようございます！今日からはデザートとパンの仕込みですね。ガエルさん、よろしくお願いします！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……あぁ。よろしく頼む。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（やっぱり近くで見ると大きくてちょっと怖いな……。あんな大きな手で、どうやって繊細なデザートを作るんだろう？）",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ふふ、ガエルの手さばきはうちの厨房で一番繊細だよ。製菓の世界は『比較』と『正確な指示』が命だ。今日は味の比較表現と、目的語を2つ重ねた高度な命令形を学ぼう。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……デザートもパンも１グラムの狂いも許されない。生地の状態を見極めるようにならねばならない。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "比較級と最上級の作り方",
+              "type": "custom",
+              "text": "フランス語の比較級・最上級の作り方です。\n・優等比較級: plus + 形容詞 + que (〜より…だ)\n・劣等比較級: moins + 形容詞 + que (〜より…でない)\n・同等比較級: aussi + 形容詞 + que (〜と同じくらい…だ)\n・最上級: 定冠詞 + plus/moins + 形容詞 + de... (〜の中で最も…だ)"
+            },
+            {
+              "title": "目的語代名詞の語順",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#comparative",
+              "count": 4
+            },
+            {
+              "tag": "#superlative",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 3
+            },
+            {
+              "tag": "#contracted_articles",
+              "count": 2
+            },
+            {
+              "tag": "#partitive_articles",
+              "count": 2
+            },
+            {
+              "tag": "#imperative",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……この2つのフィナンシェを見てみろ。Ce financier est plus grand que l'autre. (このフィナンシェはもう一つより大きい。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "plus ... que (〜より…だ)",
+            "text": "plus + 形容詞 + que で「〜より…だ」という優等比較級になります。大きさ(grand)の違いを指摘しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "本当だ。こっちの方が少し膨らんで大きいですね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "あぁ。それに色合いもだ。Il est moins doré que l'autre. (それはもう一つよりきつね色じゃない。) オーブンの場所で焼きムラが出た。",
+          "position": "center",
+          "learningPoint": {
+            "title": "moins ... que (〜より…でない)",
+            "text": "moins + 形容詞 + que は劣等比較級です。焼き色(doré)が足りないことを表しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "なるほど、同じ生地でも変わるんですね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "次はラングドシャだ。Cette langue de chat est aussi sucrée que l'autre ? (このラングドシャはもう一つと同じくらい甘いか？) 味見してみろ。",
+          "position": "center",
+          "learningPoint": {
+            "title": "aussi ... que (〜と同じくらい…だ)",
+            "text": "aussi + 形容詞 + que は同等比較級です。甘さ(sucrée)が均一か確認しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（サクッ）……はい！同じくらい甘くて美味しいです！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "よし。……そこの新しいゴムベラ、Donne-la-moi. (それを俺に渡してくれ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Donne-la-moi. (それを俺に渡してくれ。)",
+            "text": "donne(渡せ) ＋ la(それを：女性名詞 spatule) ＋ moi(俺に：間接目的語)。肯定の命令形において代名詞を2つ続ける場合、「動詞 - 直接 - 間接」の順でハイフンで繋ぐのがルールです。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっと、la（それを）ってことは……このゴムベラ(spatule)ですね！はい、どうぞ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "素晴らしい。目的語が2つになるとパニックになりやすいけど、落ち着いて正しく処理できているね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "肯定命令形における2つの代名詞の結合",
+              "type": "custom",
+              "text": "肯定の命令文で直接目的語代名詞と間接目的語代名詞を同時に使う場合、順序は「動詞 - 直接 - 間接」となり、すべてハイフンで繋ぎます。また、me/te は強変化の moi/toi になります。\n例：Donne-la-moi. (それを私に渡して)"
+            },
+            {
+              "title": "否定命令形における2つの代名詞の語順",
+              "type": "custom",
+              "text": "否定命令文では通常の語順（Ne ➔ 間接 ➔ 直接 ➔ 動詞 ➔ pas）に戻ります。\n例：Ne me la donne pas. (それを私に渡さないで)"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "エロディ (先輩)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative_with_pronouns",
+              "count": 5
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 4
+            },
+            {
+              "tag": "#comparative",
+              "count": 3
+            },
+            {
+              "tag": "#superlative",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 2
+            },
+            {
+              "tag": "#imperative",
+              "count": 2
+            },
+            {
+              "tag": "#basic_adjectives",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "わぁ、いい匂い！ガエルのフィナンシェ、C'est le meilleur ! (それが一番最高ね！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "本当にバターの香りが豊かですね！ラングドシャもサクサクです……！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ねえねえ、どうやったらこんなに均一に焼けるの？秘密のコツ教えてよ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……Ne le lui dis pas. (彼女にそれを言うな。) 内緒だぞ。",
+          "position": "center",
+          "learningPoint": {
+            "title": "比較と複雑な代名詞の飛び交う厨房",
+            "text": "C'est le meilleur (それが一番だ：最上級) / Ne le lui dis pas (彼女にそれを言うな：否定命令の語順は Ne-直接-間接-動詞-pas となります)。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "…てことなのでエロディさん内緒です。すみませんハハ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "えーケチ！佐伯さーん、ガエルがいじわるするー！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "あはは。でもね、料理とと向き合って自分で正解を見つけるのが、C'est le plus amusant ! (一番楽しいんだよ！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "最上級 意味: le plus + 形容詞(男性形) で「最も楽しい」という最上級です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "むー確かに…。でもいつか新人君が秘密のコツを掴んだら……その時はこっそApprends-le-moi ! (私ににそれを教えてね！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "代名詞の命令形 意味:Apprends(教えろ) + le(それを：直接) + moi(僕に：間接) で、ガエルの使った「Donne-le-moi」と同じ「動詞 - 直接 - 間接」の語順",
+            "text": ""
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "比較級、最上級、目的語代名詞2つの結合の総まとめ",
+              "type": "custom",
+              "text": "これまでの学習事項のまとめです。比較文の構成や、肯定・否定命令形における人称目的語代名詞の結合ルールを整理しておきましょう。"
+            },
+            {
+              "title": "【復習】近接未来と近接過去",
+              "referenceTopicId": "ref_near_future_past",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative_with_pronouns",
+              "count": 4
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 3
+            },
+            {
+              "tag": "#comparative",
+              "count": 3
+            },
+            {
+              "tag": "#superlative",
+              "count": 3
+            },
+            {
+              "tag": "#near_future",
+              "count": 2
+            },
+            {
+              "tag": "#near_past",
+              "count": 2
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ガエルさんの指示、すごく正確で動きやすいです！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……言葉が多いと、生地の状態が変化するからな。時間は待ってくれない。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "なるほど……！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ふふ。明日はみんなの『過去』の表現を使って、もう少し厨房の歴史を紐解いていこうか。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": "career_ep_3_2"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_3_2",
+      "episodeTitle": "第3-2話：過去の足跡と複合過去",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "複合過去（passé composé）の基本構造",
+            "助動詞 avoir / être の使い分け基準",
+            "過去分詞の性数一致（être助動詞および直接目的語先行）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あ、昨日仕込んだタルト生地、すっごくいい感じに休まってる！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "あぁ。昨日の温度管理が完璧だったからな。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "料理において『昨日何をしたか』を正確に伝えることは、今日の品質を保証することに繋がる。今日は、過去の出来事を語るための『複合過去』を学ぼう。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "過去形ですね！英語の have + 過去分詞 みたいな感じですか？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "鋭いね。まさに『avoir』か『être』を助動詞として使うんだ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "何々ー？？過去の話？？あそうだ新人君知ってる？佐伯さん、昔フランスにいた頃は超荒れてたヤンキーだったんだよ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "こらエロディ！その話はしなくていい！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "複合過去の基本構造",
+              "referenceTopicId": "ref_auxiliaries",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "êtreを助動詞にとる動詞",
+              "referenceTopicId": "ref_auxiliaries",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 5
+            },
+            {
+              "tag": "#auxiliary_selection",
+              "count": 5
+            },
+            {
+              "tag": "#etre",
+              "count": 2
+            },
+            {
+              "tag": "#avoir",
+              "count": 2
+            },
+            {
+              "tag": "#subjects",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "佐伯さんがヤンキーだったんですか！？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "あぁ。Il est allé en France à 18 ans. (彼は18歳でフランスへ行った。) そこでかなり尖っていたらしい。",
+          "position": "center",
+          "learningPoint": {
+            "title": "Il est allé... (彼は行った)",
+            "text": "aller(行く)は移動を表すため、助動詞に être をとる複合過去（être ＋ 過去分詞）になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "……ゴッホン。若気の至りだよ。でも、パリのコンテストで Il a rencontré le chef. (僕はシェフに出会った。) 当時、オーナーの満さんとタッグを組んでいた若き日のシェフにね。",
+          "position": "center",
+          "learningPoint": {
+            "title": "Il a rencontré... (彼は出会った)",
+            "text": "rencontrer(出会う)は一般的な動詞なので、助動詞に avoir をとる複合過去（avoir ＋ 過去分詞）になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっ、あのお二人に！？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "（苦笑しながら）……ああ。そして完全に打ちのめされたんだ。さあ、昔話は一旦ここまでだ。複合過去には『性数一致』という厄介だけど重要なルールがあるから、そこをしっかり押さえて実践にいこう。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "êtreを助動詞とする場合の過去分詞の性数一致",
+              "type": "custom",
+              "text": "助動詞に être を使う場合、過去分詞は主語（S）の性と数に一致させます。\n例：Elle est allée. / Ils sont allés."
+            },
+            {
+              "title": "avoirを助動詞とする場合の過去分詞の性数一致",
+              "type": "custom",
+              "text": "助動詞に avoir を使う場合、通常は性数一致しませんが、直接目的語（COD）が動詞の前に来るとき（関係代名詞 que の先行詞や直接目的語代名詞など）は、その直接目的語の性と数に過去分詞を一致させます。\n例：La tarte que j'ai cuite... (私が焼いたタルト...)"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 5
+            },
+            {
+              "tag": "#auxiliary_selection",
+              "count": 5
+            },
+            {
+              "tag": "#past_participle_agreement",
+              "count": 5
+            },
+            {
+              "tag": "#comparative",
+              "count": 2
+            },
+            {
+              "tag": "#superlative",
+              "count": 2
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……昨日のリンゴのタルトだが、Qui les a faites ? (これを作ったのは誰だ？)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！僕とガエルさんです！Nous les avons finies hier soir. (昨日の夜、俺たちで仕上げました。)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "ふむ。Qu'est-ce que tu as fait exactement ? (君は具体的に何をやった？)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっと、J'ai coupé les pommes que nous avons utilisées. (使ったリンゴのカットをやりました。) Et j'ai pesé le sucre, puis je les ai cuites ! (それから砂糖を計量して、僕がタルトを焼き上げました！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "Oui, il est resté tard avec moi. (あぁ、こいつは俺と一緒に遅くまで残っていた。) カットも焼き加減も、俺の指示通り正確だった。",
+          "position": "center",
+          "learningPoint": {
+            "title": "過去の状況報告と性数一致",
+            "text": "les a faites (これを作った：les(女性複数名詞のタルト)が前にあるのでfaitにesがつく) / que nous avons utilisées (俺たちが使った〜：関係代名詞queが指すリンゴ(女性複数)に合わせてesがつく) / je les ai cuites (それらを焼いた：lesに合わせてcuitにesがつく) / il est resté (残った：滞在を表す動詞なのでêtreを助動詞にとる)。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "そうか……Je les ai goûtées. Elles sont parfaites. (味見をした。完璧な出来だ。)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "やった、シェフに褒められた……！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "シェフにおほめいただけるなんてすごいじゃないか！僕がパリで初めて焼いたタルトなんてボコボコに批評されたよ（涙）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ひえっ……昔のシェフ、容赦なさすぎ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "複合過去と性数一致の総まとめ",
+              "type": "custom",
+              "text": "助動詞の選択基準（avoir / être）と、それに伴う過去分詞の性数一致（主語一致 / 先行する直接目的語一致）のルールを総復習します。"
+            },
+            {
+              "title": "【復習】目的語代名詞と複合過去の組み合わせ",
+              "type": "custom",
+              "text": "複合過去文で目的語代名詞を使う場合、代名詞は助動詞（avoir / être）の直前に置きます。\n例：Je l'ai fait. / Nous les avons finies."
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 5
+            },
+            {
+              "tag": "#auxiliary_selection",
+              "count": 4
+            },
+            {
+              "tag": "#past_participle_agreement",
+              "count": 4
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 2
+            },
+            {
+              "tag": "#imperative_with_pronouns",
+              "count": 2
+            },
+            {
+              "tag": "#near_past",
+              "count": 2
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "『昨日何を作ったか』が言えると、一気に会話が広がりますね！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……過去の積み重ねが、今を作るからな。苦い過去であってもだ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ふふ、その通り。明日はさらに、『その時どうだったか』という過去の情景を語る表現を学んでいこう。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": "career_ep_3_3"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_3_3",
+      "episodeTitle": "第3-3話：語り継がれる過去と理由",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "半過去（imparfait）の活用と概念",
+            "半過去と複合過去の使い分け",
+            "関係代名詞（qui / que）の基本",
+            "接続詞（parce que, mais, donc）",
+            "現在分詞・ジェロンディフ"
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "半過去（imparfait）の活用と概念",
+              "type": "custom",
+              "text": "半過去（imparfait）は「過去の継続的な状態・背景・習慣（〜していた、〜だった）」を表します。\n直説法現在形一人称複数（nous）の語幹に半過去語尾（-ais, -ais, -ait, -ions, -iez, -aient）をつけて作ります。"
+            },
+            {
+              "title": "半過去と複合過去の使い分け",
+              "type": "custom",
+              "text": "・複合過去 (passé composé): 過去の特定の「点」の行為（〜した）\n・半過去 (imparfait): 過去の背景や状態、継続的な習慣を表す「線」の描写（〜していた）"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "満 (マネージャー)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imparfait",
+              "count": 5
+            },
+            {
+              "tag": "#imparfait_vs_past_compose",
+              "count": 5
+            },
+            {
+              "tag": "#past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#auxiliary_selection",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "Avant, je me battais tous les jours. (昔、僕は毎日喧嘩ばかりしていたんだ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "je me battais (僕は〜していた)",
+            "text": "se battre(喧嘩する) の半過去形です。英語の「used to fight」に当たり、「〜した」という1回きりの動作（複合過去）ではなく、「昔は〜という状態だった（習慣）」という過去の継続的な状態を表します。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "毎日……！？今の優しい佐伯さんからは想像できないですね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "荒れていたよ。Mais, j'aimais seulement cuisiner. (でも、料理をすることだけは好きだったんだ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Mais（しかし）/ j'aimais (好きだった)",
+            "text": "aimer(好きだ) の半過去形です。過去の感情や状態（〜が好きだった、〜と考えていた等）を背景として語る際にも半過去を使います。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "Le plat que j'ai fait était parfait. (僕が作った料理は完璧だった。) 絶対に勝てると信じて、パリの若手コンテストに一人で乗り込んだんだ。",
+          "position": "center",
+          "learningPoint": {
+            "title": "que j'ai fait (僕が作った〜) ＋ était (〜だった)",
+            "text": "que は関係代名詞で「僕が作った（料理）」と名詞を修飾します。j'ai fait は複合過去（1回の動作）、était は半過去形で当時の自信満々な状態（背景）を表現し、2つの過去形が見事に共存しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "せや。でも、そこに立ち塞がったんが俺とジャンのタッグやった。C'est nous qui l'avons vaincu. (こいつを打ち負かしたのは俺たちや。) とは言うても、ジャンが凄すぎただけやけどな。",
+          "position": "center",
+          "learningPoint": {
+            "title": "C'est nous qui l'avons vaincu. (彼を負かしたのは私たちだ)",
+            "text": "C'est nous qui... (〜したのは私たちだ)という強調構文。l'avons vaincu は複合過去で、le(彼を) ＋ avons vaincu(負かした) です。「俺たちが勝った」という出来事を印象付けています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "二人の作った料理を一口食べた瞬間、プライドのすべてが崩れ去ったんだ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ほんでな、Nous l'avons invité. (俺たちがこいつを誘ったんや。) ちょうど店を始めようとしとって、人もおらんくて大変やったから、こいつのガッツを買って創業メンバーに引き入れたんや。",
+          "position": "center",
+          "learningPoint": {
+            "title": "Nous l'avons invité. (私たちが彼を誘った)",
+            "text": "inviter(誘う・招待する) の複合過去です。満とジャンが佐伯を仲間に引き入れた、過去の決定的な「1回の出来事」を表しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "関係代名詞 qui / que の基本",
+              "type": "custom",
+              "text": "名詞を後ろから説明する接続語です。\n・qui: 先行詞が関係節内で主語になる場合（〜する名詞）\n・que: 先行詞が関係節内で直接目的語になる場合（〜を…する名詞）"
+            },
+            {
+              "title": "接続詞（parce que / mais / donc）",
+              "type": "custom",
+              "text": "文と文を繋ぐ接続詞です。\n・parce que: 「なぜなら（理由）」\n・mais: 「しかし（逆接）」\n・donc: 「したがって、だから（結果）」"
+            },
+            {
+              "title": "現在分詞とジェロンディフ",
+              "referenceTopicId": "ref_non_finite_forms",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ピエール (シェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#relative_pronouns_basic",
+              "count": 5
+            },
+            {
+              "tag": "#conjunctions_basic",
+              "count": 5
+            },
+            {
+              "tag": "#gerund_participle",
+              "count": 5
+            },
+            {
+              "tag": "#imparfait",
+              "count": 2
+            },
+            {
+              "tag": "#imparfait_vs_past_compose",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "そこらの料理人ともヤンキーとも次元が違ったわ。佐伯は火の前に立つと、Il était effrayant depuis toujours. (あいつは昔から恐ろしいほど完璧やった。) でも、ジャンが作る一皿は技術を遥かに超えていたんや。まぁ俺も前菜とデザートぐらいは作ったけどな",
+          "position": "center",
+          "learningPoint": {
+            "title": "Il était effrayant (彼は恐ろしいほど完璧だった) 意味: 半過去形です。effrayant（恐ろしい）という状態が過去に継続していたことを示します。「昔から（depuis toujours）」という習慣・継続を示す副詞と相性が良い形です。",
+            "text": ""
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "そう、お二人が僕のすべてを壊してくれた。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "そう、Vous deux, vous avez brisé tout ce que j'étais. (お二人が、僕のすべてを壊してくれた。) Je pleurais en mangeant son plat. (僕は彼の料理を食べながら泣いたんだ。) プライドも過去も。",
+          "position": "center",
+          "learningPoint": {
+            "title": "複合過去、半過去、ジェロンディフの組み合わせ",
+            "text": "完了した動作（briser: 複合過去）、当時の継続的な感情（pleurer: 半過去）、そして同時進行の動作（en mangeant: ジェロンディフ）を使い分け、関係代名詞 que を用いて「僕のすべて」という複雑な対象を表現しています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "でも、コンテストに勝ったのに、どうして満さんは料理人を辞めたんですか？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "Je suis devenu financier parce que j'ai vu la vraie limite. (俺が金融の道に進んだんは、本当の限界を見たからや。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Je suis devenu (私は〜になった) / j'ai vu (私は見た) 意味: 複合過去形です。どちらも etre または avoir を助動詞に持つ、過去の「1回の決定的な出来事」を表す形です。parce que（なぜなら）という接続詞で、料理人を辞めた理由を導いています。",
+            "text": ""
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "タッグを組んで勝ったけどな、あのコンテストで俺の料理人としての限界が分かったんや。本物の天才の横で『才能の差』を噛み締めるより、この天才を一番近くで支える金庫番になったるって決めたんや。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……Le passé est le passé. (過去は過去だ。) 昔話か、しかし満はあの時から俺には勝てないことを悟ったのだな、初めて聞いた（にやり）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "おまっピエール聞いとったんか！？今のなーし、今のなーし！！ピエールに俺が負けるわけないやろ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "ほう、やけに口が回るようだな？昔話で思い出したし、久しぶりにやるか（にやにや）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（ピエールシェフと満さん……かっこよすぎる……！）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "むきーーーー！！！（怒り）。坊ちゃん！最後の練習問題いくで！！八つ当たりや！！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ええええ",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "半過去、複合過去、関係代名詞、接続詞の総まとめ",
+              "type": "custom",
+              "text": "過去時制（複合過去と半過去）の使い分け、関係代名詞 qui / que、そして接続詞を用いた論理構成の総括です。"
+            },
+            {
+              "title": "【復習】過去分詞の性数一致と比較級",
+              "type": "custom",
+              "text": "比較級表現および助動詞 être / COD先行時の過去分詞の性数一致を復習しましょう。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imparfait",
+              "count": 3
+            },
+            {
+              "tag": "#imparfait_vs_past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#relative_pronouns_basic",
+              "count": 3
+            },
+            {
+              "tag": "#conjunctions_basic",
+              "count": 2
+            },
+            {
+              "tag": "#gerund_participle",
+              "count": 2
+            },
+            {
+              "tag": "#past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#past_participle_agreement",
+              "count": 2
+            },
+            {
+              "tag": "#comparative",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "なーんか、みんなの昔話が聞けて面白かったー！そういえば、ガエルの過去は話さなくていいの？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "気になります！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……Une autre fois. (また今度な。)",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "あはは、ガエルらしいね。さて、過去の振り返りはここまでだ。明日からは、さらに一歩進んだフランス料理の世界に入っていくよ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！望むところです！！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
+}

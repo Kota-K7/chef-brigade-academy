@@ -709,6 +709,31 @@
           "background": "kitchen"
         },
         {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ほら金竹さん、En cuisine, il ne faut jamais paniquer. (厨房では決して慌ててはいけませんよ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... jamais (決して〜ない)",
+            "text": "ne ... jamais は「決して〜ない」「一度も〜ない」という頻度ゼロや強い戒めを表す表現です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（厨房がカオスだ……！）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "やれやれ。今後のためにも、疑問文と様々な否定文（plus / rien / jamais）をしっかり復習しておこうか。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
           "type": "tutorial",
           "title": "事前解説 (Préparation)",
           "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
