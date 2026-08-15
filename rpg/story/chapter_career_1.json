@@ -125,7 +125,7 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#three_verb_groups",
+              "tag": "#verbs",
               "count": 3
             },
             {
@@ -219,12 +219,8 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#verb_conjugation_patterns",
-              "count": 7
-            },
-            {
-              "tag": "#regular_verbs_1_2",
-              "count": 8
+              "tag": "#verbs",
+              "count": 15
             },
             {
               "tag": "#articles",
@@ -339,12 +335,8 @@
               "count": 7
             },
             {
-              "tag": "#three_verb_groups",
-              "count": 3
-            },
-            {
-              "tag": "#regular_verbs_1_2",
-              "count": 3
+              "tag": "#verbs",
+              "count": 6
             },
             {
               "tag": "#etre",
@@ -518,7 +510,7 @@
               "count": 5
             },
             {
-              "tag": "#three_verb_groups",
+              "tag": "#verbs",
               "count": 2
             },
             {
@@ -606,7 +598,7 @@
               "count": 5
             },
             {
-              "tag": "#regular_verbs_1_2",
+              "tag": "#verbs",
               "count": 3
             },
             {
@@ -660,12 +652,45 @@
         },
         {
           "type": "dialog",
+          "character": "hero",
+          "text": "あの……冷蔵庫を見ましたが、Il n'y a plus de flan ! (もうプリンはありません！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... plus de [名詞] (もう〜がない)",
+            "text": "以前あったものが無くなった（残量ゼロ）を表す表現です。ne...pas と同様に、後ろの名詞の前には否定の「de」を置きます（× plus du flan ➔ ○ plus de flan）。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "なんやて！？ Il n'y a rien dans le frigo !? (冷蔵庫に何もないんかい！？プリンどころか空っぽなんか！？)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... rien (何も〜ない)",
+            "text": "pas の代わりに rien を使うことで「何一つ〜ない（ゼロ）」を表します。Il n'y a rien で「何もない」という決まり文句になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
           "character": "saeki",
           "text": "Combien ça coûte ? (いくらですか？) 僕が後で買ってきますから落ち着いてください……。",
           "position": "center",
           "learningPoint": {
             "title": "トラブル時の短い疑問文",
-            "text": "Qui (誰) / C'est quoi (それは何) / Quand (いつ) / Combien (いくら・いくつ)。責任や状況を追求・解決するときにも疑問詞はセットで使われます。"
+            "text": "Combien ça coûte ? (いくら？) / Ça coûte combien ? は日常会話・厨房の買い出しで最も使う値段の聞き方です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ほら金竹さん、En cuisine, il ne faut jamais paniquer. (厨房では決して慌ててはいけませんよ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... jamais (決して〜ない)",
+            "text": "ne ... jamais は「決して〜ない」「一度も〜ない」という頻度ゼロや強い戒めを表す表現です。"
           },
           "background": "kitchen"
         },
@@ -679,7 +704,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "やれやれ。今後のためにも、否定文と疑問文を組み合わせてしっかり復習しておこうか。",
+          "text": "やれやれ。今後のためにも、疑問文と様々な否定文（plus / rien / jamais）をしっかり復習しておこうか。",
           "position": "center",
           "background": "kitchen"
         },
@@ -733,7 +758,7 @@
               "count": 4
             },
             {
-              "tag": "#regular_verbs_1_2",
+              "tag": "#verbs",
               "count": 3
             }
           ]
@@ -888,12 +913,8 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#adjective_agreement",
-              "count": 5
-            },
-            {
-              "tag": "#adjective_position",
-              "count": 5
+              "tag": "#basic_adjectives",
+              "count": 10
             },
             {
               "tag": "#question_words",
@@ -1010,8 +1031,37 @@
           "text": "その通りだ。Il manque du sel. (塩が足りない。)",
           "position": "center",
           "learningPoint": {
-            "title": "味見と調整の疑問文",
-            "text": "塩(sel)も数えられない男性名詞のため、部分冠詞の du を使用します。→ピエール：「では聞くぞ。Quel sel tu utilises ? (どの塩を使う？)」→主人公：「えっと、粗塩……ですか？」→佐伯：「Comment est le goût ? (味はどう？) もっと引き締める必要があるよね。」→ピエール：「Combien de sel tu mets ? (どれくらいの塩を入れる？)」→主人公：「ほんのひとつまみ……だと思います！」→ピエール：「Est-ce que c'est parfait ? (これで完璧か？)」 →主人公：「はい！完璧です！」\nQuel (どの) / Comment (どう) / Combien de (どのくらいの量の) / Est-ce que (〜ですか)。食材の量や味の状態を確認する、料理の最終工程での必須フレーズです。"
+            "title": "味見と調整の疑問文と表現",
+            "text": "Il manque de... で「〜が足りない」という料理人の必須表現です。du sel (塩がいくらか) のように部分冠詞とセットで使います。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あっ、すぐ塩を足します！……これでいいですか？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "新人くん、塩を入れたら Mélange doucement ! (優しく混ぜるのよ！) 泡立てちゃダメ！",
+          "position": "center",
+          "learningPoint": {
+            "title": "doucement (-ment で終わる様態の副詞)",
+            "text": "形容詞の女性形 douce に -ment をつけて「優しく、ゆっくりと」という副詞になります。調理動作の指定の基本です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "Un cuisinier fait toujours attention à la texture. (料理人は常にテクスチャーも意識せねばならない。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "toujours (頻度副詞の位置)",
+            "text": "toujours（常に、いつも）などの短い副詞は、活用動詞（fait）の直後に置きます。"
           },
           "background": "kitchen"
         },
@@ -1063,12 +1113,8 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#adjective_agreement",
-              "count": 3
-            },
-            {
-              "tag": "#adjective_position",
-              "count": 3
+              "tag": "#basic_adjectives",
+              "count": 6
             },
             {
               "tag": "#interrogative_adjectives",
@@ -1083,7 +1129,7 @@
               "count": 2
             },
             {
-              "tag": "#three_verb_groups",
+              "tag": "#verbs",
               "count": 2
             },
             {

@@ -135,7 +135,7 @@
               "count": 2
             },
             {
-              "tag": "#adjective_agreement",
+              "tag": "#basic_adjectives",
               "count": 3
             }
           ]
@@ -384,7 +384,7 @@
               "count": 3
             },
             {
-              "tag": "#adjective_position",
+              "tag": "#basic_adjectives",
               "count": 2
             },
             {
@@ -1171,11 +1171,22 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "はい！そば粉を使って、定番のハムとチーズ、もちろん卵も入れます！",
+          "text": "はい！そば粉の生地は、La pâte a reposé pendant deux heures. (生地は2時間休ませておきました！)",
           "position": "center",
           "learningPoint": {
-            "title": "質問攻めの疑問文と時間表現",
-            "text": "Je vais faire (これから作る) / Ça se prépare comment ? (どうやって作られるの？) / Qu'est-ce que tu vas mettre dedans ? (中に何を入れるつもりだ？) / Avec quelle farine tu vas la faire ? (どの粉でそれを作るつもりだ？)。近接未来（aller + 原形）と疑問詞を組み合わせたフレーズです。"
+            "title": "pendant ＋ 期間 (〜の間)",
+            "text": "ある動作が継続した全体の期間を表します（例: pendant 2 heures = 2時間の間）。仕込みや寝かせ時間で頻出します。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "そして鶏肉も、Ce poulet cuit depuis 15 minutes. Ça sera prêt dans 5 minutes ! (この鶏肉は15分前から焼いていて、あと5分で焼けます！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "depuis (〜前からずっと) と dans (今から〜後に)",
+            "text": "depuis は「過去から今も継続している時間」、dans は「今から〜時間後（未来）」を表します。焼き上がり時間の伝達に不可欠です。"
           },
           "background": "kitchen"
         },
@@ -1185,8 +1196,8 @@
           "text": "ちょっとみんな、質問攻めにしないで！Il vient de commencer ! (彼、今始めたばかりですよ！) 集中させてあげて！",
           "position": "center",
           "learningPoint": {
-            "title": "Il vient de commencer ! (彼、今始めたばかりですよ！) 意味: venir de ＋ 動詞の原形(commencer) で「〜したばかりだ」という近接過去の表現です。主人公がちょうど作業に着手した直後であることを周囲に伝えています。",
-            "text": ""
+            "title": "Il vient de commencer ! (彼は始めたばかりだ！)",
+            "text": "venir de + 不定詞 で「〜したばかりだ（近接過去）」を表します。"
           },
           "background": "kitchen"
         },

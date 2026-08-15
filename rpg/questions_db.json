@@ -1701,7 +1701,7 @@
     "id": "q_career_0_1_5",
     "tags": [
       "#articles",
-      "#gender",
+      "#noun_gender",
       "#applied",
       "#A1"
     ],
@@ -1724,7 +1724,7 @@
     "id": "q_career_0_1_6",
     "tags": [
       "#articles",
-      "#gender",
+      "#noun_gender",
       "#applied",
       "#A1"
     ],
@@ -2112,10 +2112,9 @@
   {
     "id": "q_career_0_1_4",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#basic",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "text": "Je ___ nouveau.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme correcte de être: Je ___ nouveau. (「私は新人です)",
     "options": [
@@ -2135,10 +2134,9 @@
   {
     "id": "q_career_0_1_4_b",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#basic",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "text": "Tu ___ prêt.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Tu'. (「君は準備ができている)",
     "options": [
@@ -2158,10 +2156,9 @@
   {
     "id": "q_career_0_1_10_b",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#mixed",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "text": "Ils ___）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは〜です)",
     "options": [
@@ -2181,10 +2178,9 @@
   {
     "id": "q_career_0_2_9",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#mixed",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "text": "Ils ___ dans la cuisine.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは厨房にいます)",
     "options": [
@@ -2205,9 +2201,8 @@
     "id": "q_scramble_1",
     "tags": [
       "#scramble",
-      "#verb_etre",
-      "#A1",
-      "#etre"
+      "#etre",
+      "#A1"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私は新人です」となるようにフランス語を並び替えてください。)",
@@ -2226,9 +2221,8 @@
   {
     "id": "q_0_1_3",
     "tags": [
-      "#verb_etre",
-      "#A1",
-      "#etre"
+      "#etre",
+      "#A1"
     ],
     "text": "Tu ___ le chevalier de Camille. / 君はカミーユの騎士です (文脈に合う正しいフランス語の並びを選べ。)",
     "options": [
@@ -2248,9 +2242,8 @@
   {
     "id": "q_0_3_1_2",
     "tags": [
-      "#verb_etre",
-      "#A1",
-      "#etre"
+      "#etre",
+      "#A1"
     ],
     "text": "Traduisez: She is Camille. (「彼女はカミーユです。」に当てはまるフランス語は？)",
     "options": [
@@ -2270,7 +2263,6 @@
   {
     "id": "q_ve_01",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2287,7 +2279,6 @@
   {
     "id": "q_ve_02",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2305,7 +2296,6 @@
   {
     "id": "q_ve_03",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2322,7 +2312,6 @@
   {
     "id": "q_ve_04",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2339,7 +2328,6 @@
   {
     "id": "q_ve_05",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2356,7 +2344,6 @@
   {
     "id": "q_ve_06",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "typing",
@@ -2374,9 +2361,8 @@
     "id": "q_ve_07",
     "tags": [
       "#association",
-      "#verb_etre",
-      "#matching",
-      "#etre"
+      "#etre",
+      "#matching"
     ],
     "type": "matching",
     "text": "Associez la conjugaison de 'être'. (主語と動詞 être の現在の活用のペアを結びつけてください。)",
@@ -2404,9 +2390,8 @@
     "id": "q_ve_08",
     "tags": [
       "#association",
-      "#verb_etre",
-      "#matching",
-      "#etre"
+      "#etre",
+      "#matching"
     ],
     "type": "matching",
     "text": "Associez la conjugaison plurielle. (主語と動詞 être の複数は活用のペアを結びつけてください。)",
@@ -2433,7 +2418,6 @@
   {
     "id": "q_ve_09",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "cloze",
@@ -2454,7 +2438,6 @@
   {
     "id": "q_ve_10",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "cloze",
@@ -2475,7 +2458,6 @@
   {
     "id": "q_ve_11",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "scramble",
@@ -2495,7 +2477,6 @@
   {
     "id": "q_ve_12",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "scramble",
@@ -2515,7 +2496,6 @@
   {
     "id": "q_ve_13",
     "tags": [
-      "#verb_etre",
       "#etre"
     ],
     "type": "choice",
@@ -2536,10 +2516,9 @@
   {
     "id": "q_career_0_1_4_c",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#basic",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "text": "J'___ un couteau.）」の空欄に入る、動詞 avoir の一人称単数現在形を入力してください。 (Entrez la forme de avoir pour 'Je'. (「私は包丁を持っています)",
     "options": [
@@ -2559,10 +2538,9 @@
   {
     "id": "q_career_0_1_10",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#mixed",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "text": "Nous ___）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme correcte de avoir: Nous ___ (「私たちは持っています)",
     "options": [
@@ -2582,10 +2560,9 @@
   {
     "id": "q_career_0_2_9_b",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#mixed",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "text": "Nous ___ deux couteaux.）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme de avoir pour 'Nous'. (「私たちは2本のナイフを持っています)",
     "options": [
@@ -2605,10 +2582,9 @@
   {
     "id": "q_career_0_2_9_c",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#mixed",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "text": "Vous ___）」の空欄に入る、動詞 avoir の二人称複数現在形を入力してください。 (Entrez la forme de avoir pour 'Vous'. (「あなたは〜を持っている)",
     "options": [
@@ -2629,9 +2605,8 @@
     "id": "q_cloze_1",
     "tags": [
       "#cloze",
-      "#verb_avoir",
-      "#A1",
-      "#avoir"
+      "#avoir",
+      "#A1"
     ],
     "type": "cloze",
     "text": "Nous [avons] des couteaux. (私たちは包丁を持っています。 - 空欄に入る正しい動詞を入力または選択してください。)",
@@ -2651,7 +2626,6 @@
   {
     "id": "q_va_01",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2668,7 +2642,6 @@
   {
     "id": "q_va_02",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2685,7 +2658,6 @@
   {
     "id": "q_va_03",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2702,7 +2674,6 @@
   {
     "id": "q_va_04",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2719,7 +2690,6 @@
   {
     "id": "q_va_05",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2736,7 +2706,6 @@
   {
     "id": "q_va_06",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -2755,7 +2724,6 @@
     "tags": [
       "#association",
       "#matching",
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "matching",
@@ -2785,7 +2753,6 @@
     "tags": [
       "#association",
       "#matching",
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "matching",
@@ -2813,7 +2780,6 @@
   {
     "id": "q_va_09",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "cloze",
@@ -2834,7 +2800,6 @@
   {
     "id": "q_va_10",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "cloze",
@@ -2855,7 +2820,6 @@
   {
     "id": "q_va_11",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "scramble",
@@ -2876,7 +2840,6 @@
   {
     "id": "q_va_12",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "scramble",
@@ -2897,7 +2860,6 @@
   {
     "id": "q_va_13",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "choice",
@@ -2918,7 +2880,6 @@
   {
     "id": "q_va_14",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "choice",
@@ -2939,7 +2900,6 @@
   {
     "id": "q_va_ext_01",
     "tags": [
-      "#verb_avoir",
       "#avoir"
     ],
     "type": "typing",
@@ -3355,10 +3315,9 @@
   {
     "id": "q_career_0_1_3",
     "tags": [
-      "#subject_pronouns",
+      "#subjects",
       "#basic",
-      "#A1",
-      "#subjects"
+      "#A1"
     ],
     "text": "I）」に対応する、フランス語の主語人称代名詞を入力してください。 (Entrez le pronom sujet pour [___]. (「私は)",
     "options": [
@@ -3378,9 +3337,8 @@
   {
     "id": "q_0_3_1_3",
     "tags": [
-      "#subject_pronouns",
-      "#A1",
-      "#subjects"
+      "#subjects",
+      "#A1"
     ],
     "text": "Traduisez: I protect Camille. (「私は彼女を守ります。」に当てはまるフランス語は？)",
     "options": [
@@ -3400,9 +3358,8 @@
   {
     "id": "q_0_3_2_4",
     "tags": [
-      "#subject_pronouns",
-      "#A1",
-      "#subjects"
+      "#subjects",
+      "#A1"
     ],
     "text": "Traduisez: Protect him! (戦闘中、仲間が「彼を守ってください！」と叫びました。正しいフランス語はどれか。)",
     "options": [
@@ -3422,7 +3379,6 @@
   {
     "id": "q_sp_01",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3440,7 +3396,6 @@
   {
     "id": "q_sp_02",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3458,7 +3413,6 @@
   {
     "id": "q_sp_03",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3476,7 +3430,6 @@
   {
     "id": "q_sp_04",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3494,7 +3447,6 @@
   {
     "id": "q_sp_05",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3512,7 +3464,6 @@
   {
     "id": "q_sp_06",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3531,9 +3482,8 @@
     "id": "q_sp_07",
     "tags": [
       "#association",
-      "#subject_pronouns",
-      "#matching",
-      "#subjects"
+      "#subjects",
+      "#matching"
     ],
     "type": "matching",
     "text": "Associez le pronom. (主語代名詞と日本語訳のペアを結びつけてください。)",
@@ -3561,9 +3511,8 @@
     "id": "q_sp_08",
     "tags": [
       "#association",
-      "#subject_pronouns",
-      "#matching",
-      "#subjects"
+      "#subjects",
+      "#matching"
     ],
     "type": "matching",
     "text": "Associez le pronom pluriel. (複数主語代名詞と日本語訳のペアを結びつけてください。)",
@@ -3590,7 +3539,6 @@
   {
     "id": "q_sp_09",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "cloze",
@@ -3611,7 +3559,6 @@
   {
     "id": "q_sp_10",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "cloze",
@@ -3632,7 +3579,6 @@
   {
     "id": "q_sp_11",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "scramble",
@@ -3652,7 +3598,6 @@
   {
     "id": "q_sp_12",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "scramble",
@@ -3672,7 +3617,6 @@
   {
     "id": "q_sp_13",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "choice",
@@ -3693,7 +3637,6 @@
   {
     "id": "q_sp_14",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "choice",
@@ -3714,7 +3657,6 @@
   {
     "id": "q_sp_ext_01",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -3733,9 +3675,8 @@
     "id": "q_sp_ext_02",
     "tags": [
       "#association",
-      "#subject_pronouns",
-      "#matching",
-      "#subjects"
+      "#subjects",
+      "#matching"
     ],
     "type": "matching",
     "text": "Associez le nombre. (代名詞と対象人数のペアを結びつけてください。)",
@@ -3762,7 +3703,6 @@
   {
     "id": "q_sp_ext_03",
     "tags": [
-      "#subject_pronouns",
       "#subjects"
     ],
     "type": "typing",
@@ -6580,10 +6520,9 @@
   {
     "id": "q_verb_etre_add_1",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "typing",
     "text": "Vous [___] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6596,10 +6535,9 @@
   {
     "id": "q_verb_etre_add_2",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "typing",
     "text": "Ils [___] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6611,10 +6549,9 @@
   {
     "id": "q_verb_etre_add_3",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "typing",
     "text": "Elles [___] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6626,10 +6563,9 @@
   {
     "id": "q_verb_etre_add_4",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "choice",
     "text": "Quelle est la conjugaison de être pour 'Nous' ? (「Nous（私たち）」に対する動詞 être の現在形活用を選んでください。)",
@@ -6645,10 +6581,9 @@
   {
     "id": "q_verb_etre_add_5",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "choice",
     "text": "Quelle est la forme correcte de être pour 'Tu' ? (「Tu（君）」に対する動詞 être の現在形活用を選んでください。)",
@@ -6664,10 +6599,9 @@
   {
     "id": "q_verb_etre_add_6",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "cloze",
     "text": "Le chef [est] très exigeant. (「シェフはとても厳しいです」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6687,10 +6621,9 @@
   {
     "id": "q_verb_etre_add_7",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私たちは見習いシェフです」となるように並び替えてください。)",
@@ -6707,11 +6640,10 @@
     "id": "q_verb_etre_add_8",
     "tags": [
       "#A1",
-      "#verb_etre",
+      "#etre",
       "#association",
       "#matching",
-      "#grammar",
-      "#etre"
+      "#grammar"
     ],
     "type": "matching",
     "text": "Associez le sujet et le verbe être. (主語と動詞 être の活用のペアを結びつけてください。)",
@@ -6738,10 +6670,9 @@
   {
     "id": "q_verb_etre_add_9",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "typing",
     "text": "C'est [est] chaud ! (「熱いので注意！」 - C'est の est の不定形動詞は何ですか？)",
@@ -6754,10 +6685,9 @@
   {
     "id": "q_verb_etre_add_10",
     "tags": [
-      "#verb_etre",
+      "#etre",
       "#grammar",
-      "#A1",
-      "#etre"
+      "#A1"
     ],
     "type": "typing",
     "text": "Qui [___] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 être の活用を入力してください。)",
@@ -6769,10 +6699,9 @@
   {
     "id": "q_verb_avoir_add_1",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "Tu [___] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6784,10 +6713,9 @@
   {
     "id": "q_verb_avoir_add_2",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "Vous [___] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6799,10 +6727,9 @@
   {
     "id": "q_verb_avoir_add_3",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "Ils [___] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6814,10 +6741,9 @@
   {
     "id": "q_verb_avoir_add_4",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "Elle [___] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 avoir の活用を入力してください。)",
@@ -6829,10 +6755,9 @@
   {
     "id": "q_verb_avoir_add_5",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "choice",
     "text": "Quelle est la forme de avoir pour 'Nous' ? (「Nous」に対する動詞 avoir の活用を選んでください。)",
@@ -6848,10 +6773,9 @@
   {
     "id": "q_verb_avoir_add_6",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "cloze",
     "text": "J'[ai] une question pour le chef. (「料理長に質問があります」 - 空欄に入る動詞 avoir の一人称単数形を入力してください。)",
@@ -6871,10 +6795,9 @@
   {
     "id": "q_verb_avoir_add_7",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "scramble",
     "text": "Remettez en ordre. (「私たちは包丁を持っています」となるように並び替えてください。)",
@@ -6891,11 +6814,10 @@
     "id": "q_verb_avoir_add_8",
     "tags": [
       "#A1",
-      "#verb_avoir",
+      "#avoir",
       "#association",
       "#matching",
-      "#grammar",
-      "#avoir"
+      "#grammar"
     ],
     "type": "matching",
     "text": "Associez le sujet et le verbe avoir. (主語と動詞 avoir の活用のペアを結びつけてください。)",
@@ -6922,10 +6844,9 @@
   {
     "id": "q_verb_avoir_add_9",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "Avez-[___] du vin blanc ? (「白ワインはありますか？」 - 倒置疑問文の空欄に入る代名詞を入力してください。)",
@@ -6937,10 +6858,9 @@
   {
     "id": "q_verb_avoir_add_10",
     "tags": [
-      "#verb_avoir",
+      "#avoir",
       "#grammar",
-      "#A1",
-      "#avoir"
+      "#A1"
     ],
     "type": "typing",
     "text": "J'ai [___]. (「お腹が空いた」を表す表現「J'ai ___」の空欄を入力してください。)",
@@ -6953,7 +6873,6 @@
     "id": "q_verbs_1",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -6968,7 +6887,6 @@
     "id": "q_verbs_2",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -6984,7 +6902,6 @@
     "id": "q_verbs_3",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -6999,7 +6916,6 @@
     "id": "q_verbs_4",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -7014,7 +6930,6 @@
     "id": "q_verbs_5",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -7033,7 +6948,6 @@
     "id": "q_verbs_6",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -7048,7 +6962,6 @@
     "id": "q_verbs_7",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -7067,7 +6980,6 @@
     "id": "q_verbs_8",
     "tags": [
       "#A1",
-      "#verb_er",
       "#verbs",
       "#matching",
       "#association",
@@ -7099,7 +7011,6 @@
     "id": "q_verbs_9",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -7115,7 +7026,6 @@
     "id": "q_verbs_10",
     "tags": [
       "#verbs",
-      "#verb_er",
       "#grammar",
       "#A1"
     ],
@@ -8639,7 +8549,6 @@
   {
     "id": "q_gender_add_1",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8654,7 +8563,6 @@
   {
     "id": "q_gender_add_2",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8668,7 +8576,6 @@
   {
     "id": "q_gender_add_3",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8683,7 +8590,6 @@
   {
     "id": "q_gender_add_4",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8697,7 +8603,6 @@
   {
     "id": "q_gender_add_5",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8713,7 +8618,6 @@
   {
     "id": "q_gender_add_6",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8729,7 +8633,6 @@
   {
     "id": "q_gender_add_7",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8744,7 +8647,6 @@
     "id": "q_gender_add_8",
     "tags": [
       "#A1",
-      "#gender",
       "#noun_gender",
       "#association",
       "#matching"
@@ -8774,7 +8676,6 @@
   {
     "id": "q_gender_add_9",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -8789,7 +8690,6 @@
   {
     "id": "q_gender_add_10",
     "tags": [
-      "#gender",
       "#noun_gender",
       "#A1"
     ],
@@ -9982,7 +9882,7 @@
   {
     "id": "q_career_1_1_three_verb_groups_1",
     "tags": [
-      "#three_verb_groups",
+      "#verbs",
       "#basic",
       "#A1"
     ],
@@ -10000,7 +9900,7 @@
   {
     "id": "q_career_1_1_three_verb_groups_2",
     "tags": [
-      "#three_verb_groups",
+      "#verbs",
       "#basic",
       "#A1"
     ],
@@ -10018,7 +9918,7 @@
   {
     "id": "q_career_1_1_three_verb_groups_3",
     "tags": [
-      "#three_verb_groups",
+      "#verbs",
       "#basic",
       "#A1"
     ],
@@ -10036,7 +9936,7 @@
   {
     "id": "q_career_1_1_three_verb_groups_4",
     "tags": [
-      "#three_verb_groups",
+      "#verbs",
       "#basic",
       "#A1"
     ],
@@ -10051,7 +9951,7 @@
   {
     "id": "q_career_1_1_three_verb_groups_5",
     "tags": [
-      "#three_verb_groups",
+      "#verbs",
       "#basic",
       "#A1"
     ],
@@ -10180,7 +10080,7 @@
   {
     "id": "q_career_1_1_verb_conjugation_patterns_1",
     "tags": [
-      "#verb_conjugation_patterns",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10195,7 +10095,7 @@
   {
     "id": "q_career_1_1_verb_conjugation_patterns_2",
     "tags": [
-      "#verb_conjugation_patterns",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10210,7 +10110,7 @@
   {
     "id": "q_career_1_1_verb_conjugation_patterns_3",
     "tags": [
-      "#verb_conjugation_patterns",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10225,7 +10125,7 @@
   {
     "id": "q_career_1_1_regular_verbs_1_2_1",
     "tags": [
-      "#regular_verbs_1_2",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10239,7 +10139,7 @@
   {
     "id": "q_career_1_1_regular_verbs_1_2_2",
     "tags": [
-      "#regular_verbs_1_2",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10253,7 +10153,7 @@
   {
     "id": "q_career_1_1_regular_verbs_1_2_3",
     "tags": [
-      "#regular_verbs_1_2",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10267,7 +10167,7 @@
   {
     "id": "q_career_1_1_regular_verbs_1_2_4",
     "tags": [
-      "#regular_verbs_1_2",
+      "#verbs",
       "#applied",
       "#A1"
     ],
@@ -10622,7 +10522,7 @@
   {
     "id": "q_career_1_3_adjective_agreement_1",
     "tags": [
-      "#adjective_agreement",
+      "#basic_adjectives",
       "#basic",
       "#A1"
     ],
@@ -10636,7 +10536,7 @@
   {
     "id": "q_career_1_3_adjective_agreement_2",
     "tags": [
-      "#adjective_agreement",
+      "#basic_adjectives",
       "#basic",
       "#A1"
     ],
@@ -10650,7 +10550,7 @@
   {
     "id": "q_career_1_3_adjective_position_1",
     "tags": [
-      "#adjective_position",
+      "#basic_adjectives",
       "#basic",
       "#A1"
     ],
@@ -10666,7 +10566,7 @@
   {
     "id": "q_career_1_3_adjective_position_2",
     "tags": [
-      "#adjective_position",
+      "#basic_adjectives",
       "#basic",
       "#A1"
     ],
@@ -11102,5 +11002,200 @@
       "se"
     ],
     "explanation": "三人称（Ça）に対する代名動詞の再帰代名詞は se になります。「Ça se prépare」で「それは準備される」という受動的な意味を表します。"
+  },
+  {
+    "id": "q_adv_01",
+    "tags": [
+      "#adverbs",
+      "#basic_adjectives"
+    ],
+    "type": "choice",
+    "text": "Transformez l'adjectif 'lent' (遅い) en adverbe : 'Il coupe les légumes ___.' (形容詞 lent を副詞に変えて文を完成させてください: '彼は___野菜を切る')",
+    "options": [
+      "lentement",
+      "lentment",
+      "lentementement",
+      "lente"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "lentement"
+    ],
+    "explanation": "形容詞 lent の女性形 lente に -ment をつけて副詞 lentement（ゆっくりと）を作ります。"
+  },
+  {
+    "id": "q_adv_02",
+    "tags": [
+      "#adverbs"
+    ],
+    "type": "choice",
+    "text": "Choisissez la bonne place de l'adverbe 'toujours' : (副詞 toujours の正しい位置を選んでください)",
+    "options": [
+      "Le chef vérifie toujours la cuisson.",
+      "Le chef toujours vérifie la cuisson.",
+      "Toujours le chef vérifie la cuisson.",
+      "Le chef vérifie la cuisson toujours."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Le chef vérifie toujours la cuisson."
+    ],
+    "explanation": "toujours や souvent などの短い頻度の副詞は、活用している動詞（vérifie）の直後に置きます。"
+  },
+  {
+    "id": "q_adv_03",
+    "tags": [
+      "#adverbs"
+    ],
+    "type": "choice",
+    "text": "Complétez avec l'adverbe signifiant '優しく/ゆっくりと' : 'Mélangez ___ la sauce avec le fouet.'",
+    "options": [
+      "doucement",
+      "rapide",
+      "fortement",
+      "chaudement"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "doucement"
+    ],
+    "explanation": "doucement（優しく、ゆっくりと）は料理でソースやクリームを静かに混ぜる際の必須副詞です。"
+  },
+  {
+    "id": "q_adv_04",
+    "tags": [
+      "#adverbs"
+    ],
+    "type": "choice",
+    "text": "Quel est l'adverbe for 'facile' (簡単な) ? (形容詞 facile の副詞形は何ですか？)",
+    "options": [
+      "facilement",
+      "facilementment",
+      "facilment",
+      "facilite"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "facilement"
+    ],
+    "explanation": "母音で終わる形容詞 facile は、そのまま -ment をつけて facilement（簡単に、容易に）となります。"
+  },
+  {
+    "id": "q_adv_05",
+    "tags": [
+      "#adverbs"
+    ],
+    "type": "choice",
+    "text": "Que signifie l'adverbe 'souvent' dans : 'Nous préparons souvent ce plat.' ?",
+    "options": [
+      "よく・しばしば",
+      "決して〜ない",
+      "まれに",
+      "明日"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "よく・しばしば"
+    ],
+    "explanation": "souvent は「よく、しばしば（often）」という高い頻度を表す副詞です。"
+  },
+  {
+    "id": "q_time_01",
+    "tags": [
+      "#time_expressions",
+      "#prepositions"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Laissez reposer la pâte ___ deux heures.' (生地を2時間の間休ませてください)",
+    "options": [
+      "pendant",
+      "depuis",
+      "dans",
+      "il y a"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pendant"
+    ],
+    "explanation": "行為が継続する全体の期間（〜の間）を表すには pendant を使います。"
+  },
+  {
+    "id": "q_time_02",
+    "tags": [
+      "#time_expressions",
+      "#prepositions"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Le chef travaille dans ce restaurant ___ 5 ans.' (シェフは5年前から今もこの店で働いている)",
+    "options": [
+      "depuis",
+      "pendant",
+      "dans",
+      "pour"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "depuis"
+    ],
+    "explanation": "過去に始まって現在も継続している動作・状態の起点（〜前からずっと）には depuis を使います。"
+  },
+  {
+    "id": "q_time_03",
+    "tags": [
+      "#time_expressions",
+      "#prepositions"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Le rôti de bœuf sera prêt ___ 10 minutes.' (ローストビーフはあと10分後に焼き上がります)",
+    "options": [
+      "dans",
+      "depuis",
+      "il y a",
+      "pendant"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "dans"
+    ],
+    "explanation": "今から将来の時点（〜後）を表すには dans + 期間 を使います。"
+  },
+  {
+    "id": "q_time_04",
+    "tags": [
+      "#time_expressions"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'La commande est arrivée ___ 15 minutes.' (注文は15分前に届きました)",
+    "options": [
+      "il y a",
+      "dans",
+      "depuis",
+      "pendant"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "il y a"
+    ],
+    "explanation": "今から過去の特定の時点（〜前）を表すには il y a + 期間 を使います。"
+  },
+  {
+    "id": "q_time_05",
+    "tags": [
+      "#time_expressions",
+      "#negation"
+    ],
+    "type": "choice",
+    "text": "Choisissez la phrase correcte signifiant '私はこの料理を1時間調理している(今も継続中)' :",
+    "options": [
+      "Je cuisine ce plat depuis une heure.",
+      "Je cuisine ce plat pendant une heure.",
+      "Je cuisine ce plat dans une heure.",
+      "Je cuisine ce plat il y a une heure."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je cuisine ce plat depuis une heure."
+    ],
+    "explanation": "現在形 + depuis で「（1時間前から）ずっと調理し続けている」という意味になります。"
   }
 ]

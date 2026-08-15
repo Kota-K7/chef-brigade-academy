@@ -12,10 +12,10 @@
 | **`#pronunciation`** | 第0章 | - | アルファベット、母音・子音の発音 | - |
 | **`#noun_gender`** | 第0章 | 第0-1話 | 名詞の性（男性・女性名詞）、名詞の語順 | `ref_gender_nouns` |
 | **`#articles`** | 第0章 | 第0-1話 | 不定冠詞（un, une, des）および定冠詞（le, la, les） | `ref_articles` |
-| **`#verb_etre`** | 第0章 | 第0-1話 | 存在動詞 `être` の直説法現在活用 | `ref_essential_irregular_verbs` |
-| **`#verb_avoir`** | 第0章 | 第0-1話 | 所有動詞 `avoir` の直説法現在活用 | `ref_essential_irregular_verbs` |
+| **`#etre`** | 第0章 | 第0-1話 | 存在動詞 `être` の直説法現在活用 | `ref_essential_irregular_verbs` |
+| **`#avoir`** | 第0章 | 第0-1話 | 所有動詞 `avoir` の直説法現在活用 | `ref_essential_irregular_verbs` |
 | **`#demonstrative_cest`** | 第0章 | - | 提示表現 `c'est` / `ce sont` | `ref_demonstrative_cest` |
-| **`#subject_pronouns`** | 第0章 | 第0-1話 | 主語人称代名詞（je, tu, il, elle...） | `ref_pronouns` |
+| **`#subjects`** | 第0章 | 第0-1話 | 主語人称代名詞（je, tu, il, elle...） | `ref_pronouns` |
 | **`#basic_adjectives`**| 第0章 | 第0-1話 | 基礎的な形容詞の語順と意味 | `ref_adjectives` |
 | **`#negation`** | 第0章 | 第0-1話 | 否定文 (`ne ... pas`)、否定の `de` | `ref_negation` |
 | **`#numbers`** | 第0章 | 第0-2話 | 数字 (1〜20、および大きな数字) | `ref_time_expressions` |
@@ -23,19 +23,19 @@
 | **`#units`** | 第0章 | 第0-2話 | 計量単位、部分冠詞的な `kilo(s) de...` | `ref_cuisine_vocabulary` |
 | **`#nationality`** | 第0章 | - | 国籍の形容詞表現、主頭大文字ルール | `ref_adjectives` |
 | **`#regional_culture`**| 第0章 | - | 各地方の郷土料理・歴史文化 | (歴史解説) |
-| **`#three_verb_groups`**| - | 第1-1話 | 動詞の3つのグループ（第1、第2、第3群） | `ref_verb_groups` |
+| **`#verbs`**| - | 第1-1話 | 動詞の3つのグループ（第1、第2、第3群） | `ref_verb_groups` |
 | **`#transitive_intransitive`**| - | 第1-1話 | 自動詞・他動詞の区別 | - |
 | **`#indicative_present`**| - | 第1-1話 | 直説法現在の規則活用と概念 | `ref_verb_groups` |
-| **`#verb_conjugation_patterns`**| - | 第1-1話 | 動詞活用の規則変化パターン | `ref_verb_groups` |
+| **`#verbs`**| - | 第1-1話 | 動詞活用の規則変化パターン | `ref_verb_groups` |
 | **`#irregular_verbs_major`**| - | 第1-1話 | être / avoir 以外の主要不規則動詞 | `ref_essential_irregular_verbs` |
-| **`#regular_verbs_1_2`**| 第1章 | 第1-1話 | 第一群(-er)・第二群(-ir)規則動詞の活用 | `ref_verb_groups` |
+| **`#verbs`**| 第1章 | 第1-1話 | 第一群(-er)・第二群(-ir)規則動詞の活用 | `ref_verb_groups` |
 | **`#questions`** | 第1章 | 第1-2話 | 疑問文の形成（イントネーション、est-ce que, 倒置）| `ref_questions` |
 | **`#question_words`** | 第1章 | 第1-2話 | 疑問詞（où, quand, pourquoi, comment...） | `ref_questions` |
 | **`#possessive_adjectives`**| - | 第1-2話 | 所有形容詞（mon, ma, mes, ton, ta, tes...） | `ref_adjectives` |
 | **`#demonstrative_adjectives`**| - | 第1-2話 | 指示形容詞（ce, cet, cette, ces） | `ref_adjectives` |
 | **`#prepositions`** | 第1章 | - | 場所・方向の前置詞（à, de, dans, sur, sous...）| `ref_prepositions` |
-| **`#adjective_agreement`**| - | 第1-3話 | 形容詞の性数一致規則 | `ref_adjectives` |
-| **`#adjective_position`** | - | 第1-3話 | 形容詞の配置ルール（名詞の前か後ろか） | `ref_adjectives` |
+| **`#basic_adjectives`**| - | 第1-3話 | 形容詞の性数一致規則 | `ref_adjectives` |
+| **`#basic_adjectives`** | - | 第1-3話 | 形容詞の配置ルール（名詞の前か後ろか） | `ref_adjectives` |
 | **`#interrogative_adjectives`**| -| 第1-3話 | 疑問形容詞（quel, quelle, quels, quelles） | `ref_questions` |
 | **`#partitive_articles`**| - | 第1-3話 | 部分冠詞（du, de la, de l'）の用法 | `ref_articles` |
 | **`#contracted_articles`**| - | 第2-1話 | 前置詞 à/de と定冠詞の縮約（au, aux, du, des）| `ref_articles` |
