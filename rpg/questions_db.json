@@ -1221,19 +1221,19 @@
       "#pronunciation"
     ],
     "type": "choice",
-    "text": "ç）」の役割は何でしょう？ (Quel est le rôle de la cédille ? (「cédille)",
-    "explanation": "ç は c をサ行の音に変える役割です。",
+    "text": "Choisissez l'orthographe correcte pour 'レモン絞り器' (発音: ガルソン/リマソン等と同じ「ス」の音) :",
     "options": [
-      "c の音を「カ」から「サ」に変える",
-      "c の音を無音にする",
-      "語尾を強調する",
-      "母音を伸ばす"
+      "le presse-citron",
+      "le presse-çitron",
+      "le presse-kitron",
+      "le presse-cotron"
     ],
     "answerIndex": 0,
     "acceptedAnswers": [
-      "c の音を「カ」から「サ」に変える",
-      "c の音を「カ」から「サ」に変える"
-    ]
+      "le presse-citron",
+      "le presse-citron"
+    ],
+    "explanation": "c は e, i の前ではセディーユ（ç）がなくても自動的に「ス」と発音されます。"
   },
   {
     "id": "q_pr_18",
@@ -1241,19 +1241,19 @@
       "#pronunciation"
     ],
     "type": "choice",
-    "text": "Prononciation de 'vous avez'. (「vous avez」をリエゾンして発音した時のカタカナ表記を選んでください。)",
-    "explanation": "「s」が「z」の音に変化してヴ・ザヴェとなります。",
+    "text": "Dans 'Vous avez la recette ?', comment se lie la prononciation de 'Vous' et 'avez' ?",
     "options": [
-      "ヴ・ザヴェ",
-      "ヴ・アヴェ",
-      "ヴス・アヴェ",
-      "ヴ・サヴェ"
+      "[vu-za-ve] (s が z の音でつながる)",
+      "[vu-a-ve] (つながらない)",
+      "[vus-a-ve] (s をスと発音する)",
+      "[vu-ta-ve] (t の音になる)"
     ],
     "answerIndex": 0,
     "acceptedAnswers": [
-      "ヴ・ザヴェ",
-      "ヴ・ザヴェ"
-    ]
+      "[vu-za-ve] (s が z の音でつながる)",
+      "[vu-za-ve]"
+    ],
+    "explanation": "語末の s と母音始まりの語（avez）はリエゾンして [z] の音で滑らかにつながります。"
   },
   {
     "id": "q_pr_19",
@@ -1663,19 +1663,19 @@
       "#noun_gender"
     ],
     "type": "choice",
-    "text": "Quel est le genre de 'cuisine' ? (「cuisine（厨房）」の性別を選んでください。)",
-    "explanation": "une cuisine は女性名詞です。",
+    "text": "Complétez avec le bon article : 'Le chef nettoie ___ cuisine.' (シェフは厨房を掃除する)",
     "options": [
-      "女性名詞",
-      "男性名詞",
-      "中性名詞",
-      "複数形のみ"
+      "la",
+      "le",
+      "un",
+      "les"
     ],
     "answerIndex": 0,
     "acceptedAnswers": [
-      "女性名詞",
-      "女性名詞"
-    ]
+      "la",
+      "la"
+    ],
+    "explanation": "cuisine（厨房）は女性名詞なので、定冠詞「la」を使います。"
   },
   {
     "id": "q_ng_20",
@@ -4422,19 +4422,19 @@
       "#negation"
     ],
     "type": "choice",
-    "text": "Que deviennent un/une/des ? (否定文で「un / une / des」がどう変化するか選んでください。)",
-    "explanation": "否定文で不定冠詞・部分冠詞は de / d' に変化します。",
+    "text": "Complétez la négation : 'Je n'ai pas ___ tomates aujourd'hui.' (今日、トマトはありません)",
     "options": [
-      "de / d' に変わる",
-      "du に変わる",
-      "変化しない",
-      "消失して無冠詞になる"
+      "de",
+      "des",
+      "du",
+      "les"
     ],
     "answerIndex": 0,
     "acceptedAnswers": [
-      "de / d' に変わる",
-      "de / d' に変わる"
-    ]
+      "de",
+      "de"
+    ],
+    "explanation": "否定文（ne...pas）の中では、不特定の数量を表す冠詞（des）は「de」に変わります。"
   },
   {
     "id": "q_ne_14",
@@ -8499,26 +8499,22 @@
       "#grammar"
     ],
     "type": "matching",
-    "text": "Associez la structure grammaticale et sa fonction. (文法構造と役割のペアを結びつけてください。)",
+    "text": "フランス語の文 ➔ 日本語の意味のマッチング",
     "pairs": [
       {
-        "left": "C'est + 名詞単数",
-        "right": "これは〜です (提示)"
+        "left": "C'est un four chaud.",
+        "right": "これは熱いオーブンです"
       },
       {
-        "left": "Ce sont + 名詞複数",
-        "right": "これらは〜です (複数提示)"
+        "left": "Il n'y a pas de sel.",
+        "right": "塩がありません"
       },
       {
-        "left": "ne ... pas",
-        "right": "〜ではない (打ち消し否定)"
-      },
-      {
-        "left": "Il y a + 名詞",
-        "right": "〜がある / がいる (存在)"
+        "left": "Il y a deux casseroles.",
+        "right": "片手鍋が2つあります"
       }
     ],
-    "explanation": "基本文法構造の役割対応です。"
+    "explanation": "フランス語の各センテンスに対応する正しい日本語訳のマッチングです。"
   },
   {
     "id": "q_grammar_add_9",
@@ -8652,26 +8648,26 @@
       "#matching"
     ],
     "type": "matching",
-    "text": "Associez le nom de cuisine et son genre. (名詞と名詞の性のペアを結びつけてください。)",
+    "text": "名詞 ➔ 正しい冠詞付きフランス語のマッチング",
     "pairs": [
       {
         "left": "couteau (包丁)",
-        "right": "Masculin (男性名詞)"
+        "right": "le couteau"
       },
       {
-        "left": "casserole (片手鍋)",
-        "right": "Féminin (女性名詞)"
+        "left": "casserole (鍋)",
+        "right": "la casserole"
       },
       {
         "left": "four (オーブン)",
-        "right": "Masculin (男性名詞)"
+        "right": "le four"
       },
       {
-        "left": "cuillère (スプーン)",
-        "right": "Féminin (女性名詞)"
+        "left": "assiette (皿)",
+        "right": "l'assiette"
       }
     ],
-    "explanation": "厨房道具の男性名詞・女性名詞の分類ペアです。"
+    "explanation": "各名詞の性（男性・女性）および母音始まりの縮約に対応する正しい定冠詞の組み合わせです。"
   },
   {
     "id": "q_gender_add_9",
@@ -9887,15 +9883,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "フランス語の動詞 'couper' (切る) は何群動詞ですか？\n(À quel groupe appartient le verbe 'couper' ?)",
+    "text": "Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。)",
     "options": [
-      "第1群動詞 (-er)",
-      "第2群動詞 (-ir)",
-      "第3群動詞 (不規則)",
-      "第4群動詞"
+      "coupe",
+      "coupes",
+      "coupons",
+      "coupez"
     ],
     "answerIndex": 0,
-    "explanation": "couper は規則的な変化をする第1群動詞 (-er動詞) に分類されます。"
+    "acceptedAnswers": [
+      "coupe",
+      "coupe"
+    ],
+    "explanation": "第1群規則動詞 couper は、主語 Je のとき語尾が -e に変化します。"
   },
   {
     "id": "q_career_1_1_three_verb_groups_2",
@@ -9905,15 +9905,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "フランス語の動詞 'finir' (終わる・仕上げる) は何群動詞ですか？\n(À quel groupe appartient le verbe 'finir' ?)",
+    "text": "Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。)",
     "options": [
-      "第1群動詞",
-      "第2群動詞 (-ir)",
-      "第3群動詞",
-      "助動詞"
+      "finissons",
+      "finis",
+      "finit",
+      "finissez"
     ],
-    "answerIndex": 1,
-    "explanation": "finir は現在分詞が finissant となる規則的な第2群動詞 (-ir動詞) です。"
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "finissons",
+      "finissons"
+    ],
+    "explanation": "第2群規則動詞 finir は、主語 Nous のとき語尾が -issons に変化します。"
   },
   {
     "id": "q_career_1_1_three_verb_groups_3",
@@ -9923,15 +9927,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "不規則な変化をする 'faire' (する・作る) や 'aller' (行く) は何群動詞に分類されますか？\n(Dans quel groupe classe-t-on 'faire' et 'aller' ?)",
+    "text": "Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？)",
     "options": [
-      "第1群動詞",
-      "第2群動詞",
-      "第3群動詞 (不規則動詞)",
-      "規則動詞"
+      "faites",
+      "faisez",
+      "font",
+      "faisons"
     ],
-    "answerIndex": 2,
-    "explanation": "不規則動詞はすべて第3群動詞に分類されます。aller も例外的に第3群です。"
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faites",
+      "faites"
+    ],
+    "explanation": "不規則動詞 faire の vous に対する現在形は「faites」です。"
   },
   {
     "id": "q_career_1_1_three_verb_groups_4",
@@ -9971,15 +9979,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "直接目的語（「〜を」にあたる言葉）を直接取る動詞を何と呼びますか？\n(Comment appelle-t-on un verbe qui a besoin d'un complément d'objet direct ?)",
+    "text": "Le chef prépare ___ plat du jour. (シェフは今日の料理を準備する。)",
     "options": [
-      "他動詞 (Verbe transitif)",
-      "自動詞 (Verbe intransitif)",
-      "助動詞",
-      "代名動詞"
+      "le",
+      "à",
+      "au",
+      "de"
     ],
     "answerIndex": 0,
-    "explanation": "直接目的語（〜を）を伴う動詞は「他動詞」と呼ばれます。"
+    "acceptedAnswers": [
+      "le",
+      "le"
+    ],
+    "explanation": "動詞 préparer は直接目的語を取るため、前置詞を挟まず直接定冠詞「le」を置きます。"
   },
   {
     "id": "q_career_1_1_transitive_intransitive_2",
@@ -9989,15 +10001,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "目的語を取らず、主語自身の動作や移動などを表す動詞を何と呼びますか？\n(Comment appelle-t-on un verbe sans complément d'objet ?)",
+    "text": "Je vais ___ marché pour acheter des herbes. (私はハーブを買いに市場へ行きます。)",
     "options": [
-      "他動詞",
-      "自動詞 (Verbe intransitif)",
-      "非人称動詞",
-      "受動動詞"
+      "au",
+      "le",
+      "la",
+      "les"
     ],
-    "answerIndex": 1,
-    "explanation": "目的語を必要としない動詞は「自動詞」と呼ばれます。"
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "au",
+      "au"
+    ],
+    "explanation": "移動の動詞 aller は目的地（à + le = au）を伴って「市場へ行く」となります。"
   },
   {
     "id": "q_career_1_1_transitive_intransitive_3",
@@ -10007,13 +10023,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "動詞 'couper' (切る) は自動詞・他動詞のどちらですか？\n(Le verbe 'couper' est-il transitif ou intransitif ?)",
+    "text": "Tu coupes ___ oignons pour la soupe ? (スープ用に玉ねぎを切ってくれる？)",
     "options": [
-      "他動詞 (Transitif)",
-      "自動詞 (Intransitif)"
+      "les",
+      "aux",
+      "à",
+      "du"
     ],
     "answerIndex": 0,
-    "explanation": "「〜を切る」という目的語をとるため、couper は他動詞です。"
+    "acceptedAnswers": [
+      "les",
+      "les"
+    ],
+    "explanation": "「玉ねぎを切る」は couper les oignons と直接名詞を目的語に取ります。"
   },
   {
     "id": "q_career_1_1_transitive_intransitive_4",
@@ -10023,13 +10045,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "動詞 'aller' (行く) は自動詞・他動詞のどちらですか？\n(Le verbe 'aller' est-il transitif ou intransitif ?)",
+    "text": "Nous allons ___ cuisine pour commencer le service. (私たちはサービスを始めるために厨房へ行きます。)",
     "options": [
-      "他動詞 (Transitif)",
-      "自動詞 (Intransitif)"
+      "en",
+      "la",
+      "une",
+      "au"
     ],
-    "answerIndex": 1,
-    "explanation": "「行く」は目的語をとらないため、自動詞です。"
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en",
+      "en"
+    ],
+    "explanation": "「厨房へ行く」は aller en cuisine と表現します。"
   },
   {
     "id": "q_career_1_1_indicative_present_1",
@@ -10039,15 +10067,19 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "フランス語の「直説法現在」が表すことができる時制・ニュアンスとして、正しくないものはどれか。\n(Qu'est-ce qui n'est pas exprimé par le présent de l'indicatif ?)",
+    "text": "Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。)",
     "options": [
-      "現在の状態や事実",
-      "現在の習慣的動作",
-      "過去の完了した事実",
-      "近い未来の予定"
+      "préparons",
+      "préparer",
+      "avons préparé",
+      "préparerons"
     ],
-    "answerIndex": 2,
-    "explanation": "直説法現在は、現在の状態、事実、習慣、近い未来の予定を表すことができますが、過去の完了した事実は表せません。"
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "préparons",
+      "préparons"
+    ],
+    "explanation": "毎朝の習慣的な動作を表すには、直説法現在（Nous préparons）を使います。"
   },
   {
     "id": "q_career_1_1_indicative_present_2",

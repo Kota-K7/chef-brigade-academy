@@ -16,6 +16,25 @@ const CHARACTER_SCALES = {
   "ピエール": 1.45
 };
 
+const EPISODE_TAGS_MAP = {
+  "career_ep_0_1": ["#greetings", "#subjects", "#etre", "#articles", "#negation", "#numbers", "#plurals", "#avoir", "#pronunciation", "#noun_gender"],
+  "career_ep_0_2": ["#units", "#numbers", "#plurals", "#negation", "#etre", "#avoir"],
+  "career_ep_1_1": ["#verbs", "#transitive_intransitive", "#indicative_present", "#irregular_verbs_major"],
+  "career_ep_1_2": ["#questions", "#question_words", "#possessive_adjectives", "#demonstrative_adjectives", "#prepositions"],
+  "career_ep_1_3": ["#basic_adjectives", "#interrogative_adjectives", "#partitive_articles", "#adverbs", "#noun_gender"],
+  "career_ep_2_1": ["#contracted_articles", "#demonstrative_cest", "#prepositions", "#noun_gender"],
+  "career_ep_2_2": ["#imperative", "#object_pronouns_basic", "#irregular_verbs_1"],
+  "career_ep_2_3": ["#near_future", "#near_past", "#passive_pronominal_verbs", "#time_expressions"],
+  "career_ep_3_1": ["#comparative", "#superlative", "#object_pronouns_direct_indirect", "#imperative_with_pronouns"],
+  "career_ep_3_2": ["#past_compose", "#auxiliary_selection", "#past_participle_agreement"],
+  "career_ep_3_3": ["#imparfait", "#imparfait_vs_past_compose", "#relative_pronouns_basic", "#conjunctions_basic", "#gerund_participle"],
+  "career_ep_4_1": ["#futur_simple", "#conditional_present", "#polite_expressions", "#pronouns_y_en"],
+  "career_ep_4_2": ["#si_clauses_present", "#passive_voice", "#past_participle_agreement"],
+  "career_ep_4_3": ["#subjunctive_basic", "#obligation_il_faut_que", "#causative_faire"],
+  "career_ep_4_4": ["#past_compose", "#imparfait", "#futur_simple", "#conditional_present", "#subjunctive_basic", "#passive_voice", "#causative_faire", "#pronouns_y_en"]
+};
+
+
 // Web Audio API lightweight synthesizer for zero-dependency retro SFX
 let audioCtx = null;
 function initAudio() {
@@ -902,20 +921,132 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         state.recentQuestionIds = JSON.parse(localStorage.getItem('cba_recent_questions') || '[]');
       }
       
-      if (criteria && criteria.length > 0) {
+      const episodesOrder = [
+        "career_ep_0_1", "career_ep_0_2",
+        "career_ep_1_1", "career_ep_1_2", "career_ep_1_3",
+        "career_ep_2_1", "career_ep_2_2", "career_ep_2_3",
+        "career_ep_3_1", "career_ep_3_2", "career_ep_3_3",
+        "career_ep_4_1", "career_ep_4_2", "career_ep_4_3", "career_ep_4_4"
+      ];
+      
+      const isCareer = episode.episodeId && episode.episodeId.startsWith("career_");
+      
+      if (isCareer && criteria && criteria.length > 0) {
+        const targetSum = criteria.reduce((sum, c) => sum + (c.count || 1), 0);
+        
+        let newCount = targetSum;
+        let reviewCount = 0;
+        let cumulativeCount = 0;
+        
+        const idx = episodesOrder.indexOf(episode.episodeId);
+        if (idx === 1) {
+          newCount = Math.round(targetSum * 0.8);
+          reviewCount = targetSum - newCount;
+        } else if (idx >= 2) {
+          newCount = Math.round(targetSum * 0.7);
+          reviewCount = Math.round(targetSum * 0.2);
+          cumulativeCount = targetSum - newCount - reviewCount;
+        }
+        
+        // Ensure we always have at least 1 new question if targetSum > 0
+        if (targetSum > 0 && newCount === 0) {
+          newCount = 1;
+          if (cumulativeCount > 0) {
+            cumulativeCount--;
+          } else if (reviewCount > 0) {
+            reviewCount--;
+          }
+        }
+        
+        // --- 1. Select New Questions ---
+        let newQuestions = [];
+        criteria.forEach(crit => {
+          const tag = crit.tag;
+          const critCount = crit.count || 1;
+          const share = Math.round(newCount * (critCount / targetSum)) || 1;
+          
+          let pool = db.filter(q => q.tags && q.tags.includes(tag));
+          let freshPool = pool.filter(q => !state.recentQuestionIds.includes(q.id));
+          if (freshPool.length === 0) freshPool = pool;
+          freshPool = shuffleArray(freshPool);
+          
+          const taken = freshPool.slice(0, share);
+          taken.forEach(q => {
+            newQuestions.push({...q, isNew: true});
+          });
+        });
+        
+        newQuestions = shuffleArray(newQuestions).slice(0, newCount);
+        selected = selected.concat(newQuestions);
+        
+        const selectedIds = new Set(selected.map(q => q.id));
+        
+        // --- 2. Select Review Questions ---
+        if (reviewCount > 0 && idx > 0) {
+          const prevEpisodeId = episodesOrder[idx - 1];
+          const reviewTags = EPISODE_TAGS_MAP[prevEpisodeId] || [];
+          let reviewPool = db.filter(q => q.tags && q.tags.some(t => reviewTags.includes(t)) && !selectedIds.has(q.id));
+          let freshReview = reviewPool.filter(q => !state.recentQuestionIds.includes(q.id));
+          if (freshReview.length === 0) freshReview = reviewPool;
+          
+          const taken = shuffleArray(freshReview).slice(0, reviewCount);
+          taken.forEach(q => {
+            selected.push({...q, isReview: true});
+            selectedIds.add(q.id);
+          });
+        }
+        
+        // --- 3. Select Cumulative Questions ---
+        if (cumulativeCount > 0 && idx >= 2) {
+          let cumulativeTags = [];
+          for (let i = 0; i < idx - 1; i++) {
+            cumulativeTags = cumulativeTags.concat(EPISODE_TAGS_MAP[episodesOrder[i]] || []);
+          }
+          cumulativeTags = [...new Set(cumulativeTags)];
+          
+          let cumPool = db.filter(q => q.tags && q.tags.some(t => cumulativeTags.includes(t)) && !selectedIds.has(q.id));
+          let freshCum = cumPool.filter(q => !state.recentQuestionIds.includes(q.id));
+          if (freshCum.length === 0) freshCum = cumPool;
+          
+          const taken = shuffleArray(freshCum).slice(0, cumulativeCount);
+          taken.forEach(q => {
+            selected.push({...q, isCumulative: true});
+            selectedIds.add(q.id);
+          });
+        }
+        
+        // --- 4. Top up if still short ---
+        if (selected.length < targetSum) {
+          const missingCount = targetSum - selected.length;
+          const remainingPool = shuffleArray(db.filter(q => !selectedIds.has(q.id)));
+          const taken = remainingPool.slice(0, missingCount);
+          taken.forEach(q => {
+            selected.push({...q, isNew: true});
+          });
+        }
+        
+        selected.forEach(q => {
+          state.recentQuestionIds.push(q.id);
+          if (state.recentQuestionIds.length > 30) {
+            state.recentQuestionIds.shift();
+          }
+        });
+        localStorage.setItem('cba_recent_questions', JSON.stringify(state.recentQuestionIds));
+        
+      } else if (criteria && criteria.length > 0) {
         criteria.forEach(crit => {
           const tag = crit.tag;
           const count = crit.count || 1;
           
           let pool = db.filter(q => q.tags && q.tags.includes(tag));
           let freshPool = pool.filter(q => !state.recentQuestionIds.includes(q.id));
-          if (freshPool.length === 0) {
-            freshPool = pool;
-          }
+          if (freshPool.length === 0) freshPool = pool;
           
           freshPool = shuffleArray(freshPool);
           const taken = freshPool.slice(0, count);
-          selected = selected.concat(taken);
+          taken.forEach(q => {
+            selected.push({...q, isNew: true});
+          });
           
           taken.forEach(q => {
             state.recentQuestionIds.push(q.id);
@@ -925,21 +1056,23 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           });
         });
         
-        // Top up if we have fewer questions than requested
         const targetSum = criteria.reduce((sum, c) => sum + (c.count || 1), 0);
         if (selected.length < targetSum) {
           const missingCount = targetSum - selected.length;
           const remainingPool = shuffleArray(db.filter(q => !selected.some(sq => sq.id === q.id)));
-          selected = selected.concat(remainingPool.slice(0, missingCount));
+          const taken = remainingPool.slice(0, missingCount);
+          taken.forEach(q => {
+            selected.push({...q, isNew: true});
+          });
         }
-        
         localStorage.setItem('cba_recent_questions', JSON.stringify(state.recentQuestionIds));
       } else if (fallbackQuestions && fallbackQuestions.length > 0) {
-        selected = shuffleArray(fallbackQuestions);
+        selected = shuffleArray(fallbackQuestions).map(q => ({...q, isNew: true}));
       }
       
       return selected;
     }
+
 
     let rawQuestions = [];
     if (step.type === 'randomBattle') {
@@ -984,14 +1117,60 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       rawQuestions = selectQuestions(step.criteria, step.questions);
     }
 
-    // Dynamic format mixing / type normalization: 85% typing, 15% choice
+    // Dynamic format mixing / type normalization based on specifications
     let questions = rawQuestions.map(q => {
       let targetType = q.type || 'choice';
-      if (targetType === 'choice' || targetType === 'typing') {
-        targetType = Math.random() > 0.15 ? 'typing' : 'choice';
+      const isSpecialType = ['matching', 'scramble', 'cloze', 'association', 'map'].includes(targetType);
+      
+      const isNew = q.isNew || false;
+      const rand = Math.random();
+      
+      let finalType = targetType;
+      
+      if (!isSpecialType) {
+        if (isNew) {
+          // New grammar: Typing 40%, Choice 30%, Special 30%
+          if (rand < 0.4) {
+            finalType = 'typing';
+          } else if (rand < 0.7) {
+            finalType = 'choice';
+          } else {
+            finalType = 'special';
+          }
+        } else {
+          // Review / Cumulative: Typing 85%, Choice 5%, Special 10%
+          if (rand < 0.85) {
+            finalType = 'typing';
+          } else if (rand < 0.90) {
+            finalType = 'choice';
+          } else {
+            finalType = 'special';
+          }
+        }
+        
+        if (finalType === 'special') {
+          const db = state.questionsDb || [];
+          const specialMatch = db.find(item => 
+            item.tags && q.tags && item.tags.some(t => q.tags.includes(t)) && 
+            ['matching', 'scramble', 'cloze', 'association', 'map'].includes(item.type)
+          );
+          
+          if (specialMatch) {
+            q = {
+              ...specialMatch,
+              isNew: q.isNew,
+              isReview: q.isReview,
+              isCumulative: q.isCumulative
+            };
+            finalType = specialMatch.type;
+          } else {
+            // Fallback: 50% typing, 50% choice
+            finalType = Math.random() > 0.5 ? 'typing' : 'choice';
+          }
+        }
       }
       
-      if (targetType === 'typing') {
+      if (finalType === 'typing') {
         if (!q.acceptedAnswers && q.options && q.answerIndex !== undefined) {
           const rawAns = q.options[q.answerIndex];
           const cleanAns = rawAns.split('(')[0].split('（')[0].trim();
@@ -1004,9 +1183,10 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       }
       return {
         ...q,
-        type: targetType
+        type: finalType
       };
     });
+
 
     let enemyHp = step.enemyHp || questions.length;
     const maxEnemyHp = enemyHp;

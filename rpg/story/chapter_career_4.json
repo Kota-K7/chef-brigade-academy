@@ -1,0 +1,1276 @@
+{
+  "chapterId": "career_4",
+  "chapterTitle": "第4章: ジャン＝ピエール「新たなる挑戦と未来への皿」",
+  "notes": "単純未来・条件法、仮定法・受動態、使役表現・接続法などの高度な文法表現を学び、A1〜A2全体の総括試験に挑戦します。",
+  "episodes": [
+    {
+      "episodeId": "career_ep_4_1",
+      "episodeTitle": "第4-1話：未来のソースと丁寧な願い",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "単純未来（Futur simple）",
+            "条件法現在（Conditionnel présent）の丁寧な要望",
+            "中性代名詞（y / en）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "最近、厨房の動きとフランス語に少しずつ慣れてきました。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "やるじゃない！そういえば新人くん、休憩時間にこっそりソースの練習してるんだって？偉いわね！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あ、はい。地元の食材を使ったソースを試してみたくて……",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "感心だね。それなら今日は、これからの計画を話す『単純未来』、そしていつかシェフに味見をお願いする時のための『条件法現在（丁寧な要望）』、あと便利な『中性代名詞』を一気に学ぼうか。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "単純未来 (Futur simple)",
+              "referenceTopicId": "ref_time_expressions",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "条件法現在 (Conditionnel présent) と丁寧な表現",
+              "referenceTopicId": "ref_conditional",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#futur_simple",
+              "count": 5
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 5
+            },
+            {
+              "tag": "#polite_expressions",
+              "count": 5
+            },
+            {
+              "tag": "#past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#imparfait",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "色々なハーブを試してるんです。Je ferai une nouvelle sauce demain ! (明日、僕は新しいソースを作るつもりです！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Je ferai (僕は作るつもりだ)",
+            "text": "faire の単純未来形です。自分の確実な予定や強い意志を表します。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "いいね。もし自信作ができたら、シェフに Je voudrais vous faire goûter ça. (あなたにこれを味見していただきたいのですが。) と条件法を使ってお願いしてみるといい。",
+          "position": "center",
+          "learningPoint": {
+            "title": "Je voudrais (私は〜したいのですが)",
+            "text": "vouloir（〜したい）の条件法現在です。「Je veux（したい）」よりも控えめで丁寧な、プロの料理人としての謙虚な要望表現になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "中性代名詞 y と en",
+              "referenceTopicId": "ref_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "エロディ (先輩)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#pronouns_y_en",
+              "count": 5
+            },
+            {
+              "tag": "#futur_simple",
+              "count": 4
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 4
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "練習用のトマトピューレ、まだ残ってる？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Oui, il y en a beaucoup. (はい、それはたくさんあります。) 冷蔵庫にありますよ。",
+          "position": "center",
+          "learningPoint": {
+            "title": "il y en a (それは[そこに]ある)",
+            "text": "en は「トマトピューレ」という数えられない名詞を受けて「それ」を指す中性代名詞です。数量を表す副詞（beaucoup）とよく一緒に使われます。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "じゃあ取ってきて！Vas-y ! (そこへ行って！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい、すぐに行きます！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "未来表現と中性代名詞の総まとめ",
+              "type": "custom",
+              "text": "単純未来、条件法、中性代名詞 y/en の語順や使い分けの総括です。"
+            },
+            {
+              "title": "【復習】近接未来と目的語代名詞",
+              "type": "custom",
+              "text": "近接未来（aller + 不定詞）における人称代名詞の位置を復習します。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#futur_simple",
+              "count": 4
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 4
+            },
+            {
+              "tag": "#pronouns_y_en",
+              "count": 4
+            },
+            {
+              "tag": "#near_future",
+              "count": 4
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "丁寧な提案とスマートな代名詞、すごく実践的です！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "うん。これならいつかシェフにも堂々と話しかけられるね。明日は、さらに高度な『仮定法』と『受動態』を学ぶよ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 150,
+          "unlockedEpisodeId": "career_ep_4_2"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_4_2",
+      "episodeTitle": "第4-2話：もしもの話とつまみ食い",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "仮定法・条件節（Si + 現在, 単純未来）",
+            "受動態（La voix passive）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（パクッ）……ちょっと、これ美味しいじゃない！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ああっ！エロディさん、それ僕の練習用のソースですよ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ごめんごめん、つい！でもこれ、本当にいけるわよ。ねえ佐伯さん！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "どれどれ……（味見して）本当だ。佐伯：「……よくできているね。Si le chef la goûte, il sera surpris. (もしシェフがこれを味見したら、驚くだろうね。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Si le chef la goûte, il sera surpris. (もし〜なら、…するだろう)",
+            "text": "Si ＋ 直接法現在（goûte）、主節が単純未来（sera）の構文です。la はソース（la sauce）を指します。「実現する可能性のある未来の仮定」を表します。→ガエル：「ちょうどいい。ならば、『もし〜なら』という仮定（Si）と、行動の受け手を主語にする『受動態』を学ぶとしよう。」"
+          },
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "条件節 (Si + 現在形, 単純未来)",
+              "referenceTopicId": "ref_conditional",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#si_clauses_present",
+              "count": 5
+            },
+            {
+              "tag": "#futur_simple",
+              "count": 5
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 3
+            },
+            {
+              "tag": "#pronouns_y_en",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（パクッ、パクッ）これほんとっ美味しいわ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（ぼ、僕のソースの半分以上が、エロディさんに食べられた……！）Plus de la moitié de ma sauce a été mangée par Élodie...",
+          "position": "center",
+          "learningPoint": {
+            "title": "a été mangée par... (〜によって食べられた)",
+            "text": "複合過去の受動態です。「êtreの複合過去（a été）＋ 過去分詞（mangée）＋ par（〜によって）」で作られます。行動の受け手である「ma sauce（私のソース：女性名詞）」が主語になっているため、過去分詞 mangé に e が付いて性数一致しています。「Plus de la moitié de ~」は「〜の半分以上」という表現です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ねえガエルもそう思うよね？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……あぁ。シェフも驚くかもしれないな",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "シェフが驚く！？いやいや、そんな大げさな……！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……いや。悪くない香りだ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "受動態の基本構造 (La voix passive)",
+              "referenceTopicId": "ref_passive",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "複合過去の受動態と性数一致",
+              "referenceTopicId": "ref_passive",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#passive_voice",
+              "count": 5
+            },
+            {
+              "tag": "#past_participle_agreement",
+              "count": 5
+            },
+            {
+              "tag": "#si_clauses_present",
+              "count": 3
+            },
+            {
+              "tag": "#past_compose",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "おっ、厨房がざわついとるな。なんやこれ。Cette sauce a été faite par toi ? (このソースは君によって作られたんか？)",
+          "position": "center",
+          "learningPoint": {
+            "title": "a été faite par toi ? (君によって作られたのか？)",
+            "text": "複合過去の受動態です。「êtreの複合過去（a été）＋ 過去分詞（faite）＋ par toi（君によって）」で、主人公個人の成果であることを強調しています。（sauceが女性名詞なのでfaiteと一致）"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "は、はい！練習で作ってみたんです！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "（味見して）ほう……おもろいやんけ。これ、ジャン（ピエール）にも食わせてみよーや？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ええっ！？シェフにですか！？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "条件節と受動態の総まとめ",
+              "type": "custom",
+              "text": "Si を用いた未来の仮定表現、および受動態（被動態）の構造の総括です。"
+            },
+            {
+              "title": "【復習】複合過去と半過去の使い分け",
+              "type": "custom",
+              "text": "過去時制（複合過去・半過去）の基本的な使い分けを復習します。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#si_clauses_present",
+              "count": 4
+            },
+            {
+              "tag": "#passive_voice",
+              "count": 4
+            },
+            {
+              "tag": "#futur_simple",
+              "count": 4
+            },
+            {
+              "tag": "#imparfait_vs_past_compose",
+              "count": 4
+            },
+            {
+              "tag": "#comparative",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "『もし』の表現を使うと、なんだかワクワクしますね！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "せやろせやろ～！！坊ちゃん明日は『接続法』と『使役動詞』の練習や！フランス語力鍛えて、ピエールのことハチャメチャに罵ったれ！！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ハハ…ハハハハ (そんなことできるか！！！！)",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 150,
+          "unlockedEpisodeId": "career_ep_4_3"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_4_3",
+      "episodeTitle": "第4-3話：絶対の基準と使役動詞",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "接続法現在（Subjonctif）と義務表現（Il faut que...）",
+            "使役動詞（faire + 不定詞）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……何の騒ぎだ。休憩中に厨房をうろついて。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "あ、シェフ！実は新人くんが作ったソースがすごく美味しくて！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "す、すみません、ただの練習で……！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……そこにある小鍋か。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "シェフが味見をするようだね。今日は、事実ではなく『主観、感情、義務、必要性』を語る『接続法』と、誰かに何かを『させる』使役動詞を叩き込もう。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "接続法現在 (Subjonctif)",
+              "referenceTopicId": "ref_subjunctive",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "必要・義務の表現 (Il faut que + 接続法)",
+              "referenceTopicId": "ref_subjunctive",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ピエール (シェフ)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#subjunctive_basic",
+              "count": 5
+            },
+            {
+              "tag": "#obligation_il_faut_que",
+              "count": 5
+            },
+            {
+              "tag": "#passive_voice",
+              "count": 3
+            },
+            {
+              "tag": "#si_clauses_present",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "使役動詞 (faire + 不定詞)",
+              "referenceTopicId": "ref_causative",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "感情を表す接続法",
+              "referenceTopicId": "ref_subjunctive",
+              "sectionIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#causative_faire",
+              "count": 5
+            },
+            {
+              "tag": "#subjunctive_basic",
+              "count": 5
+            },
+            {
+              "tag": "#obligation_il_faut_que",
+              "count": 3
+            },
+            {
+              "tag": "#imparfait",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "シェフ、ソースを修正しました。お願いします！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……（味見をする）……ふむ。Cette sauce me fait penser au Japon. (このソースは俺に日本を思わせるな。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Cette sauce me fait penser au Japon. (このソースは私に日本を思わせる)",
+            "text": "faire ＋ penser à(〜を考える・思う) の使役動詞の構文です。「à + le Japon」が縮約されて「au Japon」になっています。「ソース（主語）が俺に日本を考えさせる」という使役形です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっ……！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "悪くない。佐伯！秋の新メニューのヒントとして、検討だ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "！！……ありがとうございます！！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "新人君やっる～！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "すごいじゃないか！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "流石だ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "接続法と使役表現の総まとめ",
+              "type": "custom",
+              "text": "主観や感情を表す接続法、および「〜させる」使役動詞 faire の用法の総括です。"
+            },
+            {
+              "title": "【復習】関係代名詞とジェロンディフ",
+              "type": "custom",
+              "text": "関係代名詞 qui / que、および同時進行を表すジェロンディフを復習します。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#subjunctive_basic",
+              "count": 4
+            },
+            {
+              "tag": "#causative_faire",
+              "count": 4
+            },
+            {
+              "tag": "#obligation_il_faut_que",
+              "count": 3
+            },
+            {
+              "tag": "#relative_pronouns_basic",
+              "count": 3
+            },
+            {
+              "tag": "#gerund_participle",
+              "count": 3
+            },
+            {
+              "tag": "#pronouns_y_en",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "やった！シェフにアイデアを検討してもらえるなんて！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "おめでとう。君の夏の努力が少し報われたね。明日は君のバイト最終日だね。気を抜かないで行こう",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 150,
+          "unlockedEpisodeId": "career_ep_4_4"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_4_4",
+      "episodeTitle": "第4-4話：夏の終わりと、また会う日まで",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "【総復習】全学習項目の総決算（過去時制",
+            "代名詞",
+            "未来・条件・接続法など）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "今日で夏休みのバイトも最後か……。あっという間でした。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "新人くんが明日からいないなんて、厨房が静かになっちゃうわね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "今日は最終日だ。君の集大成を見せてほしいな。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……期待しているぞ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！全身全霊で頑張ります！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "過去時制の総復習",
+              "type": "custom",
+              "text": "複合過去と半過去の使い分け、およびジェロンディフをおさらいします。"
+            },
+            {
+              "title": "目的語代名詞の総復習",
+              "type": "custom",
+              "text": "人称代名詞（直接・間接・中性）の語順と命令形との結合をおさらいします。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 4
+            },
+            {
+              "tag": "#imparfait",
+              "count": 4
+            },
+            {
+              "tag": "#imparfait_vs_past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 2
+            },
+            {
+              "tag": "#imperative_with_pronouns",
+              "count": 1
+            },
+            {
+              "tag": "#gerund_participle",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "J'ai beaucoup appris ici. (僕はここで多くを学びました。) 皆さんのおかげです。",
+          "position": "center",
+          "learningPoint": {
+            "title": "J'ai beaucoup appris (多くを学んだ)",
+            "text": "apprendre（学ぶ）の複合過去形です。この夏に完了した経験を振り返り、感謝を伝える大切な一言です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "君は本当によくやったよ。もうほんとに立派な料理人だね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "未来と条件節の総復習",
+              "type": "custom",
+              "text": "単純未来、条件法現在、仮定法（Si）をおさらいします。"
+            },
+            {
+              "title": "高度な文法構造の総復習",
+              "type": "custom",
+              "text": "受動態、使役動詞、接続法（Il faut que...）をおさらいします。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "エロディ (先輩)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#futur_simple",
+              "count": 4
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 4
+            },
+            {
+              "tag": "#si_clauses_present",
+              "count": 3
+            },
+            {
+              "tag": "#passive_voice",
+              "count": 3
+            },
+            {
+              "tag": "#causative_faire",
+              "count": 3
+            },
+            {
+              "tag": "#subjunctive_basic",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……（もぐもぐ）。Tu as le potentiel d'un vrai cuisinier. (お前には本物の料理人の素質がある。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Tu as le potentiel (お前には素質がある)",
+            "text": "直説法現在形。厳しいピエールが、主人公の「これから」に確かな期待を込めて贈った、料理人としての最高の賛辞です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "おっ、ジャンがそこまで言うんは珍しいで！お疲れさん！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "シェフ……！満さん…！！ありがとうございます！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "A1〜A2 文法総復習・最終チェック",
+              "type": "custom",
+              "text": "フランス語会話や厨房での指示において、時制や法（現在・過去・未来・条件法・接続法）を状況に応じて適切に使い分けるポイントを整理します。"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 25,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#imparfait",
+              "count": 3
+            },
+            {
+              "tag": "#futur_simple",
+              "count": 3
+            },
+            {
+              "tag": "#conditional_present",
+              "count": 3
+            },
+            {
+              "tag": "#subjunctive_basic",
+              "count": 3
+            },
+            {
+              "tag": "#passive_voice",
+              "count": 3
+            },
+            {
+              "tag": "#causative_faire",
+              "count": 3
+            },
+            {
+              "tag": "#pronouns_y_en",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "大学に戻っても、私たちのこと忘れないでね！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……またいつでも来い。待っているぞ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "君が戻ってくる日を、みんなで楽しみにしているよ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！大学でしっかり勉強して、また必ず戻ってきます！Je reviendrai ! (僕はまた戻ってきます！)",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ええねー嬉しいわ坊ちゃん。これで晴れて料理人の仲間入りやな！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……。フランス語も料理も期待しているぞ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Oui Chef !!",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "【修行ストーリー 第1部 完】",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 150,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
+}

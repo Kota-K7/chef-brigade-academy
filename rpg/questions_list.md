@@ -79,7 +79,7 @@
 | `q_career_0_2_9` | typing | Ils ___ dans la cuisine.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは厨房にいます) | **sont** | 主語が Ils のとき、être の現在形は sont です。 |
 | `q_career_0_2_9_b` | typing | Nous ___ deux couteaux.）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme de avoir pour 'Nous'. (「私たちは2本のナイフを持っています) | **avons** | 主語が Nous のとき、avoir の現在形は avons になります。 |
 | `q_career_0_2_9_c` | typing | Vous ___）」の空欄に入る、動詞 avoir の二人称複数現在形を入力してください。 (Entrez la forme de avoir pour 'Vous'. (「あなたは〜を持っている) | **avez** | 主語が Vous のとき、avoir の現在形は avez になります。 |
-| `q_career_1_1_indicative_present_1` | choice | フランス語の「直説法現在」が表すことができる時制・ニュアンスとして、正しくないものはどれか。<br>(Qu'est-ce qui n'est pas exprimé par le présent de l'indicatif ?) | **過去の完了した事実** | 直説法現在は、現在の状態、事実、習慣、近い未来の予定を表すことができますが、過去の完了した事実は表せません。 |
+| `q_career_1_1_indicative_present_1` | choice | Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。) | **préparons** | 毎朝の習慣的な動作を表すには、直説法現在（Nous préparons）を使います。 |
 | `q_career_1_1_indicative_present_2` | typing | 「私は玉ねぎを切ります」は「Je ___ les oignons.」です。動詞 couper の Je に対する現在形活用を入力してください。<br>(Complétez : Je ___ les oignons. (couper)) | **coupe** | Je に対する第一群動詞の現在形語尾は -e (coupe) になります。 |
 | `q_career_1_1_indicative_present_3` | typing | 「私たちは生地を仕上げます」は「Nous ___ la pâte.」です。動詞 finir の Nous に対する現在形活用を入力してください。<br>(Complétez : Nous ___ la pâte. (finir)) | **finissons** | Nous に対する第二群動詞の現在形語尾は -issons (finissons) になります。 |
 | `q_career_1_1_irregular_verbs_major_1` | typing | 「私はレストランに行く」は「Je ___ au restaurant.」です。動詞 aller の現在形活用を入力してください。<br>(Complétez : Je ___ au restaurant. (aller)) | **vais** | Je に対する aller の現在形は vais です。 |
@@ -91,15 +91,15 @@
 | `q_career_1_1_regular_verbs_1_2_2` | typing | 「私たちは野菜を切る」は「Nous ___ les légumes.」です。空欄に couper の現在形活用を入力してください。<br>(Complétez : Nous ___ les légumes. (couper)) | **coupons** | nous に対する couper の現在形は coupons です。 |
 | `q_career_1_1_regular_verbs_1_2_3` | typing | 「あなた方はソースを仕上げる」は「Vous ___ la sauce.」です。空欄に finir の現在形活用を入力してください。<br>(Complétez : Vous ___ la sauce. (finir)) | **finissez** | vous に対する finir の現在形は finissez です。 |
 | `q_career_1_1_regular_verbs_1_2_4` | typing | 「彼らはトマトを切る」は「Ils ___ les tomates.」です。空欄に couper の現在形活用を入力してください。<br>(Complétez : Ils ___ les tomates. (couper)) | **coupent** | ils に対する couper の現在形は coupent です。 |
-| `q_career_1_1_three_verb_groups_1` | choice | フランス語の動詞 'couper' (切る) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'couper' ?) | **第1群動詞 (-er)** | couper は規則的な変化をする第1群動詞 (-er動詞) に分類されます。 |
-| `q_career_1_1_three_verb_groups_2` | choice | フランス語の動詞 'finir' (終わる・仕上げる) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'finir' ?) | **第2群動詞 (-ir)** | finir は現在分詞が finissant となる規則的な第2群動詞 (-ir動詞) です。 |
-| `q_career_1_1_three_verb_groups_3` | choice | 不規則な変化をする 'faire' (する・作る) や 'aller' (行く) は何群動詞に分類されますか？<br>(Dans quel groupe classe-t-on 'faire' et 'aller' ?) | **第3群動詞 (不規則動詞)** | 不規則動詞はすべて第3群動詞に分類されます。aller も例外的に第3群です。 |
+| `q_career_1_1_three_verb_groups_1` | choice | Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。) | **coupe** | 第1群規則動詞 couper は、主語 Je のとき語尾が -e に変化します。 |
+| `q_career_1_1_three_verb_groups_2` | choice | Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。) | **finissons** | 第2群規則動詞 finir は、主語 Nous のとき語尾が -issons に変化します。 |
+| `q_career_1_1_three_verb_groups_3` | choice | Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？) | **faites** | 不規則動詞 faire の vous に対する現在形は「faites」です。 |
 | `q_career_1_1_three_verb_groups_4` | typing | 第一群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du premier groupe ?) | **er** | 第一群動詞の原形の語尾は -er になります（例：couper, préparer）。 |
 | `q_career_1_1_three_verb_groups_5` | typing | 第二群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du deuxième groupe ?) | **ir** | 第二群動詞の原形の語尾は -ir になります（例：finir, choisir）。 |
-| `q_career_1_1_transitive_intransitive_1` | choice | 直接目的語（「〜を」にあたる言葉）を直接取る動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe qui a besoin d'un complément d'objet direct ?) | **他動詞 (Verbe transitif)** | 直接目的語（〜を）を伴う動詞は「他動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_2` | choice | 目的語を取らず、主語自身の動作や移動などを表す動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe sans complément d'objet ?) | **自動詞 (Verbe intransitif)** | 目的語を必要としない動詞は「自動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_3` | choice | 動詞 'couper' (切る) は自動詞・他動詞のどちらですか？<br>(Le verbe 'couper' est-il transitif ou intransitif ?) | **他動詞 (Transitif)** | 「〜を切る」という目的語をとるため、couper は他動詞です。 |
-| `q_career_1_1_transitive_intransitive_4` | choice | 動詞 'aller' (行く) は自動詞・他動詞のどちらですか？<br>(Le verbe 'aller' est-il transitif ou intransitif ?) | **自動詞 (Intransitif)** | 「行く」は目的語をとらないため、自動詞です。 |
+| `q_career_1_1_transitive_intransitive_1` | choice | Le chef prépare ___ plat du jour. (シェフは今日の料理を準備する。) | **le** | 動詞 préparer は直接目的語を取るため、前置詞を挟まず直接定冠詞「le」を置きます。 |
+| `q_career_1_1_transitive_intransitive_2` | choice | Je vais ___ marché pour acheter des herbes. (私はハーブを買いに市場へ行きます。) | **au** | 移動の動詞 aller は目的地（à + le = au）を伴って「市場へ行く」となります。 |
+| `q_career_1_1_transitive_intransitive_3` | choice | Tu coupes ___ oignons pour la soupe ? (スープ用に玉ねぎを切ってくれる？) | **les** | 「玉ねぎを切る」は couper les oignons と直接名詞を目的語に取ります。 |
+| `q_career_1_1_transitive_intransitive_4` | choice | Nous allons ___ cuisine pour commencer le service. (私たちはサービスを始めるために厨房へ行きます。) | **en** | 「厨房へ行く」は aller en cuisine と表現します。 |
 | `q_career_1_1_verb_conjugation_patterns_1` | typing | 第一群規則動詞（-er）の二人称単数（tu）の現在形活用語尾はどの2文字になりますか？<br>(Quelle est la terminaison du présent des verbes en -er pour 'tu' ?) | **es** | tu に対する第一群動詞の現在形語尾は -es になります（例：tu coupes）。 |
 | `q_career_1_1_verb_conjugation_patterns_2` | typing | 第一群規則動詞（-er）の三人称複数（ils / elles）の現在形活用語尾はどの3文字になりますか？<br>(Quelle est la terminaison du présent des verbes en -er pour 'ils/elles' ?) | **ent** | ils/elles に対する第一群動詞の現在形語尾は -ent になります（例：ils coupent）。 |
 | `q_career_1_1_verb_conjugation_patterns_3` | typing | 第二群規則動詞（-ir）の現在形において、複数人称（nous, vous, ils）で共通して挿入される綴りは何ですか？<br>(Quelle syllabe insère-t-on au pluriel des verbes en -ir ?) | **iss** | -ir 動詞（第二群）の複数人称の活用形には -iss- が入ります（例：finissons, finissez, finissent）。 |
@@ -175,7 +175,7 @@
 | `q_gender_add_5` | choice | Le mot 'assiette' (お皿) est-il masculin ou féminin ? (「assiette」の性別を選んでください。) | **féminin** | une assiette なので女性名詞です。 |
 | `q_gender_add_6` | choice | Le mot 'verre' (グラス) est-il masculin ou féminin ? (「verre」の性別を選んでください。) | **masculin** | un verre なので男性名詞です。 |
 | `q_gender_add_7` | typing | Quel est le genre de 'sel' (塩) ? [___]. (「sel」の性別を入力してください。) | **masculin** | le sel は男性名詞です。 |
-| `q_gender_add_8` | matching | Associez le nom de cuisine et son genre. (名詞と名詞の性のペアを結びつけてください。) | **couteau (包丁) = Masculin (男性名詞), casserole (片手鍋) = Féminin (女性名詞), four (オーブン) = Masculin (男性名詞), cuillère (スプーン) = Féminin (女性名詞)** | 厨房道具の男性名詞・女性名詞の分類ペアです。 |
+| `q_gender_add_8` | matching | 名詞 ➔ 正しい冠詞付きフランス語のマッチング | **couteau (包丁) = le couteau, casserole (鍋) = la casserole, four (オーブン) = le four, assiette (皿) = l'assiette** | 各名詞の性（男性・女性）および母音始まりの縮約に対応する正しい定冠詞の組み合わせです。 |
 | `q_gender_add_9` | typing | Quel est le genre de 'farine' (小麦粉) ? [___]. (「farine」の性別を入力してください。) | **féminin** | la farine は女性名詞です。 |
 | `q_gr_14` | typing | Comment vous vous [___] ? (「お名前は何ですか？」の動詞 s'appeler の vous 活用を入力してください。) | **appelez** | 「Comment vous vous appelez ?」で「お名前は何ですか？」となります。 |
 | `q_gr_15` | typing | Je m'[___] Taro. (「私の名前はタロウです」の動詞 s'appeler の Je 活用を入力してください。) | **appelle** | 「Je m'appelle ...」で「私の名前は〜です」となります。 |
@@ -215,7 +215,7 @@
 | `q_grammar_add_5` | choice | Où se place l'adjectif 'grand' par rapport au nom ? (形容詞 grand は名詞の前と後のどちらに置かれますか？) | **Avant le nom (名詞の前)** | サイズを表す形容詞（grand, petit, grand等）は名詞の前に置かれます（un grand couteau）。 |
 | `q_grammar_add_6` | typing | Entrez la préposition de lieu : J'achète la viande [___] le boucher. (「精肉店（人）で肉を買う」の前置詞を入力してください。) | **chez** | 人・職種を表す場所に行く・いる場合は前置詞「chez」を使います（chez le boucher）。 |
 | `q_grammar_add_7` | scramble | Remettez en ordre la question倒置形. (「準備はできていますか？」となるように並び替えてください。) | **Êtes-vous prêts pour le service ?** | 「Êtes-vous prêts pour le service ?」の順序です。 |
-| `q_grammar_add_8` | matching | Associez la structure grammaticale et sa fonction. (文法構造と役割のペアを結びつけてください。) | **C'est + 名詞単数 = これは〜です (提示), Ce sont + 名詞複数 = これらは〜です (複数提示), ne ... pas = 〜ではない (打ち消し否定), Il y a + 名詞 = 〜がある / がいる (存在)** | 基本文法構造の役割対応です。 |
+| `q_grammar_add_8` | matching | フランス語の文 ➔ 日本語の意味のマッチング | **C'est un four chaud. = これは熱いオーブンです, Il n'y a pas de sel. = 塩がありません, Il y a deux casseroles. = 片手鍋が2つあります** | フランス語の各センテンスに対応する正しい日本語訳のマッチングです。 |
 | `q_grammar_add_9` | typing | Entrez le pronom de quantité : Vous voulez de la farine ? - Oui, j'|[___]| veux. (「はい、それを（いくらか）欲しいです」の中性代名詞を入力してください。) | **en** | 部分冠詞 de + 名詞を受ける数量の中性代名詞は「en」です。 |
 | `q_ingredients_add_1` | typing | Entrez le mot français pour '塩' : [___]. (「塩」を表すフランス語を入力してください。) | **sel** | 塩は「sel（セル）」です。 |
 | `q_ingredients_add_10` | typing | Entrez le mot pour '酢' : [___]. (「酢」を表すフランス語を入力してください。) | **vinaigre** | 酢は「vinaigre（ヴィネグル）」です。 |
@@ -453,12 +453,12 @@
 | `q_dc_08` | matching | Associez la phrase. (フランス語と意味のペアを結びつけてください。) | **C'est un chef. = シェフです, Ce sont des couteaux. = 包丁です(複数), C'est bon ! = 美味しいです！, C'est chaud ! = 熱いです！** | C'est 表現の例文です。 |
 | `q_dc_ext_04` | matching | Associez C'est / Ce sont. (C'est / Ce sont と単数・複数のペアを結びつけてください。) | **C'est un verre = グラスです(単数), Ce sont des verres = グラスです(複数), C'est ma soupe = 私のスープです, Ce sont mes plats = 私の料理です(複数)** | 提示表現の単数と複数です。 |
 | `q_dc_ext_05` | matching | Associez le sens. (状態を表す C'est 表現と意味のペアを結びつけてください。) | **C'est chaud = 熱いです, C'est froid = 冷たいです, C'est bon = 美味しいです, C'est prêt = 準備ができています** | 状態の提示表現です。 |
-| `q_gender_add_8` | matching | Associez le nom de cuisine et son genre. (名詞と名詞の性のペアを結びつけてください。) | **couteau (包丁) = Masculin (男性名詞), casserole (片手鍋) = Féminin (女性名詞), four (オーブン) = Masculin (男性名詞), cuillère (スプーン) = Féminin (女性名詞)** | 厨房道具の男性名詞・女性名詞の分類ペアです。 |
+| `q_gender_add_8` | matching | 名詞 ➔ 正しい冠詞付きフランス語のマッチング | **couteau (包丁) = le couteau, casserole (鍋) = la casserole, four (オーブン) = le four, assiette (皿) = l'assiette** | 各名詞の性（男性・女性）および母音始まりの縮約に対応する正しい定冠詞の組み合わせです。 |
 | `q_gr_09` | matching | Associez les expressions. (挨拶・自己紹介表現と日本語訳のペアを結びつけてください。) | **Je m'appelle Marc. = 私の名前はマルクです, Je suis apprenti. = 私は見習い料理人です, Comment allez-vous ? = お元気ですか？, Bonne journée ! = 良い一日を！** | 自己紹介や挨拶表現です。 |
 | `q_gr_10` | matching | Associez les phrases. (会話フレーズと日本語訳のペアを結びつけてください。) | **Au revoir ! = さようなら！, Pardon = すみません, S'il vous plaît = お願いします, Enchanté = はじめまして** | 基本会話フレーズです。 |
 | `q_gr_11` | matching | Associez le moment. (挨拶表現と使われる場面のペアを結びつけてください。) | **Bonjour = 日中の挨拶, Bonsoir = 夕方・夜の挨拶, Bonne nuit = 寝る前の挨拶, À demain = また明日と伝える時** | 時間帯に応じた挨拶使い分けです。 |
 | `q_gr_12` | matching | Associez la présentation. (自己紹介の表現と意味のペアを結びつけてください。) | **Je suis cuisinier. = 私は料理人です, J'ai 20 ans. = 私は20歳です, Je suis japonais. = 私は日本人です, Voici mon chef. = こちらは私のシェフです** | 自己紹介で使われる主要文型です。 |
-| `q_grammar_add_8` | matching | Associez la structure grammaticale et sa fonction. (文法構造と役割のペアを結びつけてください。) | **C'est + 名詞単数 = これは〜です (提示), Ce sont + 名詞複数 = これらは〜です (複数提示), ne ... pas = 〜ではない (打ち消し否定), Il y a + 名詞 = 〜がある / がいる (存在)** | 基本文法構造の役割対応です。 |
+| `q_grammar_add_8` | matching | フランス語の文 ➔ 日本語の意味のマッチング | **C'est un four chaud. = これは熱いオーブンです, Il n'y a pas de sel. = 塩がありません, Il y a deux casseroles. = 片手鍋が2つあります** | フランス語の各センテンスに対応する正しい日本語訳のマッチングです。 |
 | `q_ingredients_add_8` | matching | Associez l'ingrédient et son nom français. (調味料・食材とフランス語名のペアを結びつけてください。) | **sel = 塩, poivre = コショウ, beurre = バター, farine = 小麦粉** | 基本調味料・調味料のペアです。 |
 | `q_map_add_8` | matching | Associez le plat régional et sa région d'origine. (地方料理と発祥地方のペアを結びつけてください。) | **Bouillabaisse = Provence (マルセイユ), Choucroute = Alsace (ストラスブール), Galette de sarrasin = Bretagne (ブルターニュ), Boeuf bourguignon = Bourgogne (ブルゴーニュ)** | Bouillabaisse=Provence, Choucroute=Alsace, Galette=Bretagne, Boeuf bourguignon=Bourgogne。 |
 | `q_matching_1` | matching | Associez les paires correctes. (正しいペアを結びつけてください。) | **Bonjour = こんにちは, Merci = ありがとう, S'il vous plaît = お願いします** | 挨拶表現の正しい日本語訳のペアです。 |
@@ -574,18 +574,18 @@
 | `q_career_0_2_3` | typing | Entrez le chiffre '5'. (「5」を意味するフランス語の数字を入力してください。) | **cinq** | 5はフランス語で cinq と書きます。 |
 | `q_career_0_2_3_b` | typing | Entrez la préposition élidée. (「1本の水（bouteille [___]eau）」のように、容器を表す言葉を結ぶ前置詞（___ [___]eau）を省略形で入力してください。) | **d'** | 母音で始まる水（eau）の前では前置詞 de は d' に縮約されます。 |
 | `q_career_0_2_3_c` | typing | Entrez le chiffre '7'. (「7」を意味するフランス語の数字を入力してください。) | **sept** | 7はフランス語で sept と言います。 |
-| `q_career_1_1_indicative_present_1` | choice | フランス語の「直説法現在」が表すことができる時制・ニュアンスとして、正しくないものはどれか。<br>(Qu'est-ce qui n'est pas exprimé par le présent de l'indicatif ?) | **過去の完了した事実** | 直説法現在は、現在の状態、事実、習慣、近い未来の予定を表すことができますが、過去の完了した事実は表せません。 |
+| `q_career_1_1_indicative_present_1` | choice | Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。) | **préparons** | 毎朝の習慣的な動作を表すには、直説法現在（Nous préparons）を使います。 |
 | `q_career_1_1_indicative_present_2` | typing | 「私は玉ねぎを切ります」は「Je ___ les oignons.」です。動詞 couper の Je に対する現在形活用を入力してください。<br>(Complétez : Je ___ les oignons. (couper)) | **coupe** | Je に対する第一群動詞の現在形語尾は -e (coupe) になります。 |
 | `q_career_1_1_indicative_present_3` | typing | 「私たちは生地を仕上げます」は「Nous ___ la pâte.」です。動詞 finir の Nous に対する現在形活用を入力してください。<br>(Complétez : Nous ___ la pâte. (finir)) | **finissons** | Nous に対する第二群動詞の現在形語尾は -issons (finissons) になります。 |
-| `q_career_1_1_three_verb_groups_1` | choice | フランス語の動詞 'couper' (切る) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'couper' ?) | **第1群動詞 (-er)** | couper は規則的な変化をする第1群動詞 (-er動詞) に分類されます。 |
-| `q_career_1_1_three_verb_groups_2` | choice | フランス語の動詞 'finir' (終わる・仕上げる) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'finir' ?) | **第2群動詞 (-ir)** | finir は現在分詞が finissant となる規則的な第2群動詞 (-ir動詞) です。 |
-| `q_career_1_1_three_verb_groups_3` | choice | 不規則な変化をする 'faire' (する・作る) や 'aller' (行く) は何群動詞に分類されますか？<br>(Dans quel groupe classe-t-on 'faire' et 'aller' ?) | **第3群動詞 (不規則動詞)** | 不規則動詞はすべて第3群動詞に分類されます。aller も例外的に第3群です。 |
+| `q_career_1_1_three_verb_groups_1` | choice | Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。) | **coupe** | 第1群規則動詞 couper は、主語 Je のとき語尾が -e に変化します。 |
+| `q_career_1_1_three_verb_groups_2` | choice | Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。) | **finissons** | 第2群規則動詞 finir は、主語 Nous のとき語尾が -issons に変化します。 |
+| `q_career_1_1_three_verb_groups_3` | choice | Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？) | **faites** | 不規則動詞 faire の vous に対する現在形は「faites」です。 |
 | `q_career_1_1_three_verb_groups_4` | typing | 第一群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du premier groupe ?) | **er** | 第一群動詞の原形の語尾は -er になります（例：couper, préparer）。 |
 | `q_career_1_1_three_verb_groups_5` | typing | 第二群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du deuxième groupe ?) | **ir** | 第二群動詞の原形の語尾は -ir になります（例：finir, choisir）。 |
-| `q_career_1_1_transitive_intransitive_1` | choice | 直接目的語（「〜を」にあたる言葉）を直接取る動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe qui a besoin d'un complément d'objet direct ?) | **他動詞 (Verbe transitif)** | 直接目的語（〜を）を伴う動詞は「他動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_2` | choice | 目的語を取らず、主語自身の動作や移動などを表す動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe sans complément d'objet ?) | **自動詞 (Verbe intransitif)** | 目的語を必要としない動詞は「自動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_3` | choice | 動詞 'couper' (切る) は自動詞・他動詞のどちらですか？<br>(Le verbe 'couper' est-il transitif ou intransitif ?) | **他動詞 (Transitif)** | 「〜を切る」という目的語をとるため、couper は他動詞です。 |
-| `q_career_1_1_transitive_intransitive_4` | choice | 動詞 'aller' (行く) は自動詞・他動詞のどちらですか？<br>(Le verbe 'aller' est-il transitif ou intransitif ?) | **自動詞 (Intransitif)** | 「行く」は目的語をとらないため、自動詞です。 |
+| `q_career_1_1_transitive_intransitive_1` | choice | Le chef prépare ___ plat du jour. (シェフは今日の料理を準備する。) | **le** | 動詞 préparer は直接目的語を取るため、前置詞を挟まず直接定冠詞「le」を置きます。 |
+| `q_career_1_1_transitive_intransitive_2` | choice | Je vais ___ marché pour acheter des herbes. (私はハーブを買いに市場へ行きます。) | **au** | 移動の動詞 aller は目的地（à + le = au）を伴って「市場へ行く」となります。 |
+| `q_career_1_1_transitive_intransitive_3` | choice | Tu coupes ___ oignons pour la soupe ? (スープ用に玉ねぎを切ってくれる？) | **les** | 「玉ねぎを切る」は couper les oignons と直接名詞を目的語に取ります。 |
+| `q_career_1_1_transitive_intransitive_4` | choice | Nous allons ___ cuisine pour commencer le service. (私たちはサービスを始めるために厨房へ行きます。) | **en** | 「厨房へ行く」は aller en cuisine と表現します。 |
 | `q_career_1_2_question_words_1` | typing | 「私のナイフはどこですか？」は「___ est mon couteau ?」です。空欄に入る疑問詞を入力してください（アクサン記号を含めてください）。<br>(Complétez : ___ est mon couteau ? (Where)) | **Où** | 場所を尋ねる疑問詞は Où (どこ) です。 |
 | `q_career_1_2_question_words_2` | typing | 「なぜ止まっているのですか？」は「___ tu t'arrêtes ?」です。空欄に入る疑問詞を入力してください。<br>(Complétez : ___ tu t'arrêtes ? (Why)) | **Pourquoi** | 理由を尋ねる疑問詞は Pourquoi (なぜ) です。 |
 | `q_career_1_2_question_words_3` | typing | 「いつそれを買うのですか？」は「___ tu vas l'acheter ?」です。空欄に入る疑問詞を入力してください。<br>(Complétez : ___ tu vas l'acheter ? (When)) | **Quand** | 時間を尋ねる疑問詞は Quand (いつ) です。 |
@@ -832,7 +832,7 @@
 | `q_grammar_add_5` | choice | Où se place l'adjectif 'grand' par rapport au nom ? (形容詞 grand は名詞の前と後のどちらに置かれますか？) | **Avant le nom (名詞の前)** | サイズを表す形容詞（grand, petit, grand等）は名詞の前に置かれます（un grand couteau）。 |
 | `q_grammar_add_6` | typing | Entrez la préposition de lieu : J'achète la viande [___] le boucher. (「精肉店（人）で肉を買う」の前置詞を入力してください。) | **chez** | 人・職種を表す場所に行く・いる場合は前置詞「chez」を使います（chez le boucher）。 |
 | `q_grammar_add_7` | scramble | Remettez en ordre la question倒置形. (「準備はできていますか？」となるように並び替えてください。) | **Êtes-vous prêts pour le service ?** | 「Êtes-vous prêts pour le service ?」の順序です。 |
-| `q_grammar_add_8` | matching | Associez la structure grammaticale et sa fonction. (文法構造と役割のペアを結びつけてください。) | **C'est + 名詞単数 = これは〜です (提示), Ce sont + 名詞複数 = これらは〜です (複数提示), ne ... pas = 〜ではない (打ち消し否定), Il y a + 名詞 = 〜がある / がいる (存在)** | 基本文法構造の役割対応です。 |
+| `q_grammar_add_8` | matching | フランス語の文 ➔ 日本語の意味のマッチング | **C'est un four chaud. = これは熱いオーブンです, Il n'y a pas de sel. = 塩がありません, Il y a deux casseroles. = 片手鍋が2つあります** | フランス語の各センテンスに対応する正しい日本語訳のマッチングです。 |
 | `q_grammar_add_9` | typing | Entrez le pronom de quantité : Vous voulez de la farine ? - Oui, j'|[___]| veux. (「はい、それを（いくらか）欲しいです」の中性代名詞を入力してください。) | **en** | 部分冠詞 de + 名詞を受ける数量の中性代名詞は「en」です。 |
 | `q_verb_avoir_add_1` | typing | Tu [___] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。) | **as** | Tu に対する avoir の活用は「as」です。 |
 | `q_verb_avoir_add_10` | typing | J'ai [___]. (「お腹が空いた」を表す表現「J'ai ___」の空欄を入力してください。) | **faim** | 「J'ai faim」で「お腹が空いた」という意味になります。 |
@@ -967,7 +967,7 @@
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
 |---|---|---|---|---|
-| `q_career_1_1_indicative_present_1` | choice | フランス語の「直説法現在」が表すことができる時制・ニュアンスとして、正しくないものはどれか。<br>(Qu'est-ce qui n'est pas exprimé par le présent de l'indicatif ?) | **過去の完了した事実** | 直説法現在は、現在の状態、事実、習慣、近い未来の予定を表すことができますが、過去の完了した事実は表せません。 |
+| `q_career_1_1_indicative_present_1` | choice | Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。) | **préparons** | 毎朝の習慣的な動作を表すには、直説法現在（Nous préparons）を使います。 |
 | `q_career_1_1_indicative_present_2` | typing | 「私は玉ねぎを切ります」は「Je ___ les oignons.」です。動詞 couper の Je に対する現在形活用を入力してください。<br>(Complétez : Je ___ les oignons. (couper)) | **coupe** | Je に対する第一群動詞の現在形語尾は -e (coupe) になります。 |
 | `q_career_1_1_indicative_present_3` | typing | 「私たちは生地を仕上げます」は「Nous ___ la pâte.」です。動詞 finir の Nous に対する現在形活用を入力してください。<br>(Complétez : Nous ___ la pâte. (finir)) | **finissons** | Nous に対する第二群動詞の現在形語尾は -issons (finissons) になります。 |
 
@@ -1049,7 +1049,7 @@
 | `q_dc_08` | matching | Associez la phrase. (フランス語と意味のペアを結びつけてください。) | **C'est un chef. = シェフです, Ce sont des couteaux. = 包丁です(複数), C'est bon ! = 美味しいです！, C'est chaud ! = 熱いです！** | C'est 表現の例文です。 |
 | `q_dc_ext_04` | matching | Associez C'est / Ce sont. (C'est / Ce sont と単数・複数のペアを結びつけてください。) | **C'est un verre = グラスです(単数), Ce sont des verres = グラスです(複数), C'est ma soupe = 私のスープです, Ce sont mes plats = 私の料理です(複数)** | 提示表現の単数と複数です。 |
 | `q_dc_ext_05` | matching | Associez le sens. (状態を表す C'est 表現と意味のペアを結びつけてください。) | **C'est chaud = 熱いです, C'est froid = 冷たいです, C'est bon = 美味しいです, C'est prêt = 準備ができています** | 状態の提示表現です。 |
-| `q_gender_add_8` | matching | Associez le nom de cuisine et son genre. (名詞と名詞の性のペアを結びつけてください。) | **couteau (包丁) = Masculin (男性名詞), casserole (片手鍋) = Féminin (女性名詞), four (オーブン) = Masculin (男性名詞), cuillère (スプーン) = Féminin (女性名詞)** | 厨房道具の男性名詞・女性名詞の分類ペアです。 |
+| `q_gender_add_8` | matching | 名詞 ➔ 正しい冠詞付きフランス語のマッチング | **couteau (包丁) = le couteau, casserole (鍋) = la casserole, four (オーブン) = le four, assiette (皿) = l'assiette** | 各名詞の性（男性・女性）および母音始まりの縮約に対応する正しい定冠詞の組み合わせです。 |
 | `q_gr_09` | matching | Associez les expressions. (挨拶・自己紹介表現と日本語訳のペアを結びつけてください。) | **Je m'appelle Marc. = 私の名前はマルクです, Je suis apprenti. = 私は見習い料理人です, Comment allez-vous ? = お元気ですか？, Bonne journée ! = 良い一日を！** | 自己紹介や挨拶表現です。 |
 | `q_gr_10` | matching | Associez les phrases. (会話フレーズと日本語訳のペアを結びつけてください。) | **Au revoir ! = さようなら！, Pardon = すみません, S'il vous plaît = お願いします, Enchanté = はじめまして** | 基本会話フレーズです。 |
 | `q_gr_11` | matching | Associez le moment. (挨拶表現と使われる場面のペアを結びつけてください。) | **Bonjour = 日中の挨拶, Bonsoir = 夕方・夜の挨拶, Bonne nuit = 寝る前の挨拶, À demain = また明日と伝える時** | 時間帯に応じた挨拶使い分けです。 |
@@ -1057,7 +1057,7 @@
 | `q_gr_36` | matching | Associez les salutations et leurs réponses. (挨拶と返答のペアを結びつけてください。) | **Comment ça va ? = Ça va très bien, merci !, Merci beaucoup ! = Je vous en prie / De rien., Enchanté ! = Enchanté !, Bonne journée ! = Merci, vous de même !** | 定番の挨拶と返答フレーズのペアです。 |
 | `q_gr_37` | matching | Associez les mots口癖 (catchphrases) et leurs sens. (フランス人の口癖表現と日本語訳のペアを結びつけてください。) | **Ça marche ! = 了解！オッケー！, Pas de souci ! = 問題ないよ！気にしないで！, Tout à fait ! = まさにその通り！, Grave ! = それな！マジで！(口語)** | 日常会話で超高頻度に登場するフランス人の口癖表現です。 |
 | `q_gr_38` | matching | Associez l'expression de départ et le moment. (別れの挨拶と使える場面のペアを結びつけてください。) | **À demain ! = また明日会う時, À tout à l'heure ! = 同日中にまた後で会う時, Bonne nuit ! = 寝る直前, Bon week-end ! = 週末に入る前の挨拶** | 場面ごとの別れの挨拶の使い分けです。 |
-| `q_grammar_add_8` | matching | Associez la structure grammaticale et sa fonction. (文法構造と役割のペアを結びつけてください。) | **C'est + 名詞単数 = これは〜です (提示), Ce sont + 名詞複数 = これらは〜です (複数提示), ne ... pas = 〜ではない (打ち消し否定), Il y a + 名詞 = 〜がある / がいる (存在)** | 基本文法構造の役割対応です。 |
+| `q_grammar_add_8` | matching | フランス語の文 ➔ 日本語の意味のマッチング | **C'est un four chaud. = これは熱いオーブンです, Il n'y a pas de sel. = 塩がありません, Il y a deux casseroles. = 片手鍋が2つあります** | フランス語の各センテンスに対応する正しい日本語訳のマッチングです。 |
 | `q_ingredients_add_8` | matching | Associez l'ingrédient et son nom français. (調味料・食材とフランス語名のペアを結びつけてください。) | **sel = 塩, poivre = コショウ, beurre = バター, farine = 小麦粉** | 基本調味料・調味料のペアです。 |
 | `q_map_add_8` | matching | Associez le plat régional et sa région d'origine. (地方料理と発祥地方のペアを結びつけてください。) | **Bouillabaisse = Provence (マルセイユ), Choucroute = Alsace (ストラスブール), Galette de sarrasin = Bretagne (ブルターニュ), Boeuf bourguignon = Bourgogne (ブルゴーニュ)** | Bouillabaisse=Provence, Choucroute=Alsace, Galette=Bretagne, Boeuf bourguignon=Bourgogne。 |
 | `q_matching_1` | matching | Associez les paires correctes. (正しいペアを結びつけてください。) | **Bonjour = こんにちは, Merci = ありがとう, S'il vous plaît = お願いします** | 挨拶表現の正しい日本語訳のペアです。 |
@@ -1220,7 +1220,7 @@
 | `q_ne_10` | cloze | Je n'ai pas [de] sel. (「私は塩を持っていません」 - 空欄に入る適切な語を選んでください。) | **de** | 否定文で不定冠詞・部分冠詞は de に変わります。 |
 | `q_ne_11` | scramble | Remettez en ordre. (「私は包丁を持っていません」となるように並び替えてください。) | **Je n'ai pas de couteau.** | Je n'ai pas de couteau. となります。 |
 | `q_ne_12` | scramble | Remettez en ordre. (「美味しくありません」となるように並び替えてください。) | **Ce n'est pas bon.** | Ce n'est pas bon. となります。 |
-| `q_ne_13` | choice | Que deviennent un/une/des ? (否定文で「un / une / des」がどう変化するか選んでください。) | **de / d' に変わる** | 否定文で不定冠詞・部分冠詞は de / d' に変化します。 |
+| `q_ne_13` | choice | Complétez la négation : 'Je n'ai pas ___ tomates aujourd'hui.' (今日、トマトはありません) | **de** | 否定文（ne...pas）の中では、不特定の数量を表す冠詞（des）は「de」に変わります。 |
 | `q_ne_14` | choice | Traduisez. (「Je ne suis pas prêt.」の正しい日本語訳を選んでください。) | **私は準備ができていません。** | 「私は準備ができていません」という意味です。 |
 | `q_ne_ext_01` | typing | Nous n'avons ___ de temps.）」の否定語[___]を入力してください。 (Entrez le mot correct. (「私たちは時間がありません) | **pas** | n'avons pas de temps となります。 |
 | `q_ne_ext_02` | matching | Associez la structure négative. (否定文の構造要素のペアを結びつけてください。) | **ne (または n') = 動詞の前に置く, pas = 動詞の後ろに置く, de (または d') = 否定文の不定冠詞の代わりに置く, non = 「いいえ」という単独の返答** | 否定文の構造要素です。 |
@@ -1241,7 +1241,7 @@
 | `q_gender_add_5` | choice | Le mot 'assiette' (お皿) est-il masculin ou féminin ? (「assiette」の性別を選んでください。) | **féminin** | une assiette なので女性名詞です。 |
 | `q_gender_add_6` | choice | Le mot 'verre' (グラス) est-il masculin ou féminin ? (「verre」の性別を選んでください。) | **masculin** | un verre なので男性名詞です。 |
 | `q_gender_add_7` | typing | Quel est le genre de 'sel' (塩) ? [___]. (「sel」の性別を入力してください。) | **masculin** | le sel は男性名詞です。 |
-| `q_gender_add_8` | matching | Associez le nom de cuisine et son genre. (名詞と名詞の性のペアを結びつけてください。) | **couteau (包丁) = Masculin (男性名詞), casserole (片手鍋) = Féminin (女性名詞), four (オーブン) = Masculin (男性名詞), cuillère (スプーン) = Féminin (女性名詞)** | 厨房道具の男性名詞・女性名詞の分類ペアです。 |
+| `q_gender_add_8` | matching | 名詞 ➔ 正しい冠詞付きフランス語のマッチング | **couteau (包丁) = le couteau, casserole (鍋) = la casserole, four (オーブン) = le four, assiette (皿) = l'assiette** | 各名詞の性（男性・女性）および母音始まりの縮約に対応する正しい定冠詞の組み合わせです。 |
 | `q_gender_add_9` | typing | Quel est le genre de 'farine' (小麦粉) ? [___]. (「farine」の性別を入力してください。) | **féminin** | la farine は女性名詞です。 |
 | `q_ng_01` | typing | couteau）」の性別[___]を入力してください。 (Entrez le mot correct. (「包丁) | **masculin** | couteau は男性名詞です。 |
 | `q_ng_02` | typing | casserole）」の性別[___]を入力してください。 (Entrez le mot correct. (「片手鍋) | **féminin** | casserole は女性名詞です。 |
@@ -1261,7 +1261,7 @@
 | `q_ng_16` | scramble | Alignez l'article et le nom. (「一枚のお皿（女性名詞）」を表す言葉を並べ替えてください。) | **une assiette** | une assiette となります。 |
 | `q_ng_17` | choice | Quel mot est féminin ? (女性名詞であるものをひとつ選んでください。) | **casserole** | casserole は女性名詞です。 |
 | `q_ng_18` | choice | Quel mot est masculin ? (男性名詞であるものをひとつ選んでください。) | **fromage** | fromage は男性名詞です。 |
-| `q_ng_19` | choice | Quel est le genre de 'cuisine' ? (「cuisine（厨房）」の性別を選んでください。) | **女性名詞** | une cuisine は女性名詞です。 |
+| `q_ng_19` | choice | Complétez avec le bon article : 'Le chef nettoie ___ cuisine.' (シェフは厨房を掃除する) | **la** | cuisine（厨房）は女性名詞なので、定冠詞「la」を使います。 |
 | `q_ng_20` | choice | Choisissez la règle. (男性シェフ・女性シェフを表す冠詞の使い分けを選んでください。) | **un chef / une chef(fe)** | 人に使う名詞は性別に応じて使い分けます。 |
 
 ## 🏷️ #numbers (20問)
@@ -1408,8 +1408,8 @@
 | `q_pr_14` | cloze | [élision] (「le + eau」が「l'eau」のように母音が脱落する現象 - 空欄に入る省略現象の名称を選んでください。) | **élision** | 母音脱落現象を élision と言います。 |
 | `q_pr_15` | scramble | Classez les graphies du son [o]. (「オ」と発音する3つの綴りを並べ替えてください。) | **o, au, eau.** | o, au, eau はすべて「オ」と発音されます。 |
 | `q_pr_16` | scramble | français）」の単語を完成させるよう並べ替えてください。 (Formez le mot 'français'. (「フランス語) | **français** | français と綴ります。 |
-| `q_pr_17` | choice | ç）」の役割は何でしょう？ (Quel est le rôle de la cédille ? (「cédille) | **c の音を「カ」から「サ」に変える** | ç は c をサ行の音に変える役割です。 |
-| `q_pr_18` | choice | Prononciation de 'vous avez'. (「vous avez」をリエゾンして発音した時のカタカナ表記を選んでください。) | **ヴ・ザヴェ** | 「s」が「z」の音に変化してヴ・ザヴェとなります。 |
+| `q_pr_17` | choice | Choisissez l'orthographe correcte pour 'レモン絞り器' (発音: ガルソン/リマソン等と同じ「ス」の音) : | **le presse-citron** | c は e, i の前ではセディーユ（ç）がなくても自動的に「ス」と発音されます。 |
+| `q_pr_18` | choice | Dans 'Vous avez la recette ?', comment se lie la prononciation de 'Vous' et 'avez' ? | **[vu-za-ve] (s が z の音でつながる)** | 語末の s と母音始まりの語（avez）はリエゾンして [z] の音で滑らかにつながります。 |
 | `q_pr_19` | choice | Quel mot prononce sa consonne finale ? (語尾の子音を発音する単語を選んでください。) | **chef** | chef の語尾 f は発音されます。 |
 | `q_pr_20` | choice | Prononciation de 'oi'. (「poisson（魚）」の「oi」の発音を選んでください。) | **ワ** | oi は「ワ」と発音します。 |
 
@@ -1568,10 +1568,10 @@
 
 | ID | 出題形式 | 出題テキスト (フランス語 / 日本語) | 正解 | 解説 |
 |---|---|---|---|---|
-| `q_career_1_1_transitive_intransitive_1` | choice | 直接目的語（「〜を」にあたる言葉）を直接取る動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe qui a besoin d'un complément d'objet direct ?) | **他動詞 (Verbe transitif)** | 直接目的語（〜を）を伴う動詞は「他動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_2` | choice | 目的語を取らず、主語自身の動作や移動などを表す動詞を何と呼びますか？<br>(Comment appelle-t-on un verbe sans complément d'objet ?) | **自動詞 (Verbe intransitif)** | 目的語を必要としない動詞は「自動詞」と呼ばれます。 |
-| `q_career_1_1_transitive_intransitive_3` | choice | 動詞 'couper' (切る) は自動詞・他動詞のどちらですか？<br>(Le verbe 'couper' est-il transitif ou intransitif ?) | **他動詞 (Transitif)** | 「〜を切る」という目的語をとるため、couper は他動詞です。 |
-| `q_career_1_1_transitive_intransitive_4` | choice | 動詞 'aller' (行く) は自動詞・他動詞のどちらですか？<br>(Le verbe 'aller' est-il transitif ou intransitif ?) | **自動詞 (Intransitif)** | 「行く」は目的語をとらないため、自動詞です。 |
+| `q_career_1_1_transitive_intransitive_1` | choice | Le chef prépare ___ plat du jour. (シェフは今日の料理を準備する。) | **le** | 動詞 préparer は直接目的語を取るため、前置詞を挟まず直接定冠詞「le」を置きます。 |
+| `q_career_1_1_transitive_intransitive_2` | choice | Je vais ___ marché pour acheter des herbes. (私はハーブを買いに市場へ行きます。) | **au** | 移動の動詞 aller は目的地（à + le = au）を伴って「市場へ行く」となります。 |
+| `q_career_1_1_transitive_intransitive_3` | choice | Tu coupes ___ oignons pour la soupe ? (スープ用に玉ねぎを切ってくれる？) | **les** | 「玉ねぎを切る」は couper les oignons と直接名詞を目的語に取ります。 |
+| `q_career_1_1_transitive_intransitive_4` | choice | Nous allons ___ cuisine pour commencer le service. (私たちはサービスを始めるために厨房へ行きます。) | **en** | 「厨房へ行く」は aller en cuisine と表現します。 |
 
 ## 🏷️ #units (20問)
 
@@ -1623,9 +1623,9 @@
 | `q_career_1_1_regular_verbs_1_2_2` | typing | 「私たちは野菜を切る」は「Nous ___ les légumes.」です。空欄に couper の現在形活用を入力してください。<br>(Complétez : Nous ___ les légumes. (couper)) | **coupons** | nous に対する couper の現在形は coupons です。 |
 | `q_career_1_1_regular_verbs_1_2_3` | typing | 「あなた方はソースを仕上げる」は「Vous ___ la sauce.」です。空欄に finir の現在形活用を入力してください。<br>(Complétez : Vous ___ la sauce. (finir)) | **finissez** | vous に対する finir の現在形は finissez です。 |
 | `q_career_1_1_regular_verbs_1_2_4` | typing | 「彼らはトマトを切る」は「Ils ___ les tomates.」です。空欄に couper の現在形活用を入力してください。<br>(Complétez : Ils ___ les tomates. (couper)) | **coupent** | ils に対する couper の現在形は coupent です。 |
-| `q_career_1_1_three_verb_groups_1` | choice | フランス語の動詞 'couper' (切る) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'couper' ?) | **第1群動詞 (-er)** | couper は規則的な変化をする第1群動詞 (-er動詞) に分類されます。 |
-| `q_career_1_1_three_verb_groups_2` | choice | フランス語の動詞 'finir' (終わる・仕上げる) は何群動詞ですか？<br>(À quel groupe appartient le verbe 'finir' ?) | **第2群動詞 (-ir)** | finir は現在分詞が finissant となる規則的な第2群動詞 (-ir動詞) です。 |
-| `q_career_1_1_three_verb_groups_3` | choice | 不規則な変化をする 'faire' (する・作る) や 'aller' (行く) は何群動詞に分類されますか？<br>(Dans quel groupe classe-t-on 'faire' et 'aller' ?) | **第3群動詞 (不規則動詞)** | 不規則動詞はすべて第3群動詞に分類されます。aller も例外的に第3群です。 |
+| `q_career_1_1_three_verb_groups_1` | choice | Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。) | **coupe** | 第1群規則動詞 couper は、主語 Je のとき語尾が -e に変化します。 |
+| `q_career_1_1_three_verb_groups_2` | choice | Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。) | **finissons** | 第2群規則動詞 finir は、主語 Nous のとき語尾が -issons に変化します。 |
+| `q_career_1_1_three_verb_groups_3` | choice | Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？) | **faites** | 不規則動詞 faire の vous に対する現在形は「faites」です。 |
 | `q_career_1_1_three_verb_groups_4` | typing | 第一群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du premier groupe ?) | **er** | 第一群動詞の原形の語尾は -er になります（例：couper, préparer）。 |
 | `q_career_1_1_three_verb_groups_5` | typing | 第二群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？<br>(Par quelles deux lettres se termine l'infinitif des verbes du deuxième groupe ?) | **ir** | 第二群動詞の原形の語尾は -ir になります（例：finir, choisir）。 |
 | `q_career_1_1_verb_conjugation_patterns_1` | typing | 第一群規則動詞（-er）の二人称単数（tu）の現在形活用語尾はどの2文字になりますか？<br>(Quelle est la terminaison du présent des verbes en -er pour 'tu' ?) | **es** | tu に対する第一群動詞の現在形語尾は -es になります（例：tu coupes）。 |

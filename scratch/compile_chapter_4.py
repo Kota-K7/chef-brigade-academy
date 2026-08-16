@@ -3,8 +3,8 @@ import re
 import json
 
 workspace_dir = r"c:\Users\kotya\.gemini\antigravity-ide\scratch\chef-brigade-academy"
-draft_path = os.path.join(workspace_dir, "story_drafts.txt")
-dest_file = os.path.join(workspace_dir, "rpg", "story", "chapter_career_1.json")
+draft_path = os.path.join(workspace_dir, "rpg", "story", "draft_story.md")
+dest_file = os.path.join(workspace_dir, "rpg", "story", "chapter_career_4.json")
 
 char_map = {
     "佐伯": "saeki",
@@ -90,7 +90,7 @@ def parse_scene_text(scene_lines):
 def compile_episode(ep_content, ep_num):
     lines = ep_content.split("\n")
     
-    title = f"第1-{ep_num}話"
+    title = f"第4-{ep_num}話"
     ep_goal = ""
     scenes = {}
     current_scene = None
@@ -101,8 +101,8 @@ def compile_episode(ep_content, ep_num):
         if not line:
             continue
             
-        if line.startswith("【第1-"):
-            m = re.search(r"【(第1-[^】]+)】", line)
+        if line.startswith("【第4-"):
+            m = re.search(r"【(第4-[^】]+)】", line)
             if m:
                 title = m.group(1)
             continue
@@ -154,72 +154,86 @@ def compile_episode(ep_content, ep_num):
     if ep_num == 1:
         part1_pages = [
             {
-                "title": "動詞の3つのグループ",
-                "referenceTopicId": "ref_verb_groups",
+                "title": "単純未来 (Futur simple)",
+                "referenceTopicId": "ref_time_expressions",
                 "sectionIndices": [0]
             },
             {
-                "title": "自動詞と他動詞の区別",
-                "referenceTopicId": "ref_types_of_verbs",
-                "sectionIndices": [0, 1]
-            },
-            {
-                "title": "直説法現在の概念",
-                "referenceTopicId": "ref_present_indicative",
+                "title": "条件法現在 (Conditionnel présent) と丁寧な表現",
+                "referenceTopicId": "ref_conditional",
                 "sectionIndices": [0]
             }
         ]
         battle1_criteria = [
-            {"tag": "#three_verb_groups", "count": 3},
-            {"tag": "#transitive_intransitive", "count": 3},
-            {"tag": "#indicative_present", "count": 4},
-            # Review from Chapter 0
-            {"tag": "#greetings", "count": 2},
-            {"tag": "#subjects", "count": 1},
-            {"tag": "#etre", "count": 1},
-            {"tag": "#avoir", "count": 1}
+            {"tag": "#futur_simple", "count": 5},
+            {"tag": "#conditional_present", "count": 5},
+            {"tag": "#polite_expressions", "count": 5},
+            # Review from Chapter 3
+            {"tag": "#past_compose", "count": 3},
+            {"tag": "#imparfait", "count": 2}
         ]
+        enemy1_name = "佐伯 (スーシェフ)"
+        enemy1_hp = 15
     elif ep_num == 2:
         part1_pages = [
             {
-                "title": "疑問文の3つの作り方",
-                "referenceTopicId": "ref_questions",
-                "sectionIndices": [0]
-            },
-            {
-                "title": "厨房で頻出する疑問詞",
-                "referenceTopicId": "ref_questions",
+                "title": "条件節 (Si + 現在形, 単純未来)",
+                "referenceTopicId": "ref_conditional",
                 "sectionIndices": [1]
             }
         ]
         battle1_criteria = [
-            {"tag": "#questions", "count": 5},
-            {"tag": "#question_words", "count": 5},
-            # Review from Ep 1-1
-            {"tag": "#three_verb_groups", "count": 2},
-            {"tag": "#indicative_present", "count": 3}
+            {"tag": "#si_clauses_present", "count": 5},
+            {"tag": "#futur_simple", "count": 5},
+            {"tag": "#conditional_present", "count": 3},
+            {"tag": "#pronouns_y_en", "count": 2}
         ]
-    else:  # ep_num == 3
+        enemy1_name = "佐伯 (スーシェフ)"
+        enemy1_hp = 15
+    elif ep_num == 3:
         part1_pages = [
             {
-                "title": "形容詞の性数一致",
-                "referenceTopicId": "ref_adjective_agreement",
+                "title": "接続法現在 (Subjonctif)",
+                "referenceTopicId": "ref_subjunctive",
                 "sectionIndices": [0]
             },
             {
-                "title": "形容詞の配置ルール",
-                "referenceTopicId": "ref_adjective_agreement",
+                "title": "必要・義務の表現 (Il faut que + 接続法)",
+                "referenceTopicId": "ref_subjunctive",
                 "sectionIndices": [1]
             }
         ]
         battle1_criteria = [
-            {"tag": "#adjective_agreement", "count": 5},
-            {"tag": "#adjective_position", "count": 5},
-            {"tag": "#noun_gender", "count": 2},
-            # Review from Ep 1-2
-            {"tag": "#question_words", "count": 2},
-            {"tag": "#questions", "count": 3}
+            {"tag": "#subjunctive_basic", "count": 5},
+            {"tag": "#obligation_il_faut_que", "count": 5},
+            {"tag": "#passive_voice", "count": 3},
+            {"tag": "#si_clauses_present", "count": 2}
         ]
+        enemy1_name = "ピエール (シェフ)"
+        enemy1_hp = 15
+    else:  # ep_num == 4
+        part1_pages = [
+            {
+                "title": "過去時制の総復習",
+                "type": "custom",
+                "text": "複合過去と半過去の使い分け、およびジェロンディフをおさらいします。"
+            },
+            {
+                "title": "目的語代名詞の総復習",
+                "type": "custom",
+                "text": "人称代名詞（直接・間接・中性）の語順と命令形との結合をおさらいします。"
+            }
+        ]
+        battle1_criteria = [
+            {"tag": "#past_compose", "count": 4},
+            {"tag": "#imparfait", "count": 4},
+            {"tag": "#imparfait_vs_past_compose", "count": 3},
+            {"tag": "#object_pronouns_direct_indirect", "count": 2},
+            {"tag": "#imperative_with_pronouns", "count": 1},
+            {"tag": "#gerund_participle", "count": 1}
+        ]
+        enemy1_name = "佐伯 (スーシェフ)"
+        enemy1_hp = 20
         
     sequence.append({
         "type": "tutorial",
@@ -231,8 +245,8 @@ def compile_episode(ep_content, ep_num):
     # 4. Fixed Battle 1
     sequence.append({
         "type": "fixedBattle",
-        "enemyName": "佐伯 (スーシェフ)" if ep_num != 3 else "ピエール (シェフ)",
-        "enemyHp": 15,
+        "enemyName": enemy1_name,
+        "enemyHp": enemy1_hp,
         "enemyDamage": 2,
         "criteria": battle1_criteria
     })
@@ -247,71 +261,84 @@ def compile_episode(ep_content, ep_num):
     if ep_num == 1:
         part2_pages = [
             {
-                "title": "動詞活用の規則変化パターン",
-                "referenceTopicId": "ref_conjugation_patterns",
-                "sectionIndices": [0]
-            },
-            {
-                "title": "第1群・第2群規則動詞の活用",
-                "referenceTopicId": "ref_verb_groups",
-                "sectionIndices": [1, 2]
+                "title": "中性代名詞 y と en",
+                "referenceTopicId": "ref_pronouns",
+                "sectionIndices": [1]
             }
         ]
         battle2_criteria = [
-            {"tag": "#verb_conjugation_patterns", "count": 7},
-            {"tag": "#regular_verbs_1_2", "count": 8},
-            # Review from Chapter 0
-            {"tag": "#articles", "count": 2},
-            {"tag": "#numbers", "count": 2},
-            {"tag": "#negation", "count": 1}
+            {"tag": "#pronouns_y_en", "count": 5},
+            {"tag": "#futur_simple", "count": 4},
+            {"tag": "#conditional_present", "count": 4},
+            {"tag": "#object_pronouns_direct_indirect", "count": 2}
         ]
+        enemy2_name = "エロディ (先輩)"
+        enemy2_hp = 20
     elif ep_num == 2:
         part2_pages = [
             {
-                "title": "所有形容詞",
-                "referenceTopicId": "ref_possessive_adjectives",
+                "title": "受動態の基本構造 (La voix passive)",
+                "referenceTopicId": "ref_passive",
                 "sectionIndices": [0]
             },
             {
-                "title": "指示形容詞",
-                "referenceTopicId": "ref_demonstrative_adjectives",
-                "sectionIndices": [0]
-            },
-            {
-                "title": "場所・方向の前置詞",
-                "referenceTopicId": "ref_prepositions",
-                "sectionIndices": [0]
+                "title": "複合過去の受動態と性数一致",
+                "referenceTopicId": "ref_passive",
+                "sectionIndices": [1]
             }
         ]
         battle2_criteria = [
-            {"tag": "#possessive_adjectives", "count": 5},
-            {"tag": "#demonstrative_adjectives", "count": 5},
-            {"tag": "#prepositions", "count": 5},
-            # Review from Ep 1-1
-            {"tag": "#regular_verbs_1_2", "count": 3},
-            {"tag": "#irregular_verbs_major", "count": 2}
+            {"tag": "#passive_voice", "count": 5},
+            {"tag": "#past_participle_agreement", "count": 5},
+            {"tag": "#si_clauses_present", "count": 3},
+            {"tag": "#past_compose", "count": 2}
         ]
-    else:  # ep_num == 3
+        enemy2_name = "ガエル (製菓長)"
+        enemy2_hp = 20
+    elif ep_num == 3:
         part2_pages = [
             {
-                "title": "疑問形容詞 quel の用法",
-                "referenceTopicId": "ref_questions",
-                "sectionIndices": [2]
+                "title": "使役動詞 (faire + 不定詞)",
+                "referenceTopicId": "ref_causative",
+                "sectionIndices": [0]
             },
             {
-                "title": "部分冠詞の用法と冠詞全体の使い分け",
-                "referenceTopicId": "ref_partitive_articles",
-                "sectionIndices": [0]
+                "title": "感情を表す接続法",
+                "referenceTopicId": "ref_subjunctive",
+                "sectionIndices": [2]
             }
         ]
         battle2_criteria = [
-            {"tag": "#interrogative_adjectives", "count": 5},
-            {"tag": "#partitive_articles", "count": 10},
-            # Review from Ep 1-2
-            {"tag": "#possessive_adjectives", "count": 2},
-            {"tag": "#demonstrative_adjectives", "count": 2},
-            {"tag": "#prepositions", "count": 1}
+            {"tag": "#causative_faire", "count": 5},
+            {"tag": "#subjunctive_basic", "count": 5},
+            {"tag": "#obligation_il_faut_que", "count": 3},
+            {"tag": "#imparfait", "count": 2}
         ]
+        enemy2_name = "ガエル (製菓長)"
+        enemy2_hp = 20
+    else:  # ep_num == 4
+        part2_pages = [
+            {
+                "title": "未来と条件節の総復習",
+                "type": "custom",
+                "text": "単純未来、条件法現在、仮定法（Si）をおさらいします。"
+            },
+            {
+                "title": "高度な文法構造の総復習",
+                "type": "custom",
+                "text": "受動態、使役動詞、接続法（Il faut que...）をおさらいします。"
+            }
+        ]
+        battle2_criteria = [
+            {"tag": "#futur_simple", "count": 4},
+            {"tag": "#conditional_present", "count": 4},
+            {"tag": "#si_clauses_present", "count": 3},
+            {"tag": "#passive_voice", "count": 3},
+            {"tag": "#causative_faire", "count": 3},
+            {"tag": "#subjunctive_basic", "count": 3}
+        ]
+        enemy2_name = "エロディ (先輩)"
+        enemy2_hp = 20
         
     sequence.append({
         "type": "tutorial",
@@ -323,8 +350,8 @@ def compile_episode(ep_content, ep_num):
     # 7. Fixed Battle 2
     sequence.append({
         "type": "fixedBattle",
-        "enemyName": "エロディ (先輩)" if ep_num == 1 else "ガエル (製菓長)",
-        "enemyHp": 20,
+        "enemyName": enemy2_name,
+        "enemyHp": enemy2_hp,
         "enemyDamage": 2,
         "criteria": battle2_criteria
     })
@@ -339,78 +366,81 @@ def compile_episode(ep_content, ep_num):
     if ep_num == 1:
         part3_pages = [
             {
-                "title": "主要不規則動詞の現在形活用",
-                "referenceTopicId": "ref_essential_irregular_verbs",
-                "sectionIndices": [0, 1, 2]
+                "title": "未来表現と中性代名詞の総まとめ",
+                "type": "custom",
+                "text": "単純未来、条件法、中性代名詞 y/en の語順や使い分けの総括です。"
             },
             {
-                "title": "【復習】être / avoir の現在形活用",
-                "referenceTopicId": "ref_essential_irregular_verbs",
-                "sectionIndices": [3, 4]
+                "title": "【復習】近接未来と目的語代名詞",
+                "type": "custom",
+                "text": "近接未来（aller + 不定詞）における人称代名詞の位置を復習します。"
             }
         ]
         battle3_criteria = [
-            {"tag": "#irregular_verbs_major", "count": 7},
-            {"tag": "#three_verb_groups", "count": 3},
-            {"tag": "#regular_verbs_1_2", "count": 3},
-            # Review
-            {"tag": "#etre", "count": 2},
-            {"tag": "#avoir", "count": 2},
-            {"tag": "#negation", "count": 2},
-            {"tag": "#articles", "count": 1}
+            {"tag": "#futur_simple", "count": 4},
+            {"tag": "#conditional_present", "count": 4},
+            {"tag": "#pronouns_y_en", "count": 4},
+            {"tag": "#near_future", "count": 4},
+            {"tag": "#object_pronouns_direct_indirect", "count": 4}
         ]
     elif ep_num == 2:
         part3_pages = [
             {
-                "title": "【復習】否定文の構造と語順",
-                "referenceTopicId": "ref_negation",
-                "sectionIndices": [0]
+                "title": "条件節と受動態の総まとめ",
+                "type": "custom",
+                "text": "Si を用いた未来の仮定表現、および受動態（被動態）の構造の総括です。"
             },
             {
-                "title": "疑問文と否定文の組み合わせ",
+                "title": "【復習】複合過去と半過去の使い分け",
                 "type": "custom",
-                "text": "否定表現 (ne ... pas) の中に疑問詞を組み合わせて「なぜ〜ではないのか？」などを尋ねます。\n例：Pourquoi mon flan n'est pas dans le frigo ?\n(なぜ私のプリンは冷蔵庫にないのですか？)"
+                "text": "過去時制（複合過去・半過去）の基本的な使い分けを復習します。"
             }
         ]
         battle3_criteria = [
-            {"tag": "#negation", "count": 3},
-            {"tag": "#questions", "count": 3},
-            {"tag": "#prepositions", "count": 3},
-            {"tag": "#possessive_adjectives", "count": 2},
-            {"tag": "#demonstrative_adjectives", "count": 2},
-            # Review
-            {"tag": "#irregular_verbs_major", "count": 4},
-            {"tag": "#regular_verbs_1_2", "count": 3}
+            {"tag": "#si_clauses_present", "count": 4},
+            {"tag": "#passive_voice", "count": 4},
+            {"tag": "#futur_simple", "count": 4},
+            {"tag": "#imparfait_vs_past_compose", "count": 4},
+            {"tag": "#comparative", "count": 4}
         ]
-    else:  # ep_num == 3
+    elif ep_num == 3:
         part3_pages = [
             {
-                "title": "形容詞、疑問形容詞、部分冠詞の総まとめ",
+                "title": "接続法と使役表現の総まとめ",
                 "type": "custom",
-                "text": "これまでのまとめです。形容詞の性数一致、位置、疑問形容詞、部分冠詞などを完全マスターしましょう。"
+                "text": "主観や感情を表す接続法、および「〜させる」使役動詞 faire の用法の総括です。"
             },
             {
-                "title": "副詞（adverbs）の基本",
+                "title": "【復習】関係代名詞とジェロンディフ",
                 "type": "custom",
-                "text": "状態や頻度を表す言葉です。\n・様態副詞：形容詞の女性形に -ment をつけて作ります（例：doucement 優しく、ゆっくり）。\n・頻度副詞：toujours（いつも、常に）などは通常、動詞の直後に置きます。"
-            },
-            {
-                "title": "【復習】冠詞全体の使い分け",
-                "referenceTopicId": "ref_definite_indefinite_articles",
-                "sectionIndices": [0, 2]
+                "text": "関係代名詞 qui / que、および同時進行を表すジェロンディフを復習します。"
             }
         ]
         battle3_criteria = [
-            {"tag": "#adjective_agreement", "count": 3},
-            {"tag": "#adjective_position", "count": 3},
-            {"tag": "#interrogative_adjectives", "count": 3},
-            {"tag": "#partitive_articles", "count": 4},
-            {"tag": "#adverbs", "count": 3},
-            # Review
-            {"tag": "#articles", "count": 2},
-            {"tag": "#three_verb_groups", "count": 2},
-            {"tag": "#irregular_verbs_major", "count": 2},
-            {"tag": "#questions", "count": 1}
+            {"tag": "#subjunctive_basic", "count": 4},
+            {"tag": "#causative_faire", "count": 4},
+            {"tag": "#obligation_il_faut_que", "count": 3},
+            {"tag": "#relative_pronouns_basic", "count": 3},
+            {"tag": "#gerund_participle", "count": 3},
+            {"tag": "#pronouns_y_en", "count": 3}
+        ]
+    else:  # ep_num == 4
+        part3_pages = [
+            {
+                "title": "A1〜A2 文法総復習・最終チェック",
+                "type": "custom",
+                "text": "フランス語会話や厨房での指示において、時制や法（現在・過去・未来・条件法・接続法）を状況に応じて適切に使い分けるポイントを整理します。"
+            }
+        ]
+        battle3_criteria = [
+            {"tag": "#past_compose", "count": 3},
+            {"tag": "#imparfait", "count": 3},
+            {"tag": "#futur_simple", "count": 3},
+            {"tag": "#conditional_present", "count": 3},
+            {"tag": "#subjunctive_basic", "count": 3},
+            {"tag": "#passive_voice", "count": 3},
+            {"tag": "#causative_faire", "count": 3},
+            {"tag": "#pronouns_y_en", "count": 4}
         ]
         
     sequence.append({
@@ -424,7 +454,7 @@ def compile_episode(ep_content, ep_num):
     sequence.append({
         "type": "fixedBattle",
         "enemyName": "ジャン＝ピエール (シェフ)",
-        "enemyHp": 20,
+        "enemyHp": 25,
         "enemyDamage": 2,
         "criteria": battle3_criteria
     })
@@ -438,12 +468,12 @@ def compile_episode(ep_content, ep_num):
     # 12. Reward Stamp
     sequence.append({
         "type": "reward",
-        "xp": 100,
-        "unlockedEpisodeId": f"career_ep_1_{ep_num+1}" if ep_num < 3 else None
+        "xp": 150,
+        "unlockedEpisodeId": f"career_ep_4_{ep_num+1}" if ep_num < 4 else None
     })
     
     return {
-        "episodeId": f"career_ep_1_{ep_num}",
+        "episodeId": f"career_ep_4_{ep_num}",
         "episodeTitle": title,
         "recommendedPlayTime": "5 mins",
         "backgrounds": {
@@ -483,27 +513,29 @@ def main():
     with open(draft_path, 'r', encoding='utf-8') as f:
         content = f.read()
         
-    episodes_raw = content.split("【第1-")
+    episodes_raw = content.split("【第4-")
     ep_contents = {}
     for ep in episodes_raw:
         if ep.startswith("1話："):
-            ep_contents[1] = "【第1-" + ep
+            ep_contents[1] = "【第4-" + ep
         elif ep.startswith("2話："):
-            ep_contents[2] = "【第1-" + ep
+            ep_contents[2] = "【第4-" + ep
         elif ep.startswith("3話："):
-            ep_contents[3] = "【第1-" + ep
+            ep_contents[3] = "【第4-" + ep
+        elif ep.startswith("4話："):
+            ep_contents[4] = "【第4-" + ep
             
     episodes = []
-    for ep_num in [1, 2, 3]:
+    for ep_num in [1, 2, 3, 4]:
         if ep_num in ep_contents:
-            print(f"Compiling Episode 1-{ep_num}...")
+            print(f"Compiling Episode 4-{ep_num}...")
             ep_data = compile_episode(ep_contents[ep_num], ep_num)
             episodes.append(ep_data)
             
     chapter_data = {
-        "chapterId": "career_1",
-        "chapterTitle": "第1章: 佐伯「厨房の基本動作」",
-        "notes": "厨房の共通言語である動詞と疑問文、形容詞の使い方を学びます。",
+        "chapterId": "career_4",
+        "chapterTitle": "第4章: ジャン＝ピエール「新たなる挑戦と未来への皿」",
+        "notes": "単純未来・条件法、仮定法・受動態、使役表現・接続法などの高度な文法表現を学び、A1〜A2全体の総括試験に挑戦します。",
         "episodes": episodes
     }
     

@@ -167,6 +167,7 @@ def compile_episode(ep_content, ep_num):
         battle1_criteria = [
             {"tag": "#contracted_articles", "count": 5},
             {"tag": "#demonstrative_cest", "count": 5},
+            {"tag": "#noun_gender", "count": 2},
             # Review from Chapter 1
             {"tag": "#partitive_articles", "count": 2},
             {"tag": "#adjective_agreement", "count": 3}
@@ -278,12 +279,18 @@ def compile_episode(ep_content, ep_num):
                 "title": "代名動詞（受動用法）",
                 "referenceTopicId": "ref_pronominal_verbs",
                 "sectionIndices": [1]
+            },
+            {
+                "title": "時間表現 (pendant / depuis / dans)",
+                "type": "custom",
+                "text": "期間や時点を表す重要な前置詞です。\n・pendant + 期間: 「〜の間（全体の期間）」\n・depuis + 起点/期間: 「〜前からずっと（現在も継続中）」\n・dans + 期間: 「（今から）〜後に（未来）」"
             }
         ]
         battle2_criteria = [
             {"tag": "#passive_pronominal_verbs", "count": 10},
             {"tag": "#near_future", "count": 2},
             {"tag": "#near_past", "count": 3},
+            {"tag": "#time_expressions", "count": 3},
             # Review
             {"tag": "#object_pronouns_basic", "count": 3},
             {"tag": "#irregular_verbs_1", "count": 2}
@@ -361,20 +368,28 @@ def compile_episode(ep_content, ep_num):
     else:  # ep_num == 3
         part3_pages = [
             {
-                "title": "近接時制と代名動詞の総まとめ",
+                "title": "近接時制と代名動詞 of 総まとめ",
                 "referenceTopicId": "ref_near_future_past",
                 "sectionIndices": [0]
             },
             {
+                "title": "時間表現 (pendant / depuis / dans)",
+                "type": "custom",
+                "text": "期間や時点を表す重要な前置詞です。\n・pendant + 期間: 「〜の間（全体の期間）」\n・depuis + 起点/期間: 「〜前からずっと（現在も継続中）」\n・dans + 期間: 「（今から）〜後に（未来）」"
+            },
+            {
                 "title": "【復習】目的語代名詞と命令形",
                 "referenceTopicId": "ref_object_pronouns",
-                "sectionIndices": [1]
+                "sectionIndices": [
+                    1
+                ]
             }
         ]
         battle3_criteria = [
             {"tag": "#near_future", "count": 3},
             {"tag": "#near_past", "count": 3},
             {"tag": "#passive_pronominal_verbs", "count": 3},
+            {"tag": "#time_expressions", "count": 3},
             {"tag": "#imperative", "count": 2},
             {"tag": "#object_pronouns_basic", "count": 2},
             # Review
