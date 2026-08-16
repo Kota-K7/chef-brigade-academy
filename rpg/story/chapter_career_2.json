@@ -2,5 +2,1335 @@
   "chapterId": "career_2",
   "chapterTitle": "第2章: エロディ「厨房のテンポと彩り」",
   "notes": "前菜業務を通し、前置詞の縮約、指示・号令の命令形、時間表現（近接未来・過去）を学びます。",
-  "episodes": []
+  "episodes": [
+    {
+      "episodeId": "career_ep_2_1",
+      "episodeTitle": "第2-1話：食材と料理の架け橋",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "前置詞 à/de と定冠詞の縮約（au, aux, du, des）",
+            "提示表現 c'est / ce sont",
+            "場所の前置詞の復習"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "おはよう新人くん！今日からは前菜担当の私がビシバシ鍛えてあげるからね！失敗しても、シェフが責任取ってくれるからドーンと行きなよ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "こらこらエロディ。シェフがそんなこと言うわけないし、まずは君が責任者ですよ",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あはは……皆さん、今日もよろしくお願いします！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "もー、佐伯さんは細かいなぁ。気を取り直して！フランス料理の名前って『Tarte aux pommes（りんごのタルト）』みたいに、メイン食材を後ろにくっつけるでしょ？その時に前置詞と冠詞が合体して形が変わる『縮約』っていうルールがあるの。まずはそこからね！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "料理名を正確に覚えることは、メニューを理解する第一歩だからね。しっかりやっていこう。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "前置詞と定冠詞の縮約",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "title": "提示表現 c'est / ce sont",
+              "referenceTopicId": "ref_demonstrative_cest",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "エロディ (先輩)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#contracted_articles",
+              "count": 5
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 5
+            },
+            {
+              "tag": "#partitive_articles",
+              "count": 2
+            },
+            {
+              "tag": "#basic_adjectives",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……エロディ。Je vais au marché. (俺は市場へ行く。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "au marché (市場へ)",
+            "text": "à(〜へ) ＋ le(定冠詞・男性) ＝ au に縮約されます。marché（市場）は男性名詞です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "オッケー！気をつけてねー。さて新人くん、そこのタルト取ってくれる？C'est une Tarte aux pommes. (これがりんごのタルトだよ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "aux pommes (りんごの)",
+            "text": "à(〜を使った) ＋ les(定冠詞・複数) ＝ aux に縮約されます。Pommes（りんご）が複数形なので aux になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "なるほど！じゃあ『玉ねぎのスープ』は……Soupe à l'oignon ですか？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "C'est ça ! (その通り！) 母音の前だと縮約せずに à l' になるのもバッチリ！冴えてるね！",
+          "position": "center",
+          "learningPoint": {
+            "title": "C'est ça ! (その通り！)",
+            "text": "C'est (これは〜だ) ＋ ça (それ)。「その通り」「正解」と同調するときにエロディがよく使う日常表現です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "場所・方向の前置詞",
+              "referenceTopicId": "ref_prepositions",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "前置詞と冠詞の縮約",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#contracted_articles",
+              "count": 5
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 5
+            },
+            {
+              "tag": "#prepositions",
+              "count": 5
+            },
+            {
+              "tag": "#etre",
+              "count": 2
+            },
+            {
+              "tag": "#avoir",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……前菜の準備はどうなっている？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "C'est prêt ! (準備できています！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "C'est quoi ce plat ? (この料理は何だ？)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっと、C'est un Gratin dauphinois. (それはじゃがいものグラタンです。)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "À qui est ce couteau ? (このナイフは誰のだ？)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "C'est au sous-chef Saeki ! (佐伯スーシェフのです！私が洗っておきました！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "c'est / ce sont を使った短い確認",
+            "text": "C'est prêt (準備完了) / C'est quoi (それは何) / À qui (誰の)。厨房にあるものをパッと指差して確認する際の基本フレーズです。au(x) と組み合わせて「〜のものです」と表現でき、au sous-chef（副料理長の）のように使えます。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……うむ新しいものだな。いい刃だ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ですよね！？いいなぁ…。私にも新ナイフをお恵みください（うるうる）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "考えておこう",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "Tu sais où est mon nouveau couteau ? (僕の新しいナイフがどこにあるか知らないかい？)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Tu sais où est mon nouveau couteau ? (僕の新しいナイフがどこにあるか知ってる？) 意味: Tu sais (君は知っている) ＋ où est... (〜はどこか)。形容詞 nouveau (新しい) は名詞 couteau (ナイフ) の「前」に置く特殊な形容詞（配置ルールの例外）です。",
+            "text": ""
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あぁそれならさっきエロディさんが使ってここに…",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "しーっ！新人君！！内緒内緒！！！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……。エロディ…。さっきのナイフの話はしばらく無しだ。人のナイフを使うときはしっかり許可をとるように。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ご、ごめんなさーい…。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "（小声）さぁ！新人君！！佐伯シェフにばれないように練習に戻るよ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "前置詞の縮約と提示表現の総まとめ",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "【復習】être と avoir の直説法現在活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#contracted_articles",
+              "count": 3
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 3
+            },
+            {
+              "tag": "#prepositions",
+              "count": 3
+            },
+            {
+              "tag": "#basic_adjectives",
+              "count": 2
+            },
+            {
+              "tag": "#question_words",
+              "count": 2
+            },
+            {
+              "tag": "#etre",
+              "count": 4
+            },
+            {
+              "tag": "#avoir",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "いい感じ！料理の名前が言えるようになると、厨房がもっと楽しくなるでしょ…？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "エロディーーーー！！君僕のナイフ使っただろ！！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "刃ひょー！？佐伯スーシェフ！！聞いていられたのですか！！？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "当たり前です。もー、言ってくれたら貸すのに。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ほ、包丁があまりにかっこよくて…。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "はぁ…。新人君、訓練の調子はどうだい？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！メニューもかっこよくフランス語で言えそうです！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ふふ、その意気だ。エロディも新人君を見習ってほしいものだね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "えー！私すっごく完璧な先生だったじゃん！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 120,
+          "unlockedEpisodeId": "career_ep_2_2"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_2_2",
+      "episodeTitle": "第2-2話：厨房に響く号令",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "命令形（Tutoie/Vouvoie",
+            "規則変化）",
+            "重要動詞（faire, prendre, mettre, venir）の活用",
+            "目的語代名詞の基本（直接・間接）"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ほらほら急いで！営業が始まるよ！厨房が忙しくなると、悠長に『〜してくれませんか？』なんて言ってられないの。短い言葉でバシッと指示を出す『命令形』と『代名詞』の出番だよ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "め、命令形……エロディさんの目の色がいつもと違います……！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "新人君、気をつけるんだ。普段は明るい彼女だけど、火の前に立つエロディは『動』のスペシャリストだ。彼女のテンポに遅れないようにね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……あぁ。エロディの指示は的確だ。よく聞いておけ。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ふふん、任せて！さあ新人くん、私についてきて！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "命令法の作り方",
+              "referenceTopicId": "ref_imperative",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "重要不規則動詞の活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "エロディ (先輩)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 5
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 5
+            },
+            {
+              "tag": "#etre",
+              "count": 2
+            },
+            {
+              "tag": "#avoir",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "オーダー入ったよ！新人くん、Prends cette poêle ! (このフライパンを取って！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Prends cette poêle ! (このフライパンを取って！)",
+            "text": "prendre(取る)のtuに対する命令形です。厨房で道具や食材を取るように指示する際によく使われます。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Oui！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "Mets-la sur le feu ! (それを火にかけて！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Mets-la... (それを〜に置いて)",
+            "text": "mettre(置く・入れる)の命令形 mets に、直接目的語代名詞の la(それを：女性名詞 poêle を指す)がくっついています。命令形＋代名詞は厨房の指示の基本です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっと、la っていうのはフライパンのことですね！火にかけます！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "完璧！次はソースの準備！Viens ici ! (ここに来て！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "は、はいっ！（すごい、無駄な動きが一切ない……！）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "このまま問題練習行っちゃうよー！！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "目的語人称代名詞",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "命令文での代名詞の語順",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 5
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 5
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 5
+            },
+            {
+              "tag": "#prepositions",
+              "count": 2
+            },
+            {
+              "tag": "#contracted_articles",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ああっ！エロディさん、僕の火加減が強すぎて焦げそうです！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "貸して！Fais ça vite ! (これを早くやって！※別の野菜を渡す)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Oui ! Je le fais ! (はい！それやります！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "Coupe-le ! (それを切って！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "D'accord ! (わかりました！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "Donne-le-moi ! (それを私にちょうだい！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "矢継ぎ早な命令と代名詞",
+            "text": "Fais (やれ) / Je le fais (それをやる) / Coupe-le (それを切れ) / Donne-le-moi (それを私に渡せ)。指示対象をle/la/les で置き換えてスピードを上げています。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "……よし、間に合った。Ne le mets pas là ! (それをそこに置かないで！) 盛り付けの邪魔になるからね！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……見事なリカバリーだ。エロディ、さすがだな。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "火の前での彼女は、うちのレストランでもトップクラスだからね。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "えへへ、エッヘン新人くん。君も私の弟子として、すぐ反応できて偉かったよ！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "助けていただきありがとうございました、エロディさん。もう少し練習に付き合ってもらえますか？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……その意気だ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "命令法と代名詞の総まとめ",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            },
+            {
+              "title": "【復習】重要不規則動詞の活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 3
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 3
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 2
+            },
+            {
+              "tag": "#contracted_articles",
+              "count": 2
+            },
+            {
+              "tag": "#questions",
+              "count": 4
+            },
+            {
+              "tag": "#prepositions",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "エロディさん、すごくかっこよかったです！命令形って、言う方も周りを見る余裕が必要なんですね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "でしょでしょ？指示を出すってことは、チーム全体を動かすってことだからね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "ふふ、明日はそのテンポに『時間』の表現が加わるよ。覚悟しておくようにね。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 120,
+          "unlockedEpisodeId": "career_ep_2_3"
+        }
+      ]
+    },
+    {
+      "episodeId": "career_ep_2_3",
+      "episodeTitle": "第2-3話：料理人として説明する",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "restaurant": "url('assets/story/career_story/restaurant.webp')",
+        "kitchen": "url('assets/story/career_story/kitchen.webp')",
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "kanetake": {
+          "name": "金竹満",
+          "images": {
+            "default": "assets/story/career_story/kanetake.webp"
+          }
+        },
+        "saeki": {
+          "name": "佐伯博",
+          "images": {
+            "default": "assets/story/career_story/saeki.webp"
+          }
+        },
+        "elodie": {
+          "name": "エロディ",
+          "images": {
+            "default": "assets/story/career_story/elodie.webp"
+          }
+        },
+        "gael": {
+          "name": "ガエル",
+          "images": {
+            "default": "assets/story/career_story/gael.webp"
+          }
+        },
+        "jean_pierre": {
+          "name": "ジャン＝ピエール",
+          "images": {
+            "default": "assets/story/career_story/jean_pierre.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "tutorial",
+          "title": "今日の学習目標",
+          "goal": "本日の講義と厨房業務の目標です。",
+          "targets": [
+            "近接未来（aller + 不定詞）",
+            "近接過去（venir + de + 不定詞）",
+            "受動的な代名動詞（se ...）の用法"
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "料理ってタイミングがすべてでしょ？『今終わったところ！』とか『これから焼くよ！』っていう、直前や直後の表現ができなきゃ、最高の状態で料理は出せないの。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "たしかに、さっきから『もうすぐ』とか『さっき』って言いたくてモヤモヤしてました。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "今日は『近接過去』と『近接未来』、それから『こういう風に作られるんだよ』っていう受け身の表現をマスターしよう。エロディ先生、ガエルとのお手本をお願いできるかな？",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "任せて！私たちの華麗な連携プレー、見せてあげる！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "了解した。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "近接未来と近接過去",
+              "referenceTopicId": "ref_near_future_past",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "佐伯 (スーシェフ)",
+          "enemyHp": 15,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_future",
+              "count": 5
+            },
+            {
+              "tag": "#near_past",
+              "count": 5
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 2
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ガエル、パンの焼き上がりはどう？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "Je viens de finir. (ちょうど終わったところだ。)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Je viens de finir. (ちょうど終わったところだよ。)",
+            "text": "venir de ＋ 動詞の原形(finir) で「〜したばかりだ」という近接過去になります。厨房での進捗報告に非常に便利です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "完璧！じゃあ、この Poulet rôti（ローストチキン）を仕上げるよ。Je vais le cuire ! (これからそれを焼きます！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "Je vais le cuire ! (これからそれを焼きます！)",
+            "text": "aller ＋ 動詞の原形で「これから〜する」という近接未来です。vaisは動詞allerのJeに対応する形です。le(それを) は原形の直前に置きます。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "息ぴったりですね……！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "これがプロの厨房さ。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "新人君ーお皿温めお願いー！！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！すぐにお皿を温めます！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "代名動詞（受動用法）",
+              "referenceTopicId": "ref_pronominal_verbs",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ガエル (製菓長)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#passive_pronominal_verbs",
+              "count": 10
+            },
+            {
+              "tag": "#near_future",
+              "count": 2
+            },
+            {
+              "tag": "#near_past",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 3
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "おーい！今日のまかないは何やー？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Je vais faire une Galette bretonne ! (これからガレットを作ります！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "おっ、ガレットか！ええな。Ça se prépare comment ? (どうやって作るんや？) クレープと同じか？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい、鉄板で薄く焼きます！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "Qu'est-ce que tu vas mettre dedans ? (中には何を入れるつもりだ？) 俺は卵が好きだが。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "いいね。Avec quelle farine tu vas la faire ? (どの粉で作るの？) やはりそば粉かい？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はい！そば粉の生地は、La pâte a reposé pendant deux heures. (生地は2時間休ませておきました！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "pendant ＋ 期間 (〜の間)",
+            "text": "ある動作が継続した全体の期間を表します（例: pendant 2 heures = 2時間の間）。仕込みや寝かせ時間で頻出します。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "そして鶏肉も、Ce poulet cuit depuis 15 minutes. Ça sera prêt dans 5 minutes ! (この鶏肉は15分前から焼いていて、あと5分で焼けます！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "depuis (〜前からずっと) と dans (今から〜後に)",
+            "text": "depuis は「過去から今も継続している時間」、dans は「今から〜時間後（未来）」を表します。焼き上がり時間の伝達に不可欠です。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ちょっとみんな、質問攻めにしないで！Il vient de commencer ! (彼、今始めたばかりですよ！) 集中させてあげて！",
+          "position": "center",
+          "learningPoint": {
+            "title": "Il vient de commencer ! (彼は始めたばかりだ！)",
+            "text": "venir de + 不定詞 で「〜したばかりだ（近接過去）」を表します。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……Est-ce que tu as le temps de parler ? (話している暇はあるのか？) 火が入っているぞ。集中しなくていいのか？",
+          "position": "center",
+          "learningPoint": {
+            "title": "Est-ce que tu as le temps de parler ? (話している暇はあるのか？) 意味: avoir le temps de ＋ 動詞の原形(parler) で「話す時間（暇）がある」という表現です。冒頭に Est-ce que をつけて疑問文にしています。",
+            "text": ""
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あっ！ヤバい！Oui, chef ! (はい、シェフ！)",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "さあ新人くん、みんなのお腹を満たす最高のガレット焼いちゃおう！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "近接時制と代名動詞の総まとめ",
+              "referenceTopicId": "ref_near_future_past",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "【復習】目的語代名詞と命令形",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 20,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_future",
+              "count": 3
+            },
+            {
+              "tag": "#near_past",
+              "count": 3
+            },
+            {
+              "tag": "#passive_pronominal_verbs",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 2
+            },
+            {
+              "tag": "#object_pronouns_basic",
+              "count": 2
+            },
+            {
+              "tag": "#contracted_articles",
+              "count": 4
+            },
+            {
+              "tag": "#irregular_verbs_1",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "いやー、坊ちゃんのガレット最高や！みんなで囲んで食うと美味いなぁ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はは。皆さんのご協力のおかげです。フランス語も少し自信がついてきました！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "エロディも今日はちゃんと良い先輩になれてたじゃないか。",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "えっへん！私にかかればこんなもんよ！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……明日はさらに厳しく行くぞ。準備しておくように",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Oui Chef！！",
+          "position": "center",
+          "background": "restaurant"
+        },
+        {
+          "type": "reward",
+          "xp": 120,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
 }
