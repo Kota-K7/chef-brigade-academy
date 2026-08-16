@@ -232,13 +232,17 @@
           "pages": [
             {
               "title": "肯定命令形における2つの代名詞の結合",
-              "type": "custom",
-              "text": "肯定の命令文で直接目的語代名詞と間接目的語代名詞を同時に使う場合、順序は「動詞 - 直接 - 間接」となり、すべてハイフンで繋ぎます。また、me/te は強変化の moi/toi になります。\n例：Donne-la-moi. (それを私に渡して)"
+              "referenceTopicId": "ref_imperative_with_pronouns",
+              "sectionIndices": [
+                0
+              ]
             },
             {
               "title": "否定命令形における2つの代名詞の語順",
-              "type": "custom",
-              "text": "否定命令文では通常の語順（Ne ➔ 間接 ➔ 直接 ➔ 動詞 ➔ pas）に戻ります。\n例：Ne me la donne pas. (それを私に渡さないで)"
+              "referenceTopicId": "ref_imperative_with_pronouns",
+              "sectionIndices": [
+                1
+              ]
             }
           ]
         },
@@ -1004,8 +1008,11 @@
           "pages": [
             {
               "title": "関係代名詞 qui / que の基本",
-              "type": "custom",
-              "text": "名詞を後ろから説明する接続語です。\n・qui: 先行詞が関係節内で主語になる場合（〜する名詞）\n・que: 先行詞が関係節内で直接目的語になる場合（〜を…する名詞）"
+              "referenceTopicId": "ref_relative_pronouns",
+              "sectionIndices": [
+                0,
+                1
+              ]
             },
             {
               "title": "接続詞（parce que / mais / donc）",

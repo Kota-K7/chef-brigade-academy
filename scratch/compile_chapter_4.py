@@ -299,7 +299,7 @@ def compile_episode(ep_content, ep_num):
         part2_pages = [
             {
                 "title": "使役動詞 (faire + 不定詞)",
-                "referenceTopicId": "ref_causative",
+                "referenceTopicId": "ref_causative_faire",
                 "sectionIndices": [0]
             },
             {

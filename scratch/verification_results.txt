@@ -1,0 +1,25 @@
+--- Checking JSON parsing ---
+OK: grammar_reference.json
+OK: questions_db.json
+OK: chapter_career_0.json
+OK: chapter_career_1.json
+OK: chapter_career_2.json
+OK: chapter_career_3.json
+OK: chapter_career_4.json
+
+--- Checking Reference Topic Integrity ---
+Valid reference IDs in grammar_reference.json (34):
+['ref_adjective_agreement', 'ref_adverbs', 'ref_auxiliaries', 'ref_causative_faire', 'ref_conditional', 'ref_conjugation_patterns', 'ref_contracted_articles', 'ref_definite_indefinite_articles', 'ref_demonstrative_adjectives', 'ref_demonstrative_cest', 'ref_essential_irregular_verbs', 'ref_future_tenses', 'ref_imperative', 'ref_imperative_with_pronouns', 'ref_near_future_past', 'ref_negation', 'ref_non_finite_forms', 'ref_noun_genders', 'ref_numbers', 'ref_object_pronouns', 'ref_partitive_articles', 'ref_passive', 'ref_possessive_adjectives', 'ref_prepositions', 'ref_present_indicative', 'ref_pronominal_verbs', 'ref_pronouns', 'ref_questions', 'ref_relative_pronouns', 'ref_subjects', 'ref_subjunctive', 'ref_time_expressions', 'ref_types_of_verbs', 'ref_verb_groups']
+OK: No orphan referenceTopicIds found in story files! All references are valid.
+
+--- Checking Added Questions ---
+Tag #causative_faire: 5 questions found.
+Tag #subjunctive_basic: 5 questions found.
+Tag #obligation_il_faut_que: 4 questions found.
+Tag #futur_simple: 4 questions found.
+Tag #conditional_present: 4 questions found.
+Tag #si_clauses_present: 4 questions found.
+Tag #passive_voice: 4 questions found.
+Tag #pronouns_y_en: 4 questions found.
+
+ALL VERIFICATIONS PASSED SUCCESSFULLY!

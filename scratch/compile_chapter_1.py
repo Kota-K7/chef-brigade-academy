@@ -389,10 +389,10 @@ def compile_episode(ep_content, ep_num):
                 "type": "custom",
                 "text": "これまでのまとめです。形容詞の性数一致、位置、疑問形容詞、部分冠詞などを完全マスターしましょう。"
             },
-            {
+                        {
                 "title": "副詞（adverbs）の基本",
-                "type": "custom",
-                "text": "状態や頻度を表す言葉です。\n・様態副詞：形容詞の女性形に -ment をつけて作ります（例：doucement 優しく、ゆっくり）。\n・頻度副詞：toujours（いつも、常に）などは通常、動詞の直後に置きます。"
+                "referenceTopicId": "ref_adverbs",
+                "sectionIndices": [0, 2]
             },
             {
                 "title": "【復習】冠詞全体の使い分け",
