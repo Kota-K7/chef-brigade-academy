@@ -1,0 +1,13 @@
+{
+  "episodes_count": 2,
+  "episodes": [
+    {
+      "title": "第0-1話：フランス料理店へようこそ",
+      "sequence_len": 28
+    },
+    {
+      "title": "第0-2話：最初の注文 (La Première Commande)",
+      "sequence_len": 52
+    }
+  ]
+}

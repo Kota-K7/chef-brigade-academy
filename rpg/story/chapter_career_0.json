@@ -52,30 +52,24 @@
         {
           "type": "tutorial",
           "title": "今日の学習目標",
-          "goal": "全ての解説",
+          "goal": "* **本日のゴール**: フランス料理の世界へようこそ！基本の挨拶、主語の表し方、厨房で最も使う2大動詞（être / avoir）、そして基本的な否定文（ne...pas）を身につけよう。",
           "targets": [
-            "挨拶・基本コミュニケーション（Bonjour, Merci等）",
-            "主語人称代名詞（Je, Tu等）",
-            "êtreとavoirの導入（être=状態・存在、avoir=所有・経験の直感的なイメージ）"
+            "挨拶・基本コミュニケーション（Bonjour, Merci 等）",
+            "主語人称代名詞（je, tu, il, elle, nous, vous, ils, elles）",
+            "動詞 être（〜である・いる）と avoir（持っている・ある）",
+            "肯定文と否定文（ne ... pas の構造）"
           ]
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "夏休み、ひょんなことから親父の知り合いからバイトの紹介があるとの連絡が来た。",
-          "position": "center",
-          "background": "restaurant"
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "またせたのぉ、ごめんやで坊ちゃん。",
           "position": "center",
+          "background": "restaurant",
           "learningPoint": {
-            "title": "金竹満(かねだけみつる)",
+            "title": "金竹満 (かねだけみつる)",
             "text": "金竹グループの社長。趣味はお金稼ぎ。"
-          },
-          "background": "restaurant"
+          }
         },
         {
           "type": "dialog",
@@ -101,20 +95,24 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。話は聞いてる、よろしく頼む。",
+          "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。**Je suis** le chef ici.（私がここの料理長だ）。話は聞いている、よろしく頼む。",
           "position": "center",
+          "background": "restaurant",
           "learningPoint": {
-            "title": "👨‍🍳Jean-Pierre（ジャン＝ピエール）",
-            "text": "レストラン「La Nouvelle Étoile」の Chef（料理長）"
-          },
-          "background": "restaurant"
+            "title": "Jean-Pierre (ジャン＝ピエール)",
+            "text": "レストラン「La Nouvelle Étoile」の Chef（料理長）。\n\n【フランス語解説】\n・Je suis... [ジュ スュイ] : 「私は〜です」（主語 Je ＋ 動詞 être の1人称単数現在形）\n・le chef [ル シェフ] : 料理長（定冠詞 le ＋ 男性名詞 chef）\n・ici [イスィ] : ここ（副詞）"
+          }
         },
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔",
+          "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔。**Tu es** trop sérieux !（お前は真面目すぎるんや）",
           "position": "center",
-          "background": "restaurant"
+          "background": "restaurant",
+          "learningPoint": {
+            "title": "Tu es...",
+            "text": "【フランス語解説】\n・Tu es... [テュ エ] : 「君は〜だ」（主語 Tu ＋ 動詞 être の2人称単数現在形）\n・trop [トロ] : 〜すぎる（副詞）\n・sérieux [セリウー] : 真面目な、深刻な（形容詞・男性形）"
+          }
         },
         {
           "type": "dialog",
@@ -166,7 +164,102 @@
               "sectionIndices": [
                 0
               ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyHp": 5,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#greetings",
+              "count": 5
             },
+            {
+              "tag": "#subjects",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "お！ **Bonjour** 新入り君!!! 俺はここのスーシェフ、佐伯だ。よろしくね。**Tu as** l'air motivé !（やる気がありそうだね！）",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "佐伯博 (さえきはく)",
+            "text": "本レストランの Sous-chef（スーシェフ）。\n\n【フランス語解説】\n・Bonjour [ボンジュール] : こんにちは\n・Tu as... [テュ ア] : 「君は持っている」（主語 Tu ＋ 動詞 avoir の2人称単数現在形）\n・avoir l'air + 形容詞 : 〜そうに見える（l'air motivé = やる気がありそうに見える）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "あ、よろしくお願いします！（フランス語で何か言われた…！）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（ドタドタドタ！）誰か―！！そこのトマト『3つ』取って！ **Trois tomates, s'il vous plaît !** シェフ、お願いしますッ！！",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Trois",
+            "text": "【フランス語解説】\n・Trois [トロワ] : 数字の「3」\n・tomates [トマト] : トマト（女性名詞 tomate の複数形）\n・s'il vous plaît [スィル ヴ プレ] : お願いします（丁寧な依頼表現）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "シェフをこき使う料理人がいてたまるか！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "jean_pierre",
+          "text": "……（無言）",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっ、3つですね、はい！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "エロディ、**Nous avons beaucoup de travail aujourd'hui.**（私たちは今日たくさんの仕事があるんだ）。新入り君に頼むならまずは簡単なことからにしてくれよ。",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Nous avons...",
+            "text": "【フランス語解説】\n・Nous avons... [ヌ ザヴォン] : 「私たちは持っている」（主語 Nous ＋ 動詞 avoir の1人称複数現在形）\n・beaucoup de... [ボク ドゥ] : たくさんの〜（数量表現）\n・travail [トラヴァイ] : 仕事（男性名詞）\n・aujourd'hui [オジュルデュイ] : 今日（副詞）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "あはは、そうだね！ おおありがとう！ **Merci beaucoup !** 君が新入り君かい？動きがいいね！ それじゃ早速、他のことも頼んじゃおうかなっ！！",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Élodie (エロディ)",
+            "text": "前菜・メイン担当。\n\n【フランス語解説】\n・Merci beaucoup [メルスィ ボク] : どうもありがとうございます"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
             {
               "title": "動詞 être の現在形活用",
               "type": "custom",
@@ -269,129 +362,21 @@
         },
         {
           "type": "fixedBattle",
-          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyName": "エロディ (先輩)",
           "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#greetings",
-              "count": 2
+              "tag": "#etre",
+              "count": 5
+            },
+            {
+              "tag": "#avoir",
+              "count": 5
             },
             {
               "tag": "#subjects",
-              "count": 1
-            },
-            {
-              "tag": "#etre",
-              "count": 2
-            },
-            {
-              "tag": "#pronunciation",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "お！Bonjour 新入り君!!! 俺はここのスーシェフ、佐伯だ。よろしくね。",
-          "position": "center",
-          "learningPoint": {
-            "title": "佐伯博",
-            "text": "(さえきはく) 本レストランのSous-chef。フランスで働いていたこともあり、信頼のおける先輩だ。"
-          },
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "hero",
-          "text": "あ、よろしくお願いします！",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "誰か―！！そこのトマト『3つ』取って！シェフ、お願いしますッ！！",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "シェフをこき使う料理人がいてたまるか！",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "hero",
-          "text": "えっ、3つですね、はい！",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "elodie",
-          "text": "おおありがとう。君が新入り君かい？動きがいいね！",
-          "position": "center",
-          "learningPoint": {
-            "title": "Élodie（エロディ）",
-            "text": "本レストラン of Chef de partie – entrées et plats（前菜・メイン担当） 。活発で明るい先輩「それじゃ早速、他のことも頼んじゃおうかなっ！！」"
-          },
-          "background": "kitchen"
-        },
-        {
-          "type": "tutorial",
-          "title": "事前解説 (Préparation)",
-          "goal": "応用問題の前に、以下の文法・表現をおさらいしましょう。",
-          "pages": [
-            {
-              "title": "否定の de (Règle du 'De')",
-              "type": "custom",
-              "text": "否定文 (ne...pas) の後ろに不特定名詞（通常不定冠詞 un, une, des が付くもの）が来る場合、冠詞は前置詞 'de' (母音または無声の h の前では d') に変化します。",
-              "headers": [
-                "肯定文 (Avoir)",
-                "否定文 (de に変化)"
-              ],
-              "rows": [
-                [
-                  "J'ai un couteau. (ナイフを持っています)",
-                  "Je n'ai pas de couteau. (ナイフを持っていません)"
-                ],
-                [
-                  "J'ai une casserole. (片手鍋を持っています)",
-                  "Je n'ai pas de casserole. (片手鍋を持っていません)"
-                ]
-              ]
-            },
-            {
-              "title": "不定冠詞と定冠詞",
-              "referenceTopicId": "ref_definite_indefinite_articles",
-              "sectionIndices": [
-                0,
-                2
-              ]
-            }
-          ]
-        },
-        {
-          "type": "fixedBattle",
-          "enemyName": "エロディ (先輩)",
-          "enemyHp": 9,
-          "enemyDamage": 2,
-          "criteria": [
-            {
-              "tag": "#articles",
-              "count": 4
-            },
-            {
-              "tag": "#negation",
               "count": 3
-            },
-            {
-              "tag": "#noun_gender",
-              "count": 2
             }
           ]
         },
@@ -407,11 +392,11 @@
           "character": "gael",
           "text": "……。",
           "position": "center",
+          "background": "kitchen",
           "learningPoint": {
-            "title": "Gaël（ガエル）",
-            "text": "Pâtissier-Boulanger（製菓・パン担当）寡黙で見た目はイカツイがとても優しい。"
-          },
-          "background": "kitchen"
+            "title": "Gaël (ガエル)",
+            "text": "本レストランの Pâtissier（パティシエ）。無口だが仕事は極めて正確。"
+          }
         },
         {
           "type": "dialog",
@@ -423,9 +408,31 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "いや……気にしなくていい。そこのボウルを『1つ』、俺に取ってくれるか？",
+          "text": "いや…… **Ce n'est pas** grave. 気にしなくていい。……俺が怖いか？",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Ce n'est pas grave",
+            "text": "【フランス語解説】\n・Ce n'est pas grave [ス ネ パ グラヴ] : 大したことないよ / 問題ない（ne...pas による否定形）\n・主語代名詞 Ce ＋ n' ＋ 動詞 est ＋ pas ＋ 形容詞 grave（深刻な）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "い、いえ！（背が高くて迫力あるな……！）",
           "position": "center",
           "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "そうか。なら……そこのボウルを『1つ』、**un bol** を俺に取ってくれるか？",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "un bol",
+            "text": "【フランス語解説】\n・un bol [アン ボル] : 1個のボウル（男性名詞 bol ＋ 不定冠詞 un）"
+          }
         },
         {
           "type": "dialog",
@@ -435,45 +442,61 @@
           "background": "kitchen"
         },
         {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "ええ動きやんけ、坊ちゃん。ま、今日から頑張りや～",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "よし新入り君、最後に今日の基本が身についたか、テストしてみよう！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
           "type": "tutorial",
           "title": "事前解説 (Préparation)",
-          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
-              "title": "数字 1〜10",
-              "referenceTopicId": "ref_numbers",
+              "title": "否定文 (ne...pas) の構造",
+              "referenceTopicId": "ref_negation",
               "sectionIndices": [
-                0
+                0,
+                1
               ]
             }
           ]
         },
         {
           "type": "fixedBattle",
-          "enemyName": "ジャン＝ピエール (シェフ)",
+          "enemyName": "佐伯 (スーシェフ)",
           "enemyHp": 10,
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#numbers",
-              "count": 4
+              "tag": "#negation",
+              "count": 5
             },
             {
-              "tag": "#plurals",
+              "tag": "#etre",
               "count": 3
             },
             {
               "tag": "#avoir",
               "count": 3
+            },
+            {
+              "tag": "#greetings",
+              "count": 2
+            },
+            {
+              "tag": "#subjects",
+              "count": 2
             }
           ]
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "満「ええ動きやんけ。ま、最初はこんなもんやろ。ほな今日から頑張りや～」",
-          "position": "center",
-          "background": "restaurant"
         },
         {
           "type": "reward",
@@ -531,7 +554,7 @@
         {
           "type": "tutorial",
           "title": "今日の学習目標",
-          "goal": "名詞と冠詞の実践、数字の定着、および否定文の完全理解",
+          "goal": "* **本日のゴール**: 名詞と冠詞の実践、数字の定着、および否定文の完全理解。",
           "targets": [
             "冠詞（定冠詞・不定冠詞）の使い分け（特定か不特定かのニュアンス）",
             "数字と計量の厨房での実践表現",
@@ -548,37 +571,49 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "利益か…。ふむ。だがお客様を喜ばせなければば、一銭も稼げないぞ？",
+          "text": "利益か…。ふむ。だがお客様を喜ばせなければ、一銭も稼げないぞ？",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "むきー！！なんやとーー？俺は、この店の『オーナー』として店を思ってやな！！",
+          "text": "むきー！！なんやとーー？俺は、この店の“オーナー”としてこの店を思ってやなぁ！！……。**Tu n'écoutes rien !**（お前は何も聞いとらん！）",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Tu n'écoutes rien",
+            "text": "【フランス語解説】\n・Tu n'écoutes rien [テュ ネクートゥ リヤン] : 君は何も聞いていない（主語 Tu ＋ 否定構造 n'...rien）"
+          }
         },
         {
           "type": "dialog",
           "character": "hero",
-          "text": "……。",
+          "text": "……。（な、なんかすごい言い合いが始まった…！）",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "…安心しろ。ああ見えてあの二人は仲がいい。",
+          "text": "……安心しろ。ああ見えてあの二人は仲がいい。**Ils sont amis.**（彼らは友達だ）。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Ils sont...",
+            "text": "【フランス語解説】\n・Ils sont... [イル ソン] : 「彼らは〜だ」（主語 Ils ＋ 動詞 être の3人称複数現在形）\n・amis [アミ] : 友達（男性名詞 ami の複数形）"
+          }
         },
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "はは、そこに関してはガエル君の言う通りだね。では僕らは訓練と行こうか",
+          "text": "はは、そこに関してはガエル君の言う通りだね。**Ce n'est pas une dispute.**（これは喧嘩じゃないんだよ）。では僕らは訓練と行こうか。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Ce n'est pas...",
+            "text": "【フランス語解説】\n・Ce n'est pas... [ス ネ パ] : 「これは〜ではない」（否定文）\n・une dispute [ユヌ ディスプュット] : 喧嘩・口論（女性名詞 dispute ＋ 不定冠詞 une）"
+          }
         },
         {
           "type": "tutorial",
@@ -604,66 +639,111 @@
         },
         {
           "type": "fixedBattle",
-          "enemyName": "ガエル (製菓長)",
+          "enemyName": "佐伯 (スーシェフ)",
           "enemyHp": 5,
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#units",
-              "count": 3
+              "tag": "#articles",
+              "count": 5
+            },
+            {
+              "tag": "#noun_genders",
+              "count": 4
             },
             {
               "tag": "#numbers",
-              "count": 2
+              "count": 3
+            },
+            {
+              "tag": "#negation",
+              "count": 3
             }
           ]
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "…すまない、このボウルのクリームの Émulsionnerを頼めるか？",
+          "text": "……すまない、**le bol**（そのボウル）の中にあるクリームの **Émulsionner** を頼めるか？ **Deux cents grammes de crème.**（クリーム200グラムだ）。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "le bol",
+            "text": "【フランス語解説】\n・le bol [ル ボル] : そのボウル（男性名詞 bol ＋ 定冠詞 le）\n・Deux cents grammes de crème [ドゥ サン グラム ドゥ クレーム] : 200グラムのクリーム（数詞 ＋ 単位 ＋ de ＋ 女性名詞 crème）\n・Émulsionner [エミュルスィオネ] : 乳化させる（調理用語）"
+          }
         },
         {
           "type": "dialog",
           "character": "hero",
-          "text": "えっと…。",
+          "text": "えっと……？",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "あぁ…。すまない。乳化のことだ。空気を含むように泡立ててくれ。",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "elodie",
-          "text": "ちょっと新人くん！そっちのバジルの葉をChiffonner",
+          "text": "あぁ……。すまない。乳化のことだ。空気を含むように泡立ててくれ。",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "hero",
-          "text": "えっと、えっと、…。？(なんだって？バジルをソースにして、オーブンに塗る？そんなわけないよな。ヤバいヤバいヤバいどうしよ、どうしよ)",
+          "text": "は、はい！わかりました！",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "ちょっと新人くん！そっちのバジルの葉を **Chiffonner** お願いしていい？ こっちのソースは **Passer au chinois**、あっちのブリオッシュは **Badigeonner** して、オーブンにいれて中火20分（**vingt minutes**）！",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Chiffonner",
+            "text": "【フランス語解説】\n・Chiffonner [シフォネ] : 細切りにする\n・Passer au chinois [パセ オ シノワ] : シノワでこす\n・Badigeonner [バディジョネ] : ハケで塗る\n・vingt minutes [ヴァン ミニュット] : 20分（数詞 vingt ＋ 名詞 minute の複数形）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "えっと、えっと、……？（なんだって？バジルをソースにして、オーブンに塗る？そんなわけないよな。ヤバいヤバいヤバいどうしよ、どうしよ）",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "エロディ！彼はまだフランス料理一日目だ！頼むにも限度ってものがあるだろう！",
+          "text": "エロディ！彼はまだフランス料理一日目だ！**Il ne comprend pas encore.**（彼はまだ理解できていないよ）。頼むにも限度ってものがあるだろう！",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Il ne comprend pas...",
+            "text": "【フランス語解説】\n・Il ne comprend pas... [イル ヌ コンプラン パ] : 「彼は理解していない」（主語 Il ＋ 動詞 comprendre の否定形）\n・encore [アンコール] : まだ、今も（副詞）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "すまないね。まずは完璧を目指さなくていい。**Ce n'est pas grave.**（大丈夫だ）。でも、分からないことをそのままにしないこと。厨房では、それが一番危険だからね。みんな始めはそうだから、頑張って行こう。",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Ce n'est pas grave",
+            "text": "【フランス語解説】\n・Ce n'est pas grave [ス ネ パ グラヴ] : 問題ない・大したことない（否定文）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "佐伯さん……ありがとうございます！",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "tutorial",
           "title": "事前解説 (Préparation)",
-          "goal": "応用問題の前に、以下の文法・表現をおさらいしましょう。",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
               "title": "複数名詞と冠詞",
@@ -679,85 +759,124 @@
               "sectionIndices": [
                 1
               ]
+            },
+            {
+              "title": "否定文 (ne...pas) の復習",
+              "referenceTopicId": "ref_negation",
+              "sectionIndices": [
+                0,
+                1
+              ]
             }
           ]
         },
         {
           "type": "fixedBattle",
-          "enemyName": "佐伯 (スーシェフ)",
+          "enemyName": "ガエル ＆ エロディ",
           "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#numbers",
+              "count": 5
+            },
+            {
+              "tag": "#articles",
+              "count": 4
+            },
+            {
+              "tag": "#etre",
               "count": 3
             },
             {
-              "tag": "#plurals",
-              "count": 4
+              "tag": "#avoir",
+              "count": 3
             }
           ]
         },
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "ふぅぅぅ今日のセッション終わりー！！",
+          "text": "ふぅぅぅ今日のセッション終わりー！！ **C'est fini !**（終わったー！）",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "C'est fini",
+            "text": "【フランス語解説】\n・C'est fini [セ フィニ] : 終わりです・終わった（Ce ＋ est ＋ 過去分詞 fini）"
+          }
         },
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "お疲れやで～ほんなら～毎日恒例！『チキチキ賄い誰が作るでSHOW』のお時間や！！",
+          "text": "お疲れやで～ ほんなら～毎日恒例！チキチキ賄い誰が作るでSHOWのお時間や！！",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "hero",
-          "text": "えっと…？",
+          "text": "えっと……？",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "賄いを作るためのじゃんけんだ。",
+          "text": "じゃんけんだ。",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "賄いは店のメニューに自分のレシピが乗るチャンスだし！シェフも参加して本気で作りにいくよ",
+          "text": "賄いは店のメニューに自分のレシピが乗るチャンスだし！シェフも参加して本気で作りにいくよ。**Nous sommes** tous motivés !（私たちはみんなやる気満々なんだから！）",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Nous sommes...",
+            "text": "【フランス語解説】\n・Nous sommes... [ヌ ソム] : 「私たちは〜です」（主語 Nous ＋ 動詞 être の1人称複数現在形）\n・tous [トゥス] : 全員・みんな\n・motivés [モチヴェ] : やる気がある（形容詞の複数形）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "elodie",
+          "text": "じゃんけんに勝てば料理作れるし、負けてもシェフとかの手料理を食べれるご褒美タイムってこと！！",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "(小声) ふふ、実はあぁ見えてシェフも負けず嫌いなので、本気で来るよ。",
+          "text": "（小声）ふふ、実はあぁ見えてシェフも負けず嫌いなので、本気で来るよ。**Il a** toujours envie de gagner.（彼はいつも勝ちたがっているんだ）。僕も本気でやっちゃおうかな。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Il a...",
+            "text": "【フランス語解説】\n・Il a... [イル ア] : 「彼は持っている」（主語 Il ＋ 動詞 avoir の3人称単数現在形）\n・avoir envie de + 不定詞 : 〜したいと思う\n・gagner [ガニェ] : 勝つ（動詞原形）"
+          }
         },
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "佐伯聞こえているぞ……まあ相違はない。",
+          "text": "佐伯、聞こえているぞ……まあ相違はない。ただ今日はすまない。私が指名する。**Je n'ai pas le temps pour un jeu.**（ゲームをしている時間はない）。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Je n'ai pas...",
+            "text": "【フランス語解説】\n・Je n'ai pas... [ジュ ネ パ] : 「私は持っていない」（動詞 avoir の否定形）\n・le temps [ル タン] : 時間（男性名詞）\n・pour un jeu [プール アン ジュ] : ゲームのための（不定冠詞 un ＋ 男性名詞 jeu）"
+          }
         },
         {
           "type": "dialog",
-          "character": "ガエル、エロディ、佐伯",
-          "text": "......っっ！！？",
+          "character": "ガエル・エロディ・佐伯",
+          "text": "……っっ！！？",
           "position": "center",
           "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "えぇずるいですよ！！そんなの、シェフの特権乱用です！！オーナー！！私はムッシュ・ピエール氏を上司の権力乱用で訴えます！",
+          "text": "えぇずるいですよ！！そんなの、シェフの特権乱用です！！ オーナー！！私はシェフ ムッシュ・ピエール氏を上司の権力乱用で訴えます！",
           "position": "center",
           "background": "kitchen"
         },
@@ -771,9 +890,13 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "ああ。今日の賄い担当は君だ",
+          "text": "ああ。今日の賄い担当は君だ。**Tu as une chance aujourd'hui.**（今日はお前にチャンスをやろう）。",
           "position": "center",
-          "background": "kitchen"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Tu as...",
+            "text": "【フランス語解説】\n・Tu as... [テュ ア] : 「君は持っている」（主語 Tu ＋ 動詞 avoir）\n・une chance [ユヌ シャンス] : 1つの好機・チャンス（女性名詞 chance ＋ 不定冠詞 une）"
+          }
         },
         {
           "type": "dialog",
@@ -785,7 +908,7 @@
         {
           "type": "tutorial",
           "title": "事前解説 (Préparation)",
-          "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
               "title": "動詞 être の複数形活用",
@@ -858,19 +981,27 @@
           "enemyDamage": 2,
           "criteria": [
             {
-              "tag": "#negation",
-              "count": 3
-            },
-            {
-              "tag": "#numbers",
+              "tag": "#subjects",
               "count": 3
             },
             {
               "tag": "#etre",
-              "count": 2
+              "count": 3
             },
             {
               "tag": "#avoir",
+              "count": 3
+            },
+            {
+              "tag": "#negation",
+              "count": 3
+            },
+            {
+              "tag": "#articles",
+              "count": 2
+            },
+            {
+              "tag": "#numbers",
               "count": 2
             }
           ]
@@ -880,110 +1011,133 @@
           "character": "hero",
           "text": "はぁああああああああああ緊張した～！！",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "なかなかすごいね新入り君！今後に期待大だよ",
+          "text": "なかなかすごいね新入り君！今後に期待大だよ。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "saeki",
           "text": "なかなか美味しかったよね。特にあのチキンロティに添えられたソースとか！ねぇ？ガエル？",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "あぁ",
+          "text": "あぁ。**C'est bon.**（美味しかったぞ）。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "C'est bon",
+            "text": "【フランス語解説】\n・C'est bon [セ ボン] : 美味しい / 良い（指示代名詞 C' ＋ 動詞 est ＋ 形容詞 bon）"
+          }
         },
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "うんうん、うまかったで！これなら今後も安心やし、何ならジャンの二代目は君かもしらんなぁ。ジャンがこの子に“喰われる",
+          "text": "うんうん、うまかったで！これなら今後も安心やし、何ならジャンの二代目は君かもしらんなぁ。ジャンがこの子に“喰われる”のもすぐやで。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "…。野菜のカット法と肉の火入れは見直した方が良いだろう。食感に調和がなかった。",
+          "text": "……。野菜のカット法と肉の火入れは見直した方が良いだろう。食感に調和がなかった。**Ce n'est pas parfait.**（完璧ではない）。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "Ce n'est pas parfait",
+            "text": "【フランス語解説】\n・Ce n'est pas parfait [ス ネ パ パルフェ] : 完璧ではない（否定文 ＋ 形容詞 parfait）"
+          }
         },
         {
           "type": "dialog",
           "character": "hero",
-          "text": "あッありがとうございます！",
+          "text": "あッ、ありがとうございます！",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "なんやジャン！もっと優しい言葉はかけられへんのか！",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "事実を述べたまでだ",
+          "text": "事実を述べたまでだ。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "はぁあああああああーーー！！！あかんわ新人にはちょっと優しくするんが相場やろうが！！",
           "position": "center",
-          "background": "restaurant"
+          "background": "kitchen"
         },
         {
           "type": "dialog",
           "character": "hero",
           "text": "み、満さんありがとうございます。でも、シェフの言ってることはまさに僕も少し思ってたことで…。",
           "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "あかん！あかんよ坊ちゃん！！これはニンゲンの問題や！！ はーーー坊ちゃん、ついてきぃ！イラついたからドライブや。",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ええ、でもっ！？",
+          "position": "center",
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "行っておいで。片付けは任せて、ごちそうさまでした。**Merci pour le repas.**（ごちそうさまでした）。",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "le repas",
+            "text": "【フランス語解説】\n・le repas [ル ルパ] : 食事（男性名詞 ＋ 定冠詞 le）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "gael",
+          "text": "……また明日だ。**À demain.**（また明日）。",
+          "position": "center",
+          "background": "kitchen",
+          "learningPoint": {
+            "title": "À demain",
+            "text": "【フランス語解説】\n・À demain [ア ドゥマン] : また明日"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "*(背景が切り替わり、夜の公園・夜景の見える場所へ)*",
+          "position": "center",
           "background": "restaurant"
         },
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "あかん！あかんよ坊ちゃん！！これはニンゲンの問題や！！",
-          "position": "center",
-          "background": "restaurant"
-        },
-        {
-          "type": "dialog",
-          "character": "hero",
-          "text": "ええでもっ！？",
-          "position": "center",
-          "background": "restaurant"
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "行っておいで。片付けは任せて、ごちそうさまでした。",
-          "position": "center",
-          "background": "restaurant"
-        },
-        {
-          "type": "dialog",
-          "character": "gael",
-          "text": "…また明日だ。",
-          "position": "center",
-          "background": "restaurant"
-        },
-        {
-          "type": "dialog",
-          "character": "ドライブで公園へ(夜景.のイラストに変更)満",
-          "text": "(主人公と2人になって）いやージャンがほんま申し訳ないわ。堪忍してな",
+          "text": "（主人公と2人になって）いやージャンがほんま申し訳ないわ。堪忍してな。",
           "position": "center",
           "background": "restaurant"
         },
@@ -1011,7 +1165,7 @@
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "そかそか。そりゃええこっちゃ。よろしくな坊ちゃん",
+          "text": "そかそか。そりゃええこっちゃ。よろしくな坊ちゃん。",
           "position": "center",
           "background": "restaurant"
         },

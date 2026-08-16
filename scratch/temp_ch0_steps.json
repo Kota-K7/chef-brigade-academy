@@ -1,0 +1,220 @@
+[
+  {
+    "type": "tutorial",
+    "title": "今日の学習目標",
+    "goal": "全ての解説",
+    "targets": [
+      "挨拶・基本コミュニケーション（Bonjour, Merci等）",
+      "主語人称代名詞（Je, Tu等）",
+      "êtreとavoirの導入（être=状態・存在、avoir=所有・経験の直感的なイメージ）"
+    ]
+  },
+  {
+    "type": "dialog",
+    "character": null,
+    "text": "夏休み、ひょんなことから親父の知り合いからバイトの紹介があるとの連絡が来た。",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "kanetake",
+    "text": "またせたのぉ、ごめんやで坊ちゃん。",
+    "position": "center",
+    "learningPoint": {
+      "title": "金竹満(かねだけみつる)",
+      "text": "金竹グループの社長。趣味はお金稼ぎ。"
+    },
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "hero",
+    "text": "満さん！いえいえすみません、お忙しい中ありがとうございます。で、どんなバイトを紹介してくださるんですか？",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "kanetake",
+    "text": "ここやここ、フランス料理屋やな",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "hero",
+    "text": "ええええええ！！？",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "jean_pierre",
+    "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。話は聞いてる、よろしく頼む。",
+    "position": "center",
+    "learningPoint": {
+      "title": "👨‍🍳Jean-Pierre（ジャン＝ピエール）",
+      "text": "レストラン「La Nouvelle Étoile」の Chef（料理長）"
+    },
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "kanetake",
+    "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "dialog",
+    "character": "jean_pierre",
+    "text": "フランス料理はそんなに甘くないぞ…。",
+    "position": "center",
+    "background": "restaurant"
+  },
+  {
+    "type": "tutorial",
+    "title": "事前解説 (Préparation)",
+    "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+    "pages": [
+      {
+        "title": "挨拶・基本コミュニケーション",
+        "type": "custom",
+        "text": "フランス語の基本の挨拶表現です。声に出して発音してみましょう。",
+        "headers": [
+          "フランス語",
+          "意味",
+          "発音"
+        ],
+        "rows": [
+          [
+            "Bonjour",
+            "おはよう・こんにちは",
+            "ボンジュール"
+          ],
+          [
+            "Merci",
+            "ありがとう",
+            "メルシー"
+          ],
+          [
+            "S'il vous plaît",
+            "お願いします",
+            "シル・ヴ・プレ"
+          ],
+          [
+            "Enchanté",
+            "はじめまして",
+            "アンシャンテ"
+          ]
+        ]
+      },
+      {
+        "title": "主語人称代名詞 (Les pronoms sujets)",
+        "referenceTopicId": "ref_subjects",
+        "sectionIndices": [
+          0
+        ]
+      },
+      {
+        "title": "動詞 être の現在形活用",
+        "type": "custom",
+        "text": "英語の be 動詞に相当する、状態や存在を表す最も重要な動詞です。",
+        "headers": [
+          "人称",
+          "活用形",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je",
+            "suis",
+            "スィ",
+            "Je suis nouveau. (私は新人です)"
+          ],
+          [
+            "tu",
+            "es",
+            "エ",
+            "Tu es prêt ? (君は準備できた？)"
+          ],
+          [
+            "il / elle",
+            "est",
+            "エ",
+            "Il est chef. (彼は料理長です)"
+          ],
+          [
+            "nous",
+            "sommes",
+            "ソム",
+            "Nous sommes prêts. (私たちは準備完了です)"
+          ],
+          [
+            "vous",
+            "êtes",
+            "エット",
+            "Vous êtes en retard. (あなたは遅刻です)"
+          ],
+          [
+            "ils / elles",
+            "sont",
+            "ソン",
+            "Ils sont dans la cuisine. (彼らは厨房にいます)"
+          ]
+        ]
+      },
+      {
+        "title": "動詞 avoir の現在形活用",
+        "type": "custom",
+        "text": "英語の have に相当する、所有や経験を表す極めて重要な動詞です。1人称単数 je の後ろでは、母音が衝突するため j'ai と縮約（エリジオン）します。",
+        "headers": [
+          "人称",
+          "活用形",
+          "発音",
+          "例文"
+        ],
+        "rows": [
+          [
+            "je (j')",
+            "ai",
+            "エ",
+            "J'ai un couteau. (私はナイフを持っています)"
+          ],
+          [
+            "tu",
+            "as",
+            "ア",
+            "Tu as une assiette. (君はお皿を持っています)"
+          ],
+          [
+            "il / elle",
+            "a",
+            "ア",
+            "Il a du temps. (彼は時間があります)"
+          ],
+          [
+            "nous",
+            "avons",
+            "アヴォン",
+            "Nous avons du sel. (私たちは塩を持っています)"
+          ],
+          [
+            "vous",
+            "avez",
+            "アヴェ",
+            "Vous avez du sucre. (あなたは砂糖を持っています)"
+          ],
+          [
+            "ils / elles",
+            "ont",
+            "オン",
+            "Ils ont des casseroles. (彼らは片手鍋を持っています)"
+          ]
+        ]
+      }
+    ]
+  }
+]
