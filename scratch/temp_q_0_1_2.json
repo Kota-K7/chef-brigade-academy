@@ -1,0 +1,21 @@
+{
+  "id": "q_0_1_2",
+  "tags": [
+    "#regional_culture",
+    "#A1"
+  ],
+  "text": "Bouillabaisse)を作るのに最適な食材の組み合わせを選べ。 (Quels ingrédients sont les meilleurs pour préparer une bouillabaisse ? (ブイヤベース)",
+  "options": [
+    "Poisson, tomate, ail, huile d'olive (魚・トマト・にんにく・オリーブオイル)",
+    "Bœuf, carotte, vin rouge, oignon (牛肉・にんじん・赤ワイン・玉ねぎ)",
+    "Aubergine, courgette, tomate, poivron (ナス・ズッキーニ・トマト・ピーマン)",
+    "Poulet, champignon, vin blanc, crème (鶏肉・きのこ・白ワイン・クリーム)"
+  ],
+  "answerIndex": 0,
+  "acceptedAnswers": [
+    "Poisson, tomate, ail, huile d'olive",
+    "poisson, tomate, ail, huile d'olive"
+  ],
+  "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。",
+  "type": "typing"
+}

@@ -2234,7 +2234,9 @@
     "answerIndex": 0,
     "acceptedAnswers": [
       "Tu es le chevalier de Camille.",
-      "tu es le chevalier de camille"
+      "tu es le chevalier de camille",
+      "es",
+      "Es"
     ],
     "explanation": "正解はA。「Tu es ～」はêtre（〜である）の二人称単数活用で、「君は〜です」という意味になります。",
     "type": "typing"
@@ -6158,7 +6160,11 @@
     "answerIndex": 0,
     "acceptedAnswers": [
       "Poisson, tomate, ail, huile d'olive",
-      "poisson, tomate, ail, huile d'olive"
+      "poisson, tomate, ail, huile d'olive",
+      "poisson",
+      "Poisson",
+      "A",
+      "a"
     ],
     "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。",
     "type": "typing"
@@ -9417,7 +9423,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "Je viens [___] Japon. (「私は日本出身です」の空欄に入る venir + le の縮約形を入力してください。)",
+    "text": "Je viens [___] Japon. (「私は日本出身です」の空欄に入る de + le の縮約形を入力してください。)",
     "acceptedAnswers": [
       "du"
     ],

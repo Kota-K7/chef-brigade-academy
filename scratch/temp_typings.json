@@ -1,0 +1,83 @@
+[
+  {
+    "id": "q_0_2_1_2",
+    "text": "Choisissez la bonne phrase. (「トマトを4個ください",
+    "acceptedAnswers": [
+      "Je voudrais quatre tomates.",
+      "je voudrais quatre tomates"
+    ]
+  },
+  {
+    "id": "q_0_2_1_3",
+    "text": "Choisissez la bonne phrase. (「玉ねぎを1個ください",
+    "acceptedAnswers": [
+      "Je voudrais un oignon.",
+      "je voudrais un oignon"
+    ]
+  },
+  {
+    "id": "q_0_2_2_1",
+    "text": "Choisissez le bon ingrédient pour la bou",
+    "acceptedAnswers": [
+      "poisson",
+      "Poisson"
+    ]
+  },
+  {
+    "id": "q_career_0_1_1",
+    "text": "Entrez la salutation standard du matin e",
+    "acceptedAnswers": [
+      "Bonjour",
+      "bonjour"
+    ]
+  },
+  {
+    "id": "q_career_0_1_2",
+    "text": "Entrez le mot pour [___]. (「ありがとう」を意味するフ",
+    "acceptedAnswers": [
+      "Merci",
+      "merci"
+    ]
+  },
+  {
+    "id": "q_career_0_1_4_d",
+    "text": "Entrez 'please' en français. (「お願いします」を意",
+    "acceptedAnswers": [
+      "S'il vous plaît",
+      "s'il vous plaît",
+      "sil vous plait"
+    ]
+  },
+  {
+    "id": "q_0_2_1_1",
+    "text": "Quel est le plus approprié ? (八百屋に対して、丁寧",
+    "acceptedAnswers": [
+      "Bonjour ! Je voudrais acheter des légumes.",
+      "bonjour ! je voudrais acheter des legumes."
+    ]
+  },
+  {
+    "id": "q_0_3_1_1",
+    "text": "Comment dit-on 'Help me, please' ? (「助けて",
+    "acceptedAnswers": [
+      "Aidez-moi, s'il vous plaît !",
+      "aidez-moi, s'il vous plaît !"
+    ]
+  },
+  {
+    "id": "q_0_3_2_5",
+    "text": "Traduisez: Hello, Madame. (「こんにちは、マダム」に当",
+    "acceptedAnswers": [
+      "Bonjour, Madame.",
+      "bonjour, madame"
+    ]
+  },
+  {
+    "id": "q_gr_01",
+    "text": "Entrez le mot correct. (« Bonjour, [___]",
+    "acceptedAnswers": [
+      "je",
+      "Je"
+    ]
+  }
+]

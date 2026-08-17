@@ -127,6 +127,42 @@
           "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
+              "title": "基本語順と平叙文・否定文の作り方",
+              "referenceTopicId": "ref_sentence_structure",
+              "sectionIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "title": "基本の平叙文 (自己紹介・出身)",
+              "type": "custom",
+              "text": "être や venir を使った、自己紹介や出身を表すもっとも基本的な平叙文（肯定文）です。",
+              "headers": [
+                "フランス語",
+                "意味",
+                "文法ポイント"
+              ],
+              "rows": [
+                [
+                  "Je suis japonais.",
+                  "私は日本人（男性）です。",
+                  "Je（私） ＋ êtreの活用 suis ＋ 国籍形容詞"
+                ],
+                [
+                  "Je viens du Japon.",
+                  "私は日本出身です。",
+                  "venirの活用 viens ＋ du（de + le の縮約） ＋ 国名"
+                ],
+                [
+                  "Je suis de Tokyo.",
+                  "私は東京出身です。",
+                  "êtreの活用 suis ＋ 前置詞 de ＋ 都市名"
+                ]
+              ]
+            },
+            {
               "title": "挨拶・基本コミュニケーション",
               "type": "custom",
               "text": "フランス語の基本の挨拶表現です。声に出して発音してみましょう。",

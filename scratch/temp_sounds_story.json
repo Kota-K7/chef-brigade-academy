@@ -1,0 +1,706 @@
+[
+  [
+    1,
+    "import { speakFrench } from '../utils/audio.js';"
+  ],
+  [
+    38,
+    "// Web Audio API lightweight synthesizer for zero-dependency retro SFX"
+  ],
+  [
+    39,
+    "let audioCtx = null;"
+  ],
+  [
+    40,
+    "function initAudio() {"
+  ],
+  [
+    41,
+    "if (!audioCtx) {"
+  ],
+  [
+    42,
+    "audioCtx = new (window.AudioContext || window.webkitAudioContext)();"
+  ],
+  [
+    46,
+    "function playBeep(freq, type, duration, volume = 0.06) {"
+  ],
+  [
+    48,
+    "initAudio();"
+  ],
+  [
+    49,
+    "if (!audioCtx || audioCtx.state === 'suspended') {"
+  ],
+  [
+    50,
+    "// Try to resume if suspended by browser auto-play policy"
+  ],
+  [
+    51,
+    "audioCtx.resume();"
+  ],
+  [
+    53,
+    "const osc = audioCtx.createOscillator();"
+  ],
+  [
+    54,
+    "const gain = audioCtx.createGain();"
+  ],
+  [
+    57,
+    "osc.frequency.setValueAtTime(freq, audioCtx.currentTime);"
+  ],
+  [
+    59,
+    "gain.gain.setValueAtTime(volume, audioCtx.currentTime);"
+  ],
+  [
+    60,
+    "gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);"
+  ],
+  [
+    63,
+    "gain.connect(audioCtx.destination);"
+  ],
+  [
+    66,
+    "osc.stop(audioCtx.currentTime + duration);"
+  ],
+  [
+    72,
+    "function playTypingSound() {"
+  ],
+  [
+    73,
+    "playBeep(780, 'sine', 0.03, 0.04);"
+  ],
+  [
+    76,
+    "function playCorrectSound() {"
+  ],
+  [
+    77,
+    "playBeep(523.25, 'sine', 0.08, 0.08); // C5"
+  ],
+  [
+    78,
+    "setTimeout(() => playBeep(659.25, 'sine', 0.15, 0.08), 80); // E5"
+  ],
+  [
+    81,
+    "function playWrongSound() {"
+  ],
+  [
+    82,
+    "playBeep(180, 'triangle', 0.3, 0.12);"
+  ],
+  [
+    85,
+    "function playHitSound() {"
+  ],
+  [
+    86,
+    "playBeep(110, 'sawtooth', 0.2, 0.1);"
+  ],
+  [
+    109,
+    "<div class=\"rpg-mode-tabs\" style=\"display: flex; gap: 0.8rem; justify-content: center; margin-bottom: 1.5rem; background: rgba(0,0,0,0.15); padding: 0.4rem; border-radius: var(--radius-sm); border: 1px solid rgba(197, 168, 128, 0.15); max-width: 480px; margin-left: auto; margin-right: auto;\">"
+  ],
+  [
+    114,
+    "<div class=\"chapter-list\" style=\"display: flex; justify-content: center; gap: 1.5rem; max-width: 600px; margin: 0 auto;\">"
+  ],
+  [
+    116,
+    "<div id=\"rpg-card-story\" class=\"story-chapter-card active-chapter\" style=\"display: none; width: 100%; flex-direction: column; gap: 1.5rem;\">"
+  ],
+  [
+    125,
+    "<div class=\"episode-list\" style=\"display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;\">"
+  ],
+  [
+    129,
+    "<span class=\"play-time\">⏱️ 5分 • A1基本挨拶 & 存在動詞</span>"
+  ],
+  [
+    131,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_0\" data-episode=\"career_ep_0_1\">開始する</button>"
+  ],
+  [
+    137,
+    "<span class=\"play-time\">⏱️ 5分 • 数字(1-20) & 複数名詞・冠詞</span>"
+  ],
+  [
+    139,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_0\" data-episode=\"career_ep_0_2\">開始する</button>"
+  ],
+  [
+    152,
+    "<div class=\"episode-list\" style=\"display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;\">"
+  ],
+  [
+    156,
+    "<span class=\"play-time\">⏱️ 5分 • 動詞3グループ & 規則・不規則動詞</span>"
+  ],
+  [
+    158,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_1\" data-episode=\"career_ep_1_1\">開始する</button>"
+  ],
+  [
+    164,
+    "<span class=\"play-time\">⏱️ 5分 • 疑問文・疑問詞 & 所有・指示形容詞</span>"
+  ],
+  [
+    166,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_1\" data-episode=\"career_ep_1_2\">開始する</button>"
+  ],
+  [
+    172,
+    "<span class=\"play-time\">⏱️ 5分 • 形容詞の性数一致・位置 & 部分冠詞</span>"
+  ],
+  [
+    174,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_1\" data-episode=\"career_ep_1_3\">開始する</button>"
+  ],
+  [
+    187,
+    "<div class=\"episode-list\" style=\"display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;\">"
+  ],
+  [
+    191,
+    "<span class=\"play-time\">⏱️ 5分 • 定冠詞の縮約 & 提示表現 c'est/ce sont</span>"
+  ],
+  [
+    193,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_2\" data-episode=\"career_ep_2_1\">開始する</button>"
+  ],
+  [
+    199,
+    "<span class=\"play-time\">⏱️ 5分 • 命令形 & 目的語人称代名詞</span>"
+  ],
+  [
+    201,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_2\" data-episode=\"career_ep_2_2\">開始する</button>"
+  ],
+  [
+    207,
+    "<span class=\"play-time\">⏱️ 5分 • 近接未来・過去 & 代名動詞（受動）</span>"
+  ],
+  [
+    209,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_2\" data-episode=\"career_ep_2_3\">開始する</button>"
+  ],
+  [
+    222,
+    "<div class=\"episode-list\" style=\"display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;\">"
+  ],
+  [
+    226,
+    "<span class=\"play-time\">⏱️ 5分 • 比較級・最上級 & 目的語代名詞の語順</span>"
+  ],
+  [
+    228,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_3\" data-episode=\"career_ep_3_1\">開始する</button>"
+  ],
+  [
+    234,
+    "<span class=\"play-time\">⏱️ 5分 • 複合過去 & 過去分詞の性数一致</span>"
+  ],
+  [
+    236,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_3\" data-episode=\"career_ep_3_2\">開始する</button>"
+  ],
+  [
+    242,
+    "<span class=\"play-time\">⏱️ 5分 • 半過去 & 関係代名詞・接続詞</span>"
+  ],
+  [
+    244,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"career_3\" data-episode=\"career_ep_3_3\">開始する</button>"
+  ],
+  [
+    251,
+    "<div id=\"rpg-card-history\" class=\"story-chapter-card active-chapter\" style=\"display: flex; width: 100%; flex-direction: column; justify-content: space-between;\">"
+  ],
+  [
+    259,
+    "<div class=\"episode-list\" style=\"display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;\">"
+  ],
+  [
+    263,
+    "<span class=\"play-time\">⏱️ 5分 • プロヴァンスの文化</span>"
+  ],
+  [
+    265,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"0\" data-episode=\"ep_0_1\">開始する</button>"
+  ],
+  [
+    271,
+    "<span class=\"play-time\">⏱️ 5分 • マルシェの語彙</span>"
+  ],
+  [
+    273,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"0\" data-episode=\"ep_0_2\">開始する</button>"
+  ],
+  [
+    279,
+    "<span class=\"play-time\">⏱️ 5分 • 日常会話フレーズ</span>"
+  ],
+  [
+    281,
+    "<button class=\"action-btn play-episode-btn\" data-chapter=\"0\" data-episode=\"ep_0_3\">開始する</button>"
+  ],
+  [
+    290,
+    "container.querySelectorAll('.play-episode-btn').forEach(btn => {"
+  ],
+  [
+    319,
+    "historyCard.style.display = 'flex';"
+  ],
+  [
+    320,
+    "storyCard.style.display = 'none';"
+  ],
+  [
+    322,
+    "historyCard.style.display = 'none';"
+  ],
+  [
+    323,
+    "storyCard.style.display = 'flex';"
+  ],
+  [
+    381,
+    "<div id=\"rpg-tutorial-overlay\" class=\"rpg-overlay\" style=\"display: none; flex-direction: column;\"></div>"
+  ],
+  [
+    387,
+    "<div id=\"rpg-dialog-pane\" class=\"rpg-dialog-pane\" style=\"display: none;\">"
+  ],
+  [
+    394,
+    "<div id=\"rpg-battle-pane\" class=\"rpg-battle-pane\" style=\"display: none;\"></div>"
+  ],
+  [
+    397,
+    "<div id=\"rpg-reward-pane\" class=\"rpg-reward-pane\" style=\"display: none;\"></div>"
+  ],
+  [
+    474,
+    "if (e.target.closest('button') || e.target.closest('.battle-question-box') || dialogPane.style.display === 'none') {"
+  ],
+  [
+    486,
+    "dialogPane.style.display = 'none';"
+  ],
+  [
+    487,
+    "battlePane.style.display = 'none';"
+  ],
+  [
+    488,
+    "rewardPane.style.display = 'none';"
+  ],
+  [
+    496,
+    "tutorialOverlay.style.display = 'flex';"
+  ],
+  [
+    549,
+    "return `<td style=\"padding: 0.4rem; text-align: center;\"><button class=\"play-audio-btn\" data-french=\"${speakText}\" style=\"background: none; border: none; cursor: pointer; font-size: 1.15rem; padding: 2px; line-height: 1; transition: transform 0.1s;\" onmouseover=\"this.style.transform='scale(1.2)'\" onmouseout=\"this.style.transform='scale(1)'\">🔊</button></td>`;"
+  ],
+  [
+    583,
+    "function bindAudioButtons(targetContainer) {"
+  ],
+  [
+    584,
+    "targetContainer.querySelectorAll('.play-audio-btn').forEach(btn => {"
+  ],
+  [
+    596,
+    "<div class=\"tutorial-card\" style=\"max-width: 600px; width: 95%; max-height: 360px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; padding: 1rem 1.2rem;\">"
+  ],
+  [
+    601,
+    "<ul style=\"list-style: none; padding-left: 0; display: flex; flex-direction: column; gap: 0.6rem; margin: 0;\">"
+  ],
+  [
+    602,
+    "${step.targets.map(t => `<li style=\"display: flex; gap: 0.4rem; line-height: 1.4; font-size: 0.85rem; font-weight: 500;\"><span style=\"color: var(--color-accent);\">🎯</span><span>${t}</span></li>`).join('')}"
+  ],
+  [
+    611,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    619,
+    "<div class=\"tutorial-card\" style=\"max-width: 650px; width: 95%; max-height: 280px; height: 74%; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; padding: 0.8rem 1.2rem; margin-bottom: 0;\">"
+  ],
+  [
+    629,
+    "<div class=\"tutorial-pager\" style=\"display: flex; align-items: center; justify-content: center; gap: 1.2rem; margin-top: 0.4rem; padding-top: 0.2rem; border-top: 1px solid rgba(0,0,0,0.05); user-select: none;\">"
+  ],
+  [
+    635,
+    "<button class=\"action-btn start-battle-btn\" style=\"display: none; width: 90%; max-width: 320px; padding: 0.65rem 1rem; font-weight: bold; margin-top: 0.8rem; background: var(--color-accent); font-size: 0.95rem; box-shadow: var(--shadow-md); border-radius: var(--radius-sm); border: none; color: white; cursor: pointer; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); transition: transform 0.15s;\" onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\">練習問題に挑戦する ⚔️</button>"
+  ],
+  [
+    683,
+    "bindAudioButtons(pageContentDiv);"
+  ],
+  [
+    691,
+    "startBattleBtn.style.display = 'block';"
+  ],
+  [
+    693,
+    "startBattleBtn.style.display = 'none';"
+  ],
+  [
+    718,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    729,
+    "<div class=\"tutorial-card\" style=\"max-width: 580px; width: 95%; max-height: 360px; box-sizing: border-box; padding: 1rem 1.2rem; display: flex; flex-direction: column; justify-content: space-between;\">"
+  ],
+  [
+    739,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    747,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    748,
+    "battlePane.style.display = 'none';"
+  ],
+  [
+    749,
+    "rewardPane.style.display = 'none';"
+  ],
+  [
+    750,
+    "dialogPane.style.display = 'block';"
+  ],
+  [
+    844,
+    "nameEl.style.display = 'none';"
+  ],
+  [
+    869,
+    "// Prep display text (Prepend name to dialogue text if speaking)"
+  ],
+  [
+    870,
+    "const displayText = char ? `${char.name}：${step.text}` : step.text;"
+  ],
+  [
+    874,
+    "fullTextToSkip = displayText;"
+  ],
+  [
+    880,
+    "if (charIndex < displayText.length) {"
+  ],
+  [
+    881,
+    "textBox.innerText += displayText[charIndex];"
+  ],
+  [
+    883,
+    "// Play very short clicks for character voices"
+  ],
+  [
+    885,
+    "playTypingSound();"
+  ],
+  [
+    897,
+    "dialogPane.style.display = 'none';"
+  ],
+  [
+    898,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    899,
+    "rewardPane.style.display = 'none';"
+  ],
+  [
+    902,
+    "battlePane.style.display = 'flex';"
+  ],
+  [
+    1193,
+    "let playerHp = 10;"
+  ],
+  [
+    1194,
+    "const maxPlayerHp = 10;"
+  ],
+  [
+    1242,
+    "<div style=\"display: flex; flex-direction: column; gap: 0.5rem; height: calc(100% - 40px); overflow: hidden;\">"
+  ],
+  [
+    1253,
+    "function displayRefTopic(idx) {"
+  ],
+  [
+    1290,
+    "return `<td style=\"padding: 0.3rem; text-align: center;\"><button class=\"ref-table-audio-btn\" data-speak=\"${frenchText}\" style=\"background: none; border: none; cursor: pointer; padding: 0; font-size: 0.85rem;\">🔊</button></td>`;"
+  ],
+  [
+    1305,
+    "contentDiv.querySelectorAll('.ref-table-audio-btn').forEach(audioBtn => {"
+  ],
+  [
+    1306,
+    "audioBtn.addEventListener('click', (e) => {"
+  ],
+  [
+    1308,
+    "const text = audioBtn.getAttribute('data-speak');"
+  ],
+  [
+    1357,
+    "displayRefTopic(initialTopicIdx);"
+  ],
+  [
+    1360,
+    "displayRefTopic(parseInt(e.target.value));"
+  ],
+  [
+    1367,
+    "playCorrectSound();"
+  ],
+  [
+    1385,
+    "if (playerHp <= 0) {"
+  ],
+  [
+    1386,
+    "playWrongSound();"
+  ],
+  [
+    1394,
+    "<div style=\"display: flex; gap: 1rem; margin-top: 1rem; width: 100%;\">"
+  ],
+  [
+    1429,
+    "<div class=\"hud-hp-fill player-hp\" style=\"width: ${(playerHp / maxPlayerHp) * 100}%\"></div>"
+  ],
+  [
+    1431,
+    "<span class=\"hud-value\">${playerHp} / ${maxPlayerHp}</span>"
+  ],
+  [
+    1451,
+    "<div class=\"battle-typing-area\" style=\"margin: 1rem 0; display: flex; flex-direction: column; gap: 0.6rem;\">"
+  ],
+  [
+    1457,
+    "<div class=\"battle-feedback-drawer\" id=\"battle-feedback\" style=\"display: none;\">"
+  ],
+  [
+    1495,
+    "<div class=\"scramble-sentence-bar\" style=\"min-height: 38px; border-bottom: 2px solid var(--color-accent); padding: 0.4rem; display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.8rem; background: rgba(255,255,255,0.05); border-radius: var(--radius-sm); font-size: 1rem; color: white;\"></div>"
+  ],
+  [
+    1497,
+    "<div class=\"scramble-words-pool\" style=\"display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.8rem; justify-content: center;\">"
+  ],
+  [
+    1501,
+    "<div style=\"display: flex; gap: 0.5rem;\">"
+  ],
+  [
+    1506,
+    "<div class=\"battle-feedback-drawer\" id=\"battle-feedback\" style=\"display: none; margin-top: 0.8rem;\">"
+  ],
+  [
+    1552,
+    "const displayPrompt = currentQ.clozeText || currentQ.text;"
+  ],
+  [
+    1553,
+    "const cleanPrompt = displayPrompt.replace(/\\[([^\\]]+)\\]/g, '_______');"
+  ],
+  [
+    1569,
+    "<div class=\"battle-typing-area\" style=\"margin: 1rem 0; display: flex; flex-direction: column; gap: 0.6rem;\">"
+  ],
+  [
+    1577,
+    "<div class=\"battle-feedback-drawer\" id=\"battle-feedback\" style=\"display: none; margin-top: 0.8rem;\">"
+  ],
+  [
+    1620,
+    "<div class=\"matching-columns-container\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; max-height: 160px; overflow-y: auto; padding: 0.2rem;\">"
+  ],
+  [
+    1621,
+    "<div class=\"left-match-col\" style=\"display: flex; flex-direction: column; gap: 0.4rem;\">"
+  ],
+  [
+    1624,
+    "<div class=\"right-match-col\" style=\"display: flex; flex-direction: column; gap: 0.4rem;\">"
+  ],
+  [
+    1629,
+    "<div class=\"battle-feedback-drawer\" id=\"battle-feedback\" style=\"display: none; margin-top: 0.8rem;\">"
+  ],
+  [
+    1658,
+    "playBeep(440, 'sine', 0.1, 0.1);"
+  ],
+  [
+    1671,
+    "playCorrectSound();"
+  ],
+  [
+    1676,
+    "feedbackDiv.style.display = 'block';"
+  ],
+  [
+    1684,
+    "playWrongSound();"
+  ],
+  [
+    1685,
+    "playerHp = Math.max(0, playerHp - 1);"
+  ],
+  [
+    1700,
+    "if (playerHp <= 0) {"
+  ],
+  [
+    1712,
+    "const playerFill = battlePane.querySelector('.player-hp');"
+  ],
+  [
+    1714,
+    "if (playerFill) playerFill.style.width = `${(playerHp / maxPlayerHp) * 100}%`;"
+  ],
+  [
+    1715,
+    "if (hudVal) hudVal.innerText = `${playerHp} / ${maxPlayerHp}`;"
+  ],
+  [
+    1766,
+    "<div class=\"battle-feedback-drawer\" id=\"battle-feedback\" style=\"display: none;\">"
+  ],
+  [
+    1801,
+    "playCorrectSound();"
+  ],
+  [
+    1817,
+    "playWrongSound();"
+  ],
+  [
+    1818,
+    "playHitSound();"
+  ],
+  [
+    1819,
+    "playerHp = Math.max(0, playerHp - step.enemyDamage);"
+  ],
+  [
+    1833,
+    "feedbackDiv.style.display = 'block';"
+  ],
+  [
+    1851,
+    "playCorrectSound();"
+  ],
+  [
+    1867,
+    "playWrongSound();"
+  ],
+  [
+    1868,
+    "playHitSound();"
+  ],
+  [
+    1869,
+    "playerHp = Math.max(0, playerHp - 2);"
+  ],
+  [
+    1883,
+    "feedbackDiv.style.display = 'block';"
+  ],
+  [
+    1893,
+    "playCorrectSound();"
+  ],
+  [
+    1909,
+    "playWrongSound();"
+  ],
+  [
+    1910,
+    "playHitSound();"
+  ],
+  [
+    1911,
+    "playerHp = Math.max(0, playerHp - 2);"
+  ],
+  [
+    1925,
+    "feedbackDiv.style.display = 'block';"
+  ],
+  [
+    1932,
+    "dialogPane.style.display = 'none';"
+  ],
+  [
+    1933,
+    "battlePane.style.display = 'none';"
+  ],
+  [
+    1934,
+    "tutorialOverlay.style.display = 'none';"
+  ],
+  [
+    1937,
+    "rewardPane.style.display = 'block';"
+  ],
+  [
+    1959,
+    "<img src=\"${rewardImgUrl}\" alt=\"Reward Image\" style=\"width: 100%; height: auto; display: block;\" />"
+  ],
+  [
+    1962,
+    "<div style=\"background: rgba(197, 168, 128, 0.08); border: 1px solid rgba(197, 168, 128, 0.25); border-radius: var(--radius-sm); padding: 0.8rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; gap: 0.8rem;\">"
+  ],
+  [
+    1984,
+    "<div class=\"stamp-ink-overlay\" style=\"display: none;\">"
+  ],
+  [
+    2002,
+    "stampOverlay.style.display = 'flex';"
+  ],
+  [
+    2005,
+    "// Play hit sound and shake screen"
+  ],
+  [
+    2006,
+    "playHitSound();"
+  ],
+  [
+    2047,
+    "<div class=\"end-actions-wrapper\" style=\"display: flex; flex-direction: column; gap: 1rem; width: 100%;\">"
+  ]
+]

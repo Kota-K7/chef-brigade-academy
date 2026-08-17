@@ -390,7 +390,7 @@ history_ch0_pool = [
             "Poulet, champignon, vin blanc, crème (鶏肉・きのこ・白ワイン・クリーム)"
         ],
         "answerIndex": 0,
-        "acceptedAnswers": ["Poisson, tomate, ail, huile d'olive", "poisson, tomate, ail, huile d'olive"],
+        "acceptedAnswers": ["Poisson, tomate, ail, huile d'olive", "poisson, tomate, ail, huile d'olive", "poisson", "Poisson", "A", "a"],
         "explanation": "正解はA。ブイヤベースはマルセイユ発祥の魚介料理で、魚（poisson）、トマト、にんにく、オリーブオイル、玉ねぎ、サフランなどが使われます。"
     },
     {
@@ -404,7 +404,7 @@ history_ch0_pool = [
             "Tu fait le chevalier de Camille."
         ],
         "answerIndex": 0,
-        "acceptedAnswers": ["Tu es le chevalier de Camille.", "tu es le chevalier de camille"],
+        "acceptedAnswers": ["Tu es le chevalier de Camille.", "tu es le chevalier de camille", "es", "Es"],
         "explanation": "正解はA。「Tu es ～」はêtre（〜である）の二人称単数活用で、「君は〜です」という意味になります。"
     },
     {

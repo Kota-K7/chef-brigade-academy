@@ -1944,10 +1944,14 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     localStorage.setItem(`cba_story_${episode.episodeId}_cleared`, 'true');
 
     // 1. Determine Reward Image URL
-    const isCareer = episode.episodeId.startsWith('career_');
-    const rewardImgUrl = isCareer 
-      ? 'assets/story/career_story/group_photo.webp'
-      : 'assets/story/chapter_0/bg_after_battle.webp';
+    let rewardImgUrl = 'assets/story/chapter_0/bg_after_battle.webp';
+    if (episode.episodeId === 'career_ep_1_3') {
+      rewardImgUrl = 'assets/story/career_story/saeki_young.jpg';
+    } else if (episode.episodeId === 'career_ep_4_4') {
+      rewardImgUrl = 'assets/story/career_story/pierre_kanetake_young.jpg';
+    } else if (episode.episodeId.startsWith('career_')) {
+      rewardImgUrl = 'assets/story/career_story/group_photo.webp';
+    }
 
     // 2. Render Stage 1: Reward Image Presentation
     rewardPane.innerHTML = `
@@ -2002,8 +2006,15 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         stampOverlay.style.display = 'flex';
         stampOverlay.classList.add('animate-stamp-stomp');
         
-        // Play hit sound and shake screen
+        // Play victory MP3 and stomp sound
         playHitSound();
+        try {
+          const audio = new Audio('assets/audio/universfield-level-passed-143039.mp3');
+          audio.volume = 0.4;
+          audio.play().catch(err => console.log('Audio autoplay prevented:', err));
+        } catch (e) {
+          console.warn('Audio playback failed:', e);
+        }
         viewport.classList.add('shake-vfx');
         setTimeout(() => viewport.classList.remove('shake-vfx'), 450);
       }, 700);

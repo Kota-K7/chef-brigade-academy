@@ -67,6 +67,7 @@ export function renderSettings() {
         ✓ Paramètres enregistrés avec succès ! (Settings saved successfully!)
       </div>
 
+
       <!-- 5. Share App -->
       <div style="border-top: 1px solid rgba(0,0,0,0.05); padding-top: 1.5rem; margin-top: 1rem;">
         <h4 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--color-primary); margin-bottom: 0.5rem;">Partager l'Académie</h4>

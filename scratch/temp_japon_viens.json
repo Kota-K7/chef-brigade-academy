@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_mixed_add_17",
+    "tags": [
+      "#mixed",
+      "#A1"
+    ],
+    "type": "scramble",
+    "text": "Remettez en ordre. (「私は日本から来ました」となるように並び替えてください。)",
+    "words": [
+      "Je",
+      "viens",
+      "du",
+      "Japon."
+    ],
+    "answer": "Je viens du Japon.",
+    "explanation": "「Je viens du Japon.」の順になります。"
+  },
+  {
+    "id": "q_gr_18",
+    "tags": [
+      "#greetings",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Je viens [___] Japon. (「私は日本出身です」の空欄に入る venir + le の縮約形を入力してください。)",
+    "acceptedAnswers": [
+      "du"
+    ],
+    "explanation": "venir + du (de + le) Japon で「日本出身です」となります。"
+  },
+  {
+    "id": "q_causative_04",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Choisissez le verbe correct : 'Cette sauce me fait ___ au Japon.' (このソースは私に日本を思い起こさせます)",
+    "options": [
+      "penser",
+      "cuisiner",
+      "aimer",
+      "venir"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "penser"
+    ],
+    "explanation": "faire penser à... で「〜を考えさせる/思い起こさせる」という使役表現になります。"
+  }
+]
