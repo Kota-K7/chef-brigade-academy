@@ -282,6 +282,41 @@ async function renderChapterSelector(container) {
             </div>
           </div>
         </div>
+        
+        <!-- Chapter 1 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid var(--color-primary); margin-top: 1.5rem;">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: var(--color-primary); color: white;">Chapter 1</span>
+            <h3>第1章: ガリア戦記、開幕！</h3>
+          </div>
+          <p class="chapter-desc">ガリア戦記の幕開けと、基本的な動詞活用、疑問文の基礎を学びます。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第1-1話: ハゲ頭の総司令官</h4>
+                <span class="play-time">⏱️ 5分 • 第一・第二群規則動詞の現在形</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-2話: カエサル夜の大特訓会</h4>
+                <span class="play-time">⏱️ 5分 • 主要不規則動詞の活用</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-3話: 倒れた通訳〜ガリア農村へ〜</h4>
+                <span class="play-time">⏱️ 5分 • 疑問文・疑問詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_3">開始する</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   `;
@@ -1945,10 +1980,16 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
 
     // 1. Determine Reward Image URL
     let rewardImgUrl = 'assets/story/chapter_0/bg_after_battle.webp';
-    if (episode.episodeId === 'career_ep_1_3') {
-      rewardImgUrl = 'assets/story/career_story/saeki_young.jpg';
+    if (episode.episodeId === 'career_ep_0_2') {
+      rewardImgUrl = 'assets/story/career_story/kanetake.webp';
+    } else if (episode.episodeId === 'career_ep_1_3') {
+      rewardImgUrl = 'assets/story/career_story/saeki_reward.webp';
+    } else if (episode.episodeId === 'career_ep_2_3') {
+      rewardImgUrl = 'assets/story/career_story/elodie_reward.webp';
+    } else if (episode.episodeId === 'career_ep_3_3') {
+      rewardImgUrl = 'assets/story/career_story/gael_sweets.webp';
     } else if (episode.episodeId === 'career_ep_4_4') {
-      rewardImgUrl = 'assets/story/career_story/pierre_kanetake_young.jpg';
+      rewardImgUrl = 'assets/story/career_story/pierre_kanetake_young.webp';
     } else if (episode.episodeId.startsWith('career_')) {
       rewardImgUrl = 'assets/story/career_story/group_photo.webp';
     }

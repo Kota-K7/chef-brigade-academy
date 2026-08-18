@@ -1,0 +1,2037 @@
+{
+  "chapterId": "ch_1",
+  "chapterTitle": "第1章: ガリア戦記、開幕！",
+  "notes": "ガリア戦記の幕開けと、基本的な動詞活用、疑問文の基礎を学びます。",
+  "episodes": [
+    {
+      "episodeId": "ep_1_1",
+      "episodeTitle": "第1-1話: ハゲ頭の総司令官",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
+        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
+        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
+        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
+        "forest": "url('assets/story/chapter_1/森.webp')",
+        "village": "url('assets/story/chapter_1/村.webp')",
+        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "fabius": {
+          "name": "ファビウス",
+          "images": {
+            "default": "assets/story/chapter_1/ファビウス直立.webp",
+            "normal": "assets/story/chapter_1/ファビウス直立.webp",
+            "book": "assets/story/chapter_1/ファビウス本.webp",
+            "sick": "assets/story/chapter_1/ファビウス病.webp"
+          }
+        },
+        "caesar": {
+          "name": "カエサル",
+          "images": {
+            "default": "assets/story/chapter_1/カエサル.webp",
+            "normal": "assets/story/chapter_1/カエサル.webp",
+            "tehepero": "assets/story/chapter_1/カエサルてへぺろ.webp",
+            "halo": "assets/story/chapter_1/カエサル後光.webp",
+            "arms_crossed": "assets/story/chapter_1/カエサル腕組.webp",
+            "dismount": "assets/story/chapter_1/カエサル降馬a.webp",
+            "angry": "assets/story/chapter_1/カエサル静かな怒り.webp",
+            "bald_sparkle": "assets/story/chapter_1/カエサル頭の輝き.webp",
+            "surprised": "assets/story/chapter_1/カエサル驚き.webp"
+          }
+        },
+        "labienus": {
+          "name": "ティトゥス・ラヴィエヌス",
+          "images": {
+            "default": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "normal": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "scold": "assets/story/chapter_1/ラヴィエヌス副司令官喝.webp",
+            "arms_crossed": "assets/story/chapter_1/ラヴィエヌス副司令官腕組.webp",
+            "angry": "assets/story/chapter_1/ラヴィエヌス副司令官静かな怒り.webp",
+            "disappointed": "assets/story/chapter_1/ラヴィエヌス呆れ.webp",
+            "disappointed_bw": "assets/story/chapter_1/ラヴィエヌス呆れ白黒.webp"
+          }
+        },
+        "vercingetorix": {
+          "name": "ウェルキンゲトリクス",
+          "images": {
+            "default": "assets/story/chapter_1/エイダン直立.webp",
+            "normal": "assets/story/chapter_1/エイダン直立.webp"
+          }
+        },
+        "girl": {
+          "name": "小さな娘",
+          "images": {
+            "default": "assets/story/chapter_1/村娘.webp",
+            "normal": "assets/story/chapter_1/村娘.webp"
+          }
+        },
+        "old_woman": {
+          "name": "老婆",
+          "images": {
+            "default": "assets/story/chapter_1/村おばあちゃん.webp",
+            "normal": "assets/story/chapter_1/村おばあちゃん.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "約5分）",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "???：「水か、食料をくれ！！」\n— De l’eau, ou de la nourriture, s’il vous plaît !!\n（ドゥ ロー、ウ ドゥ ラ ヌリトュール、シル ヴ プレ）\n「水を頼む、半分でいい！！！」\n（ドゥ ロー、ジュ トン プリ！ ラ モワティエ スュフィラ）\nje t’en prie＝「お願いだ、頼む！」。t’ は te（君に）、en はここでは「それを／そのうちの」という代名詞。La moitié＝「半分」、suffira＝「十分だろう」",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "suffire「十分である」の未来形。つまり La moitié suffira.＝「半分で十分だ」",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "半分でいい！」\n「君も優しいガリア人なのだな…！」\n（トワ オスィ、テュ エ アン・ジャンティ・ガロワ…）\ntoi aussi＝「君も」。tu es＝「君は〜だ",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "être「〜である」の tu に対する活用。un gentil Gaulois＝「優しいガリア人」。gentil は「優しい／親切な」、Gaulois は「ガリア人」。Toi aussi を文頭に置くことで、「君もまた……！」という感情のこもった言い方になる。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": [],
+          "learningPoint": {
+            "title": "de l’eau",
+            "text": "「水を」 / ou＝「または、〜か」 / de la nourriture＝「食料を」 / s’il vous plaît＝「お願いします」。s’il vous plaît は直訳すると「それがあなたを喜ばせるなら」ですが、初級では「お願いします」と覚えればOK。ここでは「くれ！！」という命令に近い叫びに、s’il vous plaît を付けて「頼むから、水か食料をくれ！」という感じ。\nDe l’eau, je t’en prie ! La moitié suffira !!!\nToi aussi, tu es un gentil Gaulois… !"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "んにゃむにゃ…。はっ！！俺としたことがローマ軍の自分が異国人になる夢を見るとは。考え過ぎたか",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └ここは紀元前50年ごろのガリア(Gallia)。今の北イタリア、フランス、ドイツ、ベルギーなどにわたる範囲。本アプリではフランス語話者生活圏として解釈およびストーリー編纂を行っています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Bonjour（ボンジュール）！ 朝の気分はどうだい？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └ファビウス。ローマ軍軍団兵。ガリア語(フランス語を勉強中)"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "なっ、ファビウス、それは敵国の言葉か？",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ファビウス: 「そーだよ。『己を知り、敵を知れば百戦危うからずや』でしょ？ これからガリア語を話す機会も増えるから、まずは一番よく使う基本の動詞から覚えようよ！」\n---",
+          "position": "center",
+          "background": "camp_morning",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "第一・第二群規則動詞の現在形",
+              "referenceTopicId": "ref_verb_groups",
+              "sectionIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "title": "直説法現在",
+              "referenceTopicId": "ref_present_indicative",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ファビウスの小テスト / 朝のガリア語準備運動",
+          "enemyHp": 5,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#regular_verbs_1_2",
+              "count": 3
+            },
+            {
+              "tag": "#indicative_present",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（カンカンカンカン）「全軍集合！本日の軍行について確認をする」陣営に鐘の音が響き渡り、兵士たちが慌ただしく整列する。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "お、いかなきゃみたいだな",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "そうだね",
+          "position": "center",
+          "expression": "book",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "book",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "おはよう諸君、気分はどうかね。本日の軍行について説明する",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └Titus Labienus ティトゥス・ラヴィエヌス(BC100年頃〜BC45年) カエサル配下で最も優秀とされた副司令官。ガリア戦争で数々の勝利に貢献したが、正史では後にカエサルと決別してポンペイウス側につき、ムンダの戦いで戦死した。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "本日からガリア人区域に入る",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（いよいよか...。）",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "したがって、予期せぬゲリラ戦なども想定される。各々気を抜かないようにしたまえ。また、ローマからの援軍と先日合流した。そのため、部隊拡大と共に新しい総司令官を紹介する…。こちらへどうぞ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "うむ",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "(ごくり...。)",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "私の名前はシーザー・カエサル、皇帝になる男だ",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └Gaius Iulius Caesar ガイウス・シーザー・カエサル。ローマの偉大な皇帝の1人で、July (英語7月)やKaiser (ドイツ語皇帝)の語源由来になった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（はっ、禿げてる…。）",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "お前たち今何考えた？？？まさかこの『総司令官禿げてね』とか考えていたんじゃないだろうな？？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（心読まれてるーーー！！？？？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "なぁ？どうなんだよ。回答によっちゃ切り伏せるぞ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（ま、まずい）",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └（沈黙）"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "...........",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "なんてね。ウッソーー！！",
+          "position": "center",
+          "expression": "tehepero",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "tehepero",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "えええええええええええ",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "気にするでないぞ、冗談だ冗談wwww 民の心労を図り、政治取引に身を裂かれ、激務と戦闘に追われれば髪ぐらいなくなるだろう？ それに…。ローマの平穏が守れるなら、髪ぐらい安いものさ！私は自分の禿キャラを誇りに思っておる。民の心をつかむのにも、役に立つしな",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "すみませんでしたっっ！！！！！一生ついていきます、カエサル総司令官！！！！！！",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "良いのだ、良いのだ。では、ラヴィエヌス副司令官。本日の軍行の説明を頼む。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "御意。先に申したように、この先はガリア人の森だ。未知の動物、民族、敵がいつ現れてもおかしくない。また、一か月前にここらを訪れた先方隊からの連絡が一週間前より途絶えている…。悲しいがおそらく彼らは、ガリア民族に襲われたものと考えている。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "(ごくり)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "以上だ。しばらく野営になるので準備を忘れないように。……何か質問がある人は？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "せんせー、おやつは何円までですかー？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル殿…？",
+          "position": "center",
+          "expression": "disappointed",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "disappointed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おいっそこの兵士、貴様も続け、ラヴィエヌスを困らせるのじゃ(小声)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "え、えぇ…。せんせー、ゲームは持ち込み可能ですか？(ごめんなさいごめんなさいごめんなさい....)",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……",
+          "position": "center",
+          "expression": "disappointed_bw",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "disappointed_bw",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おいっ次は貴様だ。続け、続け！(小声)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ぼ、僕ですか！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "そうだそうだ、早く早く(小声)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "せっせんせー…バナナはおやつに入りますか（震え)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "貴様らッ！！ふざけるのも大概にせいッ！！ 今、ふざけた質問をぬかした最後のものは前に出ろ！見せしめの懲罰じゃ",
+          "position": "center",
+          "expression": "scold",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "scold",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ええ…！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "うけるｗｗｗ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "カエサルさん許さねえぇぇ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル殿も責任をとってもらいますぞ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "ええええええええええ～！！わしも！！！！？？？ これでも総司令官なんだけど…。",
+          "position": "center",
+          "expression": "surprised",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "surprised",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "カエサルさん…。仲良く特訓しましょうね(にっこり)",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "そーえば、この中でガリア語を少しでも学んでる者はいるか？",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（小声）ファビウス、呼ばれてるぞ」",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "えぇ…。はっハイ僕は学んでいます！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "よろしい。では貴様と…、その横のお前は友人のようだな？お前ら二人には私と共に先頭部隊で軍行してもらう。",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "はっはい！！（やべーやべー）",
+          "position": "center",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "ふむ、若い一般兵がカエサル様のおつきとは何と幸福な。おぬしら粗相の無いよう気張れ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "と、いうわけで通訳のお前たちよ。私も少しはガリア語を学んでおこう。まずは基本的な語句や文法を",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "みんなで勉強中",
+          "position": "center",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "…。…。はい！ 動詞の形（活用）を変えるんです",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Je parle.（私は話す）",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "Nous parlons.（私たちは話す）、だな？ 語尾が変わるのか、面白い！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "主人公: 「よし、この調子で野営の仕込みの指示出しもフランス語で練習しましょう！」\n---",
+          "position": "center",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "動詞活用の規則変化パターン",
+              "referenceTopicId": "ref_conjugation_patterns",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "激おこ副司令官ラヴィエヌス / 野営のガリア語物資リスト解読",
+          "enemyHp": 8,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#verb_conjugation_patterns",
+              "count": 4
+            },
+            {
+              "tag": "#indicative_present",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "はあ……なんとかフランス語の練習とリスト確認が終わった……",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "ふふ、すまなかったな！ ほれ、こっそり取っておいたワインと干し肉だ。食え！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "総司令官……！ （無茶苦茶だけど、なんだかんだで良い人だ……）",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……カエサル殿。貴方という人は本当に……",
+          "position": "center",
+          "expression": "arms_crossed",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "arms_crossed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": "ep_1_2"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_1_2",
+      "episodeTitle": "第1-2話: カエサル夜の大特訓会",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
+        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
+        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
+        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
+        "forest": "url('assets/story/chapter_1/森.webp')",
+        "village": "url('assets/story/chapter_1/村.webp')",
+        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "fabius": {
+          "name": "ファビウス",
+          "images": {
+            "default": "assets/story/chapter_1/ファビウス直立.webp",
+            "normal": "assets/story/chapter_1/ファビウス直立.webp",
+            "book": "assets/story/chapter_1/ファビウス本.webp",
+            "sick": "assets/story/chapter_1/ファビウス病.webp"
+          }
+        },
+        "caesar": {
+          "name": "カエサル",
+          "images": {
+            "default": "assets/story/chapter_1/カエサル.webp",
+            "normal": "assets/story/chapter_1/カエサル.webp",
+            "tehepero": "assets/story/chapter_1/カエサルてへぺろ.webp",
+            "halo": "assets/story/chapter_1/カエサル後光.webp",
+            "arms_crossed": "assets/story/chapter_1/カエサル腕組.webp",
+            "dismount": "assets/story/chapter_1/カエサル降馬a.webp",
+            "angry": "assets/story/chapter_1/カエサル静かな怒り.webp",
+            "bald_sparkle": "assets/story/chapter_1/カエサル頭の輝き.webp",
+            "surprised": "assets/story/chapter_1/カエサル驚き.webp"
+          }
+        },
+        "labienus": {
+          "name": "ティトゥス・ラヴィエヌス",
+          "images": {
+            "default": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "normal": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "scold": "assets/story/chapter_1/ラヴィエヌス副司令官喝.webp",
+            "arms_crossed": "assets/story/chapter_1/ラヴィエヌス副司令官腕組.webp",
+            "angry": "assets/story/chapter_1/ラヴィエヌス副司令官静かな怒り.webp",
+            "disappointed": "assets/story/chapter_1/ラヴィエヌス呆れ.webp",
+            "disappointed_bw": "assets/story/chapter_1/ラヴィエヌス呆れ白黒.webp"
+          }
+        },
+        "vercingetorix": {
+          "name": "ウェルキンゲトリクス",
+          "images": {
+            "default": "assets/story/chapter_1/エイダン直立.webp",
+            "normal": "assets/story/chapter_1/エイダン直立.webp"
+          }
+        },
+        "girl": {
+          "name": "小さな娘",
+          "images": {
+            "default": "assets/story/chapter_1/村娘.webp",
+            "normal": "assets/story/chapter_1/村娘.webp"
+          }
+        },
+        "old_woman": {
+          "name": "老婆",
+          "images": {
+            "default": "assets/story/chapter_1/村おばあちゃん.webp",
+            "normal": "assets/story/chapter_1/村おばあちゃん.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "約5分）",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カエサル軍の野営地 / 朝]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おはよう諸君！ 素晴らしい朝だ！ さあ、私と一緒に地獄の朝トレーニング『カエサル・ブートキャンプ』を始めようではないか！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "遠慮しておきます（即答）」 カエサル：「即答！？ 少しは悩む素振りを見せろ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル殿、遊んでいる暇はありませんぞ。主人公とファビウスは『通訳兼野営係』として、昨日仕留めたジビエ（野生鳥獣）の解体と調理の仕込みがあります」 ファビウス：「ということで、朝トレはパスさせていただきます！料理といえば、ガリア語の第2群・第3群動詞の出番だね」 ファビウス：「Je choisis la viande.（私は肉を選ぶ）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "「こっちは不規則に変化する第3群か……Je prends le couteau.（私はナイフを取る）」 └ 説明行: フランス語の動詞は大きく3つのグループに分かれます。第2群（-ir）と、第3群（不規則動詞",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "動詞の3つのグループ",
+              "referenceTopicId": "ref_verb_groups",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "山積みのジビエ / 第2・3群動詞の解読",
+          "enemyHp": 5,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#three_verb_groups",
+              "count": 3
+            },
+            {
+              "tag": "#regular_verbs_1_2",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "[背景:森]\nガリアの森を軍行進中",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "……っ！ 誰かいます！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "何事だ！ 敵襲か！？」 主人公：「あそこです！ 人影（ひとかげ）ですっ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "なんだと！？ ヒトカゲだと！？ しっぽの炎が消えないように、モンスターボールで丁重に捕獲するのじゃ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……カエサル殿、『人影』ですぞ",
+          "position": "center",
+          "expression": "arms_crossed",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "arms_crossed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おお、すまんすまん、すまん。ボケたくなってしまっての",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "……随分と余裕だな",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "森]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "なっ……いつの間に目の前に！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「むむ？誰だ？？昨日練習したガリア語で話しかけてみるか……Qui es-tu ? Je m'appelle César.（何者だ？ 私はカエサルだ）」 ウェルキンゲトリクス：「Je sais. Je suis Vercingétorix.（知っている。私はウェルキンゲトリクスだ）」└Vercingetorix ウェルキンゲトリクス。ガリア人の王で、ローマの将軍ユリウス・カエサルによるガリア征服に最後まで抵抗した英雄。紀元前52年、諸部族をまとめてローマ軍に挑み、アレシアの戦いで敗北して降伏するも、後世フランスの民族的英雄として語り継がれている。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "Tu es gaulois ?（お前はガリア人か？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Oui, je suis gaulois. Tu es romain.（ああ、ガリア人だ。お前はローマ人だな） カエサル：「す、すまない。そろそろ私の付け焼き刃のガリア語では会話が取れなくなる",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "「……フッ。ではローマの言葉でしゃべろうか、ローマの将軍」 カエサル：「ほう、ローマの言葉が話せるのか」 ウェルキンゲトリクス：「お前たちの先遣隊には、色々と『聞かせてもらった』からな。口を割らせるのには少し骨が折れたが」 主人公：「（拷問して情報を抜いたってことか……！ 一ヶ月前の先遣隊はやっぱり……）」 ウェルキンゲトリクス：「私らとて無用な争いは好まぬ。命が惜しくば、帰れ、ローマの民よ。ここから300km先まで踏み込んできた場合……その時は完全なる『敵』とみなし、焦土作戦をも辞さない」 カエサル：「……」 ウェルキンゲトリクス：「警告はしたぞ。……Adieu（さらばだ）」 ナレーション: そう言い残すと、若き英雄は夜の闇に溶けるように姿を消した。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "森]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル殿！ 今の男は……！」 カエサル：「あ奴、名乗ったぞ。ウェルキンゲトリクスだと」 ティトゥス・ラヴィエヌス：「あの長髪の……おそらく、点在するガリア部族を束ねようとしている長かと。先遣隊の件もあります、ただの蛮族ではありませんぞ」 カエサル：「うむ。どうやらこの森にはすでに奴らの目が光っているようだな。」 カエサル：「奴らの不規則な動き（第3群動詞）にも対応できるよう、これより『カエサル夜の大特訓会』を開催する！ ローマ兵の誇りを叩き直してやる！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "主要不規則動詞の活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ハゲ頭の総司令官カエサル / 動詞活用・千本ノック",
+          "enemyHp": 8,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#irregular_verbs_major",
+              "count": 4
+            },
+            {
+              "tag": "#three_verb_groups",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "野営地/ 夜]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "ぜぇ……ぜぇ……もう、動け、ない……",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "ふははは！ だらしがないぞ！ だが、これでいざという時、ガリア兵の複雑な言葉にも対応できるはずだ」 ファビウス：「お疲れ様……。ほら、朝に仕込んでおいたジビエの煮込みだよ」 主人公：「美味い……五臓六腑に染み渡る……。でも、あのウェルキンゲトリクス……。300km先っていったら、アウァーリクム方面の先か。明日からもっと気を引き締めないと",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": "ep_1_3"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_1_3",
+      "episodeTitle": "第1-3話: 倒れた通訳〜ガリア農村へ〜",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
+        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
+        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
+        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
+        "forest": "url('assets/story/chapter_1/森.webp')",
+        "village": "url('assets/story/chapter_1/村.webp')",
+        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "fabius": {
+          "name": "ファビウス",
+          "images": {
+            "default": "assets/story/chapter_1/ファビウス直立.webp",
+            "normal": "assets/story/chapter_1/ファビウス直立.webp",
+            "book": "assets/story/chapter_1/ファビウス本.webp",
+            "sick": "assets/story/chapter_1/ファビウス病.webp"
+          }
+        },
+        "caesar": {
+          "name": "カエサル",
+          "images": {
+            "default": "assets/story/chapter_1/カエサル.webp",
+            "normal": "assets/story/chapter_1/カエサル.webp",
+            "tehepero": "assets/story/chapter_1/カエサルてへぺろ.webp",
+            "halo": "assets/story/chapter_1/カエサル後光.webp",
+            "arms_crossed": "assets/story/chapter_1/カエサル腕組.webp",
+            "dismount": "assets/story/chapter_1/カエサル降馬a.webp",
+            "angry": "assets/story/chapter_1/カエサル静かな怒り.webp",
+            "bald_sparkle": "assets/story/chapter_1/カエサル頭の輝き.webp",
+            "surprised": "assets/story/chapter_1/カエサル驚き.webp"
+          }
+        },
+        "labienus": {
+          "name": "ティトゥス・ラヴィエヌス",
+          "images": {
+            "default": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "normal": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "scold": "assets/story/chapter_1/ラヴィエヌス副司令官喝.webp",
+            "arms_crossed": "assets/story/chapter_1/ラヴィエヌス副司令官腕組.webp",
+            "angry": "assets/story/chapter_1/ラヴィエヌス副司令官静かな怒り.webp",
+            "disappointed": "assets/story/chapter_1/ラヴィエヌス呆れ.webp",
+            "disappointed_bw": "assets/story/chapter_1/ラヴィエヌス呆れ白黒.webp"
+          }
+        },
+        "vercingetorix": {
+          "name": "ウェルキンゲトリクス",
+          "images": {
+            "default": "assets/story/chapter_1/エイダン直立.webp",
+            "normal": "assets/story/chapter_1/エイダン直立.webp"
+          }
+        },
+        "girl": {
+          "name": "小さな娘",
+          "images": {
+            "default": "assets/story/chapter_1/村娘.webp",
+            "normal": "assets/story/chapter_1/村娘.webp"
+          }
+        },
+        "old_woman": {
+          "name": "老婆",
+          "images": {
+            "default": "assets/story/chapter_1/村おばあちゃん.webp",
+            "normal": "assets/story/chapter_1/村おばあちゃん.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "約5分）",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "森 /]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "300km先の聖地を目指し、軍はさらに深く森へと踏み入る。そこは毒蛇と未知の獣が潜む、天然の要塞だった。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Aïe !（痛っ！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "どうした、ファビウス！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "……蛇に噛まれた。足が……痺れて……」 ティトゥス・ラヴィエヌス：「不覚！ この森の毒か。通訳が倒れては、この先の村々との交渉ができん！",
+          "position": "center",
+          "expression": "sick",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "sick",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "村を探すぞ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "疑問文の3つの作り方",
+              "referenceTopicId": "ref_questions",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "猛毒のハルピュイア蛇 / 疑問詞の基礎と状況判断",
+          "enemyHp": 5,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#questions",
+              "count": 3
+            },
+            {
+              "tag": "#question_words",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "村]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "なんとか村へと辿り着いた主人公たち。村人たちは武装したローマ兵を見て遠巻きにしているが、一人の小さな娘が無邪気に近づいてきた。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "girl",
+          "text": "Qui êtes-vous ?（あなたたちは誰？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Est-ce qu'il y a un médecin ?（お医者さんはいますか？） 友人が蛇に……！」 老婆：「……貸しな。その蛇の毒なら、これで治るよ",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "Qu'est-ce que c'est ?（これは何ですか？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "old_woman",
+          "text": "「この辺りに生えている薬草さ。傷口に塗るんだ。ほら、娘や、水を持っておいで」 ナレーション: 老婆の手当てと娘の看病により、ファビウスの顔に血色が戻っていく。ローマ軍の恐ろしさを知らない娘は、珍しい鎧に興味津々で主人公たちに懐いていた。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "old_woman",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ウェルキンゲトリクスの陣営]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ウェルキンゲトリクス殿！ローマ軍らは近くの農村に留まっているようです。どうやら怪我人が出た様子」 ウェルキンゲトリクス：「そうか……。奴らがさらに奥へ踏み込むようなら、すべてを焼き払う『焦土作戦』だ。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "なっ！？ しかしそれでは、我らガリアにとっても痛手となるのでは？…いささか過酷すぎるのではないでしょうか？",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "この作戦がどれほど過酷なものだとしても、子供や妻たちが奴隷として連れ去られ、自らも殺されることの方が、はるかに耐え難いと考えるべきだろう？違うか…？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "…。っっ！！",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "周囲の村に触れ回れ。我らの作物を一粒たりともローマ軍に渡すなと」 副官：「はっ！ では、作戦の準備を",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "ああ。いざとなれば、",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "村]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "…助かった。ありがとう",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "girl",
+          "text": "De rien !（どういたしまして！）」 老婆：「あんたら…。ローマの軍人さんだろぉ…？戦争かね？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "…うむ。そうだ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "old_woman",
+          "text": "いつの世も戦いかーね…。どうか、ガリアの生活を、この土地の安寧を、あの娘の平和を崩さないでくれないかい…？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "old_woman",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "それはできない。我らは神聖なローマ軍であるからだ」 老婆：「そうかい…。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "…しかし、一般人にできる限り手を出さず、守ることに尽力しよう。また、戦いが終わった暁には、平和を享受することを約束する」 カエサル：「…。そういうことだ、すまないご老人よ。部下を助けていただき誠に感謝申し上げる",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "厨房で頻出する疑問詞",
+              "referenceTopicId": "ref_questions",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "農村の老婆と娘 / 状況を切り開く疑問文",
+          "enemyHp": 8,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#questions",
+              "count": 4
+            },
+            {
+              "tag": "#question_words",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "村]",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "……はッ！！復活した！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "大丈夫か！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "girl",
+          "text": "「Ça va ?（大丈夫？）」ファビウス：「Oui,Ça va, merci」「Nous allons vers l’ouest. （僕たちは西へ向かうよ。)」└ 説明行: aller vers + 場所 = 「〜へ向かう」なので、aller vers l’ouest = 「西へ向かう」。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "girl",
+          "text": "Bon courage ! Revenez nous voir, les gars !（頑張ってね！また来てね、お兄さんたち！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "Revenez nous voir ! は「また私たちのところに来てね」。revenir「戻ってくる」＋nous voir「私たちに会いに」。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "les gars は「君たち／お兄さんたち／みんな」くらいのくだけた呼びかけ。複数の男性に自然。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "→ Bon courage ! はフランス語で非常によく使う「頑張って！」"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "…。なぁティトゥス。平和はいいなぁ…。争いは嫌だな…。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "…。悪も恐れるローマ軍総司令官が何をおっしゃいますか。今のは聞かなかった事にしておきます。」 「…まぁ奇しくも、この老兵…今ばかりは、同じことを考えておりましたが。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "…。ハハっ。そのローマ軍が恐れる、鬼軍曹が何を言うか。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "ハハッ。歳は取りたくないものですな。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "カエサル様ー！！ファビウスが、目を覚ましましたぁあああ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おッ、呼ばれたか。行くか、ティトゥス。先の話は互いに内密で頼むぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "御意！！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「元気そうになってよかった。さあ、夜はまだ長いぞ。村人との会話で得た疑問詞の復習だ！」ナレーション: 緊迫するガリアの情勢の中、ほんの少しの温かさに触れた夜。しかし、ウェルキンゲトリクスの影は確実に迫っていた。",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
+}
