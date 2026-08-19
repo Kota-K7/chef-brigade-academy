@@ -1030,6 +1030,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       </div>
     `;
 
+    try {
     function selectQuestions(criteria, fallbackQuestions) {
       const db = state.questionsDb || [];
       let selected = [];
@@ -1291,12 +1292,14 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       if (finalType === 'typing') {
         if (!q.acceptedAnswers && q.options && q.answerIndex !== undefined) {
           const rawAns = q.options[q.answerIndex];
-          const cleanAns = rawAns.split('(')[0].split('（')[0].trim();
-          return {
-            ...q,
-            type: 'typing',
-            acceptedAnswers: [cleanAns, cleanAns.toLowerCase()]
-          };
+          if (rawAns) {
+            const cleanAns = rawAns.split('(')[0].split('（')[0].trim();
+            return {
+              ...q,
+              type: 'typing',
+              acceptedAnswers: [cleanAns, cleanAns.toLowerCase()]
+            };
+          }
         }
       }
       return {
@@ -1602,7 +1605,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         });
       } else if (currentQ.type === 'scramble') {
         let clickedWords = [];
-        const wordsPool = shuffleArray(currentQ.words);
+        const wordsPool = shuffleArray(currentQ.words || []);
         
         battlePane.innerHTML = `
           ${hudHtml}
@@ -1667,7 +1670,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           handleScrambleOutcome(isCorrect, currentQ);
         });
       } else if (currentQ.type === 'cloze') {
-        const displayPrompt = currentQ.clozeText || currentQ.text;
+        const displayPrompt = currentQ.clozeText || currentQ.text || '';
         const cleanPrompt = displayPrompt.replace(/\[([^\]]+)\]/g, '_______');
         const hasOptions = currentQ.options && currentQ.options.length > 0;
         
@@ -1726,8 +1729,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           });
         }
       } else if (currentQ.type === 'matching') {
-        const leftItems = shuffleArray(currentQ.pairs.map(p => p.left));
-        const rightItems = shuffleArray(currentQ.pairs.map(p => p.right));
+        const leftItems = shuffleArray((currentQ.pairs || []).map(p => p.left));
+        const rightItems = shuffleArray((currentQ.pairs || []).map(p => p.right));
         
         battlePane.innerHTML = `
           ${hudHtml}
@@ -2044,6 +2047,21 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     }
 
     renderBattleScreen();
+    } catch (err) {
+      console.error("Failed to start battle:", err);
+      battlePane.innerHTML = `
+        <div class="battle-defeat" style="padding: 2rem; text-align: center; max-width: 500px; margin: auto; background: rgba(0,0,0,0.4); border: 2px solid #ef4444; border-radius: var(--radius-md);">
+          <h2 style="color: #ef4444; font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 0.8rem;">⚠️ 試練の生成に失敗しました</h2>
+          <p style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--color-text-main);">一時的なエラーが発生したため、この試練を開始できませんでした。</p>
+          <div style="font-size: 0.75rem; color: #fca5a5; background: rgba(239, 68, 68, 0.1); padding: 0.6rem; border-radius: var(--radius-sm); font-family: monospace; text-align: left; overflow-x: auto; margin-bottom: 1.2rem; white-space: pre-wrap;">${err.stack || err.message}</div>
+          <button class="action-btn proceed-battle-btn" style="width: 100%; padding: 0.8rem; font-weight: bold; background: var(--color-accent); color: white;">この試練をスキップして次へ</button>
+        </div>
+      `;
+      battlePane.querySelector('.proceed-battle-btn').addEventListener('click', () => {
+        currentIndex++;
+        nextStep();
+      });
+    }
   }
 
   function showReward(step) {

@@ -3895,6 +3895,7 @@
         "battlefield": "url('assets/story/chapter_1/戦場.webp')",
         "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
         "assembly": "url('assets/story/chapter_1/朝集会.webp')",
+        "village_square": "url('assets/story/chapter_1/村の広場.webp')",
         "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
         "forest": "url('assets/story/chapter_1/森.webp')",
         "village": "url('assets/story/chapter_1/村.webp')",
@@ -3983,14 +3984,15 @@
           "images": {
             "default": "assets/story/chapter_1/アルバン直立.webp",
             "normal": "assets/story/chapter_1/アルバン直立.webp",
-            "tears": "assets/story/chapter_1/アルバン涙目.webp"
+            "tears": "assets/story/chapter_1/アルバン涙目.webp",
+            "after_8_years": "assets/story/chapter_1/アルバン8年後.png"
           }
         },
         "aedan": {
           "name": "エイダン",
           "images": {
-            "default": "assets/story/chapter_1/エイダン直立.webp",
-            "normal": "assets/story/chapter_1/エイダン直立.webp",
+            "default": "assets/story/chapter_1/エイデン怒り.webp",
+            "normal": "assets/story/chapter_1/エイデン怒り.webp",
             "angry": "assets/story/chapter_1/エイデン怒り.webp",
             "slain": "assets/story/chapter_1/エイデン切られる.webp"
           }
@@ -4017,7 +4019,7 @@
           "character": null,
           "text": "カエサル軍の行進はガリア全土を飲み込み、この小さな村も例外ではなかった。だが、村の指導者たちは絶望していなかった。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4025,7 +4027,7 @@
           "character": null,
           "text": "村の代表である祭司（ドルイド）と騎士 (アルバンの父)は、未来の命を繋ぐため進んで降伏の儀式を行おうとしていた。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4033,7 +4035,7 @@
           "character": null,
           "text": "広場の隅の物陰。祭司の息子エイダンと、騎士 (アルバンの父)の息子アルバンは、親たちが武装を解き、ローマ兵の前に並ぶ光景を息を潜めて見ていた。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4042,7 +4044,7 @@
           "text": "「エイダン、やっぱりやめよう……！  父さんたちが今、僕たちの未来のために、誇りを持って頭を下げてるんだぞ！ 行っちゃだめだ！」 └キャラクター解説：Alban (アルバン)村の「祭司（ドルイド）」の息子。名前の由来は「白・光」（ラテン語の「白（Albus）」。",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "alban",
@@ -4057,7 +4059,7 @@
           "text": "ふざけるな！ 敵にひれ伏すのが未来のためかよ！ あれじゃまるで飼い犬だ！」 └キャラクター解説：Aedan (エイダン)　村一番の「騎士 (アルバンの父)」の息子。名前の由来は「炎",
           "position": "center",
           "expression": "angry",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4072,7 +4074,7 @@
           "text": "Pourquoi tu as si peur ?（なんでお前はそんなに恐れているんだ？）",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4091,7 +4093,7 @@
           "text": "恐れてなんかいない！ おじさんも、僕の父さんも……ちゃんと考えがあるんだよ！！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "alban",
@@ -4106,7 +4108,7 @@
           "text": "犬死にでも、ローマに媚びる臆病者よりマシだ！  村一番の騎士 (アルバンの父)の子なら、お前も戦えよアルバン！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4120,7 +4122,7 @@
           "character": null,
           "text": "エイダンは固く握りしめた自らの剣を見つめる。アルバンはその腕を必死に掴み、親友を押し留めようとしていた。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4144,7 +4146,7 @@
           "character": null,
           "text": "広場の中央では、エイダンの父である祭司と、アルバンの父である騎士 (アルバンの父)がカエサルらと共に和平条約締結を今まさにせんとしていた。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4153,7 +4155,7 @@
           "text": "…。それでは、このような内容で頼む。",
           "position": "center",
           "expression": "arms_crossed",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "caesar",
@@ -4168,7 +4170,7 @@
           "text": "これで我々の村の平和は約束されるのですね！？",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4177,7 +4179,7 @@
           "text": "やったな！！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4185,7 +4187,7 @@
           "character": null,
           "text": "一方広場の陰で隠れる二人。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4194,7 +4196,7 @@
           "text": "お願いだエイダン、僕たちがあのローマの将軍に敵うわけない！ 儀式をぶち壊したら、僕たちの未来を繋ごうとしてる父さんたちの努力が全部無駄になっちゃうよ！",
           "position": "center",
           "expression": "tears",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "alban",
@@ -4209,7 +4211,7 @@
           "text": "だからこそだ。奴らが『降伏の儀式』に気を取られ、平和ボケしている今しか、カエサルを殺す隙はない",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4224,7 +4226,7 @@
           "text": "Je suis prêt. Je vais utiliser mon épée.（俺は準備ができている。俺の剣を使うぞ）",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4243,7 +4245,7 @@
           "text": "行かせるもんか！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "alban",
@@ -4257,7 +4259,7 @@
           "character": null,
           "text": "アルバンはエイダンの腰にすがりつき、体重をかけて引き倒そうとする。しかし、エイダンは親友を力強く突き飛ばした。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4266,7 +4268,7 @@
           "text": "……お前はわかってくれると思ってたよ…。アルバン",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4280,7 +4282,7 @@
           "character": null,
           "text": "尻餅をつくアルバンを尻目に、エイダンは白昼の広場へと飛び出した。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4304,7 +4306,7 @@
           "character": null,
           "text": "広場の中央。目前にはカエサルと",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4313,7 +4315,7 @@
           "text": "Je vais te tuer, César !（カエサル、お前を殺してやる！）",
           "position": "center",
           "expression": "angry",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4331,7 +4333,7 @@
           "character": null,
           "text": "——ザクッ！！",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "shake": true,
           "flash": "black",
           "characters": []
@@ -4341,7 +4343,7 @@
           "character": null,
           "text": "エイダン (切られる)：「がはっ……！！」\n祭司 (エイダンの父)（驚き）：「エイダンッ！？ なぜお前が……！！」",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4349,7 +4351,7 @@
           "character": null,
           "text": "騎士 (アルバンの父)（驚き）：「エイダン君っ！！何を！！！」",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4358,7 +4360,7 @@
           "text": "俺は…！！お前らを許さねぇ！！ガリアの誇りを失った大人たちもだ！！",
           "position": "center",
           "expression": "slain",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "aedan",
@@ -4372,7 +4374,7 @@
           "character": null,
           "text": "そう叫んだあとエイダンは息を止めた。瞬殺であった。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4381,7 +4383,7 @@
           "text": "……覚えておけ剣を振る少年。戦下では昂り冷静さを失ったものが、最も早く命を失うのだ。",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "labienus",
@@ -4396,7 +4398,7 @@
           "text": "あれれぇ！？ このガキ、村のドルイド(司祭), あんたのの息子じゃ無いですか。親父が降伏中に暗殺決行とは、笑わせますねぇ",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4405,7 +4407,7 @@
           "text": "正義感の強さは親譲りかぁ！？ 無駄死にだなぁおい！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4414,7 +4416,7 @@
           "text": "おいっ…やめんか",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "caesar",
@@ -4429,7 +4431,7 @@
           "text": "まぁ親も親だし仕方がないか。我らローマ軍に手も足も出ず、降伏するのだからなぁ！！ ギャハハッ！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4438,7 +4440,7 @@
           "text": "私たちはっ！！平和のために！！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4447,7 +4449,7 @@
           "text": "やめんかバカモノ",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "caesar",
@@ -4461,7 +4463,7 @@
           "character": null,
           "text": "——ザクッ！！",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "shake": true,
           "flash": "black",
           "characters": []
@@ -4471,7 +4473,7 @@
           "character": null,
           "text": "騎士 (アルバンの父)（怒り）：「我らガリア民族とて、誇りまで捨てた覚えはない」→騎士 (アルバンの父)：「ましてや、相棒の倅が目の前で殺され、さらに友人共々愚弄されるとは、ガリア人の名折れである！」",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4480,7 +4482,7 @@
           "text": "祭司殿の息子であったのか…あのままではカエサル殿が切られてしまうところであったゆえ…大変申し訳ない。",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "labienus",
@@ -4495,7 +4497,7 @@
           "text": "…。いいえ。こ、こちらこそ、息子が大変申しわけありません(泣き出しそうな震え声)。",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4504,7 +4506,7 @@
           "text": "カエサル殿の兵士を切ったしまったのは私だ、申し訳ない。",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4513,7 +4515,7 @@
           "text": "……。こちらこそ部下がすまない",
           "position": "center",
           "expression": "silence",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "caesar",
@@ -4528,7 +4530,7 @@
           "text": "ティトゥス…彼は隊規を乱したため、“私が命じ”殺した。よいな？",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "caesar",
@@ -4543,7 +4545,7 @@
           "text": "御意",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "labienus",
@@ -4558,7 +4560,7 @@
           "text": "うううううあああああああああああああああああ！！！！！",
           "position": "center",
           "expression": "normal",
-          "background": "assembly",
+          "background": "village_square",
           "characters": [
             {
               "id": "alban",
@@ -4572,7 +4574,7 @@
           "character": null,
           "text": "エイダンという親友の死に直面したアルバンは絶叫と共に広場から逃げ出し、森 of 奥深くへと姿を消した…。",
           "position": "center",
-          "background": "assembly",
+          "background": "village_square",
           "characters": []
         },
         {
@@ -4608,12 +4610,12 @@
           "character": "alban",
           "text": "Est-ce que c'est mon village... ?（これが僕の村なのか……？）",
           "position": "center",
-          "expression": "tears",
+          "expression": "after_8_years",
           "background": "village",
           "characters": [
             {
               "id": "alban",
-              "expression": "tears",
+              "expression": "after_8_years",
               "position": "center"
             }
           ],
@@ -4635,9 +4637,15 @@
           "character": "alban",
           "text": "Où sont les anciens du village ?（村の大人たちはどこですか？）",
           "position": "center",
-          "expression": "normal",
+          "expression": "after_8_years",
           "background": "tombstone",
-          "characters": [],
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "after_8_years",
+              "position": "center"
+            }
+          ],
           "learningPoint": {
             "title": "語句解説",
             "text": "解説：Où/どこ sont/いる(être) les anciens/古参の者たち(大人たち) du(de+le)/〜の village/村 ?"
@@ -4679,9 +4687,15 @@
           "character": "alban",
           "text": "そう…ですか…。",
           "position": "center",
-          "expression": "normal",
+          "expression": "after_8_years",
           "background": "tombstone",
-          "characters": []
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "after_8_years",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -4720,9 +4734,15 @@
           "character": "alban",
           "text": "……忘れないよ、エイダン。君が流した血の熱さも、父さんたちが泥まみれになって守り抜いたこの村の平和も。このローマの言葉で、僕が書き残す",
           "position": "center",
-          "expression": "normal",
+          "expression": "after_8_years",
           "background": "tombstone",
-          "characters": []
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "after_8_years",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
