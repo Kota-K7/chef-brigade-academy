@@ -82,16 +82,24 @@ def convert_to_webp():
                 os.remove(src_path)
 
 def main():
-    # 1. First make the black backgrounds of the two target Labienus sprites transparent
-    for fn in ['ラヴィエヌス呆れ.webp', 'ラヴィエヌス呆れ白黒.webp']:
+    # 1. Convert all non-webp images in chapter_1 to webp first
+    convert_to_webp()
+
+    # 2. Make backgrounds of target sprites transparent
+    target_sprites = [
+        'ラヴィエヌス呆れ.webp',
+        'ラヴィエヌス呆れ白黒.webp',
+        'アルバン涙目.webp',
+        'エイダン怒り.webp',
+        'エイダン切られる.webp',
+        'カエサル沈黙.webp'
+    ]
+    for fn in target_sprites:
         fp = os.path.join(chapter_1_dir, fn)
         if os.path.exists(fp):
             make_black_transparent(fp)
         else:
             print(f"Warning: {fn} not found in {chapter_1_dir}")
-            
-    # 2. Convert new images to webp
-    convert_to_webp()
 
 if __name__ == "__main__":
     main()

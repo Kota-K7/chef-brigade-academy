@@ -19,7 +19,16 @@ char_map = {
     "ウェルキンゲトリクス": "vercingetorix",
     "小さな娘": "girl",
     "娘": "girl",
-    "老婆": "old_woman"
+    "老婆": "old_woman",
+    "アルバン": "alban",
+    "エイダン": "aedan",
+    "祭司 (エイダンの父)": "druid",
+    "祭司": "druid",
+    "騎士 (アルバンの父)": "knight",
+    "騎士": "knight",
+    "一般兵A": "soldier_a",
+    "一般兵B": "soldier_b",
+    "見知らぬ村人": "villager"
 }
 
 background_urls = {
@@ -37,7 +46,8 @@ background_urls = {
     "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
     "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
     "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-    "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+    "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')",
+    "tombstone": "url('assets/story/chapter_1/村.webp')"
 }
 
 def map_bg(name):
@@ -52,6 +62,10 @@ def map_bg(name):
         return "assembly"
     elif "もぬけの殻" in name:
         return "village_empty"
+    elif "広場" in name:
+        return "assembly"
+    elif "墓石" in name or "野原" in name:
+        return "tombstone"
     elif "村" in name:
         return "village"
     elif "陣営" in name:
@@ -94,6 +108,12 @@ def get_expression_id(char_id, expr_name):
         if "驚き" in expr_name: return "surprised"
         if "緋色のマント" in expr_name: return "red_mantle"
         if "戦闘加熱" in expr_name: return "combat_heat"
+        if "沈黙" in expr_name: return "silence"
+    elif char_id == "alban":
+        if "涙目" in expr_name or "呆然" in expr_name: return "tears"
+    elif char_id == "aedan":
+        if "怒り" in expr_name or "殺意" in expr_name: return "angry"
+        if "切られる" in expr_name: return "slain"
     elif char_id == "vercingetorix":
         if "戦闘加熱" in expr_name: return "combat_heat"
         if "決着" in expr_name: return "settlement"
@@ -167,6 +187,8 @@ def parse_episode_text(ep_lines, ep_num):
     i = 0
     active_bg = "bgBlack"
     battle_idx = 0
+    pending_shake = False
+    pending_flash = None
     
     while i < len(ep_lines):
         line = ep_lines[i].strip()
@@ -179,11 +201,22 @@ def parse_episode_text(ep_lines, ep_num):
             i += 1
             continue
             
+        # Check for effects in background line
+        bg_match = re.search(r"\[背景:\s*([^\]]+)\]", line) or re.search(r"背景[：:]\s*(.*)", line)
+        if bg_match:
+            bg_desc = bg_match.group(1).strip()
+            if "揺れ" in bg_desc or "揺れる" in bg_desc:
+                pending_shake = True
+            if "切れる" in bg_desc or "点滅" in bg_desc or "黒点滅" in bg_desc:
+                pending_flash = "black"
+            elif "白点滅" in bg_desc or "フラッシュ" in bg_desc:
+                pending_flash = "white"
+            
         # Detect background change during parsing
         found_bg = None
         cleaned_line = line
         
-        m_bg = re.search(r"\[背景:\s*([^\]]+)\]", line)
+        m_bg = re.search(r"\[背景:\s*([^\]]+)\]", line) or re.search(r"背景[：:]\s*(.*)", line)
         if m_bg:
             found_bg = m_bg.group(1).strip()
             cleaned_line = line.replace(m_bg.group(0), "").strip()
@@ -337,14 +370,28 @@ def parse_episode_text(ep_lines, ep_num):
                 
                 char_key = step.get("character")
                 expr_key = step.get("expression", "normal")
+                
+                # Apply pending effects
+                if pending_shake:
+                    step["shake"] = True
+                    pending_shake = False
+                if pending_flash:
+                    step["flash"] = pending_flash
+                    pending_flash = None
+                    
                 if char_key and char_key != "hero":
-                    step["characters"] = [
-                        {
-                            "id": char_key,
-                            "expression": expr_key,
-                            "position": "center"
-                        }
-                    ]
+                    no_sprite_chars = ["druid", "knight", "soldier_a", "soldier_b", "villager"]
+                    is_tombstone = active_bg in ["tombstone"]
+                    if char_key in no_sprite_chars or is_tombstone:
+                        step["characters"] = []
+                    else:
+                        step["characters"] = [
+                            {
+                                "id": char_key,
+                                "expression": expr_key,
+                                "position": "center"
+                            }
+                        ]
                 else:
                     step["characters"] = []
                     
@@ -373,6 +420,13 @@ def parse_episode_text(ep_lines, ep_num):
                 "background": active_bg,
                 "characters": []
             }
+            # Apply pending effects
+            if pending_shake:
+                step["shake"] = True
+                pending_shake = False
+            if pending_flash:
+                step["flash"] = pending_flash
+                pending_flash = None
             sequence.append(step)
             
         i += 1
@@ -429,7 +483,7 @@ def main():
                 s['background'] = 'battlefield'
                 
     # 2. Parse Episodes 1-4, 1-5, and 1-6
-    matches = list(re.finditer(r"(?:##? )?【第1-(\d)話\s+([^】\n]+)】", content))
+    matches = list(re.finditer(r"(?:##? )?【第1-(\d+)話\s+([^】\n]+)】", content))
     valid_matches = []
     for m in matches:
         ep_num = int(m.group(1))
@@ -448,7 +502,7 @@ def main():
         sequence.append({
             "type": "reward",
             "xp": 100,
-            "unlockedEpisodeId": f"ep_1_{ep_num+1}" if ep_num < 6 else None
+            "unlockedEpisodeId": f"ep_1_{ep_num+1}" if ep_num < 10 else None
         })
         
         new_episodes_data.append({
@@ -481,7 +535,8 @@ def main():
                         "surprised": "assets/story/chapter_1/カエサル驚き.webp",
                         "combat": "assets/story/chapter_1/カエサル戦い.webp",
                         "red_mantle": "assets/story/chapter_1/カエサル緋色のマント.webp",
-                        "combat_heat": "assets/story/chapter_1/カエサル戦闘加熱.webp"
+                        "combat_heat": "assets/story/chapter_1/カエサル戦闘加熱.webp",
+                        "silence": "assets/story/chapter_1/カエサル沈黙.webp"
                     }
                 },
                 "labienus": {
@@ -522,7 +577,29 @@ def main():
                         "default": "assets/story/chapter_1/村おばあちゃん.webp",
                         "normal": "assets/story/chapter_1/村おばあちゃん.webp"
                     }
-                }
+                },
+                "alban": {
+                    "name": "アルバン",
+                    "images": {
+                        "default": "assets/story/chapter_1/アルバン直立.webp",
+                        "normal": "assets/story/chapter_1/アルバン直立.webp",
+                        "tears": "assets/story/chapter_1/アルバン涙目.webp"
+                    }
+                },
+                "aedan": {
+                    "name": "エイダン",
+                    "images": {
+                        "default": "assets/story/chapter_1/エイダン直立.webp",
+                        "normal": "assets/story/chapter_1/エイダン直立.webp",
+                        "angry": "assets/story/chapter_1/エイデン怒り.webp",
+                        "slain": "assets/story/chapter_1/エイデン切られる.webp"
+                    }
+                },
+                "druid": { "name": "祭司" },
+                "knight": { "name": "騎士" },
+                "soldier_a": { "name": "一般兵A" },
+                "soldier_b": { "name": "一般兵B" },
+                "villager": { "name": "見知らぬ村人" }
             },
             "sequence": sequence
         })

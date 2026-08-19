@@ -3885,6 +3885,859 @@
           "unlockedEpisodeId": null
         }
       ]
+    },
+    {
+      "episodeId": "ep_1_10",
+      "episodeTitle": "第1-10話: 外伝 あるガリア人青年の記録",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
+        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
+        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
+        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
+        "forest": "url('assets/story/chapter_1/森.webp')",
+        "village": "url('assets/story/chapter_1/村.webp')",
+        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
+        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
+        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
+        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
+        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
+        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
+        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
+        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')",
+        "tombstone": "url('assets/story/chapter_1/村.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "fabius": {
+          "name": "ファビウス",
+          "images": {
+            "default": "assets/story/chapter_1/ファビウス直立.webp",
+            "normal": "assets/story/chapter_1/ファビウス直立.webp",
+            "book": "assets/story/chapter_1/ファビウス本.webp",
+            "sick": "assets/story/chapter_1/ファビウス病.webp"
+          }
+        },
+        "caesar": {
+          "name": "カエサル",
+          "images": {
+            "default": "assets/story/chapter_1/カエサル.webp",
+            "normal": "assets/story/chapter_1/カエサル.webp",
+            "tehepero": "assets/story/chapter_1/カエサルてへぺろ.webp",
+            "halo": "assets/story/chapter_1/カエサル後光.webp",
+            "arms_crossed": "assets/story/chapter_1/カエサル腕組.webp",
+            "dismount": "assets/story/chapter_1/カエサル降馬a.webp",
+            "angry": "assets/story/chapter_1/カエサル静かな怒り.webp",
+            "bald_sparkle": "assets/story/chapter_1/カエサル頭の輝き.webp",
+            "surprised": "assets/story/chapter_1/カエサル驚き.webp",
+            "combat": "assets/story/chapter_1/カエサル戦い.webp",
+            "red_mantle": "assets/story/chapter_1/カエサル緋色のマント.webp",
+            "combat_heat": "assets/story/chapter_1/カエサル戦闘加熱.webp",
+            "silence": "assets/story/chapter_1/カエサル沈黙.webp"
+          }
+        },
+        "labienus": {
+          "name": "ティトゥス・ラヴィエヌス",
+          "images": {
+            "default": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "normal": "assets/story/chapter_1/ラヴィエヌス副司令官直立.webp",
+            "scold": "assets/story/chapter_1/ラヴィエヌス副司令官喝.webp",
+            "arms_crossed": "assets/story/chapter_1/ラヴィエヌス副司令官腕組.webp",
+            "angry": "assets/story/chapter_1/ラヴィエヌス副司令官静かな怒り.webp",
+            "disappointed": "assets/story/chapter_1/ラヴィエヌス呆れ.webp",
+            "disappointed_bw": "assets/story/chapter_1/ラヴィエヌス呆れ白黒.webp",
+            "combat": "assets/story/chapter_1/ラヴィエヌス戦い.webp",
+            "surprised": "assets/story/chapter_1/ラヴィエヌス驚き.webp"
+          }
+        },
+        "vercingetorix": {
+          "name": "ウェルキンゲトリクス",
+          "images": {
+            "default": "assets/story/chapter_1/ウェルキンゲトリクス.webp",
+            "normal": "assets/story/chapter_1/ウェルキンゲトリクス.webp",
+            "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
+            "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
+            "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
+            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+          }
+        },
+        "girl": {
+          "name": "小さな娘",
+          "images": {
+            "default": "assets/story/chapter_1/村娘.webp",
+            "normal": "assets/story/chapter_1/村娘.webp"
+          }
+        },
+        "old_woman": {
+          "name": "老婆",
+          "images": {
+            "default": "assets/story/chapter_1/村おばあちゃん.webp",
+            "normal": "assets/story/chapter_1/村おばあちゃん.webp"
+          }
+        },
+        "alban": {
+          "name": "アルバン",
+          "images": {
+            "default": "assets/story/chapter_1/アルバン直立.webp",
+            "normal": "assets/story/chapter_1/アルバン直立.webp",
+            "tears": "assets/story/chapter_1/アルバン涙目.webp"
+          }
+        },
+        "aedan": {
+          "name": "エイダン",
+          "images": {
+            "default": "assets/story/chapter_1/エイダン直立.webp",
+            "normal": "assets/story/chapter_1/エイダン直立.webp",
+            "angry": "assets/story/chapter_1/エイデン怒り.webp",
+            "slain": "assets/story/chapter_1/エイデン切られる.webp"
+          }
+        },
+        "druid": {
+          "name": "祭司"
+        },
+        "knight": {
+          "name": "騎士"
+        },
+        "soldier_a": {
+          "name": "一般兵A"
+        },
+        "soldier_b": {
+          "name": "一般兵B"
+        },
+        "villager": {
+          "name": "見知らぬ村人"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カエサル軍の行進はガリア全土を飲み込み、この小さな村も例外ではなかった。だが、村の指導者たちは絶望していなかった。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "村の代表である祭司（ドルイド）と騎士 (アルバンの父)は、未来の命を繋ぐため進んで降伏の儀式を行おうとしていた。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "広場の隅の物陰。祭司の息子エイダンと、騎士 (アルバンの父)の息子アルバンは、親たちが武装を解き、ローマ兵の前に並ぶ光景を息を潜めて見ていた。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "「エイダン、やっぱりやめよう……！  父さんたちが今、僕たちの未来のために、誇りを持って頭を下げてるんだぞ！ 行っちゃだめだ！」 └キャラクター解説：Alban (アルバン)村の「祭司（ドルイド）」の息子。名前の由来は「白・光」（ラテン語の「白（Albus）」。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "ふざけるな！ 敵にひれ伏すのが未来のためかよ！ あれじゃまるで飼い犬だ！」 └キャラクター解説：Aedan (エイダン)　村一番の「騎士 (アルバンの父)」の息子。名前の由来は「炎",
+          "position": "center",
+          "expression": "angry",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "Pourquoi tu as si peur ?（なんでお前はそんなに恐れているんだ？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：Pourquoi/なぜ tu/お前は as/持つ(avoir) si/そんなに peur/恐れを ? avoir peur（恐れる）に強調 of siがついた表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "恐れてなんかいない！ おじさんも、僕の父さんも……ちゃんと考えがあるんだよ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "犬死にでも、ローマに媚びる臆病者よりマシだ！  村一番の騎士 (アルバンの父)の子なら、お前も戦えよアルバン！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "エイダンは固く握りしめた自らの剣を見つめる。アルバンはその腕を必死に掴み、親友を押し留めようとしていた。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "止められない親友 of 背中 / 動詞と感情表現の基礎",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#regular_verbs_1_2",
+              "count": 4
+            },
+            {
+              "tag": "#questions",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "広場の中央では、エイダンの父である祭司と、アルバンの父である騎士 (アルバンの父)がカエサルらと共に和平条約締結を今まさにせんとしていた。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "…。それでは、このような内容で頼む。",
+          "position": "center",
+          "expression": "arms_crossed",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "arms_crossed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "druid",
+          "text": "これで我々の村の平和は約束されるのですね！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "knight",
+          "text": "やったな！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "一方広場の陰で隠れる二人。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "お願いだエイダン、僕たちがあのローマの将軍に敵うわけない！ 儀式をぶち壊したら、僕たちの未来を繋ごうとしてる父さんたちの努力が全部無駄になっちゃうよ！",
+          "position": "center",
+          "expression": "tears",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "tears",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "だからこそだ。奴らが『降伏の儀式』に気を取られ、平和ボケしている今しか、カエサルを殺す隙はない",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "Je suis prêt. Je vais utiliser mon épée.（俺は準備ができている。俺の剣を使うぞ）",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：Je/私は suis/〜である prêt/準備ができている. Je/私は vais/〜するつもりだ(aller) utiliser/使う mon/私の épée/剣を."
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "行かせるもんか！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "アルバンはエイダンの腰にすがりつき、体重をかけて引き倒そうとする。しかし、エイダンは親友を力強く突き飛ばした。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "……お前はわかってくれると思ってたよ…。アルバン",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "尻餅をつくアルバンを尻目に、エイダンは白昼の広場へと飛び出した。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "友の手を振り払う決意 / 動詞の総復習",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#regular_verbs_1_2",
+              "count": 4
+            },
+            {
+              "tag": "#irregular_verbs_major",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "広場の中央。目前にはカエサルと",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "Je vais te tuer, César !（カエサル、お前を殺してやる！）",
+          "position": "center",
+          "expression": "angry",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：Je/私は vais/〜するつもりだ(aller) te/お前を tuer/殺す, César/カエサル !"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "——ザクッ！！",
+          "position": "center",
+          "background": "assembly",
+          "shake": true,
+          "flash": "black",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "エイダン (切られる)：「がはっ……！！」\n祭司 (エイダンの父)（驚き）：「エイダンッ！？ なぜお前が……！！」",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "騎士 (アルバンの父)（驚き）：「エイダン君っ！！何を！！！」",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "aedan",
+          "text": "俺は…！！お前らを許さねぇ！！ガリアの誇りを失った大人たちもだ！！",
+          "position": "center",
+          "expression": "slain",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "slain",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そう叫んだあとエイダンは息を止めた。瞬殺であった。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……覚えておけ剣を振る少年。戦下では昂り冷静さを失ったものが、最も早く命を失うのだ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "soldier_a",
+          "text": "あれれぇ！？ このガキ、村のドルイド(司祭), あんたのの息子じゃ無いですか。親父が降伏中に暗殺決行とは、笑わせますねぇ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "soldier_b",
+          "text": "正義感の強さは親譲りかぁ！？ 無駄死にだなぁおい！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "おいっ…やめんか",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "soldier_a",
+          "text": "まぁ親も親だし仕方がないか。我らローマ軍に手も足も出ず、降伏するのだからなぁ！！ ギャハハッ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "druid",
+          "text": "私たちはっ！！平和のために！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "やめんかバカモノ",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "——ザクッ！！",
+          "position": "center",
+          "background": "assembly",
+          "shake": true,
+          "flash": "black",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "騎士 (アルバンの父)（怒り）：「我らガリア民族とて、誇りまで捨てた覚えはない」→騎士 (アルバンの父)：「ましてや、相棒の倅が目の前で殺され、さらに友人共々愚弄されるとは、ガリア人の名折れである！」",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "祭司殿の息子であったのか…あのままではカエサル殿が切られてしまうところであったゆえ…大変申し訳ない。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "druid",
+          "text": "…。いいえ。こ、こちらこそ、息子が大変申しわけありません(泣き出しそうな震え声)。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "knight",
+          "text": "カエサル殿の兵士を切ったしまったのは私だ、申し訳ない。",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……。こちらこそ部下がすまない",
+          "position": "center",
+          "expression": "silence",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "silence",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "ティトゥス…彼は隊規を乱したため、“私が命じ”殺した。よいな？",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "御意",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "うううううあああああああああああああああああ！！！！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "エイダンという親友の死に直面したアルバンは絶叫と共に広場から逃げ出し、森 of 奥深くへと姿を消した…。",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "圧倒的暴力のトラウマ / 前置詞と指示形容詞の復習",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#prepositions_place",
+              "count": 4
+            },
+            {
+              "tag": "#demonstrative_adjectives",
+              "count": 4
+            },
+            {
+              "tag": "#irregular_verbs_major",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "アルバンが狂気と絶望の放浪の末に、故郷の村へと足を踏み入れる決意ができたのは、あの日から8年後のことだった。しかし、そこにはかつての面影は欠片もなく、立派な石造りのローマ建築が立ち並んでいた。",
+          "position": "center",
+          "background": "village",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "Est-ce que c'est mon village... ?（これが僕の村なのか……？）",
+          "position": "center",
+          "expression": "tears",
+          "background": "village",
+          "characters": [
+            {
+              "id": "alban",
+              "expression": "tears",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：Est-ce que/〜ですか c'est/それは〜である mon/私の village/村... ? 疑問の決まり文句と所有形容詞の組み合わせです。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "村外れの野原にポツンと残されたエイダンの古びた墓標を見つけた。近くを通りかかった見知らぬ村人に、震える声で尋ねる。",
+          "position": "center",
+          "background": "village",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "Où sont les anciens du village ?（村の大人たちはどこですか？）",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：Où/どこ sont/いる(être) les anciens/古参の者たち(大人たち) du(de+le)/〜の village/村 ?"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "villager",
+          "text": "大人たち？昔の長老会なら今はもう廃止になったよ。村一番の祭司と騎士のことなら、ついこの間亡くなったよ。過酷な時代だったが、あの二人が泥を被って尽力してくれたおかげで、村は血を流さず平和になったんだ。本当に、立派な人たちだった",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "villager",
+          "text": "À propos, ils ont toujours cherché leur fils.（そうえば、彼らはずっと息子を探していたよ）",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "解説：À propos/そうえば ils/彼らは ont cherché/探した(複合過去) toujours/いつも(ずっと) leur/彼らの(所有形容詞) fils/息子を."
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "villager",
+          "text": "最期の時まで、8年前に森へ消えた息子さんのことを心配してね……",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "そう…ですか…。",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "親友も親も亡くした事実に絶望と悲しさの中アルバンはエイダンの墓の前で泣き崩れた。",
+          "position": "center",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "忘却の歴史 / 第1章の集大成・全タグ総合テスト",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#regular_verbs_1_2",
+              "count": 3
+            },
+            {
+              "tag": "#irregular_verbs_major",
+              "count": 3
+            },
+            {
+              "tag": "#imperative_basic",
+              "count": 3
+            },
+            {
+              "tag": "#negation_de",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "alban",
+          "text": "……忘れないよ、エイダン。君が流した血の熱さも、父さんたちが泥まみれになって守り抜いたこの村の平和も。このローマの言葉で、僕が書き残す",
+          "position": "center",
+          "expression": "normal",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "多くの歴史とは、勝者が、強者が、権力者が描く物語である。 しかし忘れないで欲しい。その裏にはきみが、わたしが、彼が、彼女が繋いできた命があったのだと。 我が友はローマに立ち向かい、我らの父は泥に塗れて村を守ろうとし、歴史 of 影で確かに生きていたことを。 ─エイダンの親友はここに記す",
+          "position": "center",
+          "background": "tombstone",
+          "characters": []
+        },
+        {
+          "type": "reward",
+          "xp": 100,
+          "unlockedEpisodeId": null
+        }
+      ]
     }
   ]
 }

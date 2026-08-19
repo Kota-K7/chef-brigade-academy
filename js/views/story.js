@@ -363,6 +363,14 @@ async function renderChapterSelector(container) {
               </div>
               <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_9">開始する</button>
             </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-10話: 外伝 あるガリア人青年の記録</h4>
+                <span class="play-time">⏱️ 15分 • 第1章 総まとめ総合テスト</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_10">開始する</button>
+            </div>
           </div>
         </div>
       </div>
@@ -1259,10 +1267,11 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         
         if (finalType === 'special') {
           const db = state.questionsDb || [];
-          const specialMatch = db.find(item => 
+          const matches = db.filter(item => 
             item.tags && q.tags && item.tags.some(t => q.tags.includes(t)) && 
             ['matching', 'scramble', 'cloze', 'association', 'map'].includes(item.type)
           );
+          const specialMatch = matches.length > 0 ? matches[Math.floor(Math.random() * matches.length)] : null;
           
           if (specialMatch) {
             q = {
