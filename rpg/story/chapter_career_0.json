@@ -52,7 +52,7 @@
         {
           "type": "tutorial",
           "title": "今日の学習目標",
-          "goal": "* **本日のゴール**: フランス料理の世界へようこそ！基本の挨拶、主語の表し方、厨房で最も使う2大動詞（être / avoir）、そして基本的な否定文（ne...pas）を身につけよう。",
+          "goal": "* 本日のゴール: フランス料理の世界へようこそ！基本の挨拶、主語の表し方、厨房で最も使う2大動詞（être / avoir）、そして基本的な否定文（ne...pas）を身につけよう。",
           "targets": [
             "挨拶・基本コミュニケーション（Bonjour, Merci 等）",
             "主語人称代名詞（je, tu, il, elle, nous, vous, ils, elles）",
@@ -95,7 +95,7 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。**Je suis** le chef ici.（私がここの料理長だ）。話は聞いている、よろしく頼む。",
+          "text": "……満、また厨房に騒がしいのを連れてきたな。私の名前はジャン・ピエールだ。Je suis le chef ici.（私がここの料理長だ）。話は聞いている、よろしく頼む。",
           "position": "center",
           "background": "restaurant",
           "learningPoint": {
@@ -106,7 +106,7 @@
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔。**Tu es** trop sérieux !（お前は真面目すぎるんや）",
+          "text": "ピエール、そんな怖い顔しとったら従業員全員やめるで？ほら、笑顔笑顔。Tu es trop sérieux !（お前は真面目すぎるんや）",
           "position": "center",
           "background": "restaurant",
           "learningPoint": {
@@ -206,23 +206,23 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 5,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#greetings",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#subjects",
-              "count": 5
+              "count": 4
             }
           ]
         },
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "お！ **Bonjour** 新入り君!!! 俺はここのスーシェフ、佐伯だ。よろしくね。**Tu as** l'air motivé !（やる気がありそうだね！）",
+          "text": "お！ Bonjour 新入り君!!! 俺はここのスーシェフ、佐伯だ。よろしくね。Tu as l'air motivé !（やる気がありそうだね！）",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -240,7 +240,7 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "（ドタドタドタ！）誰か―！！そこのトマト『3つ』取って！ **Trois tomates, s'il vous plaît !** シェフ、お願いしますッ！！",
+          "text": "（ドタドタドタ！）誰か―！！そこのトマト『3つ』取って！ Trois tomates, s'il vous plaît ! シェフ、お願いしますッ！！",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -272,7 +272,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "エロディ、**Nous avons beaucoup de travail aujourd'hui.**（私たちは今日たくさんの仕事があるんだ）。新入り君に頼むならまずは簡単なことからにしてくれよ。",
+          "text": "エロディ、Nous avons beaucoup de travail aujourd'hui.（私たちは今日たくさんの仕事があるんだ）。新入り君に頼むならまずは簡単なことからにしてくれよ。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -283,7 +283,7 @@
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "あはは、そうだね！ おおありがとう！ **Merci beaucoup !** 君が新入り君かい？動きがいいね！ それじゃ早速、他のことも頼んじゃおうかなっ！！",
+          "text": "あはは、そうだね！ おおありがとう！ Merci beaucoup ! 君が新入り君かい？動きがいいね！ それじゃ早速、他のことも頼んじゃおうかなっ！！",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -404,15 +404,15 @@
           "criteria": [
             {
               "tag": "#etre",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#avoir",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#subjects",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -444,7 +444,7 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "いや…… **Ce n'est pas** grave. 気にしなくていい。……俺が怖いか？",
+          "text": "いや…… Ce n'est pas grave. 気にしなくていい。……俺が怖いか？",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -462,7 +462,7 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "そうか。なら……そこのボウルを『1つ』、**un bol** を俺に取ってくれるか？",
+          "text": "そうか。なら……そこのボウルを『1つ』、un bol を俺に取ってくれるか？",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -509,20 +509,20 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 10,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#negation",
-              "count": 5
+              "count": 4
             },
             {
               "tag": "#etre",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#avoir",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#greetings",
@@ -549,7 +549,8 @@
         "bgBlack": "#000000",
         "restaurant": "url('assets/story/career_story/restaurant.webp')",
         "kitchen": "url('assets/story/career_story/kitchen.webp')",
-        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')",
+        "kanetake_night": "url('assets/story/career_story/kanetake_night.webp')"
       },
       "characters": {
         "hero": {
@@ -590,7 +591,7 @@
         {
           "type": "tutorial",
           "title": "今日の学習目標",
-          "goal": "* **本日のゴール**: 名詞と冠詞の実践、数字の定着、および否定文の完全理解。",
+          "goal": "* 本日のゴール: 名詞と冠詞の実践、数字の定着、および否定文の完全理解。",
           "targets": [
             "冠詞（定冠詞・不定冠詞）の使い分け（特定か不特定かのニュアンス）",
             "数字と計量の厨房での実践表現",
@@ -614,7 +615,7 @@
         {
           "type": "dialog",
           "character": "kanetake",
-          "text": "むきー！！なんやとーー？俺は、この店の“オーナー”としてこの店を思ってやなぁ！！……。**Tu n'écoutes rien !**（お前は何も聞いとらん！）",
+          "text": "むきー！！なんやとーー？俺は、この店の“オーナー”としてこの店を思ってやなぁ！！……。Tu n'écoutes rien !（お前は何も聞いとらん！）",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -632,7 +633,7 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "……安心しろ。ああ見えてあの二人は仲がいい。**Ils sont amis.**（彼らは友達だ）。",
+          "text": "……安心しろ。ああ見えてあの二人は仲がいい。Ils sont amis.（彼らは友達だ）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -643,7 +644,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "はは、そこに関してはガエル君の言う通りだね。**Ce n'est pas une dispute.**（これは喧嘩じゃないんだよ）。では僕らは訓練と行こうか。",
+          "text": "はは、そこに関してはガエル君の言う通りだね。Ce n'est pas une dispute.（これは喧嘩じゃないんだよ）。では僕らは訓練と行こうか。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -676,31 +677,31 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 5,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#articles",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#noun_genders",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#numbers",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#negation",
-              "count": 3
+              "count": 1
             }
           ]
         },
         {
           "type": "dialog",
           "character": "gael",
-          "text": "……すまない、**le bol**（そのボウル）の中にあるクリームの **Émulsionner** を頼めるか？ **Deux cents grammes de crème.**（クリーム200グラムだ）。",
+          "text": "……すまない、le bol（そのボウル）の中にあるクリームの Émulsionner を頼めるか？ Deux cents grammes de crème.（クリーム200グラムだ）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -732,7 +733,7 @@
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "ちょっと新人くん！そっちのバジルの葉を **Chiffonner** お願いしていい？ こっちのソースは **Passer au chinois**、あっちのブリオッシュは **Badigeonner** して、オーブンにいれて中火20分（**vingt minutes**）！",
+          "text": "ちょっと新人くん！そっちのバジルの葉を Chiffonner お願いしていい？ こっちのソースは Passer au chinois、あっちのブリオッシュは Badigeonner して、オーブンにいれて中火20分（vingt minutes）！",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -750,7 +751,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "エロディ！彼はまだフランス料理一日目だ！**Il ne comprend pas encore.**（彼はまだ理解できていないよ）。頼むにも限度ってものがあるだろう！",
+          "text": "エロディ！彼はまだフランス料理一日目だ！Il ne comprend pas encore.（彼はまだ理解できていないよ）。頼むにも限度ってものがあるだろう！",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -761,7 +762,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "すまないね。まずは完璧を目指さなくていい。**Ce n'est pas grave.**（大丈夫だ）。でも、分からないことをそのままにしないこと。厨房では、それが一番危険だからね。みんな始めはそうだから、頑張って行こう。",
+          "text": "すまないね。まずは完璧を目指さなくていい。Ce n'est pas grave.（大丈夫だ）。でも、分からないことをそのままにしないこと。厨房では、それが一番危険だからね。みんな始めはそうだから、頑張って行こう。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -814,26 +815,26 @@
           "criteria": [
             {
               "tag": "#numbers",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#articles",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#etre",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#avoir",
-              "count": 3
+              "count": 1
             }
           ]
         },
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "ふぅぅぅ今日のセッション終わりー！！ **C'est fini !**（終わったー！）",
+          "text": "ふぅぅぅ今日のセッション終わりー！！ C'est fini !（終わったー！）",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -865,7 +866,7 @@
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "賄いは店のメニューに自分のレシピが乗るチャンスだし！シェフも参加して本気で作りにいくよ。**Nous sommes** tous motivés !（私たちはみんなやる気満々なんだから！）",
+          "text": "賄いは店のメニューに自分のレシピが乗るチャンスだし！シェフも参加して本気で作りにいくよ。Nous sommes tous motivés !（私たちはみんなやる気満々なんだから！）",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -883,7 +884,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "（小声）ふふ、実はあぁ見えてシェフも負けず嫌いなので、本気で来るよ。**Il a** toujours envie de gagner.（彼はいつも勝ちたがっているんだ）。僕も本気でやっちゃおうかな。",
+          "text": "（小声）ふふ、実はあぁ見えてシェフも負けず嫌いなので、本気で来るよ。Il a toujours envie de gagner.（彼はいつも勝ちたがっているんだ）。僕も本気でやっちゃおうかな。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -894,7 +895,7 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "佐伯、聞こえているぞ……まあ相違はない。ただ今日はすまない。私が指名する。**Je n'ai pas le temps pour un jeu.**（ゲームをしている時間はない）。",
+          "text": "佐伯、聞こえているぞ……まあ相違はない。ただ今日はすまない。私が指名する。Je n'ai pas le temps pour un jeu.（ゲームをしている時間はない）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -926,7 +927,7 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "ああ。今日の賄い担当は君だ。**Tu as une chance aujourd'hui.**（今日はお前にチャンスをやろう）。",
+          "text": "ああ。今日の賄い担当は君だ。Tu as une chance aujourd'hui.（今日はお前にチャンスをやろう）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -1013,24 +1014,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 10,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#subjects",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#etre",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#avoir",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#negation",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#articles",
@@ -1066,7 +1067,7 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "あぁ。**C'est bon.**（美味しかったぞ）。",
+          "text": "あぁ。C'est bon.（美味しかったぞ）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -1084,7 +1085,7 @@
         {
           "type": "dialog",
           "character": "jean_pierre",
-          "text": "……。野菜のカット法と肉の火入れは見直した方が良いだろう。食感に調和がなかった。**Ce n'est pas parfait.**（完璧ではない）。",
+          "text": "……。野菜のカット法と肉の火入れは見直した方が良いだろう。食感に調和がなかった。Ce n'est pas parfait.（完璧ではない）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -1144,7 +1145,7 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "行っておいで。片付けは任せて、ごちそうさまでした。**Merci pour le repas.**（ごちそうさまでした）。",
+          "text": "行っておいで。片付けは任せて、ごちそうさまでした。Merci pour le repas.（ごちそうさまでした）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -1155,7 +1156,7 @@
         {
           "type": "dialog",
           "character": "gael",
-          "text": "……また明日だ。**À demain.**（また明日）。",
+          "text": "……また明日だ。À demain.（また明日）。",
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
@@ -1168,42 +1169,48 @@
           "character": null,
           "text": "*(背景が切り替わり、夜の公園・夜景の見える場所へ)*",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "（主人公と2人になって）いやージャンがほんま申し訳ないわ。堪忍してな。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "hero",
           "text": "いえいえ！全然ほんとに気にしてませんし、むしろアドバイスいただけて嬉しいぐらいです。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "……ジャンあいつはな、最高の料理人や。一度食べたら、あいつの味忘れられへんねん。俺が料理人やめて金を専業にしたんは、あいつがおったからや。ほんま、かなわへんで。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "hero",
           "text": "（満さんがそこまで言うなんて……）俺、頑張ってみます！これから働くのが楽しみです！",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "kanetake",
           "text": "そかそか。そりゃええこっちゃ。よろしくな坊ちゃん。",
           "position": "center",
-          "background": "restaurant"
+          "background": "kanetake_night",
+          "characters": []
         },
         {
           "type": "reward",

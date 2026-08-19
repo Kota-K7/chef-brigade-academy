@@ -141,16 +141,16 @@
         {
           "type": "fixedBattle",
           "enemyName": "父 (食文化の試練)",
-          "enemyHp": 3,
+          "enemyHp": 7,
           "enemyDamage": 3,
           "criteria": [
             {
               "tag": "#regional_culture",
-              "count": 2
+              "count": 5
             },
             {
               "tag": "#etre",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -284,16 +284,16 @@
         {
           "type": "fixedBattle",
           "enemyName": "八百屋 (買い出しの試練)",
-          "enemyHp": 3,
+          "enemyHp": 7,
           "enemyDamage": 3,
           "criteria": [
             {
               "tag": "#vegetables",
-              "count": 2
+              "count": 5
             },
             {
               "tag": "#numbers",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -356,16 +356,16 @@
         {
           "type": "fixedBattle",
           "enemyName": "魚屋 (食材選びの試練)",
-          "enemyHp": 2,
+          "enemyHp": 7,
           "enemyDamage": 4,
           "criteria": [
             {
               "tag": "#ingredients",
-              "count": 1
+              "count": 3
             },
             {
               "tag": "#units",
-              "count": 1
+              "count": 4
             }
           ]
         },
@@ -659,16 +659,16 @@
         {
           "type": "fixedBattle",
           "enemyName": "泥棒",
-          "enemyHp": 3,
+          "enemyHp": 7,
           "enemyDamage": 3,
           "criteria": [
             {
               "tag": "#greetings",
-              "count": 2
+              "count": 5
             },
             {
               "tag": "#subjects",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -1088,7 +1088,7 @@
         {
           "type": "fixedBattle",
           "enemyName": "女将",
-          "enemyHp": 6,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
@@ -1109,7 +1109,7 @@
             },
             {
               "tag": "#greetings",
-              "count": 2
+              "count": 3
             }
           ]
         },

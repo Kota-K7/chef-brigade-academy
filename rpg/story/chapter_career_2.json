@@ -119,24 +119,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "エロディ (先輩)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#contracted_articles",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#demonstrative_cest",
-              "count": 5
-            },
-            {
-              "tag": "#partitive_articles",
               "count": 2
             },
             {
+              "tag": "#partitive_articles",
+              "count": 1
+            },
+            {
               "tag": "#basic_adjectives",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -205,28 +205,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#contracted_articles",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#demonstrative_cest",
-              "count": 5
-            },
-            {
-              "tag": "#prepositions",
-              "count": 5
-            },
-            {
-              "tag": "#etre",
               "count": 2
             },
             {
+              "tag": "#prepositions",
+              "count": 2
+            },
+            {
+              "tag": "#etre",
+              "count": 1
+            },
+            {
               "tag": "#avoir",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -368,36 +368,36 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#contracted_articles",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#demonstrative_cest",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#prepositions",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#basic_adjectives",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#question_words",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#etre",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#avoir",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -588,24 +588,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "エロディ (先輩)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#irregular_verbs_1",
-              "count": 5
-            },
-            {
-              "tag": "#etre",
               "count": 2
             },
             {
+              "tag": "#etre",
+              "count": 1
+            },
+            {
               "tag": "#avoir",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -690,28 +690,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 5
-            },
-            {
-              "tag": "#irregular_verbs_1",
-              "count": 5
-            },
-            {
-              "tag": "#prepositions",
               "count": 2
             },
             {
+              "tag": "#irregular_verbs_1",
+              "count": 2
+            },
+            {
+              "tag": "#prepositions",
+              "count": 1
+            },
+            {
               "tag": "#contracted_articles",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -836,36 +836,36 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#irregular_verbs_1",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#demonstrative_cest",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#contracted_articles",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#questions",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#prepositions",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -1006,24 +1006,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#near_future",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#near_past",
-              "count": 5
-            },
-            {
-              "tag": "#irregular_verbs_1",
               "count": 2
             },
             {
+              "tag": "#irregular_verbs_1",
+              "count": 1
+            },
+            {
               "tag": "#imperative",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -1101,28 +1101,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#passive_pronominal_verbs",
-              "count": 10
+              "count": 3
             },
             {
               "tag": "#near_future",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#near_past",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#irregular_verbs_1",
-              "count": 2
+              "count": 1
             }
           ]
         },
@@ -1250,36 +1250,36 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#near_future",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#near_past",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#passive_pronominal_verbs",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#imperative",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#contracted_articles",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#irregular_verbs_1",
-              "count": 3
+              "count": 2
             }
           ]
         },

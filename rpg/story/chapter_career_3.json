@@ -117,28 +117,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#comparative",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#superlative",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#object_pronouns_direct_indirect",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#contracted_articles",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#partitive_articles",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#imperative",
@@ -249,32 +249,32 @@
         {
           "type": "fixedBattle",
           "enemyName": "エロディ (先輩)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative_with_pronouns",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#object_pronouns_direct_indirect",
-              "count": 4
+              "count": 1
             },
             {
               "tag": "#comparative",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#superlative",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#imperative",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#basic_adjectives",
@@ -371,36 +371,36 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 25,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative_with_pronouns",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#object_pronouns_direct_indirect",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#comparative",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#superlative",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#near_future",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#near_past",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#object_pronouns_basic",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -568,24 +568,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#past_compose",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#auxiliary_selection",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#etre",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#avoir",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#subjects",
@@ -656,28 +656,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#past_compose",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#auxiliary_selection",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#past_participle_agreement",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#comparative",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#superlative",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#object_pronouns_direct_indirect",
@@ -772,32 +772,32 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 25,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#past_compose",
-              "count": 5
+              "count": 4
             },
             {
               "tag": "#auxiliary_selection",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#past_participle_agreement",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#object_pronouns_direct_indirect",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#imperative_with_pronouns",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#near_past",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#demonstrative_cest",
@@ -911,24 +911,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "満 (マネージャー)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imparfait",
-              "count": 5
-            },
-            {
-              "tag": "#imparfait_vs_past_compose",
-              "count": 5
-            },
-            {
-              "tag": "#past_compose",
               "count": 3
             },
             {
-              "tag": "#auxiliary_selection",
+              "tag": "#imparfait_vs_past_compose",
               "count": 2
+            },
+            {
+              "tag": "#past_compose",
+              "count": 1
+            },
+            {
+              "tag": "#auxiliary_selection",
+              "count": 1
             }
           ]
         },
@@ -1031,28 +1031,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#relative_pronouns_basic",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#conjunctions_basic",
-              "count": 5
-            },
-            {
-              "tag": "#gerund_participle",
-              "count": 5
-            },
-            {
-              "tag": "#imparfait",
               "count": 2
             },
             {
+              "tag": "#gerund_participle",
+              "count": 2
+            },
+            {
+              "tag": "#imparfait",
+              "count": 1
+            },
+            {
               "tag": "#imparfait_vs_past_compose",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -1172,40 +1172,40 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 25,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imparfait",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#imparfait_vs_past_compose",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#relative_pronouns_basic",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#conjunctions_basic",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#gerund_participle",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#past_compose",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#past_participle_agreement",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#comparative",
-              "count": 2
+              "count": 1
             }
           ]
         },

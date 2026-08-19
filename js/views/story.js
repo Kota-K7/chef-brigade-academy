@@ -315,6 +315,54 @@ async function renderChapterSelector(container) {
               </div>
               <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_3">開始する</button>
             </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-4話: 英雄ウェルキンゲトリクス</h4>
+                <span class="play-time">⏱️ 5分 • 場所の前置詞 & 疑問文</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_4">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-5話: アウァーリクムの戦い</h4>
+                <span class="play-time">⏱️ 5分 • 指示形容詞 & 所有形容詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_5">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-6話: ゲルゴウィアの包囲戦</h4>
+                <span class="play-time">⏱️ 5分 • 不規則動詞 & 自動詞・他動詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_6">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-7話: 決戦前夜！アレシア包囲戦（前編）</h4>
+                <span class="play-time">⏱️ 5分 • 複数形 & 否定のde</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_7">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-8話: アレシア包囲戦（中編）</h4>
+                <span class="play-time">⏱️ 5分 • 動詞と前置詞 & 命令形</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_8">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第1-9話: アレシア包囲戦（後編）</h4>
+                <span class="play-time">⏱️ 10分 • 否定のde & 総まとめ</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="1" data-episode="ep_1_9">開始する</button>
+            </div>
           </div>
         </div>
       </div>
@@ -794,6 +842,32 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       setTimeout(() => viewport.classList.remove('shake-vfx'), 400);
     }
     
+    // Apply flash effect (blinking screen overlay) if specified
+    if (step.flash) {
+      const flashOverlay = document.createElement('div');
+      flashOverlay.style.position = 'absolute';
+      flashOverlay.style.top = '0';
+      flashOverlay.style.left = '0';
+      flashOverlay.style.width = '100%';
+      flashOverlay.style.height = '100%';
+      flashOverlay.style.backgroundColor = step.flash === 'white' ? '#ffffff' : '#000000';
+      flashOverlay.style.zIndex = '99';
+      flashOverlay.style.pointerEvents = 'none';
+      flashOverlay.style.transition = 'opacity 0.1s ease-in-out';
+      flashOverlay.style.opacity = '1';
+      viewport.appendChild(flashOverlay);
+      
+      let blinkCount = 0;
+      const flashInterval = setInterval(() => {
+        flashOverlay.style.opacity = flashOverlay.style.opacity === '1' ? '0' : '1';
+        blinkCount++;
+        if (blinkCount >= 6) { // 3 full blinks
+          clearInterval(flashInterval);
+          flashOverlay.remove();
+        }
+      }, 100);
+    }
+    
     if (bgVal.includes('url(')) {
       viewport.style.backgroundSize = 'cover';
       viewport.style.backgroundPosition = 'center';
@@ -923,7 +997,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         clearInterval(typingInterval);
         isTyping = false;
       }
-    }, 30);
+    }, 15);
 
     currentIndex++;
   }
@@ -1981,9 +2055,9 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     // 1. Determine Reward Image URL
     let rewardImgUrl = 'assets/story/chapter_0/bg_after_battle.webp';
     if (episode.episodeId === 'career_ep_0_2') {
-      rewardImgUrl = 'assets/story/career_story/kanetake.webp';
+      rewardImgUrl = 'assets/story/career_story/group_photo.webp';
     } else if (episode.episodeId === 'career_ep_1_3') {
-      rewardImgUrl = 'assets/story/career_story/saeki_reward.webp';
+      rewardImgUrl = 'assets/story/career_story/saeki_young.webp';
     } else if (episode.episodeId === 'career_ep_2_3') {
       rewardImgUrl = 'assets/story/career_story/elodie_reward.webp';
     } else if (episode.episodeId === 'career_ep_3_3') {
@@ -2048,7 +2122,6 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         stampOverlay.classList.add('animate-stamp-stomp');
         
         // Play victory MP3 and stomp sound
-        playHitSound();
         try {
           const audio = new Audio('assets/audio/universfield-level-passed-143039.mp3');
           audio.volume = 0.4;
@@ -2094,7 +2167,11 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       rewardPane.innerHTML = `
         <div class="reward-card end-screen-card animate-fade-in">
           <h2 style="font-family: var(--font-serif); color: var(--color-primary); font-size: 1.4rem; text-align: center; margin-bottom: 0.5rem;">🎉 Félicitations !</h2>
-          <p style="text-align: center; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted);">エピソード「${episode.episodeTitle}」をすべてクリアしました！</p>
+          <p style="text-align: center; margin-bottom: 1rem; font-size: 0.9rem; color: var(--color-text-muted);">エピソード「${episode.episodeTitle}」をすべてクリアしました！</p>
+          
+          <div class="reward-photo-frame" style="width: 100%; border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--color-accent); margin-bottom: 1.2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+            <img src="${rewardImgUrl}" alt="Reward Image" style="width: 100%; height: auto; display: block;" />
+          </div>
           
           <div class="end-actions-wrapper" style="display: flex; flex-direction: column; gap: 1rem; width: 100%;">
             <!-- Next Episode Button -->

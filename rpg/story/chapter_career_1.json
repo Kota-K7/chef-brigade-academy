@@ -121,24 +121,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#verbs",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#transitive_intransitive",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#indicative_present",
-              "count": 4
+              "count": 1
             },
             {
               "tag": "#greetings",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#subjects",
@@ -215,20 +215,20 @@
         {
           "type": "fixedBattle",
           "enemyName": "エロディ (先輩)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#verbs",
-              "count": 15
+              "count": 4
             },
             {
               "tag": "#articles",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#numbers",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#negation",
@@ -327,28 +327,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#irregular_verbs_major",
-              "count": 7
+              "count": 4
             },
             {
               "tag": "#verbs",
-              "count": 6
+              "count": 4
             },
             {
               "tag": "#etre",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#avoir",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#negation",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#articles",
@@ -498,24 +498,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "佐伯 (スーシェフ)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#questions",
-              "count": 5
+              "count": 3
             },
             {
               "tag": "#question_words",
-              "count": 5
-            },
-            {
-              "tag": "#verbs",
               "count": 2
             },
             {
+              "tag": "#verbs",
+              "count": 1
+            },
+            {
               "tag": "#indicative_present",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -582,28 +582,28 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#possessive_adjectives",
-              "count": 5
+              "count": 1
             },
             {
               "tag": "#demonstrative_adjectives",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#prepositions",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#verbs",
-              "count": 3
+              "count": 1
             },
             {
               "tag": "#irregular_verbs_major",
-              "count": 2
+              "count": 1
             }
           ]
         },
@@ -755,36 +755,36 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#negation",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#questions",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#prepositions",
-              "count": 3
+              "count": 2
             },
             {
               "tag": "#possessive_adjectives",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#demonstrative_adjectives",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#irregular_verbs_major",
-              "count": 4
+              "count": 2
             },
             {
               "tag": "#verbs",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -934,20 +934,20 @@
         {
           "type": "fixedBattle",
           "enemyName": "ピエール (シェフ)",
-          "enemyHp": 15,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#basic_adjectives",
-              "count": 10
+              "count": 5
             },
             {
               "tag": "#question_words",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#questions",
-              "count": 3
+              "count": 1
             }
           ]
         },
@@ -1011,24 +1011,24 @@
         {
           "type": "fixedBattle",
           "enemyName": "ガエル (製菓長)",
-          "enemyHp": 20,
+          "enemyHp": 7,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#interrogative_adjectives",
-              "count": 5
+              "count": 2
             },
             {
               "tag": "#partitive_articles",
-              "count": 10
+              "count": 2
             },
             {
               "tag": "#possessive_adjectives",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#demonstrative_adjectives",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#prepositions",
@@ -1142,32 +1142,32 @@
         {
           "type": "fixedBattle",
           "enemyName": "ジャン＝ピエール (シェフ)",
-          "enemyHp": 20,
+          "enemyHp": 12,
           "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#basic_adjectives",
-              "count": 6
-            },
-            {
-              "tag": "#interrogative_adjectives",
-              "count": 3
-            },
-            {
-              "tag": "#partitive_articles",
               "count": 4
             },
             {
-              "tag": "#articles",
+              "tag": "#interrogative_adjectives",
               "count": 2
+            },
+            {
+              "tag": "#partitive_articles",
+              "count": 2
+            },
+            {
+              "tag": "#articles",
+              "count": 1
             },
             {
               "tag": "#verbs",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#irregular_verbs_major",
-              "count": 2
+              "count": 1
             },
             {
               "tag": "#questions",
