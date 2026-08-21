@@ -1,0 +1,35 @@
+q_pr_15 words: ['eau.', 'o,', 'au,'] answer: o, au, eau.
+q_pr_16 words: ['ais', 'fran', 'ç'] answer: français
+q_ng_15 words: ['couteau', 'un'] answer: un couteau
+q_ng_16 words: ['assiette', 'une'] answer: une assiette
+q_art_15 words: ['pommes', 'les'] answer: les pommes
+q_art_16 words: ['tomates', 'des'] answer: des tomates
+q_scramble_1 words: ['nouveau.', 'Je', 'suis'] answer: Je suis nouveau.
+q_ve_11 words: ['nouveau.', 'Je', 'suis'] answer: Je suis nouveau.
+q_ve_12 words: ['chef.', 'Vous', 'êtes'] answer: Vous êtes chef.
+q_va_11 words: ['couteau.', 'un', 'ai', "J'"] answer: J'ai un couteau.
+q_va_12 words: ['du', 'avons', 'Nous', 'temps.'] answer: Nous avons du temps.
+q_dc_11 words: ['couteau.', 'mon', "C'est"] answer: C'est mon couteau.
+q_dc_12 words: ['prêt !', "C'est"] answer: C'est prêt !
+q_sp_11 words: ['protège', 'Je', 'Camille.'] answer: Je protège Camille.
+q_sp_12 words: ['chef.', 'est', 'Elle'] answer: Elle est chef.
+q_ba_11 words: ['soupe', 'chaude', 'Une'] answer: Une soupe chaude
+q_ba_12 words: ['casserole', 'grande', 'Une'] answer: Une grande casserole
+q_ne_11 words: ['couteau.', 'pas', 'de', "J'ai", 'ne'] answer: Je n'ai pas de couteau.
+q_ne_12 words: ['bon.', 'pas', "n'est", 'Ce'] answer: Ce n'est pas bon.
+q_pl_11 words: ['couteaux', 'Les'] answer: Les couteaux
+q_pl_12 words: ['assiettes', 'des'] answer: des assiettes
+q_un_11 words: ['kilo', 'Un', 'poisson,', 'de', "s'il vous plaît."] answer: Un kilo de poisson, s'il vous plaît.
+q_un_12 words: ['pincée', 'Une', 'sel', 'de'] answer: Une pincée de sel
+q_na_11 words: ['japonais.', 'sont', 'Ils'] answer: Ils sont japonais.
+q_na_12 words: ['français.', 'un', "C'est", 'chef'] answer: C'est un chef français.
+q_rc_11 words: ['de', 'La', 'Provence', 'ratatouille'] answer: La ratatouille de Provence
+q_rc_12 words: ['de', 'Le', 'Normandie', 'camembert'] answer: Le camembert de Normandie
+q_verb_etre_add_7 words: ['Nous', 'sommes', 'apprentis', 'chefs.'] answer: Nous sommes apprentis chefs.
+q_verb_avoir_add_7 words: ['Nous', 'avons', 'des', 'couteaux.'] answer: Nous avons des couteaux.
+q_verbs_7 words: ['Je', 'poêle', 'la', 'viande.'] answer: Je poêle la viande.
+q_applied_add_7 words: ['De', "l'eau,", "s'il", 'vous', 'plaît.'] answer: De l'eau, s'il vous plaît.
+q_grammar_add_7 words: ['Êtes-vous', 'prêts', 'pour', 'le', 'service', '?'] answer: Êtes-vous prêts pour le service ?
+q_mixed_add_7 words: ["C'est", 'très', 'bon', '!'] answer: C'est très bon !
+q_mixed_add_17 words: ['Je', 'viens', 'du', 'Japon.'] answer: Je viens du Japon.
+q_gr_39 words: ['Je', 'suis', 'ravi', 'de', 'vous', 'rencontrer.'] answer: Je suis ravi de vous rencontrer.

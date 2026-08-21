@@ -1483,6 +1483,118 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       }
     }
 
+    function swapCurrentQuestion() {
+      if (step.type === 'randomBattle') {
+        const pool = (state.db.quizzes || []).filter(q => !questions.some(qi => qi.id === q.id));
+        let filteredPool = pool;
+        const category = step.conditions?.category;
+        if (category) {
+          filteredPool = pool.filter(q => q.category && q.category.toLowerCase() === category.toLowerCase());
+        }
+        if (filteredPool.length === 0) filteredPool = pool;
+        
+        if (filteredPool.length > 0) {
+          const q = filteredPool[Math.floor(Math.random() * filteredPool.length)];
+          const answerIndex = q.options.indexOf(q.answer);
+          questions[questionIndex] = {
+            id: q.id,
+            text: q.question,
+            options: q.options,
+            answerIndex: answerIndex !== -1 ? answerIndex : 0,
+            explanation: q.context || `正解は「${q.answer}」です。`,
+            acceptedAnswers: [q.answer, q.answer.toLowerCase()],
+            type: 'choice'
+          };
+          renderBattleScreen();
+        }
+        return;
+      }
+
+      const db = state.questionsDb || [];
+      const currentQ = questions[questionIndex];
+      if (!db.length) return;
+      
+      const currentTags = currentQ.tags || [];
+      let candidatePool = db.filter(item => {
+        if (questions.some(q => q.id === item.id)) return false;
+        if (currentTags.length > 0) {
+          return item.tags && item.tags.some(t => currentTags.includes(t));
+        }
+        return true;
+      });
+      
+      if (candidatePool.length === 0) {
+        candidatePool = db.filter(item => !questions.some(q => q.id === item.id));
+      }
+      
+      if (candidatePool.length > 0) {
+        let newRawQ = candidatePool[Math.floor(Math.random() * candidatePool.length)];
+        
+        let targetType = newRawQ.type || 'choice';
+        const isSpecialType = ['matching', 'scramble', 'cloze', 'association', 'map'].includes(targetType);
+        
+        const isNew = currentQ.isNew || false;
+        const rand = Math.random();
+        
+        let finalType = targetType;
+        
+        if (!isSpecialType) {
+          if (isNew) {
+            if (rand < 0.4) {
+              finalType = 'typing';
+            } else if (rand < 0.7) {
+              finalType = 'choice';
+            } else {
+              finalType = 'special';
+            }
+          } else {
+            if (rand < 0.85) {
+              finalType = 'typing';
+            } else if (rand < 0.90) {
+              finalType = 'choice';
+            } else {
+              finalType = 'special';
+            }
+          }
+          
+          if (finalType === 'special') {
+            const matches = db.filter(item => 
+              item.tags && newRawQ.tags && item.tags.some(t => newRawQ.tags.includes(t)) && 
+              ['matching', 'scramble', 'cloze', 'association', 'map'].includes(item.type)
+            );
+            const specialMatch = matches.length > 0 ? matches[Math.floor(Math.random() * matches.length)] : null;
+            if (specialMatch) {
+              newRawQ = {
+                ...specialMatch
+              };
+              finalType = specialMatch.type;
+            } else {
+              finalType = Math.random() > 0.5 ? 'typing' : 'choice';
+            }
+          }
+        }
+        
+        if (finalType === 'typing') {
+          if (!newRawQ.acceptedAnswers && newRawQ.options && newRawQ.answerIndex !== undefined) {
+            const rawAns = newRawQ.options[newRawQ.answerIndex];
+            if (rawAns) {
+              const cleanAns = rawAns.split('(')[0].split('（')[0].trim();
+              newRawQ.acceptedAnswers = [cleanAns, cleanAns.toLowerCase()];
+            }
+          }
+        }
+        
+        questions[questionIndex] = {
+          ...newRawQ,
+          type: finalType,
+          isNew: currentQ.isNew,
+          isReview: currentQ.isReview,
+          isCumulative: currentQ.isCumulative
+        };
+        renderBattleScreen();
+      }
+    }
+
     function renderBattleScreen() {
       if (enemyHp <= 0) {
         playCorrectSound();
@@ -1573,6 +1685,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
               <input type="text" class="battle-input-field" placeholder="フランス語の答えを入力してください..." style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 2px solid rgba(197,168,128,0.4); background: rgba(255,255,255,0.06); color: white; font-size: 1rem; text-align: center; outline: none; transition: border-color 0.2s;" />
               <button class="action-btn submit-typing-btn" style="width: 100%; padding: 0.75rem; font-weight: bold; background: var(--color-accent); color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">回答を送信</button>
               <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">📖 参考資料を表示</button>
+              <button class="action-btn change-battle-q-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #4b5563; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.2rem;">🔄 別の問題にする (Swap Question)</button>
             </div>
             
             <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
@@ -1607,6 +1720,9 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         let clickedWords = [];
         const wordsPool = shuffleArray(currentQ.words || []);
         
+        const useSpace = currentQ.answer.includes(' ');
+        const separator = useSpace ? ' ' : '';
+        
         battlePane.innerHTML = `
           ${hudHtml}
           <div class="battle-question-box">
@@ -1619,9 +1735,12 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
               ${wordsPool.map((w, idx) => `<button class="scramble-word-btn" data-word="${w}" style="padding: 0.35rem 0.7rem; font-size: 0.85rem; border-radius: 20px; border: 1px solid var(--color-accent); background: none; color: white; cursor: pointer;">${w}</button>`).join('')}
             </div>
             
-            <div style="display: flex; gap: 0.5rem;">
-              <button class="action-btn verify-scramble-btn" style="flex: 2; padding: 0.6rem; font-weight: bold; background: var(--color-accent); color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">回答を送信</button>
-              <button class="action-btn reset-scramble-btn" style="flex: 1; padding: 0.6rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">リセット</button>
+            <div style="display: flex; gap: 0.5rem; flex-direction: column;">
+              <div style="display: flex; gap: 0.5rem; width: 100%;">
+                <button class="action-btn verify-scramble-btn" style="flex: 2; padding: 0.6rem; font-weight: bold; background: var(--color-accent); color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">回答を送信</button>
+                <button class="action-btn reset-scramble-btn" style="flex: 1; padding: 0.6rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">リセット</button>
+              </div>
+              <button class="action-btn change-battle-q-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #4b5563; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.2rem;">🔄 別の問題にする (Swap Question)</button>
             </div>
             
             <div class="battle-feedback-drawer" id="battle-feedback" style="display: none; margin-top: 0.8rem;">
@@ -1636,6 +1755,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         const wordBtns = battlePane.querySelectorAll('.scramble-word-btn');
         const verifyBtn = battlePane.querySelector('.verify-scramble-btn');
         const resetBtn = battlePane.querySelector('.reset-scramble-btn');
+        const swapQBtn = battlePane.querySelector('.change-battle-q-btn');
         
         wordBtns.forEach(btn => {
           btn.addEventListener('click', () => {
@@ -1644,7 +1764,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             clickedWords.push(word);
             btn.disabled = true;
             btn.style.opacity = '0.3';
-            sentenceBar.innerText = clickedWords.join(' ');
+            sentenceBar.innerText = clickedWords.join(separator);
           });
         });
         
@@ -1658,10 +1778,11 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         });
         
         verifyBtn.addEventListener('click', () => {
-          const userAns = clickedWords.join(' ');
+          const userAns = clickedWords.join(separator);
           wordBtns.forEach(btn => btn.disabled = true);
           verifyBtn.disabled = true;
           resetBtn.disabled = true;
+          if (swapQBtn) swapQBtn.style.display = 'none';
           
           const cleanUser = userAns.toLowerCase().replace(/[.,!?;:・]/g, "").replace(/\s+/g, " ").trim();
           const cleanTarget = currentQ.answer.toLowerCase().replace(/[.,!?;:・]/g, "").replace(/\s+/g, " ").trim();
@@ -1694,6 +1815,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             `}
             
             <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">📖 参考資料を表示</button>
+            <button class="action-btn change-battle-q-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #4b5563; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.4rem;">🔄 別の問題にする (Swap Question)</button>
             
             <div class="battle-feedback-drawer" id="battle-feedback" style="display: none; margin-top: 0.8rem;">
               <div class="feedback-title" id="fb-title"></div>
@@ -1746,6 +1868,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
                 ${rightItems.map((item, idx) => `<button class="match-card-btn right-card" data-val="${item}" style="padding: 0.45rem; font-size: 0.8rem; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); color: white; border-radius: var(--radius-sm); cursor: pointer; text-align: center; outline: none;">${item}</button>`).join('')}
               </div>
             </div>
+            <button class="action-btn change-battle-q-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #4b5563; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">🔄 別の問題にする (Swap Question)</button>
             
             <div class="battle-feedback-drawer" id="battle-feedback" style="display: none; margin-top: 0.8rem;">
               <div class="feedback-title" id="fb-title"></div>
@@ -1790,6 +1913,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             
             if (matchedCount === totalPairs) {
               playCorrectSound();
+              const swapBtn = battlePane.querySelector('.change-battle-q-btn');
+              if (swapBtn) swapBtn.style.display = 'none';
               enemyHp = Math.max(0, enemyHp - 1);
               fbTitle.innerText = "✅ すべてマッチしました！ (Très bien)";
               fbTitle.className = "feedback-title text-success";
@@ -1883,6 +2008,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             </div>
 
             <button class="action-btn toggle-battle-ref-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #374151; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.8rem;">📖 参考資料を表示</button>
+            <button class="action-btn change-battle-q-btn" style="width: 100%; padding: 0.5rem; font-size: 0.8rem; background: #4b5563; color: white; border: none; border-radius: var(--radius-sm); cursor: pointer; margin-top: 0.4rem;">🔄 別の問題にする (Swap Question)</button>
             
             <div class="battle-feedback-drawer" id="battle-feedback" style="display: none;">
               <div class="feedback-title" id="fb-title"></div>
@@ -1906,10 +2032,17 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           toggleBattleReference(toggleRefBtn);
         });
       }
+
+      const swapBtn = battlePane.querySelector('.change-battle-q-btn');
+      if (swapBtn) {
+        swapBtn.addEventListener('click', swapCurrentQuestion);
+      }
     }
 
     function handleAnswer(selectedIdx, question, optBtns) {
       optBtns.forEach(btn => btn.disabled = true);
+      const swapBtn = battlePane.querySelector('.change-battle-q-btn');
+      if (swapBtn) swapBtn.style.display = 'none';
       
       const feedbackDiv = battlePane.querySelector('#battle-feedback');
       const fbTitle = battlePane.querySelector('#fb-title');
@@ -1957,6 +2090,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     function handleTypingAnswer(userVal, question, inputField, submitBtn) {
       inputField.disabled = true;
       submitBtn.disabled = true;
+      const swapBtn = battlePane.querySelector('.change-battle-q-btn');
+      if (swapBtn) swapBtn.style.display = 'none';
       
       const feedbackDiv = battlePane.querySelector('#battle-feedback');
       const fbTitle = battlePane.querySelector('#fb-title');

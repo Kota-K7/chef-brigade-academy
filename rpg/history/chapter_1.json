@@ -296,11 +296,17 @@
         },
         {
           "type": "dialog",
-          "character": null,
+          "character": "caesar",
           "text": "うむ",
           "position": "center",
-          "background": "assembly",
-          "characters": []
+          "background": "black",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "halo",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -367,12 +373,12 @@
           "character": "caesar",
           "text": "なぁ？どうなんだよ。回答によっちゃ切り伏せるぞ",
           "position": "center",
-          "expression": "normal",
+          "expression": "angry",
           "background": "assembly",
           "characters": [
             {
               "id": "caesar",
-              "expression": "normal",
+              "expression": "angry",
               "position": "center"
             }
           ]
@@ -384,23 +390,20 @@
           "position": "center",
           "expression": "normal",
           "background": "assembly",
-          "characters": [],
-          "learningPoint": {
-            "title": "語句解説",
-            "text": "* └（沈黙）"
-          }
+          "characters": []
+        
         },
         {
           "type": "dialog",
           "character": "caesar",
           "text": "...........",
           "position": "center",
-          "expression": "normal",
+          "expression": "angry",
           "background": "assembly",
           "characters": [
             {
               "id": "caesar",
-              "expression": "normal",
+              "expression": "angry",
               "position": "center"
             }
           ]
@@ -624,6 +627,21 @@
         {
           "type": "dialog",
           "character": "labienus",
+          "text": ".............",
+          "position": "center",
+          "expression": "angry",
+          "background": "assembly",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
           "text": "貴様らッ！！ふざけるのも大概にせいッ！！ 今、ふざけた質問をぬかした最後のものは前に出ろ！見せしめの懲罰じゃ",
           "position": "center",
           "expression": "scold",
@@ -788,7 +806,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "と、いうわけで通訳のお前たちよ。私も少しはガリア語を学んでおこう。まずは基本的な語句や文法を",
+          "text": "と、いうわけで通訳のお前たちよ。私も少しはガリア語を学んでおこう。まずは基本的な語句や文法から教えてくれ！",
           "position": "center",
           "expression": "normal",
           "background": "assembly",

@@ -1,0 +1,362 @@
+Total proposed changes: 84
+
+ID: q_career_0_1_4 (Verb: être)
+  Old: Je ___ nouveau.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme correcte de être: Je ___ nouveau. (「私は新人です)
+  New: Je ___ nouveau.）」の空欄に入る、動詞 [être] の現在形活用を入力してください。 (Entrez la forme correcte de être: Je ___ nouveau. (「私は新人です)
+
+ID: q_career_0_1_4_b (Verb: être)
+  Old: Tu ___ prêt.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Tu'. (「君は準備ができている)
+  New: Tu ___ prêt.）」の空欄に入る、動詞 [être] の現在形活用を入力してください。 (Entrez la forme de être pour 'Tu'. (「君は準備ができている)
+
+ID: q_career_0_1_10_b (Verb: être)
+  Old: Ils ___）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは〜です)
+  New: Ils ___）」の空欄に入る、動詞 [être] の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは〜です)
+
+ID: q_career_0_2_9 (Verb: être)
+  Old: Ils ___ dans la cuisine.）」の空欄に入る、動詞 être の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは厨房にいます)
+  New: Ils ___ dans la cuisine.）」の空欄に入る、動詞 [être] の現在形活用を入力してください。 (Entrez la forme de être pour 'Ils'. (「彼らは厨房にいます)
+
+ID: q_ve_01 (Verb: être)
+  Old: Nous ___ prêts.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「私たちは準備ができています)
+  New: Nous ___ prêts.）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「私たちは準備ができています)
+
+ID: q_ve_02 (Verb: être)
+  Old: Vous ___ chef.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「あなたはシェフです)
+  New: Vous ___ chef.）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「あなたはシェフです)
+
+ID: q_ve_03 (Verb: être)
+  Old: Ils ___ dans la cuisine.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「彼らは厨房にいます)
+  New: Ils ___ dans la cuisine.）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「彼らは厨房にいます)
+
+ID: q_ve_04 (Verb: être)
+  Old: Elle ___ chef.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「彼女はシェフです)
+  New: Elle ___ chef.）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「彼女はシェフです)
+
+ID: q_ve_05 (Verb: être)
+  Old: Tu ___ prêt.）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「君は準備ができている)
+  New: Tu ___ prêt.）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「君は準備ができている)
+
+ID: q_ve_06 (Verb: être)
+  Old: Je ___）」の動詞 être の活用を入力してください。 (Entrez le mot correct. (「私は〜です)
+  New: Je ___）」の動詞 [être] の活用を入力してください。 (Entrez le mot correct. (「私は〜です)
+
+ID: q_ve_09 (Verb: être)
+  Old: Nous）は厨房にいます」 - 空欄に入る動詞 être の活用を選んでください。 (Nous [sommes] dans la cuisine. (「私たち)
+  New: Nous）は厨房にいます」 - 空欄に入る動詞 [être] の活用を選んでください。 (Nous [sommes] dans la cuisine. (「私たち)
+
+ID: q_ve_10 (Verb: être)
+  Old: Ils）は親切です」 - 空欄に入る動詞 être の活用を選んでください。 (Ils [sont] gentils. (「彼ら)
+  New: Ils）は親切です」 - 空欄に入る動詞 [être] の活用を選んでください。 (Ils [sont] gentils. (「彼ら)
+
+ID: q_ve_13 (Verb: être)
+  Old: Choisissez la forme de 'être'. (「Je（私）」に対応する動詞 être の活用を選んでください。)
+  New: Choisissez la forme de 'être'. (「Je（私）」に対応する動詞 [être] の活用を選んでください。)
+
+ID: q_career_0_1_4_c (Verb: avoir)
+  Old: J'___ un couteau.）」の空欄に入る、動詞 avoir の一人称単数現在形を入力してください。 (Entrez la forme de avoir pour 'Je'. (「私は包丁を持っています)
+  New: J'___ un couteau.）」の空欄に入る、動詞 [avoir] の一人称単数現在形を入力してください。 (Entrez la forme de avoir pour 'Je'. (「私は包丁を持っています)
+
+ID: q_career_0_1_10 (Verb: avoir)
+  Old: Nous ___）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme correcte de avoir: Nous ___ (「私たちは持っています)
+  New: Nous ___）」の空欄に入る、動詞 [avoir] の現在形活用を入力してください。 (Entrez la forme correcte de avoir: Nous ___ (「私たちは持っています)
+
+ID: q_career_0_2_9_b (Verb: avoir)
+  Old: Nous ___ deux couteaux.）」の空欄に入る、動詞 avoir の現在形活用を入力してください。 (Entrez la forme de avoir pour 'Nous'. (「私たちは2本のナイフを持っています)
+  New: Nous ___ deux couteaux.）」の空欄に入る、動詞 [avoir] の現在形活用を入力してください。 (Entrez la forme de avoir pour 'Nous'. (「私たちは2本のナイフを持っています)
+
+ID: q_career_0_2_9_c (Verb: avoir)
+  Old: Vous ___）」の空欄に入る、動詞 avoir の二人称複数現在形を入力してください。 (Entrez la forme de avoir pour 'Vous'. (「あなたは〜を持っている)
+  New: Vous ___）」の空欄に入る、動詞 [avoir] の二人称複数現在形を入力してください。 (Entrez la forme de avoir pour 'Vous'. (「あなたは〜を持っている)
+
+ID: q_va_01 (Verb: avoir)
+  Old: J'___ un couteau.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「私は包丁を持っています)
+  New: J'___ un couteau.）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「私は包丁を持っています)
+
+ID: q_va_02 (Verb: avoir)
+  Old: Tu ___ une casserole.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「君は鍋を持っている)
+  New: Tu ___ une casserole.）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「君は鍋を持っている)
+
+ID: q_va_03 (Verb: avoir)
+  Old: Il ___ 20 ans.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼は20歳です)
+  New: Il ___ 20 ans.）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「彼は20歳です)
+
+ID: q_va_04 (Verb: avoir)
+  Old: Nous ___ du sel.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「私たちは塩を持っています)
+  New: Nous ___ du sel.）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「私たちは塩を持っています)
+
+ID: q_va_05 (Verb: avoir)
+  Old: Vous ___ du temps ?）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「あなたは時間がありますか？)
+  New: Vous ___ du temps ?）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「あなたは時間がありますか？)
+
+ID: q_va_06 (Verb: avoir)
+  Old: Ils ___ du poisson.）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼らは魚を持っています)
+  New: Ils ___ du poisson.）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「彼らは魚を持っています)
+
+ID: q_va_09 (Verb: avoir)
+  Old: Nous [avons] des couteaux. (「私たちは包丁を持っています」 - 空欄に入る動詞 avoir の活用を選んでください。)
+  New: Nous [avons] des couteaux. (「私たちは包丁を持っています」 - 空欄に入る動詞 [avoir] の活用を選んでください。)
+
+ID: q_va_10 (Verb: avoir)
+  Old: Elle [a] vingt ans. (「彼女は20歳です」 - 空欄に入る動詞 avoir の活用を選んでください。)
+  New: Elle [a] vingt ans. (「彼女は20歳です」 - 空欄に入る動詞 [avoir] の活用を選んでください。)
+
+ID: q_va_13 (Verb: avoir)
+  Old: Choisissez la forme de 'avoir'. (「J'（私）」に対応する動詞 avoir の活用を選んでください。)
+  New: Choisissez la forme de 'avoir'. (「J'（私）」に対応する動詞 [avoir] の活用を選んでください。)
+
+ID: q_va_14 (Verb: avoir)
+  Old: Choisissez la forme de 'avoir'. (「Vous（あなた）」に対応する動詞 avoir の活用を選んでください。)
+  New: Choisissez la forme de 'avoir'. (「Vous（あなた）」に対応する動詞 [avoir] の活用を選んでください。)
+
+ID: q_va_ext_01 (Verb: avoir)
+  Old: Elles ___ quoi ?）」の動詞 avoir の活用を入力してください。 (Entrez le mot correct. (「彼女たちは何を持っていますか？)
+  New: Elles ___ quoi ?）」の動詞 [avoir] の活用を入力してください。 (Entrez le mot correct. (「彼女たちは何を持っていますか？)
+
+ID: q_verb_etre_add_1 (Verb: être)
+  Old: Vous [___] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 être の活用を入力してください。)
+  New: Vous [___] prêts pour le service ? (「あなた方はサービスの準備ができていますか？」 - 空欄に入る動詞 [être] の活用を入力してください。)
+
+ID: q_verb_etre_add_2 (Verb: être)
+  Old: Ils [___] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 être の活用を入力してください。)
+  New: Ils [___] en cuisine. (「彼らは厨房にいます」 - 空欄に入る動詞 [être] の活用を入力してください。)
+
+ID: q_verb_etre_add_3 (Verb: être)
+  Old: Elles [___] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 être の活用を入力してください。)
+  New: Elles [___] fatiguées. (「彼女たちは疲れています」 - 空欄に入る動詞 [être] の活用を入力してください。)
+
+ID: q_verb_etre_add_4 (Verb: être)
+  Old: Quelle est la conjugaison de être pour 'Nous' ? (「Nous（私たち）」に対する動詞 être の現在形活用を選んでください。)
+  New: Quelle est la conjugaison de être pour 'Nous' ? (「Nous（私たち）」に対する動詞 [être] の現在形活用を選んでください。)
+
+ID: q_verb_etre_add_5 (Verb: être)
+  Old: Quelle est la forme correcte de être pour 'Tu' ? (「Tu（君）」に対する動詞 être の現在形活用を選んでください。)
+  New: Quelle est la forme correcte de être pour 'Tu' ? (「Tu（君）」に対する動詞 [être] の現在形活用を選んでください。)
+
+ID: q_verb_etre_add_6 (Verb: être)
+  Old: Le chef [est] très exigeant. (「シェフはとても厳しいです」 - 空欄に入る動詞 être の活用を入力してください。)
+  New: Le chef [est] très exigeant. (「シェフはとても厳しいです」 - 空欄に入る動詞 [être] の活用を入力してください。)
+
+ID: q_verb_etre_add_9 (Verb: C'est)
+  Old: C'est [est] chaud ! (「熱いので注意！」 - C'est の est の不定形動詞は何ですか？)
+  New: C'est [est] chaud ! (「熱いので注意！」 - [C'est] の est の不定形動詞は何ですか？)
+
+ID: q_verb_etre_add_10 (Verb: être)
+  Old: Qui [___] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 être の活用を入力してください。)
+  New: Qui [___] le chef de partie ? (「部門シェフは誰ですか？」 - 空欄に入る動詞 [être] の活用を入力してください。)
+
+ID: q_verb_avoir_add_1 (Verb: avoir)
+  Old: Tu [___] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 avoir の活用を入力してください。)
+  New: Tu [___] besoin de sel ? (「塩が必要ですか？」 - 空欄に入る動詞 [avoir] の活用を入力してください。)
+
+ID: q_verb_avoir_add_2 (Verb: avoir)
+  Old: Vous [___] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 avoir の活用を入力してください。)
+  New: Vous [___] du beurre ? (「バターを持っていますか？」 - 空欄に入る動詞 [avoir] の活用を入力してください。)
+
+ID: q_verb_avoir_add_3 (Verb: avoir)
+  Old: Ils [___] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 avoir の活用を入力してください。)
+  New: Ils [___] trois casseroles. (「彼らは3つの鍋を持っています」 - 空欄に入る動詞 [avoir] の活用を入力してください。)
+
+ID: q_verb_avoir_add_4 (Verb: avoir)
+  Old: Elle [___] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 avoir の活用を入力してください。)
+  New: Elle [___] faim. (「彼女はお腹が空いています」 - 空欄に入る動詞 [avoir] の活用を入力してください。)
+
+ID: q_verb_avoir_add_5 (Verb: avoir)
+  Old: Quelle est la forme de avoir pour 'Nous' ? (「Nous」に対する動詞 avoir の活用を選んでください。)
+  New: Quelle est la forme de avoir pour 'Nous' ? (「Nous」に対する動詞 [avoir] の活用を選んでください。)
+
+ID: q_verb_avoir_add_6 (Verb: avoir)
+  Old: J'[ai] une question pour le chef. (「料理長に質問があります」 - 空欄に入る動詞 avoir の一人称単数形を入力してください。)
+  New: J'[ai] une question pour le chef. (「料理長に質問があります」 - 空欄に入る動詞 [avoir] の一人称単数形を入力してください。)
+
+ID: q_verbs_1 (Verb: couper)
+  Old: Je [___] les oignons. (「私は玉ねぎを切ります」 - 動詞 couper の Je に対する活用を入力してください。)
+  New: Je [___] les oignons. (「私は玉ねぎを切ります」 - 動詞 [couper] の Je に対する活用を入力してください。)
+
+ID: q_verbs_2 (Verb: mélanger)
+  Old: Nous [___] la sauce. (「私たちはソースを混ぜます」 - 動詞 mélanger の Nous に対する活用を入力してください。)
+  New: Nous [___] la sauce. (「私たちはソースを混ぜます」 - 動詞 [mélanger] の Nous に対する活用を入力してください。)
+
+ID: q_verbs_3 (Verb: ajouter)
+  Old: Vous [___] du sel. (「あなた方は塩を加えます」 - 動詞 ajouter の Vous に対する活用を入力してください。)
+  New: Vous [___] du sel. (「あなた方は塩を加えます」 - 動詞 [ajouter] の Vous に対する活用を入力してください。)
+
+ID: q_verbs_4 (Verb: tailler)
+  Old: Il [___] les légumes en julienne. (「彼は野菜をジュリエンヌ（千切り）にします」 - 動詞 tailler の Il に対する活用を入力してください。)
+  New: Il [___] les légumes en julienne. (「彼は野菜をジュリエンヌ（千切り）にします」 - 動詞 [tailler] の Il に対する活用を入力してください。)
+
+ID: q_verbs_6 (Verb: chauffer)
+  Old: Tu [___] la poêle. (「君はフライパンを温めます」 - 動詞 chauffer の Tu に対する活用を入力してください。)
+  New: Tu [___] la poêle. (「君はフライパンを温めます」 - 動詞 [chauffer] の Tu に対する活用を入力してください。)
+
+ID: q_verbs_9 (Verb: préparer)
+  Old: Elles [___] le dessert. (「彼女たちはデセールを準備します」 - 動詞 préparer の Elles に対する活用を入力してください。)
+  New: Elles [___] le dessert. (「彼女たちはデセールを準備します」 - 動詞 [préparer] の Elles に対する活用を入力してください。)
+
+ID: q_verbs_10 (Verb: goûter)
+  Old: Le chef [___] la soupe. (「料理長がスープを味見します」 - 動詞 goûter の 3人称単数活用を入力してください。)
+  New: Le chef [___] la soupe. (「料理長がスープを味見します」 - 動詞 [goûter] の 3人称単数活用を入力してください。)
+
+ID: q_career_1_1_regular_verbs_1_2_1 (Verb: finir)
+  Old: 「君は生地を仕上げる」は「Tu ___ la pâte.」です。空欄に finir の現在形活用を入力してください。
+(Complétez : Tu ___ la pâte. (finir))
+  New: 「君は生地を仕上げる」は「Tu ___ la pâte.」です。空欄に [finir] の現在形活用を入力してください。
+(Complétez : Tu ___ la pâte. ([finir]))
+
+ID: q_career_1_1_regular_verbs_1_2_2 (Verb: couper)
+  Old: 「私たちは野菜を切る」は「Nous ___ les légumes.」です。空欄に couper の現在形活用を入力してください。
+(Complétez : Nous ___ les légumes. (couper))
+  New: 「私たちは野菜を切る」は「Nous ___ les légumes.」です。空欄に [couper] の現在形活用を入力してください。
+(Complétez : Nous ___ les légumes. ([couper]))
+
+ID: q_career_1_1_regular_verbs_1_2_3 (Verb: finir)
+  Old: 「あなた方はソースを仕上げる」は「Vous ___ la sauce.」です。空欄に finir の現在形活用を入力してください。
+(Complétez : Vous ___ la sauce. (finir))
+  New: 「あなた方はソースを仕上げる」は「Vous ___ la sauce.」です。空欄に [finir] の現在形活用を入力してください。
+(Complétez : Vous ___ la sauce. ([finir]))
+
+ID: q_career_1_1_regular_verbs_1_2_4 (Verb: couper)
+  Old: 「彼らはトマトを切る」は「Ils ___ les tomates.」です。空欄に couper の現在形活用を入力してください。
+(Complétez : Ils ___ les tomates. (couper))
+  New: 「彼らはトマトを切る」は「Ils ___ les tomates.」です。空欄に [couper] の現在形活用を入力してください。
+(Complétez : Ils ___ les tomates. ([couper]))
+
+ID: q_career_1_1_irregular_verbs_major_1 (Verb: aller)
+  Old: 「私はレストランに行く」は「Je ___ au restaurant.」です。動詞 aller の現在形活用を入力してください。
+(Complétez : Je ___ au restaurant. (aller))
+  New: 「私はレストランに行く」は「Je ___ au restaurant.」です。動詞 [aller] の現在形活用を入力してください。
+(Complétez : Je ___ au restaurant. ([aller]))
+
+ID: q_career_1_1_irregular_verbs_major_2 (Verb: faire)
+  Old: 「私たちは仕込みをする」は「Nous ___ la mise en place.」です。動詞 faire の現在形活用を入力してください。
+(Complétez : Nous ___ la mise en place. (faire))
+  New: 「私たちは仕込みをする」は「Nous ___ la mise en place.」です。動詞 [faire] の現在形活用を入力してください。
+(Complétez : Nous ___ la mise en place. ([faire]))
+
+ID: q_career_1_1_irregular_verbs_major_3 (Verb: venir)
+  Old: 「あなた方はパリから来ます」は「Vous ___ de Paris.」です。動詞 venir の現在形活用を入力してください。
+(Complétez : Vous ___ de Paris. (venir))
+  New: 「あなた方はパリから来ます」は「Vous ___ de Paris.」です。動詞 [venir] の現在形活用を入力してください。
+(Complétez : Vous ___ de Paris. ([venir]))
+
+ID: q_career_1_1_irregular_verbs_major_4 (Verb: faire)
+  Old: 「彼らはパンを作る」は「Ils ___ du pain.」です。動詞 faire の現在形活用を入力してください。
+(Complétez : Ils ___ du pain. (faire))
+  New: 「彼らはパンを作る」は「Ils ___ du pain.」です。動詞 [faire] の現在形活用を入力してください。
+(Complétez : Ils ___ du pain. ([faire]))
+
+ID: q_career_1_1_irregular_verbs_major_5 (Verb: aller)
+  Old: 「彼女は厨房に行く」は「Elle ___ à la cuisine.」です。動詞 aller の現在形活用を入力してください。
+(Complétez : Elle ___ à la cuisine. (aller))
+  New: 「彼女は厨房に行く」は「Elle ___ à la cuisine.」です。動詞 [aller] の現在形活用を入力してください。
+(Complétez : Elle ___ à la cuisine. ([aller]))
+
+ID: q_career_2_2_irregular_verbs_1_1 (Verb: prendre)
+  Old: 「私はこのフライパンを取ります」は「Je ___ cette poêle.」です。動詞 prendre の Je に対する現在形活用を入力してください。
+(Complétez : Je ___ cette poêle. (prendre))
+  New: 「私はこのフライパンを取ります」は「Je ___ cette poêle.」です。動詞 [prendre] の Je に対する現在形活用を入力してください。
+(Complétez : Je ___ cette poêle. ([prendre]))
+
+ID: q_career_2_2_irregular_verbs_1_2 (Verb: mettre)
+  Old: 「彼はそれを火にかけます（置きます）」は「Il ___ la poêle sur le feu.」です。動詞 mettre の Il に対する現在形活用を入力してください。
+(Complétez : Il ___ la poêle sur le feu. (mettre))
+  New: 「彼はそれを火にかけます（置きます）」は「Il ___ la poêle sur le feu.」です。動詞 [mettre] の Il に対する現在形活用を入力してください。
+(Complétez : Il ___ la poêle sur le feu. ([mettre]))
+
+ID: q_career_2_2_irregular_verbs_1_3 (Verb: faire)
+  Old: 「あなた方は何をしますか？」は「Que ___ -vous ?」です。動詞 faire の vous に対する現在形活用を入力してください。
+(Complétez : Que ___ -vous ? (faire))
+  New: 「あなた方は何をしますか？」は「Que ___ -vous ?」です。動詞 [faire] の vous に対する現在形活用を入力してください。
+(Complétez : Que ___ -vous ? ([faire]))
+
+ID: q_pc_01 (Verb: avoir)
+  Old: Remplissez le vide pour la structure de base du passé composé : 'J'___ préparé la tarte.' (私はタルトを準備しました)
+  New: Remplissez le vide (動詞 [avoir]) pour la structure de base du passé composé : 'J'___ préparé la tarte.' (私はタルトを準備しました)
+
+ID: q_pc_02 (Verb: avoir)
+  Old: Remplissez le vide : 'Nous ___ fini le service à minuit.' (私たちは深夜12時に営業サービスを終えた)
+  New: Remplissez le vide (動詞 [avoir]) : 'Nous ___ fini le service à minuit.' (私たちは深夜12時に営業サービスを終えた)
+
+ID: q_pc_03 (Verb: avoir)
+  Old: Remplissez le vide : 'Tu ___ coupé les oignons ?' (君はタマネギを切りましたか？)
+  New: Remplissez le vide (動詞 [avoir]) : 'Tu ___ coupé les oignons ?' (君はタマネギを切りましたか？)
+
+ID: q_pc_04 (Verb: avoir)
+  Old: Remplissez le vide : 'Le chef ___ vérifié la cuisson.' (シェフは焼き加減をチェックしました)
+  New: Remplissez le vide (動詞 [avoir]) : 'Le chef ___ vérifié la cuisson.' (シェフは焼き加減をチェックしました)
+
+ID: q_pc_05 (Verb: avoir)
+  Old: Remplissez le vide : 'Ils ___ acheté des légumes.' (彼らは野菜を買いました)
+  New: Remplissez le vide (動詞 [avoir]) : 'Ils ___ acheté des légumes.' (彼らは野菜を買いました)
+
+ID: q_imp_01 (Verb: être)
+  Old: Remplissez le vide avec l'imparfait : 'Quand j'___ jeune, je voulais être chef.' (私は若かった頃、シェフになりたかった)
+  New: Remplissez le vide (動詞 [être]) avec l'imparfait : 'Quand j'___ jeune, je voulais être chef.' (私は若かった頃、シェフになりたかった)
+
+ID: q_imp_02 (Verb: avoir)
+  Old: Complétez à l'imparfait : 'Le restaurant ___ beaucoup de clients.' (そのレストランは[当時]多くのお客さんがいた)
+  New: Complétez (動詞 [avoir]) à l'imparfait : 'Le restaurant ___ beaucoup de clients.' (そのレストランは[当時]多くのお客さんがいた)
+
+ID: q_imp_03 (Verb: faire)
+  Old: Complétez à l'imparfait : 'Nous ___ le pain nous-mêmes.' (私たちは[当時]パンを自分たちで作っていた)
+  New: Complétez (動詞 [faire]) à l'imparfait : 'Nous ___ le pain nous-mêmes.' (私たちは[当時]パンを自分たちで作っていた)
+
+ID: q_imp_04 (Verb: faire)
+  Old: Complétez à l'imparfait : 'Tu ___ toujours attention aux détails.' (君はいつも細部に気をつけていた)
+  New: Complétez (動詞 [faire]) à l'imparfait : 'Tu ___ toujours attention aux détails.' (君はいつも細部に気をつけていた)
+
+ID: q_imp_05 (Verb: être)
+  Old: Complétez à l'imparfait : 'Les clients ___ satisfaits.' (お客様たちは満足していた)
+  New: Complétez (動詞 [être]) à l'imparfait : 'Les clients ___ satisfaits.' (お客様たちは満足していた)
+
+ID: q_sub_01 (Verb: cuire)
+  Old: Complétez au subjonctif : 'Il faut que tu ___ la viande lentement.' (あなたは肉をゆっくり焼かなければならない)
+  New: Complétez (動詞 [cuire]) au subjonctif : 'Il faut que tu ___ la viande lentement.' (あなたは肉をゆっくり焼かなければならない)
+
+ID: q_sub_02 (Verb: faire)
+  Old: Complétez au subjonctif : 'Je veux que vous ___ la mise en place tout de suite.' (あなたたちに今すぐ仕込みをしてほしい)
+  New: Complétez (動詞 [faire]) au subjonctif : 'Je veux que vous ___ la mise en place tout de suite.' (あなたたちに今すぐ仕込みをしてほしい)
+
+ID: q_sub_03 (Verb: être)
+  Old: Complétez au subjonctif : 'Il est nécessaire qu'il ___ présent en cuisine.' (彼が厨房にいることが必要だ)
+  New: Complétez (動詞 [être]) au subjonctif : 'Il est nécessaire qu'il ___ présent en cuisine.' (彼が厨房にいることが必要だ)
+
+ID: q_sub_04 (Verb: connaître)
+  Old: Complétez au subjonctif : 'Pourvu qu'elle ___ la recette par cœur.' (彼女がレシピを暗記していることを望む)
+  New: Complétez (動詞 [connaître]) au subjonctif : 'Pourvu qu'elle ___ la recette par cœur.' (彼女がレシピを暗記していることを望む)
+
+ID: q_sub_05 (Verb: être)
+  Old: Complétez au subjonctif : 'Il faut que nous ___ prêts pour le service.' (私たちはサービスの準備ができていなければならない)
+  New: Complétez (動詞 [être]) au subjonctif : 'Il faut que nous ___ prêts pour le service.' (私たちはサービスの準備ができていなければならない)
+
+ID: q_fut_01 (Verb: préparer)
+  Old: Complétez au futur simple : 'Demain, je ___ le poisson frais.' (明日、私は新鮮な魚を準備するつもりです)
+  New: Complétez (動詞 [préparer]) au futur simple : 'Demain, je ___ le poisson frais.' (明日、私は新鮮な魚を準備するつもりです)
+
+ID: q_fut_02 (Verb: goûter)
+  Old: Complétez au futur simple : 'Le chef ___ le nouveau plat ce soir.' (シェフは今夜、新しい料理を味見する予定です)
+  New: Complétez (動詞 [goûter]) au futur simple : 'Le chef ___ le nouveau plat ce soir.' (シェフは今夜、新しい料理を味見する予定です)
+
+ID: q_fut_03 (Verb: fermer)
+  Old: Complétez au futur simple : 'Nous ___ le restaurant exceptionnellement lundi.' (月曜日は臨時休業します/閉める予定です)
+  New: Complétez (動詞 [fermer]) au futur simple : 'Nous ___ le restaurant exceptionnellement lundi.' (月曜日は臨時休業します/閉める予定です)
+
+ID: q_fut_04 (Verb: créer)
+  Old: Complétez au futur simple : 'Ils ___ une nouvelle carte pour la saison prochaine.' (彼らは来シーズン用に新メニューを作成する予定です)
+  New: Complétez (動詞 [créer]) au futur simple : 'Ils ___ une nouvelle carte pour la saison prochaine.' (彼らは来シーズン用に新メニューを作成する予定です)
+
+ID: q_cond_01 (Verb: vouloir)
+  Old: Complétez au conditionnel présent : 'Je ___ proposer une modification de la recette.' (レシピの変更を提案したいのですが)
+  New: Complétez (動詞 [vouloir]) au conditionnel présent : 'Je ___ proposer une modification de la recette.' (レシピの変更を提案したいのですが)
+
+ID: q_cond_02 (Verb: devoir)
+  Old: Complétez au conditionnel présent : 'Vous ___ nettoyer le plan de travail avant de partir.' (帰る前に作業台を掃除すべきです)
+  New: Complétez (動詞 [devoir]) au conditionnel présent : 'Vous ___ nettoyer le plan de travail avant de partir.' (帰る前に作業台を掃除すべきです)
+
+ID: q_cond_03 (Verb: faire)
+  Old: Complétez : 'Si j'avais du temps, je ___ ce dessert délicat.' (もし時間があれば、この繊細なデザートを作るのだが)
+  New: Complétez (動詞 [faire]) : 'Si j'avais du temps, je ___ ce dessert délicat.' (もし時間があれば、この繊細なデザートを作るのだが)
+
+ID: q_cond_04 (Verb: vouloir)
+  Old: Complétez au conditionnel : 'Nous ___ déguster ce vin rouge avec le canard.' (私たちは鴨肉と一緒にこの赤ワインを試飲したいのですが)
+  New: Complétez (動詞 [vouloir]) au conditionnel : 'Nous ___ déguster ce vin rouge avec le canard.' (私たちは鴨肉と一緒にこの赤ワインを試飲したいのですが)
+

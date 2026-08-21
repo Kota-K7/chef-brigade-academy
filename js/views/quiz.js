@@ -546,7 +546,8 @@ function renderQuizContent(container) {
           <p style="margin-top: 0.4rem; font-style: italic; font-size: 0.9rem;">${quizItem.context}</p>
         </div>
         
-        <div style="margin-top: 1.5rem;">
+        <div style="margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%;">
+          <button class="next-btn" id="change-quiz-q-btn" style="background-color: #4b5563; border-color: #4b5563; font-size: 0.8rem; padding: 0.4rem 0.8rem; border-radius: 30px;">🔄 別の問題にする (Swap)</button>
           <button class="next-btn" id="next-q-btn" style="display: none; margin-left: auto;">Continue →</button>
         </div>
       `;
@@ -562,6 +563,17 @@ function renderQuizContent(container) {
         });
       }
 
+      const changeQBtn = card.querySelector('#change-quiz-q-btn');
+      if (changeQBtn) {
+        changeQBtn.addEventListener('click', () => {
+          const pool = allQuizzes.filter(q => !quizzes.some(qi => qi.id === q.id));
+          if (pool.length > 0) {
+            quizzes[currentIndex] = shuffle(pool)[0];
+            renderCurrentChoice();
+          }
+        });
+      }
+
       // Option selection
       const optionBtns = card.querySelectorAll('.quiz-btn');
       const feedback = card.querySelector('.quiz-feedback');
@@ -571,6 +583,7 @@ function renderQuizContent(container) {
         btn.addEventListener('click', (e) => {
           if (answered) return;
           answered = true;
+          if (changeQBtn) changeQBtn.style.display = 'none';
           const selectedOption = e.target.innerText;
           const correct = selectedOption === quizItem.answer;
 
@@ -717,17 +730,33 @@ function renderQuizContent(container) {
           <p style="margin-top: 0.4rem; font-style: italic; font-size: 0.9rem;">${matchItem.explanation || '正しいペアをマッチさせました。'}</p>
         </div>
         
-        <div id="matching-completion-panel" style="display: none; text-align: center; margin-top: 1.5rem;">
-          <button class="next-btn" id="next-assoc-btn" style="margin: 0 auto; display: block;">Continue →</button>
+        <div style="margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%;">
+          <button class="next-btn" id="change-assoc-q-btn" style="background-color: #4b5563; border-color: #4b5563; font-size: 0.8rem; padding: 0.4rem 0.8rem; border-radius: 30px;">🔄 別の問題にする (Swap)</button>
+          <div id="matching-completion-panel" style="display: none; flex: 1;">
+            <button class="next-btn" id="next-assoc-btn" style="margin-left: auto; display: block;">Continue →</button>
+          </div>
         </div>
       `;
 
       gameWrapper.appendChild(card);
+      
+      const changeAssocBtn = card.querySelector('#change-assoc-q-btn');
+      if (changeAssocBtn) {
+        changeAssocBtn.addEventListener('click', () => {
+          const poolNotUsed = pool.filter(q => !quizzes.some(qi => qi.id === q.id));
+          if (poolNotUsed.length > 0) {
+            quizzes[currentIndex] = shuffle(poolNotUsed)[0];
+            renderCurrentAssociation();
+          }
+        });
+      }
+
       setupAssociationHandlers(card, matchItem, () => {
         const feedback = card.querySelector('.quiz-feedback');
         const completionPanel = card.querySelector('#matching-completion-panel');
         feedback.style.display = 'block';
         completionPanel.style.display = 'block';
+        if (changeAssocBtn) changeAssocBtn.style.display = 'none';
       });
 
       card.querySelector('#next-assoc-btn').addEventListener('click', () => {
@@ -1000,13 +1029,25 @@ function renderQuizContent(container) {
           <p id="spelling-feedback-msg" style="margin-top: 0.3rem; font-size: 0.95rem;"></p>
         </div>
         
-        <div style="display: flex; gap: 1rem;">
-          <button class="next-btn" id="spelling-submit-btn">Vérifier (Check)</button>
+        <div style="display: flex; gap: 1rem; align-items: center; justify-content: space-between; width: 100%;">
+          <button class="next-btn" id="change-spelling-q-btn" style="background-color: #4b5563; border-color: #4b5563; font-size: 0.8rem; padding: 0.4rem 0.8rem; border-radius: 30px;">🔄 別の問題にする (Swap)</button>
+          <button class="next-btn" id="spelling-submit-btn" style="margin-left: auto;">Vérifier (Check)</button>
           <button class="next-btn" id="spelling-next-btn" style="display: none; margin-left: auto;">Continue →</button>
         </div>
       `;
 
       gameWrapper.appendChild(card);
+      
+      const changeSpellingBtn = card.querySelector('#change-spelling-q-btn');
+      if (changeSpellingBtn) {
+        changeSpellingBtn.addEventListener('click', () => {
+          const poolNotUsed = pool.filter(q => !quizzes.some(qi => qi.id === q.id));
+          if (poolNotUsed.length > 0) {
+            quizzes[currentIndex] = shuffle(poolNotUsed)[0];
+            renderCurrentSpelling();
+          }
+        });
+      }
 
       const inputField = card.querySelector('#spelling-input-field');
       const submitBtn = card.querySelector('#spelling-submit-btn');
@@ -1044,6 +1085,7 @@ function renderQuizContent(container) {
       submitBtn.addEventListener('click', () => {
         if (answered) return;
         answered = true;
+        if (changeSpellingBtn) changeSpellingBtn.style.display = 'none';
         const userText = inputField.value;
         const normUser = normalizeString(userText);
         

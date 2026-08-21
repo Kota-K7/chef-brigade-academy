@@ -1,0 +1,29 @@
+Total questions loaded: 705
+
+--- Scramble Errors (3) ---
+ID: q_pr_16
+  Text: français）」の単語を完成させるよう並べ替えてください。 (Formez le mot 'français'. (「フランス語)
+  Words: ['ais', 'fran', 'ç']
+  Answer: français
+  Cleaned Words: ['ais', 'fran', 'ç']
+  Cleaned Ans:   ['français']
+ID: q_va_11
+  Text: Remettez en ordre. (「私は包丁を持っています」となるように語を並べ替えてください。)
+  Words: ['couteau.', 'un', 'ai', "J'"]
+  Answer: J'ai un couteau.
+  Cleaned Words: ['ai', 'couteau', "j'", 'un']
+  Cleaned Ans:   ['couteau', "j'ai", 'un']
+ID: q_ne_11
+  Text: Remettez en ordre. (「私は包丁を持っていません」となるように並び替えてください。)
+  Words: ['couteau.', 'pas', 'de', "J'ai", 'ne']
+  Answer: Je n'ai pas de couteau.
+  Cleaned Words: ['couteau', 'de', "j'ai", 'ne', 'pas']
+  Cleaned Ans:   ['couteau', 'de', 'je', "n'ai", 'pas']
+
+--- Choice Errors (0) ---
+
+--- Cloze Errors (0) ---
+
+--- Typing Errors (0) ---
+
+--- Matching Errors (0) ---
