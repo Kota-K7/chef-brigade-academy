@@ -59,8 +59,8 @@
         "vercingetorix": {
           "name": "ウェルキンゲトリクス",
           "images": {
-            "default": "assets/story/chapter_1/エイダン直立.webp",
-            "normal": "assets/story/chapter_1/エイダン直立.webp"
+            "default": "assets/story/chapter_1/ウェルキンゲトリクス.webp",
+            "normal": "assets/story/chapter_1/ウェルキンゲトリクス.webp"
           }
         },
         "girl": {
@@ -391,7 +391,6 @@
           "expression": "normal",
           "background": "assembly",
           "characters": []
-        
         },
         {
           "type": "dialog",
@@ -1020,8 +1019,8 @@
         "vercingetorix": {
           "name": "ウェルキンゲトリクス",
           "images": {
-            "default": "assets/story/chapter_1/エイダン直立.webp",
-            "normal": "assets/story/chapter_1/エイダン直立.webp"
+            "default": "assets/story/chapter_1/ウェルキンゲトリクス.webp",
+            "normal": "assets/story/chapter_1/ウェルキンゲトリクス.webp"
           }
         },
         "girl": {
@@ -1405,8 +1404,8 @@
         "vercingetorix": {
           "name": "ウェルキンゲトリクス",
           "images": {
-            "default": "assets/story/chapter_1/エイダン直立.webp",
-            "normal": "assets/story/chapter_1/エイダン直立.webp"
+            "default": "assets/story/chapter_1/ウェルキンゲトリクス.webp",
+            "normal": "assets/story/chapter_1/ウェルキンゲトリクス.webp"
           }
         },
         "girl": {
@@ -1543,11 +1542,41 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "Est-ce qu'il y a un médecin ?（お医者さんはいますか？） 友人が蛇に……！」 老婆：「……貸しな。その蛇の毒なら、これで治るよ",
+          "text": "Est-ce qu'il y a un médecin ?（お医者さんはいますか？） 友人が蛇に……！",
           "position": "center",
           "expression": "normal",
           "background": "village",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "old_woman",
+          "text": "……貸しな。その蛇の毒なら、これで治るよ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "old_woman",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "old_woman",
+          "text": "……貸しな。その蛇の毒なら、これで治るよ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "old_woman",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -1561,7 +1590,7 @@
         {
           "type": "dialog",
           "character": "old_woman",
-          "text": "「この辺りに生えている薬草さ。傷口に塗るんだ。ほら、娘や、水を持っておいで」 ナレーション: 老婆の手当てと娘の看病により、ファビウスの顔に血色が戻っていく。ローマ軍の恐ろしさを知らない娘は、珍しい鎧に興味津々で主人公たちに懐いていた。",
+          "text": "この辺りに生えている薬草さ。傷口に塗るんだ。ほら、娘や、水を持っておいで。",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -1576,10 +1605,33 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "ウェルキンゲトリクス殿！ローマ軍らは近くの農村に留まっているようです。どうやら怪我人が出た様子」 ウェルキンゲトリクス：「そうか……。奴らがさらに奥へ踏み込むようなら、すべてを焼き払う『焦土作戦』だ。",
+          "text": "老婆の手当てと娘の看病により、ファビウスの顔に血色が戻っていく。ローマ軍の恐ろしさを知らない娘は、珍しい鎧に興味津々で主人公たちに懐いていた。",
+          "position": "center",
+          "background": "village",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ガリア兵：「ウェルキンゲトリクス殿！ローマ軍らは近くの農村に留まっているようです。どうやら怪我人が出た様子」",
           "position": "center",
           "background": "vercingetorix_camp",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "そうか……。奴らがさらに奥へ踏み込むようなら、すべてを焼き払う『焦土作戦』だ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "vercingetorix_camp",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -2281,11 +2333,41 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "総司令官、敵の伝令兵が残した書き置きがありました。これによると、奴らはすべての村を『焼く』話し合いをしているようです」 カエサル：「なんだと！？ ……自分の民の土地を自らの手で焼くというのか。だとしたら、一刻の猶予もないぞ。我々も次の手を打たねばならん！",
+          "text": "総司令官、敵の伝令兵が残した書き置きがありました。これによると、奴らはすべての村を『焼く』話し合いをしているようです。",
           "position": "center",
           "expression": "normal",
           "background": "village_empty",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "なんだと！？ ……自分の民の土地を自らの手で焼くというのか。だとしたら、一刻の猶予もないぞ。我々も次の手を打たねばならん！",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "なんだと！？ ……自分の民の土地を自らの手で焼くというのか。だとしたら、一刻の猶予もないぞ。我々も次の手を打たねばならん！",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "reward",
@@ -2427,7 +2509,7 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "（フラフラになりながら）あんたたち、タフすぎんだろ……」 ファビウス：「そうだね…。ガリア語の指示・所有形容詞の練習で気を紛らわそう……。Ce matin（この朝）は最悪だ、Mon ventre（僕のお腹）が鳴ってるよ……",
+          "text": "（フラフラになりながら）あんたたち、タフすぎんだろ……",
           "position": "center",
           "expression": "normal",
           "background": "forest",
@@ -2435,12 +2517,46 @@
         },
         {
           "type": "dialog",
+          "character": "fabius",
+          "text": "そうだね…。ガリア語の指示・所有形容詞の練習で気を紛らわそう……。Ce matin（この朝）は最悪だ、Mon ventre（僕のお腹）が鳴ってるよ……",
+          "position": "center",
+          "expression": "sick",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "sick",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "そうだね…。ガリア語の指示・所有形容詞の練習で気を紛らわそう……。Ce matin（この朝）は最悪だ、Mon ventre（僕のお腹）が鳴ってるよ……",
+          "position": "center",
+          "expression": "sick",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "sick",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "hero",
-          "text": "「Cette faim（この空腹）はキツイな……Notre armée（私たちの軍）は全滅しちゃいそうだよ……」 └ 説明行: 名詞の前に置く「この・その（ce, cetteなど）」を指示形容詞、「私の・私たちの（mon, notreなど）」を所有形容詞と呼びます。",
+          "text": "Cette faim（この空腹）はキツイな……Notre armée（私たちの軍）は全滅しちゃいそうだよ……",
           "position": "center",
           "expression": "normal",
           "background": "forest",
-          "characters": []
+          "characters": [],
+          "learningPoint": {
+            "title": "指示・所有形容詞",
+            "text": "名詞の前に置く「この・その（ce, cetteなど）」を指示形容詞、「私の・私たちの（mon, notreなど）」を所有形容詞と呼びます。"
+          }
         },
         {
           "type": "tutorial",
@@ -2483,7 +2599,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「L'armée de César est trop forte. Nous devons brûler tous ces villages.（カエサルの軍は強すぎる。我々はこれらの村をすべて焼かなければならない）」 └ 説明行: L'armée/軍 de/の César/カエサル est/〜である trop/あまりに forte/強い. Nous/我々は devons/〜しなければならない brûler/焼く tous/すべての ces/これらの villages/村を。 ces は複数名詞につく指示形容詞（これらの）です。",
+          "text": "L'armée de César est trop forte. Nous devons brûler tous ces villages.（カエサルの軍は強すぎる。我々はこれらの村をすべて焼かなければならない）",
           "position": "center",
           "expression": "normal",
           "background": "gaul_camp",
@@ -2493,20 +2609,28 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "文法解説",
+            "text": "L'armée/軍 de/の César/カエサル est/〜である trop/あまりに forte/強い. Nous/我々は devons/〜しなければならない brûler/焼く tous/すべての ces/これらの villages/村を。 ces は複数名詞につく指示形容詞（これらの）です。"
+          }
         },
         {
           "type": "dialog",
           "character": null,
-          "text": "「Attendez, s'il vous plaît ! Ne brûlez pas cette ville, Avaricum ! C'est notre plus belle ville !（お待ちください！ この都市、アウァーリクムは焼かないでください！ 我々の最も美しい都市なのです！）」 └ 説明行: Attendez/待って s'il vous plaît/お願いします ! Ne brûlez pas/焼かないで cette/この ville/都市を Avaricum/アウァーリクム ! C'est/それは〜である notre/我々の plus/最も belle/美しい ville/都市 ! cette は女性単数名詞につく指示形容詞、notre は「我々の」という所有形容詞です。",
+          "text": "ガリア兵：「Attendez, s'il vous plaît ! Ne brûlez pas cette ville, Avaricum ! C'est notre plus belle ville !（お待ちください！ この都市、アウァーリクムは焼かないでください！ 我々の最も美しい都市なのです！）」",
           "position": "center",
           "background": "gaul_camp",
-          "characters": []
+          "characters": [],
+          "learningPoint": {
+            "title": "文法解説",
+            "text": "Attendez/待って s'il vous plaît/お願いします ! Ne brûlez pas/焼かないで cette/この ville/都市を Avaricum/アウァーリクム ! C'est/それは〜である notre/我々の plus/最も belle/美しい ville/都市 ! cette は女性単数名詞につく指示形容詞、notre は「我々の」という所有形容詞です。"
+          }
         },
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「Cette ville est dangereuse pour notre armée. Elle donne notre nourriture à nos ennemis.（この都市は我々の軍にとって危険だ。我々の食糧を敵に与えることになる）」 └ 説明行: Cette/この ville/都市 est/〜である dangereuse/危険な pour/〜にとって notre/我々の armée/軍. Elle/彼女(都市)は donne/与える notre/我々の nourriture/食糧を à/〜へ nos/我々の ennemis/敵. 女性名詞villeを受ける代名詞はelleになります。nosは複数名詞につく所有形容詞です。",
+          "text": "Cette ville est dangereuse pour notre armée. Elle donne notre nourriture à nos ennemis.（この都市は我々の軍にとって危険だ。我々の食糧を敵に与えることになる）",
           "position": "center",
           "expression": "normal",
           "background": "gaul_camp",
@@ -2516,20 +2640,28 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "文法解説",
+            "text": "Cette/この ville/都市 est/〜である dangereuse/危険な pour/〜にとって notre/我々の armée/軍. Elle/彼女(都市)は donne/与える notre/我々の nourriture/食糧を à/〜へ nos/我々の ennemis/敵. 女性名詞villeを受ける代名詞はelleになります。nosは複数名詞につく所有形容詞です。"
+          }
         },
         {
           "type": "dialog",
           "character": null,
-          "text": "「Mais mon général, ses murs sont très solides ! Nous pouvons défendre nos familles !（しかし我が将軍、その城壁はとても強固です！ 我々の家族を守ることができます！）」 └ 説明行: Mais/しかし mon/私の général/将軍, ses/その murs/壁(城壁) sont/〜である très/とても solides/強固な ! Nous/我々は pouvons/〜できる défendre/守る nos/我々の familles/家族を ! sesは「その(都市の)」という複数形の所有形容詞。兵士がmon général(我が将軍)と呼びかけることで、切実な忠誠心を表現しています。",
+          "text": "ガリア兵：「Mais mon général, ses murs sont très solides ! Nous pouvons défendre nos familles !（しかし我が将軍、その城壁はとても強固です！ 我々の家族を守ることができます！）」",
           "position": "center",
           "background": "gaul_camp",
-          "characters": []
+          "characters": [],
+          "learningPoint": {
+            "title": "文法解説",
+            "text": "Mais/しかし mon/私の général/将軍, ses/その murs/壁(城壁) sont/〜である très/とても solides/強固な ! Nous/我々は pouvons/〜できる défendre/守る nos/我々の familles/家族を ! sesは「その(都市の)」という複数形の所有形容詞。兵士がmon général(我が将軍)と呼びかけることで、切実な忠誠心を表現しています。"
+          }
         },
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「D'accord. J'écoute votre demande. Nous gardons cette ville.（……分かった。お前たちの懇願を聞き入れよう。この都市は残す）」 └ 説明行: D'accord/分かった. J'/私は écoute/聞く votre/あなたたちの demande/要求(懇願)を. Nous/我々は gardons/保つ(残す) cette/この ville/都市を. votreは「あなたたちの」という所有形容詞です。史実において、この温情がカエサルに隙を与える致命的な決断となります。",
+          "text": "D'accord. J'écoute votre demande. Nous gardons cette ville.（……分かった。お前たちの懇願を聞き入れよう。この都市は残す）",
           "position": "center",
           "expression": "normal",
           "background": "gaul_camp",
@@ -2539,12 +2671,16 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "文法解説",
+            "text": "D'accord/分かった. J'/私は écoute/聞く votre/あなたたちの demande/要求(懇願)を. Nous/我々は gardons/保つ(残す) cette/この ville/都市を. votreは「あなたたちの」という所有形容詞です。史実において、この温情がカエサルに隙を与える致命的な決断となります。"
+          }
         },
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "総司令官！ ガリア軍が周辺の村を焼き始めました！ しかし、前方のアウァーリクムだけは無傷で残されているとの偵察報告が！」 カエサル (戦い)：「……そうか。あの場所であれば…。我々は全軍を挙げてアウァーリクムを攻め落とし、食糧を奪う！！",
+          "text": "総司令官！ ガリア軍が周辺の村を焼き始めました！ しかし、前方のアウァーリクムだけは無傷で残されているとの偵察報告が！",
           "position": "center",
           "expression": "normal",
           "background": "camp_morning",
@@ -2558,8 +2694,38 @@
         },
         {
           "type": "dialog",
+          "character": "caesar",
+          "text": "……そうか。あの場所であれば…。我々は全軍を挙げてアウァーリクムを攻め落とし、食糧を奪う！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……そうか。あの場所であれば…。我々は全軍を挙げてアウァーリクムを攻め落とし、食糧を奪う！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "labienus",
-          "text": "ついに反撃の時ですな！ 朝から戦いじゃ！ 攻城兵器を前線へ！」 主人公：「よし、生き残るためだ……この包囲戦、絶対に勝つぞ！",
+          "text": "ついに反撃の時ですな！ 朝から戦いじゃ！ 攻城兵器を前線へ！",
           "position": "center",
           "expression": "combat",
           "background": "camp_morning",
@@ -2570,6 +2736,24 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "よし、生き残るためだ……この包囲戦、絶対に勝つぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "よし、生き残るためだ……この包囲戦、絶対に勝つぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": []
         },
         {
           "type": "tutorial",
@@ -2625,7 +2809,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "これでNotre armée（僕たちの軍）は持ち直せるね！」 カエサル：「よく戦い抜いた、我が兵士たちよ！ 今日は食って休め！",
+          "text": "これでNotre armée（僕たちの軍）は持ち直せるね！",
           "position": "center",
           "expression": "normal",
           "background": "avaricum_siege",
@@ -2639,14 +2823,74 @@
         },
         {
           "type": "dialog",
+          "character": "caesar",
+          "text": "よく戦い抜いた、我が兵士たちよ！ 今日は食って休め！",
+          "position": "center",
+          "expression": "normal",
+          "background": "avaricum_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "よく戦い抜いた、我が兵士たちよ！ 今日は食って休め！",
+          "position": "center",
+          "expression": "normal",
+          "background": "avaricum_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "labienus",
-          "text": "しかしカエサル殿。ウェルキンゲトリクスの本隊は無傷で撤退しております。奴らはさらに険しい要塞へと逃げ込んだようですぞ」 カエサル：「うむ。アウァーリクムを落としたとはいえ、戦争は終わっていない。次は奴らの本拠地……ゲルゴウィアだ！",
+          "text": "しかしカエサル殿。ウェルキンゲトリクスの本隊は無傷で撤退しております。奴らはさらに険しい要塞へと逃げ込んだようですぞ。",
           "position": "center",
           "expression": "normal",
           "background": "avaricum_siege",
           "characters": [
             {
               "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "うむ。アウァーリクムを落としたとはいえ、戦争は終わっていない。次は奴らの本拠地……ゲルゴウィアだ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "avaricum_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "うむ。アウァーリクムを落としたとはいえ、戦争は終わっていない。次は奴らの本拠地……ゲルゴウィアだ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "avaricum_siege",
+          "characters": [
+            {
+              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -2762,7 +3006,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「Dans la guerre, il n'y a pas de victoire facile.（戦争において、順調で容易な勝利など存在しない）」 └ 説明行: Dans/〜の中に la/その guerre/戦争, il/それは(非人称) n'y a pas/そこにはない de/〜の(否定のde) victoire/勝利 facile/容易な. il n'y a pas de ~ で「〜が存在しない」というA2必須の表現です。 ウェルキンゲトリクス(戦い)：「Nous avons perdu à Avaricum... mais je vais vous donner une grande victoire !（我々はアウァーリクムにおいて敗北をした…。しかしながら、それを私が速やかに大いなる勝利によって埋め合わせよう！）」 └ 説明行: Nous/我々は avons/持つ(助動詞) perdu/失った(負けた) à/〜で Avaricum/アウァーリクム... mais/しかし je/私は vais/行く(〜するつもりだ) vous/あなたたちに donner/与える une/ひとつの grande/大きな victoire/勝利を ! vais donner（allerの現在形 + 動詞の原形）で「〜するつもりだ」という近い未来と強い決意を表します。 ナレーション: （ウオオォォォッ！！）その言葉に、部族一同は歓喜の雄叫びを上げ、手にした武具を激しく打ち鳴らして士気を爆発させた。",
+          "text": "Dans la guerre, il n'y a pas de victoire facile.（戦争において、順調で容易な勝利など存在しない）",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
@@ -2772,7 +3016,38 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "il n'y a pas de",
+            "text": "Dans/〜の中に la/その guerre/戦争, il/それは(非人称) n'y a pas/そこにはない de/〜の(否定のde) victoire/勝利 facile/容易な. il n'y a pas de ~ で「〜が存在しない」というA2必須の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Nous avons perdu à Avaricum... mais je vais vous donner une grande victoire !（我々はアウァーリクムにおいて敗北をした…。しかしながら、それを私が速やかに大いなる勝利によって埋め合わせよう！）",
+          "position": "center",
+          "expression": "combat",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "combat",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "vais donner",
+            "text": "Nous/我々は avons/持つ(助動詞) perdu/失った(負けた) à/〜で Avaricum/アウァーリクム... mais/しかし je/私は vais/行く(〜するつもりだ) vous/あなたたちに donner/与える une/ひとつの grande/大きな victoire/勝利を ! vais donner（allerの現在形 + 動詞の原形）で「〜するつもりだ」という近い未来と強い決意を表します。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（ウオオォォォッ！！）その言葉に、部族一同は歓喜の雄叫びを上げ、手にした武具を激しく打ち鳴らして士気を爆発させた。",
+          "position": "center",
+          "background": "gergovia_mountain",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -2800,7 +3075,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "総司令官、捕らえた敵の伝令から聞き出した言葉があります！ 軍の動きを表す重要な動詞『aller（行く）』と『venir（来る）』が使われています！」 ファビウス：「Les Romains viennent ici. Nous allons à la montagne.（ローマ人たちがここに来る。我々は山へ行く）」 └ 説明行: Les/その Romains/ローマ人たちは viennent/来る ici/ここに. Nous/我々は allons/行く à/〜へ la/その montagne/山. viennentは「来る（venir）」の3人称複数形、allonsは「行く（aller）」の1人称複数形です。どちらも超重要不規則動詞です。 主人公：「敵は俺たちが来るのをわかっていて、山の上で待ち構えているってことか……嫌な予感がするぞ",
+          "text": "総司令官、捕らえた敵の伝令から聞き出した言葉があります！ 軍の動きを表す重要な動詞『aller（行く）』と『venir（来る）』が使われています！",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
@@ -2811,6 +3086,62 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Les Romains viennent ici. Nous allons à la montagne.（ローマ人たちがここに来る。我々は山へ行く）",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "aller / venir",
+            "text": "Les/その Romains/ローマ人たちは viennent/来る ici/ここに. Nous/我々は allons/行く à/〜へ la/その montagne/山. viennentは「来る（venir）」の3人称複数形、allonsは「行く（aller）」の1人称複数形です。どちらも超重要不規則動詞です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "敵は俺たちが来るのをわかっていて、山の上で待ち構えているってことか……嫌な予感がするぞ",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Les Romains viennent ici. Nous allons à la montagne.（ローマ人たちがここに来る。我々は山へ行く）",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "aller / venir",
+            "text": "Les/その Romains/ローマ人たちは viennent/来る ici/ここに. Nous/我々は allons/行く à/〜へ la/その montagne/山. viennentは「来る（venir）」の3人称複数形、allonsは「行く（aller）」の1人称複数形です。どちらも超重要不規則動詞です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "敵は俺たちが来るのをわかっていて、山の上で待ち構えているってことか……嫌な予感がするぞ",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -2885,7 +3216,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "Ils montent la colline ! Attaquez !（奴らが丘を登ってくる！ 攻撃しろ！）」 └ 説明行: Ils/彼らは montent/登る la/その colline/丘を ! Attaquez/攻撃しろ ! monter（登る）はここでは「丘を」という目的語を直接とる「他動詞」として使われています。 主人公：「うわあっ！ 上から無数の岩と槍が降ってくるぞ！",
+          "text": "Ils montent la colline ! Attaquez !（奴らが丘を登ってくる！ 攻撃しろ！）",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
@@ -2895,12 +3226,34 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "monter (他動詞)",
+            "text": "Ils/彼らは montent/登る la/その colline/丘を ! Attaquez/攻撃しろ ! monter（登る）はここでは「丘を」という目的語を直接とる「他動詞」として使われています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "うわあっ！ 上から無数の岩と槍が降ってくるぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "うわあっ！ 上から無数の岩と槍が降ってくるぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": []
         },
         {
           "type": "dialog",
           "character": "labienus",
-          "text": "「ええい、陣形が崩れた！ 突走った前線の部隊が完全に孤立してしまうぞ！」 ウェルキンゲトリクス：「Ils tombent dans le piège. Ne les laissez pas fuir !（奴らは罠に落ちた。逃がすな！）」 └ 説明行: Ils/彼らは tombent/落ちる dans/〜の中へ le/その piège/罠. Ne/〜ない les/彼らを laissez/させ(る) pas/ない fuir/逃げる ! tombent（tomber: 落ちる）は目的語をとらない「自動詞」です。「他動詞」と「自動詞」の区別が戦況の正確な把握には不可欠です。",
+          "text": "ええい、陣形が崩れた！ 突走った前線の部隊が完全に孤立してしまうぞ！",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
@@ -2911,6 +3264,25 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Ils tombent dans le piège. Ne les laissez pas fuir !（奴らは罠に落ちた。逃がすな！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "tomber (自動詞)",
+            "text": "Ils/彼らは tombent/落ちる dans/〜の中へ le/その piège/罠. Ne/〜ない les/彼らを laissez/させ(る) pas/ない fuir/逃げる ! tombent（tomber: 落ちる）は目的語をとらない「自動詞」です。「他動詞」と「自動詞」の区別が戦況の正確な把握には不可欠です。"
+          }
         },
         {
           "type": "tutorial",
@@ -2957,13 +3329,47 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "Les ennemis partent. La victoire vient à nous !（敵は去っていく。勝利が我々の元へ来る！）」 └ 説明行: Les/その ennemis/敵は partent/去る(出発する). La/その victoire/勝利は vient/来る à/〜へ nous/我々(の元) ! partentは不規則動詞partir（去る・出発する）の3人称複数形。vientはvenir（来る）の3人称単数形です。 カエサル：「……退け！ 全軍、直ちに撤退せよ！！",
+          "text": "Les ennemis partent. La victoire vient à nous !（敵は去っていく。勝利が我々の元へ来る！）",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
           "characters": [
             {
               "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "partir / venir",
+            "text": "Les/その ennemis/敵は partent/去る(出発する). La/その victoire/勝利は vient/来る à/〜へ nous/我々(の元) ! partentは不規則動詞partir（去る・出発する）の3人称複数形。vientはvenir（来る）の3人称単数形です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……退け！ 全軍、直ちに撤退せよ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……退け！ 全軍、直ちに撤退せよ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -3197,7 +3603,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "でかした！ すぐに解読しろ、敵の規模はどれくらいだ！？」 ファビウス：「はい！ ええと……『Nous avons cent mille soldats et mille chevaux.（我々は10万の兵士と1000の馬を持っている）』」 └ 説明行: Nous/我々は avons/持つ cent mille/10万(の) soldats/兵士(複数形) et/そして mille/1000(の) chevaux/馬(複数形). soldatsやchevaux（chevalの複数形）のように複数あるものは語尾が変化します。cent(100)やmille(1000)などの数詞や単位は敵の規模を測るのに必須です！ 主人公：「10万以上！？ さらにもう一文あります。『Les Romains n'ont pas de temps.（ローマ軍には時間がない）』」 └ 説明行: Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてde（ドゥ）に変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という絶望的な状況を伝える超重要文法です！ カエサル：「フン、我々に時間がないだと？ 舐められたものだ。敵の援軍が到着する前に、何としてもこの二重防壁を完成させるのだ！ 資材が足りなければ土を掘れ、私が先陣を切って杭を打つ！！」 主人公：「うおおおっ！ 否定のde（何もない）なんて言わせない！ 全力で壁を築くぞ！",
+          "text": "でかした！ すぐに解読しろ、敵の規模はどれくらいだ！？",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -3208,6 +3614,118 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "はい！ ええと……『Nous avons cent mille soldats et mille chevaux.（我々は10万の兵士と1000の馬を持っている）』",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "数詞と複数形",
+            "text": "Nous/我々は avons/持つ cent mille/10万(の) soldats/兵士(複数形) et/そして mille/1000(の) chevaux/馬(複数形). soldatsやchevaux（chevalの複数形）のように複数あるものは語尾が変化します。cent(100)やmille(1000)などの数詞や単位は敵の規模を測るのに必須です！"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "10万以上！？ さらにもう一文あります。『Les Romains n'ont pas de temps.（ローマ軍には時間がない）』",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [],
+          "learningPoint": {
+            "title": "否定のde",
+            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてde（ドゥ）に変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "フン、我々に時間がないだと？ 舐められたものだ。敵の援軍が到着する前に、何としてもこの二重防壁を完成させるのだ！ 資材が足りなければ土を掘れ、私が先陣を切って杭を打つ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "うおおおっ！ 否定のde（何もない）なんて言わせない！ 全力で壁を築くぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "はい！ ええと……『Nous avons cent mille soldats et mille chevaux.（我々は10万の兵士と1000の馬を持っている）』",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "数詞と複数形",
+            "text": "Nous/我々は avons/持つ cent mille/10万(の) soldats/兵士(複数形) et/そして mille/1000(の) chevaux/馬(複数形). soldatsやchevaux（chevalの複数形）のように複数あるものは語尾が変化します。cent(100)やmille(1000)などの数詞や単位は敵の規模を測るのに必須です！"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "10万以上！？ さらにもう一文あります。『Les Romains n'ont pas de temps.（ローマ軍には時間がない）』",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [],
+          "learningPoint": {
+            "title": "否定のde",
+            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてde（ドゥ）に変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "フン、我々に時間がないだと？ 舐められたものだ。敵の援軍が到着する前に、何としてもこの二重防壁を完成させるのだ！ 資材が足りなければ土を掘れ、私が先陣を切って杭を打つ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "うおおおっ！ 否定のde（何もない）なんて言わせない！ 全力で壁を築くぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
         },
         {
           "type": "fixedBattle",
@@ -3380,7 +3898,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "「でも安心できない！ 逃げ遅れたガリア兵が、アレシアの城塞に向かって叫んでいる！」 ガリア兵：「Vercingétorix commence à attaquer Labienus !（ウェルキンゲトリクスがラヴィエヌスを攻撃し始める！）」 └ 説明行: Vercingétorix/ウェルキンゲトリクスは commence/始める à/〜すること(前置詞) attaquer/攻撃する Labienus/ラヴィエヌスを. commencer à + 動詞の原形（〜し始める）のように、動詞と別の動詞を繋ぐ重要な前置詞の構造です。",
+          "text": "でも安心できない！ 逃げ遅れたガリア兵が、アレシアの城塞に向かって叫んでいる！",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -3391,6 +3909,18 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ガリア兵：「Vercingétorix commence à attaquer Labienus !（ウェルキンゲトリクスがラヴィエヌスを攻撃し始める！）」",
+          "position": "center",
+          "background": "alesia_siege",
+          "characters": [],
+          "learningPoint": {
+            "title": "commencer à",
+            "text": "Vercingétorix/ウェルキンゲトリクスは commence/始める à/〜すること(前置詞) attaquer/攻撃する Labienus/ラヴィエヌスを. commencer à + 定動詞の原形（〜し始める）のように、動詞と別の動詞を繋ぐ重要な前置詞の構造です。"
+          }
         },
         {
           "type": "dialog",
@@ -3458,7 +3988,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「Continuez à vous battre ! Ne refusez pas de mourir pour la Gaule !（戦い続けろ！ ガリアのために死ぬことを拒むな！）」 └ 説明行: Continuez/続けろ(命令形) à/〜すること vous battre/あなた方自身を戦わせる ! Ne/〜ない refusez/拒む pas/ない de/〜すること mourir/死ぬ pour/〜のために la Gaule/ガリア ! continuer à（〜し続ける）、refuser de（〜するのを拒む）など、動詞＋前置詞の用法が連発されています。 ガリア兵：「ウオオオッ！！ 我らが王に続け！！」 ティトゥス・ラヴィエヌス：「ええい、なんという士気だ……！ 完全に死兵と化しておる！」 ウェルキンゲトリクス (戦い)：「ローマの副司令官よ。貴様らの秩序とやらも、我々の覚悟の前には紙切れに過ぎんな」 ティトゥス・ラヴィエヌス：「貴様がどれほど足掻こうと、この神聖なるローマの防壁は崩せん！ 秩序無き自由など、ただの混沌に過ぎん！」 ウェルキンゲトリクス：「神聖？ 秩序だと？抜かせっぇ！！！ それは貴様らに都合の良い支配に過ぎない。我々は自由のために、誇りのために戦っているのだ！ 愛する家族や土地を奪われる痛みが、貴様にわかるか！」 ティトゥス・ラヴィエヌス(戦い)：「……武人としてのその誇り、見事。だが、我らもローマの威信を背負っている。引くわけにはいかんのだ。全軍、死守せよ！」 ウェルキンゲトリクス：「Protégez notre terre ! N'ayez pas peur des Romains !（我らの土地を守れ！ ローマ人たちを恐れな！）」 └ 説明行: Protégez/守れ notre/我々の terre/土地を ! N'ayez pas/持つな(avoirの命令形) peur/恐れ des/〜の(de+les) Romains/ローマ人たち ! avoir peur de ~（〜を恐れる）という超頻出表現の命令形です。 ナレーション: ウェルキンゲトリクスは自ら最前線で剣を振るい、鬼神の如き無双の働きを見せる。怒涛の突撃の前に、ローマの強固な陣形が次々と切り崩されていく。",
+          "text": "Continuez à vous battre ! Ne refusez pas de mourir for la Gaule !（戦い続けろ！ ガリアのために死ぬことを拒むな！）",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -3468,7 +3998,121 @@
               "expression": "normal",
               "position": "center"
             }
+          ],
+          "learningPoint": {
+            "title": "動詞＋前置詞の用法",
+            "text": "Continuez/続けろ(命令形) à/〜すること vous battre/あなた方自身を戦わせる ! Ne/〜ない refusez/拒む pas/ない de/〜すること mourir/死ぬ pour/〜のために la Gaule/ガリア ! continuer à（〜し続ける）、refuser de（〜するのを拒む）など、動詞＋前置詞の用法が連発されています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ガリア兵：「ウオオオッ！！ 我らが王に続け！！」",
+          "position": "center",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "ええい、なんという士気だ……！ 完全に死兵と化しておる！",
+          "position": "center",
+          "expression": "scold",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "scold",
+              "position": "center"
+            }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "ローマの副司令官よ。貴様らの秩序とやらも、我々の覚悟の前には紙切れに過ぎんな。",
+          "position": "center",
+          "expression": "combat",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "combat",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "貴様がどれほど足掻こうと、この神聖なるローマの防壁は崩せん！ 秩序無き自由など、ただの混沌に過ぎん！",
+          "position": "center",
+          "expression": "scold",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "scold",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "神聖？ 秩序だと？抜かせっぇ！！！ それは貴様らに都合の良い支配に過ぎない。我々は自由のために、誇りのために戦っているのだ！ 愛する家族や土地を奪われる痛みが、貴様にわかるか！",
+          "position": "center",
+          "expression": "combat",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "combat",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……武人としてのその誇り、見事。だが、我らもローマの威信を背負っている。引くわけにはいかんのだ。全軍、死守せよ！",
+          "position": "center",
+          "expression": "combat",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "combat",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Protégez notre terre ! N'ayez pas peur des Romains !（我らの土地を守れ！ ローマ人たちを恐れな！）",
+          "position": "center",
+          "expression": "combat",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "combat",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "avoir peur de",
+            "text": "Protégez/守れ notre/我々の terre/土地を ! N'ayez pas/持つな(avoirの命令形) peur/恐れ des/〜の(de+les) Romains/ローマ人たち ! avoir peur de ~（〜を恐れる）という超頻出表現の命令形です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ウェルキンゲトリクスは自ら最前線で剣を振るい、鬼神 of 如き無双の働きを見せる。怒涛の突撃の前に、ローマの強固な陣形が次々と切り崩されていく。",
+          "position": "center",
+          "background": "alesia_siege",
+          "characters": []
         },
         {
           "type": "fixedBattle",
@@ -3846,10 +4490,71 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "王よ！ まだ我々は戦えます！あなた様の名誉のために！」 ウェルキンゲトリクス：「Cette guerre n'est pas pour ma gloire. C'est pour libérer tous les Gaulois.（この戦いは己の栄誉のためではない。全ガリア人を解放するためのものだった）」 └ 説明行: Cette/この guerre/戦争 n'est pas/〜ではない pour/〜のため ma/私の gloire/栄光(栄誉). C'est/それは〜である pour/〜のため libérer/解放する tous/すべての les/その Gaulois/ガリア人(複数形). ウェルキンゲトリクス：「Si le destin me donne la défaite, je l'accepte. Choisissez : tuez-moi, ou livrez-moi vivant à l'armée romaine.（運命が私に敗北を与えたのならば、それに従うことにしよう。私を殺すか、あるいは生きたままローマ軍へ引き渡すか、諸君らが選択したまえ）」 └ 説明行: Si/もし le/その destin/運命 me/私に donne/与える la/その défaite/敗北, je/私は l'/それを accepてaccepte. Choisissez/選べ : tuez/殺せ-moi/私を, ou/あるいは livrez/引き渡せ-moi/私を vivant/生きたまま à/〜へ l'armée/軍 romaine/ローマの. ガリア兵：「王よ……！！ なんということを……！！（涙を流し、武器を落とす）」 カエサル：「……見事。",
+          "text": "ガリア兵：「王よ！ まだ我々は戦えます！あなた様の名誉のために！」",
           "position": "center",
           "background": "alesia_sunset",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Cette guerre n'est pas pour ma gloire. C'est pour libérer tous les Gaulois.（この戦いは己の栄誉のためではない。全ガリア人を解放するためのものだった）",
+          "position": "center",
+          "expression": "surrender",
+          "background": "alesia_sunset",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "surrender",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "否定表現と所有形容詞",
+            "text": "Cette/この guerre/戦争 n'est pas/〜ではない pour/〜のため ma/私の gloire/栄光(栄誉). C'est/それは〜である pour/〜のため libérer/解放する tous/すべての les/その Gaulois/ガリア人(複数形)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Si le destin me donne la défaite, je l'accepte. Choisissez : tuez-moi, ou livrez-moi vivant à l'armée romaine.（運命が私に敗北を与えたのならば、それに従うことにしよう。私を殺すか、あるいは生きたままローマ軍へ引き渡すか、諸君らが選択したまえ）",
+          "position": "center",
+          "expression": "surrender",
+          "background": "alesia_sunset",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "surrender",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "条件と命令・代名詞",
+            "text": "Si/もし le/その destin/運命 me/私に donne/与える la/その défaite/敗北, je/私は l'/それを accepte/受け入れる. Choisissez/選べ : tuez/殺せ-moi/私を, ou/あるいは livrez/引き渡せ-moi/私を vivant/生きたまま à/〜へ l'armée/軍 romaine/ローマの。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ガリア兵：「王よ……！！ なんということを……！！（涙を流し、武器を落とす）」",
+          "position": "center",
+          "background": "alesia_sunset",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……見事。",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_sunset",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -4059,7 +4764,7 @@
         {
           "type": "dialog",
           "character": "alban",
-          "text": "「エイダン、やっぱりやめよう……！  父さんたちが今、僕たちの未来のために、誇りを持って頭を下げてるんだぞ！ 行っちゃだめだ！」 └キャラクター解説：Alban (アルバン)村の「祭司（ドルイド）」の息子。名前の由来は「白・光」（ラテン語の「白（Albus）」。",
+          "text": "エイダン、やっぱりやめよう……！ 父さんたちが今、僕たちの未来のために、誇りを持って頭を下げてるんだぞ！ 行っちゃだめだ！",
           "position": "center",
           "expression": "normal",
           "background": "village_square",
@@ -4069,12 +4774,16 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "人物解説：アルバン",
+            "text": "Alban (アルバン)　村の「祭司（ドルイド）」の息子。名前の由来は「白・光」（ラテン語の「白（Albus）」に由来）。"
+          }
         },
         {
           "type": "dialog",
           "character": "aedan",
-          "text": "ふざけるな！ 敵にひれ伏すのが未来のためかよ！ あれじゃまるで飼い犬だ！」 └キャラクター解説：Aedan (エイダン)　村一番の「騎士 (アルバンの父)」の息子。名前の由来は「炎",
+          "text": "ふざけるな！ 敵にひれ伏すのが未来のためかよ！ あれじゃまるで飼い犬だ！",
           "position": "center",
           "expression": "angry",
           "background": "village_square",
@@ -4084,7 +4793,11 @@
               "expression": "angry",
               "position": "center"
             }
-          ]
+          ],
+          "learningPoint": {
+            "title": "人物解説：エイダン",
+            "text": "Aedan (エイダン)　村一番の「騎士」の息子。名前の由来は「炎」（アイルランド語の Aodh ＝ 炎に由来）。"
+          }
         },
         {
           "type": "dialog",

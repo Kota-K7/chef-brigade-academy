@@ -878,15 +878,9 @@
           "text": "Je veux de grandes tomates rouges. (大きくて赤いトマトが欲しい。) ……このトマトは駄目だ。色が薄すぎるし、小さすぎる。",
           "position": "center",
           "learningPoint": {
-            "title": "└ 意味: de grandes tomates rouges (大きくて赤いトマト)"
+            "title": "de grandes tomates rouges",
+            "text": "フランス語の形容詞は名詞の性・数に一致させます。grand(大きい)は名詞の前、rouge(赤い)は名詞の後ろに置くという配置ルールがあります。"
           },
-          "background": "restaurant"
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "解説: フランス語の形容詞は名詞の性・数に一致させます。grand(大きい)は名詞の前、rouge(赤い)は名詞の後ろに置くという配置ルールがあります。",
-          "position": "center",
           "background": "restaurant"
         },
         {
