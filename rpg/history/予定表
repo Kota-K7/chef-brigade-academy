@@ -1,0 +1,190 @@
+# 👑 フランス歴史体験 RPG 全話タイトル＆学習タグ決定版 (予定表)
+
+本ファイルは、歴史体験RPG（第0章〜第11章）の全話タイトル、歴史内容、およびシステム側のクイズデータベース（`questions_db.json`）に適合させた**既存の正規タグ**の一覧表です。
+※第0章〜第2章については、これまでに統合・コンパイルされた実態（エピソードタイトルや内容）、および新しい章構成計画に合わせて完全に同期しています。
+
+---
+
+## 🏛️ 第0章：ガリア以前 〜古代マッサリアと地中海の夜明け〜（全3話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | 統合済みクイズタグ |
+| :--- | :--- | :--- | :--- |
+| **第0-1話** | 第1話: 目覚めと試練 | 主人公とカミーユの出会い、市場の活気。 | `#regional_culture`, `#etre` |
+| **第0-2話** | 第2話: 憧れの市場 | 市場の買い出しと食材選び。数・単位。 | `#vegetables`, `#numbers`, `#ingredients`, `#units` |
+| **第0-3話** | 第3話: 銀のペンダント | 泥棒追跡と女将の店。挨拶、主語代名詞、国籍など。 | `#greetings`, `#subjects`, `#nationality`, `#numbers`, `#units` |
+
+---
+
+## ⚔️ 第1章：ガリア戦記 〜カエサルとウェルキンゲトリクスの死闘〜（全10話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | 統合済みクイズタグ |
+| :--- | :--- | :--- | :--- |
+| **第1-1話** | 第1-1話: ハゲ頭の総司令官 | カエサルの軍営で目覚める。第一・第二群規則動詞の現在形。 | `#verbs`, `#indicative_present` |
+| **第1-2話** | 第1-2話: カエサル夜の大特訓会 | 過酷な訓練拒否とジビエ仕込み。主要不規則動詞と動詞の分類。 | `#irregular_verbs_major`, `#verbs` |
+| **第1-3話** | 第1-3話: 倒れた通訳〜ガリア農村へ〜 | 通訳が倒れ農村と対話。疑問文と疑問詞。 | `#questions`, `#question_words` |
+| **第1-4話** | 第1-4話: 英雄ウェルキンゲトリクスの登場と静かなる村 | 若き英雄の登場。場所・方向を表す前置詞。 | `#prepositions`, `#questions` |
+| **第1-5話** | 第1-5話: アウァーリクムの戦い 〜司令官 of 朝トレと兵糧攻め〜 | アウァリクム包囲と兵站確保。指示形容詞・所有形容詞。 | `#demonstrative_adjectives`, `#possessive_adjectives`, `#prepositions` |
+| **第1-6話** | 第1-6話: ゲルゴウィアの包囲戦 〜カエサル軍、痛恨の敗北〜 | 難攻不落要塞での敗走。重要不規則動詞 (aller / venir等)。 | `#irregular_verbs_1`, `#transitive_intransitive` |
+| **第1-7話** | 第1-7話: 決戦前夜！アレシア包囲戦（前編） 〜二重の防壁ライン〜 | 前代未聞の二重包囲壁。名詞・形容詞の複数形と否定。 | `#plurals`, `#negation`, `#units` |
+| **第1-8話** | 第1-8話: アレシア包囲戦（中編） 〜英雄の無双と武人の誇り〜 | 20万の援軍を破り降伏。動詞＋前置詞の結合、命令法。 | `#verbs`, `#imperative`, `#plurals`, `#negation` |
+| **第1-9話** | 第1-9話: アレシア包囲戦（後編）〜英雄と皇帝の決着〜 | ウェルキンゲトリクスとカエサルの決着。命令法、否定のde、動詞分類。 | `#verbs`, `#imperative`, `#negation`, `#plurals` |
+| **第1-10話** | 第1-10話: 外伝 あるガリア人青年の記録 | ガリア人の農村の視点から、ローマ人の非道さを描く。 | `#verbs`, `#questions`, `#prepositions`, `#demonstrative_adjectives`, `#irregular_verbs_major` |
+
+---
+
+## 👑 第2章：フランク王国 ― メロヴィング朝からカロリング朝へ（全9話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第2-1話** | 第2-1話: 時代はゲルマンへ！ 運命の交差 | ローマの終焉とゲルマン大移動、クロティルダの幼少期（悲劇）、クローヴィスの台頭。 | `#articles`, `#noun_gender`, `#etre`, `#avoir` |
+| **第2-2話** | 第2-2話: 運命の出会い、水辺のハプニング | 政略結婚。二人の出会い（池落ちハプニング）、丁寧なラブコメ展開（心が通い始めるまで）。 | `#negation`, `#prepositions`, `#contracted_articles`, `#noun_gender` |
+| **第2-3話** | トルビアックの誓いとカトリック改宗 | 結婚初期、ツンデレ期の終わり。子供の誕生。トルビアックの戦い、改宗の誓い、公認。 | `#basic_adjectives`, `#verbs` |
+| **第2-4話** | メロヴィングの残光と王国の分割 | 美しい聖女クロティルダ。王国の拡大、晩年の容姿（長髪髭）。クローヴィスの死、王国分割相続と抗争開始。 | `#imperative`, `#basic_adjectives`, `#irregular_verbs_major` |
+| **第2-5話** | 宮宰カール・マルテル（鉄槌宰相） | カロリング家台頭。トゥール・ポワティエ間の戦い（全軍突撃）。 | `#near_past`, `#verbs`, `#imperative`, `#prepositions` |
+| **第2-6話** | 王の王位、ピピン教皇に寄進す【短縮・統合】 | 教皇ザカリアスの承認、カロリング朝成立。イタリア遠征、ピピンの寄進（教皇領成立）。眉下がり内気だが本気出す。 | `#near_future`, `#passive_pronominal_verbs`, `#near_past`, `#imperative`, `#numbers` |
+| **第2-7話** | カール大帝、ローマ皇帝戴冠 | 800年ローマ皇帝戴冠（ゴリマッチョ戴冠劇）、大帝国建設。平和と学問。 | `#near_future`, `#passive_pronominal_verbs`, `#near_past`, `#imperative`, `#numbers` |
+| **第2-8話** | カール大帝の帝国とルネサンス | 巡察使・荘園令・カロリングルネサンス。知性的で最強最高の主人公 | `#basic_adjectives`, `#contracted_articles`, `#partitive_articles`, `#near_future`, `#prepositions` |
+| **第2-9話** | カール大帝の死と帝国の分裂 | カール大帝の死。ヴェルダン条約（843年）と西フランク誕生（現代フランスの起源）。 | `#near_past`, `#near_future`, `#imperative`, `#contracted_articles`, `#verbs` |
+
+---
+
+## ⚔️ 第3章：カペー朝の成立と領土拡大（全10話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第3-1話** | ユーグ・カペーの即位 | 987年カペー朝成立、弱小王領と強大諸侯。 | `#verbs`, `#imperative`, `#contracted_articles`, `#prepositions` |
+| **第3-2話** | ノルマンディー公国 | 911年シャルル3世とロロ（土地付与と臣従）。 | `#futur_simple`, `#near_future`, `#verbs` |
+| **第3-3話** | ノルマンディーコンクエスト | 1066年征服王ウィリアムとイングランド兼任。 | `#past_compose`, `#auxiliary_selection`, `#futur_simple` |
+| **第3-外伝** | アンジュー帝国 | ヘンリ2世とプランタジネット家の広大領地。 | `#past_compose`, `#past_participle_agreement`, `#possessive_adjectives` |
+| **第3-4話** | ルイ6世と王領 | 肥満王ルイ6世による王領内諸侯の討伐。 | `#comparative`, `#superlative`, `#past_compose` |
+| **第3-5話** | ルイ7世とイングランド | アキテーヌのエレオノール離縁と対立激化。 | `#object_pronouns_direct_indirect`, `#comparative`, `#futur_simple` |
+| **第3-6話** | フィリップ2世とイングランド王 | 尊厳王によるジョン王領地（ノルマンディー）没収。 | `#verbs`, `#object_pronouns_direct_indirect`, `#past_compose` |
+| **第3-7話** | ブーヴィーヌの戦い | 1214年連合軍撃破、フランス王権の威信確立。 | `#past_compose`, `#object_pronouns_direct_indirect`, `#comparative`, `#imperative` |
+| **第3-8話** | ルイ9世と聖王 | 司法・行政整備と宗教的権威（聖王ルイ）。 | `#basic_adjectives`, `#superlative`, `#verbs`, `#object_pronouns_direct_indirect` |
+| **第3-9話** | 王国は大きくなった | 弱小王権から大王国へ（第3章総括）。 | `#futur_simple`, `#past_compose`, `#object_pronouns_direct_indirect`, `#comparative` |
+
+---
+
+## 🛡️ 第4章：十字軍とカペー朝の王権強化（全10話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第4-1話** | クレルモン公会議と第1回十字軍 | ウルバヌス2世の演説と熱狂の聖戦。 | `#object_pronouns_direct_indirect`, `#verbs`, `#past_compose` |
+| **第4-2話** | 第1回十字軍とエルサレム | 1099年占領と十字軍国家の成立。 | `#relative_pronouns_basic`, `#object_pronouns_direct_indirect` |
+| **第4-3話** | 第2回十字軍とルイ7世 | エデッサ陥落と遠征の失敗、理想と現実。 | `#imparfait`, `#relative_pronouns_basic`, `#object_pronouns_direct_indirect` |
+| **第4-4話** | サラディンと第3回十字軍 | サラディン vs 獅子心王リチャード・尊厳王。 | `#imparfait_vs_past_compose`, `#imparfait`, `#comparative` |
+| **第4-外伝** | 十字軍（ムスリム視点） | 東方視点の聖戦と諸侯の不和。 | `#imparfait_vs_past_compose`, `#relative_pronouns_basic`, `#object_pronouns_direct_indirect` |
+| **第4-5話** | 第4回十字軍とコンスタンティノープル | 1204年ヴェネツィアの思惑と東ローマ攻撃。 | `#past_participle_agreement`, `#imparfait_vs_past_compose`, `#object_pronouns_direct_indirect` |
+| **第4-6話** | 南フランスの異端とアルビジョワ十字軍 | カタリ派弾圧と教皇インノケンティウス3世。 | `#object_pronouns_direct_indirect`, `#relative_pronouns_basic`, `#imparfait_vs_past_compose`, `#contracted_articles` |
+| **第4-7話** | ルイ8世と南フランス | 1229年パリ条約と南部領土の王権編入。 | `#verbs`, `#past_participle_agreement`, `#object_pronouns_direct_indirect`, `#futur_simple` |
+| **第4-8話** | ルイ9世とフランス王国 | 正義の裁判と高等法院の基礎確立。 | `#imparfait`, `#past_compose`, `#relative_pronouns_basic`, `#superlative` |
+| **第4-9話** | 聖王ルイの十字軍 | 第7回捕虜と第8回チュニスでの病死。 | `#imparfait_vs_past_compose`, `#past_participle_agreement`, `#object_pronouns_direct_indirect` |
+| **第4-10話** | 十字軍の終わりと王権の成長 | 都市と王権 of 結びつき、集権化の進展。 | `#relative_pronouns_basic`, `#object_pronouns_direct_indirect`, `#imparfait_vs_past_compose`, `#futur_simple` |
+
+---
+
+## ⚜️ 第5章：フィリップ4世と教皇権の対立（全10話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第5-1話** | フィリップ4世の即位 | 端麗王の官僚統治と財政課税の強化。 | `#pronouns_y_en`, `#relative_pronouns_basic` |
+| **第5-2話** | 王の税金と教会 | 聖職者課税をめぐる国王と教皇の対決。 | `#object_pronouns_direct_indirect`, `#pronouns_y_en` |
+| **第5-3話** | フィリップ4世と三部会 | 1302年初の三部会招集（聖職者・貴族・都市民）。 | `#object_pronouns_direct_indirect`, `#pronouns_y_en`, `#past_compose`, `#imparfait` |
+| **第5-4話** | 教皇ボニファティウス8世との対立 | 「ウナム・サンクタム（教皇至上権）」への反発。 | `#conditional_present`, `#greetings`, `#object_pronouns_direct_indirect`, `#imparfait_vs_past_compose` |
+| **第5-5話** | アナーニ事件 | 1303年ノガレの教皇襲撃と教皇権の失墜。 | `#si_clauses_present`, `#conditional_present`, `#object_pronouns_direct_indirect` |
+| **第5-6話** | アヴィニョンの教皇 | 1309年教皇庁移転（アヴィニョン捕囚）。 | `#imperative_with_pronouns`, `#object_pronouns_direct_indirect`, `#pronouns_y_en`, `#si_clauses_present` |
+| **第5-7話** | テンプル騎士団の逮捕 | 1307年10月13日の一斉逮捕劇。 | `#conditional_present`, `#si_clauses_present`, `#object_pronouns_direct_indirect`, `#past_participle_agreement` |
+| **第5-8話** | テンプル騎士団の裁判 | 異端審問と1312年騎士団解散。 | `#conditional_present`, `#object_pronouns_direct_indirect`, `#pronouns_y_en`, `#relative_pronouns_basic` |
+| **第5-9話** | ジャック・ド・モレーの最期 | 呪いの火刑と国王の急死。 | `#conditional_present`, `#si_clauses_present`, `#imparfait` |
+| **第5-10話** | カペー朝の危機 | 男系断絶と王位継承問題（百年戦争へ）。 | `#object_pronouns_direct_indirect`, `#pronouns_y_en`, `#conditional_present`, `#si_clauses_present`, `#futur_simple` |
+
+---
+
+## ⚔️ 第6章：百年戦争 ― フランス王国の危機と再建（全10話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第6-1話** | ヴァロワ朝の成立 | 1328年フィリップ6世即位と王位請求。 | `#relative_pronouns_basic`, `#verbs`, `#object_pronouns_direct_indirect`, `#conditional_present` |
+| **第6-2話** | クレシーの戦い | 1346年長弓兵の衝撃と騎士の敗北、カレー包囲。 | `#subjunctive_basic`, `#obligation_il_faut_que`, `#relative_pronouns_basic`, `#past_compose` |
+| **第6-3話** | 黒死病とフランス王国 | ペスト大流行と人口激減、社会の疲弊。 | `#subjunctive_basic`, `#imparfait` |
+| **第6-4話** | ジャックリーの乱とエティエンヌ・マルセル | 農民蜂起とパリ商人の改革要求。 | `#subjunctive_basic`, `#relative_pronouns_basic` |
+| **第6-5話** | ポワティエの戦いとシャルル5世 | ジャン2世捕虜とシャルル5世・ゲクランの反撃。 | `#passive_voice`, `#subjunctive_basic`, `#object_pronouns_direct_indirect` |
+| **第6-6話** | アジャンクールの戦い | 1415年大敗とブルゴーニュ派・アルマニャック派内戦。 | `#subjunctive_basic`, `#passive_voice`, `#relative_pronouns_basic`, `#imparfait_vs_past_compose` |
+| **第6-7話** | トロワ条約と王太子シャルル | 1420年フランス王国分裂と王太子の排除。 | `#subjunctive_basic`, `#passive_voice`, `#conditional_present` |
+| **第6-8話** | ジャンヌ・ダルクとオルレアン | 1429年オルレアン解放と奇跡的反攻。 | `#relative_pronouns_basic`, `#subjunctive_basic`, `#passive_voice`, `#past_participle_agreement` |
+| **第6-9話** | ランスの戴冠式 | シャルル7世戴冠、コンピエーニュ捕縛と処刑。 | `#subjunctive_basic`, `#relative_pronouns_basic`, `#passive_voice` |
+| **第6-10話** | 百年戦争の終結 | 1453年ボルドー奪還、常備軍創設と勝利。 | `#relative_pronouns_basic`, `#subjunctive_basic`, `#passive_voice`, `#object_pronouns_direct_indirect` |
+
+---
+
+## ⚜️ 第7章：宗教改革とフランス宗教戦争（全8話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第7-1話** | フランソワ1世とイタリア戦争 | 1515年マリニャーノの戦いとルネサンス宮廷文化。 | `#gerund_participle`, `#relative_pronouns_basic`, `#subjunctive_basic` |
+| **[第7-2** | 宗教改革とフランス | カルヴァン派（ユグノー）の拡大と警戒。 | `#gerund_participle`, `#passive_voice` |
+| **第7-3話** | ヴァシーの虐殺と宗教戦争 | 1562年ギーズ公による虐殺と内戦勃発。 | `#demonstrative_cest`, `#gerund_participle`, `#subjunctive_basic` |
+| **第7-4話** | サン・バルテルミの虐殺 | 1572年パリの大殺戮と全土への波及。 | `#demonstrative_cest`, `#past_compose` |
+| **第7-5話** | 三アンリの戦い | ギーズ公・アンリ3世・ナヴァル公、アンリ3世暗殺。 | `#negation`, `#demonstrative_cest`, `#gerund_participle` |
+| **第7-6話** | アンリ4世と改宗 | 「パリは一ミサの価値がある」とカトリック改宗。 | `#causative_faire`, `#negation`, `#demonstrative_cest` |
+| **第7-7話** | ナントの勅令 | 1598年信仰の自由と王国の復興・ポトフ。 | `#conjunctions_basic`, `#causative_faire`, `#negation`, `#subjunctive_basic` |
+| **第7-8話** | アンリ4世の暗殺 | 1610年ラヴァイヤックによる暗殺と新たな危機。 | `#demonstrative_cest`, `#gerund_participle`, `#causative_faire`, `#relative_pronouns_basic` |
+
+---
+
+## 👑 第8章：ルイ13世・ルイ14世と絶対王政（全9話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第8-1話** | リシュリューと王権 | 宰相リシュリューの集権化とユグノー弾圧。 | `#past_compose`, `#demonstrative_cest`, `#causative_faire` |
+| **第8-2話** | 三十年戦争とフランス | 国家理性を優先したハプスブルク打倒介入。 | `#conditional_present`, `#si_clauses_present`, `#past_compose`, `#subjunctive_basic` |
+| **第8-3話** | マザランとフロンドの乱 | 幼少期のルイ14世と貴族・高等法院の反乱。 | `#conjunctions_basic`, `#conditional_present`, `#past_compose` |
+| **第8-4話** | ルイ14世と親政 | 「朕は国家なり」親政開始と官僚統治。 | `#past_compose`, `#conditional_present`, `#demonstrative_cest`, `#negation` |
+| **第8-5話** | ヴェルサイユ宮殿 | 宮廷儀礼と貴族の飼いならし、大食宴。 | `#causative_faire`, `#gerund_participle`, `#conjunctions_basic`, `#object_pronouns_direct_indirect` |
+| **第8-6話** | コルベールの重商主義 | 王立工場・東インド会社・産業育成。 | `#conjunctions_basic`, `#past_compose`, `#causative_faire` |
+| **第8-7話** | ルイ14世の戦争 | 侵略戦争の継続と財政負担の増大。 | `#conditional_present`, `#si_clauses_present`, `#conjunctions_basic`, `#passive_voice` |
+| **第8-8話** | ナントの勅令廃止 | 1685年フォンテーヌブロー勅令と技術者亡命。 | `#subjunctive_basic`, `#conditional_present`, `#past_compose`, `#negation` |
+| **第8-9話** | ルイ14世の晩年 | スペイン継承戦争の疲弊と王の死（1715年）。 | `#past_compose`, `#conditional_present`, `#si_clauses_present`, `#conjunctions_basic`, `#relative_pronouns_basic` |
+
+---
+
+## 🏛️ 第9章：啓盟思想・フランス革命・ナポレオン（全14話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第9-1話** | 啓蒙思想と百科全書 | ボルテール・ルソー・ディドロ『百科全書』。 | `#relative_pronouns_basic`, `#conjunctions_basic`, `#demonstrative_cest` |
+| **第9-2話** | アメリカ独立戦争とフランス財政 | 独立支援による国家財政の破綻。 | `#subjunctive_basic`, `#relative_pronouns_basic`, `#past_compose` |
+| **第9-3話** | 三部会と国民議会 | 1789年三部会召集と球戯場の誓い。 | `#relative_pronouns_basic`, `#subjunctive_basic`, `#demonstrative_cest` |
+| **第9-4話** | バスティーユ襲撃と大恐怖 | 7月14日民衆蜂起と人権宣言。 | `#verbs`, `#relative_pronouns_basic`, `#subjunctive_basic` |
+| **第9-5話** | ヴェルサイユ行進 | 女性たちの行進と国王一家のパリ連行。 | `#questions`, `#verbs`, `#gerund_participle` |
+| **第9-6話** | ヴァレンヌ逃亡事件 | 国王逃亡未遂と立憲君主制への絶望。 | `#verbs`, `#past_compose`, `#conditional_present`, `#relative_pronouns_basic` |
+| **第9-7話** | 共和政の成立 | 8月10日事件、王政廃止、ルイ16世処刑。 | `#relative_pronouns_basic`, `#verbs`, `#subjunctive_basic`, `#conjunctions_basic` |
+| **第9-8話** | 恐怖政治 | 公安委員会・ロベスピエール・最高価格令。 | `#subjunctive_basic`, `#negation`, `#demonstrative_cest` |
+| **第9-9話** | テルミドール9日 | ロベスピエール失脚と反動の嵐。 | `#relative_pronouns_basic`, `#verbs`, `#past_compose` |
+| **第9-10話** | ナポレオンの台頭 | イタリア遠征とブリュメール18日のクーデタ。 | `#verbs`, `#relative_pronouns_basic`, `#causative_faire`, `#gerund_participle` |
+| **第9-11話** | 皇帝ナポレオン | 1804年戴冠とナポレオン法典の制定。 | `#relative_pronouns_basic`, `#verbs`, `#conjunctions_basic`, `#object_pronouns_direct_indirect` |
+| **第9-12話** | 大陸封鎖令とヨーロッパ | テンサイ糖精製・アペールの瓶詰保存食。 | `#causative_faire`, `#gerund_participle`, `#questions`, `#subjunctive_basic` |
+| **第9-13話** | ロシア遠征 | 1812年焦土作戦と冬将軍による壊滅。 | `#past_compose`, `#conditional_present`, `#si_clauses_present`, `#verbs` |
+| **第9-14話** | 百日天下とワーテルロー | エルバ脱出・ワーテルロー敗北・流刑。 | `#grammar`, `#relative_pronouns_basic`, `#verbs`, `#subjunctive_basic` |
+
+---
+
+## 🎩 第10章：19世紀のフランス ― 王政復古・革命・帝政と美食文化（全9話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第10-1話** | ウィーン会議とタレーラン | 正統主義外交と「食卓が国境を決める」。 | `#vocabulary`, `#relative_pronouns_basic`, `#verbs` |
+| **第10-2話** | カレームと外交の宴 | カレームの建築的ピエスモンテと宮廷料理。 | `#vocabulary`, `#causative_faire` |
+| **第10-3話** | 七月革命 | 1830年「栄光の3日間」とブルジョワ七月王政. | `#vocabulary`, `#demonstrative_cest` |
+| **第10-4話** | ブリア＝サヴァランと美食 | 『味覚の生理学』出版（「君が何を食べているか…」）。 | `#vocabulary`, `#relative_pronouns_basic` |
+| **第10-5話** | 二月革命と第二共和政 | 1848年革命・男性普通選挙・六月蜂起。 | `#vocabulary`, `#conjunctions_basic` |
+| **第10-6話** | ルイ＝ナポレオンと第二帝政 | 1851年クーデタとナポレオン3世即位。 | `#vocabulary`, `#verbs` |
+| **第10-7話** | オスマンのパリ大改造 | 近代大都市化・ガス灯・カフェテラスの誕生。 | `#vocabulary` |
+| **第10-8** | 万国博覧会と近代フランス | 産業・芸術・料理・マーガリン発明の誇示。 | `#vocabulary`, `#verbs`, `#conjunctions_basic` |
+| **第10-9話** | 普仏戦争とパリ＝コミューン | 1871年敗戦・包囲下の極限食卓・第三共和政。 | `#vocabulary`, `#past_compose` |
+
+---
+
+## 🍷 第11章：第三共和政とフランス料理の近代化（全11話）
+| 話数 | エピソードタイトル | 歴史内容・概要 | データベース対応タグ |
+| :--- | :--- | :--- | :--- |
+| **第11-1話** | 第三共和政の成立 | 共和主義の定着と政治的対立。 | `#vocabulary`, `#relative_pronouns_basic` |
+| **第11-2話** | エスコフィエとホテル料理 | リッツとの連携と厨房分業制（ブリガード）。 | `#vocabulary` |
+| **第11-3話** | ロシア式サービス | 全皿一斉出しからコース料理へ。 | `#vocabulary`, `#verbs` |
+| **第11-4話** | 『ル・ギード・キュリネール』 | 5,000レシピの体系化とフランス料理の標準化。 | `#vocabulary` |
+| **第11-5話** | ドレフュス事件 | 冤罪事件とゾラ「私は弾劾する」、世論の分裂。 | `#vocabulary`, `#subjunctive_basic` |
+| **第11-6話** | 植民地帝国とフランス料理 | 帝国拡大と異文化スパイス・食材の流入。 | `#vocabulary` |
+| **第11-7話** | 第一次世界大戦 | 総力戦・塹壕の兵士（ポワリュ）と配給切符。 | `#vocabulary`, `#verbs`, `#past_compose` |
+| **第11-8** | 戦間期のパリと美食 | 「狂騒の20年代」とカフェに集う芸術家たち。 | `#vocabulary`, `#relative_pronouns_basic` |
+| **第11-9話** | 第二次世界大戦と占領 | 1940年敗北・ヴィシー政権・名店ワイン隠匿。 | `#vocabulary`, `#si_clauses_present` |
+| **第11-10話** | レジスタンスとパリ解放 | 地下連絡網・ノルマンディー上陸・1944年解放。 | `#vocabulary`, `#verbs` |
+| **第11-11話** | エスコフィエから現代料理へ | 自己の料理哲学発表とミシュラン対話。 | `#vocabulary`, `#grammar` |

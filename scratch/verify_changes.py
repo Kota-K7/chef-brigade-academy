@@ -16,6 +16,9 @@ def verify_json_parsing():
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_2.json"),
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_3.json"),
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_4.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_0.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_1.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_2.json"),
     ]
     
     all_ok = True
@@ -29,7 +32,7 @@ def verify_json_parsing():
             all_ok = False
             
     return all_ok
-
+ 
 def verify_reference_topic_integrity():
     print("\n--- Checking Reference Topic Integrity ---")
     with open(ref_path, 'r', encoding='utf-8') as f:
@@ -45,6 +48,9 @@ def verify_reference_topic_integrity():
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_2.json"),
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_3.json"),
         os.path.join(workspace_dir, "rpg", "story", "chapter_career_4.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_0.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_1.json"),
+        os.path.join(workspace_dir, "rpg", "history", "chapter_2.json"),
     ]
     
     orphans = []

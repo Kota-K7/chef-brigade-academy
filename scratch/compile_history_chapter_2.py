@@ -1,0 +1,557 @@
+import os
+import re
+import json
+import sys
+
+# Configure stdout to handle UTF-8 printing without crashing on Windows
+sys.stdout.reconfigure(encoding='utf-8')
+
+workspace_dir = r"c:\Users\kotya\.gemini\antigravity-ide\scratch\chef-brigade-academy"
+draft_path = os.path.join(workspace_dir, "rpg", "history", "draft_story.md")
+dest_file = os.path.join(workspace_dir, "rpg", "history", "chapter_2.json")
+
+char_map = {
+    "主人公": "hero",
+    "クロティルダ": "clotilde",
+    "Clotilde": "clotilde",
+    "クローヴィス": "clovis",
+    "Clovis": "clovis",
+    "執事": "steward",
+    "一般兵": "soldier",
+    "暗殺者": "assassin"
+}
+
+background_urls = {
+    "bgBlack": "#000000",
+    "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+    "garden": "url('assets/story/chapter_2/庭園.webp')",
+    "monastery": "url('assets/story/chapter_2/修道院.webp')",
+    "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+    "forest": "url('assets/story/chapter_2/森.webp')",
+    "castle": "url('assets/story/chapter_2/城.webp')"
+}
+
+def map_bg(name):
+    name = name.replace('[', '').replace(']', '').replace('背景:', '').replace('背景', '').strip()
+    if "地図" in name:
+        return "roma_empire_map"
+    elif "庭園" in name:
+        return "garden"
+    elif "修道院" in name:
+        return "monastery"
+    elif "戦場" in name:
+        return "battlefield"
+    elif "森" in name:
+        return "forest"
+    elif "黒" in name:
+        return "bgBlack"
+    elif "城" in name:
+        return "castle"
+    return None
+
+def get_expression_id(char_id, expr_name):
+    if not expr_name:
+        return "normal"
+    expr_name = expr_name.strip()
+    if char_id == "clotilde":
+        if "幼年期" in expr_name and "泣" in expr_name: return "childhood_cry"
+        if "幼年期" in expr_name: return "childhood"
+        if "怒り" in expr_name or "腕組" in expr_name: return "angry"
+        if "憎しみ" in expr_name: return "hatred"
+        if "涙" in expr_name or "泣き" in expr_name: return "cry"
+        if "立ち絵" in expr_name: return "normal"
+        if "驚き" in expr_name: return "surprised"
+    elif char_id == "clovis":
+        if "豪快" in expr_name: return "hearty"
+        if "手紙" in expr_name: return "letter"
+        if "まじめ" in expr_name: return "serious"
+        if "挨拶" in expr_name: return "greeting"
+        if "怒り" in expr_name: return "angry"
+        if "池" in expr_name: return "pond"
+        if "すねる" in expr_name or "腕組" in expr_name: return "pout"
+    return "normal"
+
+def normalize_tag(tag):
+    tag = tag.strip()
+    mapping = {
+        "#verb_etre": "#etre",
+        "#verb_avoir": "#avoir",
+        "#regular_verbs_1_2": "#verbs",
+        "#negation_basic": "#negation",
+        "#prepositions_a_de": "#prepositions"
+    }
+    return mapping.get(tag, tag)
+
+def parse_explanation_line(exp_line):
+    line = exp_line.strip().lstrip("└").strip()
+    if line.startswith("説明行:") or line.startswith("説明:") or line.startswith("解説:"):
+        line = re.split(r'[:：]', line, 1)[1].strip()
+    
+    title = "語句解説"
+    text = line
+    
+    parts = re.split(r'[=＝]', line, 1)
+    if len(parts) == 2:
+        title = parts[0].strip()
+        text = parts[1].strip()
+        if len(title) > 30:
+            title = title[:27] + "..."
+            
+    return {
+        "title": title,
+        "text": text
+    }
+
+def parse_dialogue_segment(segment):
+    m = re.match(r"^([^\s：:]+?)(?:\s*[（(]([^)）]+)[)）])?\s*[：:]\s*(.*)$", segment)
+    if m:
+        char_name = m.group(1).strip()
+        expr_name = m.group(2)
+        dialogue = m.group(3).strip()
+        if dialogue.startswith("「") and dialogue.endswith("」"):
+            dialogue = dialogue[1:-1].strip()
+            
+        char_key = char_map.get(char_name, None)
+        expr_key = get_expression_id(char_key, expr_name) if char_key else None
+        
+        step = {
+            "type": "dialog",
+            "character": char_key,
+            "text": dialogue,
+            "position": "center"
+        }
+        if expr_key:
+            step["expression"] = expr_key
+        return step
+    else:
+        segment = segment.strip()
+        if segment.startswith("「") and segment.endswith("」"):
+            segment = segment[1:-1].strip()
+        return {
+            "type": "dialog",
+            "character": None,
+            "text": segment,
+            "position": "center"
+        }
+
+def parse_episode_text(ep_lines, ep_num):
+    sequence = []
+    i = 0
+    active_bg = "bgBlack"
+    battle_idx = 0
+    pending_shake = False
+    pending_flash = None
+    
+    while i < len(ep_lines):
+        line = ep_lines[i].strip()
+        if not line:
+            i += 1
+            continue
+            
+        if "分）" in line or "分)" in line or "プレイ時間" in line:
+            i += 1
+            continue
+            
+        # Check background line
+        bg_match = re.search(r"\[背景:\s*([^\]]+)\]", line) or re.search(r"背景[：:]\s*(.*)", line)
+        if bg_match:
+            bg_desc = bg_match.group(1).strip()
+            if "揺れ" in bg_desc or "揺れる" in bg_desc:
+                pending_shake = True
+            if "切れる" in bg_desc or "点滅" in bg_desc or "黒点滅" in bg_desc:
+                pending_flash = "black"
+            elif "白点滅" in bg_desc or "フラッシュ" in bg_desc:
+                pending_flash = "white"
+            
+        # Detect background change during parsing
+        found_bg = None
+        cleaned_line = line
+        
+        m_bg = re.search(r"\[背景:\s*([^\]]+)\]", line) or re.search(r"背景[：:]\s*(.*)", line)
+        if m_bg:
+            found_bg = m_bg.group(1).strip()
+            cleaned_line = line.replace(m_bg.group(0), "").strip()
+        else:
+            if (']' in line or '[' in line or '背景' in line) and len(line) < 40:
+                clean_line = line.replace('[', '').replace(']', '').replace('背景:', '').replace('背景', '').strip()
+                mapped = map_bg(clean_line)
+                if mapped:
+                    found_bg = clean_line
+                    cleaned_line = ""
+                    
+        if found_bg:
+            mapped_bg = map_bg(found_bg)
+            if mapped_bg:
+                active_bg = mapped_bg
+            cleaned_line = cleaned_line.replace("#", "").replace("＃", "").strip()
+            if not cleaned_line:
+                i += 1
+                continue
+            else:
+                line = cleaned_line
+                
+        # Skip header lines, separator lines
+        if line.startswith("###") or line.startswith("##") or line.startswith("---") or line.startswith("【第2-"):
+            i += 1
+            continue
+            
+        if "⚔️" in line:
+            is_boss = "後半ボス" in line or "ボス" in line
+            enemy_name = "歴史の試練"
+            
+            i += 1
+            battle_tags = []
+            while i < len(ep_lines):
+                b_line = ep_lines[i].strip()
+                if not b_line:
+                    i += 1
+                    continue
+                if b_line.startswith("---") or b_line.startswith("###") or "⚔️" in b_line or b_line.startswith("【"):
+                    break
+                if b_line.startswith("[背景:") or b_line.startswith("### [背景:"):
+                    break
+                
+                clean_b_line = b_line.lstrip("*").lstrip("-").strip()
+                if "：" in clean_b_line or (":" in clean_b_line and not any(clean_b_line.startswith(p) for p in ["敵 /", "ボス名", "ボスHP", "出題タグ", "ノルマ", "敵のHP", "被ダメージ"])):
+                    break
+                    
+                if clean_b_line.startswith("ボス名") or clean_b_line.startswith("敵 /") or clean_b_line.startswith("敵キャラクター"):
+                    enemy_name = clean_b_line.split(":")[-1].strip().split("：")[-1].strip()
+                elif clean_b_line.startswith("出題タグ:") or clean_b_line.startswith("出題範囲"):
+                    tags_raw = clean_b_line.split(":")[-1].strip().split("：")[-1].strip()
+                    # Extract tags and normalize
+                    found_tags = re.findall(r"#[a-zA-Z0-9_]+", tags_raw)
+                    battle_tags = [normalize_tag(t) for t in found_tags]
+                i += 1
+                
+            battle_idx += 1
+            hp = 7 if battle_idx <= 2 else 12
+            
+            criteria = []
+            if battle_tags:
+                count_per_tag = hp // len(battle_tags)
+                remainder = hp % len(battle_tags)
+                for idx, tag in enumerate(battle_tags):
+                    added_count = count_per_tag + (1 if idx < remainder else 0)
+                    criteria.append({
+                        "tag": tag,
+                        "count": added_count
+                    })
+            else:
+                criteria = [{"tag": "#greetings", "count": hp}]
+                
+            ref_pages = []
+            if ep_num == 1:
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "定冠詞と不定冠詞", "referenceTopicId": "ref_definite_indefinite_articles", "sectionIndices": [0]},
+                        {"title": "名詞の性（男性・女性名詞）", "referenceTopicId": "ref_noun_genders", "sectionIndices": [0]}
+                    ]
+                elif battle_idx == 2:
+                    ref_pages = [
+                        {"title": "存在動詞 être 活用", "referenceTopicId": "ref_essential_irregular_verbs", "sectionIndices": [3]}
+                    ]
+                else: # battle_idx == 3
+                    ref_pages = [
+                        {"title": "所有動詞 avoir 活用", "referenceTopicId": "ref_essential_irregular_verbs", "sectionIndices": [4]}
+                    ]
+            elif ep_num == 2:
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "否定文の作り方 (ne ... pas)", "referenceTopicId": "ref_negation", "sectionIndices": [0]}
+                    ]
+                elif battle_idx == 2:
+                    ref_pages = [
+                        {"title": "場所・方向の前置詞", "referenceTopicId": "ref_prepositions", "sectionIndices": [0]}
+                    ]
+                else: # battle_idx == 3
+                    ref_pages = [
+                        {"title": "前置詞と定冠詞の縮約", "referenceTopicId": "ref_contracted_articles", "sectionIndices": [0, 1]}
+                    ]
+            elif ep_num == 3:
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "基本形容詞と性数一致", "referenceTopicId": "ref_adjective_agreement", "sectionIndices": [0]}
+                    ]
+                else:
+                    ref_pages = [
+                        {"title": "動詞活用パターン", "referenceTopicId": "ref_conjugation_patterns", "sectionIndices": [0]}
+                    ]
+            elif ep_num == 4:
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "命令法（指示と号令）", "referenceTopicId": "ref_imperative", "sectionIndices": [0]}
+                    ]
+                else:
+                    ref_pages = [
+                        {"title": "重要不規則動詞 (faire / prendre / mettre)", "referenceTopicId": "ref_essential_irregular_verbs", "sectionIndices": [0, 1, 2]}
+                    ]
+            elif ep_num == 5:
+                ref_pages = [
+                    {"title": "近接未来と近接過去 (近接過去)", "referenceTopicId": "ref_near_future_past", "sectionIndices": [1]}
+                ]
+            elif ep_num == 6:
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "近接未来と近接過去 (近接未来)", "referenceTopicId": "ref_near_future_past", "sectionIndices": [0]}
+                    ]
+                else:
+                    ref_pages = [
+                        {"title": "代名動詞（自他・再帰）", "referenceTopicId": "ref_pronominal_verbs", "sectionIndices": [0]}
+                    ]
+            elif ep_num == 7:
+                ref_pages = [
+                    {"title": "代名動詞の受動用法", "referenceTopicId": "ref_pronominal_verbs", "sectionIndices": [1]}
+                ]
+            elif ep_num == 8:
+                ref_pages = [
+                    {"title": "形容詞の性数一致", "referenceTopicId": "ref_adjective_agreement", "sectionIndices": [0]}
+                ]
+            elif ep_num == 9:
+                ref_pages = [
+                    {"title": "近接未来と近接過去の総復習", "referenceTopicId": "ref_near_future_past", "sectionIndices": [0, 1]}
+                ]
+                    
+            if ref_pages:
+                sequence.append({
+                    "type": "tutorial",
+                    "title": "事前解説 (Préparation)",
+                    "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+                    "pages": ref_pages
+                })
+                
+            sequence.append({
+                "type": "fixedBattle",
+                "enemyName": enemy_name,
+                "enemyHp": hp,
+                "enemyDamage": 2,
+                "criteria": criteria
+            })
+            continue
+            
+        m_dialog = re.match(r"^([^\s：:]+?)(?:\s*[（(]([^)）]+)[)）])?\s*[：:]\s*(.*)$", line)
+        if m_dialog or line.startswith("—") or line.startswith("（") or line.startswith("「"):
+            dialogue_lines = [line]
+            explanation_lines = []
+            
+            i += 1
+            while i < len(ep_lines):
+                next_line = ep_lines[i].strip()
+                if not next_line:
+                    i += 1
+                    continue
+                if next_line.startswith("└") or next_line.startswith("* └"):
+                    explanation_lines.append(next_line)
+                    i += 1
+                    continue
+                if re.match(r"^([^\s：:]+?)(?:\s*[（(]([^)）]+)[)）])?\s*[：:]\s*(.*)$", next_line):
+                    break
+                if next_line.startswith("「"):
+                    break
+                if next_line.startswith("###") or next_line.startswith("⚔️") or next_line.startswith("##") or next_line.startswith("【第2-") or next_line.startswith("[背景:"):
+                    break
+                
+                dialogue_lines.append(next_line)
+                i += 1
+                
+            full_text = "\n".join(dialogue_lines)
+            sub_segments = full_text.split("→")
+            for idx, seg in enumerate(sub_segments):
+                seg = seg.strip()
+                if not seg:
+                    continue
+                step = parse_dialogue_segment(seg)
+                step["background"] = active_bg
+                
+                char_key = step.get("character")
+                expr_key = step.get("expression", "normal")
+                
+                # Apply pending effects
+                if pending_shake:
+                    step["shake"] = True
+                    pending_shake = False
+                if pending_flash:
+                    step["flash"] = pending_flash
+                    pending_flash = None
+                    
+                # Character sprite logic (Rules applied: no sprite for monastery background, nor for steward, soldier, assassin, or Chapter 2-4)
+                if char_key and char_key != "hero":
+                    no_sprite_chars = ["steward", "soldier", "assassin"]
+                    is_monastery = active_bg in ["monastery"]
+                    is_ep4 = ep_num == 4
+                    if char_key in no_sprite_chars or is_monastery or is_ep4:
+                        step["characters"] = []
+                    else:
+                        step["characters"] = [
+                            {
+                                "id": char_key,
+                                "expression": expr_key,
+                                "position": "center"
+                            }
+                        ]
+                else:
+                    step["characters"] = []
+                    
+                if idx == len(sub_segments) - 1 and explanation_lines:
+                    lp_text_parts = []
+                    lp_title = "語句解説"
+                    for exp_l in explanation_lines:
+                        lp_parsed = parse_explanation_line(exp_l)
+                        if lp_parsed["title"] != "語句解説":
+                            lp_title = lp_parsed["title"]
+                        lp_text_parts.append(lp_parsed["text"])
+                    step["learningPoint"] = {
+                        "title": lp_title,
+                        "text": "\n".join(lp_text_parts)
+                    }
+                    
+                sequence.append(step)
+            continue
+            
+        if not line.startswith("---") and not line.startswith("【第2-"):
+            step = {
+                "type": "dialog",
+                "character": None,
+                "text": line,
+                "position": "center",
+                "background": active_bg,
+                "characters": []
+            }
+            if pending_shake:
+                step["shake"] = True
+                pending_shake = False
+            if pending_flash:
+                step["flash"] = pending_flash
+                pending_flash = None
+            sequence.append(step)
+            
+        i += 1
+        
+    return sequence
+
+def scale_criteria(criteria, target):
+    if not criteria:
+        return []
+    total = sum(c.get('count', 1) for c in criteria)
+    if total == 0:
+        for c in criteria:
+            c['count'] = 1
+        total = len(criteria)
+    current_sum = 0
+    for c in criteria:
+        orig = c.get('count', 1)
+        new_val = max(1, round(target * orig / total))
+        c['count'] = new_val
+        current_sum += new_val
+    while current_sum != target:
+        if current_sum < target:
+            idx = max(range(len(criteria)), key=lambda i: criteria[i]['count'])
+            criteria[idx]['count'] += 1
+            current_sum += 1
+        else:
+            idx = max(range(len(criteria)), key=lambda i: criteria[i]['count'] if criteria[i]['count'] > 1 else -1)
+            if criteria[idx]['count'] > 1:
+                criteria[idx]['count'] -= 1
+                current_sum -= 1
+            else:
+                break
+    return criteria
+
+def main():
+    print(f"Reading drafts from {draft_path}...")
+    if not os.path.exists(draft_path):
+        print(f"Error: {draft_path} not found!")
+        return
+        
+    with open(draft_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+        
+    matches = list(re.finditer(r"(?:##? )?【第2-(\d+)話\s+([^】\n]+)】", content))
+    valid_matches = []
+    for m in matches:
+        ep_num = int(m.group(1))
+        title = m.group(2).strip()
+        if "クリア" not in title:
+            valid_matches.append((ep_num, title, m.start(), m.end()))
+            
+    episodes = []
+    for idx, (ep_num, ep_title, start_pos, end_pos) in enumerate(valid_matches):
+        print(f"Compiling Episode 2-{ep_num}: {ep_title}...")
+        next_start = valid_matches[idx+1][2] if idx+1 < len(valid_matches) else len(content)
+        ep_text = content[end_pos:next_start]
+        lines = ep_text.split("\n")
+        
+        sequence = parse_episode_text(lines, ep_num)
+        
+        # Scale fixedBattle HP & criteria (Ensure 7 for first 2 battles, 12 for the 3rd)
+        battle_idx = 0
+        scaled_sequence = []
+        for s in sequence:
+            if s.get('type') == 'fixedBattle':
+                battle_idx += 1
+                target_hp = 7 if battle_idx <= 2 else 12
+                s['enemyHp'] = target_hp
+                s['criteria'] = scale_criteria(s.get('criteria', []), target_hp)
+            scaled_sequence.append(s)
+            
+        scaled_sequence.append({
+            "type": "reward",
+            "xp": 120 + ep_num * 10,
+            "unlockedEpisodeId": f"ep_2_{ep_num+1}" if ep_num < 2 else None
+        })
+        
+        episodes.append({
+            "episodeId": f"ep_2_{ep_num}",
+            "episodeTitle": f"第2-{ep_num}話: {ep_title}",
+            "recommendedPlayTime": "5 mins",
+            "backgrounds": background_urls,
+            "characters": {
+                "hero": { "name": "主人公" },
+                "clotilde": {
+                    "name": "クロティルダ",
+                    "images": {
+                        "default": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+                        "normal": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+                        "childhood": "assets/story/chapter_2/クロティルダ幼年期.webp",
+                        "childhood_cry": "assets/story/chapter_2/クロティルダ幼年期泣き.webp",
+                        "cry": "assets/story/chapter_2/クロティルダ泣き.webp",
+                        "angry": "assets/story/chapter_2/クロティルダ怒り.webp",
+                        "hatred": "assets/story/chapter_2/クロティルダ憎しみ.webp",
+                        "surprised": "assets/story/chapter_2/クロティルダ驚き.webp"
+                    }
+                },
+                "clovis": {
+                    "name": "クローヴィス",
+                    "images": {
+                        "default": "assets/story/chapter_2/クローヴィス豪快.webp",
+                        "normal": "assets/story/chapter_2/クローヴィス豪快.webp",
+                        "hearty": "assets/story/chapter_2/クローヴィス豪快.webp",
+                        "letter": "assets/story/chapter_2/クローヴィス手紙.webp",
+                        "serious": "assets/story/chapter_2/クローヴィスまじめ.webp",
+                        "greeting": "assets/story/chapter_2/クローディス挨拶.webp",
+                        "angry": "assets/story/chapter_2/クローヴィス怒り.webp",
+                        "pond": "assets/story/chapter_2/クローヴィス池.webp",
+                        "pout": "assets/story/chapter_2/すねる.webp"
+                    }
+                },
+                "steward": { "name": "執事" },
+                "soldier": { "name": "一般兵" },
+                "assassin": { "name": "暗殺者" }
+            },
+            "sequence": scaled_sequence
+        })
+        
+    chapter_data = {
+        "chapterId": "ch_2",
+        "chapterTitle": "第2章: ゲルマンの大移動とフランク王国の誕生",
+        "notes": "西ローマ滅亡後のゲルマン大移動と、フランク王国クローヴィスとクロティルダの出会い。冠詞、名詞の性、動詞être・avoirの基本、前置詞・否定表現・縮約を学びます。",
+        "episodes": episodes
+    }
+    
+    os.makedirs(os.path.dirname(dest_file), exist_ok=True)
+    with open(dest_file, 'w', encoding='utf-8') as f:
+        json.dump(chapter_data, f, ensure_ascii=False, indent=2)
+    print(f"Saved compiled VN JSON to {dest_file}")
+
+if __name__ == "__main__":
+    main()

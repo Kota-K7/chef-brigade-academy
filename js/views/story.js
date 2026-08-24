@@ -373,6 +373,89 @@ async function renderChapterSelector(container) {
             </div>
           </div>
         </div>
+
+        <!-- Chapter 2 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid #e056fd; margin-top: 1.5rem;">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: #e056fd; color: white;">Chapter 2</span>
+            <h3>第2章: ゲルマンの大移動とフランク王国の誕生</h3>
+          </div>
+          <p class="chapter-desc">西ローマ帝国滅亡後のゲルマン民族大移動、フランク王国クローヴィスとクロティルダの出会いを体験します。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第2-1話: 時代はゲルマンへ！ 運命の交差</h4>
+                <span class="play-time">⏱️ 10分 • 定冠詞・不定冠詞 & 動詞 être / avoir 活用</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-2話: 運命の出会い、水辺のハプニング</h4>
+                <span class="play-time">⏱️ 15分 • 否定表現 & 前置詞 & 縮約</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-3話: トルビアックの誓いとカトリック改宗</h4>
+                <span class="play-time">⏱️ 10分 • 基本形容詞・性数一致 & 動詞活用規則</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_3">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-4話: メロヴィングの残光と王国の分割</h4>
+                <span class="play-time">⏱️ 10分 • 命令法 & 主要不規則動詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_4">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-5話: 宮宰カール・マルテル（鉄槌宰相）</h4>
+                <span class="play-time">⏱️ 10分 • 近接過去 & 代名動詞・前置詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_5">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-6話: 王の王位、ピピン教皇に寄進す</h4>
+                <span class="play-time">⏱️ 10分 • 近接未来 & 近接過去 & 代名動詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_6">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-7話: カール大帝、ローマ皇帝戴冠</h4>
+                <span class="play-time">⏱️ 10分 • 近接時制 & 代名動詞の受動用法</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_7">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-8話: カール大帝の帝国とルネサンス</h4>
+                <span class="play-time">⏱️ 10分 • 形容詞一致 & 冠詞縮約 & 近接未来</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_8">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第2-9話: カール大帝の死と帝国の分裂</h4>
+                <span class="play-time">⏱️ 15分 • 第2章 近接時制・文法総復習</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="2" data-episode="ep_2_9">開始する</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   `;

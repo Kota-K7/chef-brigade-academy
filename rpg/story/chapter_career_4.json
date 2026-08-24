@@ -373,13 +373,32 @@
         {
           "type": "dialog",
           "character": "saeki",
-          "text": "どれどれ……（味見して）本当だ。佐伯：「……よくできているね。Si le chef la goûte, il sera surpris. (もしシェフがこれを味見したら、驚くだろうね。)",
+          "text": "どれどれ……（味見して）本当だ。",
           "position": "center",
-          "learningPoint": {
-            "title": "Si le chef la goûte, il sera surpris. (もし〜なら、…するだろう)",
-            "text": "Si ＋ 直接法現在（goûte）、主節が単純未来（sera）の構文です。la はソース（la sauce）を指します。「実現する可能性のある未来の仮定」を表します。→ガエル：「ちょうどいい。ならば、『もし〜なら』という仮定（Si）と、行動の受け手を主語にする『受動態』を学ぶとしよう。」"
-          },
-          "background": "restaurant"
+          "expression": "normal",
+          "background": "restaurant",
+          "characters": [
+            {
+              "id": "saeki",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "saeki",
+          "text": "……よくできているね。Si le chef la goûte, il sera surpris. (もしシェフがこれを味見したら、驚くだろうね。)",
+          "position": "center",
+          "expression": "normal",
+          "background": "restaurant",
+          "characters": [
+            {
+              "id": "saeki",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "tutorial",

@@ -47,18 +47,19 @@
 
 ---
 
-## 👑 第2章：フランク王国 ― メロヴィング朝からカロリング朝へ（全8話）【A2】
+## 👑 第2章：フランク王国 ― メロヴィング朝からカロリング朝へ（全9話）【A2】
 
 | 話数 | タイトル | 歴史内容 | 指定学習タグ（4〜5個） |
 | :--- | :--- | :--- | :--- |
-| **第2-1話** | クローヴィスとフランク王国 | フランク統一、ソワソンの戦い、カトリック改宗。 | `#contracted_articles`, `#prepositions_a_de`, `#noun_gender`, `#articles` |
-| **第2-2話** | クローヴィスの死と王国の分割 | 王国分割相続とメロヴィング朝の抗争。 | `#partitive_articles`, `#quantities_expressions`, `#contracted_articles`, `#noun_gender` |
-| **第2-3話** | 宮宰カール・マルテル | トゥール・ポワティエ間の戦い、カロリング家台頭。 | `#adjective_agreement`, `#adjective_position`, `#partitive_articles`, `#regular_verbs_1_2` |
-| **第2-4話** | ピピンの王位 | 教皇ザカリアスの承認、カロリング朝成立。 | `#imperative`, `#polite_command_vous`, `#adjective_agreement`, `#irregular_verbs_major` |
-| **第2-5話** | ピピンと教皇 | イタリア遠征とピピンの寄進（教皇領の起源）。 | `#near_past`, `#pronominal_verbs_basic`, `#imperative`, `#prepositions_place` |
-| **第2-6話** | カール大帝の戴冠 | 800年ローマ皇帝戴冠、大帝国建設。 | `#near_future`, `#passive_pronominal_verbs`, `#near_past`, `#imperative`, `#numbers` |
-| **第2-7話** | カール大帝の帝国 | 巡察使・荘園令・カロリングルネサンス。 | `#adjective_agreement`, `#contracted_articles`, `#partitive_articles`, `#near_future`, `#prepositions_place` |
-| **第2-8話** | カール大帝の死と帝国の分裂 | ヴェルダン条約（843年）と西フランク誕生。 | `#near_past`, `#near_future`, `#imperative`, `#contracted_articles`, `#regular_verbs_1_2` |
+| **第2-1話** | 時代はゲルマンへ！ 運命の交差 | ローマの終焉とゲルマン大移動、クロティルダの幼少期（悲劇）、クローヴィスの台頭。 | `#articles`, `#noun_gender`, `#etre`, `#avoir` |
+| **第2-2話** | 運命の出会い、水辺のハプニング | 政略結婚。二人の出会い（池落ちハプニング）、丁寧なラブコメ展開（心が通い始めるまで）。 | `#negation`, `#prepositions`, `#contracted_articles`, `#noun_gender` |
+| **第2-3話** | トルビアックの誓いとカトリック改宗 | 結婚初期、ツンデレ期の終わり。子供の誕生。トルビアックの戦い、改宗の誓い、公認。 | `#basic_adjectives`, `#verbs` |
+| **第2-4話** | メロヴィングの残光と王国の分割 | 美しい聖女クロティルダ。王国の拡大、晩年の容姿（長髪髭）。クローヴィスの死、王国分割相続と抗争開始。 | `#imperative`, `#basic_adjectives`, `#irregular_verbs_major` |
+| **第2-5話** | 宮宰カール・マルテル（鉄槌宰相） | カロリング家台頭。トゥール・ポワティエ間の戦い（全軍突撃）。 | `#near_past`, `#verbs`, `#imperative`, `#prepositions` |
+| **第2-6話** | 王の王位、ピピン教皇に寄進す【短縮・統合】 | 教皇ザカリアスの承認、カロリング朝成立。イタリア遠征、ピピンの寄進（教皇領成立）。眉下がり内気だが本気出す。 | `#near_future`, `#passive_pronominal_verbs`, `#near_past`, `#imperative`, `#numbers` |
+| **第2-7話** | カール大帝、ローマ皇帝戴冠 | 800年ローマ皇帝戴冠（ゴリマッチョ戴冠劇）、大帝国建設。平和と学問。 | `#near_future`, `#passive_pronominal_verbs`, `#near_past`, `#imperative`, `#numbers` |
+| **第2-8話** | カール大帝の帝国とルネサンス | 巡察使・荘園令・カロリングルネサンス。知性的で最強最高の主人公 | `#basic_adjectives`, `#contracted_articles`, `#partitive_articles`, `#near_future`, `#prepositions` |
+| **第2-9話** | カール大帝の死と帝国の分裂 | カール大帝の死。ヴェルダン条約（843年）と西フランク誕生（現代フランスの起源）。 | `#near_past`, `#near_future`, `#imperative`, `#contracted_articles`, `#verbs` |
 
 ---
 

@@ -13020,5 +13020,666 @@
       "y"
     ],
     "explanation": "penser à... (〜について考える) の à + 事柄 を置き換える中性代名詞は y になります。"
+  },
+  {
+    "id": "q_nf_add_01",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Complétez la phrase du chef : « Je ___ préparer la sauce pour le poisson. » (シェフの台詞を完成させてください：「私はこれから魚のソースを準備するところです。」)",
+    "options": [
+      "vais",
+      "vas",
+      "va",
+      "allons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vais"
+    ],
+    "explanation": "近接未来（aller + 不定詞）で主語が Je のとき、aller の活用形は vais になります。"
+  },
+  {
+    "id": "q_nf_add_02",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#restaurant"
+    ],
+    "type": "typing",
+    "text": "Le serveur demande aux clients : « Qu'est-ce que vous ___ commander comme dessert ? » (サーバーが客に尋ねます：「デザートには何を注文される予定ですか？」)",
+    "options": [
+      "allez",
+      "allons",
+      "vont",
+      "va"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "allez"
+    ],
+    "explanation": "二人称複数 vous に対する aller の活用形 is allez です。"
+  },
+  {
+    "id": "q_nf_add_03",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "Le chef annonce le début du service. Quelle phrase exprime « Nous allons ouvrir les portes du restaurant. » ? (シェフがサービスの開始を告げます。「私たちはこれからレストランの扉を開けるところだ」を表す正しい文はどれですか？)",
+    "options": [
+      "Nous allons ouvrir les portes du restaurant.",
+      "Nous venons d'ouvrir les portes du restaurant.",
+      "Nous ouvrons les portes du restaurant hier.",
+      "Nous allons ouverts les portes du restaurant."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Nous allons ouvrir les portes du restaurant."
+    ],
+    "explanation": "近接未来は「aller の現在形 ＋ 不定詞（ouvrir）」で作ります。Nous allons ouvrir で「これから開けるところだ」となります。"
+  },
+  {
+    "id": "q_nf_add_04",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "typing",
+    "text": "Le sous-chef te demande : « Tu ___ couper les oignons en julienne ? » (スーシェフが尋ねてきます：「君はこれから玉ねぎを千切りにしてくれるかい？」)",
+    "options": [
+      "vas",
+      "va",
+      "vais",
+      "allez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vas"
+    ],
+    "explanation": "主語 tu に対する aller の活用形は vas です。"
+  },
+  {
+    "id": "q_nf_add_05",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Le cuisinier prévient : « Attention, le bouillon va déborder ! » Que va-t-il se passer immédiatement ? (料理人が叫びます：「気をつけて、ブイヨンが吹きこぼれそうだよ！」この直後どうなりそうですか？)",
+    "options": [
+      "Le bouillon est sur le point de déborder de la casserole.",
+      "Le bouillon is déjà froid.",
+      "Le bouillon a fini de cuire hier.",
+      "Le chef a renversé le bouillon le matin."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Le bouillon is sur le point de déborder de la casserole."
+    ],
+    "explanation": "va déborder は近接未来で「今にも吹きこぼれそうだ」という目前の出来事を表します。"
+  },
+  {
+    "id": "q_nf_add_06",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Le sommelier annonce : « Nous ___ déguster un grand vin de Bourgogne ce soir. » (ソムリエが告知します：「私たちは今夜、ブルゴーニュの素晴らしいワインを試飲する予定です。」)",
+    "options": [
+      "allons",
+      "allez",
+      "vont",
+      "va"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "allons"
+    ],
+    "explanation": "主語 Nous に対する aller の活用形は allons です。"
+  },
+  {
+    "id": "q_nf_add_07",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Pour dire poliment « Je ne vais pas ajouter de sel dans ce plat », comment place-t-on la négation ? (「私はこの料理に塩を加えるつもりはありません」を正しく否定した文はどれですか？)",
+    "options": [
+      "Je ne vais pas ajouter de sel dans ce plat.",
+      "Je vais ne pas ajouter de sel dans ce plat.",
+      "Je ne pas vais ajouter de sel dans ce plat.",
+      "Je ne vais ajouter pas de sel dans ce plat."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je ne vais pas ajouter de sel dans ce plat."
+    ],
+    "explanation": "近接未来の否定文は、助動詞 aller を ne ... pas で挟みます（ne vais pas ajouter）。"
+  },
+  {
+    "id": "q_nf_add_08",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#market"
+    ],
+    "type": "typing",
+    "text": "À la criée du matin, le poissonnier crie : « Les bateaux ___ arriver au port avec des poissons frais ! » (朝の競りで魚屋が叫びます：「船が新鮮な魚を積んで港に到着するところだよ！」)",
+    "options": [
+      "vont",
+      "va",
+      "allons",
+      "allez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vont"
+    ],
+    "explanation": "主語 Les bateaux（三人称複数 ils）に対する aller の活用形は vont です。"
+  },
+  {
+    "id": "q_nf_add_09",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#dialogue"
+    ],
+    "type": "choice",
+    "text": "Après une longue journée en cuisine, Camille te dit : « Je vais me reposer un peu. » Que signifie cette phrase ? (過酷な厨房での一日を終え、カミーユが言います：「Je vais me reposer un peu.」これはどういう意味ですか？)",
+    "options": [
+      "私は少し休むつもりです（これから休みます）。",
+      "私は今さっき起きたばかりです。",
+      "私は料理を始めるところです。",
+      "私はもう十分に休みました。"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "私は少し休むつもりです（これから休みます）。"
+    ],
+    "explanation": "se reposer（休む・休息をとる）の近接未来で、「少し休むつもりだ」という意味です。"
+  },
+  {
+    "id": "q_nf_add_10",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#matching",
+      "#kitchen"
+    ],
+    "type": "matching",
+    "text": "Associez chaque membre de la brigade à son action imminente en cuisine. (厨房の各メンバーと、これから行う調理アクションを結びつけてください。)",
+    "pairs": [
+      {
+        "left": "Le chef (Il)",
+        "right": "va dresser les assiettes"
+      },
+      {
+        "left": "L'apprenti (Je)",
+        "right": "vais éplucher les légumes"
+      },
+      {
+        "left": "La brigade (Nous)",
+        "right": "allons commencer le service"
+      },
+      {
+        "left": "Les plongeurs (Ils)",
+        "right": "vont nettoyer la cuisine"
+      }
+    ],
+    "explanation": "厨房での役割に応じた近接未来（aller + 不定詞）のペアです。"
+  },
+  {
+    "id": "q_np_add_01",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "typing",
+    "text": "L'apprenti annonce fièrement au chef : « Je ___ de sortir le canard rôti du four ! » (見習いが誇らしげにシェフへ報告します：「ローストダックをオーブンから出したところです！」)",
+    "options": [
+      "viens",
+      "vient",
+      "venons",
+      "vais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "viens"
+    ],
+    "explanation": "近接過去（venir + de + 不定詞）で主語が Je のとき、venir の活用形は viens になります。"
+  },
+  {
+    "id": "q_np_add_02",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#restaurant"
+    ],
+    "type": "typing",
+    "text": "Le maître d'hôtel prévient la cuisine : « Les invités de la table 4 ___ d'arriver au restaurant. » (給仕長が厨房に伝えます：「4番テーブルのお客様がちょうど到着されたところです。」)",
+    "options": [
+      "viennent",
+      "vient",
+      "venez",
+      "venons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "viennent"
+    ],
+    "explanation": "主語 Les invités（三人称複数 ils）に対する venir の活用形は viennent です。"
+  },
+  {
+    "id": "q_np_add_03",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "Le sommelier goûte le millésime et dit : « Nous venons d'ouvrir cette bouteille de Bordeaux. » Qu'est-ce que cela veut dire ? (ソムリエがワインを試飲して言います：「Nous venons d'ouvrir cette bouteille de Bordeaux.」これはどういう状態ですか？)",
+    "options": [
+      "ボルドーのボトルをちょうど今開けたばかりである。",
+      "今夜ボルドーのボトルを開ける予定である。",
+      "ボルドーのボトルは昨日すでに飲み干した。",
+      "ボルドーのボトルを開けるのを断念した。"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ボルドーのボトルをちょうど今開けたばかりである。"
+    ],
+    "explanation": "venons d'ouvrir は「開けたばかりである（近接過去）」を表します。ouvrir が母音で始まるため de は d' にエリジオンします。"
+  },
+  {
+    "id": "q_np_add_04",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#pastry"
+    ],
+    "type": "typing",
+    "text": "Le pâtissier sourit : « La tarte aux pommes ___ de cuire à la perfection. » (パティシエが微笑みます：「アップルタルトがちょうど完璧に焼き上がったところだ。」)",
+    "options": [
+      "vient",
+      "viens",
+      "venons",
+      "viennent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vient"
+    ],
+    "explanation": "主語 La tarte aux pommes（三人称単数 elle）に対する venir の活用形は vient です。"
+  },
+  {
+    "id": "q_np_add_05",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Tu veux informer le chef que tu as terminé de monter la sauce à l'instant. Quelle phrase est correcte ? (シェフに「ちょうどソースを泡立て（モンテし）終えたところです」と正しく報告する文はどれですか？)",
+    "options": [
+      "Je viens de terminer la sauce.",
+      "Je viens à terminer la sauce.",
+      "Je vais de terminer la sauce.",
+      "Je viens terminer la sauce."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je viens de terminer la sauce."
+    ],
+    "explanation": "近接過去は「venir の活用 ＋ de ＋ 不定詞」で作ります（Je viens de terminer）。"
+  },
+  {
+    "id": "q_np_add_06",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#service"
+    ],
+    "type": "typing",
+    "text": "Le chef demande aux serveurs : « Vous ___ de débarrasser la table des VIP ? » (シェフがサーバーたちに確認します：「VIPのテーブルをちょうど片付け終えたところですか？」)",
+    "options": [
+      "venez",
+      "venons",
+      "viennent",
+      "vient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venez"
+    ],
+    "explanation": "主語 vous に対する venir の活用形は venez です。"
+  },
+  {
+    "id": "q_np_add_07",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "« Le client vient de goûter le plat et il a adoré ! » Quelle est la situation du client ? (「お客様は料理を味見したばかりで、大絶賛されました！」お客様の状況として正しいものはどれですか？)",
+    "options": [
+      "Il a fini de goûter le plat il y a quelques instants.",
+      "Il goûtera le plat plus tard dans la soirée.",
+      "Il refuse absolument de goûter le plat.",
+      "Il n'a pas encore reçu son assiette."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Il a fini de goûter le plat il y a quelques instants."
+    ],
+    "explanation": "vient de goûter は近接過去で「ほんの少し前に味見をしたばかり」という状況を表します。"
+  },
+  {
+    "id": "q_np_add_08",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#market"
+    ],
+    "type": "typing",
+    "text": "En revenant du marché de Marseille, Camille dit : « Nous ___ d'acheter de magnifiques rougets ! » (マルセイユの市場から戻り、カミーユが言います：「素晴らしいヒメジ（魚）を買ってきたばかりよ！」)",
+    "options": [
+      "venons",
+      "venez",
+      "viennent",
+      "viens"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venons"
+    ],
+    "explanation": "主語 Nous に対する venir の活用形は venons です。"
+  },
+  {
+    "id": "q_np_add_09",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Le chef crie : « Chaud devant ! Je sors la poêle, elle vient d'être retirée du feu ! » Que signifie cette alerte ? (シェフが叫びます：「熱いぞ通るぞ！フライパンを出す、火から下ろしたばかりだ！」どういう注意喚起ですか？)",
+    "options": [
+      "La poêle est brûlante car elle était sur le feu il y a une seconde.",
+      "La poêle est totalement froide et propre.",
+      "Le feu de la cuisine vient de s'éteindre complètement.",
+      "La poêle va être mise sur le feu demain."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "La poêle est brûlante car elle était sur le feu il y a une seconde."
+    ],
+    "explanation": "vient d'être retirée du feu は「火から下ろされたばかり」という意味で、直前まで加熱されていて非常に熱い状態であることを示します。"
+  },
+  {
+    "id": "q_np_add_10",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#matching",
+      "#cuisine"
+    ],
+    "type": "matching",
+    "text": "Associez chaque phrase au passé récent avec son état en cuisine. (近接過去で報告された厨房の出来事と、その状態を結びつけてください。)",
+    "pairs": [
+      {
+        "left": "Le pain vient de sortir du four.",
+        "right": "Il is encore tout chaud et croustillant."
+      },
+      {
+        "left": "Le serveur vient de servir le vin.",
+        "right": "Les verres des clients sont pleins."
+      },
+      {
+        "left": "Le chef vient de goûter le potage.",
+        "right": "Il sait si l'assaisonnement est parfait."
+      },
+      {
+        "left": "La plonge vient de laver les casseroles.",
+        "right": "Le matériel est propre et disponible."
+      }
+    ],
+    "explanation": "近接過去（venir de + 不定詞）がもたらす直後のリアルな状況のペアです。"
+  },
+  {
+    "id": "q_pv_add_01",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Le guide gastronomique explique : « En Provence, la bouillabaisse ___ sert traditionnellement avec de la rouille. » (美食ガイドが解説します：「プロヴァンスでは、ブイヤベースは伝統的にルイユを添えて提供されます。」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "nous"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "無生物主語 la bouillabaisse に対し、受動的代名動詞 se servir（提供される、給仕される）の再帰代名詞 se が入ります。"
+  },
+  {
+    "id": "q_pv_add_02",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#wine"
+    ],
+    "type": "choice",
+    "text": "Le sommelier conseille : « Ce vin blanc sec se boit très frais, entre 8 et 10 degrés. » Que veut-il dire ? (ソムリエが助言します：「この辛口白ワインは8〜10度でよく冷やして飲まれます（飲むのがおすすめです）。」どういう意味ですか？)",
+    "options": [
+      "On doit déguster ce vin lorsqu'il est bien frais.",
+      "Ce vin est tellement chaud qu'on ne peut pas le boire.",
+      "Le vin s'est renversé par terre dans la cave.",
+      "Personne ne boit ce genre de vin en France."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "On doit déguster ce vin lorsqu'il est bien frais."
+    ],
+    "explanation": "se boire は受動的に「〜のように飲まれる、飲むのが通例である」を表します。"
+  },
+  {
+    "id": "q_pv_add_03",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#pastry"
+    ],
+    "type": "typing",
+    "text": "Au comptoir de la boulangerie : « Ces croissants au beurre ___ vendent comme des petits pains dès le matin ! » (パン屋のカウンターで：「このクロワッサンは朝から飛ぶように売れます！」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "le"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "主語 Ces croissants に対し、受動的代名動詞 se vendre（売れる）の再帰代名詞 se が入ります。"
+  },
+  {
+    "id": "q_pv_add_04",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#service"
+    ],
+    "type": "choice",
+    "text": "Un serveur met les couteaux à l'envers sur la table. Le maître d'hôtel le corrige : « Attention, ça ne se fait pas ! » Que signifie ce reproche ? (サーバーがナイフを裏返しに並べました。給仕長が「Attention, ça ne se fait pas !」と注意しました。これはどういう意味ですか？)",
+    "options": [
+      "Ce n'est pas convenable selon les bonnes manières.",
+      "Le couteau est impossible à fabriquer.",
+      "La table n'est pas encore construite.",
+      "Le client a déjà payé l'addition."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Ce n'est pas convenable selon les bonnes manières."
+    ],
+    "explanation": "「Ça ne se fait pas.」は受動的表現（se faire）から生まれた日常的な決まり文句で、「そんなこと（マナー違反だから）するものではないよ」という意味です。"
+  },
+  {
+    "id": "q_pv_add_05",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cheese"
+    ],
+    "type": "typing",
+    "text": "Le fromager présente ses produits : « Le Roquefort et le Comté se ___ dans toutes les bonnes tables de France. » (チーズ職人が紹介します：「ロックフォールとコンテはフランスのすべての美食の食卓で見られます（置かれています）。」)",
+    "options": [
+      "trouvent",
+      "trouve",
+      "trouvez",
+      "trouvons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "trouvent"
+    ],
+    "explanation": "主語 Le Roquefort et le Comté が複数（2つのチーズ）なので、動詞 trouver も三人称複数形 trouvent になります（se trouvent = 見出される、ある）。"
+  },
+  {
+    "id": "q_pv_add_06",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "« En cuisine française, la sauce béchamel se prépare avec du beurre, de la farine et du lait. » Quelle affirmation est vraie ? (「フランス料理において、ベシャメルソースはバター、小麦粉、牛乳で作られます。」正しい説明はどれですか？)",
+    "options": [
+      "Ces trois ingrédients sont utilisés pour réaliser la sauce béchamel.",
+      "La béchamel se mange uniquement avec du sucre.",
+      "Il est interdit d'utiliser du lait pour la béchamel.",
+      "La béchamel ne se cuisine jamais avec de la farine."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Ces trois ingrédients sont utilisés pour réaliser la sauce béchamel."
+    ],
+    "explanation": "se prépare で「〜を用いて調理される・作られる」という受動の製法を説明しています。"
+  },
+  {
+    "id": "q_pv_add_07",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#culture"
+    ],
+    "type": "typing",
+    "text": "Un young cuisinier étranger hésite sur un mot technique : « Chef, comment ce mot ___ prononce en français ? » (若い見習い料理人が専門用語に迷って尋ねます：「シェフ、この言葉はフランス語でどう発音されますか？」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "lui"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "無生物 ce mot を主語にして「どのように発音されるか」を表す受動用法は se prononcer です。"
+  },
+  {
+    "id": "q_pv_add_08",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#service"
+    ],
+    "type": "choice",
+    "text": "Le sommelier met en garde le stagiaire : « Attention, ces verres en cristal fin se lavent délicatement à la main. » Comment doit-on nettoyer ces verres ? (ソムリエが研修生に注意します：「気をつけて、この上質なクリスタルグラスは手洗いで優しく洗うものですよ。」グラスはどう洗うべきですか？)",
+    "options": [
+      "À la main avec beaucoup de précaution.",
+      "Dans une machine à laver très rapide.",
+      "Avec de l'eau bouillante et du sel.",
+      "On ne doit jamais les nettoyer."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "À la main avec beaucoup de précaution."
+    ],
+    "explanation": "se lavent à la main は「手洗いで洗われる（手洗いすべきである）」という受動的用法です。"
+  },
+  {
+    "id": "q_pv_add_09",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#history"
+    ],
+    "type": "typing",
+    "text": "L'historien raconte l'époque médiévale : « À cette époque, les épices rares s'___ à prix d'or à travers l'Europe. » (歴史家が中世を語ります：「当時、希少なスパイスはヨーロッパ中で金と同等の高値で取引されて（買われて）いました。」)",
+    "options": [
+      "achetaient",
+      "achetait",
+      "achetons",
+      "achète"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "achetaient",
+      "achètent"
+    ],
+    "explanation": "主語 les épices rares（複数）に対する代名動詞 s'acheter（買われる・取引される）の活用です。"
+  },
+  {
+    "id": "q_pv_add_10",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#matching",
+      "#gastronomy"
+    ],
+    "type": "matching",
+    "text": "Associez chaque spécialité gastronomique à sa façon traditionnelle d'être dégustée. (フランスの各名物料理と、その伝統的な食され方・作られ方を結びつけてください。)",
+    "pairs": [
+      {
+        "left": "La soupe à l'oignon",
+        "right": "se mange bien gratinée au four"
+      },
+      {
+        "left": "Le champagne millésimé",
+        "right": "se déguste dans une flûte fraîche"
+      },
+      {
+        "left": "La viande de bœuf",
+        "right": "se cuit selon les goûts du client"
+      },
+      {
+        "left": "Le fromage de chèvre",
+        "right": "s'accompagne souvent d'un vin blanc"
+      }
+    ],
+    "explanation": "代名動詞の受動的用法（se manger, se déguster, se cuire, s'accompagner）を用いた実践的な美食表現のペアです。"
   }
 ]

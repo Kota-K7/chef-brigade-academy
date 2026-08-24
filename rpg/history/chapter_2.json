@@ -1,0 +1,1063 @@
+{
+  "chapterId": "ch_2",
+  "chapterTitle": "第2章: ゲルマンの大移動とフランク王国の誕生",
+  "notes": "西ローマ滅亡後のゲルマン大移動と、フランク王国クローヴィスとクロティルダの出会い。冠詞、名詞の性、動詞être・avoirの基本、前置詞・否定表現・縮約を学びます。",
+  "episodes": [
+    {
+      "episodeId": "ep_2_1",
+      "episodeTitle": "第2-1話: 時代はゲルマンへ！ 運命の交差",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+        "garden": "url('assets/story/chapter_2/庭園.webp')",
+        "monastery": "url('assets/story/chapter_2/修道院.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "forest": "url('assets/story/chapter_2/森.webp')",
+        "castle": "url('assets/story/chapter_2/城.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "clotilde": {
+          "name": "クロティルダ",
+          "images": {
+            "default": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "normal": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "childhood": "assets/story/chapter_2/クロティルダ幼年期.webp",
+            "childhood_cry": "assets/story/chapter_2/クロティルダ幼年期泣き.webp",
+            "cry": "assets/story/chapter_2/クロティルダ泣き.webp",
+            "angry": "assets/story/chapter_2/クロティルダ怒り.webp",
+            "hatred": "assets/story/chapter_2/クロティルダ憎しみ.webp",
+            "surprised": "assets/story/chapter_2/クロティルダ驚き.webp"
+          }
+        },
+        "clovis": {
+          "name": "クローヴィス",
+          "images": {
+            "default": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "normal": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "hearty": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "letter": "assets/story/chapter_2/クローヴィス手紙.webp",
+            "serious": "assets/story/chapter_2/クローヴィスまじめ.webp",
+            "greeting": "assets/story/chapter_2/クローディス挨拶.webp",
+            "angry": "assets/story/chapter_2/クローヴィス怒り.webp",
+            "pond": "assets/story/chapter_2/クローヴィス池.webp",
+            "pout": "assets/story/chapter_2/すねる.webp"
+          }
+        },
+        "steward": {
+          "name": "執事"
+        },
+        "soldier": {
+          "name": "一般兵"
+        },
+        "assassin": {
+          "name": "暗殺者"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カエサルの躍進と死後、ローマ帝国は、歴史の大きな転換点を迎えていた。ゲルマン民族の大移動が幕を開け、西ローマ帝国は滅亡へと向かう。",
+          "position": "center",
+          "background": "roma_empire_map",
+          "characters": [],
+          "learningPoint": {
+            "title": "ゲルマン人族名は様々な語源となった。「ゲルマン」",
+            "text": "313年のキリスト教公認、380年の国教化を経て、帝国はキリスト教へと染まっていったが、395年に東西に分割。寒冷化やフン族の圧迫に押し出されたゲルマン人により、弱体化した西ローマは476年に滅亡した。→Narrator:「移動したゲルマン人たちは各地に王国を築く。東ゴート、西ゴート、ヴァンダル、ブルグンド、ランゴバルド、そしてフランク。独自の文化を持つ彼らの王国が、これからのヨーロッパの基礎となっていくのである。」\nジャーマン（独）、「ゴート」＝ゴシック、「ヴァンダル」＝アンダルシア、「フランク」＝フランス、「ブルグンド」＝ブルゴーニュ、「ランゴバルド」＝ロンバルディアなど。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ゲルマン人たちの多くもキリスト教を信仰していたが、その大半はローマ教会から『異端』とされた『アリウス派』であった。これがこの先のヨーロッパに大きな火種を残すことになる。",
+          "position": "center",
+          "background": "roma_empire_map",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "「アリウス派」はのちにカトリックにつながる「アタナシウス派」と考えが違っていたため、ニケーア公会議 (325年)にて異端とされていた。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "C'est le début de l'histoire.",
+          "position": "center",
+          "background": "roma_empire_map",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「これが歴史の始まりだ」 C'est (これは〜である) ＋ le (男性単数定冠詞) ＋ début (始まり) ＋ de (〜の) ＋ l'histoire (歴史)。C'est は ce と être の組み合わせです。"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "定冠詞と不定冠詞",
+              "referenceTopicId": "ref_definite_indefinite_articles",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "名詞の性（男性・女性名詞）",
+              "referenceTopicId": "ref_noun_genders",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "歴史のうねり",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#articles",
+              "count": 3
+            },
+            {
+              "tag": "#noun_gender",
+              "count": 2
+            },
+            {
+              "tag": "#etre",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "西ローマ滅亡後のガリア（現在のフランス地方）。ゲルマン人ブルグント王国の城では、幼い王女が両親の愛情を一身に受けて育っていた。",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "お父様、お母様！ 見て、お花がとっても綺麗！",
+          "position": "center",
+          "expression": "childhood",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "childhood",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "クロティルダ（474年頃－545年） アタナシウス派系のブルグント王家出身の王女。493年頃にクローヴィス1世と結婚し、フランク王国の王妃となった。敬虔なカトリック教徒として夫クローヴィスの改宗に影響を与え、王国の宗教的・政治的な方向性を変えた人物として知られる。511年に夫を失った後も長く生き、545年頃に没した。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "しかし、王位は民族内での争いのタネとなり、ついに叔父グンドバトが、兵を率いて父を襲撃したのだった。",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "存在動詞 être 活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "叔父の裏切り",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#noun_gender",
+              "count": 3
+            },
+            {
+              "tag": "#etre",
+              "count": 2
+            },
+            {
+              "tag": "#avoir",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "血を血で洗う後継者争い。叔父の裏切りにより、クロティルダの父は無惨に暗殺された。兵士たちが、クロティルダの母に襲い掛かる。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "お,お父様…なんで！！ やめて！ お母さまになにするの！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "父親は暗殺され、母親は石を括り付けられ水に沈められて殺害されたとされる（一説には両親が殺害されたことは作り話の可能性もあるため注意。ゲーム風に脚色をしています）。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "私には…何もない…ぐすんぐすん。Je suis seule...(私は一人です)",
+          "position": "center",
+          "expression": "childhood_cry",
+          "background": "bgBlack",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "childhood_cry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私は一人です」 Je (私は) ＋ suis (〜である: êtreの現在形) ＋ seule (一人の: 女性形容詞)。主語が女性なので seul に e がつきます。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "全てを奪われた絶望の中で、幼い王女は暗殺者の魔の手を逃れ、修道院に拾われる。",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "所有動詞 avoir 活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "暗殺者の影",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#etre",
+              "count": 3
+            },
+            {
+              "tag": "#noun_gender",
+              "count": 3
+            },
+            {
+              "tag": "#verbs",
+              "count": 3
+            },
+            {
+              "tag": "#articles",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そうして修道院で育てられたクロティルダは信心深く成長していく。",
+          "position": "center",
+          "background": "monastery",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "お父様…お母様…。私には…何もない。切実な信仰だけは、誰も私から奪えない……。私は、私にできることを探さなければならない",
+          "position": "center",
+          "expression": "normal",
+          "background": "monastery",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Je suis forte avec Dieu. (私は神と共に強いです)",
+          "position": "center",
+          "expression": "normal",
+          "background": "monastery",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私は神と共に強いです」 Je (私は) ＋ suis (〜である) ＋ forte (強い: 女性形容詞) ＋ avec (〜と共に) ＋ Dieu (神)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "一方そのころガリア北部では、ゲルマン人フランク族を率いる若き王クローヴィスが、ソワソンの戦いで西ローマの残党軍を撃破し、フランク統一へと乗り出していた。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おうそうか！！ 敵の将軍が逃げただと！？ 追う必要はねぇ、俺たちの勝ちだ！！",
+          "position": "center",
+          "expression": "hearty",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "hearty",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "クローヴィス1世（466年頃－511年） フランク族サリアン人の王。481年頃に王位を継ぎ、486年のソワソンの戦いで北ガリアの支配権を獲得した。496年頃にはキリスト教へ改宗し、各地 of フランク諸部族を統合。511年の死までに、後のフランス王国へとつながる広大なフランク王国の基礎を築いた。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "steward",
+          "text": "クローヴィス様！お隣のブルグント王国より手紙が！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "ブルグント…？何もなければ攻めるつもりだったが、何の用だろうか",
+          "position": "center",
+          "expression": "letter",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "letter",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "ん…？何々…そなたの王妃に…ブルグントの娘を？？？",
+          "position": "center",
+          "expression": "normal",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "steward",
+          "text": "おぉ結婚の申し出ですかな？おめでたい！",
+          "position": "center",
+          "expression": "normal",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "あいたちのことだ…。何か裏があるのだろう？",
+          "position": "center",
+          "expression": "serious",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "serious",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 130,
+          "unlockedEpisodeId": "ep_2_2"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_2",
+      "episodeTitle": "第2-2話: 運命の出会い、水辺のハプニング",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+        "garden": "url('assets/story/chapter_2/庭園.webp')",
+        "monastery": "url('assets/story/chapter_2/修道院.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "forest": "url('assets/story/chapter_2/森.webp')",
+        "castle": "url('assets/story/chapter_2/城.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "clotilde": {
+          "name": "クロティルダ",
+          "images": {
+            "default": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "normal": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "childhood": "assets/story/chapter_2/クロティルダ幼年期.webp",
+            "childhood_cry": "assets/story/chapter_2/クロティルダ幼年期泣き.webp",
+            "cry": "assets/story/chapter_2/クロティルダ泣き.webp",
+            "angry": "assets/story/chapter_2/クロティルダ怒り.webp",
+            "hatred": "assets/story/chapter_2/クロティルダ憎しみ.webp",
+            "surprised": "assets/story/chapter_2/クロティルダ驚き.webp"
+          }
+        },
+        "clovis": {
+          "name": "クローヴィス",
+          "images": {
+            "default": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "normal": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "hearty": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "letter": "assets/story/chapter_2/クローヴィス手紙.webp",
+            "serious": "assets/story/chapter_2/クローヴィスまじめ.webp",
+            "greeting": "assets/story/chapter_2/クローディス挨拶.webp",
+            "angry": "assets/story/chapter_2/クローヴィス怒り.webp",
+            "pond": "assets/story/chapter_2/クローヴィス池.webp",
+            "pout": "assets/story/chapter_2/すねる.webp"
+          }
+        },
+        "steward": {
+          "name": "執事"
+        },
+        "soldier": {
+          "name": "一般兵"
+        },
+        "assassin": {
+          "name": "暗殺者"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ブルグント王国からの政略結婚の申し出。それは、ガリア統一の野望を抱く若きフランク王クローヴィスにとって、決して悪い話ではなかった。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "政略結婚ねぇ…まあ、ガリアをまとめるにはブルグントとの繋がりは悪くねぇか！",
+          "position": "center",
+          "expression": "hearty",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "hearty",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "steward",
+          "text": "しかしクローヴィス様、お相手はアタナシウス派（正統派カトリック）の修道院育ち。我らアリウス派とは教義が異なりますぞ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "なんだ、神様の違いか？ んなもん、俺たちが戦に勝てば俺たちの神が強いってことだろ！",
+          "position": "center",
+          "expression": "serious",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "serious",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Je ne suis pas un prêtre ! (俺は神父じゃないんだぜ！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私は神父ではありません」 Je (私) ＋ ne ＋ suis (〜である: être) ＋ pas ＋ un prêtre (一人の神父)。動詞を ne と pas で挟むことで否定文（〜ではない）を作ります。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "細かい教義のことはどうでもいいクローヴィスは婚約者を自らの目で見極めるべく、両国の国境付近にある庭園へと足を運んだ。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "お前が俺と結婚しようってやつか！？ 修道院育ちって聞いてたが、随分と綺麗な女性じゃないか！",
+          "position": "center",
+          "expression": "greeting",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "greeting",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "あなたがクローヴィスね。ごめんだけど私, アタナシウス派でもない異端の方と、心を真に通わす気はなくてよ",
+          "position": "center",
+          "expression": "normal",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おうそうか！！ 幸せならなんでもいいさ！ きっと神様も見てくれているだろう！（なんだこいつ、ツンツンしてやがるな。まあいい、そのうち心も開くだろう！）",
+          "position": "center",
+          "expression": "hearty",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "hearty",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "……っ。野蛮な異教徒が気安く話しかけないで頂戴",
+          "position": "center",
+          "expression": "normal",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "否定文の作り方 (ne ... pas)",
+              "referenceTopicId": "ref_negation",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "氷のような王女",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#negation",
+              "count": 4
+            },
+            {
+              "tag": "#noun_gender",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "会談の休憩中、クロティルダが一人で庭園の奥へ歩いていった時のことだった。茂みの陰から、黒装束の男たちが音もなく現れた。",
+          "position": "center",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "assassin",
+          "text": "ブルグントの王女だな。我らは野蛮なフランク族との同盟など断じて認めぬ。フランクと手を結ばれる前にここで死んでもらう！",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "……っ！ 叔父様だけではなく、ブルグントの国すらも私を……！",
+          "position": "center",
+          "expression": "hatred",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "hatred",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "暗殺者の凶刃が、身動きの取れないクロティルダに振り下ろされようとしたとき、クローヴィスが立ちはだかった。",
+          "position": "center",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "俺の目の前で、女一人に何人かがかりで刃を向けるとは……。フランクの王を舐めてんのかァ！！",
+          "position": "center",
+          "expression": "angry",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "場所・方向の前置詞",
+              "referenceTopicId": "ref_prepositions",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "急進派の刺客",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#prepositions",
+              "count": 4
+            },
+            {
+              "tag": "#contracted_articles",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "暗殺者たちを追い払ったクローヴィスは、振り返って言った。",
+          "position": "center",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おい、怪我はねぇか？",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "来ないで……っ！ どうして……どうして血を流してまで私を助けたのよ……！",
+          "position": "center",
+          "expression": "hatred",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "hatred",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "お父様も、お母様も……殺された。私には何もない……誰も信じられない……！",
+          "position": "center",
+          "expression": "cry",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "cry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "幼い頃に目の前で両親を惨殺されたトラウマ。修道院で気丈に振る舞い、冷たい態度で自分を守ってきた彼女の心が、クローヴィスの純粋な行動によって決壊した瞬間だった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "……そうか。",
+          "position": "center",
+          "expression": "serious",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "serious",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Dès demain, je te protège ! (明日からは俺がお前のこと守るからよ！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「明日から、私が君を守る」 Dès demain (明日から) ＋ je (私は) ＋ te (君を) ＋ protège (守る: protéger)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "クロティルダは無言のままたち上がりそそくさと庭園へと戻った。クローヴィスはそれを追いかけた",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "しかし彼女は、水辺の濡れた石畳に足を取られ、池へと真っ逆さまに落ちそうになる。",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "きゃあっ！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おまっ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ドサッ！ザブーンっ！！",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "クローヴィスが自ら池に飛び込み、下敷きになって彼女をかばった",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "……うわ冷たっ！いてて。無茶するな由美",
+          "position": "center",
+          "expression": "pond",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "pond",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "…なんでそこまでしてくれるのよっ！！政略結婚なのよっ！！それに…それに私には…何もない…",
+          "position": "center",
+          "expression": "angry",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Je t'ai dit que je te protège ! (お前のことは俺が守るって言ったろ！)。それだけの理由で十分だ。",
+          "position": "center",
+          "expression": "normal",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私が君を守るって言っただろう」 Je t'ai dit (私は君に言った) ＋ que (〜ということ) ＋ je te protège (私が君を守る)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "っ……！…私を守るのは明日からっていったじゃない！！",
+          "position": "center",
+          "expression": "surprised",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "surprised",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ずぶ濡れになりながらも豪快に笑うクローヴィスを見て、クロティルダの頬が紅潮する",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "…ィルダ…それに、私の名前はクロティルダ。『お前』何て名前じゃないわ。",
+          "position": "center",
+          "expression": "angry",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Appelle-moi Clotilde ! (クロティルダって呼びなさいっ！！)",
+          "position": "center",
+          "expression": "angry",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私をクロティルダと呼んで」 Appelle (呼べ: appelerの命令形) ＋ moi (私を) ＋ Clotilde。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Je suis Clovis ! Enchanté, Clotilde ! (俺はクローヴィス！よろしくなクロティルダ)",
+          "position": "center",
+          "expression": "hearty",
+          "background": "garden",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "hearty",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はクローヴィス！よろしく、クロティルダ」 Je (私は) ＋ suis (〜である) ＋ Clovis ＋ Enchanté (よろしく/はじめまして) ＋ Clotilde。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "冷え切っていた心、フランクの熱い漢が今歴史を動かさんとす",
+          "position": "center",
+          "background": "garden",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "前置詞と定冠詞の縮約",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "水辺のハプニング",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#contracted_articles",
+              "count": 3
+            },
+            {
+              "tag": "#negation",
+              "count": 3
+            },
+            {
+              "tag": "#noun_gender",
+              "count": 3
+            },
+            {
+              "tag": "#prepositions",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 140,
+          "unlockedEpisodeId": null
+        }
+      ]
+    }
+  ]
+}

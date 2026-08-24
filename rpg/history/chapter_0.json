@@ -139,6 +139,25 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "基本の挨拶",
+              "referenceTopicId": "ref_greetings",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "存在動詞 être 活用",
+              "referenceTopicId": "ref_essential_irregular_verbs",
+              "sectionIndices": [
+                3
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "父 (食文化の試練)",
           "enemyHp": 7,
@@ -282,6 +301,18 @@
           "text": "「（えっと、まずは……）」"
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "フランス語の数字表現",
+              "referenceTopicId": "ref_numbers",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "八百屋 (買い出しの試練)",
           "enemyHp": 7,
@@ -352,6 +383,18 @@
           "character": "fishmonger",
           "characters": [],
           "text": "「よし、ならまずは魚の目利きを試させてもらおうか！」"
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "食材の数量と単位",
+              "referenceTopicId": "ref_numbers",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -655,6 +698,25 @@
           "character": "thief",
           "characters": [],
           "text": "「お前みたいなガキどもが、俺に勝てると思うな！」"
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "基本の挨拶と自己紹介",
+              "referenceTopicId": "ref_greetings",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "主語人称代名詞",
+              "referenceTopicId": "ref_subjects",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -1084,6 +1146,18 @@
           "expression": "smile",
           "position": "right",
           "text": "「でもまぁ料理人冥利に尽きるというものよね。さてじゃあ、料理を出す前に、最後の試験よ！！」"
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "国籍と挨拶の応用",
+              "referenceTopicId": "ref_greetings",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",

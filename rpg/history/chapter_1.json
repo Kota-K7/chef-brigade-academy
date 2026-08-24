@@ -76,6 +76,9 @@
             "default": "assets/story/chapter_1/村おばあちゃん.webp",
             "normal": "assets/story/chapter_1/村おばあちゃん.webp"
           }
+        },
+        "announcement": {
+          "name": "呼びかけ"
         }
       },
       "sequence": [
@@ -106,14 +109,11 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "「Toi aussi, tu es un gentil Gaulois… !（君も優しいガリア人なのだな…！）",
+          "text": "Toi aussi, tu es un gentil Gaulois… !（君も優しいガリア人なのだな…！）",
           "position": "center",
+          "expression": "normal",
           "background": "battlefield",
-          "characters": [],
-          "learningPoint": {
-            "title": "解説：toi aussi",
-            "text": "「君も」。tu es＝「君は〜だ」→ être「〜である」の tu に対する活用。un gentil Gaulois＝「優しいガリア人」。gentil は「優しい／親切な」、Gaulois は「ガリア人」。Toi aussi を文頭に置くことで、「君もまた……！」という感情のこもった言い方になる。"
-          }
+          "characters": []
         },
         {
           "type": "dialog",
@@ -160,11 +160,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ファビウス: 「そーだよ。『己を知り、敵を知れば百戦危うからずや』でしょ？ これからガリア語を話す機会も増えるから、まずは一番よく使う基本の動詞から覚えようよ！」\n---",
+          "character": "fabius",
+          "text": "そーだよ。『己を知り、敵を知れば百戦危うからずや』でしょ？ これからガリア語を話す機会も増えるから、まずは一番よく使う基本の動詞から覚えようよ！\n---",
           "position": "center",
+          "expression": "normal",
           "background": "camp_morning",
-          "characters": []
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "tutorial",
@@ -207,7 +214,23 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "（カンカンカンカン）「全軍集合！本日の軍行について確認をする」陣営に鐘の音が響き渡り、兵士たちが慌ただしく整列する。",
+          "text": "（カンカンカンカン）",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "announcement",
+          "text": "「全軍集合！本日の軍行について確認をする」",
+          "position": "center",
+          "background": "assembly",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "陣営に鐘の音が響き渡り、兵士たちが慌ただしく整列する。",
           "position": "center",
           "background": "assembly",
           "characters": []
@@ -743,7 +766,7 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "（小声）ファビウス、呼ばれてるぞ」",
+          "text": "（小声）ファビウス、呼ばれてるぞ",
           "position": "center",
           "expression": "normal",
           "background": "assembly",
@@ -872,9 +895,10 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "主人公: 「よし、この調子で野営の仕込みの指示出しもフランス語で練習しましょう！」\n---",
+          "character": "hero",
+          "text": "よし、この調子で野営の仕込みの指示出しもフランス語で練習しましょう！\n---",
           "position": "center",
+          "expression": "normal",
           "background": "assembly",
           "characters": []
         },
@@ -1057,7 +1081,7 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "遠慮しておきます（即答）」 カエサル：「即答！？ 少しは悩む素振りを見せろ！",
+          "text": "遠慮しておきます（即答）",
           "position": "center",
           "expression": "normal",
           "background": "camp_morning",
@@ -1065,8 +1089,23 @@
         },
         {
           "type": "dialog",
+          "character": "caesar",
+          "text": "即答！？ 少しは悩む素振りを見せろ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "labienus",
-          "text": "カエサル殿、遊んでいる暇はありませんぞ。主人公とファビウスは『通訳兼野営係』として、昨日仕留めたジビエ（野生鳥獣）の解体と調理の仕込みがあります」 ファビウス：「ということで、朝トレはパスさせていただきます！料理といえば、ガリア語の第2群・第3群動詞の出番だね」 ファビウス：「Je choisis la viande.（私は肉を選ぶ）",
+          "text": "「カエサル殿、遊んでいる暇はありませんぞ。主人公とファビウスは『通訳兼野営係』として、昨日仕留めたジビエ（野生鳥獣）の解体と調理の仕込みがあります」",
           "position": "center",
           "expression": "normal",
           "background": "camp_morning",
@@ -1080,12 +1119,46 @@
         },
         {
           "type": "dialog",
-          "character": "hero",
-          "text": "「こっちは不規則に変化する第3群か……Je prends le couteau.（私はナイフを取る）」 └ 説明行: フランス語の動詞は大きく3つのグループに分かれます。第2群（-ir）と、第3群（不規則動詞",
+          "character": "fabius",
+          "text": "「ということで、朝トレはパスさせていただきます！料理といえば、ガリア語の第2群・第3群動詞の出番だね」",
           "position": "center",
           "expression": "normal",
           "background": "camp_morning",
-          "characters": []
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "「Je choisis la viande.（私は肉を選ぶ）」",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "「こっちは不規則に変化する第3群か……Je prends le couteau.（私はナイフを取る）」",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_morning",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └説明行: フランス語の動詞は大きく3つのグループに分かれます。第2群（-ir）と、第3群（不規則動詞）"
+          }
         },
         {
           "type": "tutorial",
@@ -1137,7 +1210,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "何事だ！ 敵襲か！？」 主人公：「あそこです！ 人影（ひとかげ）ですっ！！",
+          "text": "「何事だ！ 敵襲か！？」",
           "position": "center",
           "expression": "normal",
           "background": "forest",
@@ -1148,6 +1221,15 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "「あそこです！ 人影（ひとかげ）ですっ！！」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -1214,7 +1296,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "「むむ？誰だ？？昨日練習したガリア語で話しかけてみるか……Qui es-tu ? Je m'appelle César.（何者だ？ 私はカエサルだ）」 ウェルキンゲトリクス：「Je sais. Je suis Vercingétorix.（知っている。私はウェルキンゲトリクスだ）」└Vercingetorix ウェルキンゲトリクス。ガリア人の王で、ローマの将軍ユリウス・カエサルによるガリア征服に最後まで抵抗した英雄。紀元前52年、諸部族をまとめてローマ軍に挑み、アレシアの戦いで敗北して降伏するも、後世フランスの民族的英雄として語り継がれている。",
+          "text": "「むむ？誰だ？？昨日練習したガリア語で話しかけてみるか……Qui es-tu ? Je m'appelle César.（何者だ？ 私はカエサルだ）」",
           "position": "center",
           "expression": "normal",
           "background": "forest",
@@ -1225,6 +1307,25 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "「Je sais. Je suis Vercingétorix.（知っている。私はウェルキンゲトリクスだ）」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └Vercingetorix ウェルキンゲトリクス。ガリア人の王で、ローマの将軍ユリウス・カエサルによるガリア征服に最後まで抵抗した英雄。紀元前52年、諸部族をまとめてローマ軍に挑み、アレシアの戦いで敗北して降伏するも、後世フランスの民族的英雄として語り継がれている。"
+          }
         },
         {
           "type": "dialog",
@@ -1244,13 +1345,28 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "Oui, je suis gaulois. Tu es romain.（ああ、ガリア人だ。お前はローマ人だな） カエサル：「す、すまない。そろそろ私の付け焼き刃のガリア語では会話が取れなくなる",
+          "text": "「Oui, je suis gaulois. Tu es romain.（ああ、ガリア人だ。お前はローマ人だな）」",
           "position": "center",
           "expression": "normal",
           "background": "forest",
           "characters": [
             {
               "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「す、すまない。そろそろ私の付け焼き刃のガリア語では会話が取れなくなる」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -1259,7 +1375,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "「……フッ。ではローマの言葉でしゃべろうか、ローマの将軍」 カエサル：「ほう、ローマの言葉が話せるのか」 ウェルキンゲトリクス：「お前たちの先遣隊には、色々と『聞かせてもらった』からな。口を割らせるのには少し骨が折れたが」 主人公：「（拷問して情報を抜いたってことか……！ 一ヶ月前の先遣隊はやっぱり……）」 ウェルキンゲトリクス：「私らとて無用な争いは好まぬ。命が惜しくば、帰れ、ローマの民よ。ここから300km先まで踏み込んできた場合……その時は完全なる『敵』とみなし、焦土作戦をも辞さない」 カエサル：「……」 ウェルキンゲトリクス：「警告はしたぞ。……Adieu（さらばだ）」 ナレーション: そう言い残すと、若き英雄は夜の闇に溶けるように姿を消した。",
+          "text": "「……フッ。ではローマの言葉でしゃべろうか、ローマの将軍」",
           "position": "center",
           "expression": "normal",
           "background": "forest",
@@ -1273,14 +1389,167 @@
         },
         {
           "type": "dialog",
+          "character": "caesar",
+          "text": "「ほう、ローマの言葉が話せるのか」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "「お前たちの先遣隊には、色々と『聞かせてもらった』からな。口を割らせるのには少し骨が折れたが」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "「（拷問して情報を抜いたってことか……！ 一ヶ月前の先遣隊はやっぱり……）」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "「私らとて無用な争いは好まぬ。命が惜しくば、帰れ、ローマの民よ。ここから300km先まで踏み込んできた場合……その時は完全なる『敵』とみなし、焦土作戦をも辞さない」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「……」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "「警告はしたぞ。……Adieu（さらばだ）」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そう言い残すと、若き英雄は夜の闇に溶けるように姿を消した。",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": []
+        },
+        {
+          "type": "dialog",
           "character": "labienus",
-          "text": "カエサル殿！ 今の男は……！」 カエサル：「あ奴、名乗ったぞ。ウェルキンゲトリクスだと」 ティトゥス・ラヴィエヌス：「あの長髪の……おそらく、点在するガリア部族を束ねようとしている長かと。先遣隊の件もあります、ただの蛮族ではありませんぞ」 カエサル：「うむ。どうやらこの森にはすでに奴らの目が光っているようだな。」 カエサル：「奴らの不規則な動き（第3群動詞）にも対応できるよう、これより『カエサル夜の大特訓会』を開催する！ ローマ兵の誇りを叩き直してやる！！",
+          "text": "「カエサル殿！ 今の男は……！」",
           "position": "center",
           "expression": "normal",
           "background": "forest",
           "characters": [
             {
               "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「あ奴、名乗ったぞ。ウェルキンゲトリクスだと」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "「あの長髪の……おそらく、点在するガリア部族を束ねようとしている長かと。先遣隊の件もあります、ただの蛮族ではありませんぞ」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「うむ。どうやらこの森にはすでに奴らの目が光っているようだな。」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「奴らの不規則な動き（第3群動詞）にも対応できるよう、これより『カエサル夜の大特訓会』を開催する！ ローマ兵の誇りを叩き直してやる！！」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -1329,7 +1598,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "ふははは！ だらしがないぞ！ だが、これでいざという時、ガリア兵の複雑な言葉にも対応できるはずだ」 ファビウス：「お疲れ様……。ほら、朝に仕込んでおいたジビエの煮込みだよ」 主人公：「美味い……五臓六腑に染み渡る……。でも、あのウェルキンゲトリクス……。300km先っていったら、アウァーリクム方面の先か。明日からもっと気を引き締めないと",
+          "text": "「ふははは！ だらしがないぞ！ だが、これでいざという時、ガリア兵の複雑な言葉にも対応できるはずだ」",
           "position": "center",
           "expression": "normal",
           "background": "camp_night",
@@ -1340,6 +1609,30 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "「お疲れ様……。ほら、朝に仕込んでおいたジビエの煮込みだよ」",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "「美味い……五臓六腑に染み渡る……。でも、あのウェルキンゲトリクス……。300km先っていったら、アウァーリクム方面の先か。明日からもっと気を引き締めないと」",
+          "position": "center",
+          "expression": "normal",
+          "background": "camp_night",
+          "characters": []
         },
         {
           "type": "reward",
@@ -1421,6 +1714,12 @@
             "default": "assets/story/chapter_1/村おばあちゃん.webp",
             "normal": "assets/story/chapter_1/村おばあちゃん.webp"
           }
+        },
+        "aide": {
+          "name": "副官"
+        },
+        "soldier": {
+          "name": "ガリア兵"
         }
       },
       "sequence": [
@@ -1459,7 +1758,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "……蛇に噛まれた。足が……痺れて……」 ティトゥス・ラヴィエヌス：「不覚！ この森の毒か。通訳が倒れては、この先の村々との交渉ができん！",
+          "text": "「……蛇に噛まれた。足が……痺れて……」",
           "position": "center",
           "expression": "sick",
           "background": "forest",
@@ -1467,6 +1766,21 @@
             {
               "id": "fabius",
               "expression": "sick",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "「不覚！ この森の毒か。通訳が倒れては、この先の村々との交渉ができん！」",
+          "position": "center",
+          "expression": "normal",
+          "background": "forest",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
               "position": "center"
             }
           ]
@@ -1612,11 +1926,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「ウェルキンゲトリクス殿！ローマ軍らは近くの農村に留まっているようです。どうやら怪我人が出た様子」",
+          "character": "soldier",
+          "text": "ウェルキンゲトリクス殿！ローマ軍らは近くの農村に留まっているようです。どうやら怪我人が出た様子",
           "position": "center",
+          "expression": "normal",
           "background": "vercingetorix_camp",
-          "characters": []
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -1667,7 +1988,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "周囲の村に触れ回れ。我らの作物を一粒たりともローマ軍に渡すなと」 副官：「はっ！ では、作戦の準備を",
+          "text": "「周囲の村に触れ回れ。我らの作物を一粒たりともローマ軍に渡すなと」",
           "position": "center",
           "expression": "normal",
           "background": "vercingetorix_camp",
@@ -1678,6 +1999,15 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "aide",
+          "text": "「はっ！ では、作戦の準備を」",
+          "position": "center",
+          "expression": "normal",
+          "background": "vercingetorix_camp",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -1712,13 +2042,28 @@
         {
           "type": "dialog",
           "character": "girl",
-          "text": "De rien !（どういたしまして！）」 老婆：「あんたら…。ローマの軍人さんだろぉ…？戦争かね？",
+          "text": "「De rien !（どういたしまして！）」",
           "position": "center",
           "expression": "normal",
           "background": "village",
           "characters": [
             {
               "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "old_woman",
+          "text": "「あんたら…。ローマの軍人さんだろぉ…？戦争かね？」",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "old_woman",
               "expression": "normal",
               "position": "center"
             }
@@ -1757,7 +2102,7 @@
         {
           "type": "dialog",
           "character": "labienus",
-          "text": "それはできない。我らは神聖なローマ軍であるからだ」 老婆：「そうかい…。",
+          "text": "「それはできない。我らは神聖なローマ軍であるからだ」",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -1771,14 +2116,44 @@
         },
         {
           "type": "dialog",
+          "character": "old_woman",
+          "text": "「そうかい……」",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "old_woman",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "labienus",
-          "text": "…しかし、一般人にできる限り手を出さず、守ることに尽力しよう。また、戦いが終わった暁には、平和を享受することを約束する」 カエサル：「…。そういうことだ、すまないご老人よ。部下を助けていただき誠に感謝申し上げる",
+          "text": "「……しかし、一般人にできる限り手を出さず、守ることに尽力しよう。また、戦いが終わった暁には、平和を享受することを約束する」",
           "position": "center",
           "expression": "normal",
           "background": "village",
           "characters": [
             {
               "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "「……。そういうことだ、すまないご老人よ。部下を助けていただき誠に感謝申し上げる」",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -1841,7 +2216,7 @@
         {
           "type": "dialog",
           "character": "girl",
-          "text": "「Ça va ?（大丈夫？）」ファビウス：「Oui,Ça va, merci」「Nous allons vers l’ouest. （僕たちは西へ向かうよ。)」└ 説明行: aller vers + 場所 = 「〜へ向かう」なので、aller vers l’ouest = 「西へ向かう」。",
+          "text": "Ça va ?（大丈夫？）",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -1852,6 +2227,40 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "fabius",
+          "text": "Oui,Ça va, merci",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "girl",
+          "text": "Nous allons vers l’ouest. （僕たちは西へ向かうよ。)",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": [
+            {
+              "id": "girl",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └説明行: aller vers + 場所 = 「〜へ向かう」なので、aller vers l’ouest = 「西へ向かう」。"
+          }
         },
         {
           "type": "dialog",
@@ -1906,7 +2315,7 @@
         {
           "type": "dialog",
           "character": "labienus",
-          "text": "…。悪も恐れるローマ軍総司令官が何をおっしゃいますか。今のは聞かなかった事にしておきます。」 「…まぁ奇しくも、この老兵…今ばかりは、同じことを考えておりましたが。",
+          "text": "……。悪も恐れるローマ軍総司令官が何をおっしゃいますか。今のは聞かなかった事にしておきます。……まぁ奇しくも、この老兵……今ばかりは、同じことを考えておりましたが。",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -1990,7 +2399,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "「元気そうになってよかった。さあ、夜はまだ長いぞ。村人との会話で得た疑問詞の復習だ！」ナレーション: 緊迫するガリアの情勢の中、ほんの少しの温かさに触れた夜。しかし、ウェルキンゲトリクスの影は確実に迫っていた。",
+          "text": "元気そうになってよかった。さあ、夜はまだ長いぞ。村人との会話で得た疑問詞の復習だ！",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -2001,6 +2410,15 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "緊迫するガリアの情勢の中、ほんの少しの温かさに触れた夜。しかし、ウェルキンゲトリクスの影は確実に迫っていた。",
+          "position": "center",
+          "expression": "normal",
+          "background": "village",
+          "characters": []
         },
         {
           "type": "reward",
@@ -2204,11 +2622,35 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "見てください！ 丘の上……あの男です！」 └ 説明行: 誰もいない空っぽの村を見下ろす丘の上。そこには若き英雄ウェルキンゲトリクスと、彼に従うガリア兵たちの姿があった。 ウェルキンゲトリクス：「警告はしたはずだ、ローマの将軍よ。我々の土地に踏み込むなら、相応の覚悟が必要だと",
+          "text": "見てください！ 丘の上……あの男です！",
           "position": "center",
           "expression": "normal",
           "background": "village_empty",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "誰もいない空っぽの村を見下ろす丘の上。そこには若き英雄ウェルキンゲトリクスと、彼に従うガリア兵たちの姿があった。",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "警告はしたはずだ、ローマの将軍よ。我々の土地に踏み込むなら、相応の覚悟が必要だと",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -2228,7 +2670,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "Dans ce village, vous ne trouverez rien.（この村には、お前たちが得られるものは何もない）。ローマに我々の血肉を差し出すつもりはない」 ファビウス：「（小声で）『この村には、お前たちが得られるものは何もない』……と言っています",
+          "text": "Dans ce village, vous ne trouverez rien.（この村には、お前たちが得られるものは何もない）。ローマに我々の血肉を差し出すつもりはない",
           "position": "center",
           "expression": "normal",
           "background": "village_empty",
@@ -2242,8 +2684,23 @@
         },
         {
           "type": "dialog",
+          "character": "fabius",
+          "text": "（小声で）『この村には、お前たちが得られるものは何もない』……と言っています",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": [
+            {
+              "id": "fabius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "vercingetorix",
-          "text": "……全軍、帰るぞ！ ローマ軍を空っぽの森に閉じ込めろ！」 主人公：「（なんて徹底ぶりだ……武力ではなく、飢えで我々を殺すつもりか……！）",
+          "text": "……全軍、帰るぞ！ ローマ軍を空っぽの森に閉じ込めろ！",
           "position": "center",
           "expression": "normal",
           "background": "village_empty",
@@ -2254,6 +2711,15 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（なんて徹底ぶりだ……武力ではなく、飢えで我々を殺すつもりか……！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_empty",
+          "characters": []
         },
         {
           "type": "tutorial",
@@ -2465,6 +2931,9 @@
             "default": "assets/story/chapter_1/村おばあちゃん.webp",
             "normal": "assets/story/chapter_1/村おばあちゃん.webp"
           }
+        },
+        "soldier": {
+          "name": "ガリア兵"
         }
       },
       "sequence": [
@@ -2617,15 +3086,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「Attendez, s'il vous plaît ! Ne brûlez pas cette ville, Avaricum ! C'est notre plus belle ville !（お待ちください！ この都市、アウァーリクムは焼かないでください！ 我々の最も美しい都市なのです！）」",
+          "character": "soldier",
+          "text": "Attendez, s'il vous plaît ! Ne brûlez pas cette ville, Avaricum ! C'est notre plus belle ville !（お待ちください！ この都市、アウァーリクムは焼かないでください！ 我々の最も美しい都市なのです！）",
           "position": "center",
+          "expression": "normal",
           "background": "gaul_camp",
-          "characters": [],
-          "learningPoint": {
-            "title": "文法解説",
-            "text": "Attendez/待って s'il vous plaît/お願いします ! Ne brûlez pas/焼かないで cette/この ville/都市を Avaricum/アウァーリクム ! C'est/それは〜である notre/我々の plus/最も belle/美しい ville/都市 ! cette は女性単数名詞につく指示形容詞、notre は「我々の」という所有形容詞です。"
-          }
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -2648,15 +3120,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「Mais mon général, ses murs sont très solides ! Nous pouvons défendre nos familles !（しかし我が将軍、その城壁はとても強固です！ 我々の家族を守ることができます！）」",
+          "character": "soldier",
+          "text": "Mais mon général, ses murs sont très solides ! Nous pouvons défendre nos familles !（しかし我が将軍、その城壁はとても強固です！ 我々の家族を守ることができます！）",
           "position": "center",
+          "expression": "normal",
           "background": "gaul_camp",
-          "characters": [],
-          "learningPoint": {
-            "title": "文法解説",
-            "text": "Mais/しかし mon/私の général/将軍, ses/その murs/壁(城壁) sont/〜である très/とても solides/強固な ! Nous/我々は pouvons/〜できる défendre/守る nos/我々の familles/家族を ! sesは「その(都市の)」という複数形の所有形容詞。兵士がmon général(我が将軍)と呼びかけることで、切実な忠誠心を表現しています。"
-          }
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -3378,11 +3853,26 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "くそっ……手も足も出なかった……！」 ティトゥス・ラヴィエヌス：「カエサル殿、被害は甚大です。このままでは我々がガリアから完全に追い出されてしまいますぞ",
+          "text": "くそっ……手も足も出なかった……！",
           "position": "center",
           "expression": "normal",
           "background": "gergovia_mountain",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル殿、被害は甚大です。このままでは我々がガリアから完全に追い出されてしまいますぞ",
+          "position": "center",
+          "expression": "normal",
+          "background": "gergovia_mountain",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -3568,6 +4058,18 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "名詞・形容詞の複数形",
+              "referenceTopicId": "ref_noun_genders",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "アレシア周辺 of ガリア兵 / 陽動作戦を支える軍事記録",
           "enemyHp": 7,
@@ -3728,6 +4230,18 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "否定文と否定のde",
+              "referenceTopicId": "ref_negation",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "迫り来るタイムリミット / 複数形と否定のdeの総力戦",
           "enemyHp": 7,
@@ -3767,7 +4281,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "見て！ 地平線の向こうから……手紙の通り、ガリアの途方もない数の援軍だ……！」 カエサル：「……この壁がある限り、ローマは決して屈しない！」 主人公：「（ついに、決戦の時が来る……！）",
+          "text": "見て！ 地平線の向こうから……手紙の通り、ガリアの途方もない数の援軍だ……！",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -3778,6 +4292,30 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……この壁がある限り、ローマは決して屈しない！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（ついに、決戦の時が来る……！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
         },
         {
           "type": "reward",
@@ -3875,6 +4413,9 @@
             "default": "assets/story/chapter_1/村おばあちゃん.webp",
             "normal": "assets/story/chapter_1/村おばあちゃん.webp"
           }
+        },
+        "soldier": {
+          "name": "ガリア兵"
         }
       },
       "sequence": [
@@ -3912,15 +4453,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「Vercingétorix commence à attaquer Labienus !（ウェルキンゲトリクスがラヴィエヌスを攻撃し始める！）」",
+          "character": "soldier",
+          "text": "Vercingétorix commence à attaquer Labienus !（ウェルキンゲトリクスがラヴィエヌスを攻撃し始める！）",
           "position": "center",
+          "expression": "normal",
           "background": "alesia_siege",
-          "characters": [],
-          "learningPoint": {
-            "title": "commencer à",
-            "text": "Vercingétorix/ウェルキンゲトリクスは commence/始める à/〜すること(前置詞) attaquer/攻撃する Labienus/ラヴィエヌスを. commencer à + 定動詞の原形（〜し始める）のように、動詞と別の動詞を繋ぐ重要な前置詞の構造です。"
-          }
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -3955,11 +4499,38 @@
         {
           "type": "dialog",
           "character": "hero",
-          "text": "総司令官！ すぐに援護に向かいましょう！」 カエサル：「落ち着けッ！！ティトゥスは強い！！あいつはすぐに死ぬたまじゃない。」「ここからは距離がある。まずは急ぎ陣形を整え、救援へ向かう準備を急げ！",
+          "text": "総司令官！ すぐに援護に向かいましょう！",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
           "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "落ち着けッ！！ティトゥスは強い！！あいつはすぐに死ぬたまじゃない。ここからは距離がある。まずは急ぎ陣形を整え、救援へ向かう準備を急げ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "動詞と前置詞の結合",
+              "referenceTopicId": "ref_prepositions",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -4006,11 +4577,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「ウオオオッ！！ 我らが王に続け！！」",
+          "character": "soldier",
+          "text": "ウオオオッ！！ 我らが王に続け！！",
           "position": "center",
+          "expression": "normal",
           "background": "alesia_siege",
-          "characters": []
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -4115,6 +4693,18 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "命令法（指示と号令）",
+              "referenceTopicId": "ref_imperative",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "鬼神ウェルキンゲトリクス / 命令形による猛攻の阻止",
           "enemyHp": 7,
@@ -4141,7 +4731,37 @@
         {
           "type": "dialog",
           "character": "labienus",
-          "text": "「くそっ……！ 陣が、破られる……！ 第一列、後退しつつ盾を構えよ！！」 ウェルキンゲトリクス：「これで終わりだ、ローマの将軍よ。我らの血肉を吸った大地で眠れ！」 ティトゥス・ラヴィエヌス (静かな怒り)：「（……ここまでか……！ カエサル殿、申し訳ありませぬ……ガリアの王よ、せめて我が首、貴様の剣で見事に落としてみせよ！）」 ナレーション: ラヴィエヌスが覚悟を決め、目を閉じたその時——",
+          "text": "くそっ……！ 陣が、破られる……！ 第一列、後退しつつ盾を構えよ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "これで終わりだ、ローマの将軍よ。我らの血肉を吸った大地で眠れ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "（……ここまでか……！ カエサル殿、申し訳ありませぬ……ガリアの王よ、せめて我が首、貴様の剣で見事に落としてみせよ！）",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -4156,6 +4776,15 @@
         {
           "type": "dialog",
           "character": null,
+          "text": "ラヴィエヌスが覚悟を決め、目を閉じたその時——",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
           "text": "戦場に響き渡る無数の足音。真紅のマントを翻した一つの影。",
           "position": "center",
           "background": "alesia_siege",
@@ -4164,14 +4793,53 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "待たせたな、ラヴィエヌス！！ ヒーローは遅れて登場するものだっ…！てばよ！！！」 主人公：「別動隊の皆さん、援護に来ました！ ここからは総力戦だ！！」 ティトゥス・ラヴィエヌス（驚き)：「カエサル……殿……！！みな！！？？」 ウェルキンゲトリクス：「……来たか、カエサル。貴様の首を待ちわびていたぞ",
+          "text": "待たせたな、ラヴィエヌス！！ ヒーローは遅れて登場するものだっ…！てばよ！！！",
           "position": "center",
           "expression": "red_mantle",
           "background": "alesia_siege",
           "characters": [
             {
               "id": "caesar",
-              "expression": "red_mantle",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "別動隊の皆さん、援護に来ました！ ここからは総力戦だ！！",
+          "position": "center",
+          "expression": "red_mantle",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "カエサル……殿……！！みな！！？？",
+          "position": "center",
+          "expression": "red_mantle",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "……来たか、カエサル。貴様の首を待ちわびていたぞ",
+          "position": "center",
+          "expression": "red_mantle",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
               "position": "center"
             }
           ]
@@ -4272,6 +4940,9 @@
             "default": "assets/story/chapter_1/村おばあちゃん.webp",
             "normal": "assets/story/chapter_1/村おばあちゃん.webp"
           }
+        },
+        "soldier": {
+          "name": "ガリア兵"
         }
       },
       "sequence": [
@@ -4301,7 +4972,7 @@
         {
           "type": "dialog",
           "character": "labienus",
-          "text": "「総司令官に続けえぇぇっ！！」 ウェルキンゲトリクス（戦い)：「Continuez à lutter ! Ne cédez pas devant César !（戦い続けろ！ カエサルの前で屈するな！）」 └ 説明行: Continuez/続けろ à/〜すること lutter/戦う(もがく) ! Ne/〜ない cédez/屈する pas/ない devant/〜の前で César/カエサル ! continuer à で「〜し続ける」。極限状態の兵士たちを鼓舞する命令形です。 ガリア兵：「ウオオオッ！！ ガリアの自由のために！！」 ナレーション: 死力を尽くすガリア兵と、カエサルのカリスマによって奮い立つローマ兵。両軍の衝突は、大地を揺るがすほどの激闘となった。",
+          "text": "総司令官に続けえぇぇっ！！",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -4310,6 +4981,61 @@
               "id": "labienus",
               "expression": "normal",
               "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Continuez à lutter ! Ne cédez pas devant César !（戦い続けろ！ カエサルの前で屈するな！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └説明行: Continuez/続けろ à/〜すること lutter/戦う(もがく) ! Ne/〜ない cédez/屈する pas/ない devant/〜の前で César/カエサル ! continuer à で「〜し続ける」。極限状態の兵士たちを鼓舞する命令形です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "soldier",
+          "text": "ウオオオッ！！ ガリアの自由のために！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "死力を尽くすガリア兵と、カエサルのカリスマによって奮い立つローマ兵。両軍の衝突は、大地を揺るがすほどの激闘となった。",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "命令文の動詞変化",
+              "referenceTopicId": "ref_imperative",
+              "sectionIndices": [
+                0
+              ]
             }
           ]
         },
@@ -4355,7 +5081,7 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "「野蛮人だと？ 違うな。私には背負うものがあるのだ。広大なるローマの平和と、数多の民の安寧という重い十字架がな！」 ウェルキンゲトリクス：「……平和だと？ 力で押さえつける平和など、まやかしだ！ 私達はガリアの民が、己の足で立ち、己の言葉で笑う世界を創る！ そのために貴様をここで討つ！」 カエサル：「Regarde tes soldats. Ils meurent pour un rêve.（お前の兵士たちを見ろ。彼らは夢のために死んでいく）」 └ 説明行: Regarde/見ろ(命令形) tes/お前の(所有形容詞) soldats/兵士たちを. Ils/彼らは meurent/死ぬ(mourirの現在形) pour/〜のために un/ひとつの rêve/夢. ウェルキンゲトリクス：「Un rêve de liberté est meilleur que ta domination !（自由の夢は、貴様の支配よりも良いのだ！）」 └ 説明行: Un/ひとつの rêve/夢 de/〜の liberté/自由 est/〜である meilleur/より良い que/〜よりも ta/お前の domination/支配 ! meilleur que で「〜よりも良い」という比較級の表現です。",
+          "text": "野蛮人だと？ 違うな。私には背負うものがあるのだ。広大なるローマの平和と、数多の民の安寧という重い十字架がな！",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -4369,8 +5095,23 @@
         },
         {
           "type": "dialog",
+          "character": "vercingetorix",
+          "text": "……平和だと？ 力で押さえつける平和など、まやかしだ！ 私達はガリアの民が、己の足で立ち、己の言葉で笑う世界を創る！ そのために貴様をここで討つ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
           "character": "caesar",
-          "text": "支配ではない、秩序だ！ 血塗られた歴史を終わらせるための秩序だ！！」  主人公：「（総司令官とガリアの王……立場は違えど、二人とも自分の民の未来を背負って戦っているんだ……！）",
+          "text": "Regarde tes soldats. Ils meurent pour un rêve.（お前の兵士たちを見ろ。彼らは夢のために死んでいく）",
           "position": "center",
           "expression": "normal",
           "background": "alesia_siege",
@@ -4379,6 +5120,65 @@
               "id": "caesar",
               "expression": "normal",
               "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └説明行: Regarde/見ろ(命令形) tes/お前の(所有形容詞) soldats/兵士たちを. Ils/彼らは meurent/死ぬ(mourirの現在形) pour/〜のために un/ひとつの rêve/夢."
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "Un rêve de liberté est meilleur que ta domination !（自由の夢は、貴様の支配よりも良いのだ！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "* └説明行: Un/ひとつの rêve/夢 de/〜の liberté/自由 est/〜である meilleur/より良い que/〜よりも ta/お前の domination/支配 ! meilleur que で「〜よりも良い」という比較級の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "支配ではない、秩序だ！ 血塗られた歴史を終わらせるための秩序だ！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（総司令官とガリアの王……立場は違えど、二人とも自分の民の未来を背負って戦っているんだ……！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_siege",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "否定命令と代名詞",
+              "referenceTopicId": "ref_imperative_with_pronouns",
+              "sectionIndices": [
+                0
+              ]
             }
           ]
         },
@@ -4428,15 +5228,42 @@
         {
           "type": "dialog",
           "character": "caesar",
-          "text": "フッ……貴様こそ、見事な王の器よ！ ガリアの各部族をここまで束ね上げた統率力、そしてその剣の重さ！ 時代が違えば、貴様と酒を酌み交わしたかったぞ、ウェルキンゲトリクス！！」 ウェルキンゲトリクス：「戯れ言を……！ 私の命が尽きるまで、この剣は折れん！折らせはせんっ！！",
+          "text": "フッ……貴様こそ、見事な王の器よ！ ガリアの各部族をここまで束ね上げた統率力、そしてその剣の重さ！ 時代が違えば、貴様と酒を酌み交わしたかったぞ、ウェルキンゲトリクス！！",
           "position": "center",
           "expression": "combat",
           "background": "alesia_siege",
           "characters": [
             {
               "id": "caesar",
-              "expression": "combat",
+              "expression": "normal",
               "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "vercingetorix",
+          "text": "戯れ言を……！ 私の命が尽きるまで、この剣は折れん！折らせはせんっ！！",
+          "position": "center",
+          "expression": "combat",
+          "background": "alesia_siege",
+          "characters": [
+            {
+              "id": "vercingetorix",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "第1章 文法総復習",
+              "referenceTopicId": "ref_sentence_structure",
+              "sectionIndices": [
+                0
+              ]
             }
           ]
         },
@@ -4489,11 +5316,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「王よ！ まだ我々は戦えます！あなた様の名誉のために！」",
+          "character": "soldier",
+          "text": "王よ！ まだ我々は戦えます！あなた様の名誉のために！",
           "position": "center",
+          "expression": "normal",
           "background": "alesia_sunset",
-          "characters": []
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -4535,11 +5369,18 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "ガリア兵：「王よ……！！ なんということを……！！（涙を流し、武器を落とす）」",
+          "character": "soldier",
+          "text": "王よ……！！ なんということを……！！（涙を流し、武器を落とす）",
           "position": "center",
+          "expression": "normal",
           "background": "alesia_sunset",
-          "characters": []
+          "characters": [
+            {
+              "id": "soldier",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -4559,8 +5400,9 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "ナレーション: ウェルキンゲトリクスはカエサルの足元に自らの剣と武具を投げ捨て、地に膝をついた。\n(ここのみ、キャラクター立ち絵なし)",
+          "text": "ウェルキンゲトリクスはカエサルの足元に自らの剣と武具を投げ捨て、地に膝をついた。\n(ここのみ、キャラクター立ち絵なし)",
           "position": "center",
+          "expression": "normal",
           "background": "alesia_surrender",
           "characters": []
         },
@@ -4582,7 +5424,7 @@
         {
           "type": "dialog",
           "character": "vercingetorix",
-          "text": "（ローマの言葉で）私の負けだ, カエサル。この命と引き換えにガリアの民の命を、平和をどうか保証していただきたい」 カエサル：「……約束しよう。貴様は真の戦士であった。貴様のその誇り高き戦いぶり、このカエサルの記憶に永遠に刻み込まれるであろう」 ティトゥス・ラヴィエヌス：「……（静かに剣を収め、敬礼する）」 主人公：「（これが、戦争の終わり……）",
+          "text": "（ローマの言葉で）私の負けだ, カエサル。この命と引き換えにガリアの民の命を、平和をどうか保証していただきたい",
           "position": "center",
           "expression": "normal",
           "background": "alesia_surrender",
@@ -4593,6 +5435,45 @@
               "position": "center"
             }
           ]
+        },
+        {
+          "type": "dialog",
+          "character": "caesar",
+          "text": "……約束しよう。貴様は真の戦士であった。貴様のその誇り高き戦いぶり、このカエサルの記憶に永遠に刻み込まれるであろう",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_surrender",
+          "characters": [
+            {
+              "id": "caesar",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "labienus",
+          "text": "……（静かに剣を収め、敬礼する）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_surrender",
+          "characters": [
+            {
+              "id": "labienus",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "hero",
+          "text": "（これが、戦争の終わり……）",
+          "position": "center",
+          "expression": "normal",
+          "background": "alesia_surrender",
+          "characters": []
         },
         {
           "type": "dialog",
@@ -4857,6 +5738,18 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "動詞の現在形復習",
+              "referenceTopicId": "ref_present_indicative",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "止められない親友 of 背中 / 動詞と感情表現の基礎",
           "enemyHp": 7,
@@ -5017,6 +5910,18 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "疑問文と疑問詞の復習",
+              "referenceTopicId": "ref_questions",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "友の手を振り払う決意 / 動詞の総復習",
           "enemyHp": 7,
@@ -5071,19 +5976,48 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "エイダン (切られる)：「がはっ……！！」\n祭司 (エイダンの父)（驚き）：「エイダンッ！？ なぜお前が……！！」",
+          "character": "aedan",
+          "text": "がはっ……！！",
           "position": "center",
+          "expression": "normal",
           "background": "village_square",
-          "characters": []
+          "characters": [
+            {
+              "id": "aedan",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "騎士 (アルバンの父)（驚き）：「エイダン君っ！！何を！！！」",
+          "character": "druid",
+          "text": "エイダンッ！？ なぜお前が……！！",
           "position": "center",
+          "expression": "normal",
           "background": "village_square",
-          "characters": []
+          "characters": [
+            {
+              "id": "druid",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "knight",
+          "text": "エイダン君っ！！何を！！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_square",
+          "characters": [
+            {
+              "id": "knight",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -5201,11 +6135,33 @@
         },
         {
           "type": "dialog",
-          "character": null,
-          "text": "騎士 (アルバンの父)（怒り）：「我らガリア民族とて、誇りまで捨てた覚えはない」→騎士 (アルバンの父)：「ましてや、相棒の倅が目の前で殺され、さらに友人共々愚弄されるとは、ガリア人の名折れである！」",
+          "character": "knight",
+          "text": "我らガリア民族とて、誇りまで捨てた覚えはない",
           "position": "center",
+          "expression": "normal",
           "background": "village_square",
-          "characters": []
+          "characters": [
+            {
+              "id": "knight",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "knight",
+          "text": "ましてや、相棒の倅が目の前で殺され、さらに友人共々愚弄されるとは、ガリア人の名折れである！",
+          "position": "center",
+          "expression": "normal",
+          "background": "village_square",
+          "characters": [
+            {
+              "id": "knight",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
         },
         {
           "type": "dialog",
@@ -5307,6 +6263,18 @@
           "position": "center",
           "background": "village_square",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "場所の前置詞と指示形容詞",
+              "referenceTopicId": "ref_prepositions",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -5435,6 +6403,18 @@
           "position": "center",
           "background": "tombstone",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "pages": [
+            {
+              "title": "第1章 総合テスト対策",
+              "referenceTopicId": "ref_sentence_structure",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
