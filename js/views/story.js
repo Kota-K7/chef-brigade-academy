@@ -2,6 +2,157 @@ import { speakFrench } from '../utils/audio.js';
 import { state, ensureQuizzesLoaded, ensureDataLoaded, navigateTo } from '../../app.js';
 
 // ==========================================
+// Marie Antoinette Floating Quiz Helper
+// ==========================================
+function findReferenceTopicForQuestion(question, refs) {
+  if (!question || !question.tags || !Array.isArray(question.tags) || !refs) return null;
+  const tagToRefId = {
+    'greetings': 'ref_greetings',
+    'sentence_structure': 'ref_sentence_structure',
+    'subjects': 'ref_subjects',
+    'definite_indefinite_articles': 'ref_definite_indefinite_articles',
+    'articles': 'ref_definite_indefinite_articles',
+    'noun_genders': 'ref_noun_genders',
+    'noun_gender': 'ref_noun_genders',
+    'plurals': 'ref_noun_genders',
+    'partitive_articles': 'ref_partitive_articles',
+    'possessive_adjectives': 'ref_possessive_adjectives',
+    'demonstrative_adjectives': 'ref_demonstrative_adjectives',
+    'adjective_agreement': 'ref_adjective_agreement',
+    'basic_adjectives': 'ref_adjective_agreement',
+    'superlative': 'ref_adjective_agreement',
+    'comparative': 'ref_adjective_agreement',
+    'verb_groups': 'ref_verb_groups',
+    'verbs': 'ref_verb_groups',
+    'present_indicative': 'ref_present_indicative',
+    'indicative_present': 'ref_present_indicative',
+    'essential_irregular_verbs': 'ref_essential_irregular_verbs',
+    'etre': 'ref_essential_irregular_verbs',
+    'avoir': 'ref_essential_irregular_verbs',
+    'irregular_verbs_major': 'ref_essential_irregular_verbs',
+    'irregular_verbs_1': 'ref_essential_irregular_verbs',
+    'time_expressions': 'ref_time_expressions',
+    'numbers': 'ref_numbers',
+    'prepositions': 'ref_prepositions',
+    'conjugation_patterns': 'ref_conjugation_patterns',
+    'auxiliaries': 'ref_auxiliaries',
+    'types_of_verbs': 'ref_types_of_verbs',
+    'future_tenses': 'ref_future_tenses',
+    'futur_simple': 'ref_future_tenses',
+    'non_finite_forms': 'ref_non_finite_forms',
+    'questions': 'ref_questions',
+    'question_words': 'ref_questions',
+    'interrogative_adjectives': 'ref_questions',
+    'contracted_articles': 'ref_contracted_articles',
+    'demonstrative_cest': 'ref_demonstrative_cest',
+    'imperative': 'ref_imperative',
+    'object_pronouns': 'ref_object_pronouns',
+    'object_pronouns_basic': 'ref_object_pronouns',
+    'object_pronouns_direct_indirect': 'ref_object_pronouns',
+    'near_future_past': 'ref_near_future_past',
+    'near_future': 'ref_near_future_past',
+    'near_past': 'ref_near_future_past',
+    'pronominal_verbs': 'ref_pronominal_verbs',
+    'passive_pronominal_verbs': 'ref_pronominal_verbs',
+    'negation': 'ref_negation',
+    'imperative_with_pronouns': 'ref_imperative_with_pronouns',
+    'relative_pronouns': 'ref_relative_pronouns',
+    'relative_pronouns_basic': 'ref_relative_pronouns',
+    'causative_faire': 'ref_causative_faire',
+    'adverbs': 'ref_adverbs',
+    'conditional': 'ref_conditional',
+    'conditional_present': 'ref_conditional',
+    'pronouns': 'ref_pronouns',
+    'pronouns_y_en': 'ref_pronouns',
+    'passive': 'ref_passive',
+    'passive_voice': 'ref_passive',
+    'subjunctive': 'ref_subjunctive',
+    'subjunctive_basic': 'ref_subjunctive'
+  };
+
+  for (const tagWithHash of question.tags) {
+    const tag = tagWithHash.replace('#', '').trim().toLowerCase();
+    if (tagToRefId[tag]) {
+      const refId = tagToRefId[tag];
+      const ref = refs.find(r => r.id === refId);
+      if (ref) return ref;
+    }
+  }
+
+  for (const tagWithHash of question.tags) {
+    const tag = tagWithHash.replace('#', '').trim().toLowerCase();
+    const ref = refs.find(r => r.id.toLowerCase().includes(tag) || r.title_ja.toLowerCase().includes(tag));
+    if (ref) return ref;
+  }
+
+  return null;
+}
+
+function getReferenceNameForQuestion(question, refs) {
+  const match = findReferenceTopicForQuestion(question, refs);
+  if (match) return match.title_ja;
+
+  const cat = question.category || (question.tags && question.tags[0]) || '';
+  const cleanCat = cat.replace('#', '').toLowerCase();
+
+  const categoryMap = {
+    'vocabulary': '単語・表現',
+    'cuts': '食材の切り方',
+    'cutting': '食材の切り方',
+    'sauces': 'ソースと出汁の基本',
+    'sauce': 'ソースと出汁の基本',
+    'meat': 'お肉の部位と特徴',
+    'science': '調理科学と化学変化',
+    'map': 'フランスの地方料理',
+    'grammar': 'フランス語文法'
+  };
+
+  return categoryMap[cleanCat] || '講義資料';
+}
+
+function getMarieHelperHtml(question) {
+  const isEnabled = localStorage.getItem('cba_marie_helper') === 'true';
+  const refName = getReferenceNameForQuestion(question, state.grammarRefs || []);
+  
+  return `
+    <div class="marie-helper-wrapper" style="margin-top: 0.8rem; width: 100%;">
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 0.4rem;">
+        <button type="button" class="action-btn marie-toggle-btn" style="padding: 0.25rem 0.6rem; font-size: 0.75rem; background: #374151; color: white; border-radius: var(--radius-sm); border: 1px solid rgba(197, 168, 128, 0.3); cursor: pointer; display: flex; align-items: center; gap: 4px;">
+          <span>👸 アントワネットの助言:</span>
+          <strong class="marie-status-text" style="color: ${isEnabled ? '#81C784' : '#E57373'};">${isEnabled ? 'ON' : 'OFF'}</strong>
+        </button>
+      </div>
+      <div class="marie-helper-container" style="display: ${isEnabled ? 'flex' : 'none'};">
+        <img src="assets/story/sd_marie_antoinette.png" style="height: 60px; width: auto; object-fit: contain; flex-shrink: 0;" />
+        <div class="marie-speech-bubble">
+          この問題の鍵は <strong style="color: var(--color-accent); font-weight: 700;">${refName}</strong> に書いているわ！
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function bindMarieHelperEvents(cardElement, question) {
+  const btn = cardElement.querySelector('.marie-toggle-btn');
+  const container = cardElement.querySelector('.marie-helper-container');
+  if (!btn || !container) return;
+  
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isEnabled = localStorage.getItem('cba_marie_helper') === 'true';
+    const nextState = !isEnabled;
+    localStorage.setItem('cba_marie_helper', nextState ? 'true' : 'false');
+    
+    container.style.display = nextState ? 'flex' : 'none';
+    const statusText = btn.querySelector('.marie-status-text');
+    if (statusText) {
+      statusText.innerText = nextState ? 'ON' : 'OFF';
+      statusText.style.color = nextState ? '#81C784' : '#E57373';
+    }
+  });
+}
+
+// ==========================================
 // 補正設定 (Character adjustments)
 // ==========================================
 // キャラクターごとの表示サイズ倍率 (1.0 = 標準)
@@ -925,7 +1076,13 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
 
     // Apply background CSS or gradient
     const bgVal = episode.backgrounds[step.background] || "#000000";
-    viewport.style.background = bgVal;
+    if (bgVal.includes('url(')) {
+      viewport.style.backgroundColor = '#000000'; // Keep black fallback under image
+      viewport.style.backgroundImage = bgVal;
+    } else {
+      viewport.style.backgroundColor = bgVal;
+      viewport.style.backgroundImage = '';
+    }
     
     // Apply shake effect if specified in the step
     if (step.shake) {
@@ -1764,6 +1921,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             <div class="q-header">Question ${questionIndex + 1} (スペル入力)</div>
             <div class="q-body" style="white-space: pre-line; line-height: 1.4; font-size: 0.95rem;">${currentQ.text}</div>
             
+            ${getMarieHelperHtml(currentQ)}
+            
             <div class="battle-typing-area" style="margin: 1rem 0; display: flex; flex-direction: column; gap: 0.6rem;">
               <input type="text" class="battle-input-field" placeholder="フランス語の答えを入力してください..." style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 2px solid rgba(197,168,128,0.4); background: rgba(255,255,255,0.06); color: white; font-size: 1rem; text-align: center; outline: none; transition: border-color 0.2s;" />
               <button class="action-btn submit-typing-btn" style="width: 100%; padding: 0.75rem; font-weight: bold; background: var(--color-accent); color: white; border: none; border-radius: var(--radius-sm); cursor: pointer;">回答を送信</button>
@@ -1811,6 +1970,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           <div class="battle-question-box">
             <div class="q-header">Question ${questionIndex + 1} (並び替え)</div>
             <div class="q-body" style="font-size: 0.95rem; margin-bottom: 0.6rem;">${currentQ.text}</div>
+            
+            ${getMarieHelperHtml(currentQ)}
             
             <div class="scramble-sentence-bar" style="min-height: 38px; border-bottom: 2px solid var(--color-accent); padding: 0.4rem; display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.8rem; background: rgba(255,255,255,0.05); border-radius: var(--radius-sm); font-size: 1rem; color: white;"></div>
             
@@ -1884,6 +2045,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             <div class="q-header">Question ${questionIndex + 1} (穴埋め)</div>
             <div class="q-body" style="font-size: 1.1rem; text-align: center; margin: 1rem 0;">${cleanPrompt}</div>
             
+            ${getMarieHelperHtml(currentQ)}
+            
             ${hasOptions ? `
               <div class="battle-options-list">
                 ${currentQ.options.map((opt, idx) => `
@@ -1942,6 +2105,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           <div class="battle-question-box">
             <div class="q-header">Question ${questionIndex + 1} (マッチング)</div>
             <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 0.5rem; text-align: center;">対応する言葉をペアで選んでください。</p>
+            
+            ${getMarieHelperHtml(currentQ)}
             
             <div class="matching-columns-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; max-height: 160px; overflow-y: auto; padding: 0.2rem;">
               <div class="left-match-col" style="display: flex; flex-direction: column; gap: 0.4rem;">
@@ -2084,6 +2249,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
             <div class="q-header">Question ${questionIndex + 1}</div>
             <div class="q-body" style="white-space: pre-line;">${currentQ.text}</div>
             
+            ${getMarieHelperHtml(currentQ)}
+            
             <div class="battle-options-list">
               ${currentQ.options.map((opt, idx) => `
                 <button class="battle-opt-btn" data-idx="${idx}">${opt}</button>
@@ -2120,6 +2287,8 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       if (swapBtn) {
         swapBtn.addEventListener('click', swapCurrentQuestion);
       }
+      
+      bindMarieHelperEvents(battlePane, currentQ);
     }
 
     function handleAnswer(selectedIdx, question, optBtns) {

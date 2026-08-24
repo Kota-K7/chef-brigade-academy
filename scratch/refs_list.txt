@@ -1,0 +1,36 @@
+ref_greetings : 基本の挨拶と自己紹介
+ref_sentence_structure : フランス語の基本語順（平叙文と否定文）
+ref_subjects : 主語の種類
+ref_definite_indefinite_articles : 定冠詞・不定冠詞
+ref_noun_genders : 名詞の性（男性・女性）
+ref_partitive_articles : 部分冠詞
+ref_possessive_adjectives : 所有形容詞一覧
+ref_demonstrative_adjectives : 指示形容詞一覧
+ref_adjective_agreement : 形容詞の性数変化
+ref_verb_groups : 動詞の分類
+ref_present_indicative : 直説法現在
+ref_essential_irregular_verbs : 主要な不規則動詞活用表
+ref_time_expressions : 時間・日付・時刻の表現
+ref_numbers : 数詞・数字の法則と表現
+ref_prepositions : 前置詞（位置・場所・関係）
+ref_conjugation_patterns : 動詞活用パターン
+ref_auxiliaries : 助動詞の使い分け
+ref_types_of_verbs : 動詞の種類
+ref_future_tenses : 未来形
+ref_non_finite_forms : 非定形動詞
+ref_questions : 疑問文の形成と疑問詞
+ref_contracted_articles : 前置詞と定冠詞の縮約
+ref_demonstrative_cest : 提示表現 c'est / ce sont
+ref_imperative : 命令法（指示と号令）
+ref_object_pronouns : 目的語人称代名詞
+ref_near_future_past : 近接未来と近接過去
+ref_pronominal_verbs : 代名動詞（受動・再帰）
+ref_negation : 否定文
+ref_imperative_with_pronouns : 命令形と代名詞
+ref_relative_pronouns : 関係代名詞 (qui / que)
+ref_causative_faire : 使役構文 (faire + 不定詞)
+ref_adverbs : 副詞（様態・手順・頻度）
+ref_conditional : 条件法現在と仮定文
+ref_pronouns : 中性代名詞 (y / en)
+ref_passive : 受動態
+ref_subjunctive : 接続法現在

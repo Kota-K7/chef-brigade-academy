@@ -1,5 +1,156 @@
 import { state, addWrongAnswer, ensureDataLoaded, ensureQuizzesLoaded } from '../../app.js';
 
+// ==========================================
+// Marie Antoinette Floating Quiz Helper
+// ==========================================
+function findReferenceTopicForQuestion(question, refs) {
+  if (!question || !question.tags || !Array.isArray(question.tags) || !refs) return null;
+  const tagToRefId = {
+    'greetings': 'ref_greetings',
+    'sentence_structure': 'ref_sentence_structure',
+    'subjects': 'ref_subjects',
+    'definite_indefinite_articles': 'ref_definite_indefinite_articles',
+    'articles': 'ref_definite_indefinite_articles',
+    'noun_genders': 'ref_noun_genders',
+    'noun_gender': 'ref_noun_genders',
+    'plurals': 'ref_noun_genders',
+    'partitive_articles': 'ref_partitive_articles',
+    'possessive_adjectives': 'ref_possessive_adjectives',
+    'demonstrative_adjectives': 'ref_demonstrative_adjectives',
+    'adjective_agreement': 'ref_adjective_agreement',
+    'basic_adjectives': 'ref_adjective_agreement',
+    'superlative': 'ref_adjective_agreement',
+    'comparative': 'ref_adjective_agreement',
+    'verb_groups': 'ref_verb_groups',
+    'verbs': 'ref_verb_groups',
+    'present_indicative': 'ref_present_indicative',
+    'indicative_present': 'ref_present_indicative',
+    'essential_irregular_verbs': 'ref_essential_irregular_verbs',
+    'etre': 'ref_essential_irregular_verbs',
+    'avoir': 'ref_essential_irregular_verbs',
+    'irregular_verbs_major': 'ref_essential_irregular_verbs',
+    'irregular_verbs_1': 'ref_essential_irregular_verbs',
+    'time_expressions': 'ref_time_expressions',
+    'numbers': 'ref_numbers',
+    'prepositions': 'ref_prepositions',
+    'conjugation_patterns': 'ref_conjugation_patterns',
+    'auxiliaries': 'ref_auxiliaries',
+    'types_of_verbs': 'ref_types_of_verbs',
+    'future_tenses': 'ref_future_tenses',
+    'futur_simple': 'ref_future_tenses',
+    'non_finite_forms': 'ref_non_finite_forms',
+    'questions': 'ref_questions',
+    'question_words': 'ref_questions',
+    'interrogative_adjectives': 'ref_questions',
+    'contracted_articles': 'ref_contracted_articles',
+    'demonstrative_cest': 'ref_demonstrative_cest',
+    'imperative': 'ref_imperative',
+    'object_pronouns': 'ref_object_pronouns',
+    'object_pronouns_basic': 'ref_object_pronouns',
+    'object_pronouns_direct_indirect': 'ref_object_pronouns',
+    'near_future_past': 'ref_near_future_past',
+    'near_future': 'ref_near_future_past',
+    'near_past': 'ref_near_future_past',
+    'pronominal_verbs': 'ref_pronominal_verbs',
+    'passive_pronominal_verbs': 'ref_pronominal_verbs',
+    'negation': 'ref_negation',
+    'imperative_with_pronouns': 'ref_imperative_with_pronouns',
+    'relative_pronouns': 'ref_relative_pronouns',
+    'relative_pronouns_basic': 'ref_relative_pronouns',
+    'causative_faire': 'ref_causative_faire',
+    'adverbs': 'ref_adverbs',
+    'conditional': 'ref_conditional',
+    'conditional_present': 'ref_conditional',
+    'pronouns': 'ref_pronouns',
+    'pronouns_y_en': 'ref_pronouns',
+    'passive': 'ref_passive',
+    'passive_voice': 'ref_passive',
+    'subjunctive': 'ref_subjunctive',
+    'subjunctive_basic': 'ref_subjunctive'
+  };
+
+  for (const tagWithHash of question.tags) {
+    const tag = tagWithHash.replace('#', '').trim().toLowerCase();
+    if (tagToRefId[tag]) {
+      const refId = tagToRefId[tag];
+      const ref = refs.find(r => r.id === refId);
+      if (ref) return ref;
+    }
+  }
+
+  for (const tagWithHash of question.tags) {
+    const tag = tagWithHash.replace('#', '').trim().toLowerCase();
+    const ref = refs.find(r => r.id.toLowerCase().includes(tag) || r.title_ja.toLowerCase().includes(tag));
+    if (ref) return ref;
+  }
+
+  return null;
+}
+
+function getReferenceNameForQuestion(question, refs) {
+  const match = findReferenceTopicForQuestion(question, refs);
+  if (match) return match.title_ja;
+
+  const cat = question.category || (question.tags && question.tags[0]) || '';
+  const cleanCat = cat.replace('#', '').toLowerCase();
+
+  const categoryMap = {
+    'vocabulary': '単語・表現',
+    'cuts': '食材の切り方',
+    'cutting': '食材の切り方',
+    'sauces': 'ソースと出汁の基本',
+    'sauce': 'ソースと出汁の基本',
+    'meat': 'お肉の部位と特徴',
+    'science': '調理科学と化学変化',
+    'map': 'フランスの地方料理',
+    'grammar': 'フランス語文法'
+  };
+
+  return categoryMap[cleanCat] || '講義資料';
+}
+
+function getMarieHelperHtml(question) {
+  const isEnabled = localStorage.getItem('cba_marie_helper') === 'true';
+  const refName = getReferenceNameForQuestion(question, state.grammarRefs || []);
+  
+  return `
+    <div class="marie-helper-wrapper" style="margin-top: 0.8rem; width: 100%;">
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 0.4rem;">
+        <button type="button" class="action-btn marie-toggle-btn" style="padding: 0.25rem 0.6rem; font-size: 0.75rem; background: #374151; color: white; border-radius: var(--radius-sm); border: 1px solid rgba(197, 168, 128, 0.3); cursor: pointer; display: flex; align-items: center; gap: 4px;">
+          <span>👸 アントワネットの助言:</span>
+          <strong class="marie-status-text" style="color: ${isEnabled ? '#81C784' : '#E57373'};">${isEnabled ? 'ON' : 'OFF'}</strong>
+        </button>
+      </div>
+      <div class="marie-helper-container" style="display: ${isEnabled ? 'flex' : 'none'};">
+        <img src="assets/story/sd_marie_antoinette.png" style="height: 60px; width: auto; object-fit: contain; flex-shrink: 0;" />
+        <div class="marie-speech-bubble">
+          この問題の鍵は <strong style="color: var(--color-accent); font-weight: 700;">${refName}</strong> に書いているわ！
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function bindMarieHelperEvents(cardElement, question) {
+  const btn = cardElement.querySelector('.marie-toggle-btn');
+  const container = cardElement.querySelector('.marie-helper-container');
+  if (!btn || !container) return;
+  
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isEnabled = localStorage.getItem('cba_marie_helper') === 'true';
+    const nextState = !isEnabled;
+    localStorage.setItem('cba_marie_helper', nextState ? 'true' : 'false');
+    
+    container.style.display = nextState ? 'flex' : 'none';
+    const statusText = btn.querySelector('.marie-status-text');
+    if (statusText) {
+      statusText.innerText = nextState ? 'ON' : 'OFF';
+      statusText.style.color = nextState ? '#81C784' : '#E57373';
+    }
+  });
+}
+
 // Helper to shuffle arrays
 function shuffle(array) {
   const arr = [...array];
@@ -378,6 +529,12 @@ export function renderQuiz() {
     }).catch(err => {
       console.error("Failed to load questions_db in quiz:", err);
       state.questionsDb = [];
+    }),
+    fetch('data/grammar_reference.json').then(r => r.json()).then(data => {
+      state.grammarRefs = data;
+    }).catch(err => {
+      console.error("Failed to load grammar references in quiz:", err);
+      state.grammarRefs = [];
     })
   ]).then(() => {
     loading.remove();
@@ -535,6 +692,8 @@ function renderQuizContent(container) {
           ` : ''}
         </div>
         
+        ${getMarieHelperHtml(quizItem)}
+        
         <div class="quiz-options">
           ${quizItem.options.map((opt, i) => `
             <button class="quiz-btn" data-index="${i}">${opt}</button>
@@ -612,6 +771,7 @@ function renderQuizContent(container) {
       });
 
       gameWrapper.appendChild(card);
+      bindMarieHelperEvents(card, quizItem);
     }
 
     renderCurrentChoice();
@@ -706,6 +866,8 @@ function renderQuizContent(container) {
           ${matchItem.text}
         </p>
         
+        ${getMarieHelperHtml(matchItem)}
+        
         <div class="matching-board">
           <div class="matching-column" id="left-column">
             ${leftTerms.map((term, i) => `
@@ -739,6 +901,7 @@ function renderQuizContent(container) {
       `;
 
       gameWrapper.appendChild(card);
+      bindMarieHelperEvents(card, matchItem);
       
       const changeAssocBtn = card.querySelector('#change-assoc-q-btn');
       if (changeAssocBtn) {
@@ -1011,6 +1174,8 @@ function renderQuizContent(container) {
           <p style="font-size: 1.05rem; color: var(--color-primary); line-height: 1.45; font-family: var(--font-serif); white-space: pre-line;">${item.text}</p>
         </div>
         
+        ${getMarieHelperHtml(item)}
+        
         <div style="margin-bottom: 1.5rem;">
           <label style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.5rem; color: var(--color-text-muted);">Écrivez le mot en français (Write the French word):</label>
           <input type="text" class="spelling-input" id="spelling-input-field" placeholder="Tapez ici..." autocomplete="off" style="width: 100%; padding: 0.7rem; border-radius: var(--radius-sm); border: 1px solid rgba(0,0,0,0.15); font-size: 1.1rem; outline: none;" autofocus>
@@ -1037,6 +1202,7 @@ function renderQuizContent(container) {
       `;
 
       gameWrapper.appendChild(card);
+      bindMarieHelperEvents(card, item);
       
       const changeSpellingBtn = card.querySelector('#change-spelling-q-btn');
       if (changeSpellingBtn) {

@@ -2301,19 +2301,20 @@ footer a {
 
 .rpg-character-sprite {
   --char-scale: 1.0;
+  --mobile-factor: 1.0;
   max-height: 75%;
   width: auto;
   object-fit: contain;
   transition: opacity 0.35s ease, transform 0.35s ease;
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4));
   opacity: 0;
-  transform: translateY(20px) scale(var(--char-scale));
+  transform: translateY(20px) scale(calc(var(--char-scale) * var(--mobile-factor)));
   transform-origin: bottom center;
 }
 
 .rpg-character-sprite.active {
   opacity: 1;
-  transform: translateY(0) scale(var(--char-scale));
+  transform: translateY(0) scale(calc(var(--char-scale) * var(--mobile-factor)));
 }
 
 .rpg-character-sprite.pos-left {
@@ -2351,11 +2352,11 @@ footer a {
 
 /* 女将さん (proprietress) は縦横比が縦長なため、サイズを拡大しつつ表示位置をやや下げて腰上が表示されるように調整 */
 .rpg-character-sprite.sprite-proprietress {
-  transform: translateY(100px) scale(var(--char-scale));
+  transform: translateY(100px) scale(calc(var(--char-scale) * var(--mobile-factor)));
 }
 
 .rpg-character-sprite.sprite-proprietress.active {
-  transform: translateY(80px) scale(var(--char-scale));
+  transform: translateY(80px) scale(calc(var(--char-scale) * var(--mobile-factor)));
 }
 
 /* Interactive Gastronomy Map Engine Styles */
@@ -3167,7 +3168,7 @@ footer a {
 .rpg-character-sprite.sprite-gael,
 .rpg-character-sprite.sprite-jean_pierre,
 .rpg-character-sprite.sprite-ピエール {
-  transform: translateY(90px) scale(var(--char-scale));
+  transform: translateY(90px) scale(calc(var(--char-scale) * var(--mobile-factor)));
 }
 
 .rpg-character-sprite.sprite-kanetake.active,
@@ -3176,7 +3177,7 @@ footer a {
 .rpg-character-sprite.sprite-gael.active,
 .rpg-character-sprite.sprite-jean_pierre.active,
 .rpg-character-sprite.sprite-ピエール.active {
-  transform: translateY(70px) scale(var(--char-scale));
+  transform: translateY(70px) scale(calc(var(--char-scale) * var(--mobile-factor)));
 }
 
 /* Battle Typing Input Field styling */
@@ -3184,4 +3185,87 @@ footer a {
   border-color: var(--color-accent) !important;
   box-shadow: 0 0 10px rgba(197, 168, 128, 0.4);
   background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Responsive Scaling for RPG Character Sprites to prevent clipping on mobile */
+@media (max-width: 768px) {
+  .rpg-character-sprite {
+    --mobile-factor: 0.85; /* Shrink characters on smaller screens */
+  }
+  
+  /* If there are at least two characters (using CSS sibling checking) */
+  .rpg-character-sprite:first-child:not(:last-child),
+  .rpg-character-sprite:first-child:not(:last-child) ~ .rpg-character-sprite {
+    --mobile-factor: 0.62; /* Shrink more to fit two sprites side by side */
+  }
+
+  .rpg-character-sprite.pos-left {
+    margin-left: 2%;
+    margin-right: -10px;
+  }
+  
+  .rpg-character-sprite.pos-right {
+    margin-right: 2%;
+    margin-left: -10px;
+  }
+  
+  .rpg-character-sprite.pos-center {
+    margin: 0 -10px;
+  }
+}
+
+/* Marie Antoinette Floating Helper Styles */
+@keyframes marie-float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+.marie-helper-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.8rem 0;
+  padding: 0.5rem 0.8rem;
+  background: rgba(197, 168, 128, 0.08);
+  border: 1px solid rgba(197, 168, 128, 0.25);
+  border-radius: var(--radius-md);
+  animation: marie-float 3s ease-in-out infinite;
+  box-shadow: var(--shadow-sm);
+}
+
+.marie-speech-bubble {
+  flex: 1;
+  font-size: 0.8rem;
+  background: #FFFFFF;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.8rem;
+  color: var(--color-text-main);
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+
+/* Speech bubble arrow */
+.marie-speech-bubble::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 4px 8px 4px 0;
+  border-style: solid;
+  border-color: transparent var(--color-accent) transparent transparent;
+}
+
+.marie-speech-bubble::after {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 4px 8px 4px 0;
+  border-style: solid;
+  border-color: transparent #FFFFFF transparent transparent;
 }

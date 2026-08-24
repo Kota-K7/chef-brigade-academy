@@ -1,0 +1,57 @@
+0: char=None, text=None, characters=None
+1: char=kanetake, text=ジャン、お前なぁ。そんな高級食材ばっか使って利益出る思っとるんか？, characters=None
+2: char=jean_pierre, text=利益か…。ふむ。だがお客様を喜ばせなければ、一銭も稼げないぞ？, characters=None
+3: char=kanetake, text=むきー！！なんやとーー？俺は、この店の“オーナー”としてこの店を思ってやなぁ！！……。Tu n'écoutes rien !（お前は何も聞いとらん！）, characters=None
+4: char=hero, text=……。（な、なんかすごい言い合いが始まった…！）, characters=None
+5: char=gael, text=……安心しろ。ああ見えてあの二人は仲がいい。Ils sont amis.（彼らは友達だ）。, characters=None
+6: char=saeki, text=はは、そこに関してはガエル君の言う通りだね。Ce n'est pas une dispute.（これは喧嘩じゃないんだよ）。では僕らは訓練と行こうか。, characters=None
+7: char=None, text=None, characters=None
+8: char=None, text=None, characters=None
+9: char=gael, text=……すまない、le bol（そのボウル）の中にあるクリームの Émulsionner を頼めるか？ Deux cents grammes de crème.（クリーム200グラムだ）。, characters=None
+10: char=hero, text=えっと……？, characters=None
+11: char=gael, text=あぁ……。すまない。乳化のことだ。空気を含むように泡立ててくれ。, characters=None
+12: char=hero, text=は、はい！わかりました！, characters=None
+13: char=elodie, text=ちょっと新人くん！そっちのバジルの葉を Chiffonner お願いしていい？ こっちのソースは Passer au chinois、あっちのブリオッシュは Badigeonner して、オーブンにいれて中火20分（vingt minutes）！, characters=None
+14: char=hero, text=えっと、えっと、……？（なんだって？バジルをソースにして、オーブンに塗る？そんなわけないよな。ヤバいヤバいヤバいどうしよ、どうしよ）, characters=None
+15: char=saeki, text=エロディ！彼はまだフランス料理一日目だ！Il ne comprend pas encore.（彼はまだ理解できていないよ）。頼むにも限度ってものがあるだろう！, characters=None
+16: char=saeki, text=すまないね。まずは完璧を目指さなくていい。Ce n'est pas grave.（大丈夫だ）。でも、分からないことをそのままにしないこと。厨房では、それが一番危険だからね。みんな始めはそうだから、頑張って行こう。, characters=None
+17: char=hero, text=佐伯さん……ありがとうございます！, characters=None
+18: char=None, text=None, characters=None
+19: char=None, text=None, characters=None
+20: char=elodie, text=ふぅぅぅ今日のセッション終わりー！！ C'est fini !（終わったー！）, characters=None
+21: char=kanetake, text=お疲れやで～ ほんなら～毎日恒例！チキチキ賄い誰が作るでSHOWのお時間や！！, characters=None
+22: char=hero, text=えっと……？, characters=None
+23: char=gael, text=じゃんけんだ。, characters=None
+24: char=elodie, text=賄いは店のメニューに自分のレシピが乗るチャンスだし！シェフも参加して本気で作りにいくよ。Nous sommes tous motivés !（私たちはみんなやる気満々なんだから！）, characters=None
+25: char=elodie, text=じゃんけんに勝てば料理作れるし、負けてもシェフとかの手料理を食べれるご褒美タイムってこと！！, characters=None
+26: char=saeki, text=（小声）ふふ、実はあぁ見えてシェフも負けず嫌いなので、本気で来るよ。Il a toujours envie de gagner.（彼はいつも勝ちたがっているんだ）。僕も本気でやっちゃおうかな。, characters=None
+27: char=jean_pierre, text=佐伯、聞こえているぞ……まあ相違はない。ただ今日はすまない。私が指名する。Je n'ai pas le temps pour un jeu.（ゲームをしている時間はない）。, characters=None
+28: char=ガエル・エロディ・佐伯, text=……っっ！！？, characters=None
+29: char=elodie, text=えぇずるいですよ！！そんなの、シェフの特権乱用です！！ オーナー！！私はシェフ ムッシュ・ピエール氏を上司の権力乱用で訴えます！, characters=None
+30: char=kanetake, text=なんや…ジャンも考えあるんやろ？, characters=None
+31: char=jean_pierre, text=ああ。今日の賄い担当は君だ。Tu as une chance aujourd'hui.（今日はお前にチャンスをやろう）。, characters=None
+32: char=hero, text=ぼ、僕ですか！？, characters=None
+33: char=None, text=None, characters=None
+34: char=None, text=None, characters=None
+35: char=hero, text=はぁああああああああああ緊張した～！！, characters=None
+36: char=elodie, text=なかなかすごいね新入り君！今後に期待大だよ。, characters=None
+37: char=saeki, text=なかなか美味しかったよね。特にあのチキンロティに添えられたソースとか！ねぇ？ガエル？, characters=None
+38: char=gael, text=あぁ。C'est bon.（美味しかったぞ）。, characters=None
+39: char=kanetake, text=うんうん、うまかったで！これなら今後も安心やし、何ならジャンの二代目は君かもしらんなぁ。ジャンがこの子に“喰われる”のもすぐやで。, characters=None
+40: char=jean_pierre, text=……。野菜のカット法と肉の火入れは見直した方が良いだろう。食感に調和がなかった。Ce n'est pas parfait.（完璧ではない）。, characters=None
+41: char=hero, text=あッ、ありがとうございます！, characters=None
+42: char=kanetake, text=なんやジャン！もっと優しい言葉はかけられへんのか！, characters=None
+43: char=jean_pierre, text=事実を述べたまでだ。, characters=None
+44: char=kanetake, text=はぁあああああああーーー！！！あかんわ新人にはちょっと優しくするんが相場やろうが！！, characters=None
+45: char=hero, text=み、満さんありがとうございます。でも、シェフの言ってることはまさに僕も少し思ってたことで…。, characters=None
+46: char=kanetake, text=あかん！あかんよ坊ちゃん！！これはニンゲンの問題や！！ はーーー坊ちゃん、ついてきぃ！イラついたからドライブや。, characters=None
+47: char=hero, text=ええ、でもっ！？, characters=None
+48: char=saeki, text=行っておいで。片付けは任せて、ごちそうさまでした。Merci pour le repas.（ごちそうさまでした）。, characters=None
+49: char=gael, text=……また明日だ。À demain.（また明日）。, characters=None
+50: char=None, text=*(背景が切り替わり、夜の公園・夜景の見える場所へ)*, characters=[]
+51: char=kanetake, text=（主人公と2人になって）いやージャンがほんま申し訳ないわ。堪忍してな。, characters=[]
+52: char=hero, text=いえいえ！全然ほんとに気にしてませんし、むしろアドバイスいただけて嬉しいぐらいです。, characters=[]
+53: char=kanetake, text=……ジャンあいつはな、最高の料理人や。一度食べたら、あいつの味忘れられへんねん。俺が料理人やめて金を専業にしたんは、あいつがおったからや。ほんま、かなわへんで。, characters=[]
+54: char=hero, text=（満さんがそこまで言うなんて……）俺、頑張ってみます！これから働くのが楽しみです！, characters=[]
+55: char=kanetake, text=そかそか。そりゃええこっちゃ。よろしくな坊ちゃん。, characters=[]
+56: char=None, text=None, characters=None

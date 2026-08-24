@@ -1,0 +1,41 @@
+BACKGROUNDS CONFIG:
+  bgBlack -> #000000
+  黒 -> #000000
+  Marseille -> url('assets/story/chapter_0/bg_marseille.webp')
+  市場 -> url('assets/story/chapter_0/bg_market.webp')
+  港のコンテナ -> url('assets/story/chapter_0/bg_port_container.webp')
+
+SEQUENCE BG USAGES:
+  Step 0: type=dialog, bg=Marseille
+  Step 1: type=dialog, bg=市場
+  Step 2: type=dialog, bg=市場
+  Step 3: type=tutorial, bg=None
+  Step 4: type=fixedBattle, bg=None
+  Step 5: type=dialog, bg=市場
+  Step 6: type=dialog, bg=市場
+  Step 7: type=dialog, bg=市場
+  Step 8: type=dialog, bg=市場
+  Step 9: type=dialog, bg=Marseille
+  Step 10: type=dialog, bg=Marseille
+  Step 11: type=dialog, bg=Marseille
+  Step 12: type=tutorial, bg=None
+  Step 13: type=fixedBattle, bg=None
+  Step 14: type=dialog, bg=Marseille
+  Step 15: type=dialog, bg=Marseille
+  Step 16: type=dialog, bg=Marseille
+  Step 17: type=dialog, bg=Marseille
+  Step 18: type=dialog, bg=黒
+  Step 19: type=dialog, bg=市場
+  Step 20: type=dialog, bg=市場
+  Step 21: type=dialog, bg=市場
+  Step 22: type=dialog, bg=市場
+  Step 23: type=dialog, bg=黒
+  Step 24: type=dialog, bg=黒
+  Step 25: type=dialog, bg=港のコンテナ
+  Step 26: type=dialog, bg=港のコンテナ
+  Step 27: type=dialog, bg=港のコンテナ
+  Step 28: type=dialog, bg=港のコンテナ
+  Step 29: type=dialog, bg=港のコンテナ
+  Step 30: type=dialog, bg=港のコンテナ
+  Step 31: type=dialog, bg=港のコンテナ
+  Step 32: type=reward, bg=None
