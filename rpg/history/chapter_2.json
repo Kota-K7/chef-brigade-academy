@@ -1055,6 +1055,1783 @@
         {
           "type": "reward",
           "xp": 140,
+          "unlockedEpisodeId": "ep_2_3"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_3",
+      "episodeTitle": "第2-3話: トルビアックの誓いとアタナシウス派への改宗",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "castle": "url('assets/story/chapter_2/城.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "flashback": "url('assets/story/chapter_2/回想.webp')",
+        "clovis_oath": "url('assets/story/chapter_2/クローヴィス宣誓.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "clotilde": {
+          "name": "クロティルダ",
+          "images": {
+            "default": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "normal": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "baby": "assets/story/chapter_2/クロティルダ赤子.webp",
+            "surprised": "assets/story/chapter_2/クロティルダ驚き.webp",
+            "cry": "assets/story/chapter_2/クロティルダ泣き.webp",
+            "determined": "assets/story/chapter_2/クロティルダ決意.webp"
+          }
+        },
+        "clovis": {
+          "name": "クローヴィス",
+          "images": {
+            "default": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "normal": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "pout": "assets/story/chapter_2/すねる.webp",
+            "shy": "assets/story/chapter_2/クローヴィス照れ笑い.webp",
+            "serious": "assets/story/chapter_2/クローヴィスまじめ.webp",
+            "angry": "assets/story/chapter_2/クローヴィス怒り.webp",
+            "returning": "assets/story/chapter_2/クローヴィス生還.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "初対面から数年後。クローヴィスとクロティルダは正式に結ばれ、二人の間には新たな命が誕生していた。",
+          "position": "center",
+          "background": "castle",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "ほらー、異教徒のパパは放っておきましょうね～。あなたはとっても可愛いわねぇ",
+          "position": "center",
+          "expression": "baby",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "baby",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おいおい、俺の息子でもあるんだぞ！ 少しは抱かせろって！",
+          "position": "center",
+          "expression": "pout",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "pout",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "あっ…無茶な抱き方しないで！ 落としたらどうするの！！",
+          "position": "center",
+          "expression": "surprised",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "surprised",
+              "position": "center"
+            }
+          ],
+          "description": "かつての「氷の王女」の面影は薄れ、愛情深い母親となったクロティルダ。第二子が健やかに育つ中、彼女は不器用なクローヴィスに口うるさくも温かい眼差しを向けていた。"
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Faites attention ! (気をつけてくださいね！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "丁寧な命令表現 (Faites attention)",
+            "text": "意味: 「気をつけてください」 Faites (する: faireのvousに対する命令形) ＋ attention (注意)。相手への丁寧な指示や注意を促す表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "分かってるっての！ ……なあクロティルダ。俺は戦では無敵だが、この小さな命を抱くと、なんだか不思議な気分になるな…。",
+          "position": "center",
+          "expression": "shy",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "shy",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "クローヴィス……そういえば前から言ってることだけれど、あなたも、アタナシウス派の教えを受け入れてくれないかしら？",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "またその話か。クロティルダには悪いが俺はフランクの神々と一緒にここまで勝ってきた。見知らぬ神様に祈るより、俺は自分を信じるぜ",
+          "position": "center",
+          "expression": "serious",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "serious",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "そう…。",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "家族の日常と信仰の違い",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#avoir",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 2
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "496年、強大な勢力を持つゲルマン人部族・アラマン人がフランク王国へ侵攻を開始。クローヴィスは全軍を率いてトルビアックの地で激突する。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "くそっ、アラマンの奴ら、数が多すぎる……！ 前線の陣形が崩されていくぞ！",
+          "position": "center",
+          "expression": "angry",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "description": "無敗を誇ったクローヴィスだったが、無惨に味方の兵が倒れていく。"
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Nous avons un grand problème ! (俺たちには大きな問題がある！)",
+          "position": "center",
+          "expression": "angry",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "直説法現在形 (avoir)",
+            "text": "意味: 「我々には大きな問題があります」 Nous (我々は) ＋ avons (持つ: avoirの現在形) ＋ un (ひとつの) ＋ grand (大きな: 男性形容詞) ＋ problème (問題)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "死を覚悟したその時、クローヴィスの脳裏に、以前妻に言われた言葉がフラッシュバックした。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "もうっ！また無茶して…もし、あなたが危機に陥った時は……私の神に祈りなさい...あなたももう、親なんですから。",
+          "position": "center",
+          "background": "flashback",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "クローヴィスは血に染まった剣を掲げ、大声で叫んだ。",
+          "position": "center",
+          "background": "flashback",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "クロティルダの信じるアタナシウス派の神よ！ もし俺にこの戦いの勝利を与えてくれるなら、俺はあんたを信じ、洗礼を受けると誓おう！！",
+          "position": "center",
+          "background": "clovis_oath",
+          "characters": [],
+          "description": "これが歴史を動かした『トルビアックの誓い』である。彼が祈りを捧げた直後、アラマン人の王が戦死し、敵軍は総崩れとなって敗走を始めたのだった。"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "迫り来るアラマン人",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#basic_adjectives",
+              "count": 2
+            },
+            {
+              "tag": "#avoir",
+              "count": 2
+            },
+            {
+              "tag": "#numbers",
+              "count": 2
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "死地から生還し、大勝利を収めたクローヴィスは、泥と血にまみれた姿のままクロティルダの元へ駆け込んだ。",
+          "position": "center",
+          "background": "castle",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "おう、帰ったぞクロティルダ！ お前の神に祈ったら、本当に勝っちまった！ 約束通り、俺はアタナシウス派の洗礼を受けるぜ！",
+          "position": "center",
+          "expression": "returning",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "returning",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "あなたっ！！",
+          "position": "center",
+          "expression": "cry",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "cry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "無茶しないって、約束したでしょ……。本当によかった……無事に帰ってきてくれて……っ。",
+          "position": "center",
+          "expression": "cry",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "cry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "J'ai de la chance de t'avoir. (お前がいてくれて、俺は運がいいぜ)",
+          "position": "center",
+          "expression": "shy",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clovis",
+              "expression": "shy",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "運が良い (avoir de la chance)",
+            "text": "意味: 「君がいてくれて運がいい」 J'ai (私は持つ: avoir) ＋ de la chance (幸運を) ＋ de t'avoir (君を持つことができて)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "ええ。あなたはこれより、アタナシウス派の光。フランクを真の統一へと導くのよ。私がずっと、あなたを支えるから",
+          "position": "center",
+          "expression": "determined",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "determined",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Soyez un grand roi. (偉大な王となってくださいね)",
+          "position": "center",
+          "expression": "determined",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "determined",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "丁寧な命令表現 (Soyez)",
+            "text": "意味: 「偉大な王であってください」 Soyez (〜であれ: êtreのvousに対する命令形) ＋ un grand roi (一人の偉大な王)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "こうして496年のクリスマス、クローヴィスはランスの洗礼堂でアタナシウス派へと改宗した。",
+          "position": "center",
+          "background": "castle",
+          "characters": [],
+          "description": "ランス大聖堂は以後、歴代フランス国王の戴冠式の場となり、王権の正統性を象徴する聖地に。 クローヴィスの洗礼以来、32人のフランス王が戴冠式をここで挙行した（最終は1825年シャルル10世）。"
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "トルビアックの誓い",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#basic_adjectives",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            },
+            {
+              "tag": "#avoir",
+              "count": 2
+            },
+            {
+              "tag": "#numbers",
+              "count": 2
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 140,
+          "unlockedEpisodeId": "ep_2_4"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_4",
+      "episodeTitle": "第2-4話: メロヴィングの残光と王国の分割",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "palace_view": "url('assets/story/chapter_2/宮殿の眺望.webp')",
+        "sickroom": "url('assets/story/chapter_2/病室.webp')",
+        "clovis_death": "url('assets/story/chapter_2/クローヴィス死.webp')",
+        "church_prayer": "url('assets/story/chapter_2/教会祈り.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "clotilde": {
+          "name": "クロティルダ",
+          "images": {
+            "default": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "normal": "assets/story/chapter_2/クロティルダ立ち絵.webp",
+            "cry": "assets/story/chapter_2/クロティルダ泣き.webp",
+            "angry": "assets/story/chapter_2/クロティルダ怒り.webp"
+          }
+        },
+        "clovis": {
+          "name": "クローヴィス",
+          "images": {
+            "default": "assets/story/chapter_2/クローヴィス豪快.webp",
+            "normal": "assets/story/chapter_2/クローヴィス豪快.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "アタナシウス派への改宗を果たしたクローヴィスは、かつてのローマ帝国領の民衆から圧倒的な支持を得た。彼は破竹の勢いで西ゴート王国などを打ち破り、広大なガリアの地を統一する。",
+          "position": "center",
+          "background": "palace_view",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "ガリアの地は、ついに俺たちフランク族のものになった。どうだクロティルダ、悪くない眺めだろう？",
+          "position": "center",
+          "background": "palace_view",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "ええ、本当に。あなたが戦い、そして神が導いてくださった結果ですわ",
+          "position": "center",
+          "background": "palace_view",
+          "characters": [],
+          "description": "晩年のクローヴィス。ゲルマンの王侯の象徴である長く伸びた髪と豊かな髭をたくわえ、老いてなお圧倒的な威厳を放っていた。そして傍らに立つクロティルダは、国母として民から慕われる「美しい聖女」となっていた。"
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "C'est un grand royaume. (これは偉大な王国だ)",
+          "position": "center",
+          "background": "palace_view",
+          "characters": [],
+          "learningPoint": {
+            "title": "指示代名詞 C'est",
+            "text": "意味: 「これは偉大な王国だ」 C'est (これは〜である) ＋ un (ひとつの) ＋ grand (偉大な) ＋ royaume (王国)。これまでの軌跡を振り返る指示表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "彼が創始したこの王朝は、伝説の部族長の名を取って『メロヴィング朝』と呼ばれることになる。フランク王国の絶頂期であった。",
+          "position": "center",
+          "background": "palace_view",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "栄華を極めた王国",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#demonstrative_cest",
+              "count": 3
+            },
+            {
+              "tag": "#noun_gender",
+              "count": 2
+            },
+            {
+              "tag": "#numbers",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "しかし511年。ガリアの覇者となった英雄クローヴィスにも、死の運命が訪れようとしていた。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "ゲホッ、ゴホッ……。どうやら、俺の戦いもここまでのようだな……。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "クローヴィス……！ 弱音を吐かないで。あなたがいなくなったら、この大きな国はどうなるの……！",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "心配すんな。俺たちの息子たちが立派に継いでくれるさ。J'ai beaucoup de terres. (俺には多くの領地がある) これをあいつらに分けてやるんだ",
+          "position": "center",
+          "background": "sickroom",
+          "characters": [],
+          "learningPoint": {
+            "title": "数量表現 beaucoup de",
+            "text": "意味: 「私には多くの領地がある」 J'ai (私は持つ: avoir) ＋ beaucoup de (多くの〜) ＋ terres (領地: 女性複数形)。数量を表す表現「beaucoup de」は、後ろに冠詞をつけず直接名詞を置きます。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ゲルマン人の伝統では土地の『分割相続（息子全員で領地を均等に分ける）』を行うのが掟であった。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "頼んだぞ……クロティルダ。あいつらのこと、お前が……導いてやってくれ……",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "私は…！あなたによって変わった！！",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Tu m'as tout donné ! La famille, la vie, l'amour, tout !! (あなたが私に全てをくれた！家族も、生も、愛も、何もかも！！)",
+          "position": "center",
+          "background": "sickroom",
+          "characters": [],
+          "learningPoint": {
+            "title": "複合過去表現",
+            "text": "意味: 「あなたが私に全てをくれた！家族も、命も、愛も、全て！！」 Tu m'as tout donné (あなたは私に全てを与えた) ＋ la famille (家族) ＋ la vie (生/命) ＋ l'amour (愛) ＋ tout (すべて)。クロティルダの心からの叫びです。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "へへ…そうか…。幸せなら…それでいいじゃねえか…。俺も…お前と会えて本当に幸せだった…。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "私を…守るって言ったじゃない…本当に大馬鹿者よ…そんなあなたが私は…私は…",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clovis",
+          "text": "Je t'aime... (愛してる…) 今までありがとう",
+          "position": "center",
+          "background": "clovis_death",
+          "characters": [],
+          "learningPoint": {
+            "title": "愛の表現 (Je t'aime)",
+            "text": "意味: 「愛している」 Je (私は) ＋ t' (君を) ＋ aime (愛する: aimer)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そう言い残し、偉大なるフランクの初代国王クローヴィスは息を引き取った。",
+          "position": "center",
+          "background": "clovis_death",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "悲しみに暮れたクロティルダは、王宮を離れトゥールの修道院へ隠棲した。",
+          "position": "center",
+          "background": "clovis_death",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "あの人が私に全てをくれたように、私もこの国に祈りを捧げましょう。王妃としてではなく、一人の人間として……。",
+          "position": "center",
+          "background": "church_prayer",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "Je veux de la paix. (私は平和が欲しいのです)",
+          "position": "center",
+          "background": "church_prayer",
+          "characters": [],
+          "learningPoint": {
+            "title": "部分冠詞の使用",
+            "text": "意味: 「私は平和が欲しい」 Je (私は) ＋ veux (欲しい: vouloirの現在形) ＋ de la (部分冠詞) ＋ paix (平和: 女性名詞)。数えられない抽象名詞（平和）を欲する時、フランス語では部分冠詞「de la (女性形)」を使います。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "かつて夫を導き、誰よりも深く愛した気高き瞳は、今度は国全体の安寧を願う祈りへと向けられていた。彼女は後にカトリックの聖人『聖クロティルダ』として歴史に名を刻むこととなる。",
+          "position": "center",
+          "background": "church_prayer",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "しかし、聖女の祈りも虚しく、クローヴィスが遺した広大なフランク王国は4人の息子たちによって4つに分割されてしまう。そして領土と権力を求め、直ちに骨肉の争いが開始された。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "clotilde",
+          "text": "やめなさい！ 兄弟同士で血を流し合うなど、神への冒涜です！ クローヴィスが遺した国を、なぜ自らの手で壊そうとするのですか！",
+          "position": "center",
+          "expression": "angry",
+          "background": "battlefield",
+          "characters": [
+            {
+              "id": "clotilde",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "これがその後何百年も続く、血塗られたメロヴィング朝の抗争の始まりである。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "血塗られた権力闘争",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#partitive_articles",
+              "count": 3
+            },
+            {
+              "tag": "#numbers",
+              "count": 2
+            },
+            {
+              "tag": "#demonstrative_cest",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "メロヴィング朝の王たちが兄弟殺しに明け暮れ、次第に実権を失っていく中、やがて王の側近である『宮宰（きゅうさい;マヨル＝ドムス）』たちが歴史の表舞台へと台頭してくる。時代は、次なる英雄の誕生を待っていた。",
+          "position": "center",
+          "background": "battlefield",
+          "characters": []
+        },
+        {
+          "type": "reward",
+          "xp": 160,
+          "unlockedEpisodeId": "ep_2_5"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_5",
+      "episodeTitle": "第2-5話: 宮宰カール・マルテル（鉄槌宰相）",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "map_8th": "url('assets/story/chapter_2/8世紀勢力図.webp')",
+        "room_meeting": "url('assets/story/chapter_2/部屋内対面.webp')",
+        "grin": "url('assets/story/chapter_2/にやり.webp')",
+        "battle_arab": "url('assets/story/chapter_2/アラブとの戦闘.webp')",
+        "martel_awakening": "url('assets/story/chapter_2/マルテル覚醒.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "charles_martel": {
+          "name": "カール・マルテル",
+          "images": {
+            "default": "assets/story/chapter_2/カール戦場.webp",
+            "normal": "assets/story/chapter_2/カール戦場.webp",
+            "battle": "assets/story/chapter_2/カール戦場.webp"
+          }
+        },
+        "noble_opponent": {
+          "name": "反対派の貴族"
+        },
+        "subordinate": {
+          "name": "部下"
+        },
+        "prince": {
+          "name": "王子"
+        },
+        "arab_general": {
+          "name": "イスラム帝国の将軍"
+        },
+        "arab_soldier": {
+          "name": "イスラム兵"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "クローヴィスとクロティルダが起こしたフランク王国は、メロヴィング朝紛争や分裂を繰り返しながらも200年以上続いていた。",
+          "position": "center",
+          "background": "map_8th",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史解説",
+            "text": "結果的に約270年続いた。これはこの後に創設されるカロリング朝、日本の徳川幕府、フランスのヴァロワ朝、中国の清朝と同程度である。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "相次ぐ分裂に困ったフランク国王は側近である『宮宰』という職を立て、ついにカロリング家のカール・マルテルが分裂したフランク全ての実権を握る宮宰（マヨル＝ドムス）となっていた。",
+          "position": "center",
+          "background": "map_8th",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "noble_opponent",
+          "text": "たかが宮宰の分際で王を蔑ろにするか、カール・マルテル！ 貴様のような簒奪者、私がこの場で斬り捨ててくれる！",
+          "position": "center",
+          "background": "room_meeting",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "はっはっは…血気盛んなことですな。しかし、この老いぼれに直接手を下すような力などありますまい",
+          "position": "center",
+          "background": "room_meeting",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "J'ai juste des subordonnés excellents. (持っているのは……ちょいと優秀な部下だけですな)",
+          "position": "center",
+          "background": "grin",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はただ優秀な部下たちを持っているだけです」 J'ai (私は持つ: avoir) ＋ juste (ただ〜だけ) ＋ des subordonnés (部下たち) ＋ excellents (優秀な: 男性複数形容詞)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "マルテルの背後の影から現れた部下が、音もなく貴族の首筋を切り裂いた。",
+          "position": "center",
+          "background": "grin",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "noble_opponent",
+          "text": "がはっ……き、さま……！",
+          "position": "center",
+          "background": "grin",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "床が汚れてしまいましたね。すぐに片付けなさい",
+          "position": "center",
+          "background": "grin",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "prince",
+          "text": "カールさーん？なんか音がしたけど、大丈夫？",
+          "position": "center",
+          "background": "grin",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "おぉ王子、これは失礼…。",
+          "position": "center",
+          "background": "grin",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "Je viens de nettoyer la salle. (たった今、部屋を掃除したところです)",
+          "position": "center",
+          "background": "grin",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「たった今、部屋を掃除したところです」 Je (私は) ＋ viens de nettoyer (掃除したばかりだ: venir de ＋ 動詞の原形) ＋ la salle (部屋)。「venir de ＋ 原形」で近い過去（近接過去）を表す重要な文法です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "閣下、ネウストリアの残党は片付きました。しかし、南からウマイヤ朝（イスラム帝国）の軍勢がピレネー山脈を越えたとの急報が",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "……どうやら、本当の脅威は身内ではないようですね。出陣の準備を",
+          "position": "center",
+          "background": "bgBlack",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "反対派の貴族たち",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_past",
+              "count": 4
+            },
+            {
+              "tag": "#verbs",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "arab_general",
+          "text": "西方の蛮族め！ 我らウマイヤ朝の無敵の騎兵の前に、歩兵の盾など紙屑同然だ！ 蹂躙しろ！",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "紙屑、ですか。……ならば試してみるがいい",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "732年、トゥール・ポワティエ間の戦い。圧倒的な機動力を誇るイスラム騎兵の猛威に対し、マルテルは重装歩兵の密集陣形（ファランクス）を展開した。",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "一歩も引くことは許さん。盾の壁を崩すな",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "Restez derrière les boucliers ! (盾の後ろにとどまれ！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「盾の後ろにとどまれ！」 Restez (とどまれ: rester of 命令形) ＋ derrière (〜の後ろに: 前置詞) ＋ les boucliers (盾たち)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "arab_general",
+          "text": "なんだあの陣形は！？ 我らの突撃がことごとく弾き返されるだと！？ 構わん、何度でも突撃しろ！！",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "何日にもわたる猛烈な突撃。しかし、フランク軍の歩兵陣は、指揮官マルテルの冷徹な眼差しの下、氷 of 壁のように微動だにしなかった。",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "無駄なことです。戦場において、感情で動く者は等しく死を招く",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "イスラム軍の猛攻",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 4
+            },
+            {
+              "tag": "#prepositions",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "arab_general",
+          "text": "ば、馬鹿な……我らの精鋭が打ち破れないだと……！？ あの男、まるで感情のない鉄の壁ではないか……！",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "敵の指揮系統が乱れましたね。……もはやトゥール・ポワティエは我がフランクにあり",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "全軍突撃。一人残らず、この地に沈めなさい",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "Avancez vers les ennemis ! (敵に向かって前進せよ！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「敵たちに向かって前進せよ！」 Avancez (前進せよ: avancerの命令形) ＋ vers (〜の方向へ: 前置詞) ＋ les ennemis (敵たち)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "反撃に転じたフランク軍の圧倒的な圧力の前に、イスラム軍は総崩れとなった。",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "arab_soldier",
+          "text": "Qui êtes-vous ?! (だ、誰なんだ貴様は！！)",
+          "position": "center",
+          "background": "battle_arab",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "私ですか？",
+          "position": "center",
+          "expression": "normal",
+          "background": "battle_arab",
+          "characters": [
+            {
+              "id": "charles_martel",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "Je suis le maire du palais. On m'appelle le Martel. (宮宰だよ。鉄槌〈マルテル〉と呼ばれている)",
+          "position": "center",
+          "background": "martel_awakening",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私は宮宰です。人は私を鉄槌（マルテル）と呼びます」 Je suis (私は〜である) ＋ le maire du palais (宮宰)。 On (人は/人々は) ＋ m' (私を) ＋ appelle (呼ぶ: appeler) ＋ le Martel (鉄槌)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "arab_general",
+          "text": "ひぃっ……退け！ 退けェッ！！",
+          "position": "center",
+          "background": "martel_awakening",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "この決定的な勝利により、イスラム帝国の西ヨーロッパへの拡大は完全に阻止された。",
+          "position": "center",
+          "background": "martel_awakening",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charles_martel",
+          "text": "Nous venons de sauver notre pays. (我々はたった今、国を救ったのだ)",
+          "position": "center",
+          "background": "martel_awakening",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「我々はたった今、国を救った」 Nous (我々は) ＋ venons de sauver (救ったばかりだ: venir de ＋ 原形) ＋ notre pays (我々の国)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "キリスト教世界を救ったマルテルの名声は確固たるものとなり、カロリング家が次なる王位を簒奪する準備は、完全に整ったのであった。",
+          "position": "center",
+          "background": "martel_awakening",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "なおトゥール・ポワティエ間の戦いは、キリスト教ヨーロッパ世界にとっては偉大な戦いと伝えられるが、イスラム世界では、領土の端っこの方の戦いでしかなかったという認識が一般的である。また、この戦いにより、スペインが長いイスラム支配の土地となる。"
+          }
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "鉄槌の決撃",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_past",
+              "count": 3
+            },
+            {
+              "tag": "#verbs",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            },
+            {
+              "tag": "#prepositions",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 160,
+          "unlockedEpisodeId": "ep_2_6"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_6",
+      "episodeTitle": "第2-6話: 王の王位、ピピン教皇に寄進す",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "map_8th": "url('assets/story/chapter_2/8世紀勢力図.webp')",
+        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
+        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
+        "pepin_donation": "url('assets/story/chapter_2/ピピンの寄進.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "pepin": {
+          "name": "ピピン",
+          "images": {
+            "default": "assets/story/chapter_2/ピピン弱気.webp",
+            "normal": "assets/story/chapter_2/ピピン弱気.webp",
+            "weak": "assets/story/chapter_2/ピピン弱気.webp",
+            "evil": "assets/story/chapter_2/ピピン悪.webp",
+            "invent": "assets/story/chapter_2/ピピン発明.webp",
+            "instruct": "assets/story/chapter_2/ピピン指示.webp"
+          }
+        },
+        "pope": {
+          "name": "教皇",
+          "images": {
+            "default": "assets/story/chapter_2/教皇困る.webp",
+            "normal": "assets/story/chapter_2/教皇困る.webp",
+            "troubled": "assets/story/chapter_2/教皇困る.webp",
+            "surprised": "assets/story/chapter_2/教皇驚き.webp",
+            "smile": "assets/story/chapter_2/教皇笑み.webp",
+            "apology": "assets/story/chapter_2/教皇謝罪.webp",
+            "evil": "assets/story/chapter_2/教皇邪悪.webp"
+          }
+        },
+        "subordinate": {
+          "name": "部下"
+        },
+        "noble_old": {
+          "name": "旧王朝の貴族"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "鉄槌宰相カール・マルテルの一代は終わり、息子のピピン3世が宰相の地位を継ぐこととなった。そして彼が歴史に残る大事件を巻き起こす。",
+          "position": "center",
+          "background": "map_8th",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "宰相様いかがなさいますか？ メロヴィング朝の王はすでに政務を放棄し、実権はピピン様にすべて集まっております",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "はぁ……そうは言っても、父上（カール・マルテル）みたいな威厳、僕にはないからなぁ",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "カール・マルテルの息子で、ピピン3世と呼ばれる。身長が小さかったらしく、あだ名は「ピピン短躯王（フランス語: Pépin le Bref、ペパン・ル・ブレフ）」。Pépinは果物のタネや小さな問題、Bref は短いという意味。つまり Mini of mini"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "しかし、このままでは国がまとまりません。いっそ閣下が王位に就くべきでは？",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ひぃっ！？ む、無理だよ！ 反発が起きるに決まってる！",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "でも……名ばかりの王様にも困っちゃうよね。",
+          "position": "center",
+          "expression": "invent",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "invent",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "そうだ、教皇ザカリアス様に相談してみよう！",
+          "position": "center",
+          "expression": "invent",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "invent",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "Nous allons écrire au pape. (教皇にお手紙を書きましょう)",
+          "position": "center",
+          "expression": "invent",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "invent",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私たちは教皇に手紙を書くつもりです」 Nous (私たちは) ＋ allons écrire (書くつもりだ: aller ＋ écrire(書く)) ＋ au (à ＋ le の縮約冠詞) ＋ pape (教皇)。「aller ＋ 動詞の原形」で近い未来（近接未来）を表します。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "なるほど、（ごにょごにょごにょ）なんて…書くのはいかがでしょう？",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "えぇ！？『名ばかりの王と、力と権力を持つ人…どちらが王にふさわしいでしょうか？』…まぁいいか！！聞いてみよう",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "数週間後。なんとローマの教皇ザカリアスから『実権を持つ者が王と呼ばれるべきである』という、ピピンにとって都合の良すぎる返書が届く。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "えっ！？ そ、それってつまり……僕が王になっていいってこと！？ やったー！ 言ってみるもんだね！",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "Je vais devenir le roi ! (僕が王になる！)",
+          "position": "center",
+          "expression": "evil",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "evil",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私が王になる」 Je (私は) ＋ vais devenir (なるつもりだ: aller ＋ devenir(なる)) ＋ le roi (王)。"
+          }
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ピピン反対派",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_future",
+              "count": 4
+            },
+            {
+              "tag": "#verbs",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "noble_old",
+          "text": "ピピン！ 貴様、キルデリク3世陛下に何をするつもりだ！ 正当な王を修道院に幽閉するなど、神の罰が下るぞ！",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ひぃっ！ ご,ごめんなさい！",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "でも、罰なら下りませんよ…だって教皇様が僕を認めてくださったんですから……",
+          "position": "center",
+          "expression": "evil",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "evil",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "noble_old",
+          "text": "やめろ！ メロヴィング朝の王族の象徴である、その長い髪をどうする気だ！",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "あわわ、動かないでください！ 切らないと僕が王位を奪えないんで……（ジョキッ）",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ははっ！！Les cheveux se coupent. (髪が切られます)",
+          "position": "center",
+          "expression": "evil",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "evil",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「髪が切られる」 Les cheveux (髪: 常に複数形) ＋ se coupent (切られる: se ＋ couper(切る))。モノ（髪）を主語にして「se ＋ 動詞」とすることで、「〜される」という受動的代名動詞（受身の表現）になります。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "noble_old",
+          "text": "あああ！ なんて恐ろしい男だ、貴様は悪魔か！！",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "あ、悪魔じゃないですよ！ 僕はただ教皇様のお言葉に従っただけで……！",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "La couronne se donne au vrai chef. (王冠は真の指導者に与えられるんです)",
+          "position": "center",
+          "expression": "weak",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「王冠は真の指導者に与えられる」 La couronne (王冠) ＋ se donne (与えられる: se ＋ donner(与える)) ＋ au vrai chef (真の指導者に)。こちらも受動的代名動詞の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "旧王朝の王を完全に廃位するという恐ろしいことを平然とやってのけるピピン。こうして751年、彼はフランク国王として即位し、新たに『カロリング朝』が成立した。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "旧王朝の残党",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#passive_pronominal_verbs",
+              "count": 4
+            },
+            {
+              "tag": "#near_future",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ピピンが王となってから数年後。ローマの新たな教皇・ステファヌス2世が、なんと自らアルプス山脈を越えてフランク王国へ駆け込んできた。",
+          "position": "center",
+          "background": "church_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pope",
+          "text": "た、大変じゃ！ 北イタリアのランゴバルド王国が、ローマを脅かしておる！ ピピン殿！",
+          "position": "center",
+          "expression": "troubled",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pope",
+              "expression": "troubled",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pope",
+          "text": "Aidez-moi ! (助けてくだされ！)",
+          "position": "center",
+          "expression": "troubled",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pope",
+              "expression": "troubled",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私を助けて！」 Aidez (助けて: aiderの命令形) ＋ moi (私を)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ひえっ、教皇様が直々にSOS！？ でもお、王位を認めていただいた大恩は返さなきゃ…だよねぇ。",
+          "position": "center",
+          "expression": "weak",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ふふ大丈夫ですよ、教皇様。Je viens de vaincre les ennemis. (たった今、敵を打ち破ったところです)",
+          "position": "center",
+          "expression": "weak",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "weak",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「たった今、敵を打ち破ったところだ」 Je (私は) ＋ viens de vaincre (打ち破ったばかりだ: venir de ＋ 原形) ＋ les ennemis (敵たち)。近い過去（近接過去）の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "（めんどさかったけど）もう部下に頼んでおきました",
+          "position": "center",
+          "expression": "invent",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pepin",
+              "expression": "invent",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "pope",
+          "text": "なんと！！？",
+          "position": "center",
+          "expression": "surprised",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "pope",
+              "expression": "surprised",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そしてついにあのイベントが起こる",
+          "position": "center",
+          "background": "church_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "756年、ピピンはローマ教皇にランゴバルドから奪ったラヴェンナ地方の土地を教皇に差し出した。これは『ピピンの寄進』と呼ばれ、のちの【教皇領】の起源となった。",
+          "position": "center",
+          "background": "pepin_donation",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pepin",
+          "text": "ステファヌス2世様。ランゴバルドから奪い返したラヴェンナ地方の土地……我がカロリング朝から、あなたに寄進いたしましょう！",
+          "position": "center",
+          "background": "pepin_donation",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pope",
+          "text": "おおお！ なんと！ これでローマ教会も他国に脅かされることはなくなる……！ 感謝するぞ！",
+          "position": "center",
+          "background": "pepin_donation",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "pope",
+          "text": "Merci, Pépin Trois ! (ありがとう、ピピン3世殿！)",
+          "position": "center",
+          "background": "pepin_donation",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「ありがとう、ピピン3世」 Pépin (ピピン) ＋ Trois (3: 数字の3)。王の代数は数字（trois）で表します。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "この寄進は『ピピンの寄進』と呼ばれ、フランク王国とローマ教皇の結びつきをより強固なものとし、次代においてさらなる巨大な歴史を動かすことになる。",
+          "position": "center",
+          "background": "pepin_donation",
+          "characters": []
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ランゴバルドの脅威",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_past",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            },
+            {
+              "tag": "#numbers",
+              "count": 3
+            },
+            {
+              "tag": "#passive_pronominal_verbs",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 160,
           "unlockedEpisodeId": null
         }
       ]
