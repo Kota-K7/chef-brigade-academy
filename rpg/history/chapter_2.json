@@ -215,17 +215,11 @@
         {
           "type": "dialog",
           "character": "clotilde",
-          "text": "お,お父様…なんで！！ やめて！ お母さまになにするの！！",
+          "text": "お,お父様が…なんで！！ やめて！ お母さまにこれ以上なにするの！！",
           "position": "center",
           "expression": "normal",
           "background": "bgBlack",
-          "characters": [
-            {
-              "id": "clotilde",
-              "expression": "normal",
-              "position": "center"
-            }
-          ],
+          "characters": [],
           "learningPoint": {
             "title": "語句解説",
             "text": "父親は暗殺され、母親は石を括り付けられ水に沈められて殺害されたとされる（一説には両親が殺害されたことは作り話の可能性もあるため注意。ゲーム風に脚色をしています）。"

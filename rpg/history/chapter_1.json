@@ -322,7 +322,7 @@
           "character": "caesar",
           "text": "うむ",
           "position": "center",
-          "background": "black",
+          "background": "bgBlack",
           "characters": [
             {
               "id": "caesar",
@@ -5589,7 +5589,7 @@
             "default": "assets/story/chapter_1/アルバン直立.webp",
             "normal": "assets/story/chapter_1/アルバン直立.webp",
             "tears": "assets/story/chapter_1/アルバン涙目.webp",
-            "after_8_years": "assets/story/chapter_1/アルバン8年後.png"
+            "after_8_years": "assets/story/chapter_1/アルバン8年後.webp"
           }
         },
         "aedan": {
