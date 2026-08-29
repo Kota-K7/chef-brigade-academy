@@ -1879,21 +1879,6 @@
         },
         {
           "type": "dialog",
-          "character": "old_woman",
-          "text": "……貸しな。その蛇の毒なら、これで治るよ。",
-          "position": "center",
-          "expression": "normal",
-          "background": "village",
-          "characters": [
-            {
-              "id": "old_woman",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
-        },
-        {
-          "type": "dialog",
           "character": "hero",
           "text": "Qu'est-ce que c'est ?（これは何ですか？）",
           "position": "center",
@@ -2821,21 +2806,6 @@
           ]
         },
         {
-          "type": "dialog",
-          "character": "caesar",
-          "text": "なんだと！？ ……自分の民の土地を自らの手で焼くというのか。だとしたら、一刻の猶予もないぞ。我々も次の手を打たねばならん！",
-          "position": "center",
-          "expression": "normal",
-          "background": "village_empty",
-          "characters": [
-            {
-              "id": "caesar",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
-        },
-        {
           "type": "reward",
           "xp": 100,
           "unlockedEpisodeId": "ep_1_5"
@@ -2983,21 +2953,6 @@
           "expression": "normal",
           "background": "forest",
           "characters": []
-        },
-        {
-          "type": "dialog",
-          "character": "fabius",
-          "text": "そうだね…。ガリア語の指示・所有形容詞の練習で気を紛らわそう……。Ce matin（この朝）は最悪だ、Mon ventre（僕のお腹）が鳴ってるよ……",
-          "position": "center",
-          "expression": "sick",
-          "background": "forest",
-          "characters": [
-            {
-              "id": "fabius",
-              "expression": "sick",
-              "position": "center"
-            }
-          ]
         },
         {
           "type": "dialog",
@@ -3184,21 +3139,6 @@
         },
         {
           "type": "dialog",
-          "character": "caesar",
-          "text": "……そうか。あの場所であれば…。我々は全軍を挙げてアウァーリクムを攻め落とし、食糧を奪う！！",
-          "position": "center",
-          "expression": "normal",
-          "background": "camp_morning",
-          "characters": [
-            {
-              "id": "caesar",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
-        },
-        {
-          "type": "dialog",
           "character": "labienus",
           "text": "ついに反撃の時ですな！ 朝から戦いじゃ！ 攻城兵器を前線へ！",
           "position": "center",
@@ -3211,15 +3151,6 @@
               "position": "center"
             }
           ]
-        },
-        {
-          "type": "dialog",
-          "character": "hero",
-          "text": "よし、生き残るためだ……この包囲戦、絶対に勝つぞ！",
-          "position": "center",
-          "expression": "normal",
-          "background": "camp_morning",
-          "characters": []
         },
         {
           "type": "dialog",
@@ -3313,21 +3244,6 @@
         },
         {
           "type": "dialog",
-          "character": "caesar",
-          "text": "よく戦い抜いた、我が兵士たちよ！ 今日は食って休め！",
-          "position": "center",
-          "expression": "normal",
-          "background": "avaricum_siege",
-          "characters": [
-            {
-              "id": "caesar",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
-        },
-        {
-          "type": "dialog",
           "character": "labienus",
           "text": "しかしカエサル殿。ウェルキンゲトリクスの本隊は無傷で撤退しております。奴らはさらに険しい要塞へと逃げ込んだようですぞ。",
           "position": "center",
@@ -3336,21 +3252,6 @@
           "characters": [
             {
               "id": "labienus",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
-        },
-        {
-          "type": "dialog",
-          "character": "caesar",
-          "text": "うむ。アウァーリクムを落としたとはいえ、戦争は終わっていない。次は奴らの本拠地……ゲルゴウィアだ！",
-          "position": "center",
-          "expression": "normal",
-          "background": "avaricum_siege",
-          "characters": [
-            {
-              "id": "caesar",
               "expression": "normal",
               "position": "center"
             }
@@ -3718,15 +3619,6 @@
         },
         {
           "type": "dialog",
-          "character": "hero",
-          "text": "うわあっ！ 上から無数の岩と槍が降ってくるぞ！",
-          "position": "center",
-          "expression": "normal",
-          "background": "gergovia_mountain",
-          "characters": []
-        },
-        {
-          "type": "dialog",
           "character": "labienus",
           "text": "ええい、陣形が崩れた！ 突走った前線の部隊が完全に孤立してしまうぞ！",
           "position": "center",
@@ -3819,21 +3711,6 @@
             "title": "partir / venir",
             "text": "Les/その ennemis/敵は partent/去る(出発する). La/その victoire/勝利は vient/来る à/〜へ nous/我々(の元) ! partentは不規則動詞partir（去る・出発する）の3人称複数形。vientはvenir（来る）の3人称単数形です。"
           }
-        },
-        {
-          "type": "dialog",
-          "character": "caesar",
-          "text": "……退け！ 全軍、直ちに撤退せよ！！",
-          "position": "center",
-          "expression": "normal",
-          "background": "gergovia_mountain",
-          "characters": [
-            {
-              "id": "caesar",
-              "expression": "normal",
-              "position": "center"
-            }
-          ]
         },
         {
           "type": "dialog",

@@ -2829,6 +2829,2115 @@
           "unlockedEpisodeId": null
         }
       ]
+    },
+    {
+      "episodeId": "ep_2_7",
+      "episodeTitle": "第2-7話: カール大帝、ローマ皇帝戴冠",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+        "garden": "url('assets/story/chapter_2/庭園.webp')",
+        "monastery": "url('assets/story/chapter_2/修道院.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "forest": "url('assets/story/chapter_2/森.webp')",
+        "castle": "url('assets/story/chapter_2/城.webp')",
+        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
+        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
+        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
+        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "charlemagne": {
+          "name": "カール大帝",
+          "images": {
+            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
+            "persuade": "assets/story/chapter_2/カール大帝説得.png",
+            "understand": "assets/story/chapter_2/カール大帝納得.png",
+            "question": "assets/story/chapter_2/カール大帝問い.png",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png"
+          }
+        },
+        "desiderius": {
+          "name": "デシデリウス",
+          "images": {
+            "default": "assets/story/chapter_2/デシデリウス激怒.png",
+            "normal": "assets/story/chapter_2/デシデリウス激怒.png",
+            "angry": "assets/story/chapter_2/デシデリウス激怒.png",
+            "despair": "assets/story/chapter_2/デシデリウス絶望.png"
+          }
+        },
+        "leo3": {
+          "name": "教皇（レオ3世）",
+          "images": {
+            "default": "assets/story/chapter_2/Gemini_Generated_Image_.webp",
+            "normal": "assets/story/chapter_2/Gemini_Generated_Image_.webp",
+            "troubled": "assets/story/chapter_2/教皇困る.webp",
+            "surprised": "assets/story/chapter_2/教皇驚き.webp",
+            "smile": "assets/story/chapter_2/教皇笑み.webp",
+            "apology": "assets/story/chapter_2/教皇謝罪.webp",
+            "evil": "assets/story/chapter_2/教皇邪悪.webp"
+          }
+        },
+        "subordinate": {
+          "name": "部下"
+        },
+        "commander": {
+          "name": "指揮官"
+        },
+        "people": {
+          "name": "民衆"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "『ピピンの寄進』により教皇との結びつきを得たカロリング朝。768年、王ピピンの死に伴い、一人の傑物が王位を継承した。彼こそが、身長195cmの巨体と鋼の筋肉を持ち、戦場では――",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "前置きが長いぞ、ナレーション",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "……え？",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "過去の偉業は親父のものだ。俺の覇道は、俺自らの行動で示そう",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（……マイク奪われた）",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "よく言うだろう『Acta non verba（言葉より行動を）』。俺はフランク王国を偉大なものとするため、この荒れたヨーロッパを平定する。まずは……北イタリアのランゴバルドからだ",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "カール大帝（シャルルマーニュ）。ドイツ語読みがカール、フランス語読みがシャルル、英語読みがチャールズである。ドイツのアーヘンには、彼の命で建てられた、大聖堂が未だ残る。\n【Acta non verba（アクタ・ノン・ヴェルバ）】「言葉ではなく行動を」という意味のラテン語の格言。カール大帝はギリシア語、ラテン語をも理解し、文字は書けなかったものの知性的な面もある。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カールが最初に矛先を向けたのは、元妻の父が治めるランゴバルド王国であった。彼は大軍を率いて王都を包囲し、城門の前で静かに呼びかけた。",
+          "position": "center",
+          "background": "charlemagne_battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "義父殿。城門を開け、降伏してください。これ以上の無駄な血は流したくない",
+          "position": "center",
+          "expression": "persuade",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "persuade",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "だまれカール！ どの面下げてやって来た！",
+          "position": "center",
+          "expression": "angry",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "カールの元嫁の父であるランゴバルド王デシデリウス。娘を離縁された恨みから教皇領に侵攻し、フランク王国との全面対決を招いてしまった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "わしのかわいい娘を『病弱だから』とたった一年で離縁しおって！ そのうえ我が歴史あるランゴバルドを滅ぼそうなどと、絶対に許さんぞ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……娘御のことは、いくら詫びても足りぬ。だが、強大なフランクをまとめるには強健な跡継ぎが必要だったのだ",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Soyez raisonnable ! (分別を持ちなさい！)",
+          "position": "center",
+          "expression": "persuade",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "persuade",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「理性的になってください/分別を持ってください」\nSoyez (〜であれ: êtreのvousに対する命令形) ＋ raisonnable (理性的な/分別のある)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "ええい、知ったことか！ 貴様のような若造に、我らの分厚い城壁と精鋭部隊が破れるものか！ 全軍、放てェッ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "デシデリウスの号令とともに、城壁から無数の矢と岩石が降り注ぐ。ランゴバルドの守りはカールの想像を絶するほど堅牢であり、情ゆえに攻撃を躊躇していたフランク軍は思わぬ苦戦を強いられた。",
+          "position": "center",
+          "background": "charlemagne_battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "陛下！ 敵の防衛が予想以上です！ 被害が拡大しています、ここは一度退きましょう！",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "commander",
+          "text": "Reculez ! (後退せよ！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「後退せよ/退け！」\nReculez (後退する: reculerの命令形)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "くっ……！ 義父殿....!!!",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_battlefield",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "代名動詞の受動用法",
+              "referenceTopicId": "ref_pronominal_verbs",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "義父デシデリウスの執念と堅守",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 4
+            },
+            {
+              "tag": "#near_past",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "フランク軍が押し込まれる中、カールは飛来する矢を巨大な戦斧で払い除けながら、深く息を吐いた。",
+          "position": "center",
+          "background": "castle",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Ne reculez pas ! (退くな！)",
+          "position": "center",
+          "expression": "persuade",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "persuade",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「後退するな！」\nNe ＋ reculez (退く: reculerの命令形) ＋ pas。命令形の否定表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……お義父さんといえども、これ以上フランクと教皇の平和を乱すのであれば……容赦はできませんぞ！！",
+          "position": "center",
+          "expression": "persuade",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "persuade",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "ほざけ！ 貴様にこの壁が越えられるものかァ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Je viens de prendre ma décision. (たった今、決断を下した)",
+          "position": "center",
+          "expression": "axe_swing",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "axe_swing",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はたった今、決断を下したところだ」\nJe (私は) ＋ viens de prendre (取ったばかりだ: venir de ＋ 原形) ＋ ma décision (私の決断)。決意を表す近接過去です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "『Alea iacta est（賽は投げられた）』。もはや後戻りはせん！",
+          "position": "center",
+          "expression": "axe_swing",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "axe_swing",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Alea iacta est（アレア・ヤクタ・エスト）】古代ローマの英雄カエサルがルビコン川を渡る際に放ったとされる有名なラテン語。→Narrator:「（ドゴォォォン！！）直後、カールの戦斧の全力の一撃が、ランゴバルドが誇る強固な城門を、粉々に吹き飛ばした。」"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "ひ、ひぃぃっ！？ な、なんだその規格外の馬鹿力は！？ 門が、たった一撃で……っ！？",
+          "position": "center",
+          "expression": "despair",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "despair",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "これがフランクの力だ。これで終わりです、お義父さん",
+          "position": "center",
+          "expression": "persuade",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "persuade",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Je viens de détruire la porte. Rendez-vous ! (たった今、門を破壊した。降伏せよ！)",
+          "position": "center",
+          "expression": "question",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「たった今、門を破壊したところだ。降伏しなさい！」\nJe (私は) ＋ viens de détruire (破壊したばかりだ: venir de ＋ 原形) ＋ la porte (門)。Rendez-vous (降伏せよ: se rendreの命令形)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "desiderius",
+          "text": "バ、バケモノめ……！ この鬼がァァッ！",
+          "position": "center",
+          "expression": "despair",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "desiderius",
+              "expression": "despair",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "フランクの未来の為なら、俺は鬼にでも悪魔にでもなりましょう。全ては天命にあり",
+          "position": "center",
+          "expression": "question",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "代名動詞の受動用法",
+              "referenceTopicId": "ref_pronominal_verbs",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "反逆派",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_past",
+              "count": 4
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "その後もカールは四方へ無敗の快進撃を続け、ヨーロッパの大半を平定した。そして...",
+          "position": "center",
+          "background": "church_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "そして、西暦800年のクリスマス。教皇（レオ3世）殿は、反対派の貴族たちから命を狙われ、俺に保護を求めていたのだ",
+          "position": "center",
+          "expression": "normal",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ちょ、僕の仕事！",
+          "position": "center",
+          "background": "church_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "そうしてクリスマスに現バチカン市国のサンピエトロ大聖堂に向かった…。",
+          "position": "center",
+          "expression": "satisfied",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "satisfied",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そーいうことです・・・",
+          "position": "center",
+          "background": "church_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "（ミサの最中だというのに、ここらの治安はひどく荒れているな。……ん？）",
+          "position": "center",
+          "expression": "puzzled",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "puzzled",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "（……はぁ、はぁ、この王冠、純金だからめちゃくちゃ重いのぅ……！ 落としたら一大事じゃ……！）",
+          "position": "center",
+          "expression": "normal",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "leo3",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……教皇殿。背後で荒い息を立て、金属音を鳴らして何をしている？",
+          "position": "center",
+          "expression": "question",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "ひぃぃっ！？ ば、バレておったのか！？",
+          "position": "center",
+          "expression": "normal",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "leo3",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "うむ、息遣いも足音もバレバレである",
+          "position": "center",
+          "expression": "normal",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "（小声）頼むカール殿、振り返らないでくれ！ 気付かなかったことにして、この王冠を被ってくれぇ！",
+          "position": "center",
+          "expression": "apology",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "leo3",
+              "expression": "apology",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……は？",
+          "position": "center",
+          "expression": "surprised",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "surprised",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "（小声）これを貴方様が被って『ローマ皇帝』になってくだされば、わしを狙う暴漢どもも手を出せなくなるんじゃ！ わしの命がかかっておる！ お願いじゃぁぁ！",
+          "position": "center",
+          "expression": "troubled",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "leo3",
+              "expression": "troubled",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "（ポンッ）……あぁ、そういうこと。",
+          "position": "center",
+          "expression": "understand",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "understand",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "（小声）……ふむそうか。ではここで止まっていればよいのだな？",
+          "position": "center",
+          "expression": "normal",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "（お、おお！ さすがカール殿、話が早い！）",
+          "position": "center",
+          "expression": "smile",
+          "background": "church_inside",
+          "characters": [
+            {
+              "id": "leo3",
+              "expression": "smile",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "冠をカールに乗せた直後直後、教皇（レオ3世）はわざとらしく咳払いをし、堂々たる声で聖堂全体に響き渡るように宣言した。",
+          "position": "center",
+          "background": "charlemagne_coronation",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "En l'an huit cents, un nouvel empereur est né ! (800年、新たな皇帝が誕生した！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_coronation",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「（西暦）800年において、一人の新しい皇帝が生まれた！」\nEn l'an (〜年において) ＋ huit cents (800: 数字の8＋100の複数形)。年号など大きな数字を読む練習です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "leo3",
+          "text": "La couronne se donne à Charles ! (王冠はカールに与えられた！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_coronation",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「王冠はカール（シャルル）に与えられた」\nLa couronne (王冠) ＋ se donne (与えられる: se ＋ donner) ＋ à Charles (カールに)。モノを主語にして「se ＋ 動詞」とする受動的代名動詞の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "people",
+          "text": "おおお！ 気高きカール、神によって加冠され、偉大で平和的なるローマ人の皇帝、万歳！！ 万歳！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "charlemagne_coronation",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "『Vox populi, vox Dei（民の声は神の声）』……だったか。よかろう",
+          "position": "center",
+          "expression": "satisfied",
+          "background": "charlemagne_coronation",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "satisfied",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Vox populi, vox Dei（ヴォクス・ポプリ、ヴォクス・デイ）】「民衆の声は神の声である」というラテン語の格言。なお、この際集められた周りの人たちも、教皇によって集められた。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Je vais protéger l'Europe. (余がヨーロッパを守ろう)",
+          "position": "center",
+          "expression": "satisfied",
+          "background": "charlemagne_coronation",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "satisfied",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私がヨーロッパを守護するつもりだ」\nJe (私は) ＋ vais protéger (守るつもりだ: aller ＋ protéger) ＋ l'Europe (ヨーロッパ)。近い未来（近接未来）の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "この茶番めいた一幕こそが、西ローマ帝国が事実上の『復活』を遂げた、ヨーロッパ史最大の転換点であった。",
+          "position": "center",
+          "background": "charlemagne_coronation",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "代名動詞の受動用法",
+              "referenceTopicId": "ref_pronominal_verbs",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "ローマ皇帝の戴冠劇",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#passive_pronominal_verbs",
+              "count": 4
+            },
+            {
+              "tag": "#near_future",
+              "count": 4
+            },
+            {
+              "tag": "#numbers",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 190,
+          "unlockedEpisodeId": "ep_2_8"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_8",
+      "episodeTitle": "第2-8話: カール大帝の帝国とルネサンス",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+        "garden": "url('assets/story/chapter_2/庭園.webp')",
+        "monastery": "url('assets/story/chapter_2/修道院.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "forest": "url('assets/story/chapter_2/森.webp')",
+        "castle": "url('assets/story/chapter_2/城.webp')",
+        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
+        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
+        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
+        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
+        "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
+        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
+        "letter": "url('assets/story/chapter_2/手紙.jpg')",
+        "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+        "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "charlemagne": {
+          "name": "カール大帝",
+          "images": {
+            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
+            "persuade": "assets/story/chapter_2/カール大帝説得.png",
+            "understand": "assets/story/chapter_2/カール大帝納得.png",
+            "question": "assets/story/chapter_2/カール大帝問い.png",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png",
+            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.png",
+            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.png",
+            "squat": "assets/story/chapter_2/カール大帝スクワット.png"
+          }
+        },
+        "irene": {
+          "name": "エイレーネー",
+          "images": {
+            "default": "assets/story/chapter_2/エイレーネー立ち絵.png",
+            "normal": "assets/story/chapter_2/エイレーネー立ち絵.png",
+            "angry": "assets/story/chapter_2/エイレーネー怒り.png",
+            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.png",
+            "blush": "assets/story/chapter_2/エイレーネー照れ.png",
+            "question": "assets/story/chapter_2/エイレーネー問い.png",
+            "determined": "assets/story/chapter_2/エイレーネー決意.png"
+          }
+        },
+        "east_subordinate": {
+          "name": "東ローマの部下"
+        },
+        "child": {
+          "name": "子供"
+        },
+        "subordinate": {
+          "name": "部下"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "西暦800年、ローマ皇帝として戴冠したカール大帝。彼はヨーロッパの覇者として、フランク王国の宮殿で優雅に政務を――",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "フンッ……！ ハッ……！ サイドチェストォォォッ！！",
+          "position": "center",
+          "expression": "side_chest",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "side_chest",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "…………え？ 陛下、何をして……",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "見よ、この完璧にパンプアップされた大胸筋を！ 古代ギリシアの彫刻家ペイディアスが削り出したかのような、神々の肉体美！ ギリシア哲学で言うところの『Kalokagathia（カロカガティア）』の体現である！",
+          "position": "center",
+          "expression": "side_chest",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "side_chest",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（こ、皇帝が突然、筋トレのポージングをしながら古代ギリシア哲学を語り出した……！？）",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "ナレーションよ、ラテン語の詩人ユウェナリスの言葉を知っているか？ 『Mens sana in corpore sano（健全なる精神は健全なる肉体に宿る）』だ！",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "真の統治者たるもの、脳みそだけでなく上腕二頭筋もパンプアップさせねばならんのだ！ フロント・ダブル・バイセップス！！",
+          "position": "center",
+          "expression": "front_double_biceps",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "front_double_biceps",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Je vais montrer de la force. (余が力を示そう)",
+          "position": "center",
+          "expression": "front_double_biceps",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "front_double_biceps",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "カール大帝。史実では身長195cm小太りであった。カロカガティアとは、古代ギリシアにおける「美しく、かつ善いこと（善美の調和）」を指す理想の概念である。\n意味: 「私は力を示すつもりだ」 Je vais montrer (私は示すつもりだ: aller ＋ montrer) ＋ de la force (力を)。数えられない抽象名詞（力）には部分冠詞「de la」を使います。近接未来と部分冠詞の組み合わせです。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "（なんだこの筋肉バカは……ヨーロッパ終わったな……）",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……と、お前は今そう思っただろう？",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ヒッ！？",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "筋肉と力だけでは国は治まらん。今のフランク王国に圧倒的に足りないもの……それは『教育と芸術』だ。余はイングランドから大学者アルクィンを招き、古典文化を復興させる一大文化事業『カロリング・ルネサンス』を推進する！",
+          "position": "center",
+          "expression": "normal",
+          "background": "white_mic",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "…だそーです。",
+          "position": "center",
+          "background": "white_mic",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "部分冠詞の基本用法",
+              "referenceTopicId": "ref_partitive_articles",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "歴史の試練",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#greetings",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "そんな文化事業が進む中、フランクの宮殿に凄まじい剣幕で乗り込んでくる女がいた。東ローマ（ビザンツ）帝国の女帝エイレーネーである。",
+          "position": "center",
+          "background": "palace",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "※エイレーネーとは東ローマ帝国初の女帝となったアテナイの人。皇帝の夫が亡くなり、息子が幼くして皇帝になったため、権威を握り、王位を簒奪した。なお史実では、エイレーネーが自らフランク王国へ赴いてカールと直接対面した記録はなく、あくまで書簡などでの外交交渉が行われていた。この辺は「本作独自改変」です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "どこよ！？ ローマ皇帝を僭称する野蛮なゲルマン人のカールって男は！！ 出てきなさい！！",
+          "position": "center",
+          "expression": "angry",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "C'est un grand roi barbare ! (あいつは野蛮でデカい王よ！)",
+          "position": "center",
+          "expression": "angry",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "east_subordinate",
+          "text": "（エイレーネー様……カールよりあなた様の方がよっぽどゴリラなのでは……）",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「彼は一人の野蛮で大きな王だ！」 C'est (彼は〜だ) ＋ un grand (大きな: 男性単数形容詞) ＋ roi (王) ＋ barbare (野蛮な: 男性単数形容詞)。フランス語の形容詞は基本的に名詞の後ろ（barbare）に置かれますが、grand など一部の短い形容詞は名詞の前につきます。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "何か言ったかしら？（ギリギリと大理石の柱を握りつぶす）",
+          "position": "center",
+          "expression": "angry",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "east_subordinate",
+          "text": "ヒィッ！ な、何も言っておりません！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "怒り狂う女帝の前に、ようやくカール本人が姿を現した。",
+          "position": "center",
+          "background": "palace",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "騒々しいな。『Veni, vidi, vici（来た、見た、勝った）』……とは言うが、東ローマの女帝自ら我が宮殿へカチコミに来るとは驚きだ。余がカールだが、何か用か？」 Irene（怒り）:「あなたがカールね！ この野蛮なフランクの……フランクの……",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カールの195cmの巨体と、スーツの上からでもわかる完璧に鍛え上げられた筋肉。そして、知性と威厳に満ちた銀髪の英雄を目の当たりにし、エイレーネーの動きがピタリと止まった。",
+          "position": "center",
+          "background": "palace",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "（……な、何よこの男……知性が溢れてるのに、ギリシア彫刻みたいな身体して……意外といい男じゃない……ポッ）",
+          "position": "center",
+          "expression": "in_love",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "in_love",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "C'est un bel homme... (いい男だわ……)",
+          "position": "center",
+          "expression": "in_love",
+          "background": "palace",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "in_love",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「彼は美しい男だ」 C'est (彼は〜だ) ＋ un bel (美しい: beauの特殊な形) ＋ homme (男)。母音で始まる男性名詞（homme）の前では、beau が bel に変化します。"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "形容詞の位置と性数一致",
+              "referenceTopicId": "ref_adjective_agreement",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "歴史の試練",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#greetings",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "あ、あのねカール殿。その……私と結婚して、西と東のローマを一つにするっていうのはどうかしら？（モジモジ）",
+          "position": "center",
+          "expression": "blush",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "blush",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "east_subordinate",
+          "text": "（あんなに暴れてたのに、すっかり猫撫で声になってる……）",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "（完全にスルーして自国の部下に）……それよりも、修道院に併設する新しい学校の建設はどうなっている？ 古代ローマの書物を書き写す羊皮紙は足りているか？",
+          "position": "center",
+          "expression": "puzzled",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "puzzled",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "むきー！！何なのよっ！！私を無視するんじゃないわよっ！！（床をガンガン踏み割る）",
+          "position": "center",
+          "expression": "angry",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "east_subordinate",
+          "text": "エイレーネー様っ！！出てます、素が出ちゃってます！！",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "ん？ おお、そこにいるのは学び舎の子供か。字は読めるようになったか？",
+          "position": "center",
+          "expression": "puzzled",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "puzzled",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "child",
+          "text": "はい、皇帝陛下！ カロリング小文字体で、ラテン語の詩が読めるようになりました！",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "よくやった。（屈み込み、優しく子供の頭を撫でながら）ローマの哲学者セネカはこう言った。『Non scholae, sed vitae discimus（我々は学校のためではなく、人生のために学ぶのだ）』とな。お前のその知識が、いつかフランクの光となるだろう",
+          "position": "center",
+          "expression": "satisfied",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "satisfied",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Les enfants vont aux écoles et aux églises. (子供たちは学校や教会へ通うのだ)",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Non scholae, sed vitae discimus】「我々は学校（授業）のためではなく、人生のために学ぶのだ」という、古代ローマの哲学者セネカの有名な格言。\n意味: 「子供たちは学校と教会へ行く」 Les enfants (子供たちは) ＋ vont (行く: allerの現在形) ＋ aux (à ＋ les の縮約冠詞) ＋ écoles (学校) ＋ et (と) ＋ aux (à ＋ les の縮約冠詞) ＋ églises (教会)。「aux」という縮約冠詞を連続して使う重要表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "（……っ！ マッチョでインテリなだけじゃなくて、子供にもあんなに優しいなんて……！ 流石だわ……）",
+          "position": "center",
+          "expression": "blush",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "blush",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "カール大帝は教育と芸術の復興に並々ならぬ情熱を注いだ。なお、広大な帝国を治めるにあたり、直轄地の経済を安定させる【荘園令】の発布や、中央から地方を監視する【巡察使】の派遣など、行政面での統治システムも完璧に整備していたのである。 Narrator:「最強の武力、最高の知性、そして民への慈愛。西ヨーロッパを真に統一したこの大英雄の治世の下、フランク王国は未曾有の黄金時代を迎えたのであった。」"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "前置詞と定冠詞の縮約",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "歴史の試練",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#greetings",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "type": "reward",
+          "xp": 200,
+          "unlockedEpisodeId": "ep_2_9"
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_2_9",
+      "episodeTitle": "第2-9話: カール大帝の死と帝国の分裂",
+      "recommendedPlayTime": "5 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
+        "garden": "url('assets/story/chapter_2/庭園.webp')",
+        "monastery": "url('assets/story/chapter_2/修道院.webp')",
+        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
+        "forest": "url('assets/story/chapter_2/森.webp')",
+        "castle": "url('assets/story/chapter_2/城.webp')",
+        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
+        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
+        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
+        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
+        "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
+        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
+        "letter": "url('assets/story/chapter_2/手紙.jpg')",
+        "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+        "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
+      },
+      "characters": {
+        "hero": {
+          "name": "主人公"
+        },
+        "charlemagne": {
+          "name": "カール大帝",
+          "images": {
+            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
+            "persuade": "assets/story/chapter_2/カール大帝説得.png",
+            "understand": "assets/story/chapter_2/カール大帝納得.png",
+            "question": "assets/story/chapter_2/カール大帝問い.png",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png",
+            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.png",
+            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.png",
+            "squat": "assets/story/chapter_2/カール大帝スクワット.png"
+          }
+        },
+        "irene": {
+          "name": "エイレーネー",
+          "images": {
+            "default": "assets/story/chapter_2/エイレーネー立ち絵.png",
+            "normal": "assets/story/chapter_2/エイレーネー立ち絵.png",
+            "angry": "assets/story/chapter_2/エイレーネー怒り.png",
+            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.png",
+            "blush": "assets/story/chapter_2/エイレーネー照れ.png",
+            "question": "assets/story/chapter_2/エイレーネー問い.png",
+            "determined": "assets/story/chapter_2/エイレーネー決意.png"
+          }
+        },
+        "east_subordinate": {
+          "name": "東ローマの部下"
+        },
+        "child": {
+          "name": "子供"
+        },
+        "subordinate": {
+          "name": "部下"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "フランク王国の宮殿へカチコミに来たものの、カールの圧倒的な筋肉と知性にすっかり惚れ込んでしまった東ローマの女帝エイレーネー。彼女はそのまましばらく宮殿に滞在していた。",
+          "position": "center",
+          "background": "castle",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "フンッ……！ ハッ……！ 8….9…！ Shut up and Squat",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "スクワットはキングオブエクササイズ！みんなもやろう！！"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "Irene（問い）:「Écoute-moi, Charles ! (私の話を聞いて、カール！)」\nÉcoute (聞く: écouterのtuに対する命令形) ＋ moi (私を)。親しい相手に対する命令形です。",
+          "position": "center",
+          "background": "castle",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私の話を聞いて！」"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "ねえ、聞いて。真面目な話があるの",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "なんだエイレーネー。バーベルを担いだままでもよければ聞こう",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "あのね…… 私が東の皇帝で、あなたが西の皇帝でしょ。私たち結婚して、分裂した巨大なローマ帝国を、復活させるのってどう？",
+          "position": "center",
+          "expression": "question",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "ふむ…古代ギリシアのアリストテレスも言っているように、理想の国家には強靭な肉体と知性の両輪が必要だ。東の富と文化、西の武力と信仰……理にかなってはいるな",
+          "position": "center",
+          "expression": "question",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "でしょ？ 野蛮な争いはもう終わりにしましょう。二人の力なら、きっと平和で完璧なヨーロッパが作れるわ",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "normal",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……東西ローマの統合、か",
+          "position": "center",
+          "expression": "question",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "だが、東西の文化や宗教の違いをまとめるのは容易ではない。ラテン語の格言に言うだろう、『Per aspera ad astra（困難を乗り越えて星々へ）』と。ローマの復活という星にたどり着くまでは、途方もないいばらの道だぞ",
+          "position": "center",
+          "expression": "puzzled",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "puzzled",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Per aspera ad astra（ペル・アスペラ・アド・アストラ）】「困難を乗り越えて星々（栄光）へ」という意味のラテン語の格言。偉大な功績までは困難があるという表現。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "ふふっ。『Audentes fortuna iuvat（運命は大胆な者に味方する）』……っていうでしょ？",
+          "position": "center",
+          "expression": "normal",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Audentes fortuna iuvat（アウデンテース・フォルトゥーナ・ユヴァト）】「運命は大胆な者に味方する」という意味のラテン語の格言。ローマの詩人ウェルギリウスの叙事詩に登場する。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "私たちなら、どんな困難だって乗り越えて星に手が届くわ。……ううん、あなたとやり遂げたいのよ",
+          "position": "center",
+          "expression": "determined",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "irene",
+              "expression": "determined",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "Irene（決意）:「Je vais créer un nouvel empire. (私が新しい帝国を創るわ)」\nJe (私は) ＋ vais créer (創るつもりだ: aller ＋ créer(創る)) ＋ un nouvel (新しい: nouveauの特殊形) ＋ empire (帝国)。「aller ＋ 動詞の原形」を用いた近接未来の表現です。",
+          "position": "center",
+          "background": "castle",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私は新しい帝国を創るつもりだ」"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……フッ。分かった、お前がそこまで言うのなら受けてたとう",
+          "position": "center",
+          "expression": "satisfied",
+          "background": "castle",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "satisfied",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "Charlemagne（満足）:「Nous allons faire l'histoire ! (我々が歴史を創るのだ！)」\nNous (私たちは) ＋ allons faire (する/創るつもりだ: aller ＋ faire) ＋ l'histoire (歴史)。",
+          "position": "center",
+          "background": "castle",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私たちは歴史を創るつもりだ」"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "命令法（指示と号令）",
+              "referenceTopicId": "ref_imperative",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "新たなローマのビジョンと大胆な夢",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_future",
+              "count": 4
+            },
+            {
+              "tag": "#imperative",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "二人の間に確かな約束が交わされてから数ヶ月後。東ローマへ帰国したエイレーネーから、一通の密書が届いた。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "Charlemagne（フロントダブルバイセップス）:「Je viens de recevoir une lettre de l'est. (たった今、東から手紙を受け取った)」\nJe (私は) ＋ viens de recevoir (受け取ったばかりだ: venir de ＋ recevoir) ＋ une lettre (一通の手紙) ＋ de l'est (東からの)。近接過去の表現です。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はたった今、東からの手紙を受け取ったところだ」"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "エイレーネーからか。準備が整ったという知らせだろう……ん？ 何だこれは",
+          "position": "center",
+          "expression": "question",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "手紙には震えるような字で、こう記されていた。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "『……ごめんなさい、カール。どうやら私たちの夢はここまでのようね。国に戻った直後、財務長官のニケフォロスたちにクーデターを起こされたわ』",
+          "position": "center",
+          "expression": "normal",
+          "background": "letter",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "『私は玉座を奪われ、レスボス島へ流罪になった。ギリシアの古い言葉に【Ἀνάγκη（アナンケ）】……逃れられない「必然」や「運命」を表す言葉があるけれど、私の栄光もその運命に飲み込まれてしまったみたい』",
+          "position": "center",
+          "expression": "normal",
+          "background": "letter",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Ἀνάγκη（アナンケ）】古代ギリシア語で「必然」「宿命」「運命」を意味する言葉。擬人化された女神としても知られ、抗えない力に対する彼女の哀愁が漂う言葉です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "『でも、あなたと夢を語り合ったあの時間は……私の人生で一番幸せだった。さようなら、私の愛した大胆な皇帝』",
+          "position": "center",
+          "expression": "normal",
+          "background": "letter",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "irene",
+          "text": "Je viens de perdre ma couronne. (私はたった今、王冠を失ったわ)",
+          "position": "center",
+          "expression": "normal",
+          "background": "letter",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はたった今、王冠を失ったところだ」\nJe (私は) ＋ viens de perdre (失ったばかりだ: venir de ＋ perdre(失う)) ＋ ma (私の) ＋ couronne (王冠)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "……",
+          "position": "center",
+          "expression": "question",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "question",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "カールは静かに手紙を折りたたみ、東の空へ向かって深く一礼した。",
+          "position": "center",
+          "background": "palace_inside",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "『Sic transit gloria mundi（かくのごとく世界の栄光は過ぎ去る）』か。……運命に殉じたか。見事な生き様だったぞ、東の女帝よ",
+          "position": "center",
+          "expression": "normal",
+          "background": "palace_inside",
+          "characters": [
+            {
+              "id": "charlemagne",
+              "expression": "normal",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "【Sic transit gloria mundi（シク・トランシット・グロリア・ムンディ）】「このように世界の栄光は過ぎ去っていく」という、栄枯盛衰を表すラテン語の有名な格言。"
+          }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "近接過去 (venir de + 原形)",
+              "referenceTopicId": "ref_near_future_past",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "女帝の失脚と過ぎ去りし栄光",
+          "enemyHp": 7,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#near_past",
+              "count": 4
+            },
+            {
+              "tag": "#verbs",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "それから十数年後の西暦814年。強靭な肉体と無敵の武力を誇った大英雄カール大帝も、ついに老いと病の影に勝てず、死の床に伏していた。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "ゲホッ……ゴホッ。どうやら、俺も限界のようだな……",
+          "position": "center",
+          "expression": "normal",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "subordinate",
+          "text": "へ、陛下！ 弱音を吐かないでください！",
+          "position": "center",
+          "expression": "normal",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Ne pleurez pas ! (泣くな！)",
+          "position": "center",
+          "expression": "normal",
+          "background": "sickroom",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「泣くな！」\nNe ＋ pleurez (泣く: pleurerのvousに対する命令形) ＋ pas。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "人は必ず死ぬ。あとは、息子や孫たちがこの帝国を正しく導いてくれるだろう……",
+          "position": "center",
+          "expression": "normal",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": "charlemagne",
+          "text": "Je vais laisser cet empire aux petits-fils. (余はこの帝国を孫たちに遺そう)",
+          "position": "center",
+          "expression": "normal",
+          "background": "sickroom",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "意味: 「私はこの帝国を孫たちに遺すつもりだ」\nJe (私は) ＋ vais laisser (遺す/残すつもりだ: aller ＋ laisser) ＋ cet empire (この帝国を) ＋ aux (à ＋ les の縮約冠詞) ＋ petits-fils (孫たちに)。近接未来と縮約冠詞（aux）の組み合わせです。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "家臣たちのむせび泣く声が響く中、偉大なるヨーロッパの父、カール大帝は静かに息を引き取った。享年71歳の大往生であった。",
+          "position": "center",
+          "background": "sickroom",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "しかし、彼の死は巨大すぎた帝国に歪みをもたらす。カリスマを失ったフランク王国では、孫たちの間で凄惨な領土争いが勃発したのだ。",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "正確には、カール大帝ののちは一代単一の息子が土地を相続した。しかし孫の代ではゲルマン人の「分割相続」が原因で一つの巨大な帝国は、もはやまとまることはできなかった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "長きにわたる内乱の末、孫たちは妥協案として帝国を3つに切り分けることに合意する。それが、843年の【ヴェルダン条約】、そして870年の【メルセン条約】である。",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": [],
+          "learningPoint": {
+            "title": "語句解説",
+            "text": "三人の孫たちによる争いはメルセン条約を以て落ち着きを見せる。メルセン条約\nでは中フランク王国がその他の国にほぼ吸収される形で、姿をなくした。"
+          }
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "これにより巨大なフランク王国は解体され、現在の『フランス』『ドイツ』『イタリア』の原形が生まれた。",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ゲルマン人の大移動から始まり、英雄達が築き上げ、そして分割された巨大帝国。彼らの残したキリスト教の信仰と学問の光は国境を越え、現在我々が知る『ヨーロッパ』という一つの概念の確かな起源となったのである。",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "縮約冠詞と近接未来の総合",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fixedBattle",
+          "enemyName": "帝国の分裂とヨーロッパの誕生",
+          "enemyHp": 12,
+          "enemyDamage": 2,
+          "criteria": [
+            {
+              "tag": "#contracted_articles",
+              "count": 4
+            },
+            {
+              "tag": "#verbs",
+              "count": 4
+            },
+            {
+              "tag": "#near_future",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "【第2章 フランク王国 ― メロヴィング朝からカロリング朝へ】 完",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "character": null,
+          "text": "ヨーロッパの礎×1、経験値 200 Exp",
+          "position": "center",
+          "background": "mersen_verdun",
+          "characters": []
+        },
+        {
+          "type": "reward",
+          "xp": 210,
+          "unlockedEpisodeId": null
+        }
+      ]
     }
   ]
 }

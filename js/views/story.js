@@ -118,7 +118,7 @@ function getMarieHelperHtml(question) {
     <div class="marie-helper-wrapper" style="margin-top: 0.8rem; width: 100%;">
       <div style="display: flex; justify-content: flex-end; margin-bottom: 0.4rem;">
         <button type="button" class="action-btn marie-toggle-btn" style="padding: 0.25rem 0.6rem; font-size: 0.75rem; background: #374151; color: white; border-radius: var(--radius-sm); border: 1px solid rgba(197, 168, 128, 0.3); cursor: pointer; display: flex; align-items: center; gap: 4px;">
-          <span>👸 アントワネットの助言:</span>
+          <span>👸 マリーの助言:</span>
           <strong class="marie-status-text" style="color: ${isEnabled ? '#81C784' : '#E57373'};">${isEnabled ? 'ON' : 'OFF'}</strong>
         </button>
       </div>

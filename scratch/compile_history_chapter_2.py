@@ -18,7 +18,20 @@ char_map = {
     "Clovis": "clovis",
     "執事": "steward",
     "一般兵": "soldier",
-    "暗殺者": "assassin"
+    "暗殺者": "assassin",
+    "Charlemagne": "charlemagne",
+    "カール大帝": "charlemagne",
+    "Desiderius": "desiderius",
+    "デシデリウス": "desiderius",
+    "教皇（レオ3世）": "leo3",
+    "教皇": "leo3",
+    "部下": "subordinate",
+    "指揮官": "commander",
+    "民衆": "people",
+    "Irene": "irene",
+    "エイレーネー": "irene",
+    "東ローマの部下": "east_subordinate",
+    "子供": "child"
 }
 
 background_urls = {
@@ -28,10 +41,19 @@ background_urls = {
     "monastery": "url('assets/story/chapter_2/修道院.webp')",
     "battlefield": "url('assets/story/chapter_2/戦場.webp')",
     "forest": "url('assets/story/chapter_2/森.webp')",
-    "castle": "url('assets/story/chapter_2/城.webp')"
+    "castle": "url('assets/story/chapter_2/城.webp')",
+    "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
+    "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
+    "church_inside": "url('assets/story/chapter_2/教会内.webp')",
+    "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
+    "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
+    "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
+    "letter": "url('assets/story/chapter_2/手紙.jpg')",
+    "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+    "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
 }
 
-def map_bg(name):
+def map_bg(name, ep_num):
     name = name.replace('[', '').replace(']', '').replace('背景:', '').replace('背景', '').strip()
     if "地図" in name:
         return "roma_empire_map"
@@ -40,13 +62,29 @@ def map_bg(name):
     elif "修道院" in name:
         return "monastery"
     elif "戦場" in name:
-        return "battlefield"
+        return "charlemagne_battlefield" if ep_num == 7 else "battlefield"
     elif "森" in name:
         return "forest"
     elif "黒" in name:
         return "bgBlack"
     elif "城" in name:
         return "castle"
+    elif "マイク" in name:
+        return "white_mic"
+    elif "教会内" in name:
+        return "church_inside"
+    elif "戴冠" in name:
+        return "charlemagne_coronation"
+    elif name == "宮殿":
+        return "palace"
+    elif "宮殿内" in name:
+        return "palace_inside"
+    elif "手紙" in name:
+        return "letter"
+    elif "病室" in name:
+        return "sickroom"
+    elif "メルセン" in name or "ヴェルダン" in name:
+        return "mersen_verdun"
     return None
 
 def get_expression_id(char_id, expr_name):
@@ -69,6 +107,35 @@ def get_expression_id(char_id, expr_name):
         if "怒り" in expr_name: return "angry"
         if "池" in expr_name: return "pond"
         if "すねる" in expr_name or "腕組" in expr_name: return "pout"
+    elif char_id == "charlemagne":
+        if "満足" in expr_name: return "satisfied"
+        if "訝し" in expr_name or "訝し気" in expr_name: return "puzzled"
+        if "驚き" in expr_name: return "surprised"
+        if "説得" in expr_name: return "persuade"
+        if "納得" in expr_name: return "understand"
+        if "問い" in expr_name: return "question"
+        if "斧ふり" in expr_name: return "axe_swing"
+        if "サイドチェスト" in expr_name: return "side_chest"
+        if "フロントダブルバイセップス" in expr_name: return "front_double_biceps"
+        if "スクワット" in expr_name: return "squat"
+        if "立ち絵" in expr_name: return "normal"
+        if "涙" in expr_name: return "normal"
+    elif char_id == "desiderius":
+        if "激怒" in expr_name: return "angry"
+        if "絶望" in expr_name: return "despair"
+    elif char_id == "leo3":
+        if "困る" in expr_name: return "troubled"
+        if "驚き" in expr_name: return "surprised"
+        if "笑い" in expr_name or "笑み" in expr_name: return "smile"
+        if "謝罪" in expr_name: return "apology"
+        if "邪悪" in expr_name: return "evil"
+    elif char_id == "irene":
+        if "怒り" in expr_name: return "angry"
+        if "メロメロ" in expr_name: return "in_love"
+        if "照れ" in expr_name: return "blush"
+        if "問い" in expr_name: return "question"
+        if "決意" in expr_name: return "determined"
+        if "立ち絵" in expr_name: return "normal"
     return "normal"
 
 def normalize_tag(tag):
@@ -174,13 +241,13 @@ def parse_episode_text(ep_lines, ep_num):
         else:
             if (']' in line or '[' in line or '背景' in line) and len(line) < 40:
                 clean_line = line.replace('[', '').replace(']', '').replace('背景:', '').replace('背景', '').strip()
-                mapped = map_bg(clean_line)
+                mapped = map_bg(clean_line, ep_num)
                 if mapped:
                     found_bg = clean_line
                     cleaned_line = ""
                     
         if found_bg:
-            mapped_bg = map_bg(found_bg)
+            mapped_bg = map_bg(found_bg, ep_num)
             if mapped_bg:
                 active_bg = mapped_bg
             cleaned_line = cleaned_line.replace("#", "").replace("＃", "").strip()
@@ -212,7 +279,7 @@ def parse_episode_text(ep_lines, ep_num):
                     break
                 
                 clean_b_line = b_line.lstrip("*").lstrip("-").strip()
-                if "：" in clean_b_line or (":" in clean_b_line and not any(clean_b_line.startswith(p) for p in ["敵 /", "ボス名", "ボスHP", "出題タグ", "ノルマ", "敵のHP", "被ダメージ"])):
+                if "：" in clean_b_line or (":" in clean_b_line and not any(clean_b_line.startswith(p) for p in ["敵 /", "ボス名", "ボスHP", "出題タグ", "ノルマ", "敵のHP", "被ダメージ", "敵キャラクター", "出題範囲"])):
                     break
                     
                 if clean_b_line.startswith("ボス名") or clean_b_line.startswith("敵 /") or clean_b_line.startswith("敵キャラクター"):
@@ -304,13 +371,31 @@ def parse_episode_text(ep_lines, ep_num):
                     {"title": "代名動詞の受動用法", "referenceTopicId": "ref_pronominal_verbs", "sectionIndices": [1]}
                 ]
             elif ep_num == 8:
-                ref_pages = [
-                    {"title": "形容詞の性数一致", "referenceTopicId": "ref_adjective_agreement", "sectionIndices": [0]}
-                ]
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "部分冠詞の基本用法", "referenceTopicId": "ref_partitive_articles", "sectionIndices": [0]}
+                    ]
+                elif battle_idx == 2:
+                    ref_pages = [
+                        {"title": "形容詞の位置と性数一致", "referenceTopicId": "ref_adjective_agreement", "sectionIndices": [0]}
+                    ]
+                else:
+                    ref_pages = [
+                        {"title": "前置詞と定冠詞の縮約", "referenceTopicId": "ref_contracted_articles", "sectionIndices": [0, 1]}
+                    ]
             elif ep_num == 9:
-                ref_pages = [
-                    {"title": "近接未来と近接過去の総復習", "referenceTopicId": "ref_near_future_past", "sectionIndices": [0, 1]}
-                ]
+                if battle_idx == 1:
+                    ref_pages = [
+                        {"title": "命令法（指示と号令）", "referenceTopicId": "ref_imperative", "sectionIndices": [0]}
+                    ]
+                elif battle_idx == 2:
+                    ref_pages = [
+                        {"title": "近接過去 (venir de + 原形)", "referenceTopicId": "ref_near_future_past", "sectionIndices": [1]}
+                    ]
+                else:
+                    ref_pages = [
+                        {"title": "縮約冠詞と近接未来の総合", "referenceTopicId": "ref_contracted_articles", "sectionIndices": [0]}
+                    ]
                     
             if ref_pages:
                 sequence.append({
@@ -374,13 +459,27 @@ def parse_episode_text(ep_lines, ep_num):
                     step["flash"] = pending_flash
                     pending_flash = None
                     
-                # Character sprite logic (Rules applied: no sprite for monastery background, nor for steward, soldier, assassin, or Chapter 2-4)
+                # Character sprite logic
                 if char_key and char_key != "hero":
-                    no_sprite_chars = ["steward", "soldier", "assassin"]
+                    no_sprite_chars = ["steward", "soldier", "assassin", "subordinate", "commander", "people", "east_subordinate", "child"]
                     is_monastery = active_bg in ["monastery"]
                     is_ep4 = ep_num == 4
-                    if char_key in no_sprite_chars or is_monastery or is_ep4:
+                    is_coronation = active_bg == "charlemagne_coronation"
+                    no_sprite_bgs = ["letter", "sickroom"]
+                    
+                    if char_key in no_sprite_chars or is_monastery or is_ep4 or active_bg in no_sprite_bgs:
                         step["characters"] = []
+                    elif is_coronation:
+                        if expr_key == "satisfied":
+                            step["characters"] = [
+                                {
+                                    "id": char_key,
+                                    "expression": expr_key,
+                                    "position": "center"
+                                }
+                            ]
+                        else:
+                            step["characters"] = []
                     else:
                         step["characters"] = [
                             {
@@ -474,7 +573,23 @@ def main():
         if "クリア" not in title:
             valid_matches.append((ep_num, title, m.start(), m.end()))
             
+    # Load existing chapter_2.json if it exists
+    existing_chapter_data = None
+    if os.path.exists(dest_file):
+        try:
+            with open(dest_file, 'r', encoding='utf-8') as f:
+                existing_chapter_data = json.load(f)
+            print(f"Loaded existing chapter data from {dest_file}")
+        except Exception as e:
+            print(f"Warning: Failed to load existing {dest_file}: {e}")
+
     episodes = []
+    # If we have existing data, we keep its episodes as base
+    existing_episodes_map = {}
+    if existing_chapter_data and "episodes" in existing_chapter_data:
+        for ep in existing_chapter_data["episodes"]:
+            existing_episodes_map[ep["episodeId"]] = ep
+
     for idx, (ep_num, ep_title, start_pos, end_pos) in enumerate(valid_matches):
         print(f"Compiling Episode 2-{ep_num}: {ep_title}...")
         next_start = valid_matches[idx+1][2] if idx+1 < len(valid_matches) else len(content)
@@ -483,7 +598,7 @@ def main():
         
         sequence = parse_episode_text(lines, ep_num)
         
-        # Scale fixedBattle HP & criteria (Ensure 7 for first 2 battles, 12 for the 3rd)
+        # Scale fixedBattle HP & criteria
         battle_idx = 0
         scaled_sequence = []
         for s in sequence:
@@ -497,15 +612,90 @@ def main():
         scaled_sequence.append({
             "type": "reward",
             "xp": 120 + ep_num * 10,
-            "unlockedEpisodeId": f"ep_2_{ep_num+1}" if ep_num < 2 else None
+            "unlockedEpisodeId": f"ep_2_{ep_num+1}" if ep_num < 9 else None
         })
         
-        episodes.append({
-            "episodeId": f"ep_2_{ep_num}",
-            "episodeTitle": f"第2-{ep_num}話: {ep_title}",
-            "recommendedPlayTime": "5 mins",
-            "backgrounds": background_urls,
-            "characters": {
+        # Decide characters map based on ep_num
+        if ep_num == 7:
+            ep_characters = {
+                "hero": { "name": "主人公" },
+                "charlemagne": {
+                    "name": "カール大帝",
+                    "images": {
+                        "default": "assets/story/chapter_2/カール大帝立ち絵.png",
+                        "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
+                        "satisfied": "assets/story/chapter_2/カール大帝満足.png",
+                        "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
+                        "surprised": "assets/story/chapter_2/カール大帝驚き.png",
+                        "persuade": "assets/story/chapter_2/カール大帝説得.png",
+                        "understand": "assets/story/chapter_2/カール大帝納得.png",
+                        "question": "assets/story/chapter_2/カール大帝問い.png",
+                        "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png"
+                    }
+                },
+                "desiderius": {
+                    "name": "デシデリウス",
+                    "images": {
+                        "default": "assets/story/chapter_2/デシデリウス激怒.png",
+                        "normal": "assets/story/chapter_2/デシデリウス激怒.png",
+                        "angry": "assets/story/chapter_2/デシデリウス激怒.png",
+                        "despair": "assets/story/chapter_2/デシデリウス絶望.png"
+                    }
+                },
+                "leo3": {
+                    "name": "教皇（レオ3世）",
+                    "images": {
+                        "default": "assets/story/chapter_2/Gemini_Generated_Image_.webp",
+                        "normal": "assets/story/chapter_2/Gemini_Generated_Image_.webp",
+                        "troubled": "assets/story/chapter_2/教皇困る.webp",
+                        "surprised": "assets/story/chapter_2/教皇驚き.webp",
+                        "smile": "assets/story/chapter_2/教皇笑み.webp",
+                        "apology": "assets/story/chapter_2/教皇謝罪.webp",
+                        "evil": "assets/story/chapter_2/教皇邪悪.webp"
+                    }
+                },
+                "subordinate": { "name": "部下" },
+                "commander": { "name": "指揮官" },
+                "people": { "name": "民衆" }
+            }
+        elif ep_num in [8, 9]:
+            ep_characters = {
+                "hero": { "name": "主人公" },
+                "charlemagne": {
+                    "name": "カール大帝",
+                    "images": {
+                        "default": "assets/story/chapter_2/カール大帝立ち絵.png",
+                        "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
+                        "satisfied": "assets/story/chapter_2/カール大帝満足.png",
+                        "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
+                        "surprised": "assets/story/chapter_2/カール大帝驚き.png",
+                        "persuade": "assets/story/chapter_2/カール大帝説得.png",
+                        "understand": "assets/story/chapter_2/カール大帝納得.png",
+                        "question": "assets/story/chapter_2/カール大帝問い.png",
+                        "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png",
+                        "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.png",
+                        "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.png",
+                        "squat": "assets/story/chapter_2/カール大帝スクワット.png"
+                    }
+                },
+                "irene": {
+                    "name": "エイレーネー",
+                    "images": {
+                        "default": "assets/story/chapter_2/エイレーネー立ち絵.png",
+                        "normal": "assets/story/chapter_2/エイレーネー立ち絵.png",
+                        "angry": "assets/story/chapter_2/エイレーネー怒り.png",
+                        "in_love": "assets/story/chapter_2/エイレーネーメロメロ.png",
+                        "blush": "assets/story/chapter_2/エイレーネー照れ.png",
+                        "question": "assets/story/chapter_2/エイレーネー問い.png",
+                        "determined": "assets/story/chapter_2/エイレーネー決意.png"
+                    }
+                },
+                "east_subordinate": { "name": "東ローマの部下" },
+                "child": { "name": "子供" },
+                "subordinate": { "name": "部下" }
+            }
+        else:
+            ep_characters = {
                 "hero": { "name": "主人公" },
                 "clotilde": {
                     "name": "クロティルダ",
@@ -537,15 +727,27 @@ def main():
                 "steward": { "name": "執事" },
                 "soldier": { "name": "一般兵" },
                 "assassin": { "name": "暗殺者" }
-            },
+            }
+
+        new_ep = {
+            "episodeId": f"ep_2_{ep_num}",
+            "episodeTitle": f"第2-{ep_num}話: {ep_title}",
+            "recommendedPlayTime": "5 mins",
+            "backgrounds": background_urls,
+            "characters": ep_characters,
             "sequence": scaled_sequence
-        })
-        
+        }
+        existing_episodes_map[new_ep["episodeId"]] = new_ep
+
+    # Reconstruct episodes list in sorted order
+    sorted_ep_ids = sorted(existing_episodes_map.keys(), key=lambda x: [int(c) for c in re.findall(r'\d+', x)])
+    merged_episodes = [existing_episodes_map[ep_id] for ep_id in sorted_ep_ids]
+    
     chapter_data = {
         "chapterId": "ch_2",
         "chapterTitle": "第2章: ゲルマンの大移動とフランク王国の誕生",
         "notes": "西ローマ滅亡後のゲルマン大移動と、フランク王国クローヴィスとクロティルダの出会い。冠詞、名詞の性、動詞être・avoirの基本、前置詞・否定表現・縮約を学びます。",
-        "episodes": episodes
+        "episodes": merged_episodes
     }
     
     os.makedirs(os.path.dirname(dest_file), exist_ok=True)
