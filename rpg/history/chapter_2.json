@@ -2975,7 +2975,7 @@
           "character": null,
           "text": "カールが最初に矛先を向けたのは、元妻の父が治めるランゴバルド王国であった。彼は大軍を率いて王都を包囲し、城門の前で静かに呼びかけた。",
           "position": "center",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": []
         },
         {
@@ -2984,7 +2984,7 @@
           "text": "義父殿。城門を開け、降伏してください。これ以上の無駄な血は流したくない",
           "position": "center",
           "expression": "persuade",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "charlemagne",
@@ -2999,7 +2999,7 @@
           "text": "だまれカール！ どの面下げてやって来た！",
           "position": "center",
           "expression": "angry",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "desiderius",
@@ -3018,7 +3018,7 @@
           "text": "わしのかわいい娘を『病弱だから』とたった一年で離縁しおって！ そのうえ我が歴史あるランゴバルドを滅ぼそうなどと、絶対に許さんぞ！",
           "position": "center",
           "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "desiderius",
@@ -3033,7 +3033,7 @@
           "text": "……娘御のことは、いくら詫びても足りぬ。だが、強大なフランクをまとめるには強健な跡継ぎが必要だったのだ",
           "position": "center",
           "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "charlemagne",
@@ -3048,7 +3048,7 @@
           "text": "Soyez raisonnable ! (分別を持ちなさい！)",
           "position": "center",
           "expression": "persuade",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "charlemagne",
@@ -3067,7 +3067,7 @@
           "text": "ええい、知ったことか！ 貴様のような若造に、我らの分厚い城壁と精鋭部隊が破れるものか！ 全軍、放てェッ！",
           "position": "center",
           "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [
             {
               "id": "desiderius",
@@ -3081,7 +3081,7 @@
           "character": null,
           "text": "デシデリウスの号令とともに、城壁から無数の矢と岩石が降り注ぐ。ランゴバルドの守りはカールの想像を絶するほど堅牢であり、情ゆえに攻撃を躊躇していたフランク軍は思わぬ苦戦を強いられた。",
           "position": "center",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": []
         },
         {
@@ -3090,7 +3090,7 @@
           "text": "陛下！ 敵の防衛が予想以上です！ 被害が拡大しています、ここは一度退きましょう！",
           "position": "center",
           "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": []
         },
         {
@@ -3099,7 +3099,7 @@
           "text": "Reculez ! (後退せよ！)",
           "position": "center",
           "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "background": "castle",
           "characters": [],
           "learningPoint": {
             "title": "語句解説",
@@ -3111,12 +3111,12 @@
           "character": "charlemagne",
           "text": "くっ……！ 義父殿....!!!",
           "position": "center",
-          "expression": "normal",
-          "background": "charlemagne_battlefield",
+          "expression": "persuade",
+          "background": "castle",
           "characters": [
             {
               "id": "charlemagne",
-              "expression": "normal",
+              "expression": "persuade",
               "position": "center"
             }
           ]
@@ -3722,8 +3722,8 @@
         "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
         "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
         "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-        "letter": "url('assets/story/chapter_2/手紙.jpg')",
-        "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+        "letter": "url('assets/story/chapter_2/手紙.webp')",
+        "sickroom": "url('assets/story/chapter_2/病室2.webp')",
         "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
       },
       "characters": {
@@ -4315,8 +4315,8 @@
         "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
         "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
         "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-        "letter": "url('assets/story/chapter_2/手紙.jpg')",
-        "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+        "letter": "url('assets/story/chapter_2/手紙.webp')",
+        "sickroom": "url('assets/story/chapter_2/病室2.webp')",
         "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
       },
       "characters": {

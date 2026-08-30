@@ -48,8 +48,8 @@ background_urls = {
     "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
     "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
     "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-    "letter": "url('assets/story/chapter_2/手紙.jpg')",
-    "sickroom": "url('assets/story/chapter_2/病室.jpg')",
+    "letter": "url('assets/story/chapter_2/手紙.webp')",
+    "sickroom": "url('assets/story/chapter_2/病室.webp')",
     "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
 }
 
@@ -729,11 +729,16 @@ def main():
                 "assassin": { "name": "暗殺者" }
             }
 
+        # Copy background URLs and dynamically adjust for episode
+        ep_backgrounds = background_urls.copy()
+        if ep_num in [8, 9]:
+            ep_backgrounds["sickroom"] = "url('assets/story/chapter_2/病室2.webp')"
+
         new_ep = {
             "episodeId": f"ep_2_{ep_num}",
             "episodeTitle": f"第2-{ep_num}話: {ep_title}",
             "recommendedPlayTime": "5 mins",
-            "backgrounds": background_urls,
+            "backgrounds": ep_backgrounds,
             "characters": ep_characters,
             "sequence": scaled_sequence
         }
