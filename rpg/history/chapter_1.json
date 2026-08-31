@@ -3559,8 +3559,8 @@
               "title": "重要不規則動詞 (aller / venir)",
               "referenceTopicId": "ref_essential_irregular_verbs",
               "sectionIndices": [
-                0,
-                1
+                1,
+                2
               ]
             }
           ]
@@ -3941,7 +3941,7 @@
               "title": "名詞・形容詞の複数形",
               "referenceTopicId": "ref_noun_genders",
               "sectionIndices": [
-                1
+                6
               ]
             }
           ]
