@@ -44,45 +44,39 @@
 | **`#imperative`** | 第2章 | 第2-2話 | 命令形（Tutoie/Vouvoie、規則変化） | `ref_imperative` |
 | **`#object_pronouns_basic`**| 第2章 | - | 目的語代名詞の基本（直接・間接） | `ref_pronouns` |
 | **`#irregular_verbs_1`** | 第2章 | - | 重要動詞 `faire` `prendre` `mettre` `venir` 活用 | `ref_essential_irregular_verbs` |
-| **`#passive_pronominal_verbs`**| -| 第2-3話 | 受動的な代名動詞（se ...）の用法 | `ref_pronominal_verbs` |
-| **`#imperative_with_pronouns`**| -| 第3-1話 | 命令法と目的語代名詞の結合規則 | `ref_imperative` |
-| **`#object_pronouns_direct_indirect`**| -| 第3-1話 | 直接・間接目的語代名詞の語順 | `ref_pronouns` |
-| **`#past_compose`** | 第3章 | - | 複合過去（passé composé）の基本構造 | `ref_time_expressions` |
-| **`#auxiliary_selection`**| 第3章 | - | 助動詞 `avoir` / `être` の使い分け基準 | `ref_time_expressions` |
-| **`#past_participle_agreement`**| 第3章| - | 過去分詞の性数一致（être助動詞および直接目的語先行）| `ref_time_expressions` |
-| **`#comparative`** | 第3章 | - | 比較級（plus, moins, aussi ... que） | `ref_comparatives` |
-| **`#superlative`** | 第3章 | - | 最上級（le plus, le moins ...） | `ref_comparatives` |
-| **`#imparfait`** | 第4章 | - | 半過去（imparfait）の活用と概念 | `ref_time_expressions` |
-| **`#imparfait_vs_past_compose`**| 第4章 | - | 半過去と複合過去の使い分け | `ref_time_expressions` |
-| **`#relative_pronouns_basic`**| 第4章 | 第3-3話 | 関係代名詞 `qui` / `que` の基本 | `ref_relative_pronouns` |
-| **`#conjunctions_basic`**| 第4章 | - | 接続詞（parce que, mais, donc） | `ref_conjunctions` |
-| **`#gerund_participle`** | - | 第4-2話 | 現在分詞、ジェロンディフ、過去分詞 | - |
-| **`#conditional_present`**| 第5章 | - | 条件法現在（活用と丁寧な用法） | `ref_conditional` |
-| **`#polite_expressions`**| 第5章 | - | 条件法を用いた丁寧表現（Je voudrais... / On pourrait...）| `ref_conditional` |
-| **`#si_clauses_present`**| 第5章 | - | 現実的・可能性のある仮定（Si + 現在形, 現在/未来形）| `ref_conditional` |
-| **`#pronouns_y_en`** | 第5章 | - | 中性代名詞 `y` および `en` の使い分け | `ref_pronouns` |
-| **`#subjunctive_basic`**| 第6章 | - | 接続法現在（活用と基本的な用法） | `ref_subjunctive` |
-| **`#emotions`** | 第6章 | - | 感情を表す形容詞・動詞と接続法の結合 | `ref_subjunctive` |
-| **`#obligation_il_faut_que`**| 第6章| - | 必要・義務の表現（`il faut que` + 接続法） | `ref_subjunctive` |
-| **`#conjunctions_advanced`**| 第7章 | - | 接続詞の応用（譲歩、目的、時間） | `ref_conjunctions` |
-| **`#logical_connectives`**| 第7章 | - | 論理的接続語（cependant, pourtant, en revanche...）| `ref_conjunctions` |
-| **`#passive_voice`** | 第8章 | - | 被動態（受動態）の文法と時制 | `ref_passive` |
-| **`#pronominal_verbs`** | 第8章 | - | 代名動詞（再帰、相互、受動、本質的） | `ref_pronominal_verbs` |
-| **`#causative_faire`** | 第8章 | - | 使役表現（`faire` + 不定詞） | `ref_causative` |
-| **`#pluperfect`** | 第9章 | - | 大過去（plus-que-parfait）の活用 | `ref_time_expressions` |
-| **`#conditional_past`** | 第9章 | - | 条件法過去（過去の事実と異なる仮定） | `ref_conditional` |
-| **`#hypothetical_si_clauses`**| 第9章 | - | 事実と異なる過去の仮定（Si + 大過去, 条件法過去）| `ref_conditional` |
-| **`#grammar_review`** | 第10章 | - | 文法総復習（時制、接続法、関係代名詞の総合） | - |
-| **`#nuance_expressions`**| 第11章 | - | 同義語の使い分け、ニュアンスの表現 | - |
-| **`#synonyms`** | 第11章 | - | 類義語と文脈に応じた単語選択 | - |
-| **`#polite_criticism`**| 第11章 | - | レシピや料理に対する丁寧な評価・批判表現 | - |
-| **`#newspaper_style`** | 第12-13章| - | 報道体、論文で使われる書き言葉表現 | - |
-| **`#abstract_vocabulary`**| 第12-13章| - | 料理のコンセプトや美学を語る抽象語彙 | - |
-| **`#metaphorical_expressions`**| 第12-13章| -| 料理の風味やテクスチャを伝える比喩表現 | - |
-| **`#cultural_expressions`**| 第14-15章| - | フランスの食文化、料理の歴史的言及表現 | - |
-| **`#debate_expressions`**| 第14-15章| - | 討論、意見主張、反論、説得の表現 | - |
-| **`#presentation_style`**| 第14-15章| - | 料理のプレゼン、コンセプト解説表現 | - |
-| **`#culinary_philosophy`**| 第14-15章| - | 自身の料理哲学、味覚の探求に関する高度表現 | - |
+| **`#passive_pronominal_verbs`**| 第2章 | 第2-3話 | 受動的な代名動詞（se ...）の用法 | `ref_pronominal_verbs` |
+| **`#futur_simple`** | 第3章 | 第3-1話 | 単純未来（futur simple）の活用と予測・計画 | `ref_time_expressions` |
+| **`#imperative_with_pronouns`**| 第3章 | 第3-1話 | 命令法と目的語代名詞の結合規則 | `ref_imperative` |
+| **`#object_pronouns_direct_indirect`**| 第3章 | 第3-1話 | 直接・間接目的語代名詞の語順 | `ref_pronouns` |
+| **`#past_compose`** | 第3章 | 第3-2話 | 複合過去（passé composé）の基本構造 | `ref_time_expressions` |
+| **`#auxiliary_selection`**| 第3章 | 第3-2話 | 助動詞 `avoir` / `être` の使い分け基準 | `ref_time_expressions` |
+| **`#past_participle_agreement`**| 第3章| 第3-2話 | 過去分詞の性数一致（être助動詞および直接目的語先行）| `ref_time_expressions` |
+| **`#comparative`** | 第3章 | 第3-3話 | 比較級（plus, moins, aussi ... que） | `ref_comparatives` |
+| **`#superlative`** | 第3章 | 第3-3話 | 最上級（le plus, le moins ...） | `ref_comparatives` |
+| **`#imparfait`** | 第3章 | 第3-4話 | 半過去（imparfait）の活用と概念 | `ref_time_expressions` |
+| **`#imparfait_vs_past_compose`**| 第3章 | 第3-5話 | 半過去と複合過去の使い分け | `ref_time_expressions` |
+| **`#relative_pronouns_basic`**| 第3章 | 第3-7話 | 関係代名詞 `qui` / `que` の基本 | `ref_relative_pronouns` |
+| **`#pronouns_y_en`** | 第4章 | 第4-1話 | 中性代名詞 `y` および `en` の使い分け | `ref_pronouns` |
+| **`#conditional_present`**| 第4章 | 第4-1話 | 条件法現在（活用と丁寧な用法） | `ref_conditional` |
+| **`#polite_expressions`**| 第4章 | 第4-1話 | 条件法を用いた丁寧表現（Je voudrais... / On pourrait...）| `ref_conditional` |
+| **`#si_clauses_present`**| 第4章 | 第4-1話 | 現実的・可能性のある仮定（Si + 現在形, 現在/未来形）| `ref_conditional` |
+| **`#subjunctive_basic`**| 第4章 | 第4-2話 | 接続法現在（活用と基本的な用法） | `ref_subjunctive` |
+| **`#obligation_il_faut_que`**| 第4章| 第4-5話 | 必要・義務の表現（`il faut que` + 接続法） | `ref_subjunctive` |
+| **`#passive_voice`** | 第4章 | 第4-3話 | 被動態（受動態）の文法と時制 | `ref_passive` |
+| **`#conjunctions_basic`**| 第5章 | - | 接続詞（parce que, mais, donc） | `ref_conjunctions` |
+| **`#gerund_participle`** | 第5章 | 第5-1話 | 現在分詞、ジェロンディフ、過去分詞 | - |
+| **`#causative_faire`** | 第5章 | 第5-6話 | 使役表現（`faire` + 不定詞） | `ref_causative` |
+| **`#logical_connectives`**| 第6章 | 第6-3話 | 論理的接続語（cependant, pourtant, en revanche...）| `ref_conjunctions` |
+| **`#pluperfect`** | 第6章 | 第6-1話 | 大過去（plus-que-parfait）の活用 | `ref_time_expressions` |
+| **`#conditional_past`** | 第6章 | 第6-2話 | 条件法過去（過去の事実と異なる仮定） | `ref_conditional` |
+| **`#hypothetical_si_clauses`**| 第6章 | 第6-2話 | 事実と異なる過去の仮定（Si + 大過去, 条件法過去）| `ref_conditional` |
+| **`#relative_pronouns_complex_lequel`**| 第7章 | 第7-1話 | 複合関係代名詞（lequel, auquel, duquel...） | `ref_relative_pronouns` |
+| **`#subjunctive_past`** | 第7章 | 第7-2話 | 接続法過去（Subjonctif passé） | `ref_subjunctive` |
+| **`#indirect_speech_concordance`**| 第7章 | 第7-4話 | 間接話法と過去の時制一致 | `ref_time_expressions` |
+| **`#sensory_metaphor_vocabulary`**| 第8章 | 第8-2話 | 感覚・テクスチャ・風味を伝えるメタファー語彙 | - |
+| **`#paraphrasing_techniques`**| 第8章 | 第8-1話 | 5通りの言い換え・洗練批評 | - |
+| **`#debate_persuasion_rhetoric`**| 第9章 | 第9-3話 | 討論、反論、説得、譲歩の表現 | - |
+| **`#culinary_philosophy_presentation`**| 第9章 | 第9-11話 | 自身の料理哲学、味覚探求に関する高度発表 | - |
 
 ---
 
