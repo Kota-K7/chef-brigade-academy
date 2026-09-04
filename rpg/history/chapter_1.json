@@ -2216,7 +2216,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "Oui,Ça va, merci",
+          "text": "Oui, ça va, merci.",
           "position": "center",
           "expression": "normal",
           "background": "village",
@@ -2230,21 +2230,21 @@
         },
         {
           "type": "dialog",
-          "character": "girl",
-          "text": "Nous allons vers l’ouest. （僕たちは西へ向かうよ。)",
+          "character": "fabius",
+          "text": "Nous allons vers l’ouest. （僕たちは西へ向かうよ。）",
           "position": "center",
           "expression": "normal",
           "background": "village",
           "characters": [
             {
-              "id": "girl",
+              "id": "fabius",
               "expression": "normal",
               "position": "center"
             }
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "* └説明行: aller vers + 場所 = 「〜へ向かう」なので、aller vers l’ouest = 「西へ向かう」。"
+            "text": "aller vers + 場所 = 「〜へ向かう」なので、aller vers l’ouest = 「西へ向かう」。"
           }
         },
         {
@@ -2260,26 +2260,10 @@
               "expression": "normal",
               "position": "center"
             }
-          ]
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "Revenez nous voir ! は「また私たちのところに来てね」。revenir「戻ってくる」＋nous voir「私たちに会いに」。",
-          "position": "center",
-          "background": "village",
-          "characters": []
-        },
-        {
-          "type": "dialog",
-          "character": null,
-          "text": "les gars は「君たち／お兄さんたち／みんな」くらいのくだけた呼びかけ。複数の男性に自然。",
-          "position": "center",
-          "background": "village",
-          "characters": [],
+          ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "→ Bon courage ! はフランス語で非常によく使う「頑張って！」"
+            "text": "→ Revenez nous voir ! は「また私たちのところに来てね」。revenir「戻ってくる」＋nous voir「私たちに会いに」。les gars は「君たち／お兄さんたち／みんな」くらいのくだけた呼びかけ。複数の男性に自然。Bon courage ! はフランス語で非常によく使う「頑張って！」"
           }
         },
         {
