@@ -78,8 +78,10 @@ Q3: 文脈に合う正しいフランス語の並びを選べ。 (君はカミ�
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bgRoom": "linear-gradient(135deg, #1e293b, #0f172a)",
-        "bgMarseille": "linear-gradient(135deg, #1e1b4b, #311042)"
+        "bgRoom": "url('assets/story/backgrounds/bg_room.webp')",
+        "bgMarseille": "url('assets/story/backgrounds/bg_marseille.webp')",
+        "kitchen": "url('assets/story/backgrounds/kitchen.webp')",
+        "restaurant": "url('assets/story/backgrounds/restaurant.webp')"
       },
       "characters": {
         "hero": { "name": "主人公", "avatar": "👤" },

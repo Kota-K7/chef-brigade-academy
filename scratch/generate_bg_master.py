@@ -1,0 +1,549 @@
+import os
+import json
+
+# Comprehensive background metadata
+backgrounds_db = {
+    # 拠点・日常・レストラン
+    "bg_room": {
+        "id": "bg_room",
+        "name": "部屋 / 宿屋",
+        "category": "daily",
+        "file": "bg_room.webp",
+        "url": "url('assets/story/backgrounds/bg_room.webp')",
+        "description": "主人公の自室や宿屋の部屋。朝の起床シーンや日常の会話に使用。"
+    },
+    "restaurant": {
+        "id": "restaurant",
+        "name": "レストラン店内",
+        "category": "daily",
+        "file": "restaurant.webp",
+        "url": "url('assets/story/backgrounds/restaurant.webp')",
+        "description": "星付きレストランのダイニングホール。食事シーンやホールでの会話に使用。"
+    },
+    "bg_restaurant": {
+        "id": "bg_restaurant",
+        "name": "レストラン外観・店舗",
+        "category": "daily",
+        "file": "bg_restaurant.webp",
+        "url": "url('assets/story/backgrounds/bg_restaurant.webp')",
+        "description": "クラシックなフレンチレストランの外観・店先。"
+    },
+    "kitchen": {
+        "id": "kitchen",
+        "name": "厨房 / 調理場",
+        "category": "daily",
+        "file": "kitchen.webp",
+        "url": "url('assets/story/backgrounds/kitchen.webp')",
+        "description": "本格的なレストランの厨房。調理やシェフたちの仕込み・バトルの舞台。"
+    },
+    "gael_sweets": {
+        "id": "gael_sweets",
+        "name": "ガエルのスイーツ工房",
+        "category": "daily",
+        "file": "gael_sweets.webp",
+        "url": "url('assets/story/backgrounds/gael_sweets.webp')",
+        "description": "パティシエ・ガエルのお菓子工房・デザートセクション。"
+    },
+    "kanetake_night": {
+        "id": "kanetake_night",
+        "name": "夜の厨房・店先",
+        "category": "daily",
+        "file": "kanetake_night.webp",
+        "url": "url('assets/story/backgrounds/kanetake_night.webp')",
+        "description": "夜間・営業終了後の静まり返った厨房・店舗。"
+    },
+    "bg_market": {
+        "id": "bg_market",
+        "name": "マルセイユ市場 (Marché)",
+        "category": "town",
+        "file": "bg_market.webp",
+        "url": "url('assets/story/backgrounds/bg_market.webp')",
+        "description": "新鮮な食材が並ぶ活気あるマルセイユの市場。"
+    },
+    "bg_marseille": {
+        "id": "bg_marseille",
+        "name": "マルセイユの街並み",
+        "category": "town",
+        "file": "bg_marseille.webp",
+        "url": "url('assets/story/backgrounds/bg_marseille.webp')",
+        "description": "地中海に面した港町マルセイユの歴史ある街並み。"
+    },
+    "bg_port": {
+        "id": "bg_port",
+        "name": "マルセイユ港",
+        "category": "town",
+        "file": "bg_port.webp",
+        "url": "url('assets/story/backgrounds/bg_port.webp')",
+        "description": "船が行き交う港の風景。"
+    },
+    "bg_port_container": {
+        "id": "bg_port_container",
+        "name": "港のコンテナ置き場",
+        "category": "town",
+        "file": "bg_port_container.webp",
+        "url": "url('assets/story/backgrounds/bg_port_container.webp')",
+        "description": "港のコンテナが積み上げられたエリア。追走劇や事件シーンに使用。"
+    },
+
+    # 自然・集落
+    "forest": {
+        "id": "forest",
+        "name": "森 / 森林",
+        "category": "nature",
+        "file": "forest.webp",
+        "url": "url('assets/story/backgrounds/forest.webp')",
+        "description": "緑豊かなヨーロッパの森林。行軍や潜伏、探索シーンに使用。"
+    },
+    "village": {
+        "id": "village",
+        "name": "村 / 集落",
+        "category": "nature",
+        "file": "village.webp",
+        "url": "url('assets/story/backgrounds/village.webp')",
+        "description": "古代〜中世の素朴な村・民家群。"
+    },
+    "village_square": {
+        "id": "village_square",
+        "name": "村の広場",
+        "category": "nature",
+        "file": "village_square.webp",
+        "url": "url('assets/story/backgrounds/village_square.webp')",
+        "description": "村人たちが集まる中央広場。"
+    },
+    "village_empty": {
+        "id": "village_empty",
+        "name": "もぬけの殻の村",
+        "category": "nature",
+        "file": "village_empty.webp",
+        "url": "url('assets/story/backgrounds/village_empty.webp')",
+        "description": "焦土作戦で住民が立ち去った後の静寂な村。"
+    },
+    "gergovia_mountain": {
+        "id": "gergovia_mountain",
+        "name": "ゲルゴウィアの山",
+        "category": "nature",
+        "file": "gergovia_mountain.webp",
+        "url": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "description": "険しい岩山と要塞の遠景。ガリアの堅牢な拠点。"
+    },
+    "garden": {
+        "id": "garden",
+        "name": "庭園",
+        "category": "nature",
+        "file": "garden.webp",
+        "url": "url('assets/story/backgrounds/garden.webp')",
+        "description": "美しい樹木と花が咲く庭園。"
+    },
+
+    # 城・宮殿・宗教建築・施設
+    "castle": {
+        "id": "castle",
+        "name": "城 / 砦",
+        "category": "palace",
+        "file": "castle.webp",
+        "url": "url('assets/story/backgrounds/castle.webp')",
+        "description": "重厚な石造りの城塞・城門。"
+    },
+    "monastery": {
+        "id": "monastery",
+        "name": "修道院",
+        "category": "palace",
+        "file": "monastery.webp",
+        "url": "url('assets/story/backgrounds/monastery.webp')",
+        "description": "静謐な石造りの修道院回廊。"
+    },
+    "church_inside": {
+        "id": "church_inside",
+        "name": "教会内 / 大聖堂",
+        "category": "palace",
+        "file": "church_inside.webp",
+        "url": "url('assets/story/backgrounds/church_inside.webp')",
+        "description": "ステンドグラスと高いアーチ天井を持つ教会・大聖堂の内部。戴冠式やミサに使用。"
+    },
+    "church_prayer": {
+        "id": "church_prayer",
+        "name": "教会の祈りの場",
+        "category": "palace",
+        "file": "church_prayer.webp",
+        "url": "url('assets/story/backgrounds/church_prayer.webp')",
+        "description": "祭壇の前で祈りを捧げる神聖な空間。"
+    },
+    "palace_view": {
+        "id": "palace_view",
+        "name": "宮殿の眺望 / 宮殿外観",
+        "category": "palace",
+        "file": "palace_view.webp",
+        "url": "url('assets/story/backgrounds/palace_view.webp')",
+        "description": "壮麗な宮殿の遠景およびテラスからの眺め。"
+    },
+    "palace_inside": {
+        "id": "palace_inside",
+        "name": "宮殿内 / 大広間",
+        "category": "palace",
+        "file": "palace_inside.webp",
+        "url": "url('assets/story/backgrounds/palace_inside.webp')",
+        "description": "王や貴族が集う宮殿内の豪奢な大広間。"
+    },
+    "palace_inside_night": {
+        "id": "palace_inside_night",
+        "name": "宮殿内 (夜)",
+        "category": "palace",
+        "file": "palace_inside_night.webp",
+        "url": "url('assets/story/backgrounds/palace_inside_night.webp')",
+        "description": "夜の宮殿内。密談や夜行シーンに使用。"
+    },
+    "sickroom": {
+        "id": "sickroom",
+        "name": "病室 1",
+        "category": "palace",
+        "file": "sickroom.webp",
+        "url": "url('assets/story/backgrounds/sickroom.webp')",
+        "description": "ベッドが置かれた治療・静養用の部屋。"
+    },
+    "sickroom_2": {
+        "id": "sickroom_2",
+        "name": "病室 2",
+        "category": "palace",
+        "file": "sickroom_2.webp",
+        "url": "url('assets/story/backgrounds/sickroom_2.webp')",
+        "description": "薄暗い病室・臨終のシーン。"
+    },
+    "room_meeting": {
+        "id": "room_meeting",
+        "name": "対面の部屋 / 会談室",
+        "category": "palace",
+        "file": "room_meeting.webp",
+        "url": "url('assets/story/backgrounds/room_meeting.webp')",
+        "description": "2人が机を挟んで真剣に向き合う会談の場。"
+    },
+
+    # 軍事・野営・合戦
+    "camp_morning": {
+        "id": "camp_morning",
+        "name": "軍野営地 (朝)",
+        "category": "battle",
+        "file": "camp_morning.webp",
+        "url": "url('assets/story/backgrounds/camp_morning.webp')",
+        "description": "朝陽が差し込む軍団のテント群・野営地。"
+    },
+    "camp_night": {
+        "id": "camp_night",
+        "name": "軍野営地 (夜)",
+        "category": "battle",
+        "file": "camp_night.webp",
+        "url": "url('assets/story/backgrounds/camp_night.webp')",
+        "description": "篝火が灯る夜の軍野営地。"
+    },
+    "assembly": {
+        "id": "assembly",
+        "name": "朝の集会 / 朝礼",
+        "category": "battle",
+        "file": "assembly.webp",
+        "url": "url('assets/story/backgrounds/assembly.webp')",
+        "description": "兵士たちが整列して指示を受ける集会広場。"
+    },
+    "battlefield_gaul": {
+        "id": "battlefield_gaul",
+        "name": "戦場 (ガリア戦役)",
+        "category": "battle",
+        "file": "battlefield_gaul.webp",
+        "url": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "description": "カエサル軍とガリア諸部族が激突する古代の合戦場。"
+    },
+    "battlefield_merov": {
+        "id": "battlefield_merov",
+        "name": "戦場 (フランク王国・中世)",
+        "category": "battle",
+        "file": "battlefield_merov.webp",
+        "url": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "description": "フランク王国時代の激闘の戦場。"
+    },
+    "vercingetorix_camp": {
+        "id": "vercingetorix_camp",
+        "name": "ウェルキンゲトリクスの陣営",
+        "category": "battle",
+        "file": "vercingetorix_camp.webp",
+        "url": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "description": "ガリア連合軍の指揮幕舎・篝火の陣地。"
+    },
+    "gaul_camp": {
+        "id": "gaul_camp",
+        "name": "ガリア軍陣営",
+        "category": "battle",
+        "file": "gaul_camp.webp",
+        "url": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "description": "ガリア戦士たちの幕営地。"
+    },
+    "avaricum_siege": {
+        "id": "avaricum_siege",
+        "name": "アウァーリクム包囲戦",
+        "category": "battle",
+        "file": "avaricum_siege.webp",
+        "url": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "description": "城壁を取り囲む包囲戦の緊迫した戦況。"
+    },
+    "alesia_siege": {
+        "id": "alesia_siege",
+        "name": "アレシア包囲戦",
+        "category": "battle",
+        "file": "alesia_siege.webp",
+        "url": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "description": "二重の包囲陣が築かれた歴史的決戦場アレシア。"
+    },
+    "alesia_surrender": {
+        "id": "alesia_surrender",
+        "name": "ウェルキンゲトリクス降伏",
+        "category": "battle",
+        "file": "alesia_surrender.webp",
+        "url": "url('assets/story/backgrounds/alesia_surrender.webp')",
+        "description": "カエサルの前で馬を下り武器を投じる名場面。"
+    },
+    "battle_arab": {
+        "id": "battle_arab",
+        "name": "トゥール・ポワティエ間の戦い",
+        "category": "battle",
+        "file": "battle_arab.webp",
+        "url": "url('assets/story/backgrounds/battle_arab.webp')",
+        "description": "シャルル・マルテルがウマイヤ朝軍を迎え撃つ決戦場。"
+    },
+    "charlemagne_battlefield": {
+        "id": "charlemagne_battlefield",
+        "name": "カール大帝の戦場",
+        "category": "battle",
+        "file": "charlemagne_battlefield.webp",
+        "url": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
+        "description": "ザクセンやランゴバルドとの戦いに臨むカール大帝の軍勢。"
+    },
+
+    # 歴史イベント・絵画・地図
+    "roma_empire_map": {
+        "id": "roma_empire_map",
+        "name": "古代ローマ帝国地図",
+        "category": "history",
+        "file": "roma_empire_map.webp",
+        "url": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "description": "地中海を囲むローマ帝国の版図を示す古地図。"
+    },
+    "map_8th_century": {
+        "id": "map_8th_century",
+        "name": "8世紀ヨーロッパ勢力図",
+        "category": "history",
+        "file": "map_8th_century.webp",
+        "url": "url('assets/story/backgrounds/map_8th_century.webp')",
+        "description": "フランク王国やイスラム勢力の拡大を示す8世紀の地図。"
+    },
+    "clovis_oath": {
+        "id": "clovis_oath",
+        "name": "クローヴィスの誓い",
+        "category": "history",
+        "file": "clovis_oath.webp",
+        "url": "url('assets/story/backgrounds/clovis_oath.webp')",
+        "description": "キリスト教改宗を決意し神に祈るクローヴィス1世。"
+    },
+    "clovis_death": {
+        "id": "clovis_death",
+        "name": "クローヴィスの死",
+        "category": "history",
+        "file": "clovis_death.webp",
+        "url": "url('assets/story/backgrounds/clovis_death.webp')",
+        "description": "メロヴィング朝創始者クローヴィスの最期。"
+    },
+    "martel_awakening": {
+        "id": "martel_awakening",
+        "name": "マルテル覚醒",
+        "category": "history",
+        "file": "martel_awakening.webp",
+        "url": "url('assets/story/backgrounds/martel_awakening.webp')",
+        "description": "鉄鎚（マルテル）の異名を持つ宮相シャルルの覚醒。"
+    },
+    "pepin_donation": {
+        "id": "pepin_donation",
+        "name": "ピピンの寄進",
+        "category": "history",
+        "file": "pepin_donation.webp",
+        "url": "url('assets/story/backgrounds/pepin_donation.webp')",
+        "description": "ピピン3世が教皇に領地を寄進し教皇領が成立する場面。"
+    },
+    "mersen_verdun": {
+        "id": "mersen_verdun",
+        "name": "ヴェルダン・メルセン条約",
+        "category": "history",
+        "file": "mersen_verdun.jpg",
+        "url": "url('assets/story/backgrounds/mersen_verdun.jpg')",
+        "description": "フランク王国の3分割条約（フランス・ドイツ・イタリアの原型）。"
+    },
+    "capet_dynasty": {
+        "id": "capet_dynasty",
+        "name": "カペー朝の創始",
+        "category": "history",
+        "file": "capet_dynasty.jpg",
+        "url": "url('assets/story/backgrounds/capet_dynasty.jpg')",
+        "description": "ユーグ・カペーによるカペー朝の幕開け絵画。"
+    },
+    "normandy_conquest": {
+        "id": "normandy_conquest",
+        "name": "ノルマン・コンクエスト",
+        "category": "history",
+        "file": "normandy_conquest.jpg",
+        "url": "url('assets/story/backgrounds/normandy_conquest.jpg')",
+        "description": "1066年ノルマンディー公ウィリアムのイングランド征服。"
+    },
+    "rollo_raid": {
+        "id": "rollo_raid",
+        "name": "ロロ襲来 (ヴァイキング)",
+        "category": "history",
+        "file": "rollo_raid.jpg",
+        "url": "url('assets/story/backgrounds/rollo_raid.jpg')",
+        "description": "セーヌ川を遡上して侵攻するヴァイキング首領ロロ。"
+    },
+    "letter": {
+        "id": "letter",
+        "name": "手紙 / 書簡",
+        "category": "history",
+        "file": "letter.webp",
+        "url": "url('assets/story/backgrounds/letter.webp')",
+        "description": "羊皮紙に書かれた重要な親書・手紙。"
+    },
+    "flashback": {
+        "id": "flashback",
+        "name": "回想シーン",
+        "category": "history",
+        "file": "flashback.webp",
+        "url": "url('assets/story/backgrounds/flashback.webp')",
+        "description": "過去の出来事や記憶を振り返る演出背景。"
+    },
+    "white_mic": {
+        "id": "white_mic",
+        "name": "白マイク",
+        "category": "history",
+        "file": "white_mic.jpg",
+        "url": "url('assets/story/backgrounds/white_mic.jpg')",
+        "description": "解説・ナレーションの演出画像。"
+    },
+    "grin": {
+        "id": "grin",
+        "name": "にやり (心理描写)",
+        "category": "history",
+        "file": "grin.webp",
+        "url": "url('assets/story/backgrounds/grin.webp')",
+        "description": "策謀や企みを表現する心理カット。"
+    },
+
+    # イベント演出・その他
+    "bg_after_battle": {
+        "id": "bg_after_battle",
+        "name": "勝利・戦い後の広場",
+        "category": "event",
+        "file": "bg_after_battle.webp",
+        "url": "url('assets/story/backgrounds/bg_after_battle.webp')",
+        "description": "戦いが終わり達成感を分かち合うシーン。"
+    },
+    "bg_father": {
+        "id": "bg_father",
+        "name": "父の背中",
+        "category": "event",
+        "file": "bg_father.webp",
+        "url": "url('assets/story/backgrounds/bg_father.webp')",
+        "description": "父の堂々とした後ろ姿。"
+    },
+    "bg_camille_cry": {
+        "id": "bg_camille_cry",
+        "name": "カミーユの涙",
+        "category": "event",
+        "file": "bg_camille_cry.webp",
+        "url": "url('assets/story/backgrounds/bg_camille_cry.webp')",
+        "description": "悔しさや悲しみに暮れるカミーユのイベントCG背景。"
+    },
+    "bg_container_thief": {
+        "id": "bg_container_thief",
+        "name": "コンテナに潜む泥棒",
+        "category": "event",
+        "file": "bg_container_thief.webp",
+        "url": "url('assets/story/backgrounds/bg_container_thief.webp')",
+        "description": "コンテナの陰で食材を奪おうとする泥棒の影。"
+    },
+    "bg_thief_caught": {
+        "id": "bg_thief_caught",
+        "name": "泥棒捕縛",
+        "category": "event",
+        "file": "bg_thief_caught.webp",
+        "url": "url('assets/story/backgrounds/bg_thief_caught.webp')",
+        "description": "泥棒を取り押さえた解決シーン。"
+    }
+}
+
+# Write rpg/backgrounds.json
+with open('rpg/backgrounds.json', 'w', encoding='utf-8') as fp:
+    json.dump(backgrounds_db, fp, ensure_ascii=False, indent=2)
+
+print(f"Created rpg/backgrounds.json with {len(backgrounds_db)} background definitions.")
+
+# Write rpg/backgrounds_guide.md
+md_lines = [
+    "# 共有背景画像カタログ & 指定ガイド (RPG Backgrounds Reference)",
+    "",
+    "このドキュメントは、歴史体験RPG（History）および修業ストーリー（Story）で使用できる**共有背景画像**の一覧と指定ルールです。",
+    "すべての背景画像は `assets/story/backgrounds/` に集約されており、各エピソードの `backgrounds` 定義から参照します。",
+    "",
+    "---",
+    "",
+    "## 1. シナリオ作成時の指定方法",
+    "",
+    "### A. 下書き時",
+    "下書きでは以下のように日本語名またはキー名を指定します：",
+    "```text",
+    "背景: 厨房",
+    "背景: 森",
+    "背景: 部屋",
+    "背景: 黒",
+    "```",
+    "",
+    "### B. JSON 内の `backgrounds` オブジェクト記述例",
+    "```json",
+    "\"backgrounds\": {",
+    "  \"bgBlack\": \"#000000\",",
+    "  \"forest\": \"url('assets/story/backgrounds/forest.webp')\",",
+    "  \"kitchen\": \"url('assets/story/backgrounds/kitchen.webp')\",",
+    "  \"castle\": \"url('assets/story/backgrounds/castle.webp')\"",
+    "}",
+    "```",
+    "",
+    "---",
+    "",
+    "## 2. 共有背景一覧テーブル",
+    "",
+    "| キー (ID) | 背景名称 | カテゴリ | ファイルパス | 説明・主な用途 |",
+    "| :--- | :--- | :--- | :--- | :--- |"
+]
+
+cat_labels = {
+    "daily": "日常・店舗",
+    "town": "街・港・市場",
+    "nature": "自然・集落",
+    "palace": "城・宮殿・施設",
+    "battle": "軍事・戦場",
+    "history": "歴史・地図・絵画",
+    "event": "イベント演出"
+}
+
+for bg_id, info in sorted(backgrounds_db.items(), key=lambda x: (x[1]['category'], x[0])):
+    cat = cat_labels.get(info['category'], info['category'])
+    md_lines.append(f"| **`{info['id']}`** | {info['name']} | {cat} | `assets/story/backgrounds/{info['file']}` | {info['description']} |")
+
+md_lines.extend([
+    "",
+    "---",
+    "",
+    "## 3. 単色・グラデーション背景",
+    "",
+    "| キー (ID) | 値 | 説明 |",
+    "| :--- | :--- | :--- |",
+    "| **`bgBlack`** | `\"#000000\"` | 暗転、モノローグ、場面転換 |",
+    "| **`bgWhite`** | `\"#ffffff\"` | 暗転からの目覚め、閃光 |",
+    ""
+])
+
+with open('rpg/backgrounds_guide.md', 'w', encoding='utf-8') as fp:
+    fp.write('\n'.join(md_lines))
+
+print("Created rpg/backgrounds_guide.md successfully.")

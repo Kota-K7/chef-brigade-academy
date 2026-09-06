@@ -2467,7 +2467,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     localStorage.setItem(`cba_story_${episode.episodeId}_cleared`, 'true');
 
     // 1. Determine Reward Image URL
-    let rewardImgUrl = 'assets/story/chapter_0/bg_after_battle.webp';
+    let rewardImgUrl = 'assets/story/backgrounds/bg_after_battle.webp';
     if (episode.episodeId === 'career_ep_0_2') {
       rewardImgUrl = 'assets/story/career_story/group_photo.webp';
     } else if (episode.episodeId === 'career_ep_1_3') {
@@ -2475,7 +2475,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     } else if (episode.episodeId === 'career_ep_2_3') {
       rewardImgUrl = 'assets/story/career_story/elodie_reward.webp';
     } else if (episode.episodeId === 'career_ep_3_3') {
-      rewardImgUrl = 'assets/story/career_story/gael_sweets.webp';
+      rewardImgUrl = 'assets/story/backgrounds/gael_sweets.webp';
     } else if (episode.episodeId === 'career_ep_4_4') {
       rewardImgUrl = 'assets/story/career_story/pierre_kanetake_young.webp';
     } else if (episode.episodeId.startsWith('career_')) {

@@ -1,0 +1,414 @@
+TOTAL REFERENCED BG PATHS: 54
+
+File: assets/story/career_story/gael_sweets.webp (Size: 282456 bytes, Hash: b5c0fb27)
+  Referenced 15 times in:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | key: gael_sweets
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | key: gael_sweets
+    - rpg\story\chapter_career_1.json | career_ep_1_1 | key: gael_sweets
+    - rpg\story\chapter_career_1.json | career_ep_1_2 | key: gael_sweets
+    - rpg\story\chapter_career_1.json | career_ep_1_3 | key: gael_sweets
+    - rpg\story\chapter_career_2.json | career_ep_2_1 | key: gael_sweets
+    - rpg\story\chapter_career_2.json | career_ep_2_2 | key: gael_sweets
+    - rpg\story\chapter_career_2.json | career_ep_2_3 | key: gael_sweets
+    - rpg\story\chapter_career_3.json | career_ep_3_1 | key: gael_sweets
+    - rpg\story\chapter_career_3.json | career_ep_3_2 | key: gael_sweets
+    - rpg\story\chapter_career_3.json | career_ep_3_3 | key: gael_sweets
+    - rpg\story\chapter_career_4.json | career_ep_4_1 | key: gael_sweets
+    - rpg\story\chapter_career_4.json | career_ep_4_2 | key: gael_sweets
+    - rpg\story\chapter_career_4.json | career_ep_4_3 | key: gael_sweets
+    - rpg\story\chapter_career_4.json | career_ep_4_4 | key: gael_sweets
+
+File: assets/story/career_story/kanetake_night.webp (Size: 93510 bytes, Hash: 214fe6b4)
+  Referenced 1 times in:
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | key: kanetake_night
+
+File: assets/story/career_story/kitchen.webp (Size: 203580 bytes, Hash: 8d3e2c42)
+  Referenced 15 times in:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | key: kitchen
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | key: kitchen
+    - rpg\story\chapter_career_1.json | career_ep_1_1 | key: kitchen
+    - rpg\story\chapter_career_1.json | career_ep_1_2 | key: kitchen
+    - rpg\story\chapter_career_1.json | career_ep_1_3 | key: kitchen
+    - rpg\story\chapter_career_2.json | career_ep_2_1 | key: kitchen
+    - rpg\story\chapter_career_2.json | career_ep_2_2 | key: kitchen
+    - rpg\story\chapter_career_2.json | career_ep_2_3 | key: kitchen
+    - rpg\story\chapter_career_3.json | career_ep_3_1 | key: kitchen
+    - rpg\story\chapter_career_3.json | career_ep_3_2 | key: kitchen
+    - rpg\story\chapter_career_3.json | career_ep_3_3 | key: kitchen
+    - rpg\story\chapter_career_4.json | career_ep_4_1 | key: kitchen
+    - rpg\story\chapter_career_4.json | career_ep_4_2 | key: kitchen
+    - rpg\story\chapter_career_4.json | career_ep_4_3 | key: kitchen
+    - rpg\story\chapter_career_4.json | career_ep_4_4 | key: kitchen
+
+File: assets/story/career_story/restaurant.webp (Size: 377596 bytes, Hash: 68c8ec3a)
+  Referenced 15 times in:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | key: restaurant
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | key: restaurant
+    - rpg\story\chapter_career_1.json | career_ep_1_1 | key: restaurant
+    - rpg\story\chapter_career_1.json | career_ep_1_2 | key: restaurant
+    - rpg\story\chapter_career_1.json | career_ep_1_3 | key: restaurant
+    - rpg\story\chapter_career_2.json | career_ep_2_1 | key: restaurant
+    - rpg\story\chapter_career_2.json | career_ep_2_2 | key: restaurant
+    - rpg\story\chapter_career_2.json | career_ep_2_3 | key: restaurant
+    - rpg\story\chapter_career_3.json | career_ep_3_1 | key: restaurant
+    - rpg\story\chapter_career_3.json | career_ep_3_2 | key: restaurant
+    - rpg\story\chapter_career_3.json | career_ep_3_3 | key: restaurant
+    - rpg\story\chapter_career_4.json | career_ep_4_1 | key: restaurant
+    - rpg\story\chapter_career_4.json | career_ep_4_2 | key: restaurant
+    - rpg\story\chapter_career_4.json | career_ep_4_3 | key: restaurant
+    - rpg\story\chapter_career_4.json | career_ep_4_4 | key: restaurant
+
+File: assets/story/chapter_0/bg_after_battle.webp (Size: 311026 bytes, Hash: eb197e89)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_1 | key: bgAfterBattle
+
+File: assets/story/chapter_0/bg_camille_cry.webp (Size: 352508 bytes, Hash: f411eabd)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_camille_cry.webp
+
+File: assets/story/chapter_0/bg_container_thief.webp (Size: 213680 bytes, Hash: 5589e9f7)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_container_thief.webp
+
+File: assets/story/chapter_0/bg_father.webp (Size: 290518 bytes, Hash: 3020bfaf)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_1 | key: bgFather
+
+File: assets/story/chapter_0/bg_market.webp (Size: 253290 bytes, Hash: de8a924f)
+  Referenced 3 times in:
+    - rpg\history\chapter_0.json | ep_0_1 | key: bgMarket
+    - rpg\history\chapter_0.json | ep_0_2 | key: 市場
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_market.webp
+
+File: assets/story/chapter_0/bg_marseille.webp (Size: 161926 bytes, Hash: 1d4600e9)
+  Referenced 2 times in:
+    - rpg\history\chapter_0.json | ep_0_1 | key: bgMarseille
+    - rpg\history\chapter_0.json | ep_0_2 | key: Marseille
+
+File: assets/story/chapter_0/bg_port.webp (Size: 304020 bytes, Hash: a6484090)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_port.webp
+
+File: assets/story/chapter_0/bg_port_container.webp (Size: 266624 bytes, Hash: 8815cca1)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_2 | key: 港のコンテナ
+
+File: assets/story/chapter_0/bg_restaurant.webp (Size: 311110 bytes, Hash: e52e972c)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_restaurant.webp
+
+File: assets/story/chapter_0/bg_room.webp (Size: 233502 bytes, Hash: 4247935e)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_1 | key: bgRoom
+
+File: assets/story/chapter_0/bg_thief_caught.webp (Size: 205606 bytes, Hash: 1f812876)
+  Referenced 1 times in:
+    - rpg\history\chapter_0.json | ep_0_3 | key: bg_thief_caught.webp
+
+File: assets/story/chapter_1/もぬけの殻の村.webp (Size: 429706 bytes, Hash: fde14700)
+  Referenced 7 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_5 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_6 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_7 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_8 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_9 | key: village_empty
+    - rpg\history\chapter_1.json | ep_1_10 | key: village_empty
+
+File: assets/story/chapter_1/アウァーリクム包囲戦.webp (Size: 652638 bytes, Hash: 01247c3d)
+  Referenced 7 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_5 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_6 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_7 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_8 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_9 | key: avaricum_siege
+    - rpg\history\chapter_1.json | ep_1_10 | key: avaricum_siege
+
+File: assets/story/chapter_1/アレシア包囲戦.webp (Size: 431116 bytes, Hash: 020317f4)
+  Referenced 14 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_4 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_5 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_5 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_6 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_6 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_7 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_7 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_8 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_8 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_9 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_9 | key: alesia_sunset
+    - rpg\history\chapter_1.json | ep_1_10 | key: alesia_siege
+    - rpg\history\chapter_1.json | ep_1_10 | key: alesia_sunset
+
+File: assets/story/chapter_1/ウェルキンゲトリクス降伏.webp (Size: 232728 bytes, Hash: 4f242f24)
+  Referenced 7 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_5 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_6 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_7 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_8 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_9 | key: alesia_surrender
+    - rpg\history\chapter_1.json | ep_1_10 | key: alesia_surrender
+
+File: assets/story/chapter_1/ウェルキンゲトリクス陣営.webp (Size: 176912 bytes, Hash: c5734762)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_2 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_3 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_4 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_5 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_6 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_7 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_8 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_9 | key: vercingetorix_camp
+    - rpg\history\chapter_1.json | ep_1_10 | key: vercingetorix_camp
+
+File: assets/story/chapter_1/ガリア陣営.webp (Size: 148458 bytes, Hash: 2cdc96c1)
+  Referenced 7 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_5 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_6 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_7 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_8 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_9 | key: gaul_camp
+    - rpg\history\chapter_1.json | ep_1_10 | key: gaul_camp
+
+File: assets/story/chapter_1/ゲルゴウィアの山.webp (Size: 550018 bytes, Hash: 913a0196)
+  Referenced 7 times in:
+    - rpg\history\chapter_1.json | ep_1_4 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_5 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_6 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_7 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_8 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_9 | key: gergovia_mountain
+    - rpg\history\chapter_1.json | ep_1_10 | key: gergovia_mountain
+
+File: assets/story/chapter_1/戦場.webp (Size: 57976 bytes, Hash: 0c19ef62)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_2 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_3 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_4 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_5 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_6 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_7 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_8 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_9 | key: battlefield
+    - rpg\history\chapter_1.json | ep_1_10 | key: battlefield
+
+File: assets/story/chapter_1/朝集会.webp (Size: 412002 bytes, Hash: 1a8135d0)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_2 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_3 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_4 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_5 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_6 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_7 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_8 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_9 | key: assembly
+    - rpg\history\chapter_1.json | ep_1_10 | key: assembly
+
+File: assets/story/chapter_1/村.webp (Size: 258770 bytes, Hash: b2f878d5)
+  Referenced 11 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: village
+    - rpg\history\chapter_1.json | ep_1_2 | key: village
+    - rpg\history\chapter_1.json | ep_1_3 | key: village
+    - rpg\history\chapter_1.json | ep_1_4 | key: village
+    - rpg\history\chapter_1.json | ep_1_5 | key: village
+    - rpg\history\chapter_1.json | ep_1_6 | key: village
+    - rpg\history\chapter_1.json | ep_1_7 | key: village
+    - rpg\history\chapter_1.json | ep_1_8 | key: village
+    - rpg\history\chapter_1.json | ep_1_9 | key: village
+    - rpg\history\chapter_1.json | ep_1_10 | key: village
+    - rpg\history\chapter_1.json | ep_1_10 | key: tombstone
+
+File: assets/story/chapter_1/村の広場.webp (Size: 387122 bytes, Hash: eaa6c892)
+  Referenced 1 times in:
+    - rpg\history\chapter_1.json | ep_1_10 | key: village_square
+
+File: assets/story/chapter_1/森.webp (Size: 194654 bytes, Hash: 3f2d8010)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: forest
+    - rpg\history\chapter_1.json | ep_1_2 | key: forest
+    - rpg\history\chapter_1.json | ep_1_3 | key: forest
+    - rpg\history\chapter_1.json | ep_1_4 | key: forest
+    - rpg\history\chapter_1.json | ep_1_5 | key: forest
+    - rpg\history\chapter_1.json | ep_1_6 | key: forest
+    - rpg\history\chapter_1.json | ep_1_7 | key: forest
+    - rpg\history\chapter_1.json | ep_1_8 | key: forest
+    - rpg\history\chapter_1.json | ep_1_9 | key: forest
+    - rpg\history\chapter_1.json | ep_1_10 | key: forest
+
+File: assets/story/chapter_1/野営地夜.webp (Size: 356284 bytes, Hash: f8762790)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_2 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_3 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_4 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_5 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_6 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_7 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_8 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_9 | key: camp_night
+    - rpg\history\chapter_1.json | ep_1_10 | key: camp_night
+
+File: assets/story/chapter_1/野営地朝.webp (Size: 380568 bytes, Hash: dd58dcb9)
+  Referenced 10 times in:
+    - rpg\history\chapter_1.json | ep_1_1 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_2 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_3 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_4 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_5 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_6 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_7 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_8 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_9 | key: camp_morning
+    - rpg\history\chapter_1.json | ep_1_10 | key: camp_morning
+
+File: assets/story/chapter_2/8世紀勢力図.webp (Size: 674736 bytes, Hash: 7a69dd0d)
+  Referenced 2 times in:
+    - rpg\history\chapter_2.json | ep_2_5 | key: map_8th
+    - rpg\history\chapter_2.json | ep_2_6 | key: map_8th
+
+File: assets/story/chapter_2/にやり.webp (Size: 117646 bytes, Hash: 8900257e)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_5 | key: grin
+
+File: assets/story/chapter_2/アラブとの戦闘.webp (Size: 637394 bytes, Hash: 866b9c65)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_5 | key: battle_arab
+
+File: assets/story/chapter_2/カール戦場.webp (Size: 52520 bytes, Hash: e6cec9ef)
+  Referenced 3 times in:
+    - rpg\history\chapter_2.json | ep_2_7 | key: charlemagne_battlefield
+    - rpg\history\chapter_2.json | ep_2_8 | key: charlemagne_battlefield
+    - rpg\history\chapter_2.json | ep_2_9 | key: charlemagne_battlefield
+
+File: assets/story/chapter_2/クローヴィス宣誓.webp (Size: 232822 bytes, Hash: ee6009f1)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_3 | key: clovis_oath
+
+File: assets/story/chapter_2/クローヴィス死.webp (Size: 377846 bytes, Hash: e884b123)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_4 | key: clovis_death
+
+File: assets/story/chapter_2/ピピンの寄進.webp (Size: 359296 bytes, Hash: d45ede78)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_6 | key: pepin_donation
+
+File: assets/story/chapter_2/マルテル覚醒.webp (Size: 180758 bytes, Hash: 6f2a5718)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_5 | key: martel_awakening
+
+File: assets/story/chapter_2/メルセンヴェルダン.jpg (Size: 3433025 bytes, Hash: 2cef741c)
+  Referenced 2 times in:
+    - rpg\history\chapter_2.json | ep_2_8 | key: mersen_verdun
+    - rpg\history\chapter_2.json | ep_2_9 | key: mersen_verdun
+
+File: assets/story/chapter_2/ローマ帝国地図.webp (Size: 813992 bytes, Hash: 7a563ec3)
+  Referenced 5 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: roma_empire_map
+    - rpg\history\chapter_2.json | ep_2_2 | key: roma_empire_map
+    - rpg\history\chapter_2.json | ep_2_7 | key: roma_empire_map
+    - rpg\history\chapter_2.json | ep_2_8 | key: roma_empire_map
+    - rpg\history\chapter_2.json | ep_2_9 | key: roma_empire_map
+
+File: assets/story/chapter_2/修道院.webp (Size: 160578 bytes, Hash: 494fa260)
+  Referenced 5 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: monastery
+    - rpg\history\chapter_2.json | ep_2_2 | key: monastery
+    - rpg\history\chapter_2.json | ep_2_7 | key: monastery
+    - rpg\history\chapter_2.json | ep_2_8 | key: monastery
+    - rpg\history\chapter_2.json | ep_2_9 | key: monastery
+
+File: assets/story/chapter_2/回想.webp (Size: 46042 bytes, Hash: 3dfed4cd)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_3 | key: flashback
+
+File: assets/story/chapter_2/城.webp (Size: 588892 bytes, Hash: 27d90ffa)
+  Referenced 6 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: castle
+    - rpg\history\chapter_2.json | ep_2_2 | key: castle
+    - rpg\history\chapter_2.json | ep_2_3 | key: castle
+    - rpg\history\chapter_2.json | ep_2_7 | key: castle
+    - rpg\history\chapter_2.json | ep_2_8 | key: castle
+    - rpg\history\chapter_2.json | ep_2_9 | key: castle
+
+File: assets/story/chapter_2/宮殿の眺望.webp (Size: 346380 bytes, Hash: a4bf5f0a)
+  Referenced 3 times in:
+    - rpg\history\chapter_2.json | ep_2_4 | key: palace_view
+    - rpg\history\chapter_2.json | ep_2_8 | key: palace
+    - rpg\history\chapter_2.json | ep_2_9 | key: palace
+
+File: assets/story/chapter_2/宮殿内.webp (Size: 393106 bytes, Hash: fd796891)
+  Referenced 3 times in:
+    - rpg\history\chapter_2.json | ep_2_6 | key: palace_inside
+    - rpg\history\chapter_2.json | ep_2_8 | key: palace_inside
+    - rpg\history\chapter_2.json | ep_2_9 | key: palace_inside
+
+File: assets/story/chapter_2/庭園.webp (Size: 627236 bytes, Hash: f3506a3e)
+  Referenced 5 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: garden
+    - rpg\history\chapter_2.json | ep_2_2 | key: garden
+    - rpg\history\chapter_2.json | ep_2_7 | key: garden
+    - rpg\history\chapter_2.json | ep_2_8 | key: garden
+    - rpg\history\chapter_2.json | ep_2_9 | key: garden
+
+File: assets/story/chapter_2/戦場.webp (Size: 647142 bytes, Hash: 4b89aecc)
+  Referenced 7 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_2 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_3 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_4 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_7 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_8 | key: battlefield
+    - rpg\history\chapter_2.json | ep_2_9 | key: battlefield
+
+File: assets/story/chapter_2/手紙.webp (Size: 424248 bytes, Hash: 2c2c87e5)
+  Referenced 2 times in:
+    - rpg\history\chapter_2.json | ep_2_8 | key: letter
+    - rpg\history\chapter_2.json | ep_2_9 | key: letter
+
+File: assets/story/chapter_2/教会内.webp (Size: 421090 bytes, Hash: 6012398e)
+  Referenced 7 times in:
+    - rpg\history\chapter_2.json | ep_2_6 | key: church_inside
+    - rpg\history\chapter_2.json | ep_2_7 | key: church_inside
+    - rpg\history\chapter_2.json | ep_2_7 | key: charlemagne_coronation
+    - rpg\history\chapter_2.json | ep_2_8 | key: church_inside
+    - rpg\history\chapter_2.json | ep_2_8 | key: charlemagne_coronation
+    - rpg\history\chapter_2.json | ep_2_9 | key: church_inside
+    - rpg\history\chapter_2.json | ep_2_9 | key: charlemagne_coronation
+
+File: assets/story/chapter_2/教会祈り.webp (Size: 151944 bytes, Hash: e0ffd680)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_4 | key: church_prayer
+
+File: assets/story/chapter_2/森.webp (Size: 194654 bytes, Hash: 3f2d8010)
+  Referenced 5 times in:
+    - rpg\history\chapter_2.json | ep_2_1 | key: forest
+    - rpg\history\chapter_2.json | ep_2_2 | key: forest
+    - rpg\history\chapter_2.json | ep_2_7 | key: forest
+    - rpg\history\chapter_2.json | ep_2_8 | key: forest
+    - rpg\history\chapter_2.json | ep_2_9 | key: forest
+
+File: assets/story/chapter_2/病室.webp (Size: 388744 bytes, Hash: 24b5063e)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_4 | key: sickroom
+
+File: assets/story/chapter_2/病室2.webp (Size: 403736 bytes, Hash: 812ff2c8)
+  Referenced 2 times in:
+    - rpg\history\chapter_2.json | ep_2_8 | key: sickroom
+    - rpg\history\chapter_2.json | ep_2_9 | key: sickroom
+
+File: assets/story/chapter_2/白マイク.jpg (Size: 1319964 bytes, Hash: 2c93e6aa)
+  Referenced 3 times in:
+    - rpg\history\chapter_2.json | ep_2_7 | key: white_mic
+    - rpg\history\chapter_2.json | ep_2_8 | key: white_mic
+    - rpg\history\chapter_2.json | ep_2_9 | key: white_mic
+
+File: assets/story/chapter_2/部屋内対面.webp (Size: 119486 bytes, Hash: 886461eb)
+  Referenced 1 times in:
+    - rpg\history\chapter_2.json | ep_2_5 | key: room_meeting

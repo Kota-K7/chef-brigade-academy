@@ -9,11 +9,11 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bgRoom": "url('assets/story/chapter_0/bg_room.webp')",
-        "bgFather": "url('assets/story/chapter_0/bg_father.webp')",
-        "bgAfterBattle": "url('assets/story/chapter_0/bg_after_battle.webp')",
-        "bgMarseille": "url('assets/story/chapter_0/bg_marseille.webp')",
-        "bgMarket": "url('assets/story/chapter_0/bg_market.webp')"
+        "bgRoom": "url('assets/story/backgrounds/bg_room.webp')",
+        "bgFather": "url('assets/story/backgrounds/bg_father.webp')",
+        "bgAfterBattle": "url('assets/story/backgrounds/bg_after_battle.webp')",
+        "bgMarseille": "url('assets/story/backgrounds/bg_marseille.webp')",
+        "bgMarket": "url('assets/story/backgrounds/bg_market.webp')"
       },
       "characters": {
         "hero": {
@@ -241,9 +241,9 @@
       "backgrounds": {
         "bgBlack": "#000000",
         "黒": "#000000",
-        "Marseille": "url('assets/story/chapter_0/bg_marseille.webp')",
-        "市場": "url('assets/story/chapter_0/bg_market.webp')",
-        "港のコンテナ": "url('assets/story/chapter_0/bg_port_container.webp')"
+        "Marseille": "url('assets/story/backgrounds/bg_marseille.webp')",
+        "市場": "url('assets/story/backgrounds/bg_market.webp')",
+        "港のコンテナ": "url('assets/story/backgrounds/bg_port_container.webp')"
       },
       "characters": {
         "hero": {
@@ -576,12 +576,12 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "bg_container_thief.webp": "url('assets/story/chapter_0/bg_container_thief.webp')",
-        "bg_thief_caught.webp": "url('assets/story/chapter_0/bg_thief_caught.webp')",
-        "bg_port.webp": "url('assets/story/chapter_0/bg_port.webp')",
-        "bg_camille_cry.webp": "url('assets/story/chapter_0/bg_camille_cry.webp')",
-        "bg_market.webp": "url('assets/story/chapter_0/bg_market.webp')",
-        "bg_restaurant.webp": "url('assets/story/chapter_0/bg_restaurant.webp')"
+        "bg_container_thief.webp": "url('assets/story/backgrounds/bg_container_thief.webp')",
+        "bg_thief_caught.webp": "url('assets/story/backgrounds/bg_thief_caught.webp')",
+        "bg_port.webp": "url('assets/story/backgrounds/bg_port.webp')",
+        "bg_camille_cry.webp": "url('assets/story/backgrounds/bg_camille_cry.webp')",
+        "bg_market.webp": "url('assets/story/backgrounds/bg_market.webp')",
+        "bg_restaurant.webp": "url('assets/story/backgrounds/bg_restaurant.webp')"
       },
       "characters": {
         "hero": {

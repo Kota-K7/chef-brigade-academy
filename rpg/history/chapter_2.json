@@ -9,12 +9,12 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
-        "garden": "url('assets/story/chapter_2/庭園.webp')",
-        "monastery": "url('assets/story/chapter_2/修道院.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "forest": "url('assets/story/chapter_2/森.webp')",
-        "castle": "url('assets/story/chapter_2/城.webp')"
+        "roma_empire_map": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "monastery": "url('assets/story/backgrounds/monastery.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')"
       },
       "characters": {
         "hero": {
@@ -423,12 +423,12 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
-        "garden": "url('assets/story/chapter_2/庭園.webp')",
-        "monastery": "url('assets/story/chapter_2/修道院.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "forest": "url('assets/story/chapter_2/森.webp')",
-        "castle": "url('assets/story/chapter_2/城.webp')"
+        "roma_empire_map": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "monastery": "url('assets/story/backgrounds/monastery.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')"
       },
       "characters": {
         "hero": {
@@ -1059,10 +1059,10 @@
       "recommendedPlayTime": "15 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "castle": "url('assets/story/chapter_2/城.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "flashback": "url('assets/story/chapter_2/回想.webp')",
-        "clovis_oath": "url('assets/story/chapter_2/クローヴィス宣誓.webp')"
+        "castle": "url('assets/story/backgrounds/castle.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "flashback": "url('assets/story/backgrounds/flashback.webp')",
+        "clovis_oath": "url('assets/story/backgrounds/clovis_oath.webp')"
       },
       "characters": {
         "hero": {
@@ -1502,11 +1502,11 @@
       "recommendedPlayTime": "15 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "palace_view": "url('assets/story/chapter_2/宮殿の眺望.webp')",
-        "sickroom": "url('assets/story/chapter_2/病室.webp')",
-        "clovis_death": "url('assets/story/chapter_2/クローヴィス死.webp')",
-        "church_prayer": "url('assets/story/chapter_2/教会祈り.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')"
+        "palace_view": "url('assets/story/backgrounds/palace_view.webp')",
+        "sickroom": "url('assets/story/backgrounds/sickroom.webp')",
+        "clovis_death": "url('assets/story/backgrounds/clovis_death.webp')",
+        "church_prayer": "url('assets/story/backgrounds/church_prayer.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')"
       },
       "characters": {
         "hero": {
@@ -1811,11 +1811,11 @@
       "recommendedPlayTime": "15 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "map_8th": "url('assets/story/chapter_2/8世紀勢力図.webp')",
-        "room_meeting": "url('assets/story/chapter_2/部屋内対面.webp')",
-        "grin": "url('assets/story/chapter_2/にやり.webp')",
-        "battle_arab": "url('assets/story/chapter_2/アラブとの戦闘.webp')",
-        "martel_awakening": "url('assets/story/chapter_2/マルテル覚醒.webp')"
+        "map_8th": "url('assets/story/backgrounds/map_8th_century.webp')",
+        "room_meeting": "url('assets/story/backgrounds/room_meeting.webp')",
+        "grin": "url('assets/story/backgrounds/grin.webp')",
+        "battle_arab": "url('assets/story/backgrounds/battle_arab.webp')",
+        "martel_awakening": "url('assets/story/backgrounds/martel_awakening.webp')"
       },
       "characters": {
         "hero": {
@@ -1824,9 +1824,9 @@
         "charles_martel": {
           "name": "カール・マルテル",
           "images": {
-            "default": "assets/story/chapter_2/カール戦場.webp",
-            "normal": "assets/story/chapter_2/カール戦場.webp",
-            "battle": "assets/story/chapter_2/カール戦場.webp"
+            "default": "assets/story/backgrounds/charlemagne_battlefield.webp",
+            "normal": "assets/story/backgrounds/charlemagne_battlefield.webp",
+            "battle": "assets/story/backgrounds/charlemagne_battlefield.webp"
           }
         },
         "noble_opponent": {
@@ -2267,10 +2267,10 @@
       "recommendedPlayTime": "15 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "map_8th": "url('assets/story/chapter_2/8世紀勢力図.webp')",
-        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
-        "pepin_donation": "url('assets/story/chapter_2/ピピンの寄進.webp')"
+        "map_8th": "url('assets/story/backgrounds/map_8th_century.webp')",
+        "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
+        "pepin_donation": "url('assets/story/backgrounds/pepin_donation.webp')"
       },
       "characters": {
         "hero": {
@@ -2836,16 +2836,16 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
-        "garden": "url('assets/story/chapter_2/庭園.webp')",
-        "monastery": "url('assets/story/chapter_2/修道院.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "forest": "url('assets/story/chapter_2/森.webp')",
-        "castle": "url('assets/story/chapter_2/城.webp')",
-        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
-        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
-        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
-        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')"
+        "roma_empire_map": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "monastery": "url('assets/story/backgrounds/monastery.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
+        "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')"
       },
       "characters": {
         "hero": {
@@ -3710,21 +3710,21 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
-        "garden": "url('assets/story/chapter_2/庭園.webp')",
-        "monastery": "url('assets/story/chapter_2/修道院.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "forest": "url('assets/story/chapter_2/森.webp')",
-        "castle": "url('assets/story/chapter_2/城.webp')",
-        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
-        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
-        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
-        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
-        "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
-        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-        "letter": "url('assets/story/chapter_2/手紙.webp')",
-        "sickroom": "url('assets/story/chapter_2/病室2.webp')",
-        "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
+        "roma_empire_map": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "monastery": "url('assets/story/backgrounds/monastery.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
+        "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')",
+        "palace": "url('assets/story/backgrounds/palace_view.webp')",
+        "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
+        "letter": "url('assets/story/backgrounds/letter.webp')",
+        "sickroom": "url('assets/story/backgrounds/sickroom_2.webp')",
+        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.jpg')"
       },
       "characters": {
         "hero": {
@@ -4303,21 +4303,21 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "roma_empire_map": "url('assets/story/chapter_2/ローマ帝国地図.webp')",
-        "garden": "url('assets/story/chapter_2/庭園.webp')",
-        "monastery": "url('assets/story/chapter_2/修道院.webp')",
-        "battlefield": "url('assets/story/chapter_2/戦場.webp')",
-        "forest": "url('assets/story/chapter_2/森.webp')",
-        "castle": "url('assets/story/chapter_2/城.webp')",
-        "white_mic": "url('assets/story/chapter_2/白マイク.jpg')",
-        "charlemagne_battlefield": "url('assets/story/chapter_2/カール戦場.webp')",
-        "church_inside": "url('assets/story/chapter_2/教会内.webp')",
-        "charlemagne_coronation": "url('assets/story/chapter_2/教会内.webp')",
-        "palace": "url('assets/story/chapter_2/宮殿の眺望.webp')",
-        "palace_inside": "url('assets/story/chapter_2/宮殿内.webp')",
-        "letter": "url('assets/story/chapter_2/手紙.webp')",
-        "sickroom": "url('assets/story/chapter_2/病室2.webp')",
-        "mersen_verdun": "url('assets/story/chapter_2/メルセンヴェルダン.jpg')"
+        "roma_empire_map": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "monastery": "url('assets/story/backgrounds/monastery.webp')",
+        "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
+        "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')",
+        "palace": "url('assets/story/backgrounds/palace_view.webp')",
+        "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
+        "letter": "url('assets/story/backgrounds/letter.webp')",
+        "sickroom": "url('assets/story/backgrounds/sickroom_2.webp')",
+        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.jpg')"
       },
       "characters": {
         "hero": {

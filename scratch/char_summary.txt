@@ -1,0 +1,477 @@
+File: assets/story/career_story/elodie.webp (Exists: True)
+  Referenced 15 times:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | elodie:default
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | elodie:default
+
+File: assets/story/career_story/gael.webp (Exists: True)
+  Referenced 15 times:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | gael:default
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | gael:default
+
+File: assets/story/career_story/jean_pierre.webp (Exists: True)
+  Referenced 15 times:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | jean_pierre:default
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | jean_pierre:default
+
+File: assets/story/career_story/kanetake.webp (Exists: True)
+  Referenced 15 times:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | kanetake:default
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | kanetake:default
+
+File: assets/story/career_story/saeki.webp (Exists: True)
+  Referenced 15 times:
+    - rpg\story\chapter_career_0.json | career_ep_0_1 | saeki:default
+    - rpg\story\chapter_career_0.json | career_ep_0_2 | saeki:default
+
+File: assets/story/chapter_0/char_camille_cry.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_0.json | ep_0_1 | camille:cry
+    - rpg\history\chapter_0.json | ep_0_2 | camille:cry
+
+File: assets/story/chapter_0/char_camille_determined.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_0.json | ep_0_1 | camille:determined
+    - rpg\history\chapter_0.json | ep_0_2 | camille:determined
+
+File: assets/story/chapter_0/char_camille_normal.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_0.json | ep_0_1 | camille:normal
+    - rpg\history\chapter_0.json | ep_0_2 | camille:normal
+
+File: assets/story/chapter_0/char_delicious.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | everyone:delicious
+
+File: assets/story/chapter_0/char_everyone_smile.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | everyone:everyone_smile
+
+File: assets/story/chapter_0/char_father_default.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_0.json | ep_0_1 | father:default
+    - rpg\history\chapter_0.json | ep_0_3 | father:default
+
+File: assets/story/chapter_0/char_father_sorry.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_0.json | ep_0_1 | father:sorry
+    - rpg\history\chapter_0.json | ep_0_3 | father:sorry
+
+File: assets/story/chapter_0/char_proprietress_appear.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | proprietress:appear
+
+File: assets/story/chapter_0/char_proprietress_determined.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | proprietress:determined
+
+File: assets/story/chapter_0/char_proprietress_smile.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | proprietress:smile
+
+File: assets/story/chapter_0/char_proprietress_worried.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_0.json | ep_0_3 | proprietress:worried
+
+File: assets/story/chapter_1/アルバン8年後.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_1.json | ep_1_10 | alban:after_8_years
+
+File: assets/story/chapter_1/アルバン涙目.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_1.json | ep_1_10 | alban:tears
+
+File: assets/story/chapter_1/アルバン直立.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_1.json | ep_1_10 | alban:default
+    - rpg\history\chapter_1.json | ep_1_10 | alban:normal
+
+File: assets/story/chapter_1/ウェルキンゲトリクス.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | vercingetorix:default
+    - rpg\history\chapter_1.json | ep_1_1 | vercingetorix:normal
+
+File: assets/story/chapter_1/ウェルキンゲトリクス戦い.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | vercingetorix:combat
+    - rpg\history\chapter_1.json | ep_1_5 | vercingetorix:combat
+
+File: assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | vercingetorix:combat_heat
+    - rpg\history\chapter_1.json | ep_1_5 | vercingetorix:combat_heat
+
+File: assets/story/chapter_1/ウェルキンゲトリクス決着.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | vercingetorix:settlement
+    - rpg\history\chapter_1.json | ep_1_5 | vercingetorix:settlement
+
+File: assets/story/chapter_1/ウェルキンゲトリクス降伏.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | vercingetorix:surrender
+    - rpg\history\chapter_1.json | ep_1_5 | vercingetorix:surrender
+
+File: assets/story/chapter_1/エイデン切られる.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_1.json | ep_1_10 | aedan:slain
+
+File: assets/story/chapter_1/エイデン怒り.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_1.json | ep_1_10 | aedan:default
+    - rpg\history\chapter_1.json | ep_1_10 | aedan:normal
+
+File: assets/story/chapter_1/カエサル.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:default
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:normal
+
+File: assets/story/chapter_1/カエサルてへぺろ.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:tehepero
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:tehepero
+
+File: assets/story/chapter_1/カエサル後光.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:halo
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:halo
+
+File: assets/story/chapter_1/カエサル戦い.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | caesar:combat
+    - rpg\history\chapter_1.json | ep_1_5 | caesar:combat
+
+File: assets/story/chapter_1/カエサル戦闘加熱.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | caesar:combat_heat
+    - rpg\history\chapter_1.json | ep_1_5 | caesar:combat_heat
+
+File: assets/story/chapter_1/カエサル沈黙.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_1.json | ep_1_10 | caesar:silence
+
+File: assets/story/chapter_1/カエサル緋色のマント.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | caesar:red_mantle
+    - rpg\history\chapter_1.json | ep_1_5 | caesar:red_mantle
+
+File: assets/story/chapter_1/カエサル腕組.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:arms_crossed
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:arms_crossed
+
+File: assets/story/chapter_1/カエサル降馬a.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:dismount
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:dismount
+
+File: assets/story/chapter_1/カエサル静かな怒り.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:angry
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:angry
+
+File: assets/story/chapter_1/カエサル頭の輝き.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:bald_sparkle
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:bald_sparkle
+
+File: assets/story/chapter_1/カエサル驚き.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | caesar:surprised
+    - rpg\history\chapter_1.json | ep_1_2 | caesar:surprised
+
+File: assets/story/chapter_1/ファビウス本.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | fabius:book
+    - rpg\history\chapter_1.json | ep_1_2 | fabius:book
+
+File: assets/story/chapter_1/ファビウス病.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | fabius:sick
+    - rpg\history\chapter_1.json | ep_1_2 | fabius:sick
+
+File: assets/story/chapter_1/ファビウス直立.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | fabius:default
+    - rpg\history\chapter_1.json | ep_1_1 | fabius:normal
+
+File: assets/story/chapter_1/ラヴィエヌス副司令官喝.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:scold
+    - rpg\history\chapter_1.json | ep_1_2 | labienus:scold
+
+File: assets/story/chapter_1/ラヴィエヌス副司令官直立.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:default
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:normal
+
+File: assets/story/chapter_1/ラヴィエヌス副司令官腕組.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:arms_crossed
+    - rpg\history\chapter_1.json | ep_1_2 | labienus:arms_crossed
+
+File: assets/story/chapter_1/ラヴィエヌス副司令官静かな怒り.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:angry
+    - rpg\history\chapter_1.json | ep_1_2 | labienus:angry
+
+File: assets/story/chapter_1/ラヴィエヌス呆れ.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:disappointed
+    - rpg\history\chapter_1.json | ep_1_2 | labienus:disappointed
+
+File: assets/story/chapter_1/ラヴィエヌス呆れ白黒.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_1.json | ep_1_1 | labienus:disappointed_bw
+    - rpg\history\chapter_1.json | ep_1_2 | labienus:disappointed_bw
+
+File: assets/story/chapter_1/ラヴィエヌス戦い.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | labienus:combat
+    - rpg\history\chapter_1.json | ep_1_5 | labienus:combat
+
+File: assets/story/chapter_1/ラヴィエヌス驚き.webp (Exists: True)
+  Referenced 7 times:
+    - rpg\history\chapter_1.json | ep_1_4 | labienus:surprised
+    - rpg\history\chapter_1.json | ep_1_5 | labienus:surprised
+
+File: assets/story/chapter_1/村おばあちゃん.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | old_woman:default
+    - rpg\history\chapter_1.json | ep_1_1 | old_woman:normal
+
+File: assets/story/chapter_1/村娘.webp (Exists: True)
+  Referenced 20 times:
+    - rpg\history\chapter_1.json | ep_1_1 | girl:default
+    - rpg\history\chapter_1.json | ep_1_1 | girl:normal
+
+File: assets/story/chapter_2/Gemini_Generated_Image_.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:default
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:normal
+
+File: assets/story/chapter_2/すねる.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:pout
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:pout
+
+File: assets/story/chapter_2/エイレーネーメロメロ.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:in_love
+    - rpg\history\chapter_2.json | ep_2_9 | irene:in_love
+
+File: assets/story/chapter_2/エイレーネー問い.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:question
+    - rpg\history\chapter_2.json | ep_2_9 | irene:question
+
+File: assets/story/chapter_2/エイレーネー怒り.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:angry
+    - rpg\history\chapter_2.json | ep_2_9 | irene:angry
+
+File: assets/story/chapter_2/エイレーネー決意.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:determined
+    - rpg\history\chapter_2.json | ep_2_9 | irene:determined
+
+File: assets/story/chapter_2/エイレーネー照れ.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:blush
+    - rpg\history\chapter_2.json | ep_2_9 | irene:blush
+
+File: assets/story/chapter_2/エイレーネー立ち絵.png (Exists: True)
+  Referenced 4 times:
+    - rpg\history\chapter_2.json | ep_2_8 | irene:default
+    - rpg\history\chapter_2.json | ep_2_8 | irene:normal
+
+File: assets/story/chapter_2/カール大帝サイドチェスト.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:side_chest
+    - rpg\history\chapter_2.json | ep_2_9 | charlemagne:side_chest
+
+File: assets/story/chapter_2/カール大帝スクワット.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:squat
+    - rpg\history\chapter_2.json | ep_2_9 | charlemagne:squat
+
+File: assets/story/chapter_2/カール大帝フロントダブルバイセップス.png (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:front_double_biceps
+    - rpg\history\chapter_2.json | ep_2_9 | charlemagne:front_double_biceps
+
+File: assets/story/chapter_2/カール大帝問い.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:question
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:question
+
+File: assets/story/chapter_2/カール大帝斧ふり戦闘.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:axe_swing
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:axe_swing
+
+File: assets/story/chapter_2/カール大帝満足.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:satisfied
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:satisfied
+
+File: assets/story/chapter_2/カール大帝立ち絵.png (Exists: True)
+  Referenced 6 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:default
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:normal
+
+File: assets/story/chapter_2/カール大帝納得.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:understand
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:understand
+
+File: assets/story/chapter_2/カール大帝訝し.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:puzzled
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:puzzled
+
+File: assets/story/chapter_2/カール大帝説得.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:persuade
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:persuade
+
+File: assets/story/chapter_2/カール大帝驚き.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | charlemagne:surprised
+    - rpg\history\chapter_2.json | ep_2_8 | charlemagne:surprised
+
+File: assets/story/chapter_2/カール戦場.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_5 | charles_martel:default
+    - rpg\history\chapter_2.json | ep_2_5 | charles_martel:normal
+
+File: assets/story/chapter_2/クロティルダ幼年期.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:childhood
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:childhood
+
+File: assets/story/chapter_2/クロティルダ幼年期泣き.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:childhood_cry
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:childhood_cry
+
+File: assets/story/chapter_2/クロティルダ怒り.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:angry
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:angry
+
+File: assets/story/chapter_2/クロティルダ憎しみ.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:hatred
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:hatred
+
+File: assets/story/chapter_2/クロティルダ決意.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_3 | clotilde:determined
+
+File: assets/story/chapter_2/クロティルダ泣き.webp (Exists: True)
+  Referenced 4 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:cry
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:cry
+
+File: assets/story/chapter_2/クロティルダ立ち絵.webp (Exists: True)
+  Referenced 8 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:default
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:normal
+
+File: assets/story/chapter_2/クロティルダ赤子.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_3 | clotilde:baby
+
+File: assets/story/chapter_2/クロティルダ驚き.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clotilde:surprised
+    - rpg\history\chapter_2.json | ep_2_2 | clotilde:surprised
+
+File: assets/story/chapter_2/クローディス挨拶.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:greeting
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:greeting
+
+File: assets/story/chapter_2/クローヴィスまじめ.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:serious
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:serious
+
+File: assets/story/chapter_2/クローヴィス怒り.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:angry
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:angry
+
+File: assets/story/chapter_2/クローヴィス手紙.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:letter
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:letter
+
+File: assets/story/chapter_2/クローヴィス池.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:pond
+    - rpg\history\chapter_2.json | ep_2_2 | clovis:pond
+
+File: assets/story/chapter_2/クローヴィス照れ笑い.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_3 | clovis:shy
+
+File: assets/story/chapter_2/クローヴィス生還.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_3 | clovis:returning
+
+File: assets/story/chapter_2/クローヴィス豪快.webp (Exists: True)
+  Referenced 10 times:
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:default
+    - rpg\history\chapter_2.json | ep_2_1 | clovis:normal
+
+File: assets/story/chapter_2/デシデリウス激怒.png (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_7 | desiderius:default
+    - rpg\history\chapter_2.json | ep_2_7 | desiderius:normal
+
+File: assets/story/chapter_2/デシデリウス絶望.png (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_7 | desiderius:despair
+
+File: assets/story/chapter_2/ピピン弱気.webp (Exists: True)
+  Referenced 3 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pepin:default
+    - rpg\history\chapter_2.json | ep_2_6 | pepin:normal
+
+File: assets/story/chapter_2/ピピン悪.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pepin:evil
+
+File: assets/story/chapter_2/ピピン指示.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pepin:instruct
+
+File: assets/story/chapter_2/ピピン発明.webp (Exists: True)
+  Referenced 1 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pepin:invent
+
+File: assets/story/chapter_2/教皇困る.webp (Exists: True)
+  Referenced 4 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pope:default
+    - rpg\history\chapter_2.json | ep_2_6 | pope:normal
+
+File: assets/story/chapter_2/教皇笑み.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pope:smile
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:smile
+
+File: assets/story/chapter_2/教皇謝罪.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pope:apology
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:apology
+
+File: assets/story/chapter_2/教皇邪悪.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pope:evil
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:evil
+
+File: assets/story/chapter_2/教皇驚き.webp (Exists: True)
+  Referenced 2 times:
+    - rpg\history\chapter_2.json | ep_2_6 | pope:surprised
+    - rpg\history\chapter_2.json | ep_2_7 | leo3:surprised
+

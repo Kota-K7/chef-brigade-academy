@@ -143,3 +143,22 @@ Saeki:「どれどれ……（味見して）本当だ。よくできている�
 *   `#numbers` : 数字の綴り
 *   `#plurals` : 複数形
 *   `#units` : 計量・単位（litre, kilo など）
+
+---
+
+## 5. 🖼️ 共有背景画像 (Backgrounds) の指定
+
+背景画像はすべて共有ディレクトリ `assets/story/backgrounds/` に集約されています。
+利用可能な背景画像一覧およびキー名は [backgrounds_guide.md](file:///c:/Users/kotya/.gemini/antigravity-ide/scratch/chef-brigade-academy/rpg/backgrounds_guide.md) または [backgrounds.json](file:///c:/Users/kotya/.gemini/antigravity-ide/scratch/chef-brigade-academy/rpg/backgrounds.json) を参照してください。
+
+### JSON 記述例:
+```json
+"backgrounds": {
+  "bgBlack": "#000000",
+  "forest": "url('assets/story/backgrounds/forest.webp')",
+  "kitchen": "url('assets/story/backgrounds/kitchen.webp')",
+  "restaurant": "url('assets/story/backgrounds/restaurant.webp')",
+  "castle": "url('assets/story/backgrounds/castle.webp')"
+}
+```
+

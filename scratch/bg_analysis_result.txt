@@ -1,0 +1,14 @@
+Total BG files: 57
+
+=== HASH DUPLICATION (Identical Images) ===
+Hash 3f2d8010:
+  - assets/story/chapter_1/森.webp
+  - assets/story/chapter_2/森.webp
+
+=== SAME FILENAME DIFFERENT CONTENT (Collisions) ===
+Filename '戦場.webp':
+  - assets/story/chapter_1/戦場.webp (hash: 0c19ef62)
+  - assets/story/chapter_2/戦場.webp (hash: 4b89aecc)
+Filename '森.webp':
+  - assets/story/chapter_1/森.webp (hash: 3f2d8010)
+  - assets/story/chapter_2/森.webp (hash: 3f2d8010)

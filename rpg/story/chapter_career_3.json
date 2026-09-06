@@ -9,9 +9,9 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "restaurant": "url('assets/story/career_story/restaurant.webp')",
-        "kitchen": "url('assets/story/career_story/kitchen.webp')",
-        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+        "restaurant": "url('assets/story/backgrounds/restaurant.webp')",
+        "kitchen": "url('assets/story/backgrounds/kitchen.webp')",
+        "gael_sweets": "url('assets/story/backgrounds/gael_sweets.webp')"
       },
       "characters": {
         "hero": {
@@ -445,9 +445,9 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "restaurant": "url('assets/story/career_story/restaurant.webp')",
-        "kitchen": "url('assets/story/career_story/kitchen.webp')",
-        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+        "restaurant": "url('assets/story/backgrounds/restaurant.webp')",
+        "kitchen": "url('assets/story/backgrounds/kitchen.webp')",
+        "gael_sweets": "url('assets/story/backgrounds/gael_sweets.webp')"
       },
       "characters": {
         "hero": {
@@ -839,9 +839,9 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "restaurant": "url('assets/story/career_story/restaurant.webp')",
-        "kitchen": "url('assets/story/career_story/kitchen.webp')",
-        "gael_sweets": "url('assets/story/career_story/gael_sweets.webp')"
+        "restaurant": "url('assets/story/backgrounds/restaurant.webp')",
+        "kitchen": "url('assets/story/backgrounds/kitchen.webp')",
+        "gael_sweets": "url('assets/story/backgrounds/gael_sweets.webp')"
       },
       "characters": {
         "hero": {

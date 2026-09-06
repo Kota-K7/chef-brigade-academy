@@ -1,0 +1,122 @@
+Total files in assets/story: 167
+Mapped as backgrounds: 58
+Remaining files: 109
+
+Directory: assets/story (1 files)
+  - sd_marie_antoinette.png
+
+Directory: assets/story/career_story (9 files)
+  - elodie.webp
+  - elodie_reward.webp
+  - gael.webp
+  - group_photo.webp
+  - jean_pierre.webp
+  - kanetake.webp
+  - pierre_kanetake_young.webp
+  - saeki.webp
+  - saeki_young.webp
+
+Directory: assets/story/chapter_0 (12 files)
+  - char_camille_cry.webp
+  - char_camille_determined.webp
+  - char_camille_normal.webp
+  - char_delicious.webp
+  - char_everyone_smile.webp
+  - char_father_default.webp
+  - char_father_sorry.webp
+  - char_proprietress_angry.webp
+  - char_proprietress_appear.webp
+  - char_proprietress_determined.webp
+  - char_proprietress_smile.webp
+  - char_proprietress_worried.webp
+
+Directory: assets/story/chapter_1 (39 files)
+  - アルバン8年後.webp
+  - アルバン涙目.webp
+  - アルバン直立.webp
+  - ウェルキンゲトリクス.webp
+  - ウェルキンゲトリクス戦い.webp
+  - ウェルキンゲトリクス戦闘加熱.webp
+  - ウェルキンゲトリクス決着.webp
+  - エイダン直立.webp
+  - エイデン切られる.webp
+  - エイデン墓.webp
+  - エイデン怒り.webp
+  - カエサル.webp
+  - カエサルてへぺろ.webp
+  - カエサル後光.webp
+  - カエサル戦い.webp
+  - カエサル戦闘加熱.webp
+  - カエサル沈黙.webp
+  - カエサル緋色のマント.webp
+  - カエサル腕組.webp
+  - カエサル降馬a.webp
+  - カエサル降馬新.webp
+  - カエサル静かな怒り.webp
+  - カエサル頭の輝き.webp
+  - カエサル驚き.webp
+  - ファビウス本.webp
+  - ファビウス病.webp
+  - ファビウス直立.webp
+  - ラヴィエヌス副司令官喝.webp
+  - ラヴィエヌス副司令官直立.webp
+  - ラヴィエヌス副司令官腕組.webp
+  - ラヴィエヌス副司令官静かな怒り.webp
+  - ラヴィエヌス呆れ.webp
+  - ラヴィエヌス呆れ白黒.webp
+  - ラヴィエヌス戦い.webp
+  - ラヴィエヌス驚き.webp
+  - 八年後の村.webp
+  - 村おばあちゃん.webp
+  - 村娘.png
+  - 村娘.webp
+
+Directory: assets/story/chapter_2 (48 files)
+  - Gemini_Generated_Image_.webp
+  - すねる.webp
+  - エイレーネーメロメロ.png
+  - エイレーネー問い.png
+  - エイレーネー怒り.png
+  - エイレーネー決意.png
+  - エイレーネー照れ.png
+  - エイレーネー立ち絵.png
+  - カール大帝サイドチェスト.png
+  - カール大帝スクワット.png
+  - カール大帝フロントダブルバイセップス.png
+  - カール大帝問い.png
+  - カール大帝斧ふり戦闘.png
+  - カール大帝満足.png
+  - カール大帝立ち絵.png
+  - カール大帝納得.png
+  - カール大帝訝し.png
+  - カール大帝説得.png
+  - カール大帝驚き.png
+  - クロティルダ幼年期.webp
+  - クロティルダ幼年期泣き.webp
+  - クロティルダ怒り.webp
+  - クロティルダ怒り泣き.webp
+  - クロティルダ憎しみ.webp
+  - クロティルダ決意.webp
+  - クロティルダ泣き.webp
+  - クロティルダ立ち絵.webp
+  - クロティルダ赤子.webp
+  - クロティルダ驚き.webp
+  - クローディス挨拶.webp
+  - クローヴィスまじめ.webp
+  - クローヴィス怒り.webp
+  - クローヴィス手紙.webp
+  - クローヴィス池.webp
+  - クローヴィス照れ笑い.webp
+  - クローヴィス生還.webp
+  - クローヴィス豪快.webp
+  - デシデリウス激怒.png
+  - デシデリウス絶望.png
+  - ピピン弱気.webp
+  - ピピン悪.webp
+  - ピピン指示.webp
+  - ピピン発明.webp
+  - 教皇困る.webp
+  - 教皇笑み.webp
+  - 教皇謝罪.webp
+  - 教皇邪悪.webp
+  - 教皇驚き.webp

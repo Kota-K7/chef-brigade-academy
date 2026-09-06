@@ -9,13 +9,13 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')"
       },
       "characters": {
         "hero": {
@@ -993,13 +993,13 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')"
       },
       "characters": {
         "hero": {
@@ -1647,13 +1647,13 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')"
       },
       "characters": {
         "hero": {
@@ -2402,20 +2402,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -2469,7 +2469,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -2802,20 +2802,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -2869,7 +2869,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -3269,20 +3269,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -3336,7 +3336,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -3763,20 +3763,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -3830,7 +3830,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -4191,20 +4191,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -4258,7 +4258,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -4718,20 +4718,20 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')"
       },
       "characters": {
         "hero": {
@@ -4785,7 +4785,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
@@ -5357,22 +5357,22 @@
       "recommendedPlayTime": "5 mins",
       "backgrounds": {
         "bgBlack": "#000000",
-        "battlefield": "url('assets/story/chapter_1/戦場.webp')",
-        "camp_morning": "url('assets/story/chapter_1/野営地朝.webp')",
-        "assembly": "url('assets/story/chapter_1/朝集会.webp')",
-        "village_square": "url('assets/story/chapter_1/村の広場.webp')",
-        "camp_night": "url('assets/story/chapter_1/野営地夜.webp')",
-        "forest": "url('assets/story/chapter_1/森.webp')",
-        "village": "url('assets/story/chapter_1/村.webp')",
-        "village_empty": "url('assets/story/chapter_1/もぬけの殻の村.webp')",
-        "vercingetorix_camp": "url('assets/story/chapter_1/ウェルキンゲトリクス陣営.webp')",
-        "gaul_camp": "url('assets/story/chapter_1/ガリア陣営.webp')",
-        "avaricum_siege": "url('assets/story/chapter_1/アウァーリクム包囲戦.webp')",
-        "gergovia_mountain": "url('assets/story/chapter_1/ゲルゴウィアの山.webp')",
-        "alesia_siege": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_sunset": "url('assets/story/chapter_1/アレシア包囲戦.webp')",
-        "alesia_surrender": "url('assets/story/chapter_1/ウェルキンゲトリクス降伏.webp')",
-        "tombstone": "url('assets/story/chapter_1/村.webp')"
+        "battlefield": "url('assets/story/backgrounds/battlefield_gaul.webp')",
+        "camp_morning": "url('assets/story/backgrounds/camp_morning.webp')",
+        "assembly": "url('assets/story/backgrounds/assembly.webp')",
+        "village_square": "url('assets/story/backgrounds/village_square.webp')",
+        "camp_night": "url('assets/story/backgrounds/camp_night.webp')",
+        "forest": "url('assets/story/backgrounds/forest.webp')",
+        "village": "url('assets/story/backgrounds/village.webp')",
+        "village_empty": "url('assets/story/backgrounds/village_empty.webp')",
+        "vercingetorix_camp": "url('assets/story/backgrounds/vercingetorix_camp.webp')",
+        "gaul_camp": "url('assets/story/backgrounds/gaul_camp.webp')",
+        "avaricum_siege": "url('assets/story/backgrounds/avaricum_siege.webp')",
+        "gergovia_mountain": "url('assets/story/backgrounds/gergovia_mountain.webp')",
+        "alesia_siege": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_sunset": "url('assets/story/backgrounds/alesia_siege.webp')",
+        "alesia_surrender": "url('assets/story/backgrounds/alesia_surrender.webp')",
+        "tombstone": "url('assets/story/backgrounds/village.webp')"
       },
       "characters": {
         "hero": {
@@ -5427,7 +5427,7 @@
             "combat": "assets/story/chapter_1/ウェルキンゲトリクス戦い.webp",
             "combat_heat": "assets/story/chapter_1/ウェルキンゲトリクス戦闘加熱.webp",
             "settlement": "assets/story/chapter_1/ウェルキンゲトリクス決着.webp",
-            "surrender": "assets/story/chapter_1/ウェルキンゲトリクス降伏.webp"
+            "surrender": "assets/story/backgrounds/alesia_surrender.webp"
           }
         },
         "girl": {
