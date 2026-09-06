@@ -1,0 +1,1099 @@
+{
+  "chapterId": "ch_3",
+  "chapterTitle": "第3章: 中世フランクと封建社会 - カペー朝とアンジュー帝国",
+  "notes": "カペー朝の成立、ノルマン・コンクエスト、エレオノールとアンジュー帝国の誕生、英仏の愛憎劇を学ぶ章",
+  "episodes": [
+    {
+      "episodeId": "ep_3_1",
+      "episodeTitle": "第1話: 弱小王と海賊の末裔",
+      "recommendedPlayTime": "10 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "rollo_raid": "url('assets/story/backgrounds/rollo_raid.jpg')",
+        "capet_dynasty": "url('assets/story/backgrounds/capet_dynasty.jpg')",
+        "normandy_conquest": "url('assets/story/backgrounds/normandy_conquest.jpg')",
+        "royal_domain": "url('assets/story/backgrounds/roma_empire_map.webp')"
+      },
+      "characters": {
+        "narrator": {
+          "name": "ナレーター"
+        },
+        "rollo": {
+          "name": "ロロ"
+        },
+        "charles_simple": {
+          "name": "シャルル単純王"
+        },
+        "hugh_capet": {
+          "name": "ユーグ・カペー"
+        },
+        "guillaume": {
+          "name": "ギョーム (ウィリアム征服王)"
+        },
+        "french_king": {
+          "name": "フランス王"
+        },
+        "vassals": {
+          "name": "家臣たち"
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": null,
+          "text": "「偉大なるカール大帝の死後、巨大な帝国は分裂した。その一つ、西フランク王国（のちのフランス）は、北からの恐るべき侵略者に震え上がっていた。海賊、ヴァイキングである。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": "rollo",
+          "text": "「ガハハハ！ フランクの王よ、食料をよこせッ！ さもなくば都を火の海にしてくれるわ！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": null,
+          "text": "「911年、追い詰められた西フランク王は、ヴァイキングの首領ロロに北部の土地を与え、国を守る盾とした。これが『ノルマンディー公国』の始まりである。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": "charles_simple",
+          "text": "「Acceptez la terre ! (その土地を受け取れ！)。なので攻めないでくださいっ！！お願いです（涙）」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": "rollo",
+          "text": "「おまえ、結構単純だな？？」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「その土地を受け取れ！」 Acceptez (受け取れ: accepterのvousに対する命令形) ＋ la (女性単数の定冠詞) ＋ terre (土地)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "rollo_raid",
+          "character": "rollo",
+          "text": "「Je protégerai le royaume. (俺が王国を守ってやろう)」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「俺が王国を守るだろう」 Je (私は) ＋ protégerai (守るだろう: protégerの単純未来形) ＋ le (男性単数の定冠詞) ＋ royaume (王国)。フランス語の単純未来は、動詞の原形に「-ai, -as, -a, -ons, -ez, -ont」という語尾をつけて作ります（例外あり）。"
+          }
+        },
+        {
+          "type": "battle",
+          "background": "rollo_raid",
+          "enemy": {
+            "name": "北の侵略者 ヴァイキング・ロロ",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#imperative",
+              "count": 3
+            },
+            {
+              "tag": "#futur_simple",
+              "count": 2
+            },
+            {
+              "tag": "#verbs",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": null,
+          "text": "「時は流れ、987年。血筋の絶えたカロリング朝に代わり、パリ伯であったユーグ・カペーが新たなフランクの王に推挙された。ここに【カペー朝】が成立する。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": "hugh_capet",
+          "text": "「やった……！ ついに私がフランクの王だ！ 輝かしい未来が待っているぞ！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": "hugh_capet",
+          "text": "「……って、あれ？ ちょっと待って？ 私の直轄領（自分の土地）、パリの周りだけ！？ 少なくない！？」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": null,
+          "text": "「そう、カペー朝の始まりは絶望的であった。ノルマンディー公などの有力な家臣（諸侯）たちのほうが、王であるユーグ・カペーよりも圧倒的に広大な領地と軍事力を持っていたのである。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": "vassals",
+          "text": "「王様（笑）ですね。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "capet_dynasty",
+          "character": "hugh_capet",
+          "text": "「な、なんて情けない王冠だ……！ だが、Un jour, je serai un vrai roi ! (いつか、私は真の王になるだろう！)」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「いつの日か、私は本物の王になるだろう！」 Un jour (いつか) ＋ je (私は) ＋ serai (なるだろう: êtreの単純未来の特殊形) ＋ un (男性単数の不定冠詞) ＋ vrai (真の) ＋ roi (王)。"
+          }
+        },
+        {
+          "type": "battle",
+          "background": "capet_dynasty",
+          "enemy": {
+            "name": "カペー朝の試練 諸侯たちの冷笑",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#futur_simple",
+              "count": 3
+            },
+            {
+              "tag": "#articles",
+              "count": 2
+            },
+            {
+              "tag": "#verbs",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": null,
+          "text": "「カペー朝の王たちがパリの周辺で細々と生き延びる中、1066年、家臣であるはずの『ノルマンディー公』がとんでもない事件を起こす。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": "guillaume",
+          "text": "「海を渡り、イングランドの王冠を奪う！ 全軍、進めェッ！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": null,
+          "text": "「ノルマン・コンクエスト（ノルマン人の征服）である。海賊ロロの末裔であるノルマンディー公ギョームは、海を渡ってイングランドを征服し、自ら『イングランド王』として即位してしまったのだ。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": "guillaume",
+          "text": "「Regardez l'Angleterre ! (イングランドを見よ！)」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「イングランドを見なさい！」 Regardez (見よ: regarderの命令形) ＋ l'Angleterre (イングランド)。母音で始まる名詞の前では、定冠詞(la/le)は l' になります（エリジオン）。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": null,
+          "text": "「――ここで、歴史を学ぶ上での重要な言語の豆知識（解説）を挟もう。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "normandy_conquest",
+          "character": null,
+          "text": "「彼の名前はフランス語で『Guillaume（ギョーム）』だが、英語では『William（ウィリアム）』と呼ばれる。全く違う名前に見えるが、実は同じ名前なのだ。」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: ゲルマン語系の『W』の音は、フランス語に入ると『Gu（グ / ギョ）』の音に変化する法則がある。 ・War（戦争） ＝ Guerre（ゲール） ・Warrant（保証） ＝ Garant（ガラン） ・William（ウィリアム） ＝ Guillaume（ギョーム）"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": "french_king",
+          "text": "「いやいやいや！ ちょっと待って！？ 家臣が隣の国の『王様』になっちゃったんだけど！？」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": "french_king",
+          "text": "「つまり、あいつは『フランス王の家臣（ノルマンディー公）』でありながら、『イングランド王』として俺より巨大な権力を持ってるってこと！？ 詰んでない！？」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「『フランス王である自分より、家臣の方が圧倒的に強い』。この絶望的なパワーバランスを抱えたまま、時代は12世紀へと突入する。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「この圧倒的不利な状況をどうにかすべく、生真面目で陰キャな一人のフランス王（ルイ7世）が、広大な領地を持つとある『魔性の女（エレオノール）』と政略結婚することになるのだが……。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「それが、英仏両国を巻き込む史上最悪のドロドロの愛憎劇の幕開けになるとは、この時誰も知る由もなかった――！」",
+          "characters": []
+        },
+        {
+          "type": "battle",
+          "background": "royal_domain",
+          "enemy": {
+            "name": "海を越えた征服王 ギョーム",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#futur_simple",
+              "count": 3
+            },
+            {
+              "tag": "#imperative",
+              "count": 2
+            },
+            {
+              "tag": "#articles",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_3_2",
+      "episodeTitle": "第2話: 征服王と魔性の女",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "royal_domain": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "garden": "url('assets/story/backgrounds/garden.webp')",
+        "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
+        "battle_arab": "url('assets/story/backgrounds/battle_arab.webp')",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')"
+      },
+      "characters": {
+        "narrator": {
+          "name": "ナレーター"
+        },
+        "eleanor": {
+          "name": "エレオノール",
+          "images": {
+            "default": "assets/story/chapter_3/eleanor_default.webp",
+            "normal": "assets/story/chapter_3/eleanor_default.webp",
+            "smile": "assets/story/chapter_3/eleanor_smile.webp",
+            "disappointed": "assets/story/chapter_3/eleanor_disappointed.webp",
+            "blush": "assets/story/chapter_3/eleanor_blush.webp"
+          }
+        },
+        "louis_vii": {
+          "name": "ルイ7世"
+        },
+        "henry_ii": {
+          "name": "ヘンリ2世",
+          "images": {
+            "default": "assets/story/chapter_3/henry_default.webp",
+            "normal": "assets/story/chapter_3/henry_default.webp",
+            "wink": "assets/story/chapter_3/henry_wink.webp",
+            "smile": "assets/story/chapter_3/henry_smile.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「1066年の『ノルマン・コンクエスト』により、フランスの家臣であるノルマンディー公が、イングランド王となってしまった。フランス王室は、この強大すぎる隣人に対抗するため、南フランスの広大な領地『アキテーヌ公国』を治める若き女公との政略結婚を取りまとめた。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": null,
+          "text": "「1137年。フランス王太子（後のルイ7世）の元へ、その女公が嫁いできた。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "eleanor",
+          "text": "「ふふっ、ここがパリ？ 少し肌寒くて静かな街ね。私はアキテーヌ女王よっ！ さあ、私の勇敢で逞しい旦那様はどこかしら？」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "説明行: エレノール・ダキテーヌ（Aliénor d’Aquitaine）\n1122年頃–1204年｜アキテーヌ女公／フランス王妃／イングランド王妃\n1137年、フランス王ルイ7世と結婚するも1152年に婚姻を解消。そのわずか2か月後、11歳年下のノルマンディー公アンリと再婚する。アンリはのちにイングランド王ヘンリ2世となり、エレオノールは再び王妃となった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "eleanor",
+          "text": "「Les terres que j'ai apportées sont immenses ! (私がもたらした領地は広大よ！)」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「私が持参した領地は広大よ！」\nLes terres (領地: 女性複数) ＋ que (関係代名詞) ＋ j' (私は) ＋ ai apportées (もたらした: avoir ＋ apporterの過去分詞)。\n★重要文法（#past_participle_agreement）: 複合過去において、直接目的語（この場合は「領地」）が動詞の前に置かれた場合、過去分詞はその目的語の性・数に一致します。terreが女性複数なので、apportéに「es」がついています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "eleanor",
+          "text": "「ふふふっ、きっと頼もしい方なんでしょうね。……って、あれ？」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "smile",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "louis_vii",
+          "text": "「…………主よ、なぜ私にこのような試練を与えたもうか。彼女は香水の匂いがキツすぎます……」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "説明行: ルイ7世（Louis VII）1120年–1180年｜（在位1137–1180年）敬虔な信仰心を持つ君主として知られ、カペー朝のフランス王。ルイ7世はそののちのイングランド王および恋敵となるアンリ2世と対立しながら王権を維持し、1180年に没した。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "eleanor",
+          "text": "「ちょっと、聞こえてるわよ！ せっかくあなたのために綺麗に準備してきたのに。隅っこでブツブツ言ってないで、、（もうこの王子様大丈夫なのかしら）」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "disappointed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "louis_vii",
+          "text": "「き、君だって派手すぎるじゃないか！ 神聖なパリの宮廷でははしたないぞ！ もっと慎ましく祈りを……！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "garden",
+          "character": "eleanor",
+          "text": "「Je lui ai parlé gentiment, mais il m'a ignorée ! (優しく話しかけたのに、私を無視するなんて！)」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「私は彼に優しく話しかけたが、彼は私を無視した！」\n★重要文法（#object_pronouns_direct_indirect, #past_participle_agreement）: 「彼に(lui)」「私を(me/m')」。無視した対象が「私（女性）」なので、ignoréに「e」がついて一致。"
+          }
+        },
+        {
+          "type": "battle",
+          "background": "garden",
+          "enemy": {
+            "name": "致命的な性格の不一致",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#past_compose",
+              "count": 3
+            },
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 2
+            },
+            {
+              "tag": "#past_participle_agreement",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": null,
+          "text": "「（カツッ、カツッ……）フランス王への謁見に向かう一人の男がいた。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": null,
+          "text": "「赤毛にそばかす、乗馬選手のように丸みを帯びたがっしりとした下半身。野性的な熱気を放つその男は、エレオノールのすれ違いざまに彼女の耳元で囁いた。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "henry_ii",
+          "text": "「…………アキテーヌ女王。いい響きだ」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "eleanor",
+          "text": "「えっ……？」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "henry_ii",
+          "text": "「（にこっ）」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "wink",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": null,
+          "text": "「男は歩みを止めず、肩越しに振り返ってエレオノールへ挑発的なウィンクを投げると、ニヤリと笑って去っていった。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "eleanor",
+          "text": "「な、何よ今の男……無礼な奴ね（ポッ）。……ねえ、あれ誰かしら？」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "blush",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": null,
+          "text": "「エレオノールが振り返ると、普段は気弱なはずのルイ7世が、ギリギリと歯を鳴らして震えていた。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "louis_vii",
+          "text": "「……あれは……アンジュー伯アンリ……！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "eleanor",
+          "text": "「え？」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "palace_inside",
+          "character": "louis_vii",
+          "text": "「野蛮で、強欲で、神を恐れぬ獣……っ！私の王領へ近づけたくない男だ！！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": null,
+          "text": "「即位後、二人は夫婦として歩み寄ろうと努力し、揃って『第2回十字軍』へ参加するが、戦場でそのすれ違いは決定的なものとなる。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": "eleanor",
+          "text": "「ここは私のアキテーヌ軍の機動力を活かして、一気に奇襲をかけるべきよ！」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": "louis_vii",
+          "text": "「だ、だめだ！ き、君はでしゃばりすぎなんだよ！ あなたの親族が提案した野蛮な作戦など、絶対に採用しない！ 私は祈りによってこの聖戦を……」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": "eleanor",
+          "text": "「（はぁ）祈ってるだけで勝てたら苦労しないわよ！ 頭でっかちの石頭！」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "disappointed",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": "louis_vii",
+          "text": "「Le roi me l'a donné ! (父上が僕にそれ[アキテーヌ]を与えたんだ！ 僕の指揮に従うべきだ！)」",
+          "characters": [],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「王（父）が私にそれを与えたのだ」\n★重要文法（#object_pronouns_direct_indirect）: 「私に(me)」「それを(le/la -> l')」のように、二つの目的語代名詞が動詞の前に並ぶ形。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "battle_arab",
+          "character": null,
+          "text": "「陽気で行動的なエレオノールと、頑固で物静かなルイ7世。第2回十字軍が失敗に終わったことで、二人は『どう頑張っても分かり合えない』ことを悟ってしまった。」",
+          "characters": []
+        },
+        {
+          "type": "battle",
+          "background": "battle_arab",
+          "enemy": {
+            "name": "十字軍でのすれ違い",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#object_pronouns_direct_indirect",
+              "count": 4
+            },
+            {
+              "tag": "#past_compose",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": null,
+          "text": "「1152年。ついに二人は、離婚を認めてもらった。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "louis_vii",
+          "text": "「……君のような女性を、僕は受け止めきれなかった。広大なアキテーヌの領地は惜しいが……これでようやく、静かな祈りの日々が戻ってくる」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "eleanor",
+          "text": "「ふふっ。ええ、お互い生きる世界が違ったのよ。元気でね、真面目すぎる王様」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": null,
+          "text": "「二人は別れの挨拶を交わし、それぞれの人生を歩み始めたと思われた。しかし、二人の人生は思わぬ形でまだ交差することとなる」",
+          "characters": []
+        }
+      ]
+    },
+    {
+      "episodeId": "ep_3_3",
+      "episodeTitle": "第3話: アンジュー帝国と獅子の子ら",
+      "recommendedPlayTime": "15 mins",
+      "backgrounds": {
+        "bgBlack": "#000000",
+        "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
+        "royal_domain": "url('assets/story/backgrounds/roma_empire_map.webp')",
+        "castle": "url('assets/story/backgrounds/castle.webp')"
+      },
+      "characters": {
+        "narrator": {
+          "name": "ナレーター"
+        },
+        "eleanor": {
+          "name": "エレオノール",
+          "images": {
+            "default": "assets/story/chapter_3/eleanor_default.webp",
+            "normal": "assets/story/chapter_3/eleanor_default.webp",
+            "smile": "assets/story/chapter_3/eleanor_smile.webp"
+          }
+        },
+        "henry_ii": {
+          "name": "ヘンリ2世",
+          "images": {
+            "default": "assets/story/chapter_3/henry_default.webp",
+            "normal": "assets/story/chapter_3/henry_default.webp",
+            "smile": "assets/story/chapter_3/henry_smile.webp"
+          }
+        },
+        "louis_vii": {
+          "name": "ルイ7世"
+        },
+        "john": {
+          "name": "ジョン (幼少期)",
+          "images": {
+            "default": "assets/story/chapter_3/john_child.webp",
+            "normal": "assets/story/chapter_3/john_child.webp",
+            "twitch": "assets/story/chapter_3/john_twitch.webp"
+          }
+        },
+        "richard": {
+          "name": "リチャード (幼少期)",
+          "images": {
+            "default": "assets/story/chapter_3/richard_child.webp",
+            "normal": "assets/story/chapter_3/richard_child.webp",
+            "angry": "assets/story/chapter_3/richard_angry.webp"
+          }
+        }
+      },
+      "sequence": [
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": null,
+          "text": "「ルイ7世との離婚が成立した直後。自由の身となったエレオノールの前に、先ほどすれ違った野性的な男、アンジュー伯アンリが立ちはだかった。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "eleanor",
+          "text": "「ふふっ、待ち伏せかしら？ 私を口説くならそれなりの覚悟が必要よ？ 私はアキテーヌ女王。フランスの半分の富と土地を持つ女なのだから」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "smile",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "henry_ii",
+          "text": "「ガハハッ！ 覚悟だと？ 私は誰にも止まらない。お前も、お前の持つその広大な領地も、すべて俺がもらう」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "smile",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: ヘンリ2世（Henry II of England）1133年–1189年｜イングランド王（在位1154–1189年）\nアンジュー伯家に生まれ、1152年にエレオノール・ダキテーヌと結婚。1154年にイングランド王となると、イングランド王国だけでなく、ノルマンディー、アンジュー、アキテーヌなどフランス西部の広大な領土を支配した。これらの領土はアンジュー帝国と呼ばれる。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "eleanor",
+          "text": "「Cet homme est plus sauvage que n'importe qui ! (この男は、誰よりも野性的ね！)」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "smile",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「この男は誰よりも野性的だ！」\nCet (この) ＋ homme (男) ＋ est plus sauvage que (〜よりも野性的だ: 比較級) ＋ n'importe qui (誰よりも/どんな人よりも)。\n★重要文法（#comparative, #basic_adjectives）: 比較級は「plus ＋ 形容詞 ＋ que」で作ります。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "henry_ii",
+          "text": "「アキテーヌ女王……いい響きだ。俺の野望には、お前のその燃えるような気高さが必要だ。Tu es ma reine, et notre avenir est radieux ! (お前は俺の女王だ、そして俺たちの未来は輝かしい！)」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「君は私の女王だ、そして私たちの未来は輝かしい！」\nTu es (君は〜だ) ＋ ma (私の: 所有形容詞) ＋ reine (女王) ＋ et (そして) ＋ notre (私たちの: 所有形容詞) ＋ avenir (未来) ＋ est radieux (輝かしい)。\n★重要文法（#possessive_adjectives）: 女性単数にかかる ma、単数にかかる notre などの所有形容詞の基本です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": "eleanor",
+          "text": "「ええ、いいわ。あなたとなら、もっと自由に羽ばたけそうね」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "church_inside",
+          "character": null,
+          "text": "「1152年。エレオノールはこの11歳年下の『獣』と電撃的な再婚を果たした。ルイ7世との離婚からわずか数週間後の話であった。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「再婚から2年後の1154年。エレオノールの莫大な富と支えを得て、フランス諸侯であるアンリは海を渡った。ノルマン朝の血筋を主張して内戦を制し、なんとイングランド王『ヘンリ2世』として即位してしまったのである！」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": "henry_ii",
+          "text": "「Moi, je suis le roi d’Angleterre !　（俺こそが、イングランドの王だ！）」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "smile",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: Je＝「私」→ 1人称単数の主語"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": "eleanor",
+          "text": "「Maintenant, c'est la plus belle vie pour moi. (今が私にとって最も美しい人生だわ)」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「現在、これは私にとって最も美しい人生だ」\nMaintenant (今/現在) ＋ c'est (これは〜だ) ＋ la plus belle (最も美しい: 女性形の最上級) ＋ vie (人生) ＋ pour moi (私にとって)。\n★重要文法（#superlative, #basic_adjectives）: 最上級「定冠詞 ＋ plus ＋ 形容詞」。vie が女性名詞なので、定冠詞 la と形容詞 belle (beauの女性形) に一致しています。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": null,
+          "text": "「イングランド、ノルマンディー、アンジュー、そしてアキテーヌ。広大な領地が結びつき、強大な『アンジュー帝国』が爆誕した。フランス王室は、かつての妻がもたらした強大な力に完全に包囲される形となってしまった。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "royal_domain",
+          "character": "louis_vii",
+          "text": "「（パリの片隅で）……あああっ……主よ！ なぜ私ばかりこんな目に……っ！！」",
+          "characters": []
+        },
+        {
+          "type": "battle",
+          "background": "royal_domain",
+          "enemy": {
+            "name": "爆誕！アンジュー帝国",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#comparative",
+              "count": 3
+            },
+            {
+              "tag": "#superlative",
+              "count": 2
+            },
+            {
+              "tag": "#possessive_adjectives",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "eleanor",
+          "text": "「Mes fils sont les plus beaux lions. (私の息子たちは、最も美しい獅子たちよ)」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「私の息子たちは最も美しい獅子たちだ」\nMes (私の: 所有形容詞・複数) ＋ fils (息子たち) ＋ sont (〜である) ＋ les plus beaux (最も美しい: 男性複数の最上級) ＋ lions (獅子たち)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": null,
+          "text": "「ヘンリ2世とエレオノールの間には、息子たちが多くいた。中庭では、二人の少年が剣の稽古をしている。」",
+          "characters": []
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "john",
+          "text": "「ぜぇ……ぜぇ……っ！ くそっ……！ Je suis plus faible que mon frère... (俺は兄上よりも弱い……)」",
+          "characters": [
+            {
+              "id": "john",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「俺は兄よりも弱い……」\nJe suis (私は〜だ) ＋ plus faible que (〜よりも弱い: 比較級) ＋ mon (私の: 所有形容詞) ＋ frère (兄/弟)。\n★重要文法（#comparative, #possessive_adjectives）: 兄への劣等感を示す比較級の表現です。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "john",
+          "text": "「兄上はいつも完璧でいいよな。俺はどうせ兄上のようにはなれないし、戦いなんて面倒だ……。王家なんかじゃなく適当に安全な場所に隠れて、うまい飯でも食っていたいよ……」",
+          "characters": [
+            {
+              "id": "john",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "説明行: 四男ジョン（1166–1216） — 後のイングランド王「失地王」。マグナ・カルタ制定につながる治世で知られる。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "richard",
+          "text": "「（木剣をピタリと止める）……ジョン？」",
+          "characters": [
+            {
+              "id": "richard",
+              "expression": "angry",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "説明行: 三男リチャード1世（1157–1199） — 後の「獅子心王」。第三回十字軍で知られる中世を代表する騎士王"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "john",
+          "text": "「ひっ……！（後ずさる）」",
+          "characters": [
+            {
+              "id": "john",
+              "expression": "default",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "richard",
+          "text": "「王族としての誇りを捨てるような今の言葉……もう一度、言ってみろ。」",
+          "characters": [
+            {
+              "id": "richard",
+              "expression": "angry",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "john",
+          "text": "「あ、あ、兄上……冗談、冗談じゃないか！ ほら、ちょっと疲れただけだって！ ははッ！！ ざまないなァ、俺の覚悟のなさは！」",
+          "characters": [
+            {
+              "id": "john",
+              "expression": "twitch",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "richard",
+          "text": "「Ton esprit est faible, John. (お前の精神は弱いよ、ジョン)」",
+          "characters": [
+            {
+              "id": "richard",
+              "expression": "default",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "解説: 意味: 「君の精神は弱い、ジョン」\nTon (君の: 所有形容詞) ＋ esprit (精神: 男性名詞) ＋ est faible (弱い: 形容詞)。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "eleanor",
+          "text": "「ふふふっ、喧嘩はそこまでよ。リチャード、強さは時として人を傷つけるわ。弟をあまりいじめないの。ジョン、あなたも自分のペースで大きくなればいいのよ」",
+          "characters": [
+            {
+              "id": "eleanor",
+              "expression": "smile",
+              "position": "center"
+            }
+          ],
+          "learningPoint": {
+            "title": "歴史・文法ポイント",
+            "text": "説明行: エレオノールは優しく微笑み、息子たちをなだめた。しかし、ジョンの心の闇は深くなるばかりであった。"
+          }
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": "henry_ii",
+          "text": "「ガハハハ！見よ息子たち。 我がプランタジネット家は誰にも止められんぞ！」",
+          "characters": [
+            {
+              "id": "henry_ii",
+              "expression": "smile",
+              "position": "center"
+            }
+          ]
+        },
+        {
+          "type": "dialog",
+          "background": "castle",
+          "character": null,
+          "text": "「獰猛な父、元アキテーヌの母、最強の兄、根暗で嫉妬深い弟。この強大すぎる『獅子の家族』の圧倒的な力の前に、フランス王国は風前の灯火となっていた――！」",
+          "characters": []
+        },
+        {
+          "type": "battle",
+          "background": "castle",
+          "enemy": {
+            "name": "獅子の子ら（リチャードとジョン）",
+            "hp": 7,
+            "damage": 2
+          },
+          "criteria": [
+            {
+              "tag": "#basic_adjectives",
+              "count": 3
+            },
+            {
+              "tag": "#possessive_adjectives",
+              "count": 2
+            },
+            {
+              "tag": "#comparative",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

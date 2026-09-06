@@ -607,6 +607,41 @@ async function renderChapterSelector(container) {
             </div>
           </div>
         </div>
+
+        <!-- Chapter 3 -->
+        <div style="padding-left: 1rem; background: rgba(255,255,255,0.02); padding: 1rem; border-radius: var(--radius-md); border: 1px solid rgba(197, 168, 128, 0.15); border-left: 5px solid #ff9f43; margin-top: 1.5rem;">
+          <div class="chapter-card-header">
+            <span class="chapter-badge" style="background-color: #ff9f43; color: white;">Chapter 3</span>
+            <h3>第3章: 中世フランクと封建社会 - カペー朝とアンジュー帝国</h3>
+          </div>
+          <p class="chapter-desc">カペー朝の成立、ノルマン・コンクエスト、エレオノールとアンジュー帝国の誕生、英仏の愛憎劇を体験します。</p>
+          
+          <div class="episode-list" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+            <div class="episode-row">
+              <div class="episode-info">
+                <h4>第3-1話: 弱小王と海賊の末裔</h4>
+                <span class="play-time">⏱️ 10分 • 単純未来 & 命令形 & エリジオン</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_1">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-2話: 征服王と魔性の女</h4>
+                <span class="play-time">⏱️ 15分 • 複合過去 & 目的語代名詞 & 過去分詞一致</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_2">開始する</button>
+            </div>
+            
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-3話: アンジュー帝国と獅子の子ら</h4>
+                <span class="play-time">⏱️ 15分 • 比較級 & 最上級 & 所有形容詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_3">開始する</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   `;
@@ -1179,6 +1214,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           const img = document.createElement('img');
           img.src = spriteUrl;
           img.className = `rpg-character-sprite pos-${pos} sprite-${spriteInfo.id}`;
+          img.onerror = () => { img.style.display = 'none'; };
           
           // キャラクター倍率設定を適用する
           const scale = CHARACTER_SCALES[spriteInfo.id] || 1.0;

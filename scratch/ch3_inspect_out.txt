@@ -1,0 +1,24 @@
+Chapter Title: 第3章: 中世フランクと封建社会 - カペー朝とアンジュー帝国
+Episodes count: 3
+
+--- Episode: ep_3_1 | 第1話: 弱小王と海賊の末裔 ---
+Backgrounds: ['bgBlack', 'rollo_raid', 'capet_dynasty', 'normandy_conquest', 'royal_domain']
+Characters: ['narrator', 'rollo', 'charles_simple', 'hugh_capet', 'guillaume', 'french_king', 'vassals']
+  [Battle]: Enemy: '北の侵略者 ヴァイキング・ロロ', Criteria: [{'tag': '#imperative', 'count': 3}, {'tag': '#futur_simple', 'count': 2}, {'tag': '#verbs', 'count': 2}]
+  [Battle]: Enemy: 'カペー朝の試練 諸侯たちの冷笑', Criteria: [{'tag': '#futur_simple', 'count': 3}, {'tag': '#articles', 'count': 2}, {'tag': '#verbs', 'count': 2}]
+  [Battle]: Enemy: '海を越えた征服王 ギョーム', Criteria: [{'tag': '#futur_simple', 'count': 3}, {'tag': '#imperative', 'count': 2}, {'tag': '#articles', 'count': 2}]
+  Sequence summary: 26 steps (Dialogs: 23, Battles: 3, LearningPoints: 5)
+
+--- Episode: ep_3_2 | 第2話: 征服王と魔性の女 ---
+Backgrounds: ['bgBlack', 'royal_domain', 'garden', 'palace_inside', 'battle_arab', 'church_inside']
+Characters: ['narrator', 'eleanor', 'louis_vii', 'henry_ii']
+  [Battle]: Enemy: '致命的な性格の不一致', Criteria: [{'tag': '#past_compose', 'count': 3}, {'tag': '#object_pronouns_direct_indirect', 'count': 2}, {'tag': '#past_participle_agreement', 'count': 2}]
+  [Battle]: Enemy: '十字軍でのすれ違い', Criteria: [{'tag': '#object_pronouns_direct_indirect', 'count': 4}, {'tag': '#past_compose', 'count': 3}]
+  Sequence summary: 32 steps (Dialogs: 30, Battles: 2, LearningPoints: 5)
+
+--- Episode: ep_3_3 | 第3話: アンジュー帝国と獅子の子ら ---
+Backgrounds: ['bgBlack', 'church_inside', 'royal_domain', 'castle']
+Characters: ['narrator', 'eleanor', 'henry_ii', 'louis_vii', 'john', 'richard']
+  [Battle]: Enemy: '爆誕！アンジュー帝国', Criteria: [{'tag': '#comparative', 'count': 3}, {'tag': '#superlative', 'count': 2}, {'tag': '#possessive_adjectives', 'count': 2}]
+  [Battle]: Enemy: '獅子の子ら（リチャードとジョン）', Criteria: [{'tag': '#basic_adjectives', 'count': 3}, {'tag': '#possessive_adjectives', 'count': 2}, {'tag': '#comparative', 'count': 2}]
+  Sequence summary: 26 steps (Dialogs: 24, Battles: 2, LearningPoints: 11)
