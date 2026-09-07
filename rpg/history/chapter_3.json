@@ -89,6 +89,27 @@
           }
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "命令法（指示と号令）",
+              "referenceTopicId": "ref_imperative",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "単純未来の作り方と活用",
+              "referenceTopicId": "ref_future_tenses",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "北の侵略者 ヴァイキング・ロロ",
           "enemyHp": 7,
@@ -154,6 +175,27 @@
             "title": "歴史・文法ポイント",
             "text": "解説: 意味: 「いつの日か、私は本物の王になるだろう！」 Un jour (いつか) ＋ je (私は) ＋ serai (なるだろう: êtreの単純未来の特殊形) ＋ un (男性単数の不定冠詞) ＋ vrai (真の) ＋ roi (王)。"
           }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "単純未来の不規則語幹",
+              "referenceTopicId": "ref_future_tenses",
+              "sectionIndices": [
+                1
+              ]
+            },
+            {
+              "title": "冠詞の種類（定冠詞・不定冠詞）",
+              "referenceTopicId": "ref_definite_indefinite_articles",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -260,6 +302,21 @@
           "character": null,
           "text": "「それが、英仏両国を巻き込む史上最悪のドロドロの愛憎劇の幕開けになるとは、この時誰も知る由もなかった――！」",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "命令法と未来表現の総まとめ",
+              "referenceTopicId": "ref_future_tenses",
+              "sectionIndices": [
+                0,
+                1
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -437,6 +494,27 @@
             "title": "歴史・文法ポイント",
             "text": "解説: 意味: 「私は彼に優しく話しかけたが、彼は私を無視した！」\n★重要文法（#object_pronouns_direct_indirect, #past_participle_agreement）: 「彼に(lui)」「私を(me/m')」。無視した対象が「私（女性）」なので、ignoréに「e」がついて一致。"
           }
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "直接・間接目的語人称代名詞",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "複合過去と過去分詞の性数一致",
+              "referenceTopicId": "ref_non_finite_forms",
+              "sectionIndices": [
+                2
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -623,6 +701,20 @@
           "character": null,
           "text": "「陽気で行動的なエレオノールと、頑固で物静かなルイ7世。第2回十字軍が失敗に終わったことで、二人は『どう頑張っても分かり合えない』ことを悟ってしまった。」",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "目的語人称代名詞の語順と位置",
+              "referenceTopicId": "ref_object_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -880,6 +972,27 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "形容詞の性数一致と用法",
+              "referenceTopicId": "ref_adjective_agreement",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "所有形容詞 (mon, ton, son...)",
+              "referenceTopicId": "ref_possessive_adjectives",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "爆誕！アンジュー帝国",
           "enemyHp": 7,
@@ -1069,6 +1182,27 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "基本形容詞の位置と性数一致",
+              "referenceTopicId": "ref_adjective_agreement",
+              "sectionIndices": [
+                0
+              ]
+            },
+            {
+              "title": "所有形容詞の応用",
+              "referenceTopicId": "ref_possessive_adjectives",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "獅子の子ら（リチャードとジョン）",
           "enemyHp": 7,
@@ -1145,6 +1279,20 @@
           }
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "関係代名詞 qui と que の役割",
+              "referenceTopicId": "ref_relative_pronouns",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "ピピンの寄進と教皇領の誕生",
           "enemyHp": 7,
@@ -1192,6 +1340,20 @@
           "character": null,
           "text": "「『皇帝すら教皇に土下座する』。この出教会史、ヨーロッパにおける教皇の権威が王を超え、絶対的なものとして絶頂に達したことを決定づけたのである。」",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "過去の時制と動詞の分類",
+              "referenceTopicId": "ref_types_of_verbs",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -1255,6 +1417,20 @@
           "character": null,
           "text": "「しかし、この神聖な熱狂は、時代が下るにつれて世俗の欲望にまみれ、やがて取り返しのつかない『狂気』へと変貌していくことになる――。」",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "関係代名詞の見分け方と活用",
+              "referenceTopicId": "ref_relative_pronouns",
+              "sectionIndices": [
+                1
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
@@ -1409,6 +1585,20 @@
           }
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "動詞の時制と表現の使い分け",
+              "referenceTopicId": "ref_types_of_verbs",
+              "sectionIndices": [
+                0
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "王の代替わりと母子の絆",
           "enemyHp": 7,
@@ -1461,6 +1651,20 @@
           "characters": []
         },
         {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "過去分詞の一致ルール",
+              "referenceTopicId": "ref_non_finite_forms",
+              "sectionIndices": [
+                2
+              ]
+            }
+          ]
+        },
+        {
           "type": "fixedBattle",
           "enemyName": "第4回十字軍の狂気",
           "enemyHp": 7,
@@ -1508,6 +1712,21 @@
           "character": null,
           "text": "「その後、教会の権威はさらに落ち込み、資金繰りのために『免罪符（お金を出せば罪が許される札）』を売り出す。これに1517年、ドイツのルターが激怒して【宗教改革】が勃発。教皇の絶対支配は完全に崩壊することになるのだ。」",
           "characters": []
+        },
+        {
+          "type": "tutorial",
+          "title": "事前解説 (Préparation)",
+          "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
+          "pages": [
+            {
+              "title": "前置詞と定冠詞の縮約 (au, aux, du, des)",
+              "referenceTopicId": "ref_contracted_articles",
+              "sectionIndices": [
+                0,
+                2
+              ]
+            }
+          ]
         },
         {
           "type": "fixedBattle",
