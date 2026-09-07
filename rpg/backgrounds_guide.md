@@ -55,7 +55,7 @@
 | **`bg_container_thief`** | コンテナに潜む泥棒 | イベント演出 | `assets/story/backgrounds/bg_container_thief.webp` | コンテナの陰で食材を奪おうとする泥棒の影。 |
 | **`bg_father`** | 父の背中 | イベント演出 | `assets/story/backgrounds/bg_father.webp` | 父の堂々とした後ろ姿。 |
 | **`bg_thief_caught`** | 泥棒捕縛 | イベント演出 | `assets/story/backgrounds/bg_thief_caught.webp` | 泥棒を取り押さえた解決シーン。 |
-| **`capet_dynasty`** | カペー朝の創始 | 歴史・地図・絵画 | `assets/story/backgrounds/capet_dynasty.jpg` | ユーグ・カペーによるカペー朝の幕開け絵画。 |
+| **`capet_dynasty`** | カペー朝の創始 | 歴史・地図・絵画 | `assets/story/backgrounds/capet_dynasty.webp` | ユーグ・カペーによるカペー朝の幕開け絵画。 |
 | **`clovis_death`** | クローヴィスの死 | 歴史・地図・絵画 | `assets/story/backgrounds/clovis_death.webp` | メロヴィング朝創始者クローヴィスの最期。 |
 | **`clovis_oath`** | クローヴィスの誓い | 歴史・地図・絵画 | `assets/story/backgrounds/clovis_oath.webp` | キリスト教改宗を決意し神に祈るクローヴィス1世。 |
 | **`flashback`** | 回想シーン | 歴史・地図・絵画 | `assets/story/backgrounds/flashback.webp` | 過去の出来事や記憶を振り返る演出背景。 |
@@ -63,12 +63,15 @@
 | **`letter`** | 手紙 / 書簡 | 歴史・地図・絵画 | `assets/story/backgrounds/letter.webp` | 羊皮紙に書かれた重要な親書・手紙。 |
 | **`map_8th_century`** | 8世紀ヨーロッパ勢力図 | 歴史・地図・絵画 | `assets/story/backgrounds/map_8th_century.webp` | フランク王国やイスラム勢力の拡大を示す8世紀の地図。 |
 | **`martel_awakening`** | マルテル覚醒 | 歴史・地図・絵画 | `assets/story/backgrounds/martel_awakening.webp` | 鉄鎚（マルテル）の異名を持つ宮相シャルルの覚醒。 |
-| **`mersen_verdun`** | ヴェルダン・メルセン条約 | 歴史・地図・絵画 | `assets/story/backgrounds/mersen_verdun.jpg` | フランク王国の3分割条約（フランス・ドイツ・イタリアの原型）。 |
-| **`normandy_conquest`** | ノルマン・コンクエスト | 歴史・地図・絵画 | `assets/story/backgrounds/normandy_conquest.jpg` | 1066年ノルマンディー公ウィリアムのイングランド征服。 |
+| **`mersen_verdun`** | ヴェルダン・メルセン条約 | 歴史・地図・絵画 | `assets/story/backgrounds/mersen_verdun.webp` | フランク王国の3分割条約（フランス・ドイツ・イタリアの原型）。 |
+| **`normandy_conquest`** | ノルマン・コンクエスト | 歴史・地図・絵画 | `assets/story/backgrounds/normandy_conquest.webp` | 1066年ノルマンディー公ウィリアムのイングランド征服。 |
 | **`pepin_donation`** | ピピンの寄進 | 歴史・地図・絵画 | `assets/story/backgrounds/pepin_donation.webp` | ピピン3世が教皇に領地を寄進し教皇領が成立する場面。 |
-| **`rollo_raid`** | ロロ襲来 (ヴァイキング) | 歴史・地図・絵画 | `assets/story/backgrounds/rollo_raid.jpg` | セーヌ川を遡上して侵攻するヴァイキング首領ロロ。 |
+| **`rollo_raid`** | ロロ襲来 (ヴァイキング) | 歴史・地図・絵画 | `assets/story/backgrounds/rollo_raid.webp` | セーヌ川を遡上して侵攻するヴァイキング首領ロロ。 |
 | **`roma_empire_map`** | 古代ローマ帝国地図 | 歴史・地図・絵画 | `assets/story/backgrounds/roma_empire_map.webp` | 地中海を囲むローマ帝国の版図を示す古地図。 |
-| **`white_mic`** | 白マイク | 歴史・地図・絵画 | `assets/story/backgrounds/white_mic.jpg` | 解説・ナレーションの演出画像。 |
+| **`french_royal_domain`** | フランス王領マップ | 歴史・地図・絵画 | `assets/story/backgrounds/french_royal_domain.webp` | カペー朝初期および中世盛期のフランス王領および諸侯勢力図。 |
+| **`canossa`** | カノッサの屈辱 | 歴史・地図・絵画 | `assets/story/backgrounds/canossa.webp` | 1077年雪のカノッサ城門前で教皇に許しを請うハインリヒ4世。 |
+| **`church_history`** | 教会史 / 十字軍 | 歴史・地図・絵画 | `assets/story/backgrounds/church_history.webp` | クレルモン公会議や十字軍遠征、教皇権の変遷を描く歴史画。 |
+| **`white_mic`** | 白マイク | 歴史・地図・絵画 | `assets/story/backgrounds/white_mic.webp` | 解説・ナレーションの演出画像。 |
 | **`forest`** | 森 / 森林 | 自然・集落 | `assets/story/backgrounds/forest.webp` | 緑豊かなヨーロッパの森林。行軍や潜伏、探索シーンに使用。 |
 | **`garden`** | 庭園 | 自然・集落 | `assets/story/backgrounds/garden.webp` | 美しい樹木と花が咲く庭園。 |
 | **`gergovia_mountain`** | ゲルゴウィアの山 | 自然・集落 | `assets/story/backgrounds/gergovia_mountain.webp` | 険しい岩山と要塞の遠景。ガリアの堅牢な拠点。 |

@@ -355,32 +355,32 @@
     "id": "mersen_verdun",
     "name": "ヴェルダン・メルセン条約",
     "category": "history",
-    "file": "mersen_verdun.jpg",
-    "url": "url('assets/story/backgrounds/mersen_verdun.jpg')",
+    "file": "mersen_verdun.webp",
+    "url": "url('assets/story/backgrounds/mersen_verdun.webp')",
     "description": "フランク王国の3分割条約（フランス・ドイツ・イタリアの原型）。"
   },
   "capet_dynasty": {
     "id": "capet_dynasty",
     "name": "カペー朝の創始",
     "category": "history",
-    "file": "capet_dynasty.jpg",
-    "url": "url('assets/story/backgrounds/capet_dynasty.jpg')",
+    "file": "capet_dynasty.webp",
+    "url": "url('assets/story/backgrounds/capet_dynasty.webp')",
     "description": "ユーグ・カペーによるカペー朝の幕開け絵画。"
   },
   "normandy_conquest": {
     "id": "normandy_conquest",
     "name": "ノルマン・コンクエスト",
     "category": "history",
-    "file": "normandy_conquest.jpg",
-    "url": "url('assets/story/backgrounds/normandy_conquest.jpg')",
+    "file": "normandy_conquest.webp",
+    "url": "url('assets/story/backgrounds/normandy_conquest.webp')",
     "description": "1066年ノルマンディー公ウィリアムのイングランド征服。"
   },
   "rollo_raid": {
     "id": "rollo_raid",
     "name": "ロロ襲来 (ヴァイキング)",
     "category": "history",
-    "file": "rollo_raid.jpg",
-    "url": "url('assets/story/backgrounds/rollo_raid.jpg')",
+    "file": "rollo_raid.webp",
+    "url": "url('assets/story/backgrounds/rollo_raid.webp')",
     "description": "セーヌ川を遡上して侵攻するヴァイキング首領ロロ。"
   },
   "letter": {
@@ -403,8 +403,8 @@
     "id": "white_mic",
     "name": "白マイク",
     "category": "history",
-    "file": "white_mic.jpg",
-    "url": "url('assets/story/backgrounds/white_mic.jpg')",
+    "file": "white_mic.webp",
+    "url": "url('assets/story/backgrounds/white_mic.webp')",
     "description": "解説・ナレーションの演出画像。"
   },
   "grin": {
@@ -454,5 +454,29 @@
     "file": "bg_thief_caught.webp",
     "url": "url('assets/story/backgrounds/bg_thief_caught.webp')",
     "description": "泥棒を取り押さえた解決シーン。"
+  },
+  "french_royal_domain": {
+    "id": "french_royal_domain",
+    "name": "フランス王領マップ",
+    "category": "history",
+    "file": "french_royal_domain.webp",
+    "url": "url('assets/story/backgrounds/french_royal_domain.webp')",
+    "description": "カペー朝初期および中世盛期のフランス王領および諸侯勢力図。"
+  },
+  "canossa": {
+    "id": "canossa",
+    "name": "カノッサの屈辱",
+    "category": "history",
+    "file": "canossa.webp",
+    "url": "url('assets/story/backgrounds/canossa.webp')",
+    "description": "1077年雪のカノッサ城門前で教皇に許しを請うハインリヒ4世。"
+  },
+  "church_history": {
+    "id": "church_history",
+    "name": "教会史 / 十字軍",
+    "category": "history",
+    "file": "church_history.webp",
+    "url": "url('assets/story/backgrounds/church_history.webp')",
+    "description": "クレルモン公会議や十字軍遠征、教皇権の変遷を描く歴史画。"
   }
 }

@@ -640,6 +640,22 @@ async function renderChapterSelector(container) {
               </div>
               <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_3">開始する</button>
             </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-外伝1: 教皇と十字軍の熱狂</h4>
+                <span class="play-time">⏱️ 15分 • 関係代名詞(qui/que) & 半過去</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_ex1">開始する</button>
+            </div>
+
+            <div class="episode-row" style="border-top: 1px dashed rgba(197, 168, 128, 0.2); padding-top: 0.8rem;">
+              <div class="episode-info">
+                <h4>第3-外伝2: 教皇権の黄昏と世界</h4>
+                <span class="play-time">⏱️ 15分 • 複合過去vs半過去 & 過去分詞一致 & 縮約冠詞</span>
+              </div>
+              <button class="action-btn play-episode-btn" data-chapter="3" data-episode="ep_3_ex2">開始する</button>
+            </div>
           </div>
         </div>
       </div>

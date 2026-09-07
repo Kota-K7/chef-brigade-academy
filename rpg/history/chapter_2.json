@@ -2842,7 +2842,7 @@
         "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
         "forest": "url('assets/story/backgrounds/forest.webp')",
         "castle": "url('assets/story/backgrounds/castle.webp')",
-        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.webp')",
         "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
         "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
         "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')"
@@ -2854,24 +2854,24 @@
         "charlemagne": {
           "name": "カール大帝",
           "images": {
-            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
-            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
-            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
-            "persuade": "assets/story/chapter_2/カール大帝説得.png",
-            "understand": "assets/story/chapter_2/カール大帝納得.png",
-            "question": "assets/story/chapter_2/カール大帝問い.png",
-            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png"
+            "default": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.webp",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.webp",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.webp",
+            "persuade": "assets/story/chapter_2/カール大帝説得.webp",
+            "understand": "assets/story/chapter_2/カール大帝納得.webp",
+            "question": "assets/story/chapter_2/カール大帝問い.webp",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.webp"
           }
         },
         "desiderius": {
           "name": "デシデリウス",
           "images": {
-            "default": "assets/story/chapter_2/デシデリウス激怒.png",
-            "normal": "assets/story/chapter_2/デシデリウス激怒.png",
-            "angry": "assets/story/chapter_2/デシデリウス激怒.png",
-            "despair": "assets/story/chapter_2/デシデリウス絶望.png"
+            "default": "assets/story/chapter_2/デシデリウス激怒.webp",
+            "normal": "assets/story/chapter_2/デシデリウス激怒.webp",
+            "angry": "assets/story/chapter_2/デシデリウス激怒.webp",
+            "despair": "assets/story/chapter_2/デシデリウス絶望.webp"
           }
         },
         "leo3": {
@@ -3716,7 +3716,7 @@
         "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
         "forest": "url('assets/story/backgrounds/forest.webp')",
         "castle": "url('assets/story/backgrounds/castle.webp')",
-        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.webp')",
         "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
         "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
         "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')",
@@ -3724,7 +3724,7 @@
         "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
         "letter": "url('assets/story/backgrounds/letter.webp')",
         "sickroom": "url('assets/story/backgrounds/sickroom_2.webp')",
-        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.jpg')"
+        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.webp')"
       },
       "characters": {
         "hero": {
@@ -3733,30 +3733,30 @@
         "charlemagne": {
           "name": "カール大帝",
           "images": {
-            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
-            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
-            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
-            "persuade": "assets/story/chapter_2/カール大帝説得.png",
-            "understand": "assets/story/chapter_2/カール大帝納得.png",
-            "question": "assets/story/chapter_2/カール大帝問い.png",
-            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png",
-            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.png",
-            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.png",
-            "squat": "assets/story/chapter_2/カール大帝スクワット.png"
+            "default": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.webp",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.webp",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.webp",
+            "persuade": "assets/story/chapter_2/カール大帝説得.webp",
+            "understand": "assets/story/chapter_2/カール大帝納得.webp",
+            "question": "assets/story/chapter_2/カール大帝問い.webp",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.webp",
+            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.webp",
+            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.webp",
+            "squat": "assets/story/chapter_2/カール大帝スクワット.webp"
           }
         },
         "irene": {
           "name": "エイレーネー",
           "images": {
-            "default": "assets/story/chapter_2/エイレーネー立ち絵.png",
-            "normal": "assets/story/chapter_2/エイレーネー立ち絵.png",
-            "angry": "assets/story/chapter_2/エイレーネー怒り.png",
-            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.png",
-            "blush": "assets/story/chapter_2/エイレーネー照れ.png",
-            "question": "assets/story/chapter_2/エイレーネー問い.png",
-            "determined": "assets/story/chapter_2/エイレーネー決意.png"
+            "default": "assets/story/chapter_2/エイレーネー立ち絵.webp",
+            "normal": "assets/story/chapter_2/エイレーネー立ち絵.webp",
+            "angry": "assets/story/chapter_2/エイレーネー怒り.webp",
+            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.webp",
+            "blush": "assets/story/chapter_2/エイレーネー照れ.webp",
+            "question": "assets/story/chapter_2/エイレーネー問い.webp",
+            "determined": "assets/story/chapter_2/エイレーネー決意.webp"
           }
         },
         "east_subordinate": {
@@ -4309,7 +4309,7 @@
         "battlefield": "url('assets/story/backgrounds/battlefield_merov.webp')",
         "forest": "url('assets/story/backgrounds/forest.webp')",
         "castle": "url('assets/story/backgrounds/castle.webp')",
-        "white_mic": "url('assets/story/backgrounds/white_mic.jpg')",
+        "white_mic": "url('assets/story/backgrounds/white_mic.webp')",
         "charlemagne_battlefield": "url('assets/story/backgrounds/charlemagne_battlefield.webp')",
         "church_inside": "url('assets/story/backgrounds/church_inside.webp')",
         "charlemagne_coronation": "url('assets/story/backgrounds/church_inside.webp')",
@@ -4317,7 +4317,7 @@
         "palace_inside": "url('assets/story/backgrounds/palace_inside.webp')",
         "letter": "url('assets/story/backgrounds/letter.webp')",
         "sickroom": "url('assets/story/backgrounds/sickroom_2.webp')",
-        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.jpg')"
+        "mersen_verdun": "url('assets/story/backgrounds/mersen_verdun.webp')"
       },
       "characters": {
         "hero": {
@@ -4326,30 +4326,30 @@
         "charlemagne": {
           "name": "カール大帝",
           "images": {
-            "default": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "normal": "assets/story/chapter_2/カール大帝立ち絵.png",
-            "satisfied": "assets/story/chapter_2/カール大帝満足.png",
-            "puzzled": "assets/story/chapter_2/カール大帝訝し.png",
-            "surprised": "assets/story/chapter_2/カール大帝驚き.png",
-            "persuade": "assets/story/chapter_2/カール大帝説得.png",
-            "understand": "assets/story/chapter_2/カール大帝納得.png",
-            "question": "assets/story/chapter_2/カール大帝問い.png",
-            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.png",
-            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.png",
-            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.png",
-            "squat": "assets/story/chapter_2/カール大帝スクワット.png"
+            "default": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "normal": "assets/story/chapter_2/カール大帝立ち絵.webp",
+            "satisfied": "assets/story/chapter_2/カール大帝満足.webp",
+            "puzzled": "assets/story/chapter_2/カール大帝訝し.webp",
+            "surprised": "assets/story/chapter_2/カール大帝驚き.webp",
+            "persuade": "assets/story/chapter_2/カール大帝説得.webp",
+            "understand": "assets/story/chapter_2/カール大帝納得.webp",
+            "question": "assets/story/chapter_2/カール大帝問い.webp",
+            "axe_swing": "assets/story/chapter_2/カール大帝斧ふり戦闘.webp",
+            "side_chest": "assets/story/chapter_2/カール大帝サイドチェスト.webp",
+            "front_double_biceps": "assets/story/chapter_2/カール大帝フロントダブルバイセップス.webp",
+            "squat": "assets/story/chapter_2/カール大帝スクワット.webp"
           }
         },
         "irene": {
           "name": "エイレーネー",
           "images": {
-            "default": "assets/story/chapter_2/エイレーネー立ち絵.png",
-            "normal": "assets/story/chapter_2/エイレーネー立ち絵.png",
-            "angry": "assets/story/chapter_2/エイレーネー怒り.png",
-            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.png",
-            "blush": "assets/story/chapter_2/エイレーネー照れ.png",
-            "question": "assets/story/chapter_2/エイレーネー問い.png",
-            "determined": "assets/story/chapter_2/エイレーネー決意.png"
+            "default": "assets/story/chapter_2/エイレーネー立ち絵.webp",
+            "normal": "assets/story/chapter_2/エイレーネー立ち絵.webp",
+            "angry": "assets/story/chapter_2/エイレーネー怒り.webp",
+            "in_love": "assets/story/chapter_2/エイレーネーメロメロ.webp",
+            "blush": "assets/story/chapter_2/エイレーネー照れ.webp",
+            "question": "assets/story/chapter_2/エイレーネー問い.webp",
+            "determined": "assets/story/chapter_2/エイレーネー決意.webp"
           }
         },
         "east_subordinate": {
