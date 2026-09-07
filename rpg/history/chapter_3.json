@@ -89,13 +89,10 @@
           }
         },
         {
-          "type": "battle",
-          "background": "rollo_raid",
-          "enemy": {
-            "name": "北の侵略者 ヴァイキング・ロロ",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "北の侵略者 ヴァイキング・ロロ",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imperative",
@@ -109,7 +106,8 @@
               "tag": "#verbs",
               "count": 2
             }
-          ]
+          ],
+          "background": "rollo_raid"
         },
         {
           "type": "dialog",
@@ -158,13 +156,10 @@
           }
         },
         {
-          "type": "battle",
-          "background": "capet_dynasty",
-          "enemy": {
-            "name": "カペー朝の試練 諸侯たちの冷笑",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "カペー朝の試練 諸侯たちの冷笑",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#futur_simple",
@@ -178,7 +173,8 @@
               "tag": "#verbs",
               "count": 2
             }
-          ]
+          ],
+          "background": "capet_dynasty"
         },
         {
           "type": "dialog",
@@ -266,13 +262,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "royal_domain",
-          "enemy": {
-            "name": "海を越えた征服王 ギョーム",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "海を越えた征服王 ギョーム",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#futur_simple",
@@ -286,7 +279,13 @@
               "tag": "#articles",
               "count": 2
             }
-          ]
+          ],
+          "background": "royal_domain"
+        },
+        {
+          "type": "reward",
+          "xp": 150,
+          "unlockedEpisodeId": "ep_3_2"
         }
       ]
     },
@@ -440,13 +439,10 @@
           }
         },
         {
-          "type": "battle",
-          "background": "garden",
-          "enemy": {
-            "name": "致命的な性格の不一致",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "致命的な性格の不一致",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#past_compose",
@@ -460,7 +456,8 @@
               "tag": "#past_participle_agreement",
               "count": 2
             }
-          ]
+          ],
+          "background": "garden"
         },
         {
           "type": "dialog",
@@ -628,13 +625,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "battle_arab",
-          "enemy": {
-            "name": "十字軍でのすれ違い",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "十字軍でのすれ違い",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#object_pronouns_direct_indirect",
@@ -644,7 +638,8 @@
               "tag": "#past_compose",
               "count": 3
             }
-          ]
+          ],
+          "background": "battle_arab"
         },
         {
           "type": "dialog",
@@ -679,6 +674,11 @@
           "character": null,
           "text": "「二人は別れの挨拶を交わし、それぞれの人生を歩み始めたと思われた。しかし、二人の人生は思わぬ形でまだ交差することとなる」",
           "characters": []
+        },
+        {
+          "type": "reward",
+          "xp": 160,
+          "unlockedEpisodeId": "ep_3_3"
         }
       ]
     },
@@ -880,13 +880,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "royal_domain",
-          "enemy": {
-            "name": "爆誕！アンジュー帝国",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "爆誕！アンジュー帝国",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#comparative",
@@ -900,7 +897,8 @@
               "tag": "#possessive_adjectives",
               "count": 2
             }
-          ]
+          ],
+          "background": "royal_domain"
         },
         {
           "type": "dialog",
@@ -1071,13 +1069,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "castle",
-          "enemy": {
-            "name": "獅子の子ら（リチャードとジョン）",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "獅子の子ら（リチャードとジョン）",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#basic_adjectives",
@@ -1091,7 +1086,13 @@
               "tag": "#comparative",
               "count": 2
             }
-          ]
+          ],
+          "background": "castle"
+        },
+        {
+          "type": "reward",
+          "xp": 170,
+          "unlockedEpisodeId": "ep_3_ex1"
         }
       ]
     },
@@ -1144,13 +1145,10 @@
           }
         },
         {
-          "type": "battle",
-          "background": "pepin_donation",
-          "enemy": {
-            "name": "ピピンの寄進と教皇領の誕生",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "ピピンの寄進と教皇領の誕生",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#relative_pronouns_basic",
@@ -1160,7 +1158,8 @@
               "tag": "#verbs",
               "count": 3
             }
-          ]
+          ],
+          "background": "pepin_donation"
         },
         {
           "type": "dialog",
@@ -1195,13 +1194,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "canossa",
-          "enemy": {
-            "name": "叙任権闘争とカノッサの屈辱",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "叙任権闘争とカノッサの屈辱",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imparfait",
@@ -1211,7 +1207,8 @@
               "tag": "#verbs",
               "count": 3
             }
-          ]
+          ],
+          "background": "canossa"
         },
         {
           "type": "dialog",
@@ -1260,13 +1257,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "church_history",
-          "enemy": {
-            "name": "クレルモン公会議と第1回十字軍",
-            "hp": 12,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "クレルモン公会議と第1回十字軍",
+          "enemyHp": 12,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#relative_pronouns_basic",
@@ -1276,7 +1270,13 @@
               "tag": "#imparfait",
               "count": 6
             }
-          ]
+          ],
+          "background": "church_history"
+        },
+        {
+          "type": "reward",
+          "xp": 180,
+          "unlockedEpisodeId": "ep_3_ex2"
         }
       ]
     },
@@ -1409,19 +1409,17 @@
           }
         },
         {
-          "type": "battle",
-          "background": "castle",
-          "enemy": {
-            "name": "王の代替わりと母子の絆",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "王の代替わりと母子の絆",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#imparfait_vs_past_compose",
               "count": 7
             }
-          ]
+          ],
+          "background": "castle"
         },
         {
           "type": "dialog",
@@ -1463,13 +1461,10 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "church_history",
-          "enemy": {
-            "name": "第4回十字軍の狂気",
-            "hp": 7,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "第4回十字軍の狂気",
+          "enemyHp": 7,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#past_participle_agreement",
@@ -1479,7 +1474,8 @@
               "tag": "#imparfait",
               "count": 3
             }
-          ]
+          ],
+          "background": "church_history"
         },
         {
           "type": "dialog",
@@ -1514,19 +1510,17 @@
           "characters": []
         },
         {
-          "type": "battle",
-          "background": "church_history",
-          "enemy": {
-            "name": "教皇権の崩壊と宗教改革",
-            "hp": 12,
-            "damage": 2
-          },
+          "type": "fixedBattle",
+          "enemyName": "教皇権の崩壊と宗教改革",
+          "enemyHp": 12,
+          "enemyDamage": 2,
           "criteria": [
             {
               "tag": "#contracted_articles",
               "count": 12
             }
-          ]
+          ],
+          "background": "church_history"
         },
         {
           "type": "dialog",
@@ -1574,6 +1568,11 @@
           "character": null,
           "text": "「高潔なるイスラムの英雄サラディンに対し、騎士の模範たる獅子心王リチャード、そしてフランスからは若き天才策士フィリップ2世が出陣する！ 歴史に名を刻むオールスターの大決戦が、今、幕を開ける――！！」",
           "characters": []
+        },
+        {
+          "type": "reward",
+          "xp": 200,
+          "unlockedEpisodeId": null
         }
       ]
     }

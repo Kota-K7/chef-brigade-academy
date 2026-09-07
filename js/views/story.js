@@ -816,7 +816,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       showTutorial(step);
     } else if (step.type === 'dialog') {
       showDialog(step);
-    } else if (step.type === 'fixedBattle' || step.type === 'randomBattle') {
+    } else if (step.type === 'fixedBattle' || step.type === 'randomBattle' || step.type === 'battle') {
       startBattle(step);
     } else if (step.type === 'reward') {
       showReward(step);
@@ -1601,7 +1601,9 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
     });
 
 
-    let enemyHp = step.enemyHp || questions.length;
+    const enemyName = step.enemyName || (step.enemy && step.enemy.name) || '試練の敵';
+    const enemyDamage = step.enemyDamage || (step.enemy && step.enemy.damage) || 2;
+    let enemyHp = step.enemyHp || (step.enemy && step.enemy.hp) || questions.length || 5;
     const maxEnemyHp = enemyHp;
     let playerHp = 10;
     const maxPlayerHp = 10;
@@ -1957,7 +1959,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
           </div>
           
           <div class="hud-bar-container">
-            <span class="hud-label">${step.enemyName}</span>
+            <span class="hud-label">${enemyName}</span>
             <div class="hud-hp-track">
               <div class="hud-hp-fill enemy-hp" style="width: ${(enemyHp / maxEnemyHp) * 100}%"></div>
             </div>
@@ -2374,7 +2376,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       } else {
         playWrongSound();
         playHitSound();
-        playerHp = Math.max(0, playerHp - step.enemyDamage);
+        playerHp = Math.max(0, playerHp - enemyDamage);
         fbTitle.innerText = "❌ 不正解！";
         fbTitle.className = "feedback-title text-error";
         nextBtn.innerText = "もう一度挑戦する";
@@ -2426,7 +2428,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       } else {
         playWrongSound();
         playHitSound();
-        playerHp = Math.max(0, playerHp - 2);
+        playerHp = Math.max(0, playerHp - enemyDamage);
         fbTitle.innerText = `❌ 不正解！ (正解: ${question.acceptedAnswers[0]})`;
         fbTitle.className = "feedback-title text-error";
         nextBtn.innerText = "もう一度挑戦する";
@@ -2468,7 +2470,7 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
       } else {
         playWrongSound();
         playHitSound();
-        playerHp = Math.max(0, playerHp - 2);
+        playerHp = Math.max(0, playerHp - enemyDamage);
         fbTitle.innerText = `❌ 不正解！ (正解: ${question.answer})`;
         fbTitle.className = "feedback-title text-error";
         nextBtn.innerText = "もう一度挑戦する";

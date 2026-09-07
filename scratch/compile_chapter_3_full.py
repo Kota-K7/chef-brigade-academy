@@ -59,7 +59,7 @@ ep_3_ex1 = {
             }
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "pepin_donation",
             "enemy": {
                 "name": "ピピンの寄進と教皇領の誕生",
@@ -110,7 +110,7 @@ ep_3_ex1 = {
             "characters": []
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "canossa",
             "enemy": {
                 "name": "叙任権闘争とカノッサの屈辱",
@@ -175,7 +175,7 @@ ep_3_ex1 = {
             "characters": []
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "church_history",
             "enemy": {
                 "name": "クレルモン公会議と第1回十字軍",
@@ -326,7 +326,7 @@ ep_3_ex2 = {
             }
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "castle",
             "enemy": {
                 "name": "王の代替わりと母子の絆",
@@ -380,7 +380,7 @@ ep_3_ex2 = {
             "characters": []
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "church_history",
             "enemy": {
                 "name": "第4回十字軍の狂気",
@@ -431,7 +431,7 @@ ep_3_ex2 = {
             "characters": []
         },
         {
-            "type": "battle",
+            "type": "fixedBattle",
             "background": "church_history",
             "enemy": {
                 "name": "教皇権の崩壊と宗教改革",
