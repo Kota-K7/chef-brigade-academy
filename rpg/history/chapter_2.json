@@ -2788,7 +2788,7 @@
           "characters": [],
           "learningPoint": {
             "title": "語句解説",
-            "text": "意味: 「ありがとう、ピピン3世」 Pépin (ピピン) ＋ Trois (3: 数字の3)。王の代数は数字（trois）で表します。"
+            "text": "意味: 「ありがとう、ピピン3世」 Pépin ＋ Trois (3: 数字の3)。王の代数は数字（trois）で表します。"
           }
         },
         {
@@ -2967,7 +2967,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "カール大帝（シャルルマーニュ）。ドイツ語読みがカール、フランス語読みがシャルル、英語読みがチャールズである。ドイツのアーヘンには、彼の命で建てられた、大聖堂が未だ残る。\n【Acta non verba（アクタ・ノン・ヴェルバ）】「言葉ではなく行動を」という意味のラテン語の格言。カール大帝はギリシア語、ラテン語をも理解し、文字は書けなかったものの知性的な面もある。"
+            "text": "カール大帝（シャルルマーニュ）。ドイツ語読みがカール、フランス語読みがシャルル、英語読みがチャールズである。ドイツのアーヘンには、彼の命で建てられた、大聖堂が未だ残る。\n【Acta non verba】「言葉ではなく行動を」という意味のラテン語の格言。カール大帝はギリシア語、ラテン語をも理解し、文字は書けなかったものの知性的な面もある。"
           }
         },
         {
@@ -3243,7 +3243,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "【Alea iacta est（アレア・ヤクタ・エスト）】古代ローマの英雄カエサルがルビコン川を渡る際に放ったとされる有名なラテン語。→Narrator:「（ドゴォォォン！！）直後、カールの戦斧の全力の一撃が、ランゴバルドが誇る強固な城門を、粉々に吹き飛ばした。」"
+            "text": "【Alea iacta est】古代ローマの英雄カエサルがルビコン川を渡る際に放ったとされる有名なラテン語。→Narrator:「（ドゴォォォン！！）直後、カールの戦斧の全力の一撃が、ランゴバルドが誇る強固な城門を、粉々に吹き飛ばした。」"
           }
         },
         {
@@ -3652,7 +3652,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "意味: 「私がヨーロッパを守護するつもりだ」\nJe (私は) ＋ vais protéger (守るつもりだ: aller ＋ protéger) ＋ l'Europe (ヨーロッパ)。近い未来（近接未来）の表現です。"
+            "text": "意味: 「私がヨーロッパを守護するつもりだ」\nJe (私は) ＋ vais protéger (守るつもりだ: aller ＋ protéger) ＋ l'Europe。近い未来（近接未来）の表現です。"
           }
         },
         {
@@ -3804,7 +3804,7 @@
         {
           "type": "dialog",
           "character": "charlemagne",
-          "text": "見よ、この完璧にパンプアップされた大胸筋を！ 古代ギリシアの彫刻家ペイディアスが削り出したかのような、神々の肉体美！ ギリシア哲学で言うところの『Kalokagathia（カロカガティア）』の体現である！",
+          "text": "見よ、この完璧にパンプアップされた大胸筋を！ 古代ギリシアの彫刻家ペイディアスが削り出したかのような、神々の肉体美！ ギリシア哲学で言うところの『Kalokagathia』の体現である！",
           "position": "center",
           "expression": "side_chest",
           "background": "white_mic",
@@ -4508,7 +4508,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "【Per aspera ad astra（ペル・アスペラ・アド・アストラ）】「困難を乗り越えて星々（栄光）へ」という意味のラテン語の格言。偉大な功績までは困難があるという表現。"
+            "text": "【Per aspera ad astra】「困難を乗り越えて星々（栄光）へ」という意味のラテン語の格言。偉大な功績までは困難があるという表現。"
           }
         },
         {
@@ -4527,7 +4527,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "【Audentes fortuna iuvat（アウデンテース・フォルトゥーナ・ユヴァト）】「運命は大胆な者に味方する」という意味のラテン語の格言。ローマの詩人ウェルギリウスの叙事詩に登場する。"
+            "text": "【Audentes fortuna iuvat】「運命は大胆な者に味方する」という意味のラテン語の格言。ローマの詩人ウェルギリウスの叙事詩に登場する。"
           }
         },
         {
@@ -4625,7 +4625,7 @@
         {
           "type": "dialog",
           "character": null,
-          "text": "Charlemagne（フロントダブルバイセップス）:「Je viens de recevoir une lettre de l'est. (たった今、東から手紙を受け取った)」\nJe (私は) ＋ viens de recevoir (受け取ったばかりだ: venir de ＋ recevoir) ＋ une lettre (一通の手紙) ＋ de l'est (東からの)。近接過去の表現です。",
+          "text": "Charlemagne:「Je viens de recevoir une lettre de l'est. (たった今、東から手紙を受け取った)」\nJe (私は) ＋ viens de recevoir (受け取ったばかりだ: venir de ＋ recevoir) ＋ une lettre (一通の手紙) ＋ de l'est (東からの)。近接過去の表現です。",
           "position": "center",
           "background": "palace_inside",
           "characters": [],
@@ -4740,7 +4740,7 @@
           ],
           "learningPoint": {
             "title": "語句解説",
-            "text": "【Sic transit gloria mundi（シク・トランシット・グロリア・ムンディ）】「このように世界の栄光は過ぎ去っていく」という、栄枯盛衰を表すラテン語の有名な格言。"
+            "text": "【Sic transit gloria mundi】「このように世界の栄光は過ぎ去っていく」という、栄枯盛衰を表すラテン語の有名な格言。"
           }
         },
         {

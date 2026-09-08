@@ -227,7 +227,7 @@
           "background": "kitchen",
           "learningPoint": {
             "title": "佐伯博 (さえきはく)",
-            "text": "本レストランの Sous-chef（スーシェフ）。\n\n【フランス語解説】\n・Bonjour [ボンジュール] : こんにちは\n・Tu as... [テュ ア] : 「君は持っている」（主語 Tu ＋ 動詞 avoir の2人称単数現在形）\n・avoir l'air + 形容詞 : 〜そうに見える（l'air motivé = やる気がありそうに見える）"
+            "text": "本レストランの Sous-chef。\n\n【フランス語解説】\n・Bonjour [ボンジュール] : こんにちは\n・Tu as... [テュ ア] : 「君は持っている」（主語 Tu ＋ 動詞 avoir の2人称単数現在形）\n・avoir l'air + 形容詞 : 〜そうに見える（l'air motivé = やる気がありそうに見える）"
           }
         },
         {
@@ -287,7 +287,7 @@
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
-            "title": "Élodie (エロディ)",
+            "title": "Élodie",
             "text": "前菜・メイン担当。\n\n【フランス語解説】\n・Merci beaucoup [メルスィ ボク] : どうもありがとうございます"
           }
         },
@@ -430,8 +430,8 @@
           "position": "center",
           "background": "kitchen",
           "learningPoint": {
-            "title": "Gaël (ガエル)",
-            "text": "本レストランの Pâtissier（パティシエ）。無口だが仕事は極めて正確。"
+            "title": "Gaël",
+            "text": "本レストランの Pâtissier。無口だが仕事は極めて正確。"
           }
         },
         {

@@ -1240,7 +1240,7 @@
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
-          "text": "「あぁそれは Panisse（パニス） だな。ひよこ豆のコロッケみたいなものさ。」",
+          "text": "「あぁそれは Panisse だな。ひよこ豆のコロッケみたいなものさ。」",
           "learningPoint": {
             "title": "Panisse",
             "text": "意味: パニス（ひよこ豆のコロッケのようなマルセイユ名物）\nひよこ豆 of 粉を水とともに加熱して固め、冷やした後に切り分けて frire（揚げる） したシンプルな一品。"
@@ -1269,7 +1269,7 @@
           "character": "proprietress",
           "expression": "smile",
           "position": "right",
-          "text": "「あぁそっちは Daube Provençale（ドーブ・プロヴァンサル）  。牛肉のシチューさ。bœuf（牛肉）を vin rouge（赤ワイン）でbraiser（蒸し煮にする） んだ。」",
+          "text": "「あぁそっちは Daube Provençale  。牛肉のシチューさ。bœuf（牛肉）を vin rouge（赤ワイン）でbraiser（蒸し煮にする） んだ。」",
           "learningPoint": {
             "title": "Daube Provençale",
             "text": "意味: ドーブ・プロヴァンサル（牛肉のプロヴァンス風赤ワイン煮込み）\n牛肉を赤ワインや香味野菜、ハーブに漬け込んだ後、じっくりと煮込んだ料理。"
@@ -1422,7 +1422,7 @@
               "position": "right"
             }
           ],
-          "text": "「よしっ俺も決めた！！ この Panisse（パニス） と Daube Provençale（ドーブ・プロヴァンサル）のレシピを解明するぞ。」"
+          "text": "「よしっ俺も決めた！！ この Panisse と Daube Provençaleのレシピを解明するぞ。」"
         },
         {
           "type": "dialog",

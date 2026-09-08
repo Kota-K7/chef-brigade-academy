@@ -5468,5 +5468,93 @@
       }
     ],
     "gender": "f"
+  },
+  {
+    "id": "vocab_cul_salamandre",
+    "category": "Equipment",
+    "level": "B2",
+    "tags": [
+      "equipment",
+      "heat",
+      "finishing"
+    ],
+    "french": "Salamandre",
+    "english": "Salamander / overhead broiler",
+    "japanese": "サラマンドル / 上火式強力オーブン",
+    "definition_fr": "(nom féminin) Appareil de cuisson professionnel à rayonnement supérieur puissant servant à glacer, gratiner ou maintenir au chaud.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le plat garni sous la salamandre pour obtenir une croûte dorée.",
+        "en": "Pass the prepared dish under the salamander for a golden crust.",
+        "ja": "表面を香ばしくキツネ色に焼き上げるため、サラマンドルの上火にかけます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_tamis",
+    "category": "Equipment",
+    "level": "B2",
+    "tags": [
+      "equipment",
+      "pastry",
+      "prep"
+    ],
+    "french": "Tamis",
+    "english": "Drum sieve",
+    "japanese": "裏ごし器 / フルイ",
+    "definition_fr": "(nom masculin) Ustensile circulaire en bois ou métal garni d'une toile métallique très fine servant à tamiser les farines ou passer les purées.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez la purée de marrons au tamis pour éliminer le moindre grumeau.",
+        "en": "Pass the chestnut puree through the drum sieve to eliminate any lumps.",
+        "ja": "ダマを完全になくすため、栗のピューレを裏ごし器（タミ）に通します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_chemiser",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "technique",
+      "pastry",
+      "molds"
+    ],
+    "french": "Chemiser",
+    "english": "To line a mold with butter, paper, flour or gelatin",
+    "japanese": "型に敷く / 内側に膜を張る（シュミゼ）",
+    "definition_fr": "(verbe) Tapisser le fond et les parois intérieures d'un moule de beurre, papier sulfurisé, gelée ou biscuit avant d'y verser un appareil.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Chemisez le moule à charlotte avec du papier cuisson et des biscuits à la cuillère.",
+        "en": "Line the charlotte mold with baking paper and ladyfingers.",
+        "ja": "シャルロット型の底と側面にクッキングペーパーとビスキュイを敷き詰めます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_lustrer",
+    "category": "Techniques",
+    "level": "B2",
+    "tags": [
+      "technique",
+      "presentation",
+      "glaze"
+    ],
+    "french": "Lustrer",
+    "english": "To brush with melted butter or jelly for shine",
+    "japanese": "つやを出す / 溶かしバターを塗る（リュストレ）",
+    "definition_fr": "(verbe) Recouvrir un aliment au pinceau de beurre fondu, de gelée tiède ou de nappage pour lui donner un brillant éclatant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Lustrez la tarte aux fraises avec un nappage tiède pour un éclat parfait.",
+        "en": "Brush the strawberry tart with warm glaze for a perfect shine.",
+        "ja": "完璧な輝きを出すために、イチゴタルトの表面に温かいナパージュを刷毛で塗ります。"
+      }
+    ]
   }
 ]

@@ -365,7 +365,7 @@
     ],
     "french": "Consommation",
     "english": "Drink / beverage in a cafe",
-    "japanese": "(Nom) （カフェなどの）一杯の飲み物、注文品",
+    "japanese": "(Nom) カフェなどの一杯の飲み物、注文品",
     "definition_fr": "Boisson ou nourriture achetée et consommée dans un café ou un bar.",
     "is_professional": true,
     "examples": [
@@ -616,7 +616,7 @@
     ],
     "french": "Mignardise",
     "english": "Sweet treat / petit four",
-    "japanese": "(Nom) ミニャルディーズ（食後の小さな甘いお菓子）",
+    "japanese": "(Nom) 食後の小さな甘いお菓子",
     "definition_fr": "Petit gâteau ou confiserie raffinée servie avec le café ou le thé en fin de repas.",
     "is_professional": true,
     "examples": [
@@ -890,7 +890,7 @@
     ],
     "french": "Végétalienne",
     "english": "Vegan (feminine form)",
-    "japanese": "(Nom) ヴィーガン（完全菜食主義者）",
+    "japanese": "(Nom) 完全菜食主義者",
     "definition_fr": "Caractère d'une personne ou d'une recette excluant tous les ingrédients d'origine animale (lait, œufs, beurre).",
     "is_professional": true,
     "examples": [
@@ -1004,7 +1004,7 @@
     ],
     "french": "Badigeonner",
     "english": "To brush with / glaze / baste",
-    "japanese": "(Verbe) （刷毛等で）薄く塗る、バディジョネする",
+    "japanese": "(Verbe) 刷毛等で薄く塗る、バディジョネする",
     "definition_fr": "Enduire superficiellement et délicatement un aliment de dorure (jaune d'œuf) ou de marinade huileuse à l'aide d'un pinceau fin.",
     "is_professional": true,
     "examples": [
@@ -1050,14 +1050,14 @@
     ],
     "french": "Blanchir",
     "english": "To blanch",
-    "japanese": "(Verbe) ブランシール（下茹でする、白っぽくする）",
+    "japanese": "(Verbe) 下茹でする、白っぽくする",
     "definition_fr": "Plonger brièvement un aliment dans de l'eau bouillante salée, puis refroidir pour fixer la couleur, ou fouetter des œufs et du sucre jusqu'à blanchissement.",
     "is_professional": true,
     "examples": [
       {
         "fr": "Il faut blanchir le brocoli avant de le sauter au beurre.",
         "en": "It is necessary to blanch the broccoli before sautéing it in butter.",
-        "ja": "ブロッコリーをバターでソテーする前に、下茹で（ブランシール）する必要があります。"
+        "ja": "ブロッコリーをバターでソテーする前に、下茹でする必要があります。"
       }
     ],
     "verb_group": 2
@@ -1118,7 +1118,7 @@
     ],
     "french": "Casser",
     "english": "To crack / to break",
-    "japanese": "(Verbe) （卵などを）割る、砕く",
+    "japanese": "(Verbe) 卵などを割る、砕く",
     "definition_fr": "Briser la coquille d'un œuf ou couper un ingrédient dur en plusieurs morceaux.",
     "is_professional": true,
     "examples": [
@@ -1164,7 +1164,7 @@
     ],
     "french": "Chiqueter",
     "english": "To score the edges",
-    "japanese": "(Verbe) （パイ生地などの）縁に刻み目を入れる",
+    "japanese": "(Verbe) パイ生地などの縁に刻み目を入れる",
     "definition_fr": "Pratiquer de petites entailles sur les bords d'une pâte.",
     "is_professional": true,
     "examples": [
@@ -1209,7 +1209,7 @@
     ],
     "french": "Clarifier",
     "english": "To clarify",
-    "japanese": "(Verbe) クラリフィエ（澄ます、卵黄と卵白に分ける）",
+    "japanese": "(Verbe) 澄ます、卵黄と卵白に分ける",
     "definition_fr": "Rendre un bouillon limpide en filtrant les impuretés, ou séparer le beurre de ses matières solides, ou séparer les blancs des jaunes d'œufs.",
     "is_professional": true,
     "examples": [
@@ -1415,7 +1415,7 @@
     ],
     "french": "Fileter",
     "english": "To fillet (fish)",
-    "japanese": "(Verbe) フィレ（おろし身）にする",
+    "japanese": "(Verbe) おろし身にする",
     "definition_fr": "Découper un poisson entier pour en prélever les flancs charnus (les filets) sans les os.",
     "is_professional": true,
     "examples": [
@@ -1688,7 +1688,7 @@
     ],
     "french": "Peser",
     "english": "To weigh",
-    "japanese": "(Verbe) （材料の重量を）量る、プゼする",
+    "japanese": "(Verbe) 材料の重量を量る、プゼする",
     "definition_fr": "Mesurer de façon exacte la masse d'un ingrédient solide ou liquide à l'aide d'une balance électronique.",
     "is_professional": true,
     "examples": [
@@ -1735,7 +1735,7 @@
     ],
     "french": "Pétrir",
     "english": "To knead (dough)",
-    "japanese": "(Verbe) （生地を）こねる、練る、ペトリール",
+    "japanese": "(Verbe) 生地をこねる、練る、ペトリール",
     "definition_fr": "Travailler manuellement ou mécaniquement une pâte avec de l'eau et de la farine pour la rendre élastique et homogène.",
     "is_professional": true,
     "examples": [
@@ -1872,7 +1872,7 @@
     ],
     "french": "Tamiser",
     "english": "To sift / sieve",
-    "japanese": "(Verbe) （粉などを）ふるう、タミゼする",
+    "japanese": "(Verbe) 粉などをふるう、タミゼする",
     "definition_fr": "Faire passer une matière sèche (farine, sucre) à travers un tamis pour éliminer les grumeaux.",
     "is_professional": true,
     "examples": [
@@ -1925,7 +1925,7 @@
       {
         "fr": "Il faut bien écailler le saumon avant de lever les filets.",
         "en": "You must scale the salmon well before lifting the fillets.",
-        "ja": "おろし身（フィレ）にする前に、サーモンのウロコをきれいに取る（エカイエする）必要があります。"
+        "ja": "おろし身にする前に、サーモンのウロコをきれいに取る（エカイエする）必要があります。"
       }
     ],
     "verb_group": 1
@@ -1941,7 +1941,7 @@
     ],
     "french": "Écaler",
     "english": "To shell (hard-boiled eggs)",
-    "japanese": "(Verbe) （ゆで卵などの）殻をむく、エカレする",
+    "japanese": "(Verbe) ゆで卵などの殻をむく、エカレする",
     "definition_fr": "Enlever la coquille dure d'un œuf dur ou d'un œuf poché.",
     "is_professional": true,
     "examples": [
@@ -1964,7 +1964,7 @@
     ],
     "french": "Écosser",
     "english": "To shell (peas / beans)",
-    "japanese": "(Verbe) （えんどう豆などの）さやから身を取り出す、エコッセする",
+    "japanese": "(Verbe) えんどう豆などのさやから身を取り出す、エコッセする",
     "definition_fr": "Retirer l'enveloppe extérieure (la gousse) des petits pois ou des fèves pour en extraire les graines.",
     "is_professional": true,
     "examples": [
@@ -1986,7 +1986,7 @@
     ],
     "french": "Écumer",
     "english": "To skim",
-    "japanese": "(Verbe) アク（泡）を取る",
+    "japanese": "(Verbe) 泡を取る",
     "definition_fr": "Retirer l'écume à la surface d'un liquide en ébullition.",
     "is_professional": true,
     "examples": [
@@ -2146,7 +2146,7 @@
     ],
     "french": "Barman",
     "english": "Bartender",
-    "japanese": "(Nom) バーテンダー（男性）",
+    "japanese": "(Nom) 男性",
     "definition_fr": "Professionnel de la restauration préparant et servant les boissons chaudes ou froides derrière le comptoir d'un bar.",
     "is_professional": true,
     "examples": [
@@ -2192,7 +2192,7 @@
     ],
     "french": "Brigade",
     "english": "Kitchen brigade / team",
-    "japanese": "(Nom) ブリガード（厨房チーム）",
+    "japanese": "(Nom) 厨房チーム",
     "definition_fr": "L'ensemble du personnel de cuisine.",
     "is_professional": true,
     "examples": [
@@ -2284,7 +2284,7 @@
     ],
     "french": "Commis",
     "english": "Assistant chef",
-    "japanese": "(Nom) コミ（見習いや若手料理人）",
+    "japanese": "(Nom) 見習いや若手料理人",
     "definition_fr": "Cuisinier débutant travaillant sous les ordres d'un chef de partie.",
     "is_professional": true,
     "examples": [
@@ -2560,7 +2560,7 @@
     ],
     "french": "Second",
     "english": "Sous-chef",
-    "japanese": "(Nom) スーシェフ（副料理長）",
+    "japanese": "(Nom) 副料理長",
     "definition_fr": "L'adjoint direct du chef de cuisine.",
     "is_professional": true,
     "examples": [
@@ -2858,7 +2858,7 @@
     ],
     "french": "Cocotte",
     "english": "Casserole dish / Dutch oven",
-    "japanese": "(Nom) ココット（厚手の蓋付き鍋）",
+    "japanese": "(Nom) 厚手の蓋付き鍋",
     "definition_fr": "Marmite en fonte ou en terre cuite pour les cuissons lentes.",
     "is_professional": true,
     "examples": [
@@ -3044,7 +3044,7 @@
     ],
     "french": "Flûte à champagne",
     "english": "Champagne flute",
-    "japanese": "(Nom) シャンパングラス（フルート型）",
+    "japanese": "(Nom) フルート型",
     "definition_fr": "Verre haut, élancé et étroit préservant les bulles fines et la fraîcheur du vin effervescent.",
     "is_professional": true,
     "examples": [
@@ -3641,7 +3641,7 @@
     ],
     "french": "Sauteuse",
     "english": "Sauté pan",
-    "japanese": "(Nom) ソテーパン（縁が斜めまたは真っ直ぐな鍋）",
+    "japanese": "(Nom) 縁が斜めまたは真っ直ぐな鍋",
     "definition_fr": "Casserole à bords droits ou évasés pour faire sauter les aliments.",
     "is_professional": true,
     "examples": [
@@ -3710,7 +3710,7 @@
     ],
     "french": "Spatule coudée",
     "english": "Offset spatula",
-    "japanese": "(Nom) パレットナイフ（クランク型）、L字スパチュラ",
+    "japanese": "(Nom) クランク型、L字スパチュラ",
     "definition_fr": "Spatule métallique dont la lame est décalée en hauteur, idéale pour lisser les crèmes et étaler la garniture.",
     "is_professional": true,
     "examples": [
@@ -4025,7 +4025,7 @@
     ],
     "french": "Beurre manié",
     "english": "Kneaded butter / thickener",
-    "japanese": "(Nom) ブール・マニエ（バターと小麦粉を同量で練り合わせたソースとろみ付け剤）",
+    "japanese": "(Nom) バターと小麦粉を同量で練り合わせたソースとろみ付け剤",
     "definition_fr": "Mélange à cru de beurre ramolli et de farine à parts égales servant à lier une sauce chaude au dernier moment.",
     "is_professional": true,
     "examples": [
@@ -5511,7 +5511,7 @@
     ],
     "french": "Fines herbes",
     "english": "Fine herbs",
-    "japanese": "(Nom) フィーヌゼルブ（ハーブミックス）",
+    "japanese": "(Nom) ハーブミックス",
     "definition_fr": "Mélange aromatique d'herbes vertes printanières hachées (persil, ciboulette, cerfeuil, estragon) pour parfumer l'omelette.",
     "is_professional": true,
     "examples": [
@@ -5626,7 +5626,7 @@
     ],
     "french": "Gastrique",
     "english": "Gastrique / sweet and sour sauce base",
-    "japanese": "(Nom) ガストリック（酢と砂糖を煮詰めたソースベース）",
+    "japanese": "(Nom) 酢と砂糖を煮詰めたソースベース",
     "definition_fr": "Mélange de sucre et de vinaigre caramélisé, servant de base aromatique pour les sauces aigres-douces (canard à l'orange).",
     "is_professional": true,
     "examples": [
@@ -5763,7 +5763,7 @@
     ],
     "french": "Liaison",
     "english": "Liaison / thickening / binding",
-    "japanese": "(Nom) リエゾン（とろみ付け、つなぎ）",
+    "japanese": "(Nom) とろみ付け、つなぎ",
     "definition_fr": "Opération consistant à épaissir un liquide ou une sauce par addition de jaune d'œuf, crème, fécule ou beurre.",
     "is_professional": true,
     "examples": [
@@ -7865,7 +7865,7 @@
     ],
     "french": "Tonne",
     "english": "Ton",
-    "japanese": "(Nom) トン（重量単位）",
+    "japanese": "(Nom) 重量単位",
     "definition_fr": "Terme d'apprentissage (tonne).",
     "is_professional": false,
     "examples": [
@@ -11535,7 +11535,7 @@
     ],
     "french": "Colombe",
     "english": "Dove",
-    "japanese": "(Nom) ハト（白鳩）",
+    "japanese": "(Nom) 白鳩",
     "definition_fr": "Terme d'apprentissage (colombe).",
     "is_professional": false,
     "examples": [
@@ -11799,7 +11799,7 @@
     ],
     "french": "Compas",
     "english": "Compass",
-    "japanese": "(Nom) コンパス（製図用）",
+    "japanese": "(Nom) 製図用",
     "definition_fr": "Terme d'apprentissage (compas).",
     "is_professional": false,
     "examples": [
@@ -16596,7 +16596,7 @@
     ],
     "french": "Rallye",
     "english": "Rally",
-    "japanese": "(Nom) ラリー（モータースポーツ）",
+    "japanese": "(Nom) モータースポーツ",
     "definition_fr": "Terme d'apprentissage (rallye).",
     "is_professional": false,
     "examples": [
@@ -19968,6 +19968,580 @@
       {
         "fr": "Faut-il assaisonner la salade ? - Oui, avec une vinaigrette légère.",
         "ja": "サラダに味付けが必要ですか？ / はい、軽いヴィネグレットで。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_reaction_maillard",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "cuisine",
+      "chimie",
+      "cuisson"
+    ],
+    "cuisine": {
+      "topic": "La Réaction de Maillard (The Maillard Reaction)",
+      "content_fr": "Réaction chimique complexe entre les acides aminés et les sucres réducteurs sous l'effet de la chaleur (à partir d'environ 140°C). Elle produit le brunissement de la viande et développe des arômes grillés, torréfiés et savoureux incomparables.",
+      "content_en": "A complex chemical reaction between amino acids and reducing sugars upon heating (above ~140°C). It causes the browning of meats and generates roasted, savory aromas.",
+      "content_ja": "アミノ酸と還元糖が高温（約140℃以上）で加熱されることで起こる化学反応。肉の表面が香ばしく褐色に焼き色づき、食欲をそそる豊かなロースト香と旨味を生み出します。"
+    }
+  },
+  {
+    "id": "cuis_emulsion",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "sauces",
+      "chimie"
+    ],
+    "cuisine": {
+      "topic": "L'Émulsion Culinaire (Culinary Emulsion)",
+      "content_fr": "Dispersion stable ou instable de gouttelettes d'un liquide dans un autre liquide non miscible (le plus souvent de l'huile dans de l'eau). L'exemple classique est la mayonnaise (stabilisée par la lécithine du jaune d'œuf) ou la vinaigrette.",
+      "content_en": "A mixture of two immiscible liquids where one is dispersed in the other (typically oil in water). Classic examples include mayonnaise (stabilized by egg yolk lecithin) and vinaigrette.",
+      "content_ja": "水と油のように本来混ざり合わない2つの液体の一方を微粒子にして分散させた状態。卵黄に含まれるレシチン（乳化剤）で安定させたマヨネーズや、一時的な乳化であるヴィネグレットが代表例です。"
+    }
+  },
+  {
+    "id": "cuis_caramelisation",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "patisserie",
+      "chimie"
+    ],
+    "cuisine": {
+      "topic": "La Caramélisation (Caramelization)",
+      "content_fr": "Oxydation thermique et décomposition des sucres simples à haute température (environ 160°C). Contrairement à la réaction de Maillard, elle n'implique aucune protéine et produit des arômes doux, beurrés et noisettés.",
+      "content_en": "The thermal browning and oxidation of pure carbohydrates/sugars at high heat (~160°C). Unlike the Maillard reaction, it requires no proteins and yields nutty, sweet aromas.",
+      "content_ja": "糖類のみが高温（約160℃）で熱分解・酸化される現象。メイラード反応と異なりタンパク質を必要とせず、香ばしいカラメル香やナッツのような風味、特有の褐色色素を生み出します。"
+    }
+  },
+  {
+    "id": "cuis_coagulation_proteines",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "viandes",
+      "oeufs"
+    ],
+    "cuisine": {
+      "topic": "La Coagulation des Protéines (Protein Coagulation)",
+      "content_fr": "Modification irréversible de la structure des protéines qui passent d'un état liquide/soluble à un état solide ou gélifié sous l'effet de la chaleur ou de l'acidité (ex: blanc d'œuf dès 62-65°C, viande, fromage).",
+      "content_en": "The irreversible transformation of proteins from a liquid/soluble state to a solid or gel-like state through heat or acid (e.g., egg whites firming at 62-65°C, meats, cheese curds).",
+      "content_ja": "熱や酸、塩分の作用によってタンパク質の立体構造がほどけ（変性）、網目状に結びついて固まる現象。卵白が62〜65℃で固まる現象や、肉の火入れ、チーズの凝固などの基本原理です。"
+    }
+  },
+  {
+    "id": "vocab_monter_au_beurre",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Verbe"
+    ],
+    "french": "Monter au beurre",
+    "english": "Mount with butter",
+    "japanese": "(Locution) 冷たいバターを細かく溶かし込み、ソースに艶とコクを与える技法",
+    "definition_fr": "Incorporer du beurre froid en parcelles dans une sauce chaude hors du feu pour la lier et lui donner du brillant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Montez le jus de veau au beurre bien froid juste avant l'envoi de l'assiette.",
+        "en": "Mount the veal jus with cold butter cubes just before sending the plate.",
+        "ja": "料理を運ぶ直前に、冷えた角切りバターを子牛のジュに溶かし込んで艶を出します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_degorger",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Preparation",
+      "Verbe"
+    ],
+    "french": "Dégorger",
+    "english": "Purge / draw out water or impurities",
+    "japanese": "(Verbe) 塩を振って野菜の余分な水分やアクを抜く、または水にさらして血抜きする",
+    "definition_fr": "Laisser tremper un aliment dans l'eau ou le saupoudrer de sel pour en extraire l'eau, le sang ou l'amertume.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites dégorger les lamelles d'aubergines au gros sel pendant trente minutes.",
+        "en": "Purge the eggplant slices with coarse salt for thirty minutes to draw out excess moisture.",
+        "ja": "粗塩を振ってナスの薄切りを30分間置き、余分な水分とアクを抜きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_napper",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Dressage"
+    ],
+    "french": "Napper",
+    "english": "Coat with sauce (coat the back of a spoon)",
+    "japanese": "(Verbe) ソースにとろみをつけ、食材の表面を覆う、またはスプーンの背にとろりと乗る状態",
+    "definition_fr": "Recouvrir uniformément un mets ou une pièce d'une couche de sauce ou de coulis.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La crème anglaise est cuite lorsqu'elle nappe parfaitement le dos de la spatule.",
+        "en": "The crème anglaise is cooked when it coats the back of the spatula perfectly.",
+        "ja": "アングレーズソースはヘラの背にとろりと乗る（ナペする）状態になったら火から下ろします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_abattis",
+    "category": "Vocabulary",
+    "level": "A2",
+    "tags": [
+      "Volaille",
+      "Cuisine",
+      "Boucherie"
+    ],
+    "french": "Abattis",
+    "english": "Giblets / poultry offal (neck, gizzard, wings, liver)",
+    "japanese": "(Nom pluriel) アバティ（鶏や鴨などのガラ・首・砂肝・レバーなどのくず肉・副産物）",
+    "gender": "m",
+    "definition_fr": "Pattes, cou, ailerons, foie et gésier d'une volaille utilisés pour réaliser des jus savoureux.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ne jetez pas les abattis du poulet, ils serviront à enrichir notre fond brun.",
+        "en": "Do not throw away the chicken giblets; they will enrich our brown stock.",
+        "ja": "鶏のアバティ（首や手羽先など）は捨てずに、フォンの旨味を深めるために使います。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_temperer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Cuisson",
+      "Viande",
+      "Preparation"
+    ],
+    "french": "Tempérer",
+    "english": "Bring to room temperature / temper",
+    "japanese": "(Verbe) 肉を冷蔵庫から出して室温に戻す、またはチョコレートの温度調整をする",
+    "definition_fr": "Laisser une viande revenir à température ambiante avant la cuisson pour éviter un choc thermique.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Tempérez la côte de bœuf au moins une heure avant de la griller.",
+        "en": "Bring the rib of beef to room temperature at least one hour before grilling.",
+        "ja": "均一に火を通すため、焼く少なくとも1時間前に牛リブ肉を室温に戻しておきます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_quadriller",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Cuisson",
+      "Grillade"
+    ],
+    "french": "Quadriller",
+    "english": "Mark with diamond grill lines / score",
+    "japanese": "(Verbe) 網焼きで格子状の綺麗な焼き目をつける、または皮目に格子状の切れ目を入れる",
+    "definition_fr": "Marquer un aliment sur le gril en lui donnant des marques en losange par rotation à 90 degrés.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Quadrillez le pavé de saumon sur la grille bien chaude pour une jolie présentation.",
+        "en": "Mark the salmon fillet with a diamond pattern on the hot grill for great presentation.",
+        "ja": "美しい見た目に仕上げるため、熱したグリル網でサーモンの切り身に格子模様の焼き目をつけます。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_denaturation_proteines",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "chimie",
+      "proteines"
+    ],
+    "cuisine": {
+      "topic": "La Dénaturation des Protéines (Protein Denaturation)",
+      "content_fr": "Modification de la conformation spatiale tridimensionnelle des protéines sous l'action de la chaleur, du pH acide (citron, vinaigre) ou du fouettage mécanique, préalable indispensable à leur coagulation.",
+      "content_en": "The unfolding of the three-dimensional structure of protein molecules triggered by heat, acid (lemon, vinegar), or mechanical whipping, which precedes coagulation.",
+      "content_ja": "熱、酸（レモン果汁や酢）、または機械的な撹拌（泡立て）によって、折りたたまれていたタンパク質の立体構造がほどける現象。その後の凝固（網目構造形成）の前提となります。"
+    }
+  },
+  {
+    "id": "cuis_degre_cuisson_viande",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "viande",
+      "temperature"
+    ],
+    "cuisine": {
+      "topic": "Les Degrés de Cuisson de la Viande Rouge (Meat Doneness)",
+      "content_fr": "La cuisson dépend de la température à cœur mesurée au thermomètre :\n- Bleu : 45-48°C (tiède au centre, très souple)\n- Saignant : 50-54°C (rouge chaud, tendre)\n- À point : 55-60°C (rose, élastique)\n- Bien cuit : plus de 65°C (brunâtre, ferme).",
+      "content_en": "Internal core temperatures determine meat doneness:\n- Bleu (Very Rare): 45-48°C\n- Saignant (Rare): 50-54°C\n- À point (Medium): 55-60°C\n- Bien cuit (Well Done): 65°C+.",
+      "content_ja": "赤身肉の火入れ状態は中心温度で管理されます：\n・ブルー（超レア）：中心45〜48℃（中心はぬるく非常に柔らかい）\n・セニャン（レア）：50〜54℃（鮮やかな赤、温かくジューシー）\n・ア・ポワン（ミディアム）：55〜60℃（ピンク色、適度な弾力）\n・ビアン・キュイ（ウェルダン）：65℃以上（水分が抜けしっかり固い）。"
+    }
+  },
+  {
+    "id": "cuis_conduction_convection",
+    "category": "Theory",
+    "level": "A2",
+    "tags": [
+      "science",
+      "thermique",
+      "cuisson"
+    ],
+    "cuisine": {
+      "topic": "Les Modes de Transfert Thermique (Heat Transfer Modes)",
+      "content_fr": "La chaleur se transmet selon trois lois physiques fondamentales :\n1. Conduction : contact direct entre le solide chaud et l'aliment (poêle, plancha).\n2. Convection : mouvement d'un fluide ou gaz chaud (four ventilé, eau bouillante).\n3. Rayonnement : ondes électromagnétiques infrarouges (gril, braises, salamandre).",
+      "content_en": "Heat moves into food via three physical methods:\n1. Conduction: direct contact (frying pan, plancha).\n2. Convection: circulating hot fluid or air (steaming, convection oven).\n3. Radiation: infrared electromagnetic waves (salamander, grill, hot coals).",
+      "content_ja": "調理における熱の伝わり方は3つの基本原理に分かれます：\n1. 伝導（Conduction）：フライパンや鉄板など物体同士の直接接触。\n2. 対流（Convection）：温風や熱湯など流体の循環（スチームコンベクション、茹で）。\n3. 放射・輻射（Rayonnement）：赤外線による電磁波照射（サラマンドル、炭火焼き）。"
+    }
+  },
+  {
+    "id": "vocab_monter_en_neige",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Patisserie",
+      "Oeuf"
+    ],
+    "french": "Monter en neige",
+    "english": "Whip egg whites to stiff peaks",
+    "japanese": "(Locution) 卵白をしっかりと泡立ててメレンゲ状にする",
+    "definition_fr": "Fouetter des blancs d'œufs pour y incorporer de l'air jusqu'à obtenir une mousse blanche et ferme.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Montez les blancs en neige bien ferme avant de les incorporer délicatement à la mousse au chocolat.",
+        "en": "Whip the egg whites to stiff peaks before gently folding them into the chocolate mousse.",
+        "ja": "チョコレートムスクにさっくりと混ぜ合わせる前に、卵白を角が立つまでしっかりと泡立てます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_singer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Cuisson",
+      "Sauces"
+    ],
+    "french": "Singer",
+    "english": "Dust seared meat with flour to thicken sauce later",
+    "japanese": "(Verbe) 炒めた肉や野菜に小麦粉を振りかけ、後で加える水分にとろみをつける技法",
+    "definition_fr": "Saupoudrer de farine des morceaux de viande revenus dans un corps gras pour épaissir le futur ragoût.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Singez les morceaux de bœuf bourguignon avec deux cuillères de farine avant de mouiller au vin rouge.",
+        "en": "Dust the browned beef pieces with flour before adding the red wine.",
+        "ja": "赤ワインを注ぐ前に、焼き色をつけた牛肉に小麦粉を大さじ2杯振りかけて軽く炒めます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_blanchir_legumes",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Legumes",
+      "Cuisson"
+    ],
+    "french": "Blanchir",
+    "english": "Blanch (parboil briefly then shock in ice water)",
+    "japanese": "(Verbe) 野菜を沸騰湯にサッとくぐらせ、氷水に落として色止め・アク抜きする",
+    "definition_fr": "Plonger brièvement un légume dans l'eau bouillante salée puis le rafraîchir en eau glacée pour fixer la chlorophylle.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Blanchissez les haricots verts pendant trois minutes puis plongez-les immédiatement dans un bain glacé.",
+        "en": "Blanch the green beans for three minutes, then immediately plunge them into an ice bath.",
+        "ja": "サヤインゲンを3分間熱湯で茹で、鮮やかな緑色を保つため直ちに氷水に落とします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pochage",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Cuisson"
+    ],
+    "french": "Pocher",
+    "english": "Poach (cook gently in barely simmering liquid)",
+    "japanese": "(Verbe) 沸騰させない低温の液体・80〜90℃で静かに火を通す",
+    "definition_fr": "Cuire un aliment délicat dans un liquide frémissant sans jamais atteindre une ébullition brutale.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pochez le pavé de cabillaud dans un court-bouillon parfumé maintenu à 85°C.",
+        "en": "Poach the cod fillet in an aromatic court-bouillon kept at 85°C.",
+        "ja": "85℃に保った香り高いクール・ブイヨンの中で、タラの切り身を静かにポシェします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_concasser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Decoupe"
+    ],
+    "french": "Concasser",
+    "english": "Roughly chop / crush (e.g. tomatoes, pepper)",
+    "japanese": "(Verbe) 粗みじんに刻む、または胡椒などを粗く砕く",
+    "definition_fr": "Hacher grossièrement des aliments (comme des tomates pelées et épépinées) ou piler des épices.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Concassez les tomates mondées en cubes réguliers pour la garniture.",
+        "en": "Coarsely dice the peeled and seeded tomatoes for the garnish.",
+        "ja": "湯むきして種を取ったトマトを粗みじんに刻みます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_barder",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Boucherie",
+      "Viande"
+    ],
+    "french": "Barder",
+    "english": "Bard (wrap lean meat or game in thin sheets of fat/bacon)",
+    "japanese": "(Verbe) パサつきやすい赤身肉やジビエの周りに薄切り豚背脂を巻いて乾燥を防ぐ",
+    "definition_fr": "Entourer une pièce de viande maigre ou de gibier d'une fine barde de lard pour éviter son dessèchement au four.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Bardez le filet de chevreuil avec une fine barde de porc avant de le rôtir.",
+        "en": "Bard the venison loin with a thin sheet of pork fatback before roasting.",
+        "ja": "ロースト中のパサつきを防ぐため、鹿肉のロースに薄い豚背脂の帯を巻いてタコ糸で縛ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chemise_en_chemise",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "Techniques",
+      "Ail",
+      "Preparation"
+    ],
+    "french": "En chemise",
+    "english": "Unpeeled (with skins left on, especially garlic cloves)",
+    "japanese": "(Locution) ニンニクなどを皮付きのまま丸ごと調理する手法",
+    "definition_fr": "Se dit d'une gousse d'ail ou d'une pomme de terre cuite sans en retirer la peau protectrice.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez six gousses d'ail en chemise autour du gigot d'agneau pour confire pendant la cuisson.",
+        "en": "Add six unpeeled garlic cloves around the leg of lamb to confit during roasting.",
+        "ja": "仔羊のもも肉の周りに皮付きニンニクを並べ、焼きながらホクホクにコンフィにします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_sauter",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "cooking",
+      "heat"
+    ],
+    "french": "Sauter",
+    "english": "To sauté / fry quickly with little fat",
+    "japanese": "ソテーする / 炒め焼きにする",
+    "definition_fr": "(verbe) Cuire vivement un aliment dans une petite quantité de matière grasse chaude.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites sauter les champignons émincés dans une poêle bien chaude.",
+        "en": "Sauté sliced mushrooms in a very hot pan.",
+        "ja": "薄切りにしたキノコを十分に熱したフライパンでソテーします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_singer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "sauces",
+      "cooking"
+    ],
+    "french": "Singer",
+    "english": "To dust with flour before browning or adding liquid",
+    "japanese": "粉をふる（サンジェする）",
+    "definition_fr": "(verbe) Saupoudrer de farine des morceaux de viande revenus dans un corps gras pour lier la sauce ultérieurement.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Singez les morceaux de bœuf avec de la farine avant de mouiller au vin rouge.",
+        "en": "Dust the beef pieces with flour before adding red wine.",
+        "ja": "赤ワインを注ぐ前に、炒めた牛肉に小麦粉をふりかけます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_ciseler",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "cutting",
+      "onions"
+    ],
+    "french": "Ciseler",
+    "english": "To finely dice onions or cut herbs into strips",
+    "japanese": "みじん切りにする / 刻む（シズレ）",
+    "definition_fr": "(verbe) Couper les oignons ou échalotes en petits dés réguliers, ou tailler les herbes sans les écraser.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ciselez deux échalotes très finement pour la sauce béarnaise.",
+        "en": "Finely dice two shallots for the béarnaise sauce.",
+        "ja": "ベアルネーズソース用に、エシャロット2個をごく細かくみじん切りにします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_emincer",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "cutting",
+      "vegetables"
+    ],
+    "french": "Émincer",
+    "english": "To slice thinly",
+    "japanese": "薄切りにする（エマンセ）",
+    "definition_fr": "(verbe) Couper des légumes ou des viandes en tranches fines d'épaisseur régulière.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Émincez les oignons blancs avant de les faire suer doucement.",
+        "en": "Thinly slice the white onions before sweating them gently.",
+        "ja": "弱火で汗をかかせる（甘みを引き出す）前に、白玉ねぎを薄切りにします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_concasser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "tomatoes",
+      "cutting"
+    ],
+    "french": "Concasser",
+    "english": "To crush / chop coarsely (e.g. tomatoes, pepper)",
+    "japanese": "粗く刻む / つぶす（コンカッセ）",
+    "definition_fr": "(verbe) Hacher grossièrement des tomates mondées ou écraser des grains de poivre.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Concassez les tomates pelées et épépinées pour la sauce provençale.",
+        "en": "Coarsely chop peeled and seeded tomatoes for the provençale sauce.",
+        "ja": "プロヴァンス風ソース用に、皮をむいて種を取ったトマトを粗く刻みます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_degraisser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "sauces",
+      "hygiene"
+    ],
+    "french": "Dégraisser",
+    "english": "To degrease / skim off fat",
+    "japanese": "脂を取り除く（デグレセ）",
+    "definition_fr": "(verbe) Éliminer la couche de graisse accumulée à la surface d'une sauce, d'un fond ou d'un jus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Dégraissez le jus de rôti à l'aide d'une louche avant le dressage.",
+        "en": "Skim the fat from the pan juices with a ladle before plating.",
+        "ja": "盛り付けの前に、レードルを使って焼き汁の脂を丁寧に取り除きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_dresser",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "plating",
+      "service"
+    ],
+    "french": "Dresser",
+    "english": "To plate / present food neatly on the dish",
+    "japanese": "盛り付ける（ドレッセ）",
+    "definition_fr": "(verbe) Disposer avec ordre et harmonie les mets sur un plat de service ou sur une assiette.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef dresse les assiettes chaudes avec une pince de précision.",
+        "en": "The chef plates hot dishes using precision tweezers.",
+        "ja": "シェフはピンセットを使って温かい皿に美しく盛り付けます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_napper",
+    "category": "Techniques",
+    "level": "A2",
+    "tags": [
+      "technique",
+      "sauces",
+      "presentation"
+    ],
+    "french": "Napper",
+    "english": "To coat evenly with sauce",
+    "japanese": "ソースを覆うようにかける（ナッペする）",
+    "definition_fr": "(verbe) Recouvrir uniformément un aliment d'une sauce liée ou d'un coulis.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Nappez la volaille rôtie d'un filet de sauce veloutée bien brillante.",
+        "en": "Coat the roasted poultry with a shiny velouté sauce.",
+        "ja": "ローストした鶏肉に、つややかなヴルーテソースをとろりと覆いかけます。"
       }
     ]
   }

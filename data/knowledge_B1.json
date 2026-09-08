@@ -6747,5 +6747,581 @@
       }
     ],
     "english": "Billion"
+  },
+  {
+    "id": "cuis_gelatinisation_amidon",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "sauces",
+      "patisserie"
+    ],
+    "cuisine": {
+      "topic": "La Gélatinisation de l'Amidon (Starch Gelatinization)",
+      "content_fr": "Processus par lequel les grains d'amidon absorbent de l'eau chaude, gonflent et éclatent vers 60-80°C, libérant l'amylose et épaississant les liquides (base des roux, sauces liées, crèmes pâtissières).",
+      "content_en": "The process where starch granules absorb hot water, swell and burst between 60-80°C, releasing amylose and thickening liquid mixtures (e.g. roux, béchamel, pastry cream).",
+      "content_ja": "デンプン粒が水分とともに加熱（約60〜80℃）されることで吸水・膨潤し、糊状（粘性）になって液体をとろみづける現象（糊化）。ルーやベシャメルソース、カスタードクリームのとろみの基礎です。"
+    }
+  },
+  {
+    "id": "cuis_osmose_culinaire",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "salage",
+      "assaisonnement"
+    ],
+    "cuisine": {
+      "topic": "L'Osmose en Cuisine (Osmosis in Cooking)",
+      "content_fr": "Mouvement de l'eau à travers une membrane semi-perméable d'un milieu moins concentré vers un milieu plus concentré en sel ou en sucre. Elle explique le dégorgement des concombres salés, le saumurage et la macération des fruits.",
+      "content_en": "The diffusion of water across a semi-permeable membrane toward higher salt or sugar concentrations. It explains why salted vegetables release moisture and how brining works.",
+      "content_ja": "濃度の異なる溶液が半透膜を介して接した際、濃度の低い方から高い方へ水分が移動する現象。塩を振って野菜の余分な水分を抜く（デゴルジェ）作業や、ブライン液（塩水漬け）の原理です。"
+    }
+  },
+  {
+    "id": "cuis_retrogradation_amidon",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "pain",
+      "patisserie"
+    ],
+    "cuisine": {
+      "topic": "La Rétrogradation de l'Amidon (Starch Retrogradation)",
+      "content_fr": "Réorganisation spontanée des molécules d'amylose lors du refroidissement d'un gel d'amidon, expulsant l'eau (synérèse) et provoquant le rassissement du pain ou le durcissement des fécules.",
+      "content_en": "The realignment of amylose chains upon cooling of gelatinized starch, expelling moisture (syneresis) and causing bread staling and firming of purees.",
+      "content_ja": "加熱糊化したデンプンが冷える過程で、分子鎖が再び再結晶化して水分を吐き出し（離水）、パンのパサつきやデンプンの硬化を引き起こす現象（老化）。"
+    }
+  },
+  {
+    "id": "cuis_foisonnement",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "patisserie",
+      "glace"
+    ],
+    "cuisine": {
+      "topic": "Le Foisonnement (Overrun / Air Incorporation)",
+      "content_fr": "Augmentation de volume d'une préparation due à l'incorporation mécanique d'air (crème fouettée, blancs en neige, glaces). Il influence directement la texture en bouche et l'onctuosité.",
+      "content_en": "The volume increase of a mixture resulting from mechanical air incorporation (e.g. whipped cream, stiff egg whites, churned ice creams), affecting mouthfeel and lightness.",
+      "content_ja": "空気を取り込むことで液体の体積が増加する現象（オーバーラン）。ホイップクリームやメレンゲ、アイスクリームの口溶けや軽やかさを決定づける物理現象です。"
+    }
+  },
+  {
+    "id": "vocab_saumurer",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Conservation",
+      "Viande"
+    ],
+    "french": "Saumurer",
+    "english": "Brine / pickle in brine",
+    "japanese": "(Verbe) 塩水に浸して肉をジューシーに保ち、下味と保水性を高める",
+    "definition_fr": "Plonger une pièce de viande ou de volaille dans une solution d'eau salée et parfumée pour améliorer sa jutosité.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Saumurez le filet de porc pendant six heures pour garantir une chair moelleuse après rôtissage.",
+        "en": "Brine the pork tenderloin for six hours to ensure juicy, tender meat after roasting.",
+        "ja": "ロースト後もしっとりと柔らかい食感を保つため、豚ヒレ肉をソミュール液に6時間漬け込みます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_turbiner",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Patisserie",
+      "Glacerie"
+    ],
+    "french": "Turbiner",
+    "english": "Churn (ice cream / sorbet in an ice cream maker)",
+    "japanese": "(Verbe) アイスクリームマシンで空気を抱き込ませながら冷却撹拌する",
+    "definition_fr": "Faire prendre en glace un appareil liquide dans une sorbetière ou une turbine à glace.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Turbinez l'appareil à glace à la vanille jusqu'à obtenir une texture onctueuse.",
+        "en": "Churn the vanilla ice cream mixture until a smooth, velvety texture is reached.",
+        "ja": "なめらかな質感になるまで、バニラアイスのベースをアイスクリーマーで撹拌冷却します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_reduire_a_sec",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Cuisson"
+    ],
+    "french": "Réduire à sec",
+    "english": "Reduce dry (evaporate almost all liquid)",
+    "japanese": "(Locution) 鍋肌に水分がほとんどなくなるまで煮詰める",
+    "definition_fr": "Faire évaporer la quasi-totalité d'un liquide (vin blanc, vinaigre) jusqu'à ce qu'il n'en reste presque plus.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Réduisez le vin blanc avec les échalotes presque à sec avant d'ajouter la crème fraîche.",
+        "en": "Reduce the white wine and shallots almost dry before adding the heavy cream.",
+        "ja": "生クリームを加える前に、白ワインとエシャロットをほぼ水分が飛ぶまで煮詰めます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_fleurer",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Patisserie",
+      "Boulangerie"
+    ],
+    "french": "Fleurer",
+    "english": "Dust lightly with flour (dust the work surface)",
+    "japanese": "(Verbe) 作業台や生地に手粉を薄くサラサラとまぶす",
+    "definition_fr": "Saupoudrer très légèrement de farine le plan de travail ou la pâte pour empêcher qu'elle n'attache.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Fleurez légèrement le marbre avant de façonner les pâtons de brioche.",
+        "en": "Lightly dust the marble surface with flour before shaping the brioche portions.",
+        "ja": "ブリオッシュ生地を成形する前に、大理石の作業台に軽く手粉を振ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_chablonner",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Patisserie",
+      "Chocolat"
+    ],
+    "french": "Chablonner",
+    "english": "Coat with chocolate to create a moisture barrier",
+    "japanese": "(Verbe) タルトやビスキュイの底に溶かしチョコを薄く塗り、湿気止めをする",
+    "definition_fr": "Enduire le dessous d'un biscuit ou fond de tarte d'une fine couche de chocolat pour l'isoler de l'humidité.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Chablonnez le fond de tarte avec du chocolat blanc fondu pour préserver son croustillant.",
+        "en": "Brush the tart base with melted white chocolate to seal it and preserve its crunch.",
+        "ja": "サクサク感を維持するため、タルトの底面に溶かしたホワイトチョコを薄く塗ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_torrefaction",
+    "category": "Vocabulary",
+    "level": "B1",
+    "tags": [
+      "Degustation",
+      "Cafe",
+      "Gastronomie"
+    ],
+    "french": "Torréfaction",
+    "english": "Roasting / torrefaction",
+    "japanese": "(Nom) ロースト、焙煎（コーヒー豆、ナッツ、カカオの乾熱加熱による芳香化）",
+    "gender": "f",
+    "definition_fr": "Action de chauffer à sec des grains de café, de cacao ou des fruits secs pour exhaler leurs arômes torréfiés.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "La torréfaction des noisettes au four à 160°C révèle toute leur intensité gustative.",
+        "en": "Roasting hazelnuts in the oven at 160°C reveals all their flavor intensity.",
+        "ja": "ヘーゼルナッツを160℃のオーブンでローストすることで、その豊かな香りが最大限に引き出されます。"
+      }
+    ]
+  },
+  {
+    "id": "cuis_synérèse",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "sauces",
+      "gels"
+    ],
+    "cuisine": {
+      "topic": "La Synérèse (Syneresis / Weeping of Gels)",
+      "content_fr": "Phénomène physico-chimique d'expulsion spontanée d'eau hors d'un gel (crème anglaise trop cuite, yaourt, gelée, flan), consécutif à une surcuisson ou un resserrement excessif du réseau de protéines.",
+      "content_en": "The unwanted release of moisture from a gel network (e.g. overcooked custard curds separating, weeping flan), caused by excessive heat or protein over-coagulation.",
+      "content_ja": "ゲルや凝固したタンパク質が熱のかけすぎや酸によって過度に収縮し、内部の水分を外に吐き出してしまう現象（離水）。カスタードのダマやフランのす立ちの主因です。"
+    }
+  },
+  {
+    "id": "cuis_cuisson_sous_vide",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "technologie",
+      "cuisson"
+    ],
+    "cuisine": {
+      "topic": "La Cuisson Sous-Vide à Juste Température (Sous-Vide Cooking)",
+      "content_fr": "Technique de cuisson d'aliments conditionnés sous vide étanche dans des poches thermo-résistantes, plongés dans un bain-marie thermorégulé à une température constante au dixième de degré près.",
+      "content_en": "Cooking food sealed in airtight vacuum pouches in a precisely temperature-controlled water bath, ensuring perfect edge-to-edge doneness and minimum moisture loss.",
+      "content_ja": "専用耐熱パウチで食材を真空密封し、設定温度（0.1℃単位）に保たれた温水循環槽で均一に加熱する低温調理技術。肉汁の蒸発を防ぎ、中心から表面まで均一な火入れが可能です。"
+    }
+  },
+  {
+    "id": "cuis_osmose_inversion_saumure",
+    "category": "Theory",
+    "level": "B1",
+    "tags": [
+      "science",
+      "salage",
+      "chimie"
+    ],
+    "cuisine": {
+      "topic": "L'Équilibre Salin et la Dénaturation par le Sel (Salt Brining Chemistry)",
+      "content_fr": "Le sel diffuse dans la cellule par osmose et dénature partiellement les protéines myofibrillaires (actine et myosine), augmentant leur capacité de rétention d'eau lors de la cuisson ultérieure.",
+      "content_en": "Salt diffuses into cells via osmosis and partially denatures muscle proteins (myosin), significantly increasing their water-holding capacity when subsequently cooked.",
+      "content_ja": "塩分が筋繊維に浸透してミオシン等のタンパク質を部分的に溶解・変性させ、網目構造を広げることで、加熱調理時における肉汁の保持力を飛躍的に向上させます。"
+    }
+  },
+  {
+    "id": "vocab_brider",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Volaille",
+      "Boucherie"
+    ],
+    "french": "Brider",
+    "english": "Truss (tie a bird with kitchen twine to keep shape)",
+    "japanese": "(Verbe) タコ糸と針を使って丸鶏や鴨の手足を縛り、形を整えて均一に火を通す",
+    "definition_fr": "Attacher les membres d'une volaille avec une aiguille à brider et de la ficelle pour maintenir sa forme pendant la cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Bridez soigneusement la volaille de Bresse pour que les cuisses restent serrées contre le coffre.",
+        "en": "Carefully truss the Bresse poultry so that the legs remain tight against the breast.",
+        "ja": "胸肉が乾くのを防ぎ均一に焼くため、ブレス産鶏の手足をタコ糸でしっかりと縛ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_larder",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Boucherie",
+      "Viande"
+    ],
+    "french": "Larder",
+    "english": "Lard (insert strips of fat into lean meat using a larding needle)",
+    "japanese": "(Verbe) ラルドワール／針を使って赤身肉の内部に短冊状の豚脂を射し込む",
+    "definition_fr": "Introduire des bâtonnets de lard gras (lardons) à l'intérieur d'une grosse pièce de viande maigre à l'aide d'une lardoire.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Lardez le rôti de bœuf avec des lanières de lard assaisonnées au poivre et au cognac.",
+        "en": "Lard the beef roast with strips of fatback seasoned with pepper and cognac.",
+        "ja": "コニャックと胡椒で風味付けした豚背脂を、ラルドワールを使って牛赤身肉の中心に射し込みます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_glacer_a_blanc",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Legumes",
+      "Cuisson"
+    ],
+    "french": "Glacer à blanc",
+    "english": "Glaze white (cook root vegetables tender in butter, water, sugar with no browning)",
+    "japanese": "(Locution) 小玉ねぎやカブを水・バター・砂糖で色づけずに艶よく煮詰める",
+    "definition_fr": "Cuire des légumes (petits oignons, navets) dans peu d'eau, du beurre et du sucre jusqu'à réduction complète sans coloration.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Glacez les petits oignons grelots à blanc sous un disque de papier sulfurisé troué.",
+        "en": "Glaze the pearl onions white under a perforated parchment paper cartouche.",
+        "ja": "落とし蓋をし、焼き色をつけずに小玉ねぎを艶やかに煮詰めます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_tamponner",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Conservation"
+    ],
+    "french": "Tamponner",
+    "english": "Dot with butter to prevent skin from forming",
+    "japanese": "(Verbe) 熱いソースやクリームの表面にバターを滑らせ、膜が張るのを防ぐ",
+    "definition_fr": "Passer un morceau de beurre piqué au bout d'une fourchette sur une sauce chaude pour empêcher la formation d'une peau en surface.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Tamponnez la sauce béchamel avec une noisette de beurre avant de la réserver au chaud.",
+        "en": "Dot the béchamel sauce with a knob of butter to prevent a skin from forming while kept warm.",
+        "ja": "保温中に表面に乾いた膜が張らないよう、温かいベシャメルの表面にバターを滑らせて油膜を作ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cartouche_papier",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Cuisson",
+      "Preparation"
+    ],
+    "french": "Cartouche",
+    "english": "Cartouche (parchment paper lid with a vent hole)",
+    "japanese": "(Nom) 中央に蒸気穴を開けた紙製の落とし蓋",
+    "gender": "f",
+    "definition_fr": "Rond de papier sulfurisé percé au centre posé directement sur les aliments pour réguler l'évaporation sans condensation.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Découpez une cartouche en papier sulfurisé pour couvrir les carottes vichy pendant la cuisson.",
+        "en": "Cut a parchment paper cartouche to cover the vichy carrots while cooking.",
+        "ja": "加熱中の適度な蒸発を保つため、クッキングシートを丸く切って中央に穴を開けたカルツーシュを被せます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_depouiller",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Cuisson"
+    ],
+    "french": "Dépouiller",
+    "english": "Skim continuously during a prolonged simmer",
+    "japanese": "(Verbe) 長時間コトコト弱火で煮込みながら、浮き出る脂とアクを完全に除き続ける",
+    "definition_fr": "Éliminer la peau, l'écume et l'excès de graisse qui se forment à la surface d'un fond ou d'une sauce en ébullition lente.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Laissez dépouiller le fond brun à feu très doux pendant quatre heures pour une brillance parfaite.",
+        "en": "Simmer and skim the brown stock over very low heat for four hours for flawless clarity.",
+        "ja": "極上の澄んだ仕上がりにするため、弱火で4時間かけて浮いた脂とアクを根気よく除き続けます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_corser",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "Techniques",
+      "Sauces",
+      "Assaisonnement"
+    ],
+    "french": "Corser",
+    "english": "Intensify flavor / enhance body (by reduction or adding glaze)",
+    "japanese": "(Verbe) 煮詰める、またはグラス・ド・ヴィアンドを加えて味や香りのコク・力強さを増す",
+    "definition_fr": "Renforcer la saveur, la consistance et le parfum d'une sauce ou d'un jus par réduction ou addition de glace de viande.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Corsez la sauce aux morilles avec une cuillère de réduction de fond de veau concentré.",
+        "en": "Enhance the morel mushroom sauce with a spoonful of concentrated veal glaze.",
+        "ja": "濃厚なフォン・ド・ヴォーのエキスをひとさじ加え、モリーユ茸のソースに力強いコクを与えます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_brunoise",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "cutting",
+      "vegetables"
+    ],
+    "french": "Brunoise",
+    "english": "Brunoise / fine dice (1 to 2 mm)",
+    "japanese": "ブリュノワーズ / 1〜2mmの微小角切り",
+    "definition_fr": "(nom féminin) Taille de légumes coupés en dés minuscules et réguliers de 1 à 2 millimètres de côté.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Taillez les carottes et le céleri en brunoise pour garnir le consommé.",
+        "en": "Cut carrots and celery into a brunoise to garnish the consommé.",
+        "ja": "コンソメの浮き身にするため、人参とセロリを1〜2mmの角切り（ブリュノワーズ）にします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_julienne",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "cutting",
+      "vegetables"
+    ],
+    "french": "Julienne",
+    "english": "Julienne / thin matchsticks (1 mm x 4-5 cm)",
+    "japanese": "ジュリエンヌ / 千切り（細長いマッチ棒状）",
+    "definition_fr": "(nom féminin) Légumes taillés en fins filaments réguliers de quelques centimètres de longueur.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites suer au beurre une fine julienne de poireaux.",
+        "en": "Sweat a thin julienne of leeks in butter.",
+        "ja": "極細の千切り（ジュリエンヌ）にしたポロネギをバターで炒めて甘みを引き出します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_chiffonnade",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "cutting",
+      "greens"
+    ],
+    "french": "Chiffonnade",
+    "english": "Chiffonade / thinly shredded leafy greens",
+    "japanese": "シフォナード / 葉物野菜の繊細な千切り",
+    "definition_fr": "(nom féminin) Feuilles de salade, d'oseille ou d'épinards roulées puis émincées en fines lanières.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez la chiffonnade d'épinards dans le bouillon juste avant de servir.",
+        "en": "Add the spinach chiffonade to the broth right before serving.",
+        "ja": "提供する直前に、細切りにしたほうれん草（シフォナード）をスープに加えます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_blanchir",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "cooking",
+      "prep"
+    ],
+    "french": "Blanchir",
+    "english": "To blanch in boiling water then shock in ice water",
+    "japanese": "下茹でする / 湯通しする（ブランシール）",
+    "definition_fr": "(verbe) Plonger un aliment quelques instants dans de l'eau bouillante puis le rafraîchir à l'eau glacée pour fixer la couleur ou éliminer l'âcreté.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Blanchissez les haricots verts dans une eau salée très bouillante.",
+        "en": "Blanch green beans in boiling salted water.",
+        "ja": "沸騰した塩水でインゲン豆をさっと下茹でし、氷水に取って色止めします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_clarifier",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "butter",
+      "consomme"
+    ],
+    "french": "Clarifier",
+    "english": "To clarify (e.g. butter by removing milk solids, or stock with egg whites)",
+    "japanese": "澄ます / 澄ましバターを作る / コンソメを澄ませる（クラリフィエ）",
+    "definition_fr": "(verbe) Rendre limpide un bouillon au moyen de blancs d'œufs, ou séparer la caséine et le petit-lait du beurre fondu.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Clarifiez le beurre à feu très doux pour obtenir une matière grasse pure.",
+        "en": "Clarify the butter over very low heat to get pure fat.",
+        "ja": "極弱火でバターを溶かし、乳固形分を取り除いて純粋な澄ましバターを作ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_glacer_viande",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "cooking",
+      "sauces"
+    ],
+    "french": "Glacer",
+    "english": "To glaze meat with reduced juices or vegetables with butter and sugar",
+    "japanese": "照りをつける / つや出しする（グラセ）",
+    "definition_fr": "(verbe) Arroser régulièrement une pièce de viande de son jus réduit pour lui donner un aspect brillant et caramélisé.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Glacez les ris de veau avec leur fond réduit jusqu'à obtenir un vernis ambré.",
+        "en": "Glaze the sweetbreads with their reduced stock until an amber sheen appears.",
+        "ja": "琥珀色のつやが出るまで、煮詰めた肉汁を回しかけてリードヴォーに照りをつけます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_brider",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "poultry",
+      "butchery"
+    ],
+    "french": "Brider",
+    "english": "To truss poultry with kitchen twine",
+    "japanese": "タコ糸で縛る / 成形する（調理糸で固定する）",
+    "definition_fr": "(verbe) Attacher les pattes et les ailes d'une volaille à l'aide d'une aiguille à brider et de ficelle pour maintenir sa forme à la cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Bridez soigneusement la poularde avant de la mettre au four.",
+        "en": "Truss the fat chicken carefully before placing it in the oven.",
+        "ja": "オーブンに入れる前に、丸鶏を調理糸でしっかりと成形固定します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_barder",
+    "category": "Techniques",
+    "level": "B1",
+    "tags": [
+      "technique",
+      "meat",
+      "fat"
+    ],
+    "french": "Barder",
+    "english": "To wrap meat with thin sheets of pork back fat",
+    "japanese": "脂身の薄切りで巻く（バルデ）",
+    "definition_fr": "(verbe) Recouvrir une pièce de viande maigre ou un gibier d'une fine barde de lard pour éviter son dessèchement à la cuisson.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Bardez le filet de chevreuil d'une fine tranche de lard gras.",
+        "en": "Wrap the venison fillet in a thin sheet of back fat.",
+        "ja": "肉のパサつきを防ぐため、鹿肉のフィレ肉を薄い背脂で覆って巻きます。"
+      }
+    ]
   }
 ]

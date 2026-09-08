@@ -303,7 +303,7 @@
           "text": "Tu sais où est mon nouveau couteau ? (僕の新しいナイフがどこにあるか知らないかい？)",
           "position": "center",
           "learningPoint": {
-            "title": "Tu sais où est mon nouveau couteau ? (僕の新しいナイフがどこにあるか知ってる？) 意味: Tu sais (君は知っている) ＋ où est... (〜はどこか)。形容詞 nouveau (新しい) は名詞 couteau (ナイフ) の「前」に置く特殊な形容詞（配置ルールの例外）です。",
+            "title": "Tu sais où est mon nouveau couteau ? (僕の新しいナイフがどこにあるか知ってる？) 意味: Tu sais (君は知っている) ＋ où est... (〜はどこか)。形容詞 nouveau (新しい) は名詞 couteau の「前」に置く特殊な形容詞（配置ルールの例外）です。",
             "text": ""
           },
           "background": "kitchen"
@@ -1048,7 +1048,7 @@
         {
           "type": "dialog",
           "character": "elodie",
-          "text": "完璧！じゃあ、この Poulet rôti（ローストチキン）を仕上げるよ。Je vais le cuire ! (これからそれを焼きます！)",
+          "text": "完璧！じゃあ、この Poulet rôtiを仕上げるよ。Je vais le cuire ! (これからそれを焼きます！)",
           "position": "center",
           "learningPoint": {
             "title": "Je vais le cuire ! (これからそれを焼きます！)",

@@ -666,7 +666,7 @@
     ],
     "french": "Carte",
     "english": "Menu / card",
-    "japanese": "(Nom) メニュー（アラカルト）、カード",
+    "japanese": "(Nom) アラカルト、カード",
     "definition_fr": "(nom) Liste des mets et boissons proposés à la carte par un restaurant.",
     "is_professional": false,
     "examples": [
@@ -6064,7 +6064,7 @@
       {
         "fr": "Le filet de poulet est une viande maigre et protéinée.",
         "en": "Chicken fillet is a lean and protein-rich meat.",
-        "ja": "鶏のささみ（フィレ）は低脂肪（メーグル）でタンパク質が豊富です。"
+        "ja": "鶏のささみは低脂肪（メーグル）でタンパク質が豊富です。"
       }
     ]
   },
@@ -14255,7 +14255,7 @@
     ],
     "french": "Clémentine",
     "english": "Clementine",
-    "japanese": "(Nom) クレメンタイン（みかん）",
+    "japanese": "(Nom) みかん",
     "definition_fr": "Terme d'apprentissage (clémentine).",
     "is_professional": false,
     "examples": [
@@ -15003,7 +15003,7 @@
     ],
     "french": "Couvert",
     "english": "Cutlery / Cover setting",
-    "japanese": "(Nom) カトラリー（ナイフ・フォーク）",
+    "japanese": "(Nom) ナイフ・フォーク",
     "definition_fr": "Terme d'apprentissage (couvert).",
     "is_professional": false,
     "examples": [
@@ -17440,7 +17440,7 @@
     ],
     "french": "Moustique",
     "english": "Mosquito",
-    "japanese": "(Nom) カ（蚊）",
+    "japanese": "(Nom) 蚊",
     "definition_fr": "Terme d'apprentissage (moustique).",
     "is_professional": false,
     "examples": [
@@ -25003,5 +25003,679 @@
       }
     ],
     "english": "Last"
+  },
+  {
+    "id": "vocab_chinois_etamine",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Cuisine",
+      "Ustensile"
+    ],
+    "french": "Chinois étamine",
+    "english": "Fine conical strainer",
+    "japanese": "(Nom) 極細目の円錐形こし器",
+    "gender": "m",
+    "definition_fr": "Passoire conique en toile métallique très fine servant à filtrer les sauces et bouillons.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le fond de veau au chinois étamine pour obtenir une sauce parfaitement lisse.",
+        "en": "Pass the veal stock through a fine conical strainer to obtain a perfectly smooth sauce.",
+        "ja": "完全に滑らかなソースに仕上げるため、フォン・ド・ヴォーをシノワで漉します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pince_a_dresser",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Dressage",
+      "Ustensile"
+    ],
+    "french": "Pince à dresser",
+    "english": "Plating tweezers / tongs",
+    "japanese": "(Nom) 盛り付け用ピンセット",
+    "gender": "f",
+    "definition_fr": "Ustensile précis pour disposer délicatement les herbes et garnitures sur les assiettes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef utilise une pince à dresser pour déposer les fleurs comestibles.",
+        "en": "The chef uses plating tweezers to arrange the edible flowers.",
+        "ja": "シェフは食用花を配置するために盛り付け用ピンセットを使います。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_corne_a_patisserie",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Patisserie",
+      "Ustensile"
+    ],
+    "french": "Corne à pâtisserie",
+    "english": "Bowl scraper / dough scraper",
+    "japanese": "(Nom) ドレッジ、コルネ（カード）",
+    "gender": "f",
+    "definition_fr": "Palette souple en plastique servant à racler les culs-de-poule et découper les pâtes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Raclez bien le fond du saladier avec une corne.",
+        "en": "Scrape the bottom of the mixing bowl cleanly with a bowl scraper.",
+        "ja": "コルネを使ってボウルの底をきれいにこそげ取ってください。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_rouleau_a_patisserie",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Patisserie"
+    ],
+    "french": "Rouleau à pâtisserie",
+    "english": "Rolling pin",
+    "japanese": "(Nom) めん棒、のし棒",
+    "gender": "m",
+    "definition_fr": "Cylindre de bois ou inox utilisé pour abaisser les pâtes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Abaissez la pâte brisée au rouleau à pâtisserie sur un plan de travail fariné.",
+        "en": "Roll out the shortcrust pastry with a rolling pin on a floured surface.",
+        "ja": "粉を振った台の上で、めん棒を使ってパート・ブリゼを伸ばします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_torchon_liteau",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Brigade",
+      "Service"
+    ],
+    "french": "Liteau",
+    "english": "Service napkin / folded cloth",
+    "japanese": "(Nom) サービス用・熱い皿運搬用の白布",
+    "gender": "m",
+    "definition_fr": "Serviette blanche pliée servant au maître d'hôtel pour le service du vin et les assiettes chaudes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le serveur tient toujours la bouteille de vin enveloppée dans son liteau.",
+        "en": "The server always holds the wine bottle wrapped in a service napkin.",
+        "ja": "給仕人はワインボトルを常にリトで包んで持ちます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_balance_electronique",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Mesure"
+    ],
+    "french": "Balance de cuisine",
+    "english": "Kitchen scale",
+    "japanese": "(Nom) キッチンスケール、はかり",
+    "gender": "f",
+    "definition_fr": "Instrument de mesure indispensable pour peser précisément les ingrédients.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Pesez la farine et le sucre sur la balance de précision.",
+        "en": "Weigh the flour and sugar on the precision kitchen scale.",
+        "ja": "精密キッチンスケールで小麦粉と砂糖の分量を量ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_jaune_d_oeuf",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Ingrédient",
+      "Oeuf",
+      "Cuisine"
+    ],
+    "french": "Jaune d'œuf",
+    "english": "Egg yolk",
+    "japanese": "(Nom) 卵黄、黄身",
+    "gender": "m",
+    "definition_fr": "Partie centrale jaune et nutritive de l'œuf, riche en lipides et lécithine.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Séparez les jaunes d'œufs des blancs avec délicatesse.",
+        "en": "Gently separate the egg yolks from the whites.",
+        "ja": "卵黄と卵白を慎重に分けます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_blanc_d_oeuf",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Ingrédient",
+      "Oeuf",
+      "Cuisine"
+    ],
+    "french": "Blanc d'œuf",
+    "english": "Egg white",
+    "japanese": "(Nom) 卵白、白身",
+    "gender": "m",
+    "definition_fr": "Substance transparente riche en ovalbumine entourant le jaune de l'œuf.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Montez les blancs d'œufs en neige ferme avec une pincée de sel.",
+        "en": "Whip the egg whites to stiff peaks with a pinch of salt.",
+        "ja": "ひとつまみの塩を加え、卵白をしっかりとツノが立つまで泡立てます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_zeste_agrume",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Ingrédient",
+      "Aromate"
+    ],
+    "french": "Zeste",
+    "english": "Zest (citrus peel)",
+    "japanese": "(Nom) 柑橘類の皮の黄色い外皮部分",
+    "gender": "m",
+    "definition_fr": "Partie extérieure parfumée et colorée de l'écorce des agrumes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez un zeste de citron vert pour apporter de la fraîcheur au plat.",
+        "en": "Add a lime zest to bring freshness to the dish.",
+        "ja": "料理に爽やかさを加えるため、ライムの皮（ゼスト）を削り入れます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_gousse_d_ail",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Ingrédient",
+      "Ail",
+      "Légume"
+    ],
+    "french": "Gousse d'ail",
+    "english": "Garlic clove",
+    "japanese": "(Nom) ニンニクの1片（ひとかけ）",
+    "gender": "f",
+    "definition_fr": "Chacune des divisions du bulbe d'ail.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Écrasez deux gousses d'ail en chemise dans l'huile chaude.",
+        "en": "Crush two unpeeled garlic cloves into the hot oil.",
+        "ja": "皮付きのまま潰したニンニク2片を熱した油に加えます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_bain_marie_ustensile",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Cuisson",
+      "Ustensile"
+    ],
+    "french": "Bain-marie",
+    "english": "Water bath / Double boiler",
+    "japanese": "(Nom) 湯煎器、湯煎鍋",
+    "gender": "m",
+    "definition_fr": "Récipient rempli d'eau chaude permettant une cuisson très douce et indirecte.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites fondre le chocolat délicatement au bain-marie sans contact direct avec le feu.",
+        "en": "Melt the chocolate gently in a double boiler without direct heat contact.",
+        "ja": "直火に当てず、湯煎でチョコレートをゆっくりと溶かします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_araignee_ecumoire",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Friture",
+      "Ustensile"
+    ],
+    "french": "Araignée",
+    "english": "Spider skimmer / wire skimmer",
+    "japanese": "(Nom) ワイヤーメッシュのすくい網",
+    "gender": "f",
+    "definition_fr": "Écumoire en fils métalliques entrelacés servant à sortir les aliments d'une friture ou d'un liquide bouillant.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Sortez les beignets dorés de l'huile bouillante avec une araignée.",
+        "en": "Remove the golden fritters from the boiling oil with a spider skimmer.",
+        "ja": "アラニエを使って、きつね色に揚がったフリットを熱した油から引き上げます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_thermomonde_sonde",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Mesure",
+      "Temperature"
+    ],
+    "french": "Thermomètre sonde",
+    "english": "Probe thermometer",
+    "japanese": "(Nom) 中心温度計、プローブサーモメーター",
+    "gender": "m",
+    "definition_fr": "Appareil muni d'une aiguille pour mesurer précisément la température au cœur des viandes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Vérifiez la cuisson du rôti de bœuf au thermomètre sonde : 54°C pour une viande saignante.",
+        "en": "Check the roast beef with a probe thermometer: 54°C for rare meat.",
+        "ja": "中心温度計で牛ローストの火入れを確認します。ミディアムレアは54℃です。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_sauteuse",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Cuisson"
+    ],
+    "french": "Sauteuse",
+    "english": "Sauteuse / curved sauté pan",
+    "japanese": "(Nom) フチが斜めに広がった深型片手鍋",
+    "gender": "f",
+    "definition_fr": "Casserole évasée à parois basses inclinées, idéale pour sauter et réduire les sauces.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites dorer les champignons dans une sauteuse à feu vif avec une noix de beurre.",
+        "en": "Brown the mushrooms in a sauteuse over high heat with a knob of butter.",
+        "ja": "ソトゥーズにバターをひき、強火できのこを香ばしく炒めます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_ramequin",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Service",
+      "Patisserie"
+    ],
+    "french": "Ramequin",
+    "english": "Ramekin",
+    "japanese": "(Nom) ラメキン、スフレ型（耐熱小鉢）",
+    "gender": "m",
+    "definition_fr": "Petit récipient rond en porcelaine ou verre résistant au four, pour crèmes et gratins individuels.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Versez l'appareil à crème brûlée dans des ramequins peu profonds.",
+        "en": "Pour the crème brûlée mixture into shallow ramekins.",
+        "ja": "クレーム・ブリュレの液を浅いラメキンに流し入れます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_planche_a_decouper",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "Equipment",
+      "Hygiene",
+      "Ustensile"
+    ],
+    "french": "Planche à découper",
+    "english": "Cutting board",
+    "japanese": "(Nom) まな板、カッティングボード",
+    "gender": "f",
+    "definition_fr": "Support plat en bois ou polyéthylène sur lequel on découpe les ingrédients en évitant les contaminations croisées.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Utilisez une planche à découper bleue pour le poisson et rouge pour la viande crue.",
+        "en": "Use a blue cutting board for fish and a red one for raw meat.",
+        "ja": "魚には青色のまな板、生肉には赤色のまな板を使い分けて衛生を保ちます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_filet_de_poisson",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Poisson",
+      "Cuisine",
+      "Ingredient"
+    ],
+    "french": "Filet",
+    "english": "Fillet (fish or meat)",
+    "japanese": "(Nom) 魚の三枚おろし身、または最上部位のヒレ肉",
+    "gender": "m",
+    "definition_fr": "Morceau de chair de poisson levé le long de l'arête dorsale, ou muscle le plus tendre chez les mammifères.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le chef lève les filets de bar avec une grande précision.",
+        "en": "The chef removes the sea bass fillets with great precision.",
+        "ja": "シェフは高い精度でスズキの身を三枚におろします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cerfeuil",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Aromate",
+      "Herbes",
+      "Ingredient"
+    ],
+    "french": "Cerfeuil",
+    "english": "Chervil",
+    "japanese": "(Nom) セルフィーユ、チャービル",
+    "gender": "m",
+    "definition_fr": "Herbe aromatique aux feuilles ciselées et au léger parfum d'anis, élément clé des fines herbes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Parsemez quelques pluches de cerfeuil frais sur le potage au moment de servir.",
+        "en": "Scatter a few fresh chervil sprigs over the soup just before serving.",
+        "ja": "提供直前に、スープの上に新鮮なセルフィーユの小葉を散らします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_pincée_sel",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Mesure",
+      "Assaisonnement"
+    ],
+    "french": "Pincée",
+    "english": "Pinch (of salt, spices)",
+    "japanese": "(Nom) ひとつまみ（塩やスパイスの少量）",
+    "gender": "f",
+    "definition_fr": "Quantité que l'on peut prendre entre le pouce et l'index.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Ajoutez une bonne pincée de fleur de sel sur le foie gras poêlé.",
+        "en": "Add a generous pinch of sea salt flakes onto the seared foie gras.",
+        "ja": "ポワレしたフォアグラの上に、ゲランドの塩を気前よくひとつまみ振ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_eau_de_cuisson",
+    "category": "General",
+    "level": "A1",
+    "tags": [
+      "Cuisson",
+      "Technique"
+    ],
+    "french": "Eau de cuisson",
+    "english": "Cooking water",
+    "japanese": "(Nom) 茹で汁、煮汁",
+    "gender": "f",
+    "definition_fr": "Eau chargée d'arômes ou d'amidon résultant de la cuisson des légumes ou des pâtes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Gardez un verre d'eau de cuisson des pâtes pour lier la sauce émulsionnée.",
+        "en": "Reserve a glass of pasta cooking water to bind the emulsified sauce.",
+        "ja": "ソースをとろりと乳化させるため、パスタの茹で汁をコップ1杯分取っておきます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_couteau_office",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "kitchen",
+      "cutting"
+    ],
+    "french": "Couteau d'office",
+    "english": "Paring knife",
+    "japanese": "ペティナイフ / 小型包丁",
+    "definition_fr": "(nom masculin) Petit couteau court et maniable utilisé pour éplucher, tailler et tourner les légumes.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Le commis épluche les oignons avec un couteau d'office.",
+        "en": "The kitchen clerk peels onions with a paring knife.",
+        "ja": "見習いはペティナイフを使って玉ねぎの皮をむきます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_cul_de_poule",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "kitchen",
+      "prep"
+    ],
+    "french": "Cul-de-poule",
+    "english": "Round-bottomed mixing bowl",
+    "japanese": "丸底ボウル",
+    "definition_fr": "(nom masculin) Récipient hémisphérique en acier inoxydable servant à mélanger ou fouetter des préparations.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Mettez les jaunes d'œufs dans le cul-de-poule pour la mayonnaise.",
+        "en": "Put egg yolks in the mixing bowl for mayonnaise.",
+        "ja": "マヨネーズを作るために、卵黄を丸底ボウルに入れます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_maryse",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "pastry",
+      "kitchen"
+    ],
+    "french": "Maryse",
+    "english": "Silicone spatula / scraper",
+    "japanese": "ゴムべら / スパチュラ",
+    "definition_fr": "(nom féminin) Spatule souple en caoutchouc ou silicone servant à racler le fond des récipients.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Raclez les parois de la terrine avec une maryse propre.",
+        "en": "Scrape the bowl walls with a clean spatula.",
+        "ja": "清潔なゴムべらでボウルの側面をきれいに拭い取ります。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_chinois",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "sauces",
+      "kitchen"
+    ],
+    "french": "Chinois",
+    "english": "Conical strainer",
+    "japanese": "シノワ / 円錐形こし器",
+    "definition_fr": "(nom masculin) Passoire conique à grille fine utilisée pour filtrer et lisser les sauces et bouillons.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Passez le bouillon au chinois pour obtenir un liquide limpide.",
+        "en": "Strain the broth through the conical strainer to get a clear liquid.",
+        "ja": "澄んだ液体にするために、ブイヨンをシノワでこします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_mandoline",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "cutting",
+      "vegetables"
+    ],
+    "french": "Mandoline",
+    "english": "Mandoline slicer",
+    "japanese": "マンドリンスライサー / 野菜スライサー",
+    "definition_fr": "(nom féminin) Ustensile de cuisine muni d'une lame réglable pour trancher rapidement les légumes en fines rondelles.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Taillez les pommes de terre à la mandoline pour le gratin.",
+        "en": "Slice the potatoes with the mandoline for the gratin.",
+        "ja": "グラタン用に、ジャガイモをマンドリンスライサーで薄切りにします。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_poele_fer",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "cooking",
+      "meat"
+    ],
+    "french": "Poêle en fer",
+    "english": "Iron frying pan",
+    "japanese": "鉄製フライパン",
+    "definition_fr": "(nom féminin) Poêle en tôle d'acier permettant de saisir les viandes à très haute température.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Faites chauffer la poêle en fer avant de déposer le steak.",
+        "en": "Heat the iron pan before laying the steak.",
+        "ja": "ステーキを置く前に、鉄製フライパンをしっかり熱します。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_fouet",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "pastry",
+      "sauces"
+    ],
+    "french": "Fouet",
+    "english": "Whisk",
+    "japanese": "泡立て器 / ホイッパー",
+    "definition_fr": "(nom masculin) Ustensile composé de fils d'acier métalliques servant à fouetter et émulsionner.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Battez la crème liquide avec un fouet jusqu'à ce qu'elle épaississe.",
+        "en": "Beat the liquid cream with a whisk until it thickens.",
+        "ja": "生クリームがとろみを帯びるまで泡立て器で泡立てます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_ecumoire",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "cooking",
+      "kitchen"
+    ],
+    "french": "Écumoire",
+    "english": "Skimmer",
+    "japanese": "あく取り網 / 穴あきお玉",
+    "definition_fr": "(nom féminin) Grande cuillère plate percée de petits trous servant à écumer les bouillons et égoutter les aliments.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Retirez les impuretés à la surface du potage avec l'écumoire.",
+        "en": "Remove impurities from the soup surface with the skimmer.",
+        "ja": "穴あきお玉（あく取り）でスープ表面のアクを取り除きます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_louche",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "service",
+      "kitchen"
+    ],
+    "french": "Louche",
+    "english": "Ladle",
+    "japanese": "レードル / お玉",
+    "definition_fr": "(nom féminin) Cuillère profonde à long manche servant à prélever et servir des liquides chauds.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Servez le velouté chaud dans les assiettes creuses avec une louche.",
+        "en": "Serve the hot velouté into deep plates with a ladle.",
+        "ja": "レードルを使って、深皿に温かいヴルーテを注ぎ分けます。"
+      }
+    ]
+  },
+  {
+    "id": "vocab_cul_planche_decouper",
+    "category": "Equipment",
+    "level": "A1",
+    "tags": [
+      "equipment",
+      "hygiene",
+      "cutting"
+    ],
+    "french": "Planche à découper",
+    "english": "Cutting board",
+    "japanese": "まな板",
+    "definition_fr": "(nom féminin) Support en bois ou polyéthylène sur lequel on découpe les denrées alimentaires.",
+    "is_professional": true,
+    "examples": [
+      {
+        "fr": "Désinfectez toujours la planche à découper après avoir paré la volaille.",
+        "en": "Always sanitize the cutting board after trimming poultry.",
+        "ja": "鶏肉を下処理した後は、必ずまな板を消毒してください。"
+      }
+    ]
   }
 ]

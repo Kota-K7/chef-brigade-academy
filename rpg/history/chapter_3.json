@@ -247,7 +247,7 @@
           "characters": [],
           "learningPoint": {
             "title": "歴史・文法ポイント",
-            "text": "解説: 意味: 「イングランドを見なさい！」 Regardez (見よ: regarderの命令形) ＋ l'Angleterre (イングランド)。母音で始まる名詞の前では、定冠詞(la/le)は l' になります（エリジオン）。"
+            "text": "解説: 意味: 「イングランドを見なさい！」 Regardez (見よ: regarderの命令形) ＋ l'Angleterre。母音で始まる名詞の前では、定冠詞(la/le)は l' になります（エリジオン）。"
           }
         },
         {
@@ -261,11 +261,11 @@
           "type": "dialog",
           "background": "normandy_conquest",
           "character": null,
-          "text": "「彼の名前はフランス語で『Guillaume（ギョーム）』だが、英語では『William（ウィリアム）』と呼ばれる。全く違う名前に見えるが、実は同じ名前なのだ。」",
+          "text": "「彼の名前はフランス語で『Guillaume』だが、英語では『William』と呼ばれる。全く違う名前に見えるが、実は同じ名前なのだ。」",
           "characters": [],
           "learningPoint": {
             "title": "歴史・文法ポイント",
-            "text": "解説: ゲルマン語系の『W』の音は、フランス語に入ると『Gu（グ / ギョ）』の音に変化する法則がある。 ・War（戦争） ＝ Guerre（ゲール） ・Warrant（保証） ＝ Garant（ガラン） ・William（ウィリアム） ＝ Guillaume（ギョーム）"
+            "text": "解説: ゲルマン語系の『W』の音は、フランス語に入ると『Gu（グ / ギョ）』の音に変化する法則がある。 ・War（戦争） ＝ Guerre ・Warrant（保証） ＝ Garant ・William ＝ Guillaume"
           }
         },
         {
@@ -1290,7 +1290,7 @@
           "characters": [],
           "learningPoint": {
             "title": "歴史・文法ポイント",
-            "text": "解説: 意味: 「ピピンは教皇に土地を与えた王だ」\nPépin (ピピン) ＋ est le roi (王である) ＋ qui (〜であるところの: 主格の関係代名詞) ＋ a donné (与えた) ＋ des terres (土地を) ＋ au pape (教皇に)。\n★重要文法（#relative_pronouns_basic, #verbs）: 先行詞（le roi）を修飾し、動詞（a donné）の主語となる関係代名詞「qui」の基本用法です。"
+            "text": "解説: 意味: 「ピピンは教皇に土地を与えた王だ」\nPépin ＋ est le roi (王である) ＋ qui (〜であるところの: 主格の関係代名詞) ＋ a donné (与えた) ＋ des terres (土地を) ＋ au pape (教皇に)。\n★重要文法（#relative_pronouns_basic, #verbs）: 先行詞（le roi）を修飾し、動詞（a donné）の主語となる関係代名詞「qui」の基本用法です。"
           }
         },
         {
