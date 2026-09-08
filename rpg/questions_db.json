@@ -5,7 +5,7 @@
       "#vocabulary"
     ],
     "type": "choice",
-    "text": "Quel est le terme culinaire français pour désigner la préparation de tous vos outils et ingrédients avant de commencer à cuisiner ? (調理を始める前にすべての道具や食材を準備することを指すフランス料理用語は何ですか？) (調理を始める前にすべての道具や食材を準備することを指すフランス料理用語は何ですか？) (調理を始める前にすべての道具や食材を準備することを指すフランス料理用語は何ですか？)",
+    "text": "Quel est le terme culinaire français pour désigner la préparation de tous vos outils et ingrédients avant de commencer à cuisiner ? (調理を始める前にすべての道具や食材を準備することを指すフランス料理用語は何ですか？)",
     "options": [
       "Mise en bouteille",
       "Mise en place",
@@ -25,7 +25,7 @@
       "#cuts"
     ],
     "type": "choice",
-    "text": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ? (1〜2mmの極小のさいの目切りにするカット技法は何ですか？) (1〜2mmの極小のさいの目切りにするカット技法は何ですか？) (1〜2mmの極小のさいの目切りにするカット技法は何ですか？)",
+    "text": "Quel style de coupe produit un minuscule cube de 1 à 2 mm ? (1〜2mmの極小のさいの目切りにするカット技法は何ですか？)",
     "options": [
       "Macédoine",
       "Bâtonnets",
@@ -45,7 +45,7 @@
       "#grammar"
     ],
     "type": "choice",
-    "text": "Choisissez le verbe impératif correct pour donner un ordre poli ou à un groupe en cuisine pour nettoyer le plan de travail : '___ le plan de travail, s'il vous plaît !' (作業台を掃除するよう丁寧またはグループに指示する正しい命令形動詞を選んでください：'___ le plan de travail, s'il vous plaît !') (作業台を掃除するよう丁寧またはグループに指示する正しい命令形動詞を選んでください：'___ le plan de travail, s'il vous plaît !') (作業台を掃除するよう丁寧またはグループに指示する正しい命令形動詞を選んでください：'___ le plan de travail, s'il vous plaît !')",
+    "text": "Choisissez le verbe impératif correct pour donner un ordre poli ou à un groupe en cuisine pour nettoyer le plan de travail : '___ le plan de travail, s'il vous plaît !' (作業台を掃除するよう丁寧またはグループに指示する正しい命令形動詞を選んでください：'___ le plan de travail, s'il vous plaît !')",
     "options": [
       "Nettoie",
       "Nettoyons",
@@ -65,7 +65,7 @@
       "#sauces"
     ],
     "type": "choice",
-    "text": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ? (フォン・ブラン（白だし）とルウ・ブロン（黄ルウ）から作られる基本ソース（母なるソース）は何ですか？) (フォン・ブラン（白だし）とルウ・ブロン（黄ルウ）から作られる基本ソース（母なるソース）は何ですか？) (フォン・ブラン（白だし）とルウ・ブロン（黄ルウ）から作られる基本ソース（母なるソース）は何ですか？)",
+    "text": "Quelle sauce mère est préparée avec du fond blanc et du roux blond ? (フォン・ブラン（白だし）とルウ・ブロン（黄ルウ）から作られる基本ソース（母なるソース）は何ですか？)",
     "options": [
       "Béchamel",
       "Espagnole",
@@ -85,7 +85,7 @@
       "#grammar"
     ],
     "type": "choice",
-    "text": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.' (ベアネーズソースに加える正しい部分冠詞を入れてください：'Ajoutez ___ beurre dans la sauce béarnaise.') (ベアネーズソースに加える正しい部分冠詞を入れてください：'Ajoutez ___ beurre dans la sauce béarnaise.') (ベアネーズソースに加える正しい部分冠詞を入れてください：'Ajoutez ___ beurre dans la sauce béarnaise.')",
+    "text": "Remplissez le vide avec l'article partitif correct : 'Ajoutez ___ beurre dans la sauce béarnaise.' (ベアネーズソースに加える正しい部分冠詞を入れてください：'Ajoutez ___ beurre dans la sauce béarnaise.')",
     "options": [
       "du",
       "de la",
@@ -105,7 +105,7 @@
       "#meat"
     ],
     "type": "choice",
-    "text": "Quel morceau de bœuf est le plus tendre (tendreté ★★★★★) et doit être cuit très rapidement à feu vif ? (最も柔らかく（柔らかさ★★★★★）、強火で素早く加熱すべき牛肉の部位はどれですか？) (最も柔らかく（柔らかさ★★★★★）、強火で素早く加熱すべき牛肉の部位はどれですか？) (最も柔らかく（柔らかさ★★★★★）、強火で素早く加熱すべき牛肉の部位はどれですか？)",
+    "text": "Quel morceau de bœuf est le plus tendre (tendreté ★★★★★) et doit être cuit très rapidement à feu vif ? (最も柔らかく（柔らかさ★★★★★）、強火で素早く加熱すべき牛肉の部位はどれですか？)",
     "options": [
       "Rumsteck",
       "Filet de bœuf",
@@ -125,7 +125,7 @@
       "#meat"
     ],
     "type": "choice",
-    "text": "Pourquoi la joue de porc nécessite-t-elle une cuisson très longue (braiser ou confire) ? (豚のほほ肉（joue de porc）はなぜ長時間の加熱（ブレゼやコンフィ）が必要なのですか？) (豚のほほ肉（joue de porc）はなぜ長時間の加熱（ブレゼやコンフィ）が必要なのですか？) (豚のほほ肉（joue de porc）はなぜ長時間の加熱（ブレゼやコンフィ）が必要なのですか？)",
+    "text": "Pourquoi la joue de porc nécessite-t-elle une cuisson très longue (braiser ou confire) ? (豚のほほ肉（joue de porc）はなぜ長時間の加熱（ブレゼやコンフィ）が必要なのですか？)",
     "options": [
       "Elle n'a pas de graisse",
       "Elle est riche en collagène de haute densité qui doit se transformer en gélatine",
@@ -145,7 +145,7 @@
       "#map"
     ],
     "type": "choice",
-    "text": "Quelle région française est célèbre pour ses fromages Camembert, ses vergers de pommiers et a accueilli le débarquement allié en 1944 ? (カマンベールチーズやリンゴ園で有名で、1944年に連合軍が上陸したフランスの地域はどこですか？) (カマンベールチーズやリンゴ園で有名で、1944年に連合軍が上陸したフランスの地域はどこですか？) (カマンベールチーズやリンゴ園で有名で、1944年に連合軍が上陸したフランスの地域はどこですか？)",
+    "text": "Quelle région française est célèbre pour ses fromages Camembert, ses vergers de pommiers et a accueilli le débarquement allié en 1944 ? (カマンベールチーズやリンゴ園で有名で、1944年に連合軍が上陸したフランスの地域はどこですか？)",
     "options": [
       "Bourgogne",
       "Alsace",
@@ -184,7 +184,7 @@
       "#science"
     ],
     "type": "choice",
-    "text": "À quelle température commence généralement la réaction de Maillard, essentielle pour dorer les viandes ? (肉に焼き色をつけるのに不可欠なメイラード反応は、通常何度から始まりますか？) (肉に焼き色をつけるのに不可欠なメイラード反応は、通常何度から始まりますか？) (肉に焼き色をつけるのに不可欠なメイラード反応は、通常何度から始まりますか？)",
+    "text": "À quelle température commence généralement la réaction de Maillard, essentielle pour dorer les viandes ? (肉に焼き色をつけるのに不可欠なメイラード反応は、通常何度から始まりますか？)",
     "options": [
       "65°C",
       "100°C",
@@ -204,7 +204,7 @@
       "#sauces"
     ],
     "type": "choice",
-    "text": "Quelle est la limite de température supérieure pour éviter la dénaturation de l'émulsion chaude (ex. Hollandaise, Béarnaise) ? (温かいエマルジョン（オランデーズやベアネーズ）の分離を防ぐための上限温度は何℃ですか？) (温かいエマルジョン（オランデーズやベアネーズ）の分離を防ぐための上限温度は何℃ですか？) (温かいエマルジョン（オランデーズやベアネーズ）の分離を防ぐための上限温度は何℃ですか？)",
+    "text": "Quelle est la limite de température supérieure pour éviter la dénaturation de l'émulsion chaude (ex. Hollandaise, Béarnaise) ? (温かいエマルジョン（オランデーズやベアネーズ）の分離を防ぐための上限温度は何℃ですか？)",
     "options": [
       "45°C",
       "65°C",
@@ -224,7 +224,7 @@
       "#cuts"
     ],
     "type": "choice",
-    "text": "Quelles sont les dimensions classiques d'une coupe en Julienne ? (ジュリエンヌ（千切り）の伝統的なサイズ寸法はどれですか？) (ジュリエンヌ（千切り）の伝統的なサイズ寸法はどれですか？) (ジュリエンヌ（千切り）の伝統的なサイズ寸法はどれですか？)",
+    "text": "Quelles sont les dimensions classiques d'une coupe en Julienne ? (ジュリエンヌ（千切り）の伝統的なサイズ寸法はどれですか？)",
     "options": [
       "1-2 mm x 1-2 mm x 1-2 mm",
       "1-2 mm x 1-2 mm x 4-5 cm",
@@ -244,7 +244,7 @@
       "#vocabulary"
     ],
     "type": "choice",
-    "text": "Quel terme désigne l'action d'attacher les membres d'une volaille avec une ficelle de cuisine avant la cuisson ? (加熱調理の前に、タコ糸で家禽類の肢体を縛る作業を何と呼びますか？) (加熱調理の前に、タコ糸で家禽類の肢体を縛る作業を何と呼びますか？) (加熱調理の前に、タコ糸で家禽類の肢体を縛る作業を何と呼びますか？)",
+    "text": "Quel terme désigne l'action d'attacher les membres d'une volaille avec une ficelle de cuisine avant la cuisson ? (加熱調理の前に、タコ糸で家禽類の肢体を縛る作業を何と呼びますか？)",
     "options": [
       "Brider",
       "Chiffonner",
@@ -283,7 +283,7 @@
       "#science"
     ],
     "type": "choice",
-    "text": "Quel est le terme scientifique pour la dispersion stable de deux liquides normalement non miscibles (comme l'huile et l'eau) ? (水と油のように本来混ざり合わない2つの液体が安定して分散している状態を表す科学用語は何ですか？) (水と油のように本来混ざり合わない2つの液体が安定して分散している状態を表す科学用語は何ですか？) (水と油のように本来混ざり合わない2つの液体が安定して分散している状態を表す科学用語は何ですか？)",
+    "text": "Quel est le terme scientifique pour la dispersion stable de deux liquides normalement non miscibles (comme l'huile et l'eau) ? (水と油のように本来混ざり合わない2つの液体が安定して分散している状態を表す科学用語は何ですか？)",
     "options": [
       "Émulsion (Emulsion)",
       "Coagulation",
@@ -303,7 +303,7 @@
       "#science"
     ],
     "type": "choice",
-    "text": "Pourquoi faut-il utiliser de l'alginate de sodium avec une teneur spécifique en ions calcium pour la sphérification de base ? (基本の人工いくら（球状化）で、特定のカルシウムイオン濃度のアルギン酸ナトリウムを使う必要があるのはなぜですか？) (基本の人工いくら（球状化）で、特定のカルシウムイオン濃度のアルギン酸ナトリウムを使う必要があるのはなぜですか？) (基本の人工いくら（球状化）で、特定のカルシウムイオン濃度のアルギン酸ナトリウムを使う必要があるのはなぜですか？)",
+    "text": "Pourquoi faut-il utiliser de l'alginate de sodium avec une teneur spécifique en ions calcium pour la sphérification de base ? (基本の人工いくら（球状化）で、特定のカルシウムイオン濃度のアルギン酸ナトリウムを使う必要があるのはなぜですか？)",
     "options": [
       "Pour former un gel thermo-irréversible par réticulation des chaînes polymériques.",
       "Pour augmenter la volatilité des arômes lipophiles.",
@@ -323,7 +323,7 @@
       "#sauces"
     ],
     "type": "choice",
-    "text": "Lors d'une liaison au sang pour un lièvre à la royale, à quelle température le sang commence-t-il à coaguler ? (リエーヴル・ア・ラ・ロワイヤルで血液を使ってとろみをつける際、血液は何℃で固まり始めますか？) (リエーヴル・ア・ラ・ロワイヤルで血液を使ってとろみをつける際、血液は何℃で固まり始めますか？) (リエーヴル・ア・ラ・ロワイヤルで血液を使ってとろみをつける際、血液は何℃で固まり始めますか？)",
+    "text": "Lors d'une liaison au sang pour un lièvre à la royale, à quelle température le sang commence-t-il à coaguler ? (リエーヴル・ア・ラ・ロワイヤルで血液を使ってとろみをつける際、血液は何℃で固まり始めますか？)",
     "options": [
       "73°C - 75°C",
       "55°C - 58°C",
@@ -343,7 +343,7 @@
       "#grammar"
     ],
     "type": "choice",
-    "text": "Remplissez le vide avec le pronom correct : 'Avez-vous besoin de farine ? - Oui, donnez-m'___.' (空欄に正しい代名詞を入れてください：'Avez-vous besoin de farine ? - Oui, donnez-m'___.') (空欄に正しい代名詞を入れてください：'Avez-vous besoin de farine ? - Oui, donnez-m'___.') (空欄に正しい代名詞を入れてください：'Avez-vous besoin de farine ? - Oui, donnez-m'___.')",
+    "text": "Remplissez le vide avec le pronom correct : 'Avez-vous besoin de farine ? - Oui, donnez-m'___.' (空欄に正しい代名詞を入れてください：'Avez-vous besoin de farine ? - Oui, donnez-m'___.')",
     "options": [
       "en",
       "y",
@@ -363,7 +363,7 @@
       "#grammar"
     ],
     "type": "choice",
-    "text": "Quelle préposition est correcte pour indiquer le boucher comme lieu d'achat ? 'J'achète la viande ___ le boucher.' (肉の購入場所として精肉店を指示する正しい前置詞はどれですか？ 'J'achète la viande ___ le boucher.') (肉の購入場所として精肉店を指示する正しい前置詞はどれですか？ 'J'achète la viande ___ le boucher.') (肉の購入場所として精肉店を指示する正しい前置詞はどれですか？ 'J'achète la viande ___ le boucher.')",
+    "text": "Quelle préposition est correcte pour indiquer le boucher comme lieu d'achat ? 'J'achète la viande ___ le boucher.' (肉の購入場所として精肉店を指示する正しい前置詞はどれですか？ 'J'achète la viande ___ le boucher.')",
     "options": [
       "chez",
       "à",
@@ -383,7 +383,7 @@
       "#sauces"
     ],
     "type": "choice",
-    "text": "Quelle est la différence fondamentale dans la préparation d'un fond brun par rapport à un fond blanc ? (フォン・ブラン（白だし）と比較した場合のフォン・ブラン（褐色の出汁）の調理における根本的な違いは何ですか？) (フォン・ブラン（白だし）と比較した場合のフォン・ブラン（褐色の出汁）の調理における根本的な違いは何ですか？) (フォン・ブラン（白だし）と比較した場合のフォン・ブラン（褐色の出汁）の調理における根本的な違いは何ですか？)",
+    "text": "Quelle est la différence fondamentale dans la préparation d'un fond brun par rapport à un fond blanc ? (フォン・ブラン（白だし）と比較した場合のフォン・ブラン（褐色の出汁）の調理における根本的な違いは何ですか？)",
     "options": [
       "Les os et viandes sont d'abord rôtis au four jusqu'à coloration brune.",
       "On utilise uniquement du poisson.",
@@ -9876,7 +9876,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。)",
+    "text": "Je ___ (couper) les carottes en rondelles. (私はにんじんを輪切りにします。動詞 couper（原形: couper）の主語 Je に対する現在形活用を入力してください。)",
     "options": [
       "coupe",
       "coupes",
@@ -9898,7 +9898,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。)",
+    "text": "Nous ___ (finir) le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。動詞 finir（原形: finir）の主語 Nous に対する現在形活用を入力してください。)",
     "options": [
       "finissons",
       "finis",
@@ -9920,7 +9920,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？)",
+    "text": "Vous ___ (faire) une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？動詞 faire（原形: faire）の主語 Vous に対する現在形活用を入力してください。)",
     "options": [
       "faites",
       "faisez",
@@ -10060,7 +10060,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。)",
+    "text": "Tous les matins, nous ___ (préparer) le pain frais. (毎朝、私たちは焼きたてのパンを準備します。動詞 préparer（原形: préparer）の主語 Nous に対する現在形活用を入力してください。)",
     "options": [
       "préparons",
       "préparer",
@@ -10966,7 +10966,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "「私はこれからそれを焼きます」は「Je ___ le cuire.」です。空欄に近接未来を作るための動詞 aller（原形: aller）の活用を入力してください。(Complétez : Je ___ le cuire.)",
+    "text": "Je ___ (aller) le cuire. (「私はこれからそれを焼きます」- 近接未来を作る動詞 aller（原形: aller）の主語 Je に対する活用を入力してください。)",
     "acceptedAnswers": [
       "vais"
     ],
@@ -10980,7 +10980,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "「私たちはこれからガレットを作ります」は「Nous ___ faire une galette.」です。空欄に入る動詞 aller（原形: aller）の活用を入力してください。(Complétez : Nous ___ faire une galette.)",
+    "text": "Nous ___ (aller) faire une galette. (「私たちはこれからガレットを作ります」- 近接未来を作る動詞 aller（原形: aller）の主語 Nous に対する活用を入力してください。)",
     "acceptedAnswers": [
       "allons"
     ],
@@ -10994,7 +10994,7 @@
       "#A1"
     ],
     "type": "typing",
-    "text": "「ちょうど終わったところです」は「Je ___ de finir.」です。空欄に入る動詞 venir（原形: venir）の活用を入力してください。(Complétez : Je ___ de finir.)",
+    "text": "Je ___ (venir) de finir. (「ちょうど終わったところです」- 近接過去を作る動詞 venir（原形: venir）の主語 Je に対する活用を入力してください。)",
     "acceptedAnswers": [
       "viens"
     ],
@@ -12312,7 +12312,7 @@
       "#gerund_participle"
     ],
     "type": "choice",
-    "text": "Complétez : '___ la sauce, elle a ajusté le sel.' (ソースの味見をしながら、彼女は塩加減を調整した)",
+    "text": "Complétez : '___ (goûter) la sauce, elle a ajusté le sel.'\n(ソースの味見をしながら、彼女は塩加減を調整した。動詞 goûter（原形: goûter）のジェロンディフを選んでください。)",
     "options": [
       "En goûtant",
       "Goûter",
@@ -12331,7 +12331,7 @@
       "#gerund_participle"
     ],
     "type": "choice",
-    "text": "Remplissez le vide : 'Il travaille tout ___ écoutant de la musique.' (彼は音楽を聴きながらずっと働いている)",
+    "text": "Remplissez le vide : 'Il travaille tout ___ (écouter) de la musique.'\n(彼は音楽を聴きながらずっと働いている。動詞 écouter（原形: écouter）を用いたジェロンディフを作る適切な前置詞 en を選んでください。)",
     "options": [
       "en",
       "à",
@@ -12350,7 +12350,7 @@
       "#gerund_participle"
     ],
     "type": "choice",
-    "text": "Complétez : 'Nous apprenons le français ___ cuisinant.' (私たちは料理をしながらフランス語を学んでいる)",
+    "text": "Complétez : 'Nous apprenons le français ___ (cuisiner).'\n(私たちは料理をしながらフランス語を学んでいる。動詞 cuisiner（原形: cuisiner）を用いたジェロンディフを作る適切な前置詞 en を選んでください。)",
     "options": [
       "en",
       "par",
@@ -14530,7 +14530,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Pendant le grand service du soir, les cuisiniers ___ beaucoup de travail.\n(夜の大盛況の営業中、料理人たちはたくさんの仕事がありました。動詞 avoir の三人称複数半過去形を選んでください。)",
+    "text": "Pendant le grand service du soir, les cuisiniers ___ (avoir) beaucoup de travail.\n(夜の大盛況の営業中、料理人たちはたくさんの仕事がありました。動詞 avoir（原形: avoir）の三人称複数半過去形を選んでください。)",
     "options": [
       "avaient",
       "avait",
@@ -14569,7 +14569,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "À cette époque, vous ___ les pâtissiers les plus réputés de la région.\n(当時、あなた方はその地方で最も評判の高いパティシエたちでした。動詞 être の vous 半過去形を選んでください。)",
+    "text": "À cette époque, vous ___ (être) les pâtissiers les plus réputés de la région.\n(当時、あなた方はその地方で最も評判の高いパティシエたちでした。動詞 être（原形: être）の vous 半過去形を選んでください。)",
     "options": [
       "étiez",
       "étions",
@@ -14647,7 +14647,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Quand le chef ___ que la sauce était brûlée, il ___ très en colère.\n(ソースが焦げたと気づいた時、シェフはとても怒りました。完了した認識と感情の変化（複合過去）を選んでください。)",
+    "text": "Quand le chef ___ (voir) que la sauce était brûlée, il ___ (être) très en colère.\n(ソースが焦げたと気づいた時、シェフはとても怒りました。動詞 voir と être の完了した認識と感情の変化（複合過去）を選んでください。)",
     "options": [
       "a vu / a été",
       "voyait / était",
@@ -15050,7 +15050,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "J'___ travailler dans la brigade de ce restaurant triplement étoilé.\n(私はこの三つ星レストランの厨房チームで働きたいと願っています。動詞 aimer の一人称単数・条件法現在形を選んでください。)",
+    "text": "J'___ (aimer) travailler dans la brigade de ce restaurant triplement étoilé.\n(私はこの三つ星レストランの厨房チームで働きたいと願っています。動詞 aimer（原形: aimer）の一人称単数・条件法現在形を選んでください。)",
     "options": [
       "aimerais",
       "aimais",
@@ -15251,7 +15251,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Si le pâtissier respecte le temps de repos de la pâte, le dessert ___ parfait.\n(パティシエが生地の休ませ時間をしっかり守れば、デザートは完璧に仕上がるでしょう。動詞 être の三人称単数・単純未来形を選んでください。)",
+    "text": "Si le pâtissier respecte le temps de repos de la pâte, le dessert ___ (être) parfait.\n(パティシエが生地の休ませ時間をしっかり守れば、デザートは完璧に仕上がるでしょう。動詞 être（原形: être）の三人称単数・単純未来形を選んでください。)",
     "options": [
       "sera",
       "serait",
@@ -15350,7 +15350,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Si la crème anglaise refroidit assez vite, nous ___ napper le gâteau.\n(アングレーズソースが十分に素早く冷めれば、私たちはケーキに上掛けすることができます。動詞 pouvoir の nous 単純未来形を選んでください。)",
+    "text": "Si la crème anglaise refroidit assez vite, nous ___ (pouvoir) napper le gâteau.\n(アングレーズソースが十分に素早く冷めれば、私たちはケーキに上掛けすることができます。動詞 pouvoir（原形: pouvoir）の nous 単純未来形を選んでください。)",
     "options": [
       "pourrons",
       "pouvons",
@@ -15647,7 +15647,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Pour la réouverture, le restaurant ___ une grande dégustation gastronomique.\n(リニューアルオープンのために、レストランは壮大な美食の試食会を開催する予定です。動詞 faire の三人称単数単純未来形を選んでください。)",
+    "text": "Pour la réouverture, le restaurant ___ (faire) une grande dégustation gastronomique.\n(リニューアルオープンのために、レストランは壮大な美食の試食会を開催する予定です。動詞 faire（原形: faire）の三人称単数単純未来形を選んでください。)",
     "options": [
       "fera",
       "ferait",
@@ -15746,7 +15746,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Le commis de cuisine ___ parti chercher des herbes fraîches au potager.\n(厨房の見習いは菜園へ新鮮なハーブを取りに出かけました。動詞 partir の助動詞を選んでください。)",
+    "text": "Le commis de cuisine ___ (être) parti chercher des herbes fraîches au potager.\n(厨房見習いは菜園へ新鮮なハーブを取りに行きました。動詞 partir の複合過去を作る助動詞 être（原形: être）の活用を選んでください。)",
     "options": [
       "est",
       "a",
@@ -17869,7 +17869,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Nous allons ouvrir les portes du restaurant dans dix minutes.\n(私たちはあと10分でレストランの扉を開けるところです。空欄に入る動詞 aller の活用を選んでください：Nous ___ ouvrir)",
+    "text": "Nous ___ (aller) ouvrir les portes du restaurant dans dix minutes.\n(私たちは10分後にレストランの扉を開けます。近接未来を作る動詞 aller（原形: aller）の nous に対する活用を選んでください。)",
     "options": [
       "allons",
       "allez",
@@ -17905,7 +17905,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Nous venons de recevoir la truffe noire du Périgord.\n(私たちはペリゴール産の黒トリュフを受け取ったばかりです。空欄に入る動詞 venir の活用を選んでください：Nous ___ de recevoir)",
+    "text": "Nous ___ (venir) de recevoir la truffe noire du Périgord.\n(私たちはペリゴール産の黒トリュフを受け取ったところです。近接過去を作る動詞 venir（原形: venir）の nous に対する活用を選んでください。)",
     "options": [
       "venons",
       "venez",
@@ -19045,7 +19045,7 @@
       "#A1"
     ],
     "type": "cloze",
-    "text": "___ le couvercle sur la marmite pour garder la chaleur !\n(保温のために鍋の上に蓋をしなさい！)",
+    "text": "___ (mettre) le couvercle sur la marmite pour garder la chaleur !\n(保温のために大鍋にフタをしなさい！動詞 mettre（原形: mettre）の vous に対する命令形を選んでください。)",
     "options": [
       "Mettez",
       "Mettons",
@@ -20341,7 +20341,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "« Je ___ une carafe d'eau fraîche, s'il vous plaît. »\n(「冷たいお水を1カラフェいただきたいのですが」と丁寧に注文する際の表現を選んでください。)",
+    "text": "« Je ___ (vouloir) une carafe d'eau fraîche, s'il vous plaît. »\n(「冷たいお冷を1デキャンタお願いします。」動詞 vouloir（原形: vouloir）の Je に対する条件法現在（丁寧表現）を選んでください。)",
     "options": [
       "voudrais",
       "veux",
@@ -20638,7 +20638,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Le chef fait ___ les morceaux d'échalote dans un peu d'huile d'olive sans coloration.\n(シェフは少量のオリーブオイルでエシャロットを焼き色をつけずに「汗をかかせます（弱火で炒めます）」。不定詞を選んでください。)",
+    "text": "Le chef fait ___ (suer) les morceaux d'échalote dans un peu d'huile d'olive.\n(シェフは少量のオリーブオイルでエシャロットの小片をしんなりさせます（使役）。動詞 suer（原形: suer）の正しい形を選んでください。)",
     "options": [
       "suer",
       "suant",
@@ -20657,7 +20657,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Faites ___ le beurre à feu très doux pour éviter qu'il ne brûle.\n(焦げるのを防ぐため、極めて弱火でバターを「溶かしてください」。動詞 fondre の不定詞を選んでください。)",
+    "text": "Faites ___ (fondre) le beurre à feu très doux pour éviter qu'il ne brûle.\n(焦げ付きを防ぐため、ごく弱火でバターを溶かしてください（使役）。動詞 fondre（原形: fondre）の正しい形を選んでください。)",
     "options": [
       "fondre",
       "fondu",
@@ -20676,7 +20676,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Après la réduction, faites ___ la crème liquide pour lier l'ensemble.\n(煮詰めた後、全体をまとめるために生クリームを「沸騰させてください」。動詞 bouillir の不定詞を選んでください。)",
+    "text": "Après la réduction, faites ___ (bouillir) la crème liquide pour lier l'ensemble.\n(煮詰めた後、生クリームをひと煮立ちさせて全体をとろみづけしてください（使役）。動詞 bouillir（原形: bouillir）の正しい形を選んでください。)",
     "options": [
       "bouillir",
       "bouilli",
@@ -20695,7 +20695,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Montez la mayonnaise en ___ l'huile en filet régulier et continu.\n(油を細く途切れずに注ぎ入れ「ながら」、マヨネーズを泡立ててください。ジェロンディフの形を選んでください。)",
+    "text": "Montez la mayonnaise en ___ (verser) l'huile en filet régulier et continu.\n(オイルを一定の細い糸状に注ぎながら、マヨネーズを乳化させてください。動詞 verser（原形: verser）のジェロンディフ形を選んでください。)",
     "options": [
       "versant",
       "versé",
@@ -20714,7 +20714,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "C'est en ___ chaque jour qu'on devient un grand cuisinier.\n(「毎日料理をすることによって」、人は偉大な料理人になるのです。ジェロンディフを選んでください。)",
+    "text": "C'est en ___ (cuisiner) chaque jour qu'on devient un grand cuisinier.\n(毎日料理をすることによってこそ、人は偉大な料理人になります。動詞 cuisiner（原形: cuisiner）のジェロンディフ形を選んでください。)",
     "options": [
       "cuisinant",
       "cuisiné",
@@ -20734,7 +20734,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Le rôti de veau ___ resté trop longtemps dans le four chaud.\n(子牛のローストは熱いオーブンの中に長く残りすぎてしまいました。動詞 rester の助動詞を選んでください。)",
+    "text": "Le rôti de veau ___ (être) resté trop longtemps dans le four chaud.\n(仔牛のローストは熱いオーブンの中に長く残りすぎました。動詞 rester の複合過去を作る助動詞 être（原形: être）の三人称単数活用を選んでください。)",
     "options": [
       "est",
       "a",
@@ -20754,7 +20754,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Le commis ___ sorti le plat de poisson de la chambre froide.\n(見習いは冷蔵保管室から魚料理のバットを取り出しました（外に出しました）。直接目的語を持つ動詞 sortir の助動詞を選んでください。)",
+    "text": "Le commis ___ (avoir) sorti le plat de poisson de la chambre froide.\n(見習いは魚料理の皿を冷蔵保管庫から出しました。他動詞 sortir の複合過去を作る助動詞 avoir（原形: avoir）の三人称単数活用を選んでください。)",
     "options": [
       "a",
       "est",
@@ -20889,7 +20889,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Il faut que la poêle ___ très chaude avant d'y déposer le morceau de poisson.\n(魚の切り身を入れる前に、フライパンはとても熱くなっていなければなりません。動詞 être の三人称単数接続法現在形を選んでください。)",
+    "text": "Il faut que la poêle ___ (être) très chaude avant d'y déposer le morceau de viande.\n(肉を置く前に、フライパンが非常に熱くなっていなければなりません。動詞 être（原形: être）の三人称単数接続法現在形を選んでください。)",
     "options": [
       "soit",
       "est",
@@ -20908,7 +20908,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Le chef exige que vous ___ attention à la température du fourneau.\n(シェフはあなた方がコンロの温度に注意を払うよう要求しています。動詞 faire の vous 接続法現在形を選んでください。)",
+    "text": "Le chef exige que vous ___ (faire) attention à la température du fourneau.\n(シェフはあなた方がコンロの温度に注意を払うよう要求しています。動詞 faire（原形: faire）の vous に対する接続法現在形を選んでください。)",
     "options": [
       "fassiez",
       "faites",
@@ -21231,7 +21231,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "« ___ la poêle avant de verser l'huile d'olive ! » ordonne le chef.\n(「オリーブオイルを注ぐ前にフライパンを温めなさい！」とシェフが命じます。動詞 chauffer の tu に対する命令形を選んでください。)",
+    "text": "« ___ (chauffer) la poêle avant de verser l'huile d'olive ! » ordonne le chef.\n(「オリーブオイルを注ぐ前にフライパンを温めなさい！」とシェフが命じます。動詞 chauffer（原形: chauffer）の tu に対する命令形を選んでください。)",
     "options": [
       "Chauffe",
       "Chauffes",
@@ -21250,7 +21250,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "« ___ le bouillon chaud lentement sur le roux ! »\n(「温かいブイヨンをルーの上にゆっくり注ぎなさい！」vous に対する命令形を選んでください。)",
+    "text": "« ___ (verser) le bouillon chaud lentement sur le roux ! »\n(「温かいブイヨンをルーの上にゆっくり注ぎなさい！」動詞 verser（原形: verser）の vous に対する命令形を選んでください。)",
     "options": [
       "Versez",
       "Verse",
@@ -21269,7 +21269,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Le chef ___ préparer la sauce hollandaise pour le service de midi.\n(シェフは昼の営業のためにオランデーズソースを作ろうとしています（近接未来）。適切な形を選んでください。)",
+    "text": "Le chef ___ (aller) préparer la sauce hollandaise pour le service de midi.\n(シェフは昼の営業のためにオランデーズソースを作ろうとしています。近接未来を作る動詞 aller（原形: aller）の活用を選んでください。)",
     "options": [
       "va",
       "va à",
@@ -21288,7 +21288,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Nous ___ enfourner les tartes aux pommes dans cinq minutes.\n(私たちは5分後にリンゴタルトをオーブンに入れます（近接未来）。nous に対する形を選んでください。)",
+    "text": "Nous ___ (aller) enfourner les tartes aux pommes dans cinq minutes.\n(私たちは5分後にリンゴタルトをオーブンに入れます。近接未来を作る動詞 aller（原形: aller）の nous に対する活用を選んでください。)",
     "options": [
       "allons",
       "allons à",
@@ -21307,7 +21307,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Le boulanger ___ de sortir les baguettes toutes chaudes du four.\n(パン職人は焼きたてのバゲットをオーブンから取り出したところです（近接過去）。適切な形を選んでください。)",
+    "text": "Le boulanger ___ (venir) de sortir les baguettes toutes chaudes du four.\n(パン職人は焼きたてのバゲットをオーブンから取り出したところです。近接過去を作る動詞 venir（原形: venir）の活用を選んでください。)",
     "options": [
       "vient",
       "va",
@@ -21326,7 +21326,7 @@
       "#A1"
     ],
     "type": "choice",
-    "text": "Je ___ de tailler tous les légumes pour la mirepoix.\n(私は香味野菜（ミルポワ）用の野菜をすべて切り終えたばかりです（近接過去）。je に対する形を選んでください。)",
+    "text": "Je ___ (venir) de tailler tous les légumes pour la mirepoix.\n(私は香味野菜（ミルポワ）用の野菜をすべて切り終えたばかりです。近接過去を作る動詞 venir（原形: venir）の je に対する活用を選んでください。)",
     "options": [
       "viens",
       "vais",
@@ -21460,7 +21460,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Pendant que le commis ___ les pommes de terre, le chef ___ la cuisson du canard.\n(見習いがジャガイモの皮をむいていた最中（進行・背景）、シェフは鴨肉の火入れを完了させました（完了）。適切な組み合わせを選んでください。)",
+    "text": "Pendant que le commis ___ (éplucher) les pommes de terre, le chef ___ (terminer) la cuisson du canard.\n(見習いがジャガイモの皮をむいていた最中（半過去）、シェフは鴨肉の火入れを完了させました（複合過去）。動詞 éplucher と terminer の適切な組み合わせを選んでください。)",
     "options": [
       "épluchait / a terminé",
       "a épluché / terminait",
@@ -21480,7 +21480,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Il ___ déjà vingt-deux heures quand le dernier client ___ la salle.\n(最後の客が客席を出た時、すでに22時を回っていました。状態（半過去）と突発的な行為（複合過去）の組み合わせを選んでください。)",
+    "text": "Il ___ (être) déjà vingt-deux heures quand le dernier client ___ (quitter) la salle.\n(最後の客が客席を出た時、すでに22時を回っていました。動詞 être（状態・半過去）と quitter（突発行為・複合過去）の組み合わせを選んでください。)",
     "options": [
       "était / a quitté",
       "a été / quittait",
@@ -21537,7 +21537,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Ce potage traditionnel de potiron ___ très chaud dans des bols en porcelaine.\n(この伝統的なカボチャのポタージュは、磁器のボウルで熱々で提供されます（受動的代名動詞）。適切な形を選んでください。)",
+    "text": "Ce potage traditionnel de potiron ___ (se servir) très chaud dans des bols en porcelaine.\n(この伝統的なカボチャのポタージュは、磁器のボウルで熱々で提供されます。代名動詞 se servir（原形: se servir）の受動的表現を選んでください。)",
     "options": [
       "se sert",
       "sert",
@@ -21556,7 +21556,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "La terrine de campagne ___ généralement avec des cornichons et du pain de campagne.\n(田舎風テリーヌは、一般的に小きゅうりのピクルスやカンパーニュパンとともに食されます。受動的代名動詞を選んでください。)",
+    "text": "La terrine de campagne ___ (se manger) généralement avec des cornichons et du pain de campagne.\n(田舎風テリーヌは、一般的に小きゅうりのピクルスやカンパーニュパンとともに食されます。代名動詞 se manger（原形: se manger）の受動的表現を選んでください。)",
     "options": [
       "se mange",
       "mange",
@@ -21575,7 +21575,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Les carottes que le commis a ___ sont taillées en fine brunoise.\n(見習いが皮をむいた人参は、細かいブリュノワーズに切り揃えられています。過去分詞 éplucher の性数一致を選んでください。)",
+    "text": "Les carottes que le commis a ___ (éplucher) sont taillées en fine brunoise.\n(見習いが皮をむいた人参は、細かいブリュノワーズに切り揃えられています。動詞 éplucher（原形: éplucher）の過去分詞の性数一致形を選んでください。)",
     "options": [
       "épluchées",
       "épluché",
@@ -21594,7 +21594,7 @@
       "#B1"
     ],
     "type": "choice",
-    "text": "Quelle belle texture ! La crème que le pâtissier a ___ est parfaitement aérienne.\n(なんと素晴らしい食感でしょう！パティシエが泡立てた生クリームは完璧に軽やかです。動詞 fouetter の過去分詞一致形を選んでください。)",
+    "text": "Quelle belle texture ! La crème que le pâtissier a ___ (fouetter) est parfaitement aérienne.\n(なんと素晴らしい食感でしょう！パティシエが泡立てた生クリームは完璧に軽やかです。動詞 fouetter（原形: fouetter）の過去分詞の性数一致形を選んでください。)",
     "options": [
       "fouettée",
       "fouetté",
@@ -21613,7 +21613,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Si le feu est trop fort, le fond de veau ___ au fond de la marmite.\n(火加減が強すぎると、フォンドヴォーは大鍋の底で焦げ付いてしまうでしょう。動詞 brûler の三人称単数単純未来形を選んでください。)",
+    "text": "Si le feu est trop fort, le fond de veau ___ (brûler) au fond de la marmite.\n(火加減が強すぎると、フォンドヴォーは大鍋の底で焦げ付いてしまうでしょう。動詞 brûler（原形: brûler）の三人称単数単純未来形を選んでください。)",
     "options": [
       "brûlera",
       "brûlerait",
@@ -21632,7 +21632,7 @@
       "#A2"
     ],
     "type": "choice",
-    "text": "Le pâtissier ___ monté les blancs d'œufs en neige très ferme.\n(パティシエは卵白をしっかり角が立つまで泡立てました。直接目的語（les blancs）をとる他動詞 monter の助動詞を選んでください。)",
+    "text": "Le pâtissier ___ (avoir) monté les blancs d'œufs en neige très ferme.\n(パティシエは卵白を非常にしっかりとしたメレンゲに泡立てました。他動詞 monter の複合過去を作る助動詞 avoir（原形: avoir）の三人称単数活用を選んでください。)",
     "options": [
       "a",
       "est",

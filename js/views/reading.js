@@ -339,6 +339,12 @@ function renderPreviewMode(container, article) {
   ctaContainer.appendChild(flexWrapper);
   container.appendChild(ctaContainer);
   
+  // Tribute & Attribution Box (for Hommage / Photo credits)
+  const tributeNotice = createTributeNoticeElement(article);
+  if (tributeNotice) {
+    container.appendChild(tributeNotice);
+  }
+  
   // Editorial Full Article Reader (Read-only + Anatomy + Level-adapted translation)
   const bodyContainer = document.createElement('div');
   bodyContainer.className = 'magazine-body-container';
@@ -1023,6 +1029,12 @@ function renderCompleteMode(container, article) {
   `;
   container.appendChild(header);
   
+  // Tribute & Attribution Box (for Hommage / Photo credits)
+  const tributeNotice = createTributeNoticeElement(article);
+  if (tributeNotice) {
+    container.appendChild(tributeNotice);
+  }
+  
   const contentWrapper = document.createElement('div');
   contentWrapper.className = 'newspaper-columns';
   contentWrapper.style.fontSize = '1.18rem';
@@ -1219,3 +1231,48 @@ function showAnatomyTooltip(targetSpan, token, substringFr) {
     });
   }
 }
+
+function createTributeNoticeElement(article) {
+  if (!article.tribute_notice) return null;
+  const tn = article.tribute_notice;
+  
+  const box = document.createElement('div');
+  box.className = 'tribute-notice-card card';
+  box.style.backgroundColor = '#faf9f6';
+  box.style.border = '1px solid rgba(197, 168, 128, 0.4)';
+  box.style.borderLeft = '5px solid var(--color-accent)';
+  box.style.padding = '1.8rem';
+  box.style.borderRadius = '8px';
+  box.style.marginBottom = '2.5rem';
+  box.style.boxShadow = 'var(--shadow-sm)';
+  
+  box.innerHTML = `
+    <div style="display: flex; gap: 1.8rem; align-items: flex-start; flex-wrap: wrap;">
+      ${article.image ? `
+        <div style="flex: 0 0 150px; text-align: center;">
+          <img src="${article.image}" alt="${article.title_fr}" style="width: 140px; height: 180px; object-fit: cover; object-position: top center; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid rgba(0,0,0,0.08);">
+          <div style="font-size: 0.7rem; color: var(--color-text-muted); margin-top: 0.5rem; line-height: 1.3;">
+            <a href="${tn.source_url}" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline; font-weight: 600;">
+              ${tn.attribution_title}
+            </a>
+          </div>
+        </div>
+      ` : ''}
+      <div style="flex: 1; min-width: 280px;">
+        <h4 style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--color-primary); margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem; border-bottom: 1px solid rgba(197, 168, 128, 0.2); padding-bottom: 0.4rem;">
+          🕊️ ${tn.title || "Hommage & Notice"}
+        </h4>
+        <div style="font-size: 0.88rem; line-height: 1.7; color: var(--color-text-main); white-space: pre-line; margin-bottom: 1.2rem; font-style: italic;">
+          ${tn.message}
+        </div>
+        <div style="font-size: 0.75rem; color: var(--color-text-muted); border-top: 1px dashed rgba(0,0,0,0.12); padding-top: 0.6rem; line-height: 1.5;">
+          <strong>Source & Licence :</strong> ${tn.photo_credit} 
+          [<a href="${tn.source_url}" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline; font-weight: 600;">Wikimedia Commons</a>] 
+          [<a href="${tn.license_url}" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline; font-weight: 600;">${tn.license_name}</a>]
+        </div>
+      </div>
+    </div>
+  `;
+  return box;
+}
+
