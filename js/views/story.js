@@ -947,9 +947,23 @@ function runSequenceEngine(container, episode, chapterNum, chapterData) {
         html += buildTableHtml(section.headers, section.rows);
       } else if (section.type === 'info') {
         html += `
-          <div class="ref-sec-info-box" style="background: rgba(197, 168, 128, 0.08); border-left: 4px solid var(--color-accent); padding: 0.5rem; margin-top: 0.4rem; margin-bottom: 0.6rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.8rem; line-height: 1.45;">
+          <div class="ref-sec-info-box" style="background: rgba(197, 168, 128, 0.08); border-left: 4px solid var(--color-accent); padding: 0.5rem; margin-top: 0.4rem; margin-bottom: 0.6rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.8rem; line-height: 1.45; white-space: pre-line;">
             ${section.content_ja ? `<div style="font-weight: 500;">${section.content_ja}</div>` : ''}
             ${section.content_fr ? `<div style="color: var(--color-text-muted); font-size: 0.75rem; margin-top: 0.2rem;">${section.content_fr}</div>` : ''}
+          </div>
+        `;
+      } else if (section.type === 'examples' && section.examples) {
+        html += `
+          <div class="ref-sec-examples" style="display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.4rem; margin-bottom: 0.6rem;">
+            ${section.examples.map(ex => `
+              <div style="background: rgba(197, 168, 128, 0.05); border: 1px solid rgba(197, 168, 128, 0.15); border-radius: var(--radius-sm); padding: 0.4rem 0.6rem;">
+                <div style="font-weight: 600; color: var(--color-primary); font-size: 0.8rem; display: flex; align-items: center; justify-content: space-between;">
+                  <span>${ex.fr}</span>
+                  <button class="play-audio-btn" data-french="${ex.fr}" style="background: none; border: none; cursor: pointer; font-size: 0.8rem;" title="Listen">🔊</button>
+                </div>
+                <div style="font-size: 0.75rem; color: var(--color-text-muted); margin-top: 0.15rem;">${ex.ja}</div>
+              </div>
+            `).join('')}
           </div>
         `;
       }

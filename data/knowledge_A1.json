@@ -37,9 +37,9 @@
       "grammar"
     ],
     "grammar": {
-      "topic": "La Négation (Ne... pas) (否定文 (ne ... pas))",
-      "explanation_en": "Basic negation in French using 'ne ... pas' around the verb. Note that in negative sentences, indefinite and partitive articles (un, une, des, du, de la) change to 'de' or 'd''.",
-      "explanation_ja": "動詞を ne と pas で挟む最も基本的な否定の表現です。厨房での作業拒否・不可・指示の否定にも必須です。\n\n■ ルール：\n1. 【基本構造：ne + 動詞 + pas】\n   動詞の前後に ne と pas を配置します。動詞が母音や無声の h で始まる場合は ne が n' にエリジオン（省略）します。\n   （例: Je ne comprends pas.）\n2. 【直接目的語の不定冠詞・部分冠詞の否定 (deへの変化)】\n   否定文では、直接目的語につく不定冠詞(un, une, des)や部分冠詞(du, de la)は原則として「de (d')」に変化します。\n   （例: Je n'ai pas de couteau.）\n3. 【その他の否定表現 (ne ... plus, ne ... jamais)】\n   pas の代わりに plus (もう〜ない) や jamais (決して〜ない) を使うことで、より詳細な否定表現が可能です。\n   （例: Il n'y a plus de beurre.）"
+      "topic": "La Négation (否定文・多様な否定表現)",
+      "explanation_en": "French negation using 'ne' (or 'n'') before the verb and negative words (pas, plus, jamais, rien, personne, que, etc.) after the verb. Indefinite and partitive articles change to 'de' or 'd''.",
+      "explanation_ja": "動詞を ne と否定語（pas / plus / jamais / rien / personne / que / pas encore 等）で挟む否定表現です。厨房での作業拒否・不可・指示の否定・食材管理にも必須です。\n\n■ ルール：\n1. 【基本構造：ne + 動詞 + 否定語】\n   動詞の前後に ne と否定語を配置します。動詞が母音や無声の h で始まる場合は ne が n' にエリジオン（省略）します。\n   （例: Je ne comprends pas. / Je n'ai pas de temps.）\n2. 【多様な否定表現のバリエーション】\n   ・ne ... pas : 〜ない (基本)\n   ・ne ... plus : もう〜ない (変化・残量ゼロ)\n   ・ne ... jamais : 決して〜ない (頻度0%・戒め)\n   ・ne ... rien : 何も〜ない (物事の全否定)\n   ・ne ... personne : 誰も〜ない (人の全否定)\n   ・ne ... que : 〜しか〜ない (限定)\n   ・ne ... pas encore : まだ〜ない (未完了)\n3. 【直接目的語の不定冠詞・部分冠詞の否定 (deへの変化)】\n   否定文では、直接目的語につく不定冠詞(un, une, des)や部分冠詞(du, de la)は原則として「de (d')」に変化します（※être や ne...que を除く）。\n   （例: Je n'ai pas de couteau. / Il n'y a plus de beurre.）"
     },
     "examples": [
       {
@@ -48,14 +48,19 @@
         "ja": "(冷蔵庫やパントリーを探している時) ベアルネーズソースが見つかりません。"
       },
       {
-        "fr": "N'oubliez pas de saler l'eau des pâtes.",
-        "en": "Do not forget to salt the pasta water.",
-        "ja": "(シェフからの指導・注意) パスタのお湯に塩を入れるのを忘れないでください。"
+        "fr": "Il n'y a plus de beurre dans le frigo.",
+        "en": "There is no more butter in the fridge.",
+        "ja": "(食材の残量確認) 冷蔵庫にはもうバターがありません。"
       },
       {
-        "fr": "Ce poisson n'est pas frais.",
-        "en": "This fish is not fresh.",
-        "ja": "(検品時の確認) この魚は新鮮ではありません。"
+        "fr": "Ne laissez jamais un couteau dans l'évier.",
+        "en": "Never leave a knife in the sink.",
+        "ja": "(厨房の安全指導) シンクに決して包丁を放置しないでください。"
+      },
+      {
+        "fr": "Je ne prépare rien sans l'accord du chef.",
+        "en": "I do not prepare anything without the chef's agreement.",
+        "ja": "(指示遵守) シェフの許可なしには何も調理しません。"
       }
     ]
   },

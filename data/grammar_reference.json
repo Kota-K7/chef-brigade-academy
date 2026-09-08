@@ -3913,15 +3913,15 @@
   },
   {
     "id": "ref_negation",
-    "title_fr": "La Négation (Ne... pas)",
+    "title_fr": "La Négation (否定文・多様な否定表現)",
     "title_en": "Negation",
-    "title_ja": "否定文",
-    "definition_fr": "La négation se forme principalement avec 'ne' et 'pas' autour du verbe conjugué. Devant une voyelle ou un h muet, 'ne' devient 'n''.",
-    "definition_ja": "動詞を ne と pas で挟む最も基本的な否定の表現です。「もはや〜ない」「決して〜ない」といった他の否定表現の違いや、否定文の際に直接目的語の冠詞が de (d') に変化する重要なルール（否定のde）について、基礎から分かりやすく解説します。",
+    "title_ja": "否定文・多様な否定表現",
+    "definition_fr": "La négation se forme avec 'ne' (ou 'n'') placé avant le verbe et un mot négatif (pas, plus, jamais, rien, personne, que, pas encore, aucun...) placé après le verbe conjugué. Devant une voyelle ou un h muet, 'ne' devient 'n''.",
+    "definition_ja": "動詞を ne と否定語（pas / plus / jamais / rien / personne / que / pas encore / aucun 等）で挟む否定表現です。「〜ない (ne...pas)」だけでなく、「もう〜ない (ne...plus)」「決して〜ない (ne...jamais)」「何も〜ない (ne...rien)」「誰も〜ない (ne...personne)」「〜しか〜ない (ne...que)」などの多様な否定表現と、直接目的語の冠詞が de (d') に変化するルール（否定のde）を網羅して解説します。",
     "sections": [
       {
         "type": "table",
-        "title": "1. 基本的な否定文の作り方",
+        "title": "1. 基本的な否定文の作り方 (ne ... pas)",
         "headers": [
           "構造",
           "解説",
@@ -3931,7 +3931,7 @@
         "rows": [
           [
             "ne + 動詞 + pas",
-            "通常の動詞活用を ne と pas で挟みます。",
+            "通常の動詞活用を ne と pas で挟みます（最も基本的な否定）。",
             "Je ne comprends pas.",
             "分かりません。"
           ],
@@ -3946,14 +3946,14 @@
       {
         "type": "info",
         "title": "否定の de のルール (La règle du 'de' de négation)",
-        "content_ja": "否定文で直接目的語に付く不定冠詞（un, une, des）や部分冠詞（du, de la, des）は、原則として「de」（母音・無声のhの前では「d'」）に変化します。ただし、動詞が être の場合は変化せず、そのままの冠詞を使います。\n・肯定：J'ai un couteau. (私は包丁を持っています)\n・否定：Je n'ai pas de couteau. (私は包丁を持っていません)\n・肯定：C'est un couteau. (それは包丁です)\n・否定：Ce n'est pas un couteau. (それは包丁ではありません ※êtreなので変化しない)",
-        "content_fr": "Dans une phrase négative, les articles indéfinis (un, une, des) et partitifs (du, de la) se transforment en 'de' (ou 'd' devant une voyelle) après le verbe, sauf avec le verbe être.",
+        "content_ja": "否定文で直接目的語に付く不定冠詞（un, une, des）や部分冠詞（du, de la, des）は、原則として「de」（母音・無声のhの前では「d'」）に変化します。ただし、動詞が être の場合は変化せず、そのままの冠詞を使います。\n・肯定：J'ai un couteau. (私は包丁を持っています)\n・否定：Je n'ai pas de couteau. (私は包丁を持っていません)\n・肯定：C'est un couteau. (それは包丁です)\n・否定：Ce n'est pas un couteau. (それは包丁ではありません ※êtreなので変化しない)\n※ ne...plus, ne...jamais, ne...pas encore 等でも同様に de に変化します（ne...que は限定＝肯定の意味なので de に変化せず元の冠詞のままとなります）。",
+        "content_fr": "Dans une phrase négative, les articles indéfinis (un, une, des) et partitifs (du, de la) se transforment en 'de' (ou 'd' devant une voyelle) après le verbe, sauf avec le verbe être. Attention : avec 'ne... que', les articles ne changent pas.",
         "headers": [],
         "rows": []
       },
       {
         "type": "table",
-        "title": "2. その他の否定表現",
+        "title": "2. 多様な否定表現のバリエーション (ne ... pas 以外の否定語)",
         "headers": [
           "表現",
           "意味",
@@ -3963,13 +3963,13 @@
         "rows": [
           [
             "ne ... plus",
-            "もう〜ない (not anymore)",
+            "もう〜ない / もはや〜ない (not anymore)",
             "Il n'y a plus de beurre.",
-            "バターはもうありません。"
+            "バターはもうありません（品切れ・満腹等）。"
           ],
           [
             "ne ... jamais",
-            "決して〜ない (never)",
+            "決して〜ない / 一度も〜ない (never)",
             "Je ne brûle jamais la viande.",
             "私は肉を絶対に焦がしません。"
           ],
@@ -3978,31 +3978,71 @@
             "何も〜ない (nothing)",
             "Je ne prépare rien.",
             "私は何も準備していません。"
+          ],
+          [
+            "ne ... personne",
+            "誰も〜ない (nobody)",
+            "Je ne vois personne en cuisine.",
+            "厨房に誰も見当たりません。"
+          ],
+          [
+            "ne ... que",
+            "〜しか〜ない / 〜だけ (only / 限定)",
+            "Je ne mange que des légumes.",
+            "私は野菜しか食べません。"
+          ],
+          [
+            "ne ... pas encore",
+            "まだ〜ない (not yet)",
+            "Le plat n'est pas encore prêt.",
+            "料理はまだ準備できていません。"
+          ],
+          [
+            "ne ... aucun(e)",
+            "1つも〜ない / いかなる〜もない (none)",
+            "Il n'y a aucun problème.",
+            "何一つ問題はありません。"
           ]
         ]
       },
       {
         "type": "info",
-        "title": "💡 否定表現の使い分けと違い",
-        "content_ja": "フランス語では、ne と pas の代わりに別の言葉を組み合わせることで、多様な否定を表現できます。基本構造はすべて【ne ＋ 動詞 ＋ 否定語】です。\n\n1. **ne ... pas (〜ない)**\n   もっとも一般的な否定です。「していない」という事実だけを伝えます。\n   *例: Je ne mange pas. (私は食べません)*\n\n2. **ne ... plus (もはや〜ない / もう〜ない)**\n   「以前は〜していたが、今はもう〜していない」という変化を表します。満腹のときや、禁煙したときなどに使います。\n   *例: Je ne mange plus. (私はもう食べません ※満腹なので)*\n\n3. **ne ... jamais (決して〜ない / 一度も〜ない)**\n   頻度が0%であることを表します。「絶対に〜しない」「これまで一度も〜したことがない」という場合に多用します。\n   *例: Je ne mange jamais. (私は決して食べません ※アレルギーがある時など)*\n\n4. **ne ... rien (何も〜ない)**\n   否定の対象が「物事（nothing）」になります。直接目的語の代わりに rien を置きます。\n   *例: Je ne mange rien. (私は何も食べません)*\n\n5. **ne ... personne (誰も〜ない)**\n   否定の対象が「人（nobody）」になります。\n   *例: Je ne vois personne. (私は誰の姿も見えません)*",
+        "title": "💡 否定表現の使い分けと語順ルール",
+        "content_ja": "フランス語では、ne と組み合わせる否定語によってニュアンスが変化します。基本構造はすべて【ne ＋ 活用動詞 ＋ 否定語】です。\n\n1. **ne ... pas (〜ない)**\n   もっとも一般的な否定です。「していない」という事実だけを伝えます。\n   *例: Je ne mange pas. (私は食べません)*\n\n2. **ne ... plus (もはや〜ない / もう〜ない)**\n   「以前は〜していたが、今はもう〜していない」という変化を表します。満腹のときや食材切れなどに使います。\n   *例: Je ne mange plus. (私はもう食べません ※満腹なので)*\n\n3. **ne ... jamais (決して〜ない / 一度も〜ない)**\n   頻度が0%であることを表します。「絶対に〜しない」「これまで一度も〜したことがない」という場合に多用します。\n   *例: Je ne brûle jamais la sauce. (私は決してソースを焦がしません)*\n\n4. **ne ... rien (何も〜ない)**\n   否定の対象が「物事（nothing）」になります。直接目的語の代わりに rien を置きます。\n   *例: Je ne prépare rien. (私は何も準備していません)*\n\n5. **ne ... personne (誰も〜ない)**\n   否定の対象が「人（nobody）」になります。\n   *例: Je ne vois personne. (私は誰の姿も見えません)*\n\n6. **ne ... que (〜しか〜ない)**\n   否定語ではなく限定（〜だけ）を表します。意味は肯定ですが、文法構造は ne ... que を取ります。\n   *例: Il ne boit que de l'eau. (彼は水しか飲みません)*\n\n7. **ne ... pas encore (まだ〜ない)**\n   未完了の状態を表します。\n   *例: Ce n'est pas encore prêt. (まだ準備ができていません)*",
         "headers": [],
         "rows": []
       },
       {
         "type": "examples",
-        "title": "厨房での例文",
+        "title": "厨房での実践例文",
         "examples": [
           {
             "fr": "Je ne trouve pas la sauce béarnaise.",
             "ja": "ベアルネーズソースが見つかりません。"
           },
           {
-            "fr": "N'oubliez pas de saler l'eau des pâtes.",
-            "ja": "パスタのお湯に塩を入れるのを忘れないでください。"
+            "fr": "Il n'y a plus de farine dans la réserve.",
+            "ja": "倉庫にはもう小麦粉がありません。"
           },
           {
-            "fr": "Ce poisson n'est pas frais.",
-            "ja": "この魚は新鮮ではありません。"
+            "fr": "Ne laissez jamais un couteau au fond de l'évier.",
+            "ja": "シンクの底に決して包丁を放置しないでください。"
+          },
+          {
+            "fr": "Je n'entends rien avec le bruit de la hotte.",
+            "ja": "換気扇の音で何も聞こえません。"
+          },
+          {
+            "fr": "Il n'y a personne en salle pour le moment.",
+            "ja": "今のところホールには誰もいません。"
+          },
+          {
+            "fr": "Nous ne servons que des produits frais.",
+            "ja": "当店では新鮮な食材しか提供しません。"
+          },
+          {
+            "fr": "Le gâteau n'est pas encore cuit.",
+            "ja": "ケーキはまだ焼けていません。"
           }
         ],
         "headers": [],

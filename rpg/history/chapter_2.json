@@ -612,10 +612,12 @@
           "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
-              "title": "否定文の作り方 (ne ... pas)",
+              "title": "否定文の基本と多様な否定表現",
               "referenceTopicId": "ref_negation",
               "sectionIndices": [
-                0
+                0,
+                1,
+                2
               ]
             }
           ]

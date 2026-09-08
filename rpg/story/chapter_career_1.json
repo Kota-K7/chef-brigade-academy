@@ -620,6 +620,28 @@
         },
         {
           "type": "dialog",
+          "character": "hero",
+          "text": "あの……冷蔵庫を見ましたが、Il n'y a plus de flan ! (もうプリンはありません！)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... plus de [名詞] (もう〜がない)",
+            "text": "以前あったものが無くなった（残量ゼロ）を表す表現です。ne...pas と同様に、後ろの名詞の前には否定の「de」を置きます（× plus du flan ➔ ○ plus de flan）。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
+          "character": "kanetake",
+          "text": "なんやて！？ Il n'y a rien dans le frigo !? (冷蔵庫に何もないんかい！？プリンどころか空っぽなんか！？)",
+          "position": "center",
+          "learningPoint": {
+            "title": "ne ... rien (何も〜ない)",
+            "text": "pas の代わりに rien を使うことで「何一つ〜ない（ゼロ）」を表します。Il n'y a rien で「何もない」という決まり文句になります。"
+          },
+          "background": "kitchen"
+        },
+        {
+          "type": "dialog",
           "character": "elodie",
           "text": "あ、それ私がさっき食べちゃいました！だって名前書いてなかったし！",
           "position": "center",
@@ -650,25 +672,14 @@
           "position": "center",
           "background": "kitchen"
         },
-        {
+           {
           "type": "dialog",
-          "character": "hero",
-          "text": "あの……冷蔵庫を見ましたが、Il n'y a plus de flan ! (もうプリンはありません！)",
+          "character": "saeki",
+          "text": "ほら金竹さん、En cuisine, il ne faut jamais paniquer. (厨房では決して慌ててはいけませんよ。)",
           "position": "center",
           "learningPoint": {
-            "title": "ne ... plus de [名詞] (もう〜がない)",
-            "text": "以前あったものが無くなった（残量ゼロ）を表す表現です。ne...pas と同様に、後ろの名詞の前には否定の「de」を置きます（× plus du flan ➔ ○ plus de flan）。"
-          },
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "kanetake",
-          "text": "なんやて！？ Il n'y a rien dans le frigo !? (冷蔵庫に何もないんかい！？プリンどころか空っぽなんか！？)",
-          "position": "center",
-          "learningPoint": {
-            "title": "ne ... rien (何も〜ない)",
-            "text": "pas の代わりに rien を使うことで「何一つ〜ない（ゼロ）」を表します。Il n'y a rien で「何もない」という決まり文句になります。"
+            "title": "ne ... jamais (決して〜ない)",
+            "text": "ne ... jamais は「決して〜ない」「一度も〜ない」という頻度ゼロや強い戒めを表す表現です。"
           },
           "background": "kitchen"
         },
@@ -680,42 +691,6 @@
           "learningPoint": {
             "title": "トラブル時の短い疑問文",
             "text": "Combien ça coûte ? (いくら？) / Ça coûte combien ? は日常会話・厨房の買い出しで最も使う値段の聞き方です。"
-          },
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "ほら金竹さん、En cuisine, il ne faut jamais paniquer. (厨房では決して慌ててはいけませんよ。)",
-          "position": "center",
-          "learningPoint": {
-            "title": "ne ... jamais (決して〜ない)",
-            "text": "ne ... jamais は「決して〜ない」「一度も〜ない」という頻度ゼロや強い戒めを表す表現です。"
-          },
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "hero",
-          "text": "（厨房がカオスだ……！）",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "やれやれ。今後のためにも、疑問文と様々な否定文（plus / rien / jamais）をしっかり復習しておこうか。",
-          "position": "center",
-          "background": "kitchen"
-        },
-        {
-          "type": "dialog",
-          "character": "saeki",
-          "text": "ほら金竹さん、En cuisine, il ne faut jamais paniquer. (厨房では決して慌ててはいけませんよ。)",
-          "position": "center",
-          "learningPoint": {
-            "title": "ne ... jamais (決して〜ない)",
-            "text": "ne ... jamais は「決して〜ない」「一度も〜ない」という頻度ゼロや強い戒めを表す表現です。"
           },
           "background": "kitchen"
         },
@@ -739,16 +714,25 @@
           "goal": "総合復習の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
-              "title": "【復習】否定文の構造と語順",
+              "title": "【復習】否定文の基本 (ne...pas) と否定のde",
               "referenceTopicId": "ref_negation",
               "sectionIndices": [
-                0
+                0,
+                1
               ]
             },
             {
-              "title": "疑問文と否定文の組み合わせ",
+              "title": "多様な否定表現 (plus / jamais / rien / personne / que)",
+              "referenceTopicId": "ref_negation",
+              "sectionIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "title": "疑問文と多様な否定文の組み合わせ",
               "type": "custom",
-              "text": "否定表現 (ne ... pas) の中に疑問詞を組み合わせて「なぜ〜ではないのか？」などを尋ねます。\n例：Pourquoi mon flan n'est pas dans le frigo ?\n(なぜ私のプリンは冷蔵庫にないのですか？)"
+              "text": "否定表現 (ne ... pas / plus / rien / jamais 等) の中に疑問詞を組み合わせて「なぜ〜ないのか？」「なぜもう〜ないのか？」などを尋ねます。\n\n・例1：Pourquoi mon flan n'est pas dans le frigo ?\n(なぜ私のプリンは冷蔵庫にないのですか？)\n・例2：Pourquoi il n'y a plus de flan ?\n(なぜもうプリンがないのですか？)\n・例3：Pourquoi tu ne manges rien ?\n(なぜ何も食べないのですか？)"
             }
           ]
         },
