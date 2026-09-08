@@ -467,12 +467,12 @@
 ###### 所有形容詞 完全一覧表
 | 所有者 | 男性単数名詞の前 | 女性単数名詞の前 | 母音・無声h始動の女性名詞前 | 男女複数名詞の前 |
 | --- | --- | --- | --- | --- |
-| 私 (je) | mon (モン) | ma (マ) | mon (モン) ※例外 | mes (メ) |
-| あなた (tu) | ton (トン) | ta (タ) | ton (トン) ※例外 | tes (テ) |
-| 彼 / 彼女 (il/elle) | son (ソン) | sa (サ) | son (ソン) ※例外 | ses (セ) |
-| 私たち (nous) | notre (ノートル) | notre (ノートル) | notre (ノートル) | nos (ノー) |
-| あなたたち / 敬称 (vous) | votre (ヴォートル) | votre (ヴォートル) | votre (ヴォートル) | vos (ヴォ) |
-| 彼ら / 彼女ら (ils/elles) | leur (ルール) | leur (ルール) | leur (ルール) | leurs (ルール) |
+| 私 (je) | mon  | ma  | mon  ※例外 | mes  |
+| あなた (tu) | ton  | ta  | ton  ※例外 | tes  |
+| 彼 / 彼女 (il/elle) | son  | sa  | son  ※例外 | ses  |
+| 私たち (nous) | notre  | notre  | notre  | nos  |
+| あなたたち / 敬称 (vous) | votre  | votre  | votre  | vos  |
+| 彼ら / 彼女ら (ils/elles) | leur  | leur  | leur  | leurs  |
 
 
 ---
@@ -1070,8 +1070,8 @@ Apportez-la-lui. | それを私にください。
 ###### 1. 基本ルール (例: petit = 小さい)
 | 性 | 単数 | 複数 |
 | --- | --- | --- |
-| 男性名詞 | petit (プティ) | petits (プティ) [+s] |
-| 女性名詞 | petite (プティトゥ) [+e] | petites (プティトゥ) [+es] |
+| 男性名詞 | petit  | petits  [+s] |
+| 女性名詞 | petite  [+e] | petites  [+es] |
 
 
 ---
@@ -1417,7 +1417,7 @@ Il vient de commencer. | ちょうど終わったところです。
 ###### 3. 十の位 (20〜60) と一の位の組み合わせ
 | 十の位 | 21/31等 (etが入る) | 22/32等 (ハイフンのみ) | 法則・ポイント |
 | --- | --- | --- | --- |
-| 20 : vingt (ヴァン) | 21 : vingt-et-un (ヴァン・テ・アン) | 22 : vingt-deux (ヴァン・ドゥ) | 「1」だけ et が入る |
+| 20 : vingt  | 21 : vingt-et-un (ヴァン・テ・アン) | 22 : vingt-deux (ヴァン・ドゥ) | 「1」だけ et が入る |
 | 30 : trente (トラントゥ) | 31 : trente-et-un | 35 : trente-cinq | 22以降はハイフン(-)で接続 |
 | 40 : quarante (キャラントゥ) | 41 : quarante-et-un | 48 : quarante-huit | et は 21,31,41,51,61 のみ |
 | 50 : cinquante (サンカントゥ) | 51 : cinquante-et-un | 56 : cinquante-six | x 22-et-deux のような組み合わせは不可 |
@@ -1744,12 +1744,12 @@ Il vient de commencer. | ちょうど終わったところです。
 ###### 所有形容詞 完全一覧表
 | 所有者 | 男性単数名詞の前 | 女性単数名詞の前 | 母音・無声h始動の女性名詞前 | 男女複数名詞の前 |
 | --- | --- | --- | --- | --- |
-| 私 (je) | mon (モン) | ma (マ) | mon (モン) ※例外 | mes (メ) |
-| あなた (tu) | ton (トン) | ta (タ) | ton (トン) ※例外 | tes (テ) |
-| 彼 / 彼女 (il/elle) | son (ソン) | sa (サ) | son (ソン) ※例外 | ses (セ) |
-| 私たち (nous) | notre (ノートル) | notre (ノートル) | notre (ノートル) | nos (ノー) |
-| あなたたち / 敬称 (vous) | votre (ヴォートル) | votre (ヴォートル) | votre (ヴォートル) | vos (ヴォ) |
-| 彼ら / 彼女ら (ils/elles) | leur (ルール) | leur (ルール) | leur (ルール) | leurs (ルール) |
+| 私 (je) | mon  | ma  | mon  ※例外 | mes  |
+| あなた (tu) | ton  | ta  | ton  ※例外 | tes  |
+| 彼 / 彼女 (il/elle) | son  | sa  | son  ※例外 | ses  |
+| 私たち (nous) | notre  | notre  | notre  | nos  |
+| あなたたち / 敬称 (vous) | votre  | votre  | votre  | vos  |
+| 彼ら / 彼女ら (ils/elles) | leur  | leur  | leur  | leurs  |
 
 
 ##### 📄 ページ 2: 指示形容詞
@@ -1843,8 +1843,8 @@ Il vient de commencer. | ちょうど終わったところです。
 ###### 1. 基本ルール (例: petit = 小さい)
 | 性 | 単数 | 複数 |
 | --- | --- | --- |
-| 男性名詞 | petit (プティ) | petits (プティ) [+s] |
-| 女性名詞 | petite (プティトゥ) [+e] | petites (プティトゥ) [+es] |
+| 男性名詞 | petit  | petits  [+s] |
+| 女性名詞 | petite  [+e] | petites  [+es] |
 
 
 ##### 📄 ページ 2: 形容詞の配置ルール
@@ -2005,10 +2005,10 @@ poli (丁寧な) ➔ poliment (丁寧に) | Travaillez rapidement !
 ###### 1. 基本構造 (C'est / Ce sont)
 | 形式 | 対応する名詞 | 例文 | 和訳 |
 | --- | --- | --- | --- |
-| C'est (セ) | 単数名詞 / 形容詞 | C'est un four.
+| C'est  | 単数名詞 / 形容詞 | C'est un four.
 C'est prêt ! | これはオーブンです。
 準備完了です！ |
-| Ce sont (ス ソン) | 複数名詞 | Ce sont des oignons. | これらは玉ねぎです。 |
+| Ce sont  | 複数名詞 | Ce sont des oignons. | これらは玉ねぎです。 |
 
 
 ---

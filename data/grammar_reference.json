@@ -12,43 +12,43 @@
         "title": "1. 基本の挨拶 (Salutations quotidiennes)",
         "headers": [
           "表現",
-          "発音/解説",
+          "解説",
           "意味・シチュエーション"
         ],
         "rows": [
           [
             "Bonjour",
-            "ボンジュール",
+            "日中の標準的な挨拶。最も頻繁に使われます。",
             "おはよう / こんにちは（日中の一般的な挨拶）"
           ],
           [
             "Bonsoir",
-            "ボンソワール",
+            "夕方〜夜（日が落ちてから）の挨拶。",
             "こんばんは（夕方以降の挨拶）"
           ],
           [
             "Merci",
-            "メルスィ",
+            "感謝を伝える最も基本的な表現。",
             "ありがとう（感謝を伝える表現）"
           ],
           [
             "S'il vous plaît",
-            "シル・ヴ・プレ",
+            "vousに対する丁寧な依頼表現（直訳: もしあなたがお気に召すなら）。",
             "お願いします / ください（丁寧な依頼・注文の表現）"
           ],
           [
             "Enchanté",
-            "アンシャンテ",
+            "初対面の挨拶。女性が言う場合は Enchantée と綴ります。",
             "はじめまして"
           ],
           [
             "Au revoir",
-            "オ・ルヴォワール",
+            "別れ際の標準的な表現（直訳: 再び会うまで）。",
             "さようなら / 失礼します（別れ際の挨拶）"
           ],
           [
             "À bientôt",
-            "ア・ビアント",
+            "「また近いうちに」という意味の親しい挨拶。",
             "また近いうちに！"
           ]
         ]
@@ -118,7 +118,9 @@
       {
         "type": "info",
         "title": "💡 関連単語の補足",
-        "content_ja": "* **ravi** (ラヴィ): 喜んで、非常に嬉しい（形容詞。主語が女性なら ravie と綴りますが発音は同じです）\n* **rencontrer** (ランコントレ): 出会う、会う（第一群規則動詞）\n* **rencontre** (ランコントル): 出会い（女性名詞）\n\n「Ravi(e) de + 動詞の原形」で「〜して嬉しい」という感情を表すことができます。フランス語では、形容詞の後ろに動詞を続ける場合、前置詞 de を挟むのが基本ルールです。"
+        "content_ja": "* **ravi** (ラヴィ): 喜んで、非常に嬉しい（形容詞。主語が女性なら ravie と綴りますが発音は同じです）\n* **rencontrer** (ランコントレ): 出会う、会う（第一群規則動詞）\n* **rencontre** (ランコントル): 出会い（女性名詞）\n\n「Ravi(e) de + 動詞の原形」で「〜して嬉しい」という感情を表すことができます。フランス語では、形容詞の後ろに動詞を続ける場合、前置詞 de を挟むのが基本ルールです。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -286,7 +288,9 @@
         "type": "info",
         "title": "Point cuisine : « On » (厨房のポイント)",
         "content_fr": "En cuisine, on signifie souvent nous. La brigade utilise souvent cette forme pour montrer le travail d’équipe.",
-        "content_ja": "厨房では、on はしばしば nous（私たち）を意味します。例：「On prépare la mise en place.」（私たちは仕込みをする）チーム全体の連帯感や共同作業を示すのによく使われます。"
+        "content_ja": "厨房では、on はしばしば nous（私たち）を意味します。例：「On prépare la mise en place.」（私たちは仕込みをする）チーム全体の連帯感や共同作業を示すのによく使われます。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -301,7 +305,9 @@
       {
         "type": "info",
         "title": "💡 定冠詞 (the) と 不定冠詞 (a) のイメージ使い分け",
-        "content_ja": "フランス語の冠詞は、英語の a と the の使い分けとよく似ていますが、厨房での実践例を考えるとより直感的に理解できます。\n\n1. **不定冠詞 (un, une, des) ＝「どれでも良い1つ」**\n   話し手と聞き手の中で、まだ特定されていない新しいモノを指します。\n   *例: Apportez-moi **une** casserole. (どれでもいいから鍋を1つ持ってきて)*\n   料理長は特定の鍋を指定しているのではなく、「加熱用の鍋が1個欲しい」という機能だけを求めています。\n\n2. **定冠詞 (le, la, les) ＝「話題になっているそのモノ」**\n   お互いが「どれのことか分かっている特定のもの」を指します。\n   *例: Nettoyez **la** casserole. (その鍋を洗って)*\n   この場合、洗うべき鍋は「さっき調理に使った、汚れているあの鍋」とお互いに特定できているため定冠詞になります。"
+        "content_ja": "フランス語の冠詞は、英語の a と the の使い分けとよく似ていますが、厨房での実践例を考えるとより直感的に理解できます。\n\n1. **不定冠詞 (un, une, des) ＝「どれでも良い1つ」**\n   話し手と聞き手の中で、まだ特定されていない新しいモノを指します。\n   *例: Apportez-moi **une** casserole. (どれでもいいから鍋を1つ持ってきて)*\n   料理長は特定の鍋を指定しているのではなく、「加熱用の鍋が1個欲しい」という機能だけを求めています。\n\n2. **定冠詞 (le, la, les) ＝「話題になっているそのモノ」**\n   お互いが「どれのことか分かっている特定のもの」を指します。\n   *例: Nettoyez **la** casserole. (その鍋を洗って)*\n   この場合、洗うべき鍋は「さっき調理に使った、汚れているあの鍋」とお互いに特定できているため定冠詞になります。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -315,15 +321,15 @@
         "rows": [
           [
             "男性名詞",
-            "le (ル)",
-            "l' (エル)",
-            "les (レ)"
+            "le",
+            "l'",
+            "les"
           ],
           [
             "女性名詞",
-            "la (ラ)",
-            "l' (エル)",
-            "les (レ)"
+            "la",
+            "l'",
+            "les"
           ]
         ]
       },
@@ -331,7 +337,9 @@
         "type": "info",
         "title": "定冠詞の役割とエリジオン",
         "content_ja": "【使う場面】特定のモノ（話し手と聞き手が「どれか」分かっているもの）、総称（〜というもの全般）、または唯一のものを指す時に使います。\n【エリジオン(省略)】le / la の後ろに母音や無声の h で始まる単語が来ると l' に合体します（例: l'eau [水], l'oignon [玉ねぎ]）。",
-        "content_fr": "On utilise l'article défini pour désigner une chose précise, unique ou une généralité."
+        "content_fr": "On utilise l'article défini pour désigner une chose précise, unique ou une généralité.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -344,13 +352,13 @@
         "rows": [
           [
             "男性名詞",
-            "un (アン)",
-            "des (デ)"
+            "un",
+            "des"
           ],
           [
             "女性名詞",
-            "une (ユヌ)",
-            "des (デ)"
+            "une",
+            "des"
           ]
         ]
       },
@@ -358,7 +366,9 @@
         "type": "info",
         "title": "不定冠詞の役割",
         "content_ja": "【使う場面】「1つの〜」「数ある中のどれか1つ」「いくつかの〜」と、数えられる不特定のもの・数え始めるものを指す時に使います。",
-        "content_fr": "On utilise l'article indéfini pour désigner un élément non précisé ou comptable."
+        "content_fr": "On utilise l'article indéfini pour désigner un élément non précisé ou comptable.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -380,7 +390,9 @@
             "fr": "Commandez des oignons pour demain.",
             "ja": "明日用に玉ねぎ（いくつか）を発注してください。[複数不定冠詞]"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -396,19 +408,25 @@
         "type": "info",
         "title": "名詞の性（男性・女性）の基本概念",
         "content_fr": "En français, tous les noms ont un genre grammatical : masculin (ex: le couteau) ou féminin (ex: la cuillère). Il n'y a pas de genre neutre.",
-        "content_ja": "フランス語のすべての名詞には男性・女性という文法上の「性」が存在します。英語にあるような「中性名詞」はありません。\n人間や動物などの生物だけでなく、無生物（調理器具、食材、概念など）にもすべての単語にどちらかの性が割り当てられています。\n* **男性名詞 (Masculin) の例:** `le couteau` (包丁), `le fromage` (チーズ), `le four` (オーブン)\n* **女性名詞 (Féminin) の例:** `la cuillère` (スプーン), `la crème` (クリーム), `la poêle` (フライパン)"
+        "content_ja": "フランス語のすべての名詞には男性・女性という文法上の「性」が存在します。英語にあるような「中性名詞」はありません。\n人間や動物などの生物だけでなく、無生物（調理器具、食材、概念など）にもすべての単語にどちらかの性が割り当てられています。\n* **男性名詞 (Masculin) の例:** `le couteau` (包丁), `le fromage` (チーズ), `le four` (オーブン)\n* **女性名詞 (Féminin) の例:** `la cuillère` (スプーン), `la crème` (クリーム), `la poêle` (フライパン)",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "info",
         "title": "性の影響：冠詞と形容詞の一致",
         "content_fr": "Le genre du nom détermine la forme des articles (un/une, le/la) et l'accord des adjectifs (ex: un couteau chaud / une assiette chaude).",
-        "content_ja": "名詞の性は、その名詞に付く冠詞や、名詞を修飾する形容詞の形に影響を与えます。\n* 男性名詞には男性用の冠詞（`un` / `le` / `du`）を使い、形容詞も男性形になります。\n* 女性名詞には女性用の冠詞（`une` / `la` / `de la`）を使い、形容詞も女性形になります。\n* **一致の例:**\n  * `un couteau chaud` (温かい包丁 - 男性・単数)\n  * `une assiette chaude` (温かい皿 - 女性・単数)"
+        "content_ja": "名詞の性は、その名詞に付く冠詞や、名詞を修飾する形容詞の形に影響を与えます。\n* 男性名詞には男性用の冠詞（`un` / `le` / `du`）を使い、形容詞も男性形になります。\n* 女性名詞には女性用の冠詞（`une` / `la` / `de la`）を使い、形容詞も女性形になります。\n* **一致の例:**\n  * `un couteau chaud` (温かい包丁 - 男性・単数)\n  * `une assiette chaude` (温かい皿 - 女性・単数)",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "info",
         "title": "💡 コラム：名詞の性には「クセ」がある！",
         "content_fr": "Le genre des noms n'est pas complètement aléatoire. La terminaison, la catégorie sémantique et l'étymologie sont de bons indicateurs.",
-        "content_ja": "フランス語の名詞の性は完全なランダムではありません。**語尾・意味のカテゴリー・語源**を見ることで、初めて見る単語でも性をかなり予測できます。"
+        "content_ja": "フランス語の名詞の性は完全なランダムではありません。**語尾・意味のカテゴリー・語源**を見ることで、初めて見る単語でも性をかなり予測できます。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -427,7 +445,7 @@
           [
             "果樹と果実",
             "木＝男性\n果実＝女性",
-            "果樹を表す語（-ier）は男性：le pommier（リンゴの木）, le poirier（洋梨の木）, le cerisier（サクランボの木）, le pêcher（桃の木）。\n果実そのものは女性：la pomme（リンゴ）, la poire（洋梨）, la cerise（サクランボ）, la pêche（桃）。"
+            "果樹を表す語（-ier）は男性：le pommier（リンゴの木）, le poirier（洋梨の木）, le cerisier（サクランボの木）, le pêcher（桃の木）。\n果実そのものは女性：la pomme, la poire（洋梨）, la cerise, la pêche（桃）。"
           ],
           [
             "スポーツ",
@@ -447,7 +465,7 @@
         "headers": [
           "主な語尾",
           "例",
-          "発音"
+          "解説"
         ],
         "rows": [
           [
@@ -477,12 +495,12 @@
           ],
           [
             "-ette",
-            "la baguette (バゲット)",
+            "la baguette",
             ""
           ],
           [
             "-ette",
-            "la fourchette (フォーク)",
+            "la fourchette",
             ""
           ],
           [
@@ -518,12 +536,12 @@
         "headers": [
           "主な語尾",
           "例",
-          "発音"
+          "解説"
         ],
         "rows": [
           [
             "-age",
-            "le fromage (チーズ)",
+            "le fromage",
             ""
           ],
           [
@@ -553,12 +571,12 @@
           ],
           [
             "-eau",
-            "le gâteau (ケーキ)",
+            "le gâteau",
             ""
           ],
           [
             "-eau",
-            "le couteau (ナイフ)",
+            "le couteau",
             ""
           ],
           [
@@ -593,7 +611,7 @@
             "語尾が -eau, -au, -eu の名詞（語尾に -x）",
             "末尾に -s ではなく -x を付加します。",
             "le couteau\nle gâteau\nle feu",
-            "les couteaux (包丁)\nles gâteaux (ケーキ)\nles feux (火)"
+            "les couteaux (包丁)\nles gâteaux\nles feux (火)"
           ],
           [
             "語尾が -s, -x, -z の名詞（変化なし）",
@@ -625,7 +643,7 @@
         "headers": [
           "性・条件",
           "フランス語",
-          "発音",
+          "解説",
           "例 (単語)"
         ],
         "rows": [
@@ -633,7 +651,7 @@
             "男性単数名詞",
             "du",
             "デュ",
-            "du beurre (バター), du poisson (魚肉)"
+            "du beurre, du poisson (魚肉)"
           ],
           [
             "女性単数名詞",
@@ -653,7 +671,9 @@
         "type": "info",
         "title": "部分冠詞の使い方とルール",
         "content_ja": "【基本原則】「1個、2個」と数えられない質量・液体・粉末・食材全般に対して、「いくらかの量」という意味でつけます。\n【定冠詞との違い】\n・J'aime le fromage. (私はチーズというものが好きだ [総称・定冠詞])\n・Je mange du fromage. (私はチーズをいくらか食べている [実量・部分冠詞])\n【否定文での変化】否定文になると部分冠詞(du, de la, de l')はすべて de (d') に変化します。(例: Je ne mets pas de sel. [塩は入れません])",
-        "content_fr": "L'article partitif s'emploie devant des noms massifs ou non comptables pour indiquer une quantité indéterminée."
+        "content_fr": "L'article partitif s'emploie devant des noms massifs ou non comptables pour indiquer une quantité indéterminée.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -675,7 +695,9 @@
             "fr": "Il n'y a plus de sucre dans la réserve.",
             "ja": "在庫の中に砂糖はもうありません。[否定によるde変化]"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -700,45 +722,45 @@
         "rows": [
           [
             "私 (je)",
-            "mon (モン)",
-            "ma (マ)",
-            "mon (モン) ※例外",
-            "mes (メ)"
+            "mon",
+            "ma",
+            "mon ※例外",
+            "mes"
           ],
           [
             "あなた (tu)",
-            "ton (トン)",
-            "ta (タ)",
-            "ton (トン) ※例外",
-            "tes (テ)"
+            "ton",
+            "ta",
+            "ton ※例外",
+            "tes"
           ],
           [
             "彼 / 彼女 (il/elle)",
-            "son (ソン)",
-            "sa (サ)",
-            "son (ソン) ※例外",
-            "ses (セ)"
+            "son",
+            "sa",
+            "son ※例外",
+            "ses"
           ],
           [
             "私たち (nous)",
-            "notre (ノートル)",
-            "notre (ノートル)",
-            "notre (ノートル)",
-            "nos (ノー)"
+            "notre",
+            "notre",
+            "notre",
+            "nos"
           ],
           [
             "あなたたち / 敬称 (vous)",
-            "votre (ヴォートル)",
-            "votre (ヴォートル)",
-            "votre (ヴォートル)",
-            "vos (ヴォ)"
+            "votre",
+            "votre",
+            "votre",
+            "vos"
           ],
           [
             "彼ら / 彼女ら (ils/elles)",
-            "leur (ルール)",
-            "leur (ルール)",
-            "leur (ルール)",
-            "leurs (ルール)"
+            "leur",
+            "leur",
+            "leur",
+            "leurs"
           ]
         ]
       },
@@ -746,7 +768,9 @@
         "type": "info",
         "title": "間違えやすい注意点",
         "content_ja": "【所有者の性別ではなく、後ろの「モノ」の性で決まる！】\nフランス語では、所有者が男性か女性かに関わらず、修飾される名詞の性・数で形容詞が決まります。\n例: 彼のエプロン → mon tablier / 彼の厨房 → sa cuisine (cuisineが女性名詞のため sa)\n【母音前の例外ルール】\n女性名詞であっても母音で始まる場合、ma / ta / sa ではなく mon / ton / son を使います。(例: mon assiette [私の皿])",
-        "content_fr": "L'adjectif possessif s'accorde en genre et en nombre avec le nom qu'il détermine, et non avec le possesseur."
+        "content_fr": "L'adjectif possessif s'accorde en genre et en nombre avec le nom qu'il détermine, et non avec le possesseur.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -768,7 +792,9 @@
             "fr": "Nos clients sont très satisfaits de nos plats.",
             "ja": "私のお客様方は私たちの料理に非常に満足しています。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -786,7 +812,7 @@
         "headers": [
           "対象名詞の条件",
           "フランス語",
-          "発音",
+          "解説",
           "例 (名詞)",
           "意味"
         ],
@@ -824,8 +850,10 @@
       {
         "type": "info",
         "title": "使い方のポイントと「-ci / -là」の強調語尾",
-        "content_ja": "【男性単数 cet の存在理由】\n「ce oignon」だと「ス・オニオン」となり母音が連続して話しにくいため、「cet oignon (セットニオン)」とリエゾンさせて滑らかに発音するために cet が存在します。\n【「この」と「あの」を明確に区別したい場合】\n名詞の後ろに -ci (これ/近いもの) や -là (あれ/遠いもの) を付けます。\n・ce plat-ci (こちらの料理)\n・ce plat-là (あちらの料理)",
-        "content_fr": "On utilise « cet » devant un nom masculin commençant par une voyelle ou un h muet."
+        "content_ja": "【男性単数 cet の存在理由】\n「ce oignon」だと「ス・オニオン」となり母音が連続して話しにくいため、「cet oignon 」とリエゾンさせて滑らかに発音するために cet が存在します。\n【「この」と「あの」を明確に区別したい場合】\n名詞の後ろに -ci (これ/近いもの) や -là (あれ/遠いもの) を付けます。\n・ce plat-ci (こちらの料理)\n・ce plat-là (あちらの料理)",
+        "content_fr": "On utilise « cet » devant un nom masculin commençant par une voyelle ou un h muet.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -847,7 +875,9 @@
             "fr": "Rangez ces assiettes dans l'étagère.",
             "ja": "これらの皿を棚にしまってください。 (assiettes: 複数)"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -870,13 +900,13 @@
         "rows": [
           [
             "男性名詞",
-            "petit (プティ)",
-            "petits (プティ) [+s]"
+            "petit",
+            "petits [+s]"
           ],
           [
             "女性名詞",
-            "petite (プティトゥ) [+e]",
-            "petites (プティトゥ) [+es]"
+            "petite [+e]",
+            "petites [+es]"
           ]
         ]
       },
@@ -953,7 +983,9 @@
         "type": "info",
         "title": "一致の重要ルール",
         "content_ja": "【基本形】\n・女性形：男性単数形に -e をつける。\n・複数形：単数形に -s をつける。\n【語尾がすでに -e の場合】男性単数が -e で終わる形容詞 (例: rouge [赤], propre [清潔な]) は女性形になっても同形です (rouge, propre)。\n【語尾が -s または -x の場合】男性単数が -s/-x で終わる形容詞 (例: frais) は、男性複数になっても -s を重ねず同形です。",
-        "content_fr": "En règle générale, on ajoute un -e au féminin et un -s au pluriel."
+        "content_fr": "En règle générale, on ajoute un -e au féminin et un -s au pluriel.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -964,31 +996,31 @@
           "女性単数",
           "男性複数",
           "女性複数",
-          "発音と変化のポイント"
+          "変化のポイント"
         ],
         "rows": [
           [
             "フランスの / フランス人",
-            "français (フランセ)",
-            "française (フランセーズ)",
-            "français (フランセ)",
-            "françaises (フランセーズ)",
+            "français",
+            "française",
+            "français",
+            "françaises",
             "女性形になると末尾の s が濁って「ズ」と発音されます。男性複数は単数と同形です。"
           ],
           [
             "日本の / 日本人",
-            "japonais (ジャポネ)",
-            "japonaise (ジャポネーズ)",
-            "japonais (ジャポネ)",
-            "japonaises (ジャポネーズ)",
+            "japonais",
+            "japonaise",
+            "japonais",
+            "japonaises",
             "フランス語と同様に、女性形になると末尾の s を発音します（ジャポネーズ）。"
           ],
           [
             "イタリアの / イタリア人",
-            "italien (イタリヤン)",
-            "italienne (イタリエンヌ)",
-            "italiens (イタリヤン)",
-            "italiennes (イタリエンヌ)",
+            "italien",
+            "italienne",
+            "italiens",
+            "italiennes",
             "語尾が -ien で終わるものは、女性形で n を重ねて e をつけます (-ienne)。"
           ]
         ]
@@ -996,7 +1028,9 @@
       {
         "type": "info",
         "title": "💡 国籍形容詞の大文字・小文字ルール",
-        "content_ja": "国籍を表す単語は、**形容詞**として使う場合と**名詞（〜人）**として使う場合で、語頭を大文字にするか小文字にするかのルールが異なります。これは記述問題で非常によく狙われます。\n\n* **形容詞として使う場合 (小文字で開始):**\n  名詞の後ろに置いて「〜国製の、〜国の」と修飾します。\n  *例: le vin français (フランスのワイン)*\n  *例: la cuisine japonaise (日本料理)*\n\n* **名詞（〜人）として使う場合 (大文字で開始):**\n  主語に対する国籍の紹介などで使います。\n  *例: Ils sont Japonais. (彼らは日本人です)*\n  *例: Elle est Française. (彼女はフランス人女性です)*"
+        "content_ja": "国籍を表す単語は、**形容詞**として使う場合と**名詞（〜人）**として使う場合で、語頭を大文字にするか小文字にするかのルールが異なります。これは記述問題で非常によく狙われます。\n\n* **形容詞として使う場合 (小文字で開始):**\n  名詞の後ろに置いて「〜国製の、〜国の」と修飾します。\n  *例: le vin français (フランスのワイン)*\n  *例: la cuisine japonaise (日本料理)*\n\n* **名詞（〜人）として使う場合 (大文字で開始):**\n  主語に対する国籍の紹介などで使います。\n  *例: Ils sont Japonais. (彼らは日本人です)*\n  *例: Elle est Française. (彼女はフランス人女性です)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -1014,6 +1048,132 @@
             "fr": "Des légumes frais et des viandes fraîches.",
             "ja": "新鮮な野菜（男性複数）と新鮮な肉（女性複数）。"
           }
+        ],
+        "headers": [],
+        "rows": []
+      }
+    ]
+  },
+  {
+    "id": "ref_comparative_superlative",
+    "title_fr": "Le comparatif et le superlatif",
+    "title_en": "Comparatives and Superlatives",
+    "title_ja": "比較級と最上級",
+    "definition_fr": "Exprimez la supériorité, l'égalité ou l'infériorité entre deux ou plusieurs éléments avec les adjectifs, adverbes, noms et verbes.",
+    "definition_ja": "2つ以上の対象の性質、状態、数量、動作の程度を比較して「〜より…だ」「最も…だ」と表現する文法です。形容詞・副詞・名詞・動詞の比較構造、修飾する名詞との性数一致、および不規則変化（meilleur, mieux, pire など）を学びましょう。",
+    "sections": [
+      {
+        "type": "table",
+        "title": "1. 形容詞・副詞の比較級 (Le comparatif des adjectifs)",
+        "headers": [
+          "比較の種類",
+          "基本構造",
+          "例文 (フランス語)",
+          "日本語訳と解説"
+        ],
+        "rows": [
+          [
+            "優等比較 (より〜だ)",
+            "plus + 形容詞/副詞 + que ...",
+            "Ce couteau est plus tranchant que l'autre.\nCette sauce est plus salée que celle d'hier.",
+            "「〜よりも…だ」。形容詞は修飾する主語・名詞の性数に合わせて一致させます（salée = 女性単数）。"
+          ],
+          [
+            "同等比較 (同じくらい〜だ)",
+            "aussi + 形容詞/副詞 + que ...",
+            "Le four A est aussi chaud que le four B.\nJeanne est aussi courageuse que les chevaliers.",
+            "「〜と同じくらい…だ」。形容詞の場合は aussi を用います（※名詞の数量の場合は autant de を用いるので注意）。"
+          ],
+          [
+            "劣等比較 (〜ほど…でない)",
+            "moins + 形容詞/副詞 + que ...",
+            "Cette préparation est moins grasse que la recette originale.",
+            "「〜よりも…でない / 〜ほど…ではない」。形容詞は主語に合わせて性数一致します。"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "2. 最上級の構造 (Le superlatif)",
+        "headers": [
+          "最上級の種類",
+          "基本構造",
+          "例文 (フランス語)",
+          "日本語訳と解説"
+        ],
+        "rows": [
+          [
+            "優等最上級 (最も〜)",
+            "le / la / les plus + 形容詞 (+ de ...)",
+            "C'est le plus grand gâteau du monde.\nC'est la décision la plus sage de l'équipe.\nCe sont les plus beaux plats.",
+            "「（〜の中で）最も…だ」。定冠詞（le, la, les）は名詞の性数に一致します。名詞の後ろに形容詞を置く場合、定冠詞を名詞と形容詞の前で2回繰り返します（la décision la plus sage）。"
+          ],
+          [
+            "劣等最上級 (最も〜でない)",
+            "le / la / les moins + 形容詞 (+ de ...)",
+            "Voici la moins chère bouteille de vin de notre cave.\nC'est le plat le moins calorique de la carte.",
+            "「（〜の中で）最も…でない / 一番控えめな」。性数に応じて定冠詞（le/la/les）を選択します。"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "3. 特殊な不規則比較級・最上級 (Formes irrégulières)",
+        "headers": [
+          "原形 (品詞・意味)",
+          "比較級 (〜より...)",
+          "最上級 (最も...)",
+          "解説と注意点"
+        ],
+        "rows": [
+          [
+            "bon / bonne / bons / bonnes\n(形容詞: 良い・美味しい)",
+            "meilleur / meilleure / meilleurs / meilleures\n(※ plus bon は不可)",
+            "le / la / les meilleur(e)(s)\n(※ le plus bon は不可)",
+            "bon の優等比較級・最上級は完全不規則変化します。修飾する名詞の性数に合わせて meilleur(e)(s) と性数一致させます。"
+          ],
+          [
+            "bien\n(副詞: よく・上手に)",
+            "mieux\n(※ plus bien は不可)",
+            "le mieux\n(不変)",
+            "動詞を修飾する副詞 bien の比較級は mieux、最上級は常に le mieux（無変化）となります。"
+          ],
+          [
+            "mauvais / mauvaise / mauvais / mauvaises\n(形容詞: 悪い)",
+            "pire / pires\n(または plus mauvais)",
+            "le / la / les pire(s)\n(または le plus mauvais)",
+            "「より悪い / 最悪の」。抽象的な悪さや深刻度には pire / le pire が頻繁に用いられます。"
+          ],
+          [
+            "petit / petite\n(形容詞: 小さい・少ない)",
+            "moindre / moindres\n(または plus petit)",
+            "le / la / les moindre(s)\n(または le plus petit)",
+            "物理的なサイズには plus petit を用い、重要度・程度・重要性などの抽象概念には moindre を用います。"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "4. 数量（名詞）および動詞の比較 (Comparatif des quantités et verbes)",
+        "headers": [
+          "対象",
+          "構造",
+          "例文 (フランス語)",
+          "日本語訳と解説"
+        ],
+        "rows": [
+          [
+            "数量・名詞の比較",
+            "plus de + 名詞 + que ...\nautant de + 名詞 + que ...\nmoins de + 名詞 + que ...",
+            "Nous avons autant de commandes que d'habitude.\nIl a ajouté plus de beurre que nécessaire.",
+            "名詞の数量を比較する場合、de（子音前）/ d'（母音前）を挟みます。同等比較は aussi ではなく autant de を用いる点に注意してください。"
+          ],
+          [
+            "動詞（動作）の比較",
+            "動詞 + plus que ...\n動詞 + autant que ...\n動詞 + moins que ...",
+            "Le chef travaille plus que les autres.\nIl mange autant que son frère.",
+            "動作の程度を比較する場合、動詞の直後に plus / autant / moins を置きます。"
+          ]
         ]
       }
     ]
@@ -1029,7 +1189,9 @@
       {
         "type": "info",
         "title": "💡 フランス語動詞の『3つのグループ』と攻略のコツ",
-        "content_ja": "フランス語の動詞は何千とありますが、すべて以下の3つのどれかに分類され、ルールが分かれば攻略は難しくありません。\n\n*   **第1群規則動詞 (-er動詞) ＝ 全動詞の約90%！**\n    原形が `-er` で終わる動詞です。活用（語尾変化）のルールが完全に一定であるため、最初の1つ（例: `couper` や `préparer`）を覚えれば、残り数千個の動詞もすべて同じように活用させることができます。初学者はまずここを完璧にするのが最短ルートです。\n*   **第2群規則動詞 (-ir動詞) ＝ 規則変化のもう1つのグループ**\n    原形が `-ir` で終わり、複数形で `-iss-` という音が入る規則動詞（例: `finir` [仕上げる] など）です。これも完全にルール通りに変化します。\n*   **第3群不規則動詞 ＝ 最重要の例外メンバー**\n    `être`, `avoir`, `aller`, `faire` など、日常会話や助動詞として超多用される動詞がここに含まれます。これらはルールから外れて変化するため個別に暗記する必要がありますが、数としてはごく一部です。"
+        "content_ja": "フランス語の動詞は何千とありますが、すべて以下の3つのどれかに分類され、ルールが分かれば攻略は難しくありません。\n\n*   **第1群規則動詞 (-er動詞) ＝ 全動詞の約90%！**\n    原形が `-er` で終わる動詞です。活用（語尾変化）のルールが完全に一定であるため、最初の1つ（例: `couper` や `préparer`）を覚えれば、残り数千個の動詞もすべて同じように活用させることができます。初学者はまずここを完璧にするのが最短ルートです。\n*   **第2群規則動詞 (-ir動詞) ＝ 規則変化のもう1つのグループ**\n    原形が `-ir` で終わり、複数形で `-iss-` という音が入る規則動詞（例: `finir` [仕上げる] など）です。これも完全にルール通りに変化します。\n*   **第3群不規則動詞 ＝ 最重要の例外メンバー**\n    `être`, `avoir`, `aller`, `faire` など、日常会話や助動詞として超多用される動詞がここに含まれます。これらはルールから外れて変化するため個別に暗記する必要がありますが、数としてはごく一部です。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -1102,7 +1264,9 @@
         "type": "info",
         "title": "À retenir (重要)",
         "content_fr": "Les verbes du 3e groupe sont moins réguliers, mais ils sont très fréquents.",
-        "content_ja": "第3群動詞は規則性が低いですが、日常的・業務的に多用されるため、特に「être」「avoir」「faire」「aller」「mettre」は最優先で暗記してください。"
+        "content_ja": "第3群動詞は規則性が低いですが、日常的・業務的に多用されるため、特に「être」「avoir」「faire」「aller」「mettre」は最優先で暗記してください。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -1234,13 +1398,17 @@
             "fr": "Le chef goûte le plat.",
             "ja": "シェフは料理を味見する。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       },
       {
         "type": "info",
         "title": "Point cuisine (現場の視点)",
         "content_fr": "Dans les recettes, le présent est souvent utilisé pour expliquer les étapes.",
-        "content_ja": "レシピの手順説明では、現在形がよく使われます。例：「On ajoute le beurre et on mélange.」（バターを加えて混ぜる）"
+        "content_ja": "レシピの手順説明では、現在形がよく使われます。例：「On ajoute le beurre et on mélange.」（バターを加えて混ぜる）",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -1258,44 +1426,44 @@
         "headers": [
           "人称",
           "活用",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "je",
             "fai<b>s</b>",
-            "フェ",
+            "-",
             "Je fais la mise en place."
           ],
           [
             "tu",
             "fai<b>s</b>",
-            "フェ",
+            "-",
             "Tu fais la sauce."
           ],
           [
             "il / elle / on",
             "fai<b>t</b>",
-            "フェ",
+            "-",
             "Il fait chaud en cuisine."
           ],
           [
             "nous",
             "fais<b>ons</b>",
-            "フェゾン",
+            "-",
             "Nous faisons la pâte."
           ],
           [
             "vous",
             "fai<b>tes</b>",
-            "フェットゥ",
+            "-",
             "Vous faites attention."
           ],
           [
             "ils / elles",
             "f<b>ont</b>",
-            "フォン",
+            "-",
             "Ils font le service."
           ]
         ]
@@ -1306,44 +1474,44 @@
         "headers": [
           "人称",
           "活用",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "je",
             "vai<b>s</b>",
-            "ヴェ",
+            "-",
             "Je vais au marché."
           ],
           [
             "tu",
             "va<b>s</b>",
-            "ヴァ",
+            "-",
             "Tu vas bien ?"
           ],
           [
             "il / elle / on",
             "va",
-            "ヴァ",
+            "-",
             "Le chef va arriver."
           ],
           [
             "nous",
             "all<b>ons</b>",
-            "アロン",
+            "-",
             "Nous allons commencer."
           ],
           [
             "vous",
             "all<b>ez</b>",
-            "アレ",
+            "-",
             "Vous allez cuire le poisson."
           ],
           [
             "ils / elles",
             "v<b>ont</b>",
-            "ヴォン",
+            "-",
             "Ils vont servir le dessert."
           ]
         ]
@@ -1354,44 +1522,44 @@
         "headers": [
           "人称",
           "活用",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "je",
             "vien<b>s</b>",
-            "ヴィアン",
+            "-",
             "Je viens de terminer."
           ],
           [
             "tu",
             "vien<b>s</b>",
-            "ヴィアン",
+            "-",
             "Tu viens d'où ?"
           ],
           [
             "il / elle / on",
             "vien<b>t</b>",
-            "ヴィアン",
+            "-",
             "La commande vient d'arriver."
           ],
           [
             "nous",
             "ven<b>ons</b>",
-            "ヴノン",
+            "-",
             "Nous venons ensemble."
           ],
           [
             "vous",
             "ven<b>ez</b>",
-            "ヴネ",
+            "-",
             "Vous venez m'aider ?"
           ],
           [
             "ils / elles",
             "vienn<b>ent</b>",
-            "ヴィエンヌ",
+            "-",
             "Ils viennent de livrer la viande."
           ]
         ]
@@ -1402,44 +1570,44 @@
         "headers": [
           "人称",
           "活用",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "je",
             "prend<b>s</b>",
-            "プラン",
+            "-",
             "Je prends cette poêle."
           ],
           [
             "tu",
             "prend<b>s</b>",
-            "プラン",
+            "-",
             "Tu prends du café ?"
           ],
           [
             "il / elle / on",
             "prend",
-            "プラン",
+            "-",
             "Il prend la commande."
           ],
           [
             "nous",
             "pren<b>ons</b>",
-            "プノン",
+            "-",
             "Nous prenons une pause."
           ],
           [
             "vous",
             "pren<b>ez</b>",
-            "プネ",
+            "-",
             "Vous prenez quel couteau ?"
           ],
           [
             "ils / elles",
             "prenn<b>ent</b>",
-            "プレンヌ",
+            "-",
             "Ils prennent la suite."
           ]
         ]
@@ -1448,7 +1616,9 @@
         "type": "info",
         "title": "調理現場での使い方のポイント",
         "content_ja": "【Faire】「料理を作る(faire la cuisine)」「生地を作る(faire la pâte)」「掃除をする(faire le ménage)」など超多用途動詞です。\n【Aller + 動詞原形】近接未来「〜するつもりだ、これから〜する」を作ります。\n【Venir + de + 動詞原形】近接過去「たった今〜したばかりだ」を作ります。(例: Je viens de sortir la tarte du four. [タルトをオーブンから出したばかりです])\n【Preprendreの派生動詞】apprendre(学ぶ), comprendre(理解する) も prendre と全く同じ活用をします。",
-        "content_fr": "Ces quatre verbes sont indispensables au quotidien en cuisine pour exprimer les actions, le futur proche, le passé récent et les prises de commande."
+        "content_fr": "Ces quatre verbes sont indispensables au quotidien en cuisine pour exprimer les actions, le futur proche, le passé récent et les prises de commande.",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -1463,50 +1633,50 @@
         "headers": [
           "曜日",
           "フランス語",
-          "発音",
+          "解説",
           "ポイント・例文"
         ],
         "rows": [
           [
             "月曜日",
             "lundi",
-            "ランディ",
+            "-",
             "曜日はすべて小文字表記"
           ],
           [
             "火曜日",
             "mardi",
-            "マルディ",
+            "-",
             "Le mardi, je travaille. (毎週火曜日に働きます)"
           ],
           [
             "水曜日",
             "mercredi",
-            "メルクルディ",
+            "-",
             "「毎週〜曜日」は le + 曜日"
           ],
           [
             "木曜日",
             "jeudi",
-            "ジュディ",
+            "-",
             "à jeudi ! (木曜日にね！)"
           ],
           [
             "金曜日",
             "vendredi",
-            "ヴァンドルディ",
+            "-",
             "Le vendredi soir (金曜の夜)"
           ],
           [
             "土曜日",
             "samedi",
-            "サムディ",
+            "-",
             "Bon samedi ! (よい土曜日を！)"
           ],
           [
             "日曜日",
             "dimanche",
-            "ディマンシュ",
+            "-",
             "Le restaurant est fermé le dimanche. (日曜定休)"
           ]
         ]
@@ -1514,7 +1684,9 @@
       {
         "type": "info",
         "title": "💡 厨房で役立つ！時間・曜日を指定する際の前置詞",
-        "content_ja": "時間やスケジュールを文章の中で正しく伝えるためには、単語だけでなく前置詞との組み合わせが重要です。\n\n1. **時刻の指定 ＝ `à` を使う**\n   特定の時間を指す時は前置詞 `à` (〜に) を用います。\n   *例: Le service commence **à** 18 heures. (サービスは18時に始まります)*\n\n2. **曜日の指定 ＝ 前置詞は不要！**\n   「月曜日に」と言う場合、英語の on Monday のような前置詞は使わず、曜日単体、または定冠詞 `le` を付けます。\n   *例: Je travaille **lundi**. (私は月曜日に働きます)*\n   *例: Le restaurant est fermé **le lundi**. (レストランは毎週月曜日が定休日です ※le をつけると「毎週〜」になります)*\n\n3. **期間や季節の指定 ＝ `en` または `dans` を使う**\n   「3分以内に」「〜ヶ月で」など、所要時間や期間を表す前置詞です。\n   *例: Ce plat est prêt **dans** 5 minutes. (この料理は5分以内に準備できます)*"
+        "content_ja": "時間やスケジュールを文章の中で正しく伝えるためには、単語だけでなく前置詞との組み合わせが重要です。\n\n1. **時刻の指定 ＝ `à` を使う**\n   特定の時間を指す時は前置詞 `à` (〜に) を用います。\n   *例: Le service commence **à** 18 heures. (サービスは18時に始まります)*\n\n2. **曜日の指定 ＝ 前置詞は不要！**\n   「月曜日に」と言う場合、英語の on Monday のような前置詞は使わず、曜日単体、または定冠詞 `le` を付けます。\n   *例: Je travaille **lundi**. (私は月曜日に働きます)*\n   *例: Le restaurant est fermé **le lundi**. (レストランは毎週月曜日が定休日です ※le をつけると「毎週〜」になります)*\n\n3. **期間や季節の指定 ＝ `en` または `dans` を使う**\n   「3分以内に」「〜ヶ月で」など、所要時間や期間を表す前置詞です。\n   *例: Ce plat est prêt **dans** 5 minutes. (この料理は5分以内に準備できます)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "illustrations_grid",
@@ -1548,7 +1720,9 @@
             "word": "dimanche",
             "desc": "日曜日"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -1556,32 +1730,32 @@
         "headers": [
           "時間帯",
           "フランス語",
-          "発音",
+          "解説",
           "例文・表現"
         ],
         "rows": [
           [
             "朝",
             "le matin",
-            "ル・マタン",
+            "-",
             "Ce matin (今朝) / Le matin (毎朝)"
           ],
           [
             "午後",
             "l'après-midi",
-            "ラプレ・ミディ",
+            "-",
             "Cet après-midi (今日の午後)"
           ],
           [
             "夕方・夜",
             "le soir",
-            "ル・ソワール",
+            "-",
             "À ce soir ! (また今夜！)"
           ],
           [
             "夜中・深夜",
             "la nuit",
-            "ラ・ニュイ",
+            "-",
             "Pendant la nuit (夜の間に)"
           ]
         ]
@@ -1610,7 +1784,9 @@
             "word": "nuit",
             "desc": "夜中・深夜 (la nuit)"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -1618,38 +1794,38 @@
         "headers": [
           "日本語",
           "フランス語",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "一昨日",
             "avant-hier",
-            "アヴァン・ティエール",
+            "-",
             "Il est arrivé avant-hier."
           ],
           [
             "昨日",
             "hier",
-            "イエール",
+            "-",
             "Hier, j'ai préparé la soupe."
           ],
           [
             "今日",
             "aujourd'hui",
-            "オージュルデュイ",
+            "-",
             "Aujourd'hui, nous avons du poisson frais."
           ],
           [
             "明日",
             "demain",
-            "ドゥマン",
+            "-",
             "À demain ! (また明日！)"
           ],
           [
             "明後日",
             "après-demain",
-            "アプレ・ドゥマン",
+            "-",
             "Le chef arrive après-demain."
           ]
         ]
@@ -1678,7 +1854,9 @@
             "word": "après-demain",
             "desc": "明後日"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -1720,24 +1898,24 @@
         "headers": [
           "月",
           "フランス語",
-          "発音",
+          "解説",
           "月",
           "フランス語",
-          "発音"
+          "解説"
         ],
         "rows": [
           [
             "1月",
             "janvier",
-            "ジャンヴィエ",
+            "-",
             "7月",
             "juillet",
-            "ジュイエ"
+            "-"
           ],
           [
             "2月",
             "février",
-            "フェヴリエ",
+            "-",
             "8月",
             "août",
             "ウー / ウトゥ"
@@ -1745,34 +1923,34 @@
           [
             "3月",
             "mars",
-            "マルス",
+            "-",
             "9月",
             "septembre",
-            "セプタンプリュ"
+            "-"
           ],
           [
             "4月",
             "avril",
-            "アヴリル",
+            "-",
             "10月",
             "octobre",
-            "オクトーブル"
+            "-"
           ],
           [
             "5月",
             "mai",
-            "メ",
+            "-",
             "11月",
             "novembre",
-            "ノヴァンプリュ"
+            "-"
           ],
           [
             "6月",
             "juin",
-            "ジュアン",
+            "-",
             "12月",
             "décembre",
-            "デサンプリュ"
+            "-"
           ]
         ]
       },
@@ -1782,44 +1960,44 @@
         "headers": [
           "表現",
           "フランス語",
-          "発音",
+          "解説",
           "意味"
         ],
         "rows": [
           [
             "質問",
             "Quelle heure est-il ?",
-            "ケール・ウール・エティル",
+            "-",
             "何時ですか？"
           ],
           [
             "1時",
             "Il est une heure.",
-            "イレ・テュヌ・ウール",
+            "-",
             "1時です"
           ],
           [
             "2時",
             "Il est deux heures.",
-            "イレ・ドゥ・ズール",
+            "-",
             "2時です"
           ],
           [
             "15分",
             "et quart",
-            "エ・カール",
+            "-",
             "〜時15分 (例: 4h et quart)"
           ],
           [
             "30分",
             "et demie",
-            "エ・ドゥミ",
+            "-",
             "〜時半 (例: 3h et demie)"
           ],
           [
             "45分",
             "moins le quart",
-            "ムワン・ル・カール",
+            "-",
             "〜時15分前 (例: 4h moins le quart = 3:45)"
           ],
           [
@@ -1896,20 +2074,20 @@
         "headers": [
           "頻度",
           "フランス語",
-          "発音",
+          "解説",
           "例文"
         ],
         "rows": [
           [
             "いつも",
             "toujours",
-            "トゥジュール",
+            "-",
             "Je vérifie toujours la température."
           ],
           [
             "よく",
             "souvent",
-            "スヴァン",
+            "-",
             "Il vient souvent au restaurant."
           ],
           [
@@ -1921,13 +2099,13 @@
           [
             "めったに〜ない",
             "rarement",
-            "ラールマン",
+            "-",
             "On utilise rarement cette épice."
           ],
           [
             "決して〜ない",
             "jamais",
-            "ジャメ",
+            "-",
             "Ne laissez jamais le feu sans surveillance."
           ]
         ]
@@ -1987,7 +2165,9 @@
         "type": "note",
         "title": "A1最優先キーワード20選",
         "content_ja": "【最優先20語】\n1. aujourd'hui (今日) / 2. demain (明日) / 3. hier (昨日) / 4. après-demain (明後日) / 5. avant-hier (一昨日)\n6. lundi〜dimanche (7曜日)\n7. le matin (朝) / 8. l'après-midi (午後) / 9. le soir (夕方・夜) / 10. la nuit (夜中)\n11. maintenant (今) / 12. bientôt (もうすぐ) / 13. tôt (早く) / 14. tard (遅く)\n15. quelle heure est-il ? (何時ですか？) / 16. il est... (〜時です)\n17. à (〜時に) / 18. en (〜月・年に) / 19. le (〜曜日に) / 20. de... à... (〜から〜まで)\n\nこれらをマスターすれば、厨房のシフト確認、納品時間の打ち合わせ、予約受付、日常の挨拶など時間に関わる会話の90%以上をカバーできます。",
-        "content_fr": "Ces expressions temporelles sont fondamentales pour gérer les plannings, les réservations et la communication quotidienne en cuisine."
+        "content_fr": "Ces expressions temporelles sont fondamentales pour gérer les plannings, les réservations et la communication quotidienne en cuisine.",
+        "headers": [],
+        "rows": []
       }
     ],
     "title_en": "Time, Date, and Clock Expressions",
@@ -2005,19 +2185,19 @@
         "headers": [
           "数字",
           "フランス語",
-          "発音",
+          "解説",
           "数字",
           "フランス語",
-          "発音"
+          "解説"
         ],
         "rows": [
           [
             "0",
             "zéro",
-            "ゼロ",
+            "-",
             "9",
             "neuf",
-            "ヌフ"
+            "-"
           ],
           [
             "1",
@@ -2025,60 +2205,60 @@
             "アン / ユヌ",
             "10",
             "dix",
-            "ディス"
+            "-"
           ],
           [
             "2",
             "deux",
-            "ドゥ",
+            "-",
             "11",
             "onze",
-            "オンズ"
+            "-"
           ],
           [
             "3",
             "trois",
-            "トロワ",
+            "-",
             "12",
             "douze",
-            "ドゥーズ"
+            "-"
           ],
           [
             "4",
             "quatre",
-            "キャトル",
+            "-",
             "13",
             "treize",
-            "トレーズ"
+            "-"
           ],
           [
             "5",
             "cinq",
-            "サンク",
+            "-",
             "14",
             "quatorze",
-            "キャトルズ"
+            "-"
           ],
           [
             "6",
             "six",
-            "シス",
+            "-",
             "15",
             "quinze",
-            "キャンジ"
+            "-"
           ],
           [
             "7",
             "sept",
-            "セットゥ",
+            "-",
             "16",
             "seize",
-            "セーズ"
+            "-"
           ],
           [
             "8",
             "huit",
-            "ユイットゥ",
+            "-",
             "-",
             "-",
             "-"
@@ -2088,7 +2268,9 @@
       {
         "type": "info",
         "title": "💡 なぜフランス語の 70〜99 は足し算や掛け算になるのか？",
-        "content_ja": "フランス語を学び始めた誰もが驚くのが、70以上の数字の特殊な数え方です。これはかつてこの地域にいたケルト人が「20進法（20を1つのまとまりとする）」を使っていた名残です。\n\n*   **70 (soixante-dix) ＝「60 ＋ 10」**\n    60 (soixante) の後ろに10 (dix) を足して表現します。71は「60 ＋ 11 (soixante-onze)」となります。\n*   **80 (quatre-vingts) ＝「4 × 20」**\n    20 (vingt) が 4つ (quatre) ある、という掛け算で表現します。\n*   **90 (quatre-vingt-dix) ＝「4 × 20 ＋ 10」**\n    80 (quatre-vingt) の後ろにさらに 10 (dix) を足します。91は「4 × 20 ＋ 11 (quatre-vingt-onze)」となります。\n\n**【慣れるためのコツ】**\n最初は戸惑いますが、「70代は60ベースで数える」「90代は80ベースで数える」とグループで意識し、電卓のボタンや時計の文字盤をイメージして口に馴染ませるのが一番の近道です。"
+        "content_ja": "フランス語を学び始めた誰もが驚くのが、70以上の数字の特殊な数え方です。これはかつてこの地域にいたケルト人が「20進法（20を1つのまとまりとする）」を使っていた名残です。\n\n*   **70 (soixante-dix) ＝「60 ＋ 10」**\n    60 (soixante) の後ろに10 (dix) を足して表現します。71は「60 ＋ 11 (soixante-onze)」となります。\n*   **80 (quatre-vingts) ＝「4 × 20」**\n    20 (vingt) が 4つ (quatre) ある、という掛け算で表現します。\n*   **90 (quatre-vingt-dix) ＝「4 × 20 ＋ 10」**\n    80 (quatre-vingt) の後ろにさらに 10 (dix) を足します。91は「4 × 20 ＋ 11 (quatre-vingt-onze)」となります。\n\n**【慣れるためのコツ】**\n最初は戸惑いますが、「70代は60ベースで数える」「90代は80ベースで数える」とグループで意識し、電卓のボタンや時計の文字盤をイメージして口に馴染ませるのが一番の近道です。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -2096,26 +2278,26 @@
         "headers": [
           "数字",
           "フランス語",
-          "発音",
+          "解説",
           "構造"
         ],
         "rows": [
           [
             "17",
             "dix-sept",
-            "ディセットゥ",
+            "-",
             "dix (10) + sept (7)"
           ],
           [
             "18",
             "dix-huit",
-            "ディズユイットゥ",
+            "-",
             "dix (10) + huit (8) ※リエゾン"
           ],
           [
             "19",
             "dix-neuf",
-            "ディズヌフ",
+            "-",
             "dix (10) + neuf (9) ※リエゾン"
           ]
         ]
@@ -2131,31 +2313,31 @@
         ],
         "rows": [
           [
-            "20 : vingt (ヴァン)",
-            "21 : vingt-et-un (ヴァン・テ・アン)",
-            "22 : vingt-deux (ヴァン・ドゥ)",
+            "20 : vingt",
+            "21 : vingt-et-un",
+            "22 : vingt-deux",
             "「1」だけ et が入る"
           ],
           [
-            "30 : trente (トラントゥ)",
+            "30 : trente",
             "31 : trente-et-un",
             "35 : trente-cinq",
             "22以降はハイフン(-)で接続"
           ],
           [
-            "40 : quarante (キャラントゥ)",
+            "40 : quarante",
             "41 : quarante-et-un",
             "48 : quarante-huit",
             "et は 21,31,41,51,61 のみ"
           ],
           [
-            "50 : cinquante (サンカントゥ)",
+            "50 : cinquante",
             "51 : cinquante-et-un",
             "56 : cinquante-six",
             "x 22-et-deux のような組み合わせは不可"
           ],
           [
-            "60 : soixante (ソワサントゥ)",
+            "60 : soixante",
             "61 : soixante-et-un",
             "63 : soixante-trois",
             "60台までは一般的な十進法"
@@ -2170,7 +2352,7 @@
           "ベース構造",
           "例 (数字)",
           "フランス語",
-          "発音・注意点"
+          "注意点"
         ],
         "rows": [
           [
@@ -2244,28 +2426,28 @@
         "rows": [
           [
             "100",
-            "cent (サン)",
+            "cent",
             "後ろに数字が来ないと -s がつく",
             "100単独に un は不要",
             "100 = cent / 200 = deux cents / 201 = deux cent un (-s消える)"
           ],
           [
             "1,000",
-            "mille (ミル)",
+            "mille",
             "常に不変 (絶対に -s はつかない)",
             "1000単独に un は不要",
             "1,000 = mille / 2,000 = deux mille / 3,500 = trois mille cinq cents"
           ],
           [
             "1,000,000",
-            "million (ミリオン)",
+            "million",
             "名詞のため複数形で -s がつく",
             "100万には un が必要",
             "1,000,000 = un million / 2,000,000 = deux millions"
           ],
           [
             "1,000,000,000",
-            "milliard (ミリアール)",
+            "milliard",
             "名詞のため複数形で -s がつく",
             "10億には un が必要",
             "1,000,000,000 = un milliard / 3,000,000,000 = trois milliards"
@@ -2330,32 +2512,32 @@
         "rows": [
           [
             "第1の / 最初の",
-            "premier (プルミエ)",
-            "première (プルミエール)",
+            "premier",
+            "première",
             "1er / 1re"
           ],
           [
             "第2の",
-            "deuxième (ドゥジエーム)",
+            "deuxième",
             "deuxième",
             "2e"
           ],
           [
             "第3の",
-            "troisième (トロワジエーム)",
+            "troisième",
             "troisième",
             "3e"
           ],
           [
             "第4の",
-            "quatrième (キャトリエーム)",
+            "quatrième",
             "quatrième",
             "4e"
           ],
           [
             "最後の",
-            "dernier (ドルニエ)",
-            "dernière (ドルニエール)",
+            "dernier",
+            "dernière",
             "dernier"
           ]
         ]
@@ -2364,7 +2546,9 @@
         "type": "note",
         "title": "暗記のコツと厨房実用ルールまとめ",
         "content_ja": "【暗記すべきコア単語】\n0〜16 / 20 (vingt) / 30 (trente) / 40 (quarante) / 50 (cinquante) / 60 (soixante) / 100 (cent) / 1000 (mille) / 100万 (million)\n\n【重要なスペル・文法規則】\n1. et の使用: 21, 31, 41, 51, 61, 71 のみ (81, 91 は et なし)。\n2. 80 (quatre-vingts): 端数がない時だけ -s。後ろに数字が続くと s が消える (例: 81 = quatre-vingt-un)。\n3. cent の -s: 200 (deux cents) などキリの良い百には -s がつくが、後ろに数字が続くと消える (例: 201 = deux cent un)。\n4. mille: 常に不変。1000に un は付けない (mille un)。\n5. million / milliard: 文法上は普通名詞。頭に un が必要で、複数形で -s がつく (deux millions deステータス)。",
-        "content_fr": "Retenez les nombres de 0 à 16 et les dizaines. Comprenez les règles d'accord pour cent, vingt et mille."
+        "content_fr": "Retenez les nombres de 0 à 16 et les dizaines. Comprenez les règles d'accord pour cent, vingt et mille.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -2386,7 +2570,9 @@
             "fr": "C'est la première fois que je prépare ce plat.",
             "ja": "この料理を作るのは私が初めて（第1回目）です。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ],
     "title_en": "Numbers and Numerals",
@@ -2458,7 +2644,9 @@
       {
         "type": "info",
         "title": "💡 空間を表す前置詞（sur, sous, dans）のイメージ関係",
-        "content_ja": "厨房では、食材や器具の「位置」を正確に指示する必要があるため、以下の空間前置詞のイメージを頭に叩き込むのが重要です。\n\n*   **`sur` (〜の上に) ＝ 表面に接触して乗っているイメージ**\n    *例: Le poisson est **sur** la planche. (魚はまな板の上にあります)*\n*   **`sous` (〜の下に) ＝ 何かの影・下側に位置するイメージ**\n    *例: Les poubelles sont **sous** le plan de travail. (ゴミ箱は作業台の下にあります)*\n*   **`dans` (〜の中に) ＝ 3次元の箱や液体の中に包まれているイメージ**\n    *例: Les légumes sont **dans** le bol. (野菜はボウルの中に入っています)*\n*   **`devant` (前) / `derrière` (後ろ) ＝ 表裏の位置関係**\n    *例: Posez l'assiette **devant** le client. (皿をお客様の前に置いてください)*"
+        "content_ja": "厨房では、食材や器具の「位置」を正確に指示する必要があるため、以下の空間前置詞のイメージを頭に叩き込むのが重要です。\n\n*   **`sur` (〜の上に) ＝ 表面に接触して乗っているイメージ**\n    *例: Le poisson est **sur** la planche. (魚はまな板の上にあります)*\n*   **`sous` (〜の下に) ＝ 何かの影・下側に位置するイメージ**\n    *例: Les poubelles sont **sous** le plan de travail. (ゴミ箱は作業台の下にあります)*\n*   **`dans` (〜の中に) ＝ 3次元の箱や液体の中に包まれているイメージ**\n    *例: Les légumes sont **dans** le bol. (野菜はボウルの中に入っています)*\n*   **`devant` (前) / `derrière` (後ろ) ＝ 表裏の位置関係**\n    *例: Posez l'assiette **devant** le client. (皿をお客様の前に置いてください)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "illustrations_grid",
@@ -2576,7 +2764,9 @@
             "word": "jusqu'à",
             "desc": "〜にいたるまで、〜まで"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -2706,7 +2896,9 @@
         "type": "info",
         "title": "À retenir",
         "content_fr": "Les verbes être, avoir, aller, faire sont irréguliers mais indispensables.",
-        "content_ja": "これら4つの動詞は不規則ですが、複合時制の助動詞や近接未来など、すべての動詞表現の基礎になるため完璧に暗記してください。"
+        "content_ja": "これら4つの動詞は不規則ですが、複合時制の助動詞や近接未来など、すべての動詞表現の基礎になるため完璧に暗記してください。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -2721,7 +2913,9 @@
       {
         "type": "info",
         "title": "💡 過去の出来事を話す「複合過去 (Passé Composé)」の基本概念",
-        "content_ja": "フランス語の日常会話で「〜した（過去の事実）」を報告するときに最もよく使われるのが「複合過去」です。\n英語の現在完了形（have + 過去分詞）と形がそっくりですが、フランス語では「〜した」という**単なる過去の事実・動作**を表すために使います。\n\n【基本形】**[助動詞の現在形 (avoir または être)] ＋ [動詞の過去分詞 (Participe Passé)]**\n\n*   **ほとんどの動詞:** 助動詞に **`avoir`** を使います。\n*   **移動を表す一部の自動詞・代名動詞:** 助動詞に **`être`** を使います。"
+        "content_ja": "フランス語の日常会話で「〜した（過去の事実）」を報告するときに最もよく使われるのが「複合過去」です。\n英語の現在完了形（have + 過去分詞）と形がそっくりですが、フランス語では「〜した」という**単なる過去の事実・動作**を表すために使います。\n\n【基本形】**[助動詞の現在形 (avoir または être)] ＋ [動詞の過去分詞 (Participe Passé)]**\n\n*   **ほとんどの動詞:** 助動詞に **`avoir`** を使います。\n*   **移動を表す一部の自動詞・代名動詞:** 助動詞に **`être`** を使います。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -2808,7 +3002,9 @@
         "type": "info",
         "title": "Point cuisine",
         "content_fr": "La brigade est arrivée avant le service.",
-        "content_ja": "「到着する（arriver）」「調理場に入る（entrer）」など、厨房では移動を意味する動詞が頻出するため、être を用いた複合過去形を頻繁に耳にします。"
+        "content_ja": "「到着する（arriver）」「調理場に入る（entrer）」など、厨房では移動を意味する動詞が頻出するため、être を用いた複合過去形を頻繁に耳にします。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -2908,7 +3104,9 @@
         "type": "info",
         "title": "非人称動詞 « falloir » (il faut...) の使い方と厨房での重要性",
         "content_ja": "動詞 falloir は、「il faut + 不定詞 / 名詞」の形で、「〜しなければならない（義務）」「〜が必要だ（必要性）」を表す非人称動詞です（主語は常に三人称単数の il 固定で、特定の人物を指しません）。\n\n【基本表現パターン】\n① il faut + 不定詞（〜しなければならない）：\n・Il faut nettoyer le plan de travail. (作業台を掃除しなければならない。)\n・Il faut tourner la sauce doucement. (ソースをゆっくり混ぜなければならない。)\n\n② il faut + 名詞（〜が必要だ）：\n・Il faut du sel pour ce bouillon. (この出汁には塩が必要です。)\n・Il faut du temps pour cette cuisson. (この火入れには時間が必要です。)",
-        "content_fr": "Le verbe falloir s'utilise uniquement à la forme impersonnelle 'il faut'. Il exprime l'obligation (il faut + infinitif) ou le besoin (il faut + nom)."
+        "content_fr": "Le verbe falloir s'utilise uniquement à la forme impersonnelle 'il faut'. Il exprime l'obligation (il faut + infinitif) ou le besoin (il faut + nom).",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3019,7 +3217,9 @@
         "type": "info",
         "title": "Point cuisine",
         "content_fr": "Menu planning : Nous préparerons le nouveau menu demain.",
-        "content_ja": "新しいメニューを明日準備する（Futur simple）。仕込みやメニューの切り替え予定を共有する際によく使われます。"
+        "content_ja": "新しいメニューを明日準備する（Futur simple）。仕込みやメニューの切り替え予定を共有する際によく使われます。",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3060,7 +3260,9 @@
       {
         "type": "info",
         "title": "💡 不定詞（原形）と現在分詞はどういう場合に使う？",
-        "content_ja": "動詞の活用変化をしない「非定形動詞」は、文章をスマートに繋ぐために非常に便利です。\n\n1. **不定詞（原形） ＝ 動作そのものを名詞や目的語にする**\n   フランス語では、主動詞（例: *Je veux...* や *Il faut...*）の直後や、前置詞（例: *pour* や *sans*）の後に動詞を置く場合、必ず動詞の原形（不定詞）にします。\n   *例: Ce couteau est **pour couper** la viande. (この包丁は肉を**切るための**ものです)*\n\n2. **現在分詞 ＝「〜しながら（並行する動作）」を表す**\n   フランス語の現在分詞は、前置詞 `en` と組み合わせることで「ジェロンディフ（〜しながら）」という同時動作を表す副詞的な表現になります。\n   *例: Elle travaille **en écoutant** de la musique. (彼女は音楽を**聴きながら**働いています)*"
+        "content_ja": "動詞の活用変化をしない「非定形動詞」は、文章をスマートに繋ぐために非常に便利です。\n\n1. **不定詞（原形） ＝ 動作そのものを名詞や目的語にする**\n   フランス語では、主動詞（例: *Je veux...* や *Il faut...*）の直後や、前置詞（例: *pour* や *sans*）の後に動詞を置く場合、必ず動詞の原形（不定詞）にします。\n   *例: Ce couteau est **pour couper** la viande. (この包丁は肉を**切るための**ものです)*\n\n2. **現在分詞 ＝「〜しながら（並行する動作）」を表す**\n   フランス語の現在分詞は、前置詞 `en` と組み合わせることで「ジェロンディフ（〜しながら）」という同時動作を表す副詞的な表現になります。\n   *例: Elle travaille **en écoutant** de la musique. (彼女は音楽を**聴きながら**働いています)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3255,25 +3457,25 @@
         "rows": [
           [
             "男性・単数",
-            "quel (ケル)",
+            "quel",
             "sel (塩 / 男性)",
             "Quel sel tu utilises ? (どの塩を使う？)"
           ],
           [
             "女性・単数",
-            "quelle (ケル)",
+            "quelle",
             "farine (小麦粉 / 女性)",
             "Quelle farine on utilise ? (どの小麦粉を使う？)"
           ],
           [
             "男性・複数",
-            "quels (ケル)",
+            "quels",
             "légumes (野菜 / 男性複)",
             "Quels légumes tu coupes ? (どの野菜を切る？)"
           ],
           [
             "女性・複数",
-            "quelles (ケル)",
+            "quelles",
             "casseroles (鍋 / 女性複)",
             "Quelles casseroles sont prêtes ? (どの鍋が準備できていますか？)"
           ]
@@ -3283,7 +3485,9 @@
         "type": "info",
         "title": "疑問文における疑問詞の位置と理由の応答 (parce que)",
         "content_ja": "【疑問詞の位置パターン】\n疑問詞は、疑問文の形式（倒置・Est-ce que・口語）によって置かれる位置が変わります。\n1. 倒置形・Est-ce que形：疑問詞は「文頭」に置きます。\n   例: Où est-ce que tu vas ? / Où vas-tu ? (どこに行きますか？)\n2. 口語形：疑問詞は「文末」に置きます。\n   例: Tu vas où ? (どこに行くの？)\n\n【理由の応答 parce que】\nPourquoi (なぜ) で理由を聞かれた場合、回答は原則として Parce que... (〜だからです) で答えます。\n・質問：Pourquoi cuire à basse température ? (なぜ低温で調理するのですか？)\n・回答：Parce que la viande reste tendre. (肉が柔らかいまま保たれるからです。)",
-        "content_fr": "Les mots interrogatifs se placent au début de la phrase avec 'est-ce que' ou l'inversion, et à la fin en langage familier. On répond à 'pourquoi' par 'parce que'."
+        "content_fr": "Les mots interrogatifs se placent au début de la phrase avec 'est-ce que' ou l'inversion, et à la fin en langage familier. On répond à 'pourquoi' par 'parce que'.",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3301,32 +3505,32 @@
         "headers": [
           "元の形",
           "縮約形",
-          "発音",
+          "解説",
           "例文と和訳"
         ],
         "rows": [
           [
             "à + le (男性単数)",
             "au",
-            "オ",
+            "-",
             "Je vais au marché. (私は市場へ行く。)"
           ],
           [
             "à + la (女性単数)",
             "à la",
-            "ア ラ",
+            "-",
             "Je vais à la cuisine. (私は厨房へ行く。)"
           ],
           [
             "à + l' (母音・h始まり単数)",
             "à l'",
-            "ア ル",
+            "-",
             "Soupe à l'oignon. (玉ねぎのスープ。)"
           ],
           [
             "à + les (男女複数)",
             "aux",
-            "オ",
+            "-",
             "Tarte aux pommes. (りんごのタルト。)"
           ]
         ]
@@ -3334,7 +3538,9 @@
       {
         "type": "info",
         "title": "💡 縮約冠詞（au, duなど）はなぜ起こるのか？",
-        "content_ja": "フランス語では、前置詞 `à` (〜に/へ) や `de` (〜の/から) の直後に男性単数定冠詞 `le` や複数定冠詞 `les` が来ると、発音を滑らかにするために、2つの単語が合体して1つの単語（縮約冠詞）になります。\n\n*   **`à` ＋ `le` ＝ `au`** (オ)  ※ `à le` と言うのは禁止です！\n    *例: Je vais **au** marché. (私は市場へ行きます)*\n*   **`à` ＋ `les` ＝ `aux`** (オ) \n    *例: Pensez **aux** clients. (お客様たちのことを考えてください)*\n*   **`de` ＋ `le` ＝ `du`** (デュ) ※ `de le` と言うのは禁止です！\n    *例: C'est le plat **du** jour. (今日のメニュー[その日の料理]です)*\n*   **`de` ＋ `les` ＝ `des`** (デ)\n    *例: C'est la table **des** enfants. (子供たちのテーブルです)*\n\n※女性単数定冠詞 `la` や、エリジオンした `l'` の前では縮約は起こりません（例: `à la cuisine`, `de l'eau` のまま）。"
+        "content_ja": "フランス語では、前置詞 `à` (〜に/へ) や `de` (〜の/から) の直後に男性単数定冠詞 `le` や複数定冠詞 `les` が来ると、発音を滑らかにするために、2つの単語が合体して1つの単語（縮約冠詞）になります。\n\n*   **`à` ＋ `le` ＝ `au`** (オ)  ※ `à le` と言うのは禁止です！\n    *例: Je vais **au** marché. (私は市場へ行きます)*\n*   **`à` ＋ `les` ＝ `aux`** (オ) \n    *例: Pensez **aux** clients. (お客様たちのことを考えてください)*\n*   **`de` ＋ `le` ＝ `du`** (デュ) ※ `de le` と言うのは禁止です！\n    *例: C'est le plat **du** jour. (今日のメニュー[その日の料理]です)*\n*   **`de` ＋ `les` ＝ `des`** (デ)\n    *例: C'est la table **des** enfants. (子供たちのテーブルです)*\n\n※女性単数定冠詞 `la` や、エリジオンした `l'` の前では縮約は起こりません（例: `à la cuisine`, `de l'eau` のまま）。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3342,32 +3548,32 @@
         "headers": [
           "元の形",
           "縮約形",
-          "発音",
+          "解説",
           "例文と和訳"
         ],
         "rows": [
           [
             "de + le (男性単数)",
             "du",
-            "デュ",
+            "-",
             "Le couteau du chef. (シェフのナイフ。)"
           ],
           [
             "de + la (女性単数)",
             "de la",
-            "ドゥ ラ",
+            "-",
             "La sauce de la chef. (女性シェフのソース。)"
           ],
           [
             "de + l' (母音・h始まり単数)",
             "de l'",
-            "ドゥ ル",
+            "-",
             "L'eau de l'évier. (シンクの水。)"
           ],
           [
             "de + les (男女複数)",
             "des",
-            "デ",
+            "-",
             "Le choix des légumes. (野菜の選択。)"
           ]
         ]
@@ -3393,13 +3599,13 @@
         ],
         "rows": [
           [
-            "C'est (セ)",
+            "C'est",
             "単数名詞 / 形容詞",
             "C'est un four.\nC'est prêt !",
             "これはオーブンです。\n準備完了です！"
           ],
           [
-            "Ce sont (ス ソン)",
+            "Ce sont",
             "複数名詞",
             "Ce sont des oignons.",
             "これらは玉ねぎです。"
@@ -3409,7 +3615,9 @@
       {
         "type": "info",
         "title": "💡 目の前のものを紹介・特定する『C'est ...』と『Ce sont ...』",
-        "content_ja": "目の前にある料理や食材、または人を指して「これは〜です」「これらは〜です」と説明する表現です。日常会話でも接客でも毎日使う最重要フレーズです。\n\n1. **C'est ... ＝ 単数のものを指す (これは〜だ)**\n   直後に「単数名詞」を置きます。英語の This is / It is に相当します。\n   *例: **C'est** une spécialité locale. (これは地元の名物料理です)*\n\n2. **Ce sont ... ＝ 複数のものを指す (これらは〜だ)**\n   直後に「複数名詞」を置きます。英語の These are / They are に相当します。\n   *例: **Ce sont** des assiettes chaudes. (これらは温かいお皿です)*\n\n※否定文にする場合は動詞 `est` を ne...pas で挟み、**`Ce n'est pas ...`** (これは〜ではない) となります。"
+        "content_ja": "目の前にある料理や食材、または人を指して「これは〜です」「これらは〜です」と説明する表現です。日常会話でも接客でも毎日使う最重要フレーズです。\n\n1. **C'est ... ＝ 単数のものを指す (これは〜だ)**\n   直後に「単数名詞」を置きます。英語の This is / It is に相当します。\n   *例: **C'est** une spécialité locale. (これは地元の名物料理です)*\n\n2. **Ce sont ... ＝ 複数のものを指す (これらは〜だ)**\n   直後に「複数名詞」を置きます。英語の These are / They are に相当します。\n   *例: **Ce sont** des assiettes chaudes. (これらは温かいお皿です)*\n\n※否定文にする場合は動詞 `est` を ne...pas で挟み、**`Ce n'est pas ...`** (これは〜ではない) となります。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3472,7 +3680,9 @@
       {
         "type": "info",
         "title": "💡 厨房の号令！命令形はどういう場面で使う？",
-        "content_ja": "レシピの指示や、厨房内での作業指示・号令で使われる表現です。英語と同様に「主語を省いて動詞から始める」ため構造はシンプルです。\n\n**【誰に向かって指示するかによる使い分け】**\n*   **tu（君）に対する命令 ＝ 同僚や後輩に対して「〜して」**\n    *例: **Coupe** les oignons ! (玉ねぎを切って！)*\n*   **vous（あなた/あなた達）に対する命令 ＝ 目上の人、顧客、または複数名に対して「〜してください / 〜しろ」**\n    レシピ本に書かれている指示も、通常はこの vous に対する命令形が使われます。\n    *例: **Mélangez** bien. (よく混ぜてください)*\n*   **nous（私たち）に対する命令 ＝ 「〜しましょう（Let's）」**\n    *例: **Commençons** le service ! (サービスを開始しましょう！)*"
+        "content_ja": "レシピの指示や、厨房内での作業指示・号令で使われる表現です。英語と同様に「主語を省いて動詞から始める」ため構造はシンプルです。\n\n**【誰に向かって指示するかによる使い分け】**\n*   **tu（君）に対する命令 ＝ 同僚や後輩に対して「〜して」**\n    *例: **Coupe** les oignons ! (玉ねぎを切って！)*\n*   **vous（あなた/あなた達）に対する命令 ＝ 目上の人、顧客、または複数名に対して「〜してください / 〜しろ」**\n    レシピ本に書かれている指示も、通常はこの vous に対する命令形が使われます。\n    *例: **Mélangez** bien. (よく混ぜてください)*\n*   **nous（私たち）に対する命令 ＝ 「〜しましょう（Let's）」**\n    *例: **Commençons** le service ! (サービスを開始しましょう！)*",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3529,7 +3739,9 @@
       {
         "type": "info",
         "title": "💡 日本語の語順にそっくり？代名詞が動詞の『前』に来る法則",
-        "content_ja": "フランス語の「目的語代名詞（それを、彼に、など）」のルールは、日本人にとって実は非常に理解しやすい特徴があります。なぜなら**語順が日本語と全く同じになるから**です！\n\n*   **肯定文の語順:**\n    *   英語: I eat **it**. (主語 ＋ 動詞 ＋ 目的語)\n    *   日本語: 私は **それを** 食べます。 (主語 ＋ 目的語 ＋ 動詞)\n    *   フランス語: Je **le** mange. (主語 ＋ 目的語 ＋ 動詞)\n    このように、フランス語では代名詞が**動詞の直前**に移動するため、日本語の感覚のまま配置することができます。\n\n*   **否定文の語順:**\n    否定文にする場合も、代名詞は動詞と一体化したまま ne と pas に挟まれます。\n    *例: Je **ne** le mange **pas**. (私はそれを食べません)*"
+        "content_ja": "フランス語の「目的語代名詞（それを、彼に、など）」のルールは、日本人にとって実は非常に理解しやすい特徴があります。なぜなら**語順が日本語と全く同じになるから**です！\n\n*   **肯定文の語順:**\n    *   英語: I eat **it**. (主語 ＋ 動詞 ＋ 目的語)\n    *   日本語: 私は **それを** 食べます。 (主語 ＋ 目的語 ＋ 動詞)\n    *   フランス語: Je **le** mange. (主語 ＋ 目的語 ＋ 動詞)\n    このように、フランス語では代名詞が**動詞の直前**に移動するため、日本語の感覚のまま配置することができます。\n\n*   **否定文の語順:**\n    否定文にする場合も、代名詞は動詞と一体化したまま ne と pas に挟まれます。\n    *例: Je **ne** le mange **pas**. (私はそれを食べません)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3568,7 +3780,9 @@
       {
         "type": "info",
         "title": "💡 近接未来・近接過去はなぜ超便利なのか？",
-        "content_ja": "フランス語の動詞の過去形や未来形は、本来とても複雑な動詞の形（語尾の変化）を覚える必要があります。\nしかし、この「近接未来」と「近接過去」を使えば、**現在形（aller と venir）と動詞の原形（辞書に載っている形）を組み合わせるだけ**で、日常会話のほぼすべての未来と過去の予定を表現できてしまいます！\n初学者にとって、最も早く実用的な文を話せるようになるための「最強の裏技表現」です。"
+        "content_ja": "フランス語の動詞の過去形や未来形は、本来とても複雑な動詞の形（語尾の変化）を覚える必要があります。\nしかし、この「近接未来」と「近接過去」を使えば、**現在形（aller と venir）と動詞の原形（辞書に載っている形）を組み合わせるだけ**で、日常会話のほぼすべての未来と過去の予定を表現できてしまいます！\n初学者にとって、最も早く実用的な文を話せるようになるための「最強の裏技表現」です。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3667,7 +3881,9 @@
       {
         "type": "info",
         "title": "💡 自分自身に動作を返す『代名動詞』のイメージ",
-        "content_ja": "動詞の原形の前に `se` (自分自身を) を伴う動詞を「代名動詞」と呼びます。「動作が他者ではなく、主語自身に向かう」というニュアンスを表します。\n\n*   **一般動詞との対比:**\n    *   `lever` (〜を起こす/持ち上げる) -> *Je lève la main.* (私は手を挙げる)\n    *   `se lever` (自分自身を起こす ＝ 起きる) -> *Je **me** lève.* (私は起きる)\n*   **人称代名詞の変化:**\n    主語に合わせて、動詞の前の代名詞も以下のように変化します。\n    *   `je` -> **`me`** (私は自分を) / `tu` -> **`te`** (君は自分を) / `il/elle/on` -> **`se`** (彼/彼女は自分を)\n    *   `nous` -> **`nous`** (私たちは自分たちを) / `vous` -> **`vous`** (あなた方は自分を) / `ils/elles` -> **`se`**"
+        "content_ja": "動詞の原形の前に `se` (自分自身を) を伴う動詞を「代名動詞」と呼びます。「動作が他者ではなく、主語自身に向かう」というニュアンスを表します。\n\n*   **一般動詞との対比:**\n    *   `lever` (〜を起こす/持ち上げる) -> *Je lève la main.* (私は手を挙げる)\n    *   `se lever` (自分自身を起こす ＝ 起きる) -> *Je **me** lève.* (私は起きる)\n*   **人称代名詞の変化:**\n    主語に合わせて、動詞の前の代名詞も以下のように変化します。\n    *   `je` -> **`me`** (私は自分を) / `tu` -> **`te`** (君は自分を) / `il/elle/on` -> **`se`** (彼/彼女は自分を)\n    *   `nous` -> **`nous`** (私たちは自分たちを) / `vous` -> **`vous`** (あなた方は自分を) / `ils/elles` -> **`se`**",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3731,7 +3947,9 @@
         "type": "info",
         "title": "否定の de のルール (La règle du 'de' de négation)",
         "content_ja": "否定文で直接目的語に付く不定冠詞（un, une, des）や部分冠詞（du, de la, des）は、原則として「de」（母音・無声のhの前では「d'」）に変化します。ただし、動詞が être の場合は変化せず、そのままの冠詞を使います。\n・肯定：J'ai un couteau. (私は包丁を持っています)\n・否定：Je n'ai pas de couteau. (私は包丁を持っていません)\n・肯定：C'est un couteau. (それは包丁です)\n・否定：Ce n'est pas un couteau. (それは包丁ではありません ※êtreなので変化しない)",
-        "content_fr": "Dans une phrase négative, les articles indéfinis (un, une, des) et partitifs (du, de la) se transforment en 'de' (ou 'd' devant une voyelle) après le verbe, sauf avec le verbe être."
+        "content_fr": "Dans une phrase négative, les articles indéfinis (un, une, des) et partitifs (du, de la) se transforment en 'de' (ou 'd' devant une voyelle) après le verbe, sauf avec le verbe être.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -3766,7 +3984,9 @@
       {
         "type": "info",
         "title": "💡 否定表現の使い分けと違い",
-        "content_ja": "フランス語では、ne と pas の代わりに別の言葉を組み合わせることで、多様な否定を表現できます。基本構造はすべて【ne ＋ 動詞 ＋ 否定語】です。\n\n1. **ne ... pas (〜ない)**\n   もっとも一般的な否定です。「していない」という事実だけを伝えます。\n   *例: Je ne mange pas. (私は食べません)*\n\n2. **ne ... plus (もはや〜ない / もう〜ない)**\n   「以前は〜していたが、今はもう〜していない」という変化を表します。満腹のときや、禁煙したときなどに使います。\n   *例: Je ne mange plus. (私はもう食べません ※満腹なので)*\n\n3. **ne ... jamais (決して〜ない / 一度も〜ない)**\n   頻度が0%であることを表します。「絶対に〜しない」「これまで一度も〜したことがない」という場合に多用します。\n   *例: Je ne mange jamais. (私は決して食べません ※アレルギーがある時など)*\n\n4. **ne ... rien (何も〜ない)**\n   否定の対象が「物事（nothing）」になります。直接目的語の代わりに rien を置きます。\n   *例: Je ne mange rien. (私は何も食べません)*\n\n5. **ne ... personne (誰も〜ない)**\n   否定の対象が「人（nobody）」になります。\n   *例: Je ne vois personne. (私は誰の姿も見えません)*"
+        "content_ja": "フランス語では、ne と pas の代わりに別の言葉を組み合わせることで、多様な否定を表現できます。基本構造はすべて【ne ＋ 動詞 ＋ 否定語】です。\n\n1. **ne ... pas (〜ない)**\n   もっとも一般的な否定です。「していない」という事実だけを伝えます。\n   *例: Je ne mange pas. (私は食べません)*\n\n2. **ne ... plus (もはや〜ない / もう〜ない)**\n   「以前は〜していたが、今はもう〜していない」という変化を表します。満腹のときや、禁煙したときなどに使います。\n   *例: Je ne mange plus. (私はもう食べません ※満腹なので)*\n\n3. **ne ... jamais (決して〜ない / 一度も〜ない)**\n   頻度が0%であることを表します。「絶対に〜しない」「これまで一度も〜したことがない」という場合に多用します。\n   *例: Je ne mange jamais. (私は決して食べません ※アレルギーがある時など)*\n\n4. **ne ... rien (何も〜ない)**\n   否定の対象が「物事（nothing）」になります。直接目的語の代わりに rien を置きます。\n   *例: Je ne mange rien. (私は何も食べません)*\n\n5. **ne ... personne (誰も〜ない)**\n   否定の対象が「人（nobody）」になります。\n   *例: Je ne vois personne. (私は誰の姿も見えません)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -3784,7 +4004,9 @@
             "fr": "Ce poisson n'est pas frais.",
             "ja": "この魚は新鮮ではありません。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3842,7 +4064,9 @@
         "type": "info",
         "title": "厨房でのポイント",
         "content_ja": "サービス（営業）中の厨房は一分一秒を争うため、「Passez-le-moi !（それを私に渡して！）」「Mettez-y du sel.（そこに塩を入れて）」といった、命令文＋代名詞の表現が非常に多く飛び交います。素早い指示のやり取りに必須の構文です。",
-        "content_fr": "En cuisine, l'usage de l'impératif avec pronoms est indispensable pour donner des ordres rapides pendant le service."
+        "content_fr": "En cuisine, l'usage de l'impératif avec pronoms est indispensable pour donner des ordres rapides pendant le service.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -3860,7 +4084,9 @@
             "fr": "Ne le laissez pas brûler sur le feu !",
             "ja": "火の上でそれを焦がさないようにしなさい！ (注意喚起)"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3900,7 +4126,9 @@
         "type": "info",
         "title": "qui と que の簡単な見分け方とエリジオン",
         "content_ja": "【直後を見る鉄則】\n・関係代名詞のすぐ後ろが「動詞」なら、主語を表す qui を選びます（例: Le couteau qui coupe bien. よく切れるナイフ）。qui は後ろの母音と合体（エリジオン）しません。\n・関係代名詞のすぐ後ろが「主語(人称代名詞や名詞)」なら、目的語を表す que を選びます（例: Le couteau que j'utilise. 私が使うナイフ）。que は後ろに母音で始まる言葉が来ると qu' にエリジオンします（例: Le dessert qu'il aime. 彼が好きなデザート）。",
-        "content_fr": "On utilise 'qui' suivi d'un verbe, et 'que' suivi d'un sujet + verbe. 'Que' s'élide en 'qu'' devant une voyelle."
+        "content_fr": "On utilise 'qui' suivi d'un verbe, et 'que' suivi d'un sujet + verbe. 'Que' s'élide en 'qu'' devant une voyelle.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -3918,7 +4146,9 @@
             "fr": "Goûtons le dessert qu'elle vient de réaliser.",
             "ja": "彼女が作ってくれたばかりのデセールを試食してみましょう。 (試食会)"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -3955,7 +4185,9 @@
         "type": "info",
         "title": "代名詞を伴う場合の語順",
         "content_ja": "使役表現で「それを〜させる」「彼に〜させる」などの代名詞を使う場合、代名詞は「faire の前」に置かれます（不定詞の前ではありません）。\n・肯定文：Je la fais cuire. (私はそれを焼きます/焼かせます。 ※laはfaireの前)\n・否定文：Je ne la fais pas cuire. (私はそれを焼きません/焼かせません。)\n・人に思わせる：Cette sauce me fait penser au Japon. (このソースは私に日本を連想させます/思わせます。)",
-        "content_fr": "Les pronoms compléments se placent devant le verbe faire conjugué, et non devant l'infinitif."
+        "content_fr": "Les pronoms compléments se placent devant le verbe faire conjugué, et non devant l'infinitif.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -3973,7 +4205,9 @@
             "fr": "Le chef fait dresser les assiettes par le commis.",
             "ja": "シェフはコミュ（見習い）にお皿の盛り付けをさせます。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -4040,7 +4274,9 @@
         "type": "info",
         "title": "頻度・時間を表す副詞の位置",
         "content_ja": "toujours (常に、いつも) や souvent (よく、しばしば) などの短い頻度の副詞は、通常「活用している動詞の直後」に置きます。\n例：\n・Un cuisinier fait toujours attention. (料理人は常に注意を払う。 ※fait の後ろ)\n・Je nettoie souvent mon plan de travail. (私はよく自分の作業台を掃除します。)",
-        "content_fr": "Les adverbes de fréquence courts se placent généralement après le verbe conjugué."
+        "content_fr": "Les adverbes de fréquence courts se placent généralement après le verbe conjugué.",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "examples",
@@ -4058,7 +4294,9 @@
             "fr": "Il faut remuer la sauce constamment.",
             "ja": "ソースは絶えずかき混ぜる必要があります。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -4097,7 +4335,9 @@
       {
         "type": "info",
         "title": "💡 レストランの丁寧な注文で必須の『条件法（Je voudrais...）』",
-        "content_ja": "「条件法現在」は、英語の would に相当し、控えめな希望や、相手に対する丁寧な依頼を表現するために欠かせない大人のマナー表現です。\n\n*   **直接的（子供っぽい表現）:**\n    *   *Je veux un café. (私はコーヒーが欲しい。)* ※ veux は vouloir の直接現在。「〜をよこせ」という強いニュアンスになり、飲食店などでは不躾に聞こえます。\n*   **間接的・丁寧（大人の表現）:**\n    *   *Je **voudrais** un café, s'il vous plaît. (コーヒーを頂きたいのですが、お願いします。)*\n    このように、「条件法」にすることで「もし可能であれば〜したい」というクッションが入り、非常に好印象で上品な注文になります。"
+        "content_ja": "「条件法現在」は、英語の would に相当し、控えめな希望や、相手に対する丁寧な依頼を表現するために欠かせない大人のマナー表現です。\n\n*   **直接的（子供っぽい表現）:**\n    *   *Je veux un café. (私はコーヒーが欲しい。)* ※ veux は vouloir の直接現在。「〜をよこせ」という強いニュアンスになり、飲食店などでは不躾に聞こえます。\n*   **間接的・丁寧（大人の表現）:**\n    *   *Je **voudrais** un café, s'il vous plaît. (コーヒーを頂きたいのですが、お願いします。)*\n    このように、「条件法」にすることで「もし可能であれば〜したい」というクッションが入り、非常に好印象で上品な注文になります。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -4135,7 +4375,9 @@
             "fr": "Si le client arrive, servez-le immédiatement.",
             "ja": "もしお客様が到着したら、すぐに料理を出してください。"
           }
-        ]
+        ],
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -4195,7 +4437,9 @@
         "type": "info",
         "title": "肯定命令文における位置とハイフン",
         "content_ja": "肯定命令文では、y や en は動詞の直後にハイフンで繋いで置かれます。\n・Ajoutez du sel dans la soupe. ➔ Ajoutez-en. (スープに塩を入れて ➔ それを入れて)\n・Mettez du beurre là-dedans. ➔ Mettez-y. (そこにバターを入れて ➔ そこに入れて)",
-        "content_fr": "À l'impératif affirmatif, 'y' et 'en' se placent après le verbe avec un trait d'union."
+        "content_fr": "À l'impératif affirmatif, 'y' et 'en' se placent après le verbe avec un trait d'union.",
+        "headers": [],
+        "rows": []
       }
     ]
   },
@@ -4232,7 +4476,9 @@
       {
         "type": "info",
         "title": "💡 フランス語では『受動態』をあまり使わない？",
-        "content_ja": "フランス語にも「主語 ＋ être ＋ 過去分詞 ＋ par (〜によって)」という受動態（受け身）の文法は存在します。\nしかし、フランス語は「動作を誰が行ったか（能動）」をはっきりさせることを好むため、英語ほど受動態を多用しません。\n\n**【フランス語が受動態の代わりに好む表現】**\n1.  **代名動詞の受動用法**\n    モノが主語で「〜される」と言う場合、代名動詞を使って表現します。\n    *例: Ce plat **se prépare** rapidement. (この料理は素早く準備されます[準備される性質がある])*\n2.  **一般の人を表す `on` を主語にする**\n    *例: **On** sert le fromage avant le dessert. (デザートの前にチーズが提供されます ※直訳: 私たちはチーズを提供する)*"
+        "content_ja": "フランス語にも「主語 ＋ être ＋ 過去分詞 ＋ par (〜によって)」という受動態（受け身）の文法は存在します。\nしかし、フランス語は「動作を誰が行ったか（能動）」をはっきりさせることを好むため、英語ほど受動態を多用しません。\n\n**【フランス語が受動態の代わりに好む表現】**\n1.  **代名動詞の受動用法**\n    モノが主語で「〜される」と言う場合、代名動詞を使って表現します。\n    *例: Ce plat **se prépare** rapidement. (この料理は素早く準備されます[準備される性質がある])*\n2.  **一般の人を表す `on` を主語にする**\n    *例: **On** sert le fromage avant le dessert. (デザートの前にチーズが提供されます ※直訳: 私たちはチーズを提供する)*",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",
@@ -4307,7 +4553,9 @@
       {
         "type": "info",
         "title": "💡 事実ではなく主観を表す『接続法』の魔法",
-        "content_ja": "フランス語の「接続法（Subjonctif）」は、客観的な「事実」をそのまま伝える普通の時制（直説法）とは異なり、話し手の心の中の**「感情」「願望」「疑い」「義務（〜する必要がある）」**という主観フィルターを通した世界を表現する特別なモードです。\n\n*   **直説法現在 (客観的な事実):**\n    *   *Tu es prêt. (君は準備ができている。)*\n*   **接続法現在 (主観・義務のフィルター):**\n    *   *Il faut que tu **sois** prêt. (君は準備ができていなければならない。)*\n    このように、「〜する必要がある（Il faut que...）」という主観が入ると、直説法の `es` ではなく、接続法独自の活用形である `sois` に変化します。主に `que` で繋がれた従属節の中で発動するのが特徴です。"
+        "content_ja": "フランス語の「接続法（Subjonctif）」は、客観的な「事実」をそのまま伝える普通の時制（直説法）とは異なり、話し手の心の中の**「感情」「願望」「疑い」「義務（〜する必要がある）」**という主観フィルターを通した世界を表現する特別なモードです。\n\n*   **直説法現在 (客観的な事実):**\n    *   *Tu es prêt. (君は準備ができている。)*\n*   **接続法現在 (主観・義務のフィルター):**\n    *   *Il faut que tu **sois** prêt. (君は準備ができていなければならない。)*\n    このように、「〜する必要がある（Il faut que...）」という主観が入ると、直説法の `es` ではなく、接続法独自の活用形である `sois` に変化します。主に `que` で繋がれた従属節の中で発動するのが特徴です。",
+        "headers": [],
+        "rows": []
       },
       {
         "type": "table",

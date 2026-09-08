@@ -133,7 +133,7 @@
         {
           "type": "dialog",
           "character": "fabius",
-          "text": "Bonjour（ボンジュール）！ 朝の気分はどうだい？",
+          "text": "Bonjour！ 朝の気分はどうだい？",
           "position": "center",
           "expression": "normal",
           "background": "camp_morning",
@@ -4007,7 +4007,7 @@
           "characters": [],
           "learningPoint": {
             "title": "否定のde",
-            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてde（ドゥ）に変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
+            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてdeに変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
           }
         },
         {
@@ -4063,7 +4063,7 @@
           "characters": [],
           "learningPoint": {
             "title": "否定のde",
-            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてde（ドゥ）に変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
+            "text": "Les Romains/ローマ軍は n'/〜ない ont/持つ(ilsの活用) pas/ない de/〜の(否定のde) temps/時間. 否定文で「〜がない」と言う時、直接目的語につく冠詞はすべてdeに変わります。これを「否定のde」と呼び、「時間（の余裕）が全くない」という逆境を伝える超重要文法です！"
           }
         },
         {

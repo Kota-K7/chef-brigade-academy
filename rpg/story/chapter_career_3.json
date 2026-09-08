@@ -101,9 +101,12 @@
           "goal": "練習問題の前に、以下の文法・表現をおさらいしましょう。",
           "pages": [
             {
-              "title": "比較級と最上級の作り方",
-              "type": "custom",
-              "text": "フランス語の比較級・最上級の作り方です。\n・優等比較級: plus + 形容詞 + que (〜より…だ)\n・劣等比較級: moins + 形容詞 + que (〜より…でない)\n・同等比較級: aussi + 形容詞 + que (〜と同じくらい…だ)\n・最上級: 定冠詞 + plus/moins + 形容詞 + de... (〜の中で最も…だ)"
+              "title": "比較級と最上級の構造",
+              "referenceTopicId": "ref_comparative_superlative",
+              "sectionIndices": [
+                0,
+                1
+              ]
             },
             {
               "title": "目的語代名詞の語順",

@@ -1,0 +1,5317 @@
+[
+  {
+    "id": "q_ba_01",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「温かい / 熱い」の男性形形容詞[___]を入力してください。)",
+    "explanation": "chaud は熱い・温かいという意味です。",
+    "options": [
+      "chaud"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "chaud"
+    ]
+  },
+  {
+    "id": "q_ba_02",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「冷たい」の男性形形容詞[___]を入力してください。)",
+    "explanation": "froid は冷たいという意味です。",
+    "options": [
+      "froid"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "froid"
+    ]
+  },
+  {
+    "id": "q_ba_03",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「良い / 美味しい」の男性形形容詞[___]を入力してください。)",
+    "explanation": "bon は良い・美味しいという意味です。",
+    "options": [
+      "bon"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "bon"
+    ]
+  },
+  {
+    "id": "q_ba_04",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「大きい」の男性形形容詞[___]を入力してください。)",
+    "explanation": "grand は大きいという意味です。",
+    "options": [
+      "grand"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "grand"
+    ]
+  },
+  {
+    "id": "q_ba_05",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「小さな」の男性形形容詞[___]を入力してください。)",
+    "explanation": "petit は小さいという意味です。",
+    "options": [
+      "petit"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "petit"
+    ]
+  },
+  {
+    "id": "q_ba_06",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「新しい」の男性形形容詞[___]を入力してください。)",
+    "explanation": "nouveau は新しいという意味です。",
+    "options": [
+      "nouveau"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "nouveau"
+    ]
+  },
+  {
+    "id": "q_ba_07",
+    "tags": [
+      "#basic_adjectives",
+      "#association",
+      "#matching"
+    ],
+    "type": "matching",
+    "text": "Associez masculin et féminin. (形容詞の男性形と女性形のペアを結びつけてください。)",
+    "explanation": "形容詞の女性形です。",
+    "pairs": [
+      {
+        "left": "grand",
+        "right": "grande"
+      },
+      {
+        "left": "petit",
+        "right": "petite"
+      },
+      {
+        "left": "bon",
+        "right": "bonne"
+      },
+      {
+        "left": "chaud",
+        "right": "chaude"
+      }
+    ]
+  },
+  {
+    "id": "q_ba_08",
+    "tags": [
+      "#basic_adjectives",
+      "#association",
+      "#matching"
+    ],
+    "type": "matching",
+    "text": "Associez les antonymes. (形容詞と反対語のペアを結びつけてください。)",
+    "explanation": "形容詞の対義語です。",
+    "pairs": [
+      {
+        "left": "chaud",
+        "right": "froid"
+      },
+      {
+        "left": "grand",
+        "right": "petit"
+      },
+      {
+        "left": "bon",
+        "right": "mauvais"
+      },
+      {
+        "left": "propre",
+        "right": "sale"
+      }
+    ]
+  },
+  {
+    "id": "q_ba_09",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "cloze",
+    "text": "[chaude] soupe (「温かいスープ」- 空欄に入る女性形形容詞を選んでください。)",
+    "explanation": "soupe は女性名詞なので chaude となります。",
+    "clozeText": "「[chaude] soupe（温かいスープ）」",
+    "options": [
+      "chaude",
+      "chaud",
+      "chauds",
+      "chaudes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "chaude"
+    ]
+  },
+  {
+    "id": "q_ba_10",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "cloze",
+    "text": "un [grand] couteau (「大きなナイフ」- 空欄に入る形容詞を選んでください。)",
+    "explanation": "couteau は男性単数なので grand です。",
+    "clozeText": "「un [grand] couteau（大きなナイフ）」",
+    "options": [
+      "grand",
+      "grande",
+      "grands",
+      "grandes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "grand"
+    ]
+  },
+  {
+    "id": "q_ba_11",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "scramble",
+    "text": "Remettez en ordre. (「温かいスープ」となるように並び替えてください。)",
+    "explanation": "Une soupe chaude となります。",
+    "words": [
+      "soupe",
+      "chaude",
+      "Une"
+    ],
+    "answer": "Une soupe chaude",
+    "acceptedAnswers": [
+      "Une soupe chaude",
+      "une soupe chaude"
+    ]
+  },
+  {
+    "id": "q_ba_12",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "scramble",
+    "text": "Remettez en ordre. (「大きな片手鍋」となるように並び替えてください。)",
+    "explanation": "Une grande casserole となります。",
+    "words": [
+      "casserole",
+      "grande",
+      "Une"
+    ],
+    "answer": "Une grande casserole",
+    "acceptedAnswers": [
+      "Une grande casserole",
+      "une grande casserole"
+    ]
+  },
+  {
+    "id": "q_ba_13",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "choice",
+    "text": "Forme féminine de 'bon'. (「bon（美味しい）」の女性形を選んでください。)",
+    "explanation": "bon の女性形は bonne です。",
+    "options": [
+      "bonne",
+      "bons",
+      "bonnes",
+      "bon"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "bonne",
+      "bonne"
+    ]
+  },
+  {
+    "id": "q_ba_14",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "choice",
+    "text": "Adjectif placé avant le nom. (名詞の前に置くことが多い形容詞を選んでください。)",
+    "explanation": "petit, grand, bon などは名詞の前に置かれます。",
+    "options": [
+      "petit",
+      "chaud",
+      "froid",
+      "français"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "petit",
+      "petit"
+    ]
+  },
+  {
+    "id": "q_ba_ext_01",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「悪い」を意味する男性形形容詞[___]を入力してください。)",
+    "explanation": "mauvais は悪いという意味です。",
+    "options": [
+      "mauvais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "mauvais"
+    ]
+  },
+  {
+    "id": "q_ba_ext_02",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「清潔な」を意味する形容詞[___]を入力してください。)",
+    "explanation": "propre は清潔なという意味です。",
+    "options": [
+      "propre"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "propre"
+    ]
+  },
+  {
+    "id": "q_ba_ext_03",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「汚れた」を意味する形容詞[___]を入力してください。)",
+    "explanation": "sale は汚れたという意味です。",
+    "options": [
+      "sale"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sale"
+    ]
+  },
+  {
+    "id": "q_ba_ext_04",
+    "tags": [
+      "#basic_adjectives",
+      "#association",
+      "#matching"
+    ],
+    "type": "matching",
+    "text": "Associez l'adjectif au nom. (形容詞と食品の組み合わせのペアを結びつけてください。)",
+    "explanation": "形容詞の性数一致です。",
+    "pairs": [
+      {
+        "left": "soupe",
+        "right": "chaude"
+      },
+      {
+        "left": "eau",
+        "right": "froide"
+      },
+      {
+        "left": "plat",
+        "right": "bon"
+      },
+      {
+        "left": "couteau",
+        "right": "grand"
+      }
+    ]
+  },
+  {
+    "id": "q_ba_ext_05",
+    "tags": [
+      "#basic_adjectives",
+      "#association",
+      "#matching"
+    ],
+    "type": "matching",
+    "text": "Associez la position. (形容詞の置く位置（名詞の前/後ろ）のペアを結びつけてください。)",
+    "explanation": "形容詞の位置ルールです。",
+    "pairs": [
+      {
+        "left": "grand / petit",
+        "right": "通常名詞の前に置く"
+      },
+      {
+        "left": "bon / mauvais",
+        "right": "通常名詞の前に置く"
+      },
+      {
+        "left": "chaud / froid",
+        "right": "通常名詞の後ろに置く"
+      },
+      {
+        "left": "français / japonais",
+        "right": "通常名詞の後ろに置く"
+      }
+    ]
+  },
+  {
+    "id": "q_ba_ext_06",
+    "tags": [
+      "#basic_adjectives"
+    ],
+    "type": "typing",
+    "text": "Entrez le mot correct. (「若い」を意味する形容詞[___]を入力してください。)",
+    "explanation": "jeune は若いという意味です。",
+    "options": [
+      "jeune"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "jeune"
+    ]
+  },
+  {
+    "id": "q_verbs_1",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Je [___] les oignons. (「私は玉ねぎを切ります」 - 動詞 [couper] の Je に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "coupe"
+    ],
+    "explanation": "第1グループ動詞 couper の Je に対する現在形語尾は -e (coupe) です。"
+  },
+  {
+    "id": "q_verbs_2",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Nous [___] la sauce. (「私たちはソースを混ぜます」 - 動詞 [mélanger] の Nous に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "mélangeons",
+      "melangeons"
+    ],
+    "explanation": "mélanger の Nous 活用は g の発音を保つため -geons (mélangeons) となります。"
+  },
+  {
+    "id": "q_verbs_3",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Vous [___] du sel. (「あなた方は塩を加えます」 - 動詞 [ajouter] の Vous に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "ajoutez"
+    ],
+    "explanation": "ajouter の Vous 活用語尾は -ez (ajoutez) です。"
+  },
+  {
+    "id": "q_verbs_4",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Il [___] les légumes en julienne. (「彼は野菜をジュリエンヌ（千切り）にします」 - 動詞 [tailler] の Il に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "taille"
+    ],
+    "explanation": "tailler の Il 活用語尾は -e (taille) です。"
+  },
+  {
+    "id": "q_verbs_5",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "Quel est l'infinitif du verbe signifiant '加熱調理する・焼く' ? (「加熱調理する」を意味するフランス語の動詞不定形を選んでください。)",
+    "options": [
+      "cuire",
+      "couper",
+      "laver",
+      "servir"
+    ],
+    "answerIndex": 0,
+    "explanation": "「cuire」は加熱調理する・火を通すという意味の動詞です。"
+  },
+  {
+    "id": "q_verbs_6",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Tu [___] la poêle. (「君はフライパンを温めます」 - 動詞 [chauffer] の Tu に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "chauffes"
+    ],
+    "explanation": "第1グループ動詞の Tu に対する現在形語尾は -es (chauffes) です。"
+  },
+  {
+    "id": "q_verbs_7",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "scramble",
+    "text": "Remettez en ordre. (「私は肉を焼きます」となるように並び替えてください。)",
+    "words": [
+      "Je",
+      "poêle",
+      "la",
+      "viande."
+    ],
+    "answer": "Je poêle la viande.",
+    "explanation": "「Je poêle la viande.」で「私は肉をフライパンで焼きます」となります。"
+  },
+  {
+    "id": "q_verbs_8",
+    "tags": [
+      "#A1",
+      "#verbs",
+      "#matching",
+      "#association",
+      "#grammar"
+    ],
+    "type": "matching",
+    "text": "Associez le verbe culinaire et son sens. (調理動詞と日本語訳のペアを結びつけてください。)",
+    "pairs": [
+      {
+        "left": "couper",
+        "right": "切る"
+      },
+      {
+        "left": "ajouter",
+        "right": "加える"
+      },
+      {
+        "left": "mélanger",
+        "right": "混ぜる"
+      },
+      {
+        "left": "assaisonner",
+        "right": "味付けする"
+      }
+    ],
+    "explanation": "couper=切る, ajouter=加える, mélanger=混ぜる, assaisonner=味付けする。"
+  },
+  {
+    "id": "q_verbs_9",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Elles [___] le dessert. (「彼女たちはデセールを準備します」 - 動詞 [préparer] の Elles に対する活用を入力してください。)",
+    "acceptedAnswers": [
+      "préparent",
+      "preparent"
+    ],
+    "explanation": "Elles (3人称複数) の活用語尾は -ent (préparent) です。"
+  },
+  {
+    "id": "q_verbs_10",
+    "tags": [
+      "#verbs",
+      "#grammar",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "Le chef [___] la soupe. (「料理長がスープを味見します」 - 動詞 [goûter] の 3人称単数活用を入力してください。)",
+    "acceptedAnswers": [
+      "goûte",
+      "goute"
+    ],
+    "explanation": "goûter の 3人称単数活用は「goûte」です。"
+  },
+  {
+    "id": "q_career_1_1_three_verb_groups_1",
+    "tags": [
+      "#verbs",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "Je ___ les carottes en rondelles. (私はにんじんを輪切りにします。)",
+    "options": [
+      "coupe",
+      "coupes",
+      "coupons",
+      "coupez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "coupe",
+      "coupe"
+    ],
+    "explanation": "第1群規則動詞 couper は、主語 Je のとき語尾が -e に変化します。"
+  },
+  {
+    "id": "q_career_1_1_three_verb_groups_2",
+    "tags": [
+      "#verbs",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "Nous ___ le dressage des assiettes. (私たちは皿の盛り付けを仕上げます。)",
+    "options": [
+      "finissons",
+      "finis",
+      "finit",
+      "finissez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "finissons",
+      "finissons"
+    ],
+    "explanation": "第2群規則動詞 finir は、主語 Nous のとき語尾が -issons に変化します。"
+  },
+  {
+    "id": "q_career_1_1_three_verb_groups_3",
+    "tags": [
+      "#verbs",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "Vous ___ une sauce béarnaise ? (あなた方はベアルネーズソースを作りますか？)",
+    "options": [
+      "faites",
+      "faisez",
+      "font",
+      "faisons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faites",
+      "faites"
+    ],
+    "explanation": "不規則動詞 faire の vous に対する現在形は「faites」です。"
+  },
+  {
+    "id": "q_career_1_1_three_verb_groups_4",
+    "tags": [
+      "#verbs",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "第一群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？\n(Par quelles deux lettres se termine l'infinitif des verbes du premier groupe ?)",
+    "acceptedAnswers": [
+      "er",
+      "ER"
+    ],
+    "explanation": "第一群動詞の原形の語尾は -er になります（例：couper, préparer）。"
+  },
+  {
+    "id": "q_career_1_1_three_verb_groups_5",
+    "tags": [
+      "#verbs",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "第二群規則動詞の不定詞（原形）の末尾は、一般的にどの2文字で終わりますか？\n(Par quelles deux lettres se termine l'infinitif des verbes du deuxième groupe ?)",
+    "acceptedAnswers": [
+      "ir",
+      "IR"
+    ],
+    "explanation": "第二群動詞の原形の語尾は -ir になります（例：finir, choisir）。"
+  },
+  {
+    "id": "q_career_1_1_indicative_present_1",
+    "tags": [
+      "#indicative_present",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "Tous les matins, nous ___ le pain frais. (毎朝、私たちは焼きたてのパンを準備します。)",
+    "options": [
+      "préparons",
+      "préparer",
+      "avons préparé",
+      "préparerons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "préparons",
+      "préparons"
+    ],
+    "explanation": "毎朝の習慣的な動作を表すには、直説法現在（Nous préparons）を使います。"
+  },
+  {
+    "id": "q_career_1_1_indicative_present_2",
+    "tags": [
+      "#indicative_present",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「私は玉ねぎを切ります」は「Je ___ les oignons.」です。動詞 couper の Je に対する現在形活用を入力してください。\n(Complétez : Je ___ les oignons. (couper))",
+    "acceptedAnswers": [
+      "coupe"
+    ],
+    "explanation": "Je に対する第一群動詞の現在形語尾は -e (coupe) になります。"
+  },
+  {
+    "id": "q_career_1_1_indicative_present_3",
+    "tags": [
+      "#indicative_present",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「私たちは生地を仕上げます」は「Nous ___ la pâte.」です。動詞 finir の Nous に対する現在形活用を入力してください。\n(Complétez : Nous ___ la pâte. (finir))",
+    "acceptedAnswers": [
+      "finissons"
+    ],
+    "explanation": "Nous に対する第二群動詞の現在形語尾は -issons (finissons) になります。"
+  },
+  {
+    "id": "q_career_1_1_verb_conjugation_patterns_1",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "第一群規則動詞（-er）の二人称単数（tu）の現在形活用語尾はどの2文字になりますか？\n(Quelle est la terminaison du présent des verbes en -er pour 'tu' ?)",
+    "acceptedAnswers": [
+      "es",
+      "ES"
+    ],
+    "explanation": "tu に対する第一群動詞の現在形語尾は -es になります（例：tu coupes）。"
+  },
+  {
+    "id": "q_career_1_1_verb_conjugation_patterns_2",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "第一群規則動詞（-er）の三人称複数（ils / elles）の現在形活用語尾はどの3文字になりますか？\n(Quelle est la terminaison du présent des verbes en -er pour 'ils/elles' ?)",
+    "acceptedAnswers": [
+      "ent",
+      "ENT"
+    ],
+    "explanation": "ils/elles に対する第一群動詞の現在形語尾は -ent になります（例：ils coupent）。"
+  },
+  {
+    "id": "q_career_1_1_verb_conjugation_patterns_3",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "第二群規則動詞（-ir）の現在形において、複数人称（nous, vous, ils）で共通して挿入される綴りは何ですか？\n(Quelle syllabe insère-t-on au pluriel des verbes en -ir ?)",
+    "acceptedAnswers": [
+      "iss",
+      "ISS"
+    ],
+    "explanation": "-ir 動詞（第二群）の複数人称の活用形には -iss- が入ります（例：finissons, finissez, finissent）。"
+  },
+  {
+    "id": "q_career_1_1_regular_verbs_1_2_1",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「君は生地を仕上げる」は「Tu ___ la pâte.」です。空欄に [finir] の現在形活用を入力してください。\n(Complétez : Tu ___ la pâte. ([finir]))",
+    "acceptedAnswers": [
+      "finis"
+    ],
+    "explanation": "tu に対する finir の現在形は finis です。"
+  },
+  {
+    "id": "q_career_1_1_regular_verbs_1_2_2",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「私たちは野菜を切る」は「Nous ___ les légumes.」です。空欄に [couper] の現在形活用を入力してください。\n(Complétez : Nous ___ les légumes. ([couper]))",
+    "acceptedAnswers": [
+      "coupons"
+    ],
+    "explanation": "nous に対する couper の現在形は coupons です。"
+  },
+  {
+    "id": "q_career_1_1_regular_verbs_1_2_3",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「あなた方はソースを仕上げる」は「Vous ___ la sauce.」です。空欄に [finir] の現在形活用を入力してください。\n(Complétez : Vous ___ la sauce. ([finir]))",
+    "acceptedAnswers": [
+      "finissez"
+    ],
+    "explanation": "vous に対する finir の現在形は finissez です。"
+  },
+  {
+    "id": "q_career_1_1_regular_verbs_1_2_4",
+    "tags": [
+      "#verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「彼らはトマトを切る」は「Ils ___ les tomates.」です。空欄に [couper] の現在形活用を入力してください。\n(Complétez : Ils ___ les tomates. ([couper]))",
+    "acceptedAnswers": [
+      "coupent"
+    ],
+    "explanation": "ils に対する couper の現在形は coupent です。"
+  },
+  {
+    "id": "q_career_1_3_adjective_agreement_1",
+    "tags": [
+      "#basic_adjectives",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「大きくて赤いトマト（複数）」は「de grandes tomates ___」です。rouge を正しい形に一致させて入力してください。\n(Complétez : de grandes tomates ___ (rouge))",
+    "acceptedAnswers": [
+      "rouges"
+    ],
+    "explanation": "tomates は女性複数名詞なので、形容詞 rouge に s をつけて rouges にします。"
+  },
+  {
+    "id": "q_career_1_3_adjective_agreement_2",
+    "tags": [
+      "#basic_adjectives",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「冷たい水（eau / 女性単数）」は「de l'eau ___」です。froid を正しい形に一致させて入力してください。\n(Complétez : de l'eau ___ (froid))",
+    "acceptedAnswers": [
+      "froide"
+    ],
+    "explanation": "eau は女性単数名詞なので、形容詞 froid に e をつけて froide にします。"
+  },
+  {
+    "id": "q_career_1_3_adjective_position_1",
+    "tags": [
+      "#basic_adjectives",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "フランス語で「赤いトマト」と言う場合、形容詞 rouge は名詞 tomates の前・後ろのどちらに置きますか？\n(Où place-t-on l'adjectif de couleur 'rouge' ?)",
+    "options": [
+      "名詞の後ろ (tomates rouges)",
+      "名詞の前 (rouges tomates)"
+    ],
+    "answerIndex": 0,
+    "explanation": "色を表す形容詞は、フランス語では名詞の後ろに置くのがルールです。"
+  },
+  {
+    "id": "q_career_1_3_adjective_position_2",
+    "tags": [
+      "#basic_adjectives",
+      "#basic",
+      "#A1"
+    ],
+    "type": "choice",
+    "text": "フランス語で「大きいトマト」と言う場合、形容詞 grand / grande は名詞 tomates の前・後ろのどちらに置きますか？\n(Où place-t-on l'adjectif 'grand/grande' ?)",
+    "options": [
+      "名詞の前 (grandes tomates)",
+      "名詞の後ろ (tomates grandes)"
+    ],
+    "answerIndex": 0,
+    "explanation": "grand/petit, bon/mauvais などの頻出かつ短い形容詞は名詞の前に置かれます。"
+  },
+  {
+    "id": "q_career_2_2_imperative_1",
+    "tags": [
+      "#imperative",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「（君、）玉ねぎを切りなさい！」は「___ les oignons !」です。動詞 couper の tu に対する命令形を入力してください。\n(Complétez : ___ les oignons ! (couper - tu))",
+    "acceptedAnswers": [
+      "Coupe"
+    ],
+    "explanation": "-er で終わる第一群動詞の tu に対する命令形は、語尾の s を取り除いて Coupe となります。"
+  },
+  {
+    "id": "q_career_2_2_imperative_2",
+    "tags": [
+      "#imperative",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「（あなた方、）生地を仕上げてください！」は「___ la pâte !」です。動詞 finir の vous に対する命令形を入力してください。\n(Complétez : ___ la pâte ! (finir - vous))",
+    "acceptedAnswers": [
+      "Finissez"
+    ],
+    "explanation": "vous に対する命令形は、直説法現在形の vous 活用と同じ Finissez となります。"
+  },
+  {
+    "id": "q_career_2_2_imperative_3",
+    "tags": [
+      "#imperative",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「（私たち、）仕込みを始めましょう！」は「___ la mise en place !」です。動詞 commencer の nous に対する命令形を入力してください。\n(Complétez : ___ la mise en place ! (commencer - nous))",
+    "acceptedAnswers": [
+      "Commençons"
+    ],
+    "explanation": "nous に対する命令形は、直説法現在形の nous 活用と同じ Commençons となります。"
+  },
+  {
+    "id": "q_career_2_2_imperative_4",
+    "tags": [
+      "#imperative",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「ここに来て！（親しい相手に）」は「___ ici !」です。動詞 venir の tu に対する命令形を入力してください。\n(Complétez : ___ ici ! (venir - tu))",
+    "acceptedAnswers": [
+      "Viens"
+    ],
+    "explanation": "venir の tu に対する現在形 viens から主語を取り除き Viens となります。"
+  },
+  {
+    "id": "q_career_2_3_near_future_1",
+    "tags": [
+      "#near_future",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「私はこれからそれを焼きます」は「Je ___ le cuire.」です。空欄に近接未来を作るための aller の活用を入力してください。\n(Complétez : Je ___ le cuire. (I am going to cook it))",
+    "acceptedAnswers": [
+      "vais"
+    ],
+    "explanation": "近接未来は「aller + 動詞の原形」で作ります。Je に対する aller は vais です。"
+  },
+  {
+    "id": "q_career_2_3_near_future_2",
+    "tags": [
+      "#near_future",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「私たちはこれからガレットを作ります」は「Nous ___ faire une galette.」です。空欄に入る aller の活用を入力してください。\n(Complétez : Nous ___ faire une galette.)",
+    "acceptedAnswers": [
+      "allons"
+    ],
+    "explanation": "Nous に対する aller の現在形は allons です。"
+  },
+  {
+    "id": "q_career_2_3_near_past_1",
+    "tags": [
+      "#near_past",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「ちょうど終わったところです」は「Je ___ de finir.」です。空欄に入る venir の活用を入力してください。\n(Complétez : Je ___ de finir. (I have just finished))",
+    "acceptedAnswers": [
+      "viens"
+    ],
+    "explanation": "近接過去は「venir + de + 動詞の原形」で作ります。Je に対する venir は viens です。"
+  },
+  {
+    "id": "q_career_2_3_near_past_2",
+    "tags": [
+      "#near_past",
+      "#basic",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「彼はちょうど始めたばかりです」は「Il ___ de commencer.」です。空欄に入る venir の活用を入力してください。\n(Complétez : Il ___ de commencer.)",
+    "acceptedAnswers": [
+      "vient"
+    ],
+    "explanation": "Il に対する venir の現在形は vient です。"
+  },
+  {
+    "id": "q_career_2_3_passive_pronominal_1",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#applied",
+      "#A1"
+    ],
+    "type": "typing",
+    "text": "「それはどのように準備されますか？」は「Ça ___ prépare comment ?」です。空欄に入る代名動詞の再帰代名詞を入力してください。\n(Complétez : Ça ___ prépare comment ? (How is that prepared?))",
+    "acceptedAnswers": [
+      "se"
+    ],
+    "explanation": "三人称（Ça）に対する代名動詞の再帰代名詞は se になります。「Ça se prépare」で「それは準備される」という受動的な意味を表します。"
+  },
+  {
+    "id": "q_adv_01",
+    "tags": [
+      "#adverbs",
+      "#basic_adjectives"
+    ],
+    "type": "choice",
+    "text": "Transformez l'adjectif 'lent' (遅い) en adverbe : 'Il coupe les légumes ___.' (形容詞 lent を副詞に変えて文を完成させてください: '彼は___野菜を切る')",
+    "options": [
+      "lentement",
+      "lentment",
+      "lentementement",
+      "lente"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "lentement"
+    ],
+    "explanation": "形容詞 lent の女性形 lente に -ment をつけて副詞 lentement（ゆっくりと）を作ります。"
+  },
+  {
+    "id": "q_comp_01",
+    "tags": [
+      "#comparative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le comparatif de supériorité (plus) : 'Ce pain est ___ cuit que l'autre.' (このパンはもう一方よりもよく焼けている)",
+    "options": [
+      "plus",
+      "moins",
+      "aussi",
+      "mieux"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "優等比較級は「plus + 形容詞/副詞 + que」の形を取ります。"
+  },
+  {
+    "id": "q_comp_02",
+    "tags": [
+      "#comparative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le comparatif d'infériorité (moins) : 'Cette sauce est ___ salée que celle d'hier.' (このソースは昨日のものほど塩辛くない)",
+    "options": [
+      "moins",
+      "plus",
+      "aussi",
+      "pire"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "moins"
+    ],
+    "explanation": "劣等比較級は「moins + 形容詞/副詞 + que」の形を取ります。"
+  },
+  {
+    "id": "q_comp_03",
+    "tags": [
+      "#comparative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le comparatif d'égalité (aussi) : 'Le four A est ___ chaud que le four B.' (オーブンAはオーブンBと同じくらい熱い)",
+    "options": [
+      "aussi",
+      "plus",
+      "moins",
+      "autant"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aussi"
+    ],
+    "explanation": "同等比較級は「aussi + 形容詞/副詞 + que」の形を取ります。"
+  },
+  {
+    "id": "q_comp_04",
+    "tags": [
+      "#comparative"
+    ],
+    "type": "choice",
+    "text": "Choisissez la bonne phrase : 'Le chef travaille ___ vite que l'apprenti.' (シェフは見習いよりも速く働く)",
+    "options": [
+      "plus",
+      "aussi",
+      "moins",
+      "très"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "比較級「〜よりも速く」は plus vite que となります。"
+  },
+  {
+    "id": "q_comp_05",
+    "tags": [
+      "#comparative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le comparatif d'infériorité : 'Les pommes sont ___ chères en hiver qu'en été.' (リンゴは夏より冬の方が安くない/安い)",
+    "options": [
+      "moins",
+      "plus",
+      "aussi",
+      "pire"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "moins"
+    ],
+    "explanation": "「夏ほど高くない（＝安い）」を表現するには劣等比較級 moins ... que を使用します。"
+  },
+  {
+    "id": "q_super_01",
+    "tags": [
+      "#superlative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le superlatif : 'C'est ___ grand gâteau du monde !' (これは世界で最も大きいケーキだ！)",
+    "options": [
+      "le plus",
+      "la plus",
+      "les plus",
+      "le moins"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le plus"
+    ],
+    "explanation": "最上級は「定冠詞 + plus/moins + 形容詞」の形を取ります。gâteau（男性単数）に合わせて定冠詞は le になります。"
+  },
+  {
+    "id": "q_super_02",
+    "tags": [
+      "#superlative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le superlatif : 'Ce restaurant est ___ célèbre de la ville.' (このレストランは街で最も有名だ)",
+    "options": [
+      "le plus",
+      "la plus",
+      "les plus",
+      "plus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le plus"
+    ],
+    "explanation": "restaurant（男性単数）に対する最上級なので le plus célèbre になります。"
+  },
+  {
+    "id": "q_super_03",
+    "tags": [
+      "#superlative"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le superlatif de minorité (moins) : 'Voici ___ chère bouteille de vin de notre cave.' (これが私たちのセラーで最も高価ではない[安い]ワインボトルだ)",
+    "options": [
+      "la moins",
+      "le moins",
+      "les moins",
+      "la plus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "la moins"
+    ],
+    "explanation": "bouteille（女性単数名詞）を修飾するため、女性単数定冠詞の la を使用して la moins とします。"
+  },
+  {
+    "id": "q_super_04",
+    "tags": [
+      "#superlative"
+    ],
+    "type": "choice",
+    "text": "Quel est le superlatif irrégulier de 'bon' ? 'Quel est ___ plat de la carte ?' (メニューの中で最も美味しい料理はどれですか？)",
+    "options": [
+      "le meilleur",
+      "le plus bon",
+      "le pire",
+      "la meilleure"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le meilleur"
+    ],
+    "explanation": "bon の優等最上級は不規則変化し、le plus bon ではなく le meilleur となります。"
+  },
+  {
+    "id": "q_super_05",
+    "tags": [
+      "#superlative"
+    ],
+    "type": "choice",
+    "text": "Quel est le superlatif irrégulier de 'mauvais' ? 'Ce sont ___ conditions de travail.' (これらは最悪の労働条件だ)",
+    "options": [
+      "les pires",
+      "les plus mauvaises",
+      "les meilleures",
+      "les pires-mauvaises"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "les pires"
+    ],
+    "explanation": "mauvais の最上級は不規則変化して les pires（最悪の）となります。"
+  },
+  {
+    "id": "q_imp_pr_01",
+    "tags": [
+      "#imperative_with_pronouns"
+    ],
+    "type": "choice",
+    "text": "Complétez la commande affirmative (肯定命令) : 'Donnez-___-___.' (それを私にください)",
+    "options": [
+      "le-moi",
+      "me-le",
+      "la-moi",
+      "moi-le"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le-moi"
+    ],
+    "explanation": "肯定命令形での代名詞の語順は「動詞 - 直接 - 間接」の順になり、me は強変化形の moi となります (Donnez-le-moi)。"
+  },
+  {
+    "id": "q_imp_pr_02",
+    "tags": [
+      "#imperative_with_pronouns"
+    ],
+    "type": "choice",
+    "text": "Complétez la commande négative (否定命令) : 'Ne ___ ___ donnez pas.' (それを私に与えないでください)",
+    "options": [
+      "me le",
+      "le moi",
+      "le me",
+      "moi le"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "me le"
+    ],
+    "explanation": "否定命令文では、通常の代名詞の語順（主語の直後と同じ位置）に戻るため、Ne me le donnez pas となります。"
+  },
+  {
+    "id": "q_imp_pr_03",
+    "tags": [
+      "#imperative_with_pronouns"
+    ],
+    "type": "choice",
+    "text": "Complétez la commande affirmative : 'Prépare-___-___ pour ce soir.' (それらを彼女のために準備しなさい)",
+    "options": [
+      "les-lui",
+      "lui-les",
+      "les-leur",
+      "leur-les"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "les-lui"
+    ],
+    "explanation": "肯定命令形なので「動詞 - 直接(les) - 間接(lui)」の順にハイフンで繋ぎます。"
+  },
+  {
+    "id": "q_imp_pr_04",
+    "tags": [
+      "#imperative_with_pronouns"
+    ],
+    "type": "choice",
+    "text": "Complétez la commande négative : 'Ne ___ ___ dis pas.' (それを彼/彼女に言ってはいけない)",
+    "options": [
+      "le lui",
+      "lui le",
+      "le me",
+      "lui la"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "le lui"
+    ],
+    "explanation": "否定命令文の代名詞順序は「直接(le) ➔ 間接(lui)」になり、Ne le lui dis pas となります。"
+  },
+  {
+    "id": "q_imp_pr_05",
+    "tags": [
+      "#imperative_with_pronouns"
+    ],
+    "type": "choice",
+    "text": "Complétez la commande affirmative : 'Apporte-___-___ rapidement.' (それを[女性名詞の spatule を]彼らに持って行きなさい)",
+    "options": [
+      "la-leur",
+      "leur-la",
+      "la-lui",
+      "lui-la"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "la-leur"
+    ],
+    "explanation": "肯定命令形での順序は「動詞 - 直接(la) - 間接(leur)」になり、Apporte-la-leur となります。"
+  },
+  {
+    "id": "q_pc_01",
+    "tags": [
+      "#past_compose"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [avoir]) pour la structure de base du passé composé : 'J'___ préparé la tarte.' (私はタルトを準備しました)",
+    "options": [
+      "ai",
+      "suis",
+      "a",
+      "es"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ai"
+    ],
+    "explanation": "ほとんどの動詞は助動詞として avoir（現在形）をとります。Je のときの活用 is ai になります。"
+  },
+  {
+    "id": "q_pc_02",
+    "tags": [
+      "#past_compose"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [avoir]) : 'Nous ___ fini le service à minuit.' (私たちは深夜12時に営業サービスを終えた)",
+    "options": [
+      "avons",
+      "sommes",
+      "avez",
+      "ont"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons"
+    ],
+    "explanation": "finir は avoir を助動詞とするため、Nous avons fini となります。"
+  },
+  {
+    "id": "q_pc_03",
+    "tags": [
+      "#past_compose"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [avoir]) : 'Tu ___ coupé les oignons ?' (君はタマネギを切りましたか？)",
+    "options": [
+      "as",
+      "es",
+      "a",
+      "est"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "as"
+    ],
+    "explanation": "couper の過去における助動詞は avoir です。Tu の活用は as になります。"
+  },
+  {
+    "id": "q_pc_04",
+    "tags": [
+      "#past_compose"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [avoir]) : 'Le chef ___ vérifié la cuisson.' (シェフは焼き加減をチェックしました)",
+    "options": [
+      "a",
+      "est",
+      "as",
+      "es"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a"
+    ],
+    "explanation": "主語 Le chef（三人称単数）に対する avoir の現在形は a となります。"
+  },
+  {
+    "id": "q_pc_05",
+    "tags": [
+      "#past_compose"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [avoir]) : 'Ils ___ acheté des légumes.' (彼らは野菜を買いました)",
+    "options": [
+      "ont",
+      "sont",
+      "avons",
+      "avez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ont"
+    ],
+    "explanation": "三人称複数 Ils に対する avoir の活用は ont となります。"
+  },
+  {
+    "id": "q_aux_01",
+    "tags": [
+      "#auxiliary_selection"
+    ],
+    "type": "choice",
+    "text": "Sélectionnez le bon auxiliaire (助動詞) : 'Le sous-chef ___ allé au marché.' (スーシェフは市場へ行きました)",
+    "options": [
+      "est",
+      "a",
+      "va",
+      "fait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est"
+    ],
+    "explanation": "移動を表す動詞 aller（行く）は、過去の助動詞として être を取ります。"
+  },
+  {
+    "id": "q_aux_02",
+    "tags": [
+      "#auxiliary_selection"
+    ],
+    "type": "choice",
+    "text": "Sélectionnez le bon auxiliaire : 'Nous ___ partis tard hier.' (私たちは昨日遅くに出発しました)",
+    "options": [
+      "sommes",
+      "avons",
+      "allons",
+      "faisons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sommes"
+    ],
+    "explanation": "往来発着を表す動詞 partir（出発する）は助動詞に être を取ります。"
+  },
+  {
+    "id": "q_aux_03",
+    "tags": [
+      "#auxiliary_selection"
+    ],
+    "type": "choice",
+    "text": "Sélectionnez le bon auxiliaire : 'Elle ___ restée en cuisine.' (彼女は厨房に残りました)",
+    "options": [
+      "est",
+      "a",
+      "va",
+      "y a"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est"
+    ],
+    "explanation": "rester（残る）は状態の継続・滞在を表す往来発着の仲間なので、助動詞に être を取ります。"
+  },
+  {
+    "id": "q_aux_04",
+    "tags": [
+      "#auxiliary_selection"
+    ],
+    "type": "choice",
+    "text": "Sélectionnez le bon auxiliaire : 'Ils ___ devenus de grands cuisiniers.' (彼らは一人前の料理人になった)",
+    "options": [
+      "sont",
+      "ont",
+      "vont",
+      "font"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sont"
+    ],
+    "explanation": "変化を表す動詞 devenir（〜になる）は助動詞に être を取ります。"
+  },
+  {
+    "id": "q_aux_05",
+    "tags": [
+      "#auxiliary_selection"
+    ],
+    "type": "choice",
+    "text": "Sélectionnez le bon auxiliaire : 'Je ___ tombé pendant le service.' (私は営業中に転んだ)",
+    "options": [
+      "suis",
+      "ai",
+      "vais",
+      "fais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "suis"
+    ],
+    "explanation": "tombé（転ぶ・落ちる）は移動・状態変化を表すため、助動詞に être を取ります。"
+  },
+  {
+    "id": "q_ppa_01",
+    "tags": [
+      "#past_participle_agreement"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon participe passé avec être : 'Elle est ___ tard hier.' (彼女は昨日遅くに来た)",
+    "options": [
+      "venue",
+      "venu",
+      "venus",
+      "venues"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venue"
+    ],
+    "explanation": "助動詞 être の場合、過去分詞は主語（Elle: 女性単数）の性と数に一致して女性単数形 venue となります。"
+  },
+  {
+    "id": "q_ppa_02",
+    "tags": [
+      "#past_participle_agreement"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon participe passé avec avoir (直接目的語が前にある場合) : 'La tarte que j'ai ___ était délicieuse.' (私が焼いたタルトは美味しかった)",
+    "options": [
+      "cuite",
+      "cuit",
+      "cuits",
+      "cuites"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "cuite"
+    ],
+    "explanation": "関係代名詞 que（修飾される名詞 tarte: 女性単数）が関係節内で動詞の前に位置するため、過去分詞 cuit は女性単数形 cuite に性数一致します。"
+  },
+  {
+    "id": "q_ppa_03",
+    "tags": [
+      "#past_participle_agreement"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon participe passé : 'Les clients sont ___ nombreux ce midi.' (本日のお昼、お客様は多く到着した)",
+    "options": [
+      "arrivés",
+      "arrivé",
+      "arrivée",
+      "arrivées"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "arrivés"
+    ],
+    "explanation": "助動詞 être のため、過去分詞は主語（Les clients: 男性複数）に一致して arrivés となります。"
+  },
+  {
+    "id": "q_ppa_04",
+    "tags": [
+      "#past_participle_agreement"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon participe passé : 'Les assiettes que nous avons ___ sont propres.' (私たちが洗ったお皿はきれいだ)",
+    "options": [
+      "lavées",
+      "lavé",
+      "lavés",
+      "lavée"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "lavées"
+    ],
+    "explanation": "関係代名詞 que の先行詞である assiettes（女性複数）が動詞の前にあるため、過去分詞は女性複数形 lavées に一致します。"
+  },
+  {
+    "id": "q_ppa_05",
+    "tags": [
+      "#past_participle_agreement"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon participe passé : 'Mes sœurs sont ___ nous voir.' (私の姉妹たちが私たちに会いに来た)",
+    "options": [
+      "venues",
+      "venu",
+      "venus",
+      "venue"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venues"
+    ],
+    "explanation": "主語 Mes sœurs（女性複数）かつ助動詞 être なので、過去分詞は女性複数形 venues に一致します。"
+  },
+  {
+    "id": "q_imp_01",
+    "tags": [
+      "#imparfait"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide (動詞 [être]) avec l'imparfait : 'Quand j'___ jeune, je voulais être chef.' (私は若かった頃、シェフになりたかった)",
+    "options": [
+      "étais",
+      "avais",
+      "serais",
+      "fus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étais"
+    ],
+    "explanation": "過去の継続的な状態や背景を表すには半過去（imparfait）を使います。être の一人称単数半過去は étais です。"
+  },
+  {
+    "id": "q_imp_02",
+    "tags": [
+      "#imparfait"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [avoir]) à l'imparfait : 'Le restaurant ___ beaucoup de clients.' (そのレストランは[当時]多くのお客さんがいた)",
+    "options": [
+      "avait",
+      "a",
+      "ayant",
+      "eut"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avait"
+    ],
+    "explanation": "avoir の三人称単数半過去形は avait となります。"
+  },
+  {
+    "id": "q_imp_03",
+    "tags": [
+      "#imparfait"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [faire]) à l'imparfait : 'Nous ___ le pain nous-mêmes.' (私たちは[当時]パンを自分たちで作っていた)",
+    "options": [
+      "faisions",
+      "faisons",
+      "fassions",
+      "ferons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faisions"
+    ],
+    "explanation": "faire の半過去複数一人称（nous）は faisons の語幹に半過去語尾 -ions がついて faisions となります。"
+  },
+  {
+    "id": "q_imp_04",
+    "tags": [
+      "#imparfait"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [faire]) à l'imparfait : 'Tu ___ toujours attention aux détails.' (君はいつも細部に気をつけていた)",
+    "options": [
+      "faisais",
+      "fais",
+      "feras",
+      "fisses"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faisais"
+    ],
+    "explanation": "faire の二人称単数（tu）の半過去形は faisais です。"
+  },
+  {
+    "id": "q_imp_05",
+    "tags": [
+      "#imparfait"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [être]) à l'imparfait : 'Les clients ___ satisfaits.' (お客様たちは満足していた)",
+    "options": [
+      "étaient",
+      "sont",
+      "seront",
+      "furent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étaient"
+    ],
+    "explanation": "être の三人称複数（ils/elles）の半過去形は étaient となります。"
+  },
+  {
+    "id": "q_ivspc_01",
+    "tags": [
+      "#imparfait_vs_past_compose"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon temps (半過去と複合過去の使い分け) : 'Je cuisinais quand le chef ___.' (私が料理をしていた時、シェフが入ってきた)",
+    "options": [
+      "est entré",
+      "entrait",
+      "entre",
+      "sera entré"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est entré"
+    ],
+    "explanation": "「〜していた（動作の背景：半過去 cuisinais）」という状態の中に、「シェフが入ってきた（突発的・完了した1回の動作：複合過去）」が起きたため、est entré を使用します。"
+  },
+  {
+    "id": "q_ivspc_02",
+    "tags": [
+      "#imparfait_vs_past_compose"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon temps : 'Hier, il ___ beau, alors nous avons fait le service dehors.' (昨日、天気がよかったので、私たちは外で接客サービスをした)",
+    "options": [
+      "faisait",
+      "a fait",
+      "fait",
+      "fera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faisait"
+    ],
+    "explanation": "天候や状態など、過去の出来事の『背景・状況』を説明する文脈では半過去 faisait を使用します。"
+  },
+  {
+    "id": "q_ivspc_03",
+    "tags": [
+      "#imparfait_vs_past_compose"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon temps : 'Soudain, le four ___ de fonctionner.' (突然、オーブンが動かなくなった)",
+    "options": [
+      "a arrêté",
+      "arrêtait",
+      "arrête",
+      "arrêtera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a arrêté"
+    ],
+    "explanation": "Soudain（突然）という特定の時間において「（オーブンが）止まった」という1回限りの完了アクションを表すため、複合過去 a arrêté になります。"
+  },
+  {
+    "id": "q_ivspc_04",
+    "tags": [
+      "#imparfait_vs_past_compose"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon temps : 'Pendant que je lavais les légumes, le client ___.' (私が野菜を洗っている間に、顧客が到着した)",
+    "options": [
+      "est arrivé",
+      "arrivait",
+      "arrive",
+      "arrivera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est arrivé"
+    ],
+    "explanation": "野菜を洗っている動作の最中（半過去）に、顧客の到着という単発の出来事（複合過去）が起きた状況を表します。"
+  },
+  {
+    "id": "q_ivspc_05",
+    "tags": [
+      "#imparfait_vs_past_compose"
+    ],
+    "type": "choice",
+    "text": "Choisissez le bon temps : 'Nous ___ en train de manger quand le téléphone a sonné.' (電話が鳴ったとき、私たちは食べている最中だった)",
+    "options": [
+      "étions",
+      "avons été",
+      "sommes",
+      "serons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étions"
+    ],
+    "explanation": "「〜している最中だった」という過去の継続していた背景状態なので半過去 étions となります。"
+  },
+  {
+    "id": "q_gp_01",
+    "tags": [
+      "#gerund_participle"
+    ],
+    "type": "choice",
+    "text": "Complétez la structure du gérondif (ジェロンディフ) : 'Il s'est coupé le doigt ___ coupant les légumes.' (彼は野菜を切りながら指を切った)",
+    "options": [
+      "en",
+      "par",
+      "de",
+      "pour"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en"
+    ],
+    "explanation": "ジェロンディフは「en + 現在分詞」の形を取り、同時進行する動作や手段・原因などを表します。"
+  },
+  {
+    "id": "q_gp_02",
+    "tags": [
+      "#gerund_participle"
+    ],
+    "type": "choice",
+    "text": "Choisissez le proverbe correct utilisant le gérondif : 'C'est ___ que l'on devient forgeron.' (習うより慣れよ / 鍛錬によって職人になる)",
+    "options": [
+      "en forgeant",
+      "forger",
+      "forgé",
+      "en forge"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en forgeant"
+    ],
+    "explanation": "「鍛えることによって（手段・方法）」を en + 現在分詞（forgeant）のジェロンディフで表しています。"
+  },
+  {
+    "id": "q_gp_03",
+    "tags": [
+      "#gerund_participle"
+    ],
+    "type": "choice",
+    "text": "Complétez : '___ la sauce, elle a ajusté le sel.' (ソースの味見をしながら、彼女は塩加減を調整した)",
+    "options": [
+      "En goûtant",
+      "Goûter",
+      "Goûté",
+      "En goût"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "En goûtant"
+    ],
+    "explanation": "「味見をしながら」という同時進行の動作を、goûter の現在分詞 goûtant に en をつけたジェロンディフで表現します。"
+  },
+  {
+    "id": "q_gp_04",
+    "tags": [
+      "#gerund_participle"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Il travaille tout ___ écoutant de la musique.' (彼は音楽を聴きながらずっと働いている)",
+    "options": [
+      "en",
+      "à",
+      "de",
+      "pour"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en"
+    ],
+    "explanation": "tout en + 現在分詞 でジェロンディフの同時動作（〜しながら）を強調する構文になります。"
+  },
+  {
+    "id": "q_gp_05",
+    "tags": [
+      "#gerund_participle"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Nous apprenons le français ___ cuisinant.' (私たちは料理をしながらフランス語を学んでいる)",
+    "options": [
+      "en",
+      "par",
+      "pour",
+      "de"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "en"
+    ],
+    "explanation": "cuisinant（cuisiner の現在分詞）とセットにして「料理をしながら（ジェロンディフ）」を表すため en を用います。"
+  },
+  {
+    "id": "q_causative_01",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Complétez la phrase : 'Je ___ refroidir la soupe sur le comptoir.' (私はカウンターの上でスープを冷まします/冷まさせます)",
+    "options": [
+      "fais",
+      "rends",
+      "veux",
+      "laisse"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fais"
+    ],
+    "explanation": "「faire + 不定詞」で「〜させる」という使役を表します。Je fais refroidir で「冷ます（冷めるようにする）」となります。"
+  },
+  {
+    "id": "q_causative_02",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Faites ___ l'eau avant d'ajouter les pâtes.' (パスタを入れる前にお湯を沸騰させてください)",
+    "options": [
+      "bouillir",
+      "cuire",
+      "fondre",
+      "refroidir"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "bouillir"
+    ],
+    "explanation": "Faites bouillir で「沸騰させる（沸騰するようにする）」という使役表現になります。"
+  },
+  {
+    "id": "q_causative_03",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Le chef fait ___ le plat par le commis.' (シェフはコミュ（見習い）に料理の盛り付けをさせます)",
+    "options": [
+      "dresser",
+      "manger",
+      "laver",
+      "brûler"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "dresser"
+    ],
+    "explanation": "dresser は「盛り付ける」という意味の動詞です。fait dresser で「盛り付けさせる」となります。"
+  },
+  {
+    "id": "q_causative_04",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Choisissez le verbe correct : 'Cette sauce me fait ___ au Japon.' (このソースは私に日本を思い起こさせます)",
+    "options": [
+      "penser",
+      "cuisiner",
+      "aimer",
+      "venir"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "penser"
+    ],
+    "explanation": "faire penser à... で「〜を考えさせる/思い起こさせる」という使役表現になります。"
+  },
+  {
+    "id": "q_causative_05",
+    "tags": [
+      "#causative_faire"
+    ],
+    "type": "choice",
+    "text": "Remplissez le vide : 'Cette tarte est presque cuite, je la ___ dorer encore un peu.' (このタルトはほぼ焼き上がっています。もう少し焼き色をつけさせます)",
+    "options": [
+      "fais",
+      "laisse",
+      "veux",
+      "peux"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fais"
+    ],
+    "explanation": "dorer（焼き色をつける）を使役にして「焼き色をつけさせる（そうなるようにする）」ため la fais dorer とします。"
+  },
+  {
+    "id": "q_sub_01",
+    "tags": [
+      "#subjunctive_basic"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [cuire]) au subjonctif : 'Il faut que tu ___ la viande lentement.' (あなたは肉をゆっくり焼かなければならない)",
+    "options": [
+      "cuises",
+      "cuis",
+      "cuise",
+      "cuisesse"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "cuises"
+    ],
+    "explanation": "cuire の二人称単数 tu に対する接続法現在形は cuises です。"
+  },
+  {
+    "id": "q_sub_02",
+    "tags": [
+      "#subjunctive_basic"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [faire]) au subjonctif : 'Je veux que vous ___ la mise en place tout de suite.' (あなたたちに今すぐ仕込みをしてほしい)",
+    "options": [
+      "fassiez",
+      "faites",
+      "fasse",
+      "faisiez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fassiez"
+    ],
+    "explanation": "faire の二人称複数 vous に対する接続法現在形は不規則変化の fassiez です。"
+  },
+  {
+    "id": "q_sub_03",
+    "tags": [
+      "#subjunctive_basic"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [être]) au subjonctif : 'Il est nécessaire qu'il ___ présent en cuisine.' (彼が厨房にいることが必要だ)",
+    "options": [
+      "soit",
+      "est",
+      "sois",
+      "soient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soit"
+    ],
+    "explanation": "être の三人称単数 il に対する接続法現在形は soit です。"
+  },
+  {
+    "id": "q_sub_04",
+    "tags": [
+      "#subjunctive_basic"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [connaître]) au subjonctif : 'Pourvu qu'elle ___ la recette par cœur.' (彼女がレシピを暗記していることを望む)",
+    "options": [
+      "sache",
+      "sait",
+      "saches",
+      "sachez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sache"
+    ],
+    "explanation": "savoir の三人称単数 elle に対する接続法現在形は sache です。"
+  },
+  {
+    "id": "q_sub_05",
+    "tags": [
+      "#subjunctive_basic"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [être]) au subjonctif : 'Il faut que nous ___ prêts pour le service.' (私たちはサービスの準備ができていなければならない)",
+    "options": [
+      "soyons",
+      "sommes",
+      "soyez",
+      "soient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soyons"
+    ],
+    "explanation": "être の一人称複数 nous に対する接続法現在形は soyons です。"
+  },
+  {
+    "id": "q_fut_01",
+    "tags": [
+      "#futur_simple"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [préparer]) au futur simple : 'Demain, je ___ le poisson frais.' (明日、私は新鮮な魚を準備するつもりです)",
+    "options": [
+      "préparerai",
+      "préparerait",
+      "prépare",
+      "préparera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "préparerai"
+    ],
+    "explanation": "第一群規則動詞 préparer の一人称単数 (je) 単純未来は préparerai です。"
+  },
+  {
+    "id": "q_fut_02",
+    "tags": [
+      "#futur_simple"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [goûter]) au futur simple : 'Le chef ___ le nouveau plat ce soir.' (シェフは今夜、新しい料理を味見する予定です)",
+    "options": [
+      "goûtera",
+      "goûterai",
+      "goûte",
+      "goûteront"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "goûtera"
+    ],
+    "explanation": "goûter の三人称単数 (il) 単純未来は goûtera です。"
+  },
+  {
+    "id": "q_fut_03",
+    "tags": [
+      "#futur_simple"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [fermer]) au futur simple : 'Nous ___ le restaurant exceptionnellement lundi.' (月曜日は臨時休業します/閉める予定です)",
+    "options": [
+      "fermerons",
+      "fermons",
+      "fermerions",
+      "fermeront"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fermerons"
+    ],
+    "explanation": "fermer の一人称複数 (nous) 単純未来は fermerons です。"
+  },
+  {
+    "id": "q_fut_04",
+    "tags": [
+      "#futur_simple"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [créer]) au futur simple : 'Ils ___ une nouvelle carte pour la saison prochaine.' (彼らは来シーズン用に新メニューを作成する予定です)",
+    "options": [
+      "créeront",
+      "créerons",
+      "créent",
+      "créeraient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "créeront"
+    ],
+    "explanation": "créer の三人称複数 (ils) 単純未来は créeront です。"
+  },
+  {
+    "id": "q_cond_01",
+    "tags": [
+      "#conditional_present"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [vouloir]) au conditionnel présent : 'Je ___ proposer une modification de la recette.' (レシピの変更を提案したいのですが)",
+    "options": [
+      "voudrais",
+      "veux",
+      "voulais",
+      "voudrai"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "voudrais"
+    ],
+    "explanation": "vouloir の一人称単数 (je) 条件法現在は voudrais です。丁寧な要望や提案に使われます。"
+  },
+  {
+    "id": "q_cond_02",
+    "tags": [
+      "#conditional_present"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [devoir]) au conditionnel présent : 'Vous ___ nettoyer le plan de travail avant de partir.' (帰る前に作業台を掃除すべきです)",
+    "options": [
+      "devriez",
+      "devez",
+      "deviez",
+      "devrez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "devriez"
+    ],
+    "explanation": "devoir の二人称複数 (vous) 条件法現在は devriez です。アドバイスや控えめな義務を表します。"
+  },
+  {
+    "id": "q_cond_03",
+    "tags": [
+      "#conditional_present"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [faire]) : 'Si j'avais du temps, je ___ ce dessert délicat.' (もし時間があれば、この繊細なデザートを作るのだが)",
+    "options": [
+      "ferais",
+      "ferai",
+      "faisais",
+      "fais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ferais"
+    ],
+    "explanation": "「Si + 半過去, 条件法現在」の仮定の構文です。faire の条件法現在は gerais/ferais です。"
+  },
+  {
+    "id": "q_cond_04",
+    "tags": [
+      "#conditional_present"
+    ],
+    "type": "choice",
+    "text": "Complétez (動詞 [vouloir]) au conditionnel : 'Nous ___ déguster ce vin rouge avec le canard.' (私たちは鴨肉と一緒にこの赤ワインを試飲したいのですが)",
+    "options": [
+      "aimerions",
+      "aimons",
+      "aimions",
+      "aimerons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aimerions"
+    ],
+    "explanation": "aimer の一人称複数 (nous) 条件法現在は aimerions です。"
+  },
+  {
+    "id": "q_si_01",
+    "tags": [
+      "#si_clauses_present"
+    ],
+    "type": "choice",
+    "text": "Complétez la structure conditionnelle : 'Si tu ___ la viande sans surveillance, elle brûlera.' (肉を放置すると焦げてしまいますよ)",
+    "options": [
+      "laisses",
+      "laisseras",
+      "laisserais",
+      "laissais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "laisses"
+    ],
+    "explanation": "「Si + 現在形, 単純未来」で現実的な仮定を表します。Si の節には現在形 (laisses) を置きます。"
+  },
+  {
+    "id": "q_si_02",
+    "tags": [
+      "#si_clauses_present"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si vous ___ du sel, le goût sera parfait.' (塩を加えれば、味は完璧になります)",
+    "options": [
+      "ajoutez",
+      "ajouterez",
+      "ajouteriez",
+      "ajoutiez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ajoutez"
+    ],
+    "explanation": "「Si + 現在形 (ajoutez), 単純未来 (sera)」の構文規則に基づきます。"
+  },
+  {
+    "id": "q_si_03",
+    "tags": [
+      "#si_clauses_present"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si le chef ___, dites-lui que tout est prêt.' (もしシェフが来たら、すべて準備完了だと伝えてください)",
+    "options": [
+      "arrive",
+      "arrivera",
+      "arriverait",
+      "arrivait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "arrive"
+    ],
+    "explanation": "条件節「Si + 現在形 (arrive)」の後ろに命令文 (dites-lui) が続くパターンです。"
+  },
+  {
+    "id": "q_si_04",
+    "tags": [
+      "#si_clauses_present"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si nous ___ faim, nous préparerons une omelette.' (もしお腹が空いたら、オムレツを作るつもりです)",
+    "options": [
+      "avons",
+      "aurons",
+      "aurions",
+      "avions"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons"
+    ],
+    "explanation": "avoir の現在形 (avons) を用いた「Si + 現在形, 単純未来」の文です。"
+  },
+  {
+    "id": "q_pass_01",
+    "tags": [
+      "#passive_voice"
+    ],
+    "type": "choice",
+    "text": "Complétez au passif : 'La tarte aux pommes ___ préparée par le pâtissier.' (アップルタルトは製菓長によって準備されます)",
+    "options": [
+      "est",
+      "a",
+      "fait",
+      "été"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est"
+    ],
+    "explanation": "受動態は「être ＋ 過去分詞」で表します。tarte (女性単数) に合わせて過去分詞 préparée が性数一致しています。"
+  },
+  {
+    "id": "q_pass_02",
+    "tags": [
+      "#passive_voice"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Les légumes ___ coupés finement par le commis.' (野菜は見習いによって細かく切られます)",
+    "options": [
+      "sont",
+      "ont",
+      "font",
+      "seront"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sont"
+    ],
+    "explanation": "主語 les légumes (男性複数) に対応する être の現在形 sont と過去分詞 coupés を使います。"
+  },
+  {
+    "id": "q_pass_03",
+    "tags": [
+      "#passive_voice"
+    ],
+    "type": "choice",
+    "text": "Complétez au passif composé : 'La sauce a ___ faite par le sous-chef.' (ソースはスーシェフによって作られました)",
+    "options": [
+      "été",
+      "soit",
+      "fait",
+      "sont"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "été"
+    ],
+    "explanation": "複合過去の受動態は「avoir ＋ été ＋ 過去分詞」となります。sauce (女性) に合わせて faite と性数一致します。"
+  },
+  {
+    "id": "q_pass_04",
+    "tags": [
+      "#passive_voice"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Ces assiettes seront ___ avec soin.' (これらのお皿は丁寧に盛り付けられるでしょう)",
+    "options": [
+      "dressées",
+      "dressé",
+      "dresser",
+      "dresses"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "dressées"
+    ],
+    "explanation": "単純未来の受動態「seront + 過去分詞」です。主語 assiettes (女性複数) に合わせて dressées に一致させます。"
+  },
+  {
+    "id": "q_nf_add_01",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Complétez la phrase du chef : « Je ___ préparer la sauce pour le poisson. » (シェフの台詞を完成させてください：「私はこれから魚のソースを準備するところです。」)",
+    "options": [
+      "vais",
+      "vas",
+      "va",
+      "allons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vais"
+    ],
+    "explanation": "近接未来（aller + 不定詞）で主語が Je のとき、aller の活用形は vais になります。"
+  },
+  {
+    "id": "q_nf_add_02",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#restaurant"
+    ],
+    "type": "typing",
+    "text": "Le serveur demande aux clients : « Qu'est-ce que vous ___ commander comme dessert ? » (サーバーが客に尋ねます：「デザートには何を注文される予定ですか？」)",
+    "options": [
+      "allez",
+      "allons",
+      "vont",
+      "va"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "allez"
+    ],
+    "explanation": "二人称複数 vous に対する aller の活用形 is allez です。"
+  },
+  {
+    "id": "q_nf_add_03",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "Le chef annonce le début du service. Quelle phrase exprime « Nous allons ouvrir les portes du restaurant. » ? (シェフがサービスの開始を告げます。「私たちはこれからレストランの扉を開けるところだ」を表す正しい文はどれですか？)",
+    "options": [
+      "Nous allons ouvrir les portes du restaurant.",
+      "Nous venons d'ouvrir les portes du restaurant.",
+      "Nous ouvrons les portes du restaurant hier.",
+      "Nous allons ouverts les portes du restaurant."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Nous allons ouvrir les portes du restaurant."
+    ],
+    "explanation": "近接未来は「aller の現在形 ＋ 不定詞（ouvrir）」で作ります。Nous allons ouvrir で「これから開けるところだ」となります。"
+  },
+  {
+    "id": "q_nf_add_04",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "typing",
+    "text": "Le sous-chef te demande : « Tu ___ couper les oignons en julienne ? » (スーシェフが尋ねてきます：「君はこれから玉ねぎを千切りにしてくれるかい？」)",
+    "options": [
+      "vas",
+      "va",
+      "vais",
+      "allez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vas"
+    ],
+    "explanation": "主語 tu に対する aller の活用形は vas です。"
+  },
+  {
+    "id": "q_nf_add_05",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Le cuisinier prévient : « Attention, le bouillon va déborder ! » Que va-t-il se passer immédiatement ? (料理人が叫びます：「気をつけて、ブイヨンが吹きこぼれそうだよ！」この直後どうなりそうですか？)",
+    "options": [
+      "Le bouillon est sur le point de déborder de la casserole.",
+      "Le bouillon is déjà froid.",
+      "Le bouillon a fini de cuire hier.",
+      "Le chef a renversé le bouillon le matin."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Le bouillon is sur le point de déborder de la casserole."
+    ],
+    "explanation": "va déborder は近接未来で「今にも吹きこぼれそうだ」という目前の出来事を表します。"
+  },
+  {
+    "id": "q_nf_add_06",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Le sommelier annonce : « Nous ___ déguster un grand vin de Bourgogne ce soir. » (ソムリエが告知します：「私たちは今夜、ブルゴーニュの素晴らしいワインを試飲する予定です。」)",
+    "options": [
+      "allons",
+      "allez",
+      "vont",
+      "va"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "allons"
+    ],
+    "explanation": "主語 Nous に対する aller の活用形は allons です。"
+  },
+  {
+    "id": "q_nf_add_07",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Pour dire poliment « Je ne vais pas ajouter de sel dans ce plat », comment place-t-on la négation ? (「私はこの料理に塩を加えるつもりはありません」を正しく否定した文はどれですか？)",
+    "options": [
+      "Je ne vais pas ajouter de sel dans ce plat.",
+      "Je vais ne pas ajouter de sel dans ce plat.",
+      "Je ne pas vais ajouter de sel dans ce plat.",
+      "Je ne vais ajouter pas de sel dans ce plat."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je ne vais pas ajouter de sel dans ce plat."
+    ],
+    "explanation": "近接未来の否定文は、助動詞 aller を ne ... pas で挟みます（ne vais pas ajouter）。"
+  },
+  {
+    "id": "q_nf_add_08",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#market"
+    ],
+    "type": "typing",
+    "text": "À la criée du matin, le poissonnier crie : « Les bateaux ___ arriver au port avec des poissons frais ! » (朝の競りで魚屋が叫びます：「船が新鮮な魚を積んで港に到着するところだよ！」)",
+    "options": [
+      "vont",
+      "va",
+      "allons",
+      "allez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vont"
+    ],
+    "explanation": "主語 Les bateaux（三人称複数 ils）に対する aller の活用形は vont です。"
+  },
+  {
+    "id": "q_nf_add_09",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#dialogue"
+    ],
+    "type": "choice",
+    "text": "Après une longue journée en cuisine, Camille te dit : « Je vais me reposer un peu. » Que signifie cette phrase ? (過酷な厨房での一日を終え、カミーユが言います：「Je vais me reposer un peu.」これはどういう意味ですか？)",
+    "options": [
+      "私は少し休むつもりです（これから休みます）。",
+      "私は今さっき起きたばかりです。",
+      "私は料理を始めるところです。",
+      "私はもう十分に休みました。"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "私は少し休むつもりです（これから休みます）。"
+    ],
+    "explanation": "se reposer（休む・休息をとる）の近接未来で、「少し休むつもりだ」という意味です。"
+  },
+  {
+    "id": "q_nf_add_10",
+    "tags": [
+      "#near_future",
+      "#A2",
+      "#matching",
+      "#kitchen"
+    ],
+    "type": "matching",
+    "text": "Associez chaque membre de la brigade à son action imminente en cuisine. (厨房の各メンバーと、これから行う調理アクションを結びつけてください。)",
+    "pairs": [
+      {
+        "left": "Le chef (Il)",
+        "right": "va dresser les assiettes"
+      },
+      {
+        "left": "L'apprenti (Je)",
+        "right": "vais éplucher les légumes"
+      },
+      {
+        "left": "La brigade (Nous)",
+        "right": "allons commencer le service"
+      },
+      {
+        "left": "Les plongeurs (Ils)",
+        "right": "vont nettoyer la cuisine"
+      }
+    ],
+    "explanation": "厨房での役割に応じた近接未来（aller + 不定詞）のペアです。"
+  },
+  {
+    "id": "q_np_add_01",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "typing",
+    "text": "L'apprenti annonce fièrement au chef : « Je ___ de sortir le canard rôti du four ! » (見習いが誇らしげにシェフへ報告します：「ローストダックをオーブンから出したところです！」)",
+    "options": [
+      "viens",
+      "vient",
+      "venons",
+      "vais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "viens"
+    ],
+    "explanation": "近接過去（venir + de + 不定詞）で主語が Je のとき、venir の活用形は viens になります。"
+  },
+  {
+    "id": "q_np_add_02",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#restaurant"
+    ],
+    "type": "typing",
+    "text": "Le maître d'hôtel prévient la cuisine : « Les invités de la table 4 ___ d'arriver au restaurant. » (給仕長が厨房に伝えます：「4番テーブルのお客様がちょうど到着されたところです。」)",
+    "options": [
+      "viennent",
+      "vient",
+      "venez",
+      "venons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "viennent"
+    ],
+    "explanation": "主語 Les invités（三人称複数 ils）に対する venir の活用形は viennent です。"
+  },
+  {
+    "id": "q_np_add_03",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "Le sommelier goûte le millésime et dit : « Nous venons d'ouvrir cette bouteille de Bordeaux. » Qu'est-ce que cela veut dire ? (ソムリエがワインを試飲して言います：「Nous venons d'ouvrir cette bouteille de Bordeaux.」これはどういう状態ですか？)",
+    "options": [
+      "ボルドーのボトルをちょうど今開けたばかりである。",
+      "今夜ボルドーのボトルを開ける予定である。",
+      "ボルドーのボトルは昨日すでに飲み干した。",
+      "ボルドーのボトルを開けるのを断念した。"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ボルドーのボトルをちょうど今開けたばかりである。"
+    ],
+    "explanation": "venons d'ouvrir は「開けたばかりである（近接過去）」を表します。ouvrir が母音で始まるため de は d' にエリジオンします。"
+  },
+  {
+    "id": "q_np_add_04",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#pastry"
+    ],
+    "type": "typing",
+    "text": "Le pâtissier sourit : « La tarte aux pommes ___ de cuire à la perfection. » (パティシエが微笑みます：「アップルタルトがちょうど完璧に焼き上がったところだ。」)",
+    "options": [
+      "vient",
+      "viens",
+      "venons",
+      "viennent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vient"
+    ],
+    "explanation": "主語 La tarte aux pommes（三人称単数 elle）に対する venir の活用形は vient です。"
+  },
+  {
+    "id": "q_np_add_05",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Tu veux informer le chef que tu as terminé de monter la sauce à l'instant. Quelle phrase est correcte ? (シェフに「ちょうどソースを泡立て（モンテし）終えたところです」と正しく報告する文はどれですか？)",
+    "options": [
+      "Je viens de terminer la sauce.",
+      "Je viens à terminer la sauce.",
+      "Je vais de terminer la sauce.",
+      "Je viens terminer la sauce."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Je viens de terminer la sauce."
+    ],
+    "explanation": "近接過去は「venir の活用 ＋ de ＋ 不定詞」で作ります（Je viens de terminer）。"
+  },
+  {
+    "id": "q_np_add_06",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#service"
+    ],
+    "type": "typing",
+    "text": "Le chef demande aux serveurs : « Vous ___ de débarrasser la table des VIP ? » (シェフがサーバーたちに確認します：「VIPのテーブルをちょうど片付け終えたところですか？」)",
+    "options": [
+      "venez",
+      "venons",
+      "viennent",
+      "vient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venez"
+    ],
+    "explanation": "主語 vous に対する venir の活用形は venez です。"
+  },
+  {
+    "id": "q_np_add_07",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "« Le client vient de goûter le plat et il a adoré ! » Quelle est la situation du client ? (「お客様は料理を味見したばかりで、大絶賛されました！」お客様の状況として正しいものはどれですか？)",
+    "options": [
+      "Il a fini de goûter le plat il y a quelques instants.",
+      "Il goûtera le plat plus tard dans la soirée.",
+      "Il refuse absolument de goûter le plat.",
+      "Il n'a pas encore reçu son assiette."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Il a fini de goûter le plat il y a quelques instants."
+    ],
+    "explanation": "vient de goûter は近接過去で「ほんの少し前に味見をしたばかり」という状況を表します。"
+  },
+  {
+    "id": "q_np_add_08",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#market"
+    ],
+    "type": "typing",
+    "text": "En revenant du marché de Marseille, Camille dit : « Nous ___ d'acheter de magnifiques rougets ! » (マルセイユの市場から戻り、カミーユが言います：「素晴らしいヒメジ（魚）を買ってきたばかりよ！」)",
+    "options": [
+      "venons",
+      "venez",
+      "viennent",
+      "viens"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venons"
+    ],
+    "explanation": "主語 Nous に対する venir の活用形は venons です。"
+  },
+  {
+    "id": "q_np_add_09",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#kitchen"
+    ],
+    "type": "choice",
+    "text": "Le chef crie : « Chaud devant ! Je sors la poêle, elle vient d'être retirée du feu ! » Que signifie cette alerte ? (シェフが叫びます：「熱いぞ通るぞ！フライパンを出す、火から下ろしたばかりだ！」どういう注意喚起ですか？)",
+    "options": [
+      "La poêle est brûlante car elle était sur le feu il y a une seconde.",
+      "La poêle est totalement froide et propre.",
+      "Le feu de la cuisine vient de s'éteindre complètement.",
+      "La poêle va être mise sur le feu demain."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "La poêle est brûlante car elle était sur le feu il y a une seconde."
+    ],
+    "explanation": "vient d'être retirée du feu は「火から下ろされたばかり」という意味で、直前まで加熱されていて非常に熱い状態であることを示します。"
+  },
+  {
+    "id": "q_np_add_10",
+    "tags": [
+      "#near_past",
+      "#A2",
+      "#matching",
+      "#cuisine"
+    ],
+    "type": "matching",
+    "text": "Associez chaque phrase au passé récent avec son état en cuisine. (近接過去で報告された厨房の出来事と、その状態を結びつけてください。)",
+    "pairs": [
+      {
+        "left": "Le pain vient de sortir du four.",
+        "right": "Il is encore tout chaud et croustillant."
+      },
+      {
+        "left": "Le serveur vient de servir le vin.",
+        "right": "Les verres des clients sont pleins."
+      },
+      {
+        "left": "Le chef vient de goûter le potage.",
+        "right": "Il sait si l'assaisonnement est parfait."
+      },
+      {
+        "left": "La plonge vient de laver les casseroles.",
+        "right": "Le matériel est propre et disponible."
+      }
+    ],
+    "explanation": "近接過去（venir de + 不定詞）がもたらす直後のリアルな状況のペアです。"
+  },
+  {
+    "id": "q_pv_add_01",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "typing",
+    "text": "Le guide gastronomique explique : « En Provence, la bouillabaisse ___ sert traditionnellement avec de la rouille. » (美食ガイドが解説します：「プロヴァンスでは、ブイヤベースは伝統的にルイユを添えて提供されます。」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "nous"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "無生物主語 la bouillabaisse に対し、受動的代名動詞 se servir（提供される、給仕される）の再帰代名詞 se が入ります。"
+  },
+  {
+    "id": "q_pv_add_02",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#wine"
+    ],
+    "type": "choice",
+    "text": "Le sommelier conseille : « Ce vin blanc sec se boit très frais, entre 8 et 10 degrés. » Que veut-il dire ? (ソムリエが助言します：「この辛口白ワインは8〜10度でよく冷やして飲まれます（飲むのがおすすめです）。」どういう意味ですか？)",
+    "options": [
+      "On doit déguster ce vin lorsqu'il est bien frais.",
+      "Ce vin est tellement chaud qu'on ne peut pas le boire.",
+      "Le vin s'est renversé par terre dans la cave.",
+      "Personne ne boit ce genre de vin en France."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "On doit déguster ce vin lorsqu'il est bien frais."
+    ],
+    "explanation": "se boire は受動的に「〜のように飲まれる、飲むのが通例である」を表します。"
+  },
+  {
+    "id": "q_pv_add_03",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#pastry"
+    ],
+    "type": "typing",
+    "text": "Au comptoir de la boulangerie : « Ces croissants au beurre ___ vendent comme des petits pains dès le matin ! » (パン屋のカウンターで：「このクロワッサンは朝から飛ぶように売れます！」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "le"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "主語 Ces croissants に対し、受動的代名動詞 se vendre（売れる）の再帰代名詞 se が入ります。"
+  },
+  {
+    "id": "q_pv_add_04",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#service"
+    ],
+    "type": "choice",
+    "text": "Un serveur met les couteaux à l'envers sur la table. Le maître d'hôtel le corrige : « Attention, ça ne se fait pas ! » Que signifie ce reproche ? (サーバーがナイフを裏返しに並べました。給仕長が「Attention, ça ne se fait pas !」と注意しました。これはどういう意味ですか？)",
+    "options": [
+      "Ce n'est pas convenable selon les bonnes manières.",
+      "Le couteau est impossible à fabriquer.",
+      "La table n'est pas encore construite.",
+      "Le client a déjà payé l'addition."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Ce n'est pas convenable selon les bonnes manières."
+    ],
+    "explanation": "「Ça ne se fait pas.」は受動的表現（se faire）から生まれた日常的な決まり文句で、「そんなこと（マナー違反だから）するものではないよ」という意味です。"
+  },
+  {
+    "id": "q_pv_add_05",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cheese"
+    ],
+    "type": "typing",
+    "text": "Le fromager présente ses produits : « Le Roquefort et le Comté se ___ dans toutes les bonnes tables de France. » (チーズ職人が紹介します：「ロックフォールとコンテはフランスのすべての美食の食卓で見られます（置かれています）。」)",
+    "options": [
+      "trouvent",
+      "trouve",
+      "trouvez",
+      "trouvons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "trouvent"
+    ],
+    "explanation": "主語 Le Roquefort et le Comté が複数（2つのチーズ）なので、動詞 trouver も三人称複数形 trouvent になります（se trouvent = 見出される、ある）。"
+  },
+  {
+    "id": "q_pv_add_06",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#cuisine"
+    ],
+    "type": "choice",
+    "text": "« En cuisine française, la sauce béchamel se prépare avec du beurre, de la farine et du lait. » Quelle affirmation est vraie ? (「フランス料理において、ベシャメルソースはバター、小麦粉、牛乳で作られます。」正しい説明はどれですか？)",
+    "options": [
+      "Ces trois ingrédients sont utilisés pour réaliser la sauce béchamel.",
+      "La béchamel se mange uniquement avec du sucre.",
+      "Il est interdit d'utiliser du lait pour la béchamel.",
+      "La béchamel ne se cuisine jamais avec de la farine."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Ces trois ingrédients sont utilisés pour réaliser la sauce béchamel."
+    ],
+    "explanation": "se prépare で「〜を用いて調理される・作られる」という受動の製法を説明しています。"
+  },
+  {
+    "id": "q_pv_add_07",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#culture"
+    ],
+    "type": "typing",
+    "text": "Un young cuisinier étranger hésite sur un mot technique : « Chef, comment ce mot ___ prononce en français ? » (若い見習い料理人が専門用語に迷って尋ねます：「シェフ、この言葉はフランス語でどう発音されますか？」)",
+    "options": [
+      "se",
+      "me",
+      "te",
+      "lui"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "se",
+      "s'"
+    ],
+    "explanation": "無生物 ce mot を主語にして「どのように発音されるか」を表す受動用法は se prononcer です。"
+  },
+  {
+    "id": "q_pv_add_08",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#service"
+    ],
+    "type": "choice",
+    "text": "Le sommelier met en garde le stagiaire : « Attention, ces verres en cristal fin se lavent délicatement à la main. » Comment doit-on nettoyer ces verres ? (ソムリエが研修生に注意します：「気をつけて、この上質なクリスタルグラスは手洗いで優しく洗うものですよ。」グラスはどう洗うべきですか？)",
+    "options": [
+      "À la main avec beaucoup de précaution.",
+      "Dans une machine à laver très rapide.",
+      "Avec de l'eau bouillante et du sel.",
+      "On ne doit jamais les nettoyer."
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "À la main avec beaucoup de précaution."
+    ],
+    "explanation": "se lavent à la main は「手洗いで洗われる（手洗いすべきである）」という受動的用法です。"
+  },
+  {
+    "id": "q_pv_add_09",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#history"
+    ],
+    "type": "typing",
+    "text": "L'historien raconte l'époque médiévale : « À cette époque, les épices rares s'___ à prix d'or à travers l'Europe. » (歴史家が中世を語ります：「当時、希少なスパイスはヨーロッパ中で金と同等の高値で取引されて（買われて）いました。」)",
+    "options": [
+      "achetaient",
+      "achetait",
+      "achetons",
+      "achète"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "achetaient",
+      "achètent"
+    ],
+    "explanation": "主語 les épices rares（複数）に対する代名動詞 s'acheter（買われる・取引される）の活用です。"
+  },
+  {
+    "id": "q_pv_add_10",
+    "tags": [
+      "#passive_pronominal_verbs",
+      "#A2",
+      "#matching",
+      "#gastronomy"
+    ],
+    "type": "matching",
+    "text": "Associez chaque spécialité gastronomique à sa façon traditionnelle d'être dégustée. (フランスの各名物料理と、その伝統的な食され方・作られ方を結びつけてください。)",
+    "pairs": [
+      {
+        "left": "La soupe à l'oignon",
+        "right": "se mange bien gratinée au four"
+      },
+      {
+        "left": "Le champagne millésimé",
+        "right": "se déguste dans une flûte fraîche"
+      },
+      {
+        "left": "La viande de bœuf",
+        "right": "se cuit selon les goûts du client"
+      },
+      {
+        "left": "Le fromage de chèvre",
+        "right": "s'accompagne souvent d'un vin blanc"
+      }
+    ],
+    "explanation": "代名動詞の受動的用法（se manger, se déguster, se cuire, s'accompagner）を用いた実践的な美食表現のペアです。"
+  },
+  {
+    "id": "q_sub_06",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [avoir] au subjonctif présent : 'Le roi souhaite que nous ___ du courage.' (王は私たちが勇気を持つことを願っている)",
+    "options": [
+      "ayons",
+      "avons",
+      "avions",
+      "ayez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ayons"
+    ],
+    "explanation": "avoir の一人称複数 (nous) 接続法現在は不規則活用の「ayons」です。"
+  },
+  {
+    "id": "q_sub_07",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [être] au subjonctif présent : 'Il est important que vous ___ à l'heure.' (あなたたちが時間通りであることが重要です)",
+    "options": [
+      "soyez",
+      "êtes",
+      "étiez",
+      "sois"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soyez"
+    ],
+    "explanation": "être の二人称複数 (vous) 接続法現在は「soyez」です。"
+  },
+  {
+    "id": "q_sub_08",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [aller] au subjonctif présent : 'Je veux que tu ___ à Paris.' (私は君にパリへ行ってほしい)",
+    "options": [
+      "ailles",
+      "vas",
+      "alle",
+      "allais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ailles"
+    ],
+    "explanation": "aller の二人称単数 (tu) 接続法現在は「ailles」です。"
+  },
+  {
+    "id": "q_sub_09",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [savoir] au subjonctif présent : 'Il faut que le chef ___ la vérité.' (シェフはその真実を知らねばならない)",
+    "options": [
+      "sache",
+      "sait",
+      "savait",
+      "sachez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sache"
+    ],
+    "explanation": "savoir の三人称単数 (il/le chef) 接続法現在は「sache」となります。"
+  },
+  {
+    "id": "q_sub_10",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [pouvoir] au subjonctif présent : 'J'espère qu'ils viennent, mais il faut qu'ils ___ le faire.' (彼らが来られることが必要だ)",
+    "options": [
+      "puissent",
+      "peuvent",
+      "pouvaient",
+      "puisse"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "puissent"
+    ],
+    "explanation": "pouvoir の三人称複数 (ils) 接続法現在は「puissent」です。"
+  },
+  {
+    "id": "q_sub_11",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [venir] au subjonctif présent : 'Le commandant exige qu'elle ___ immédiatement.' (司令官は彼女が今すぐ来ることを要求している)",
+    "options": [
+      "vienne",
+      "vient",
+      "venait",
+      "viennes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vienne"
+    ],
+    "explanation": "venir の三人称単数 (elle) 接続法現在は「vienne」です。"
+  },
+  {
+    "id": "q_sub_12",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [prendre] au subjonctif présent : 'Il est nécessaire que nous ___ des précautions.' (私たちが予防策を取ることが必要だ)",
+    "options": [
+      "prenions",
+      "prenons",
+      "prenez",
+      "preniez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "prenions"
+    ],
+    "explanation": "prendre の一人称複数 (nous) 接続法現在は「prenions」です。"
+  },
+  {
+    "id": "q_sub_13",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Je crains que l'armée ne ___ battue.' (軍が敗北することを私は恐れている)",
+    "options": [
+      "soit",
+      "est",
+      "sera",
+      "sois"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soit"
+    ],
+    "explanation": "恐れ・感情を表す動詞（craindre）に続く従属節では接続法（soit）が用いられます。"
+  },
+  {
+    "id": "q_sub_14",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [finir] au subjonctif présent : 'Il faut que vous ___ ce travail ce soir.' (あなたたちは今晩この仕事を終えねばならない)",
+    "options": [
+      "finissiez",
+      "finissez",
+      "finirez",
+      "finirez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "finissiez"
+    ],
+    "explanation": "finir の二人称複数 (vous) 接続法現在は「finissiez」です。"
+  },
+  {
+    "id": "q_sub_15",
+    "tags": [
+      "#subjunctive_basic",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Bien qu'il ___ fatigué, Jeanne continue de prier.' (疲れているにもかかわらず、ジャンヌは祈り続ける)",
+    "options": [
+      "soit",
+      "est",
+      "était",
+      "sera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soit"
+    ],
+    "explanation": "譲歩を表す接続詞「bien que」の後は必ず接続法（soit）になります。"
+  },
+  {
+    "id": "q_obli_05",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que nous ___ les portes de la forteresse.' (要塞の門を閉めなければならない)",
+    "options": [
+      "fermions",
+      "fermons",
+      "fermerons",
+      "fermeriez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fermions"
+    ],
+    "explanation": "「Il faut que」の後は接続法を用います。fermer の nous 形接続法は「fermions」です。"
+  },
+  {
+    "id": "q_obli_06",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut qu'ils ___ le signal avant l'assaut.' (突撃の前に合図を出さなければならない)",
+    "options": [
+      "donnent",
+      "donneront",
+      "donnaient",
+      "donnassent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "donnent"
+    ],
+    "explanation": "donner の ils に対する接続法現在は「donnent」です。"
+  },
+  {
+    "id": "q_obli_07",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que le dauphin ___ confiance en Jeanne.' (王太子はジャンヌを信頼しなければならない)",
+    "options": [
+      "ait",
+      "a",
+      "aura",
+      "avait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ait"
+    ],
+    "explanation": "avoir の三人称単数接続法現在は「ait」です（Il faut qu'il ait...）。"
+  },
+  {
+    "id": "q_obli_08",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que vous ___ le roi à Reims.' (あなたたちは王をランスへ導かねばならない)",
+    "options": [
+      "meniez",
+      "menez",
+      "meneriez",
+      "menerez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "meniez"
+    ],
+    "explanation": "mener の vous 接続法現在は「meniez」です。"
+  },
+  {
+    "id": "q_obli_09",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que je ___ cette lettre au commandant.' (私はこの手紙を司令官に届けねばならない)",
+    "options": [
+      "remette",
+      "remets",
+      "remettais",
+      "remettrai"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "remette"
+    ],
+    "explanation": "remettre の je に対する接続法現在は「remette」です。"
+  },
+  {
+    "id": "q_obli_10",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que nous ___ prêts pour le combat.' (私たちは戦いに備えておかなければならない)",
+    "options": [
+      "soyons",
+      "sommes",
+      "étions",
+      "serons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "soyons"
+    ],
+    "explanation": "être の nous に対する接続法現在は「soyons」です。"
+  },
+  {
+    "id": "q_obli_11",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut qu'elle ___ la vérité au conseil.' (彼女は評議会に真実を語らねばならない)",
+    "options": [
+      "dise",
+      "dit",
+      "disait",
+      "dira"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "dise"
+    ],
+    "explanation": "dire の elle に対する接続法現在は「dise」です。"
+  },
+  {
+    "id": "q_obli_12",
+    "tags": [
+      "#obligation_il_faut_que",
+      "#subjunctive_basic",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il faut que vous ___ la sauce sans arrêt.' (ソースを絶え間なくかき混ぜなければなりません)",
+    "options": [
+      "remuiez",
+      "remuez",
+      "remuerez",
+      "remueriez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "remuiez"
+    ],
+    "explanation": "remuer の vous 接続法現在は「remuiez」です。"
+  },
+  {
+    "id": "q_imp_06",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [faire] à l'imparfait : 'À cette époque, il ___ très froid en hiver.' (当時、冬はとても寒かった)",
+    "options": [
+      "faisait",
+      "faissait",
+      "a fait",
+      "fit"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faisait"
+    ],
+    "explanation": "faire の三人称単数半過去は「faisait」です。"
+  },
+  {
+    "id": "q_imp_07",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [pouvoir] à l'imparfait : 'Nous ne ___ pas traverser le fleuve.' (私たちは川を渡ることができなかった)",
+    "options": [
+      "pouvions",
+      "pouvons",
+      "pourrions",
+      "pûmes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pouvions"
+    ],
+    "explanation": "pouvoir の nous に対する半過去形は「pouvions」です。"
+  },
+  {
+    "id": "q_imp_08",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [vouloir] à l'imparfait : 'Le roi ___ agrandir son territoire.' (王は領土を拡大したいと思っていた)",
+    "options": [
+      "voulait",
+      "veut",
+      "voulut",
+      "voudrait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "voulait"
+    ],
+    "explanation": "vouloir の三人称単数半過去形は「voulait」です。"
+  },
+  {
+    "id": "q_imp_09",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [prendre] à l'imparfait : 'Chaque matin, les moines ___ leur repas en silence.' (毎朝、修道士たちは沈黙の中で食事をとっていた)",
+    "options": [
+      "prenaient",
+      "preniez",
+      "prenait",
+      "prirent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "prenaient"
+    ],
+    "explanation": "prendre の三人称複数半過去形は「prenaient」です（過去の習慣）。"
+  },
+  {
+    "id": "q_imp_10",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [aller] à l'imparfait : 'Tu ___ souvent à la messe ?' (君はよくミサに通っていたの？)",
+    "options": [
+      "allais",
+      "allait",
+      "alliez",
+      "vas"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "allais"
+    ],
+    "explanation": "aller の二人称単数 (tu) 半過去形は「allais」です。"
+  },
+  {
+    "id": "q_imp_11",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [avoir] à l'imparfait : 'Les soldats ___ faim et soif.' (兵士たちは飢えと渇きを抱えていた)",
+    "options": [
+      "avaient",
+      "avaient eu",
+      "ont eu",
+      "avaient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avaient"
+    ],
+    "explanation": "avoir の三人称複数 (ils) 半過去形は「avaient」です。"
+  },
+  {
+    "id": "q_imp_12",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [vivre] à l'imparfait : 'Elle ___ dans un petit village de Lorraine.' (彼女はロレーヌの小さな村に住んでいた)",
+    "options": [
+      "vivait",
+      "vit",
+      "a vécu",
+      "vivais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "vivait"
+    ],
+    "explanation": "vivre の三人称単数半過去形は「vivait」です。"
+  },
+  {
+    "id": "q_imp_13",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [être] à l'imparfait : 'Vous ___ les plus fidèles chevaliers.' (あなたたちは最も忠実な騎士たちだった)",
+    "options": [
+      "étiez",
+      "êtes",
+      "fûtes",
+      "étions"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étiez"
+    ],
+    "explanation": "être の二人称複数 (vous) 半過去形は「étiez」です。"
+  },
+  {
+    "id": "q_imp_14",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [savoir] à l'imparfait : 'Personne ne ___ comment défendre le pont.' (誰も橋をどう防衛すべきか知らなかった)",
+    "options": [
+      "savait",
+      "sait",
+      "sut",
+      "sachait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "savait"
+    ],
+    "explanation": "savoir の三人称単数半過去形は「savait」です。"
+  },
+  {
+    "id": "q_imp_15",
+    "tags": [
+      "#imparfait",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [devoir] à l'imparfait : 'Le peuple ___ payer de lourds impôts.' (民衆は重税を払わねばならなかった)",
+    "options": [
+      "devait",
+      "doit",
+      "dut",
+      "devrait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "devait"
+    ],
+    "explanation": "devoir の三人称単数半過去形は「devait」です。"
+  },
+  {
+    "id": "q_ivspc_06",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Choisissez les temps corrects : 'Pendant que les archers ___, l'ennemi ___.' (弓兵が撃っていた時、敵が突撃してきた)",
+    "options": [
+      "tiraient / a chargé",
+      "ont tiré / chargeait",
+      "tiraient / chargeait",
+      "ont tiré / a chargé"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "tiraient / a chargé"
+    ],
+    "explanation": "継続中の背景動作には半過去（tiraient）、突発的に起こった完了動作には複合過去（a chargé）を用います。"
+  },
+  {
+    "id": "q_ivspc_07",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Quand le roi ___ la nouvelle, il ___ furieux.' (王はその知らせを聞いた時、激怒した[状態になった])",
+    "options": [
+      "a appris / était",
+      "apprenait / a été",
+      "a appris / a été",
+      "apprenait / était"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a appris / était"
+    ],
+    "explanation": "知らせを聞いた瞬間（点・複合過去: a appris）と、その時の心理状態（半過去: était）の組み合わせです。"
+  },
+  {
+    "id": "q_ivspc_08",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Hier à 15 heures, nous ___ dans la cuisine quand l'alarme ___.' (昨日の15時、厨房で作業していたら警報が鳴った)",
+    "options": [
+      "travaillions / a sonné",
+      "avons travaillé / sonnait",
+      "travaillions / sonnait",
+      "avons travaillé / a sonné"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "travaillions / a sonné"
+    ],
+    "explanation": "作業中（継続・半過去）に警報が鳴り響いた（割り込み・複合過去）を表します。"
+  },
+  {
+    "id": "q_ivspc_09",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il ___ beau, alors l'armée ___ sa marche.' (天気が良かったので、軍は進軍を開始した)",
+    "options": [
+      "faisait / a commencé",
+      "a fait / commençait",
+      "faisait / commençait",
+      "a fait / a commencé"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faisait / a commencé"
+    ],
+    "explanation": "天候の描写（半過去: faisait）と、進軍を開始した出来事（複合過去: a commencé）です。"
+  },
+  {
+    "id": "q_ivspc_10",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Soudain, un chevalier ___ dans la salle.' (突然、一人の騎士が広間に入ってきた)",
+    "options": [
+      "est entré",
+      "entrait",
+      "était entré",
+      "entre"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est entré"
+    ],
+    "explanation": "「Soudain（突然）」などの副詞がある明確な一回限りの出来事には複合過去を用います。"
+  },
+  {
+    "id": "q_ivspc_11",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Autrefois, le château ___ entouré d'eau.' (昔、その城は水に囲まれていた)",
+    "options": [
+      "était",
+      "a été",
+      "fut",
+      "serait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "était"
+    ],
+    "explanation": "「Autrefois（かつて）」に代表される過去の継続的状態描写には半過去（était）を用います。"
+  },
+  {
+    "id": "q_ivspc_12",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Pendant que Jeanne ___, les troupes l'ont écoutée.' (ジャンヌが演説している間、軍勢は彼女に耳を傾けた)",
+    "options": [
+      "parlait",
+      "a parlé",
+      "parlerait",
+      "parle"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "parlait"
+    ],
+    "explanation": "「Pendant que（〜している間）」に導かれる背景動作には半過去を用います。"
+  },
+  {
+    "id": "q_ivspc_13",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'En 1429, Jeanne d'Arc ___ Orléans.' (1429年、ジャンヌ・ダルクはオルレアンを解放した)",
+    "options": [
+      "a libéré",
+      "libérait",
+      "libère",
+      "avait libéré"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a libéré"
+    ],
+    "explanation": "明確な年号を伴う歴史的完結事実には複合過去（a libéré）を用います。"
+  },
+  {
+    "id": "q_ivspc_14",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Tout à coup, le ciel ___ sombre.' (突然、空が暗くなった)",
+    "options": [
+      "est devenu",
+      "devenait",
+      "devenant",
+      "devient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est devenu"
+    ],
+    "explanation": "「Tout à coup（突如として）」による変化の瞬間には複合過去（est devenu）が適します。"
+  },
+  {
+    "id": "q_ivspc_15",
+    "tags": [
+      "#imparfait_vs_past_compose",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Comme nous ___ très fatigués, nous nous sommes arrêtés.' (とても疲れていたので、私たちは立ち止まった)",
+    "options": [
+      "étions",
+      "avons été",
+      "fûmes",
+      "serions"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étions"
+    ],
+    "explanation": "立ち止まる原因となった過去の状態描写には半過去（étions）を用います。"
+  },
+  {
+    "id": "q_cond_05",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [pouvoir] au conditionnel présent : '___-vous m'apporter de l'eau ?' (お水を持ってきていただけますでしょうか？)",
+    "options": [
+      "Pourriez",
+      "Pouvez",
+      "Pouviez",
+      "Pourrez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "Pourriez",
+      "pourriez"
+    ],
+    "explanation": "pouvoir の vous 条件法現在は「Pourriez」で、丁寧な依頼を表します。"
+  },
+  {
+    "id": "q_cond_06",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [aimer] au conditionnel présent : 'J'___ rencontrer le roi.' (王にお会いしたいのですが)",
+    "options": [
+      "aimerais",
+      "aime",
+      "aimais",
+      "aimerai"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aimerais"
+    ],
+    "explanation": "aimer の je 条件法現在は「aimerais」で、丁寧な希望（〜したい）を表します。"
+  },
+  {
+    "id": "q_cond_07",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [être] au conditionnel présent : 'Ce ___ un grand honneur.' (それは大変な名誉なことでしょう)",
+    "options": [
+      "serait",
+      "sera",
+      "était",
+      "soit"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "serait"
+    ],
+    "explanation": "être の三人称単数条件法現在は「serait」です。"
+  },
+  {
+    "id": "q_cond_08",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [faire] au conditionnel présent : 'Que ___-vous à ma place ?' (もし私の立場なら何をなさいますか？)",
+    "options": [
+      "feriez",
+      "faites",
+      "faisiez",
+      "ferez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "feriez"
+    ],
+    "explanation": "faire の vous 条件法現在は「feriez」です。"
+  },
+  {
+    "id": "q_cond_09",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [avoir] au conditionnel présent : 'Nous ___ besoin de renforts.' (私たちは援軍が必要になるかもしれません)",
+    "options": [
+      "aurions",
+      "avons",
+      "avions",
+      "aurons"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aurions"
+    ],
+    "explanation": "avoir の nous 条件法現在は「aurions」です。"
+  },
+  {
+    "id": "q_cond_10",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [devoir] au conditionnel présent : 'Tu ___ te reposer un peu.' (少し休んだほうがいいよ)",
+    "options": [
+      "devrais",
+      "dois",
+      "devais",
+      "devras"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "devrais"
+    ],
+    "explanation": "devoir の tu 条件法現在「devrais」は助言（〜すべきだ）を表します。"
+  },
+  {
+    "id": "q_cond_11",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [falloir] au conditionnel présent : 'Il ___ négocier avec eux.' (彼らと交渉すべきでしょう)",
+    "options": [
+      "faudrait",
+      "faut",
+      "fallait",
+      "faudra"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "faudrait"
+    ],
+    "explanation": "falloir の条件法現在は「faudrait」で、控えめな必要性を表します。"
+  },
+  {
+    "id": "q_cond_12",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [savoir] au conditionnel présent : 'Je ne ___ vous dire la réponse.' (お答えすることはできかねます)",
+    "options": [
+      "saurais",
+      "sais",
+      "savais",
+      "saurai"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "saurais"
+    ],
+    "explanation": "savoir の je 条件法現在は「saurais」です。"
+  },
+  {
+    "id": "q_cond_13",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [vouloir] au conditionnel présent : 'Le chevalier ___ partir à l'aube.' (その騎士は夜明けに出発したいと望んでいる)",
+    "options": [
+      "voudrait",
+      "veut",
+      "voulait",
+      "voudra"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "voudrait"
+    ],
+    "explanation": "vouloir の三人称単数条件法現在は「voudrait」です。"
+  },
+  {
+    "id": "q_cond_14",
+    "tags": [
+      "#conditional_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [aller] au conditionnel présent : 'Où ___-tu si tu avais le choix ?' (もし選べるならどこへ行く？)",
+    "options": [
+      "irais",
+      "vas",
+      "allais",
+      "iras"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "irais"
+    ],
+    "explanation": "aller の tu 条件法現在は「irais」です。"
+  },
+  {
+    "id": "q_si_05",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si nous attaquons maintenant, nous ___ la bataille.' (もし今攻撃すれば、私たちは戦いに勝つだろう)",
+    "options": [
+      "gagnerons",
+      "gagnions",
+      "gagnerions",
+      "avons gagné"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "gagnerons"
+    ],
+    "explanation": "「Si + 直説法現在, 直説法未来」は現実的な仮定と将来の帰結を表します。"
+  },
+  {
+    "id": "q_si_06",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si le roi le veut, la paix ___ proclamée.' (王が望むなら、平和が宣言されるだろう)",
+    "options": [
+      "sera",
+      "serait",
+      "était",
+      "soit"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sera"
+    ],
+    "explanation": "Si節が直説法現在（veut）なので、主節は単純未来（sera）となります。"
+  },
+  {
+    "id": "q_si_07",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si vous avez faim, ___ cette soupe chaude.' (もしお腹が空いているなら、この温かいスープをお召し上がりください)",
+    "options": [
+      "prenez",
+      "prendrez",
+      "prendriez",
+      "preniez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "prenez"
+    ],
+    "explanation": "「Si + 現在, 命令形」の構文で、条件に応じた指示を表します。"
+  },
+  {
+    "id": "q_si_08",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si les renforts n'arrivent pas, la forteresse ___ tomber.' (もし援軍が来なければ、要塞は陥落するだろう)",
+    "options": [
+      "va",
+      "allait",
+      "irait",
+      "aille"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "va"
+    ],
+    "explanation": "近接未来（va tomber）または単純未来が主節に来ます。"
+  },
+  {
+    "id": "q_si_09",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si tu es prêt, nous ___ tout de suite.' (もし準備ができているなら、すぐに出発しよう)",
+    "options": [
+      "partons",
+      "partions",
+      "partirions",
+      "partîmes"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "partons"
+    ],
+    "explanation": "「Si + 現在, 現在形」で確実な行動を宣言します。"
+  },
+  {
+    "id": "q_si_10",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si vous trouvez la relique, ___ la moi !' (もしその聖遺物を見つけたら、私に届けてくれ！)",
+    "options": [
+      "apportez",
+      "apporterez",
+      "apporteriez",
+      "apportiez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "apportez"
+    ],
+    "explanation": "条件に基づく命令形「apportez-la-moi !」です。"
+  },
+  {
+    "id": "q_si_11",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si la pluie s'arrête, les archers ___ tirer.' (雨が止めば、弓兵たちは矢を射ることができる)",
+    "options": [
+      "pourront",
+      "pouvaient",
+      "pourraient",
+      "puissent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pourront"
+    ],
+    "explanation": "Si + 現在（s'arrête）に対し、主節は単純未来（pourront）になります。"
+  },
+  {
+    "id": "q_si_12",
+    "tags": [
+      "#si_clauses_present",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Si tu vois le danger, ___ immédiatement !' (もし危険を見かけたら、直ちに警告せよ！)",
+    "options": [
+      "avertis",
+      "avertiras",
+      "avertirais",
+      "avertissais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avertis"
+    ],
+    "explanation": "二人称単数の命令形（avertis !）です。"
+  },
+  {
+    "id": "q_pass_05",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Transformez à la voix passive : 'Le roi signe le traité.' ➔ 'Le traité ___ par le roi.' (条約は国王によって署名される)",
+    "options": [
+      "est signé",
+      "a signé",
+      "était signé",
+      "sera signé"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est signé"
+    ],
+    "explanation": "現在形の受動態は「êtreの現在形(est) ＋ 過去分詞(signé) ＋ par ...」です。"
+  },
+  {
+    "id": "q_pass_06",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez au passé composé passif : 'La forteresse ___ par les troupes françaises.' (要塞はフランス軍によって奪還された)",
+    "options": [
+      "a été reprise",
+      "a repris",
+      "était reprise",
+      "est reprise"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a été reprise"
+    ],
+    "explanation": "複合過去の受動態は「a été ＋ 過去分詞(女性形: reprise)」です。"
+  },
+  {
+    "id": "q_pass_07",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Jeanne d'Arc a été capturée ___ les Bourguignons.' (ジャンヌ・ダルクはブルゴーニュ派によって捕縛された)",
+    "options": [
+      "par",
+      "de",
+      "pour",
+      "avec"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "par"
+    ],
+    "explanation": "受動態における動作主は前置詞「par」で導かれます。"
+  },
+  {
+    "id": "q_pass_08",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Le roi était respecté ___ tout son peuple.' (王は全国民から敬愛されていた)",
+    "options": [
+      "de",
+      "par",
+      "avec",
+      "en"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "de"
+    ],
+    "explanation": "感情・敬意を表す動詞（respecter, aimer等）の受動態では動作主に「de」を用いることが一般的です。"
+  },
+  {
+    "id": "q_pass_09",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez au futur passif : 'Les remparts ___ bientôt reconstruits.' (城壁はまもなく再建されるだろう)",
+    "options": [
+      "seront",
+      "sont",
+      "étaient",
+      "auront été"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "seront"
+    ],
+    "explanation": "単純未来の受動態は「seront ＋ 過去分詞」です。"
+  },
+  {
+    "id": "q_pass_10",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Les terres ont été confisquées ___ le roi de France.' (領地はフランス王によって没収された)",
+    "options": [
+      "par",
+      "de",
+      "pour",
+      "à"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "par"
+    ],
+    "explanation": "具体的な没収行為の動作主は「par」で導きます。"
+  },
+  {
+    "id": "q_pass_11",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Ce plat traditionnel est préparé ___ notre grand chef.' (この伝統料理は私たちの総料理長によって作られます)",
+    "options": [
+      "par",
+      "de",
+      "avec",
+      "sur"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "par"
+    ],
+    "explanation": "調理行為の動作主は「par」を用います。"
+  },
+  {
+    "id": "q_pass_12",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Toutes les villes ___ occupées pendant la guerre.' (戦争中、すべての都市が占領されていた)",
+    "options": [
+      "étaient",
+      "avaient",
+      "furent",
+      "soient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "étaient"
+    ],
+    "explanation": "半過去の受動態「étaient occupées（占領されていた）」です。"
+  },
+  {
+    "id": "q_pass_13",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Mettez au passif : 'On a découvert un secret.' ➔ 'Un secret ___.' (秘密が発見された)",
+    "options": [
+      "a été découvert",
+      "est découvert",
+      "était découvert",
+      "a découvert"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a été découvert"
+    ],
+    "explanation": "複合過去の受動態「a été découvert」です。"
+  },
+  {
+    "id": "q_pass_14",
+    "tags": [
+      "#passive_voice",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Ces lois ___ promulguées l'année prochaine.' (これらの法律は来年発布される予定だ)",
+    "options": [
+      "seront",
+      "sont",
+      "étaient",
+      "seraient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "seront"
+    ],
+    "explanation": "来年のことなので未来形受動態「seront promulguées」になります。"
+  },
+  {
+    "id": "q_fut_05",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [être] au futur simple : 'Demain, je ___ à la cour royale.' (明日、私は宮廷にいるだろう)",
+    "options": [
+      "serai",
+      "serais",
+      "suis",
+      "seras"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "serai"
+    ],
+    "explanation": "être の je 単純未来は「serai」です（-ai 語尾）。"
+  },
+  {
+    "id": "q_fut_06",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [avoir] au futur simple : 'Vous ___ toutes les ressources nécessaires.' (あなたたちは必要な資源をすべて手にいれるだろう)",
+    "options": [
+      "aurez",
+      "auriez",
+      "avez",
+      "aviez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aurez"
+    ],
+    "explanation": "avoir の vous 単純未来は「aurez」です。"
+  },
+  {
+    "id": "q_fut_07",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [aller] au futur simple : 'Nous ___ jusqu'au bout de notre mission.' (私たちは使命の最後まで行くだろう)",
+    "options": [
+      "irons",
+      "irions",
+      "allons",
+      "allions"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "irons"
+    ],
+    "explanation": "aller の nous 単純未来は「irons」です。"
+  },
+  {
+    "id": "q_fut_08",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [faire] au futur simple : 'Le royaume ___ de grandes choses.' (王国は偉大なことを成し遂げるだろう)",
+    "options": [
+      "fera",
+      "ferait",
+      "fait",
+      "feras"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "fera"
+    ],
+    "explanation": "faire の三人称単数単純未来は「fera」です。"
+  },
+  {
+    "id": "q_fut_09",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [pouvoir] au futur simple : 'Ils ___ franchir les murailles.' (彼らは城壁を突破できるだろう)",
+    "options": [
+      "pourront",
+      "pourraient",
+      "peuvent",
+      "pouvaient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pourront"
+    ],
+    "explanation": "pouvoir の三人称複数単純未来は「pourront」です。"
+  },
+  {
+    "id": "q_fut_10",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [venir] au futur simple : 'Le messager ___ ce soir.' (使者は今晩やって来るだろう)",
+    "options": [
+      "viendra",
+      "viendrait",
+      "vient",
+      "venait"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "viendra"
+    ],
+    "explanation": "venir の三人称単数単純未来は「viendra」です。"
+  },
+  {
+    "id": "q_fut_11",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [savoir] au futur simple : 'Bientôt, tu ___ toute la vérité.' (まもなく、君はすべての真実を知ることになるだろう)",
+    "options": [
+      "sauras",
+      "saurais",
+      "sais",
+      "savais"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sauras"
+    ],
+    "explanation": "savoir の tu 単純未来は「sauras」です。"
+  },
+  {
+    "id": "q_fut_12",
+    "tags": [
+      "#futur_simple",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [voir] au futur simple : 'Vous ___ la grandeur de notre cité.' (あなたたちは我が都市の壮大さを目にすることでしょう)",
+    "options": [
+      "verrez",
+      "verriez",
+      "voyez",
+      "voyiez"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "verrez"
+    ],
+    "explanation": "voir の vous 単純未来は「verrez」です。"
+  },
+  {
+    "id": "q_pc_06",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le bon auxiliaire : 'Le roi ___ parti pour la croisade.' (王は十字軍へ出発した)",
+    "options": [
+      "est",
+      "a",
+      "était",
+      "sera"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est"
+    ],
+    "explanation": "partir は往来発着の動詞のため助動詞「être」を用います（est parti）。"
+  },
+  {
+    "id": "q_pc_07",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez avec le bon auxiliaire : 'Les marchands ___ vendu toutes leurs épices.' (商人たちはスパイスをすべて売った)",
+    "options": [
+      "ont",
+      "sont",
+      "avaient",
+      "étaient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "ont"
+    ],
+    "explanation": "vendre は他動詞のため助動詞「avoir」を用います（ont vendu）。"
+  },
+  {
+    "id": "q_pc_08",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez au passé composé : 'Jeanne (arriver) ___ à Chinon.' (ジャンヌはシノンに到着した)",
+    "options": [
+      "est arrivée",
+      "a arrivé",
+      "est arrivé",
+      "a arrivée"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est arrivée"
+    ],
+    "explanation": "arriver は être 助動詞をとり、主語 Jeanne（女性単数）に過去分詞が一致して「est arrivée」となります。"
+  },
+  {
+    "id": "q_pc_09",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez au passé composé : 'Les chevaliers (mourir) ___ au combat.' (騎士たちは戦いで命を落とした)",
+    "options": [
+      "sont morts",
+      "ont mort",
+      "ont mouru",
+      "sont mort"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sont morts"
+    ],
+    "explanation": "mourir は être 助動詞をとり、男性複数一致で「sont morts」となります。"
+  },
+  {
+    "id": "q_pc_10",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [prendre] au passé composé : 'Nous ___ le contrôle de la ville.' (私たちは町の支配権を握った)",
+    "options": [
+      "avons pris",
+      "sommes pris",
+      "avons prendu",
+      "avons prennent"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avons pris"
+    ],
+    "explanation": "prendre の過去分詞は不規則の「pris」で、助動詞 avoir を用います。"
+  },
+  {
+    "id": "q_pc_11",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [devenir] au passé composé : 'Il ___ un grand souverain.' (彼は偉大な君主となった)",
+    "options": [
+      "est devenu",
+      "a devenu",
+      "est deveni",
+      "a devu"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est devenu"
+    ],
+    "explanation": "devenir は助動詞 être をとります（est devenu）。"
+  },
+  {
+    "id": "q_pc_12",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [écrire] au passé composé : 'Le pape ___ une lettre importante.' (教皇は重要な親書を書いた)",
+    "options": [
+      "a écrit",
+      "est écrit",
+      "a écrié",
+      "a écris"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "a écrit"
+    ],
+    "explanation": "écrire の過去分詞は「écrit」で、助動詞 avoir を用います。"
+  },
+  {
+    "id": "q_pc_13",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [naître] au passé composé : 'Le prince ___ en Normandie.' (王子はノルマンディーで生まれた)",
+    "options": [
+      "est né",
+      "a né",
+      "a naît",
+      "est néé"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "est né"
+    ],
+    "explanation": "naître は助動詞 être をとり、過去分詞は「né」です。"
+  },
+  {
+    "id": "q_pc_14",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [faire] au passé composé : 'Qu'est-ce que vous ___ hier ?' (昨日あなたは何をしましたか？)",
+    "options": [
+      "avez fait",
+      "êtes fait",
+      "avez fais",
+      "avez fat"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "avez fait"
+    ],
+    "explanation": "faire の過去分詞は「fait」です（vous avez fait）。"
+  },
+  {
+    "id": "q_pc_15",
+    "tags": [
+      "#past_compose",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Mettez le verbe [descendre] au passé composé : 'Les archers ___ de la tour.' (弓兵たちは塔から降りてきた)",
+    "options": [
+      "sont descendus",
+      "ont descendu",
+      "sont descendu",
+      "ont descendus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "sont descendus"
+    ],
+    "explanation": "自動詞としての descendre は助動詞 être をとり、主語に性数一致します（sont descendus）。"
+  },
+  {
+    "id": "q_ppa_06",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Les lettres que le roi a (écrire) ___ sont scellées.' (王が書いた手紙は封印されている)",
+    "options": [
+      "écrites",
+      "écrit",
+      "écrite",
+      "écrits"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "écrites"
+    ],
+    "explanation": "直接目的語（que = les lettres, 女性複数）が動詞の前に先行しているため、過去分詞は「écrites」と一致します。"
+  },
+  {
+    "id": "q_ppa_07",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Voici les épées qu'ils ont (forger) ___.' (これが彼らが鍛え上げた剣だ)",
+    "options": [
+      "forgées",
+      "forgé",
+      "forgée",
+      "forgés"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "forgées"
+    ],
+    "explanation": "先行詞 les épées（女性複数）が目的語として先行するため「forgées」となります。"
+  },
+  {
+    "id": "q_ppa_08",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Elles se sont (rencontrer) ___ à Paris.' (彼女たちはパリで出会った)",
+    "options": [
+      "rencontrées",
+      "rencontré",
+      "rencontrée",
+      "rencontrés"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "rencontrées"
+    ],
+    "explanation": "相互的代名動詞（se = 直接目的語, 女性複数 elles）のため「rencontrées」と一致します。"
+  },
+  {
+    "id": "q_ppa_09",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'La reine est (venir) ___ avec sa cour.' (王妃は宮廷を引き連れてやって来た)",
+    "options": [
+      "venue",
+      "venu",
+      "venues",
+      "venus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "venue"
+    ],
+    "explanation": "助動詞 être の場合、過去分詞は主語（la reine, 女性単数）と一致して「venue」になります。"
+  },
+  {
+    "id": "q_ppa_10",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Les tartes ? Le pâtissier les a (cuire) ___ ce matin.' (タルトですか？ パティシエが今朝それらを焼きました)",
+    "options": [
+      "cuites",
+      "cuit",
+      "cuite",
+      "cuits"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "cuites"
+    ],
+    "explanation": "直接目的語代名詞「les」（les tartes, 女性複数）が先行するため「cuites」と一致します。"
+  },
+  {
+    "id": "q_ppa_11",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Combien de villes ont-ils (prendre) ___ ?' (彼らはいくつの都市を攻略したのか？)",
+    "options": [
+      "prises",
+      "pris",
+      "prise",
+      "prient"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "prises"
+    ],
+    "explanation": "疑問詞 Combien de villes（女性複数）が先行しているため「prises」と一致します。"
+  },
+  {
+    "id": "q_ppa_12",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Les troupes sont (partir) ___ à l'aube.' (部隊は夜明けに出発した)",
+    "options": [
+      "parties",
+      "parti",
+      "partie",
+      "partis"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "parties"
+    ],
+    "explanation": "主語 les troupes（女性複数）＋ 助動詞 être のため「parties」となります。"
+  },
+  {
+    "id": "q_ppa_13",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'Elle s'est (laver) ___ les mains.' (彼女は手を洗った)",
+    "options": [
+      "lavé",
+      "lavée",
+      "lavés",
+      "lavées"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "lavé"
+    ],
+    "explanation": "代名動詞で直接目的語が後続する（les mains）場合、過去分詞は一致せず不変（lavé）となります。"
+  },
+  {
+    "id": "q_ppa_14",
+    "tags": [
+      "#past_participle_agreement",
+      "#grammar",
+      "#B1"
+    ],
+    "type": "choice",
+    "text": "Accordez le participe passé : 'La bataille a (commencer) ___ à midi.' (戦いは正午に始まった)",
+    "options": [
+      "commencé",
+      "commencée",
+      "commencés",
+      "commencées"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "commencé"
+    ],
+    "explanation": "助動詞 avoir で目的語が先行していないため、過去分詞は不変の「commencé」です。"
+  },
+  {
+    "id": "q_comp_06",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez la comparaison : 'Ce vin est ___ que l'autre.' (このワインはもう一方のものより優れている[美味しい])",
+    "options": [
+      "meilleur",
+      "plus bon",
+      "mieux",
+      "plus bien"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "meilleur"
+    ],
+    "explanation": "bon（良い・美味しい）の優等比較級は不規則で「meilleur」となります（plus bon は不可）。"
+  },
+  {
+    "id": "q_comp_07",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Le roi d'Angleterre est ___ puissant que le duc.' (イングランド王は公爵よりも強大である)",
+    "options": [
+      "plus",
+      "très",
+      "mieux",
+      "bien"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "形容詞の優等比較級は「plus + 形容詞 + que」です。"
+  },
+  {
+    "id": "q_comp_08",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Cette épée est ___ lourde que celle-ci.' (この剣はあれほど重くはない[同等または劣等])",
+    "options": [
+      "moins",
+      "mieux",
+      "pire",
+      "petit"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "moins"
+    ],
+    "explanation": "劣等比較級は「moins + 形容詞 + que」です。"
+  },
+  {
+    "id": "q_comp_09",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Il cuisine ___ que son frère.' (彼は兄より上手に料理する)",
+    "options": [
+      "mieux",
+      "meilleur",
+      "plus bien",
+      "plus bon"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "mieux"
+    ],
+    "explanation": "副詞 bien（上手に・良く）の比較級は不規則で「mieux」となります。"
+  },
+  {
+    "id": "q_comp_10",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez l'égalité : 'Jeanne est ___ courageuse que les chevaliers.' (ジャンヌは騎士たちと同じくらい勇敢だ)",
+    "options": [
+      "aussi",
+      "autant",
+      "égal",
+      "plus"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "aussi"
+    ],
+    "explanation": "形容詞・副詞の同等比較級は「aussi + 形容詞 + que」です（名詞なら autant de）。"
+  },
+  {
+    "id": "q_comp_11",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez la quantité : 'Nous avons ___ de flèches que l'ennemi.' (私たちは敵と同じだけの矢を持っている)",
+    "options": [
+      "autant",
+      "aussi",
+      "plus",
+      "moins"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "autant"
+    ],
+    "explanation": "名詞の数量の同等比較は「autant de + 名詞 + que」です。"
+  },
+  {
+    "id": "q_comp_12",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'La situation est ___ que la semaine dernière.' (状況は先週よりも悪い)",
+    "options": [
+      "pire",
+      "plus mauvais",
+      "plus mal",
+      "mieux"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pire"
+    ],
+    "explanation": "mauvais（悪い）の比較級は「pire」（または plus mauvais）です。"
+  },
+  {
+    "id": "q_comp_13",
+    "tags": [
+      "#comparative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Cette sauce est ___ parfumée que la précédente.' (このソースは前のものより香り豊かだ)",
+    "options": [
+      "plus",
+      "mieux",
+      "très",
+      "beaucoup"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "形容詞 parfumée の比較級は「plus parfumée que」です。"
+  },
+  {
+    "id": "q_super_06",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Louis IX était le roi le ___ juste de son époque.' (ルイ9世は当時最も公正な王であった)",
+    "options": [
+      "plus",
+      "très",
+      "mieux",
+      "meilleur"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "最上級の構造は「le/la/les plus + 形容詞」です（le plus juste）。"
+  },
+  {
+    "id": "q_super_07",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'C'est la ___ soupe de tout le royaume !' (これは王国中で一番美味しいスープだ！)",
+    "options": [
+      "meilleure",
+      "plus bonne",
+      "mieux",
+      "plus bien"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "meilleure"
+    ],
+    "explanation": "bon の女性最上級は「la meilleure」です（plus bonne は不可）。"
+  },
+  {
+    "id": "q_super_08",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Ce sont les guerriers les ___ braves.' (彼らは最も勇敢な戦士たちだ)",
+    "options": [
+      "plus",
+      "mieux",
+      "meilleurs",
+      "très"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "複数の最上級は「les plus + 形容詞」です。"
+  },
+  {
+    "id": "q_super_09",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'C'est le chevalier qui combat le ___.' (彼が最も巧みに戦う騎士だ)",
+    "options": [
+      "mieux",
+      "meilleur",
+      "plus bon",
+      "plus bien"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "mieux"
+    ],
+    "explanation": "動詞を修飾する副詞 bien の最上級は「le mieux」です。"
+  },
+  {
+    "id": "q_super_10",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'La forteresse la ___ difficile à prendre était imprenable.' (最も攻略が困難な要塞は難攻不落だった)",
+    "options": [
+      "plus",
+      "très",
+      "mieux",
+      "beaucoup"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "女性名詞の最上級「la plus difficile」です。"
+  },
+  {
+    "id": "q_super_11",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'C'est le chemin le ___ court pour aller à Orléans.' (これがオルレアンへ行く一番近い道です)",
+    "options": [
+      "plus",
+      "mieux",
+      "meilleur",
+      "très"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "最上級「le plus court（最短の）」です。"
+  },
+  {
+    "id": "q_super_12",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'C'est la ___ décision possible.' (それは可能な中で最悪の決断だ)",
+    "options": [
+      "pire",
+      "plus mauvaise",
+      "plus pire",
+      "moins bonne"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "pire"
+    ],
+    "explanation": "mauvais の最上級「la pire（最悪の）」です。"
+  },
+  {
+    "id": "q_super_13",
+    "tags": [
+      "#superlative",
+      "#grammar",
+      "#A2"
+    ],
+    "type": "choice",
+    "text": "Complétez : 'Ce restaurant sert les plats les ___ raffinés.' (このレストランは最も洗練された料理を出す)",
+    "options": [
+      "plus",
+      "mieux",
+      "meilleurs",
+      "très"
+    ],
+    "answerIndex": 0,
+    "acceptedAnswers": [
+      "plus"
+    ],
+    "explanation": "最上級「les plus raffinés」です。"
+  }
+]
